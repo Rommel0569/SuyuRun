@@ -43,7 +43,7 @@ namespace SuyuRun.Editor
                 report.AppendLine($"  {section.nombre,-10} [{section.inicio,6:F1}s .. {section.fin,6:F1}s) energia={section.energia} uso={section.uso}");
             report.AppendLine($"energia: paso_s={map.energia?.paso_s} muestras={map.energia?.valores?.Length ?? 0}");
             report.AppendLine($"graves:  paso_s={map.graves?.paso_s} muestras={map.graves?.valores?.Length ?? 0}");
-            // Spot-check a few timestamps so a human can compare these against the raw JSON by eye.
+            // Spot-check a few timestamps so a human/Astra can compare these against the raw JSON by eye.
             report.AppendLine("Muestras de verificacion (segundo -> energia, graves, seccion):");
             foreach (float t in new[] { 0f, 16f, 48f, 96f, 130f, 152f, 172f, 180f })
             {

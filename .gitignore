@@ -116,8 +116,8 @@ InitTestScene*.unity*
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
 
-# Historical full-project backup snapshots and handoff notes (not the source of truth)
-/Handoff_*/
+# Historical full-project backup snapshots (not the source of truth)
+/Handoff_Claude/Proyecto_*/
 
 # Python cache from Tools/ scripts
 __pycache__/

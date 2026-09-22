@@ -111,7 +111,7 @@ Empieza YA con COSTA, capa 1 (cielo). Confirma que guardaste esta biblia.
 
 ## 13. PARALLAX Y RENDER EN UNITY
 
-Una capa = un PNG (nunca recortes una imagen en franjas). Script ParallaxLayer con factor por capa (0, 0.05, 0.15, 0.30, 0.50, 0.75, 1.0, 1.3), dos copias que se reciclan para repetición infinita. Sprites en Filter Mode Point, Compression None, mismo PPU, Pixel Perfect Camera 320x180. Animator con estados idle, run, jump, land, slide, burst, hit, sin interpolación. Reemplaza paneles translúcidos por sprites 9-slice y fuente pixel. Si no hay PNG generado todavía en /Assets, genéralos con Python (Pillow) píxel por píxel con la paleta fija de 24 colores.
+Una capa = un PNG (nunca recortes una imagen en franjas). Script ParallaxLayer con factor por capa (0, 0.05, 0.15, 0.30, 0.50, 0.75, 1.0, 1.3), dos copias que se reciclan para repetición infinita. Sprites en Filter Mode Point, Compression None, mismo PPU, Pixel Perfect Camera 320x180. Animator con estados idle, run, jump, land, slide, burst, hit, sin interpolación. Reemplaza paneles translúcidos por sprites 9-slice y fuente pixel. Si no hay PNG de Astra en /Assets, genéralos con Python (Pillow) píxel por píxel con la paleta fija de 24 colores.
 
 ## 14. RITMO TIPO GEOMETRY DASH (mapa fijo, NO análisis en vivo)
 

@@ -23,8 +23,8 @@ namespace SuyuRun
             // overlapping and reading as clutter instead of the single clean skyline in the reference.
             // ART_BIBLE.md mid-ground scene bands (Paracas/Candelabro, huacas, algarrobos/rocas/
             // lobos), brought into the real playable level per the user's request. Unlike the
-            // panorama sky (a single unrepeatable perspective illustration, see phase 1), these were
-            // validated as seamless left=right, so tiling them continuously (period equal to
+            // panorama sky (a single unrepeatable perspective illustration, see phase 1), Astra
+            // validated these as seamless left=right, so tiling them continuously (period equal to
             // their own width, no gaps) is exactly what they were designed for.
             // depthScale/depthAlpha shrink and soften each band (furthest = most), an atmospheric-
             // perspective cue so the water's edge doesn't read as flat/"dry" cutouts. Each of these
@@ -69,7 +69,7 @@ namespace SuyuRun
             // tile and wrapping over a band twice that width, always have one of them covering the
             // seam - the same "conveyor belt" technique already used for the sea/sky/ground tiling
             // elsewhere, just expressed through this game's own Layer() system instead of a
-            // dedicated component. The validated seamless edges are what make this look
+            // dedicated component. Astra's validated seamless edges are what make this look
             // continuous rather than like two visibly repeated copies.
             for(int i=0;i<2;i++)
             {

@@ -1,0 +1,41 @@
+Ingenieria de audio/ritmo para Sierra y Selva - listo para que Astra construya los RunnerCourse.
+No se genero ningun RunnerCourse ni contenido de nivel; solo la base de musica/ritmo, per pedido
+del usuario ("solo deja ahi lo que astra necesite").
+
+CLIPS REALES (medidos en Unity, no estimados):
+- Sierra: Assets/SuyuRun/Audio/sierra.mp3, duracion real 177.5543s.
+  OJO: el MIDI (Assets/sierra.midi) declara 171.0s - es 6.5s mas corto que el audio real.
+  Se uso la duracion real del mp3 en todo lo de abajo.
+- Selva: Assets/SuyuRun/Audio/selva.mp3, duracion real 180.5322s.
+
+RunnerSoundtrack listos para usar en un RunnerCourse.soundtrack (mismo patron que
+AlcatrazSoundtrack.asset de Costa):
+- Assets/SuyuRun/Data/Resources/SierraSoundtrack.asset: bpm=109.95, 325 pulsos medidos del audio
+  real (no del tempo declarado en el MIDI, que es un default de la herramienta de transcripcion -
+  ver docstring de Tools/analyze_costa_midi.py).
+- Assets/SuyuRun/Data/Resources/SelvaSoundtrack.asset: bpm=114.85, 345 pulsos medidos.
+- Ambos con clip asignado, beatTimes[] poblado, ValidateForDuration() paso sin error.
+- Pendiente (igual que Costa): revision auditiva de los pulsos, no se valido de oido.
+
+Hits clasificados (ground/air) para usar como base de encounters, mismo formato y mismo proceso
+que costa_rhythm.json + ApplyMidiRhythm.cs:
+- Artifacts/Audio/sierra_rhythm.json: 174 hits (58 ground, 116 air), regenerado con la duracion
+  real corregida.
+- Artifacts/Audio/selva_rhythm.json: 260 hits (88 ground, 172 air).
+- Estos son intensidad-clasificados, no nota-por-nota literal (los MIDI son transcripciones
+  automaticas densas sin separacion limpia de bateria/bajo - mismo caveat que Costa).
+- Tools/analyze_costa_midi.py ahora tiene las 3 canciones (costa/sierra/selva) con su duracion
+  real; correrlo de nuevo regenera los 3 rhythm.json si hace falta retocar el filtro.
+
+Para armar el RunnerCourse real (Astra):
+1. Crear el RunnerCourse.asset (region, speed, duration = duracion real del clip, soundtrack =
+   Sierra/SelvaSoundtrack.asset).
+2. Disenar platforms/gaps/orbs/jumpPads a mano (o adaptando VerticalPrototype como hizo Costa).
+3. Escribir un ApplySierraMidiRhythm.cs / ApplySelvaMidiRhythm.cs (copiar ApplyMidiRhythm.cs,
+   cambiar las rutas) para convertir sierra_rhythm.json/selva_rhythm.json en course.encounters,
+   una vez que el course ya tenga sus gaps definidos (el script salta encounters que caen dentro
+   de un hueco).
+4. Marcar notas dudosas y validar de oido antes de dar el ritmo por definitivo - no hecho todavia
+   para ninguna de las 3 canciones.
+
+No tocado: CostaAlcatraz.asset, AlcatrazSoundtrack.asset, ni ningun asset ya aprobado de Costa.

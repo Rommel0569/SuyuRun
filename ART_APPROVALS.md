@@ -2,9 +2,9 @@
 
 Dirección vigente: `ART_BIBLE.md`. El cambio de estilo NO convierte el arte previo en pixel art aprobado.
 
-## Sierra y Selva — se paran acá, las capas de escena se producen aparte
+## Sierra y Selva — se paran acá, las capas de escena las hace Astra
 
-El usuario decidió parar la producción de capas de Sierra/Selva de este lado: las capa 3 (cerros) y capa 4/Acto 1 (camino) que se habían generado quedaron eliminadas. Lo único que queda de esta entrega:
+El usuario decidió parar la producción de capas de Sierra/Selva de este lado («eso hare que haga el astra porque tu no sabes»): las capa 3 (cerros) y capa 4/Acto 1 (camino) que se habían generado quedaron eliminadas. Lo único que queda de esta entrega:
 - Paleta de Sierra aprobada (`sierra_palette.json`) + capas 1 (cielo) y 2 (nevados), ya aprobadas antes de la decisión de parar.
 - Paleta de Selva propuesta (`selva_palette.json`, `Assets/SuyuRun/Art/PixelSelva/`), 24 colores según sección 8 de la biblia (verdes profundos, verde lima, marrón río, turquesa, naranja, rojo guacamayo), más azul noche y dorado para el templo final. Pendiente de aprobación del usuario.
 - No se genera más arte de capas de Sierra/Selva de este lado hasta nueva indicación.
@@ -139,7 +139,7 @@ El MIDI aportado se conserva como fuente; todavía no se analizó, por lo que no
 
 - Resuelta la ambigüedad de los brazos (ver sección de ambigüedades resueltas): nunca hay brazos en ninguna animación de Costa.
 - `Assets/SuyuRun/Art/PixelCosta/costa_heroe.png`, hoja RGBA 384x336, 48x48 nativo por fotograma (sin escalado incluido en el PNG; el x4 es solo la vista de revisión, igual que las capas de fondo). Filas: idle (4), run (8), jump (3), land (2), slide (3), ráfaga (4), daño (2) — 26 fotogramas en total.
-- Ráfaga: en vez de una animación de brazo/arma (no tiene brazos), es un aro de destellos alrededor de la cabeza que crece de intensidad, coherente con el «aro de energía» ya descrito para Suyu en la dirección de arte.
+- Ráfaga: en vez de una animación de brazo/arma (no tiene brazos), es un aro de destellos alrededor de la cabeza que crece de intensidad, coherente con el «aro de energía» ya descrito para Suyu en `ASTRA_BUILD_BRIEF.md`.
 - Primera generación tuvo dos errores que se corrigieron antes de mostrarla: la vista previa se guardaba con fondo negro en vez de transparente (nada más que un bug de la previsualización, no del sprite), y los dos fotogramas de "daño" mezclaban colores fuera de la paleta con un blend suave que rompía la regla de alfa binario/sin degradados. Se corrigió con un remapeo fijo paleta-a-paleta (cada tono salta a un tono de la misma paleta) en vez de mezclar colores.
 - Validación en `costa_heroe_validation.json`: cada píxel opaco pertenece a la paleta de 24 colores o es completamente transparente (alfa binario estricto), hashes de las 7 capas y las plataformas sin cambios.
 - Es solo arte: el controlador, el estado de animación y el collider se conectan aparte en Unity, no en esta entrega.
@@ -171,7 +171,7 @@ El MIDI aportado se conserva como fuente; todavía no se analizó, por lo que no
 
 ## Integración en Unity — hecha en Prototype_Costa.unity, no en Level_Costa.unity
 
-Por seguridad se armó en `Prototype_Costa.unity` (antes casi vacía, solo tenía un escenario "SuyuRun Prototype" heredado que se desactivó, no se borró) en vez de en `Level_Costa.unity`, que sigue siendo el nivel activo/probado del rediseño vectorial anterior (fases 1-6, ya con su propio commit). Nada de esto reemplaza ese trabajo todavía; es la base para decidir después cómo se reconcilian ambos.
+Por seguridad se armó en `Prototype_Costa.unity` (antes casi vacía, solo tenía un escenario "SuyuRun Prototype" heredado que se desactivó, no se borró) en vez de en `Level_Costa.unity`, que sigue siendo el nivel activo/probado del rediseño vectorial anterior de Claude (fases 1-6, ya con su propio commit). Nada de esto reemplaza ese trabajo todavía; es la base para decidir después cómo se reconcilian ambos.
 
 - Paquete `com.unity.2d.pixel-perfect` instalado. Pixel Perfect Camera a 320x180, PPU 32, sin recorte de fotograma.
 - `PixelCostaImport.cs` (Editor): postprocesador que aplica el contrato de importación de la biblia (Point, sin compresión, sin mipmaps, PPU 32, pivote esquina superior izquierda) a todo `Art/PixelCosta/`, y recorta en sprites individuales las hojas de múltiples fotogramas (mar, héroe, obstáculos, coleccionables, efectos, plataformas) con los rectángulos exactos que generaron los scripts de Python.

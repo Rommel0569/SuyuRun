@@ -1,6 +1,6 @@
 # SuyuRun
 
-Runner rítmico 2D para Unity 6.3 LTS (`6000.3.17f1`). Estado actual: Costa con recorrido vertical, fondo ilustrado y El Alcatraz aportada por el usuario.
+Runner rítmico 2D para Unity 6.3 LTS (`6000.3.17f1`). Estado actual: Costa con recorrido vertical, fondo ilustrado y El Alcatraz aportada por el usuario; el alcance final está en `ASTRA_BUILD_BRIEF.md`.
 
 ## Ejecutar en Unity
 
@@ -57,4 +57,4 @@ El bailarín pequeño del fondo usa el mismo reloj que la música y se detiene a
 
 ## Pendientes
 
-Consultar `ART_APPROVALS.md`. El museo, investigación cultural, tres niveles finales, personajes alternativos y banda sonora final todavía no se consideran entregados.
+Consultar `PROGRESS.md`. El museo, investigación cultural, tres niveles finales, personajes alternativos y banda sonora final todavía no se consideran entregados.

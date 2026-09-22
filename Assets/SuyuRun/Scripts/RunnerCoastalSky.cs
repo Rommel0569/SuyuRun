@@ -5,7 +5,7 @@ namespace SuyuRun
     public sealed partial class RunnerPrototype
     {
         // Replaces the old vector pelican flocks and this project's own Phase 5 pixel clouds with
-        // the approved ART_BIBLE.md capa 2 (costa_capa2_nubes.png + costa_capa2_aves.png),
+        // Astra's approved ART_BIBLE.md capa 2 (costa_capa2_nubes.png + costa_capa2_aves.png),
         // per the user's explicit request to use all the bible's pixel art and animations,
         // including the birds. Reuses PixelCostaSkyLayer as-is (already built and approved for
         // this exact job) rather than re-deriving its cloud/flock logic.

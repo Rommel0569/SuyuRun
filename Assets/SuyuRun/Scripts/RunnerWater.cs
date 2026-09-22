@@ -24,7 +24,7 @@ namespace SuyuRun
         Transform seaRoot;
         CostaMusicMap musicMap;
         float tide, tideVelocity;
-        // Sampled while running, for the smoke-test report - lets the user confirm the tide
+        // Sampled while running, for the smoke-test report - lets Astra/the user confirm the tide
         // actually moved and tracked the music map instead of staying flat or failing silently.
         float smokeTideMin = float.MaxValue, smokeTideMax = float.MinValue, smokeEnergyMax;
         float waterTime;

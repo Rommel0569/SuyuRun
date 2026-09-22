@@ -1,7 +1,6 @@
 """Same onset/BPM analysis as analyze_rhythm.py (which is hardcoded to Alcatraz), generalized
-for sierra.mp3 and selva.mp3 - this produces the "ingenieria de audio" piece needed for the
-level courses: a real, measured beat grid (not the MIDI's own declared tempo, which is a
-transcription-tool default,
+for sierra.mp3 and selva.mp3 - this is the "ingenieria de audio" piece Astra needs: a real,
+measured beat grid (not the MIDI's own declared tempo, which is a transcription-tool default,
 see analyze_costa_midi.py's docstring) to drive RunnerSoundtrack.beatTimes for each level.
 Estimates require listening review before trusting them for choreography.
 """

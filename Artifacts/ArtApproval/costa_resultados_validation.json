@@ -1,0 +1,43 @@
+{
+  "resultados_size": [
+    220,
+    140
+  ],
+  "logro_size": [
+    192,
+    48
+  ],
+  "logro_frames": 4,
+  "text_note": "panel has blank zones; real numbers/labels render with the pixel font as a Unity font asset, not baked into this PNG",
+  "previous_assets_unchanged": {
+    "costa_capa1_cielo.png": "3be12a94cb42f6959ff2f46c92432329e8033124896820bc8ac654a7b668acc6",
+    "costa_capa1_cielo.png.meta": "1400096830fec17b910038174fe3dd14adef86a6af6d870d773463bae0a39c53",
+    "costa_capa2_aves.png": "feff4fadbda7b2ee08680f3ee112ad42f0cbeb0d7be52655271aa36b01a83270",
+    "costa_capa2_aves.png.meta": "99e9fe87aa29fa6481a55221fabb660d2d4333cdcd2bba05b64e077d9ee305d9",
+    "costa_capa2_nubes.png": "ce19e2bd81c349a10c3b797feb220308164c5ba0ddf57d97fa0fe9b6a1442117",
+    "costa_capa2_nubes.png.meta": "306d745392e4f0f028b7f853695cae2b7e88bf540fe87f9019f94b842c28127e",
+    "costa_capa3_paracas.png": "d821a698103006baf1952d689fa44140970c344bdcf713a394653e4d47182b9c",
+    "costa_capa3_paracas.png.meta": "a50a81cf8d075af21f9378a46fd8c725213e0ceff3da13a19a483025af516050",
+    "costa_capa4_mar.png": "f81b28b42c4c8845641b4b8ea0940dee82d38cbecbc0db184d86c060e34c87cb",
+    "costa_capa4_mar.png.meta": "7ef1c9f4053ae68f18028bbdc1a47ed8f29477882b0be96f04fc39eef534a1f6",
+    "costa_capa5_huacas.png": "6ea17ffde35bd69db617ba5415961e417833be12e7248f56755931b4c8300ff9",
+    "costa_capa5_huacas.png.meta": "ab80c31c579da122656bda4f7a835ab9afdafa67844cc6962946e0ff96928d45",
+    "costa_capa6_algarrobos.png": "d3c6ef5034cc1fa21adffc6db554d6f40e258f346e41814fced5d159b65d1502",
+    "costa_capa6_algarrobos.png.meta": "b6a512b0a9b14bce04163d8785fa5c829198508a13c4f58ec2f43b6f6fb8b99e",
+    "costa_capa7_suelo.png": "dd61d5b0f94ea6cecb04dc5c0a4dfbf85064bad7bcc3881a6f6d6a5529d413d2",
+    "costa_capa7_suelo.png.meta": "3b873190a2933fb6be5f02c0c228f51811b85a601569d4349d9d1ee359a65ead",
+    "costa_coleccionables.png": "31791b37fe09a4590044ee5473237aeb8304576698810ce6b200e7895dd25d24",
+    "costa_coleccionables.png.meta": "afd4540e7cbd8129be347077d02b8de44c0d1710c7d625dd4fc56b312a402715",
+    "costa_efectos.png": "d0d867e3301c62a30eaedcdfec6fc64a8832ce2def0d99f3d339e9e35c042dc9",
+    "costa_efectos.png.meta": "434bcb9d09c3db7172d831ba7e046f86b6fe43b38fe24216b4f5a39885256bb1",
+    "costa_heroe.png": "d866293011c2e8ec62db30581d7ad6fc0a42a76021324e84bd54b9d11e9c3b0c",
+    "costa_heroe.png.meta": "96c3e9b33a01486698a592639c870615538da7f45b2fa265aa0700b05d42ef8a",
+    "costa_obstaculos.png": "306c3f093487da784e37b647e74f144c9ae911d727ff4e83c55637e46f337c80",
+    "costa_obstaculos.png.meta": "b7da4e15f18c45d1258a207288a4abe1b410e52e8b3a984ab360533554a33e5c",
+    "costa_palette.json": "c4561e3bf67b020cac28801a2f16f569af8525f37c3313bd160d56d11c2adc3c",
+    "costa_plataformas.png": "d500b7ff42b18502e3432f8b29a0242d706757d9374ae4d69f3f4a88ffb44b7d",
+    "costa_plataformas.png.meta": "0b3303ca948960550b0cdc501b7cbba7045b946e3bdd36d5a0a830901276fcfc"
+  },
+  "purpose": "results screen art + achievement animation only; scoring, button logic and Sierra unlock wired separately in Unity",
+  "status": "pending_user_approval"
+}

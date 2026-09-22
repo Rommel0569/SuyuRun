@@ -1,0 +1,1306 @@
+{
+  "source": "selva.midi",
+  "duration": 180.5322,
+  "hits": [
+    {
+      "t": 2.04,
+      "weight": 1219.0,
+      "kind": "air"
+    },
+    {
+      "t": 2.52,
+      "weight": 1053.0,
+      "kind": "air"
+    },
+    {
+      "t": 2.88,
+      "weight": 1476.0,
+      "kind": "ground"
+    },
+    {
+      "t": 3.6,
+      "weight": 1171.0,
+      "kind": "air"
+    },
+    {
+      "t": 3.96,
+      "weight": 1400.0,
+      "kind": "ground"
+    },
+    {
+      "t": 5.28,
+      "weight": 1375.0,
+      "kind": "ground"
+    },
+    {
+      "t": 6.36,
+      "weight": 1100.0,
+      "kind": "air"
+    },
+    {
+      "t": 6.72,
+      "weight": 1064.0,
+      "kind": "air"
+    },
+    {
+      "t": 7.08,
+      "weight": 1173.0,
+      "kind": "air"
+    },
+    {
+      "t": 7.44,
+      "weight": 1486.0,
+      "kind": "ground"
+    },
+    {
+      "t": 7.8,
+      "weight": 1262.0,
+      "kind": "air"
+    },
+    {
+      "t": 8.16,
+      "weight": 1236.0,
+      "kind": "air"
+    },
+    {
+      "t": 8.52,
+      "weight": 1380.0,
+      "kind": "ground"
+    },
+    {
+      "t": 9.24,
+      "weight": 1630.0,
+      "kind": "ground"
+    },
+    {
+      "t": 9.72,
+      "weight": 1125.0,
+      "kind": "air"
+    },
+    {
+      "t": 10.32,
+      "weight": 1350.0,
+      "kind": "ground"
+    },
+    {
+      "t": 11.4,
+      "weight": 1441.0,
+      "kind": "ground"
+    },
+    {
+      "t": 12.36,
+      "weight": 1207.0,
+      "kind": "air"
+    },
+    {
+      "t": 12.72,
+      "weight": 1005.0,
+      "kind": "air"
+    },
+    {
+      "t": 13.08,
+      "weight": 1350.0,
+      "kind": "ground"
+    },
+    {
+      "t": 13.44,
+      "weight": 1371.0,
+      "kind": "ground"
+    },
+    {
+      "t": 14.52,
+      "weight": 1505.0,
+      "kind": "ground"
+    },
+    {
+      "t": 15.6,
+      "weight": 1559.0,
+      "kind": "ground"
+    },
+    {
+      "t": 16.44,
+      "weight": 1001.0,
+      "kind": "air"
+    },
+    {
+      "t": 17.64,
+      "weight": 1079.0,
+      "kind": "air"
+    },
+    {
+      "t": 18.0,
+      "weight": 1416.0,
+      "kind": "ground"
+    },
+    {
+      "t": 18.36,
+      "weight": 1151.0,
+      "kind": "air"
+    },
+    {
+      "t": 18.72,
+      "weight": 1432.0,
+      "kind": "ground"
+    },
+    {
+      "t": 19.08,
+      "weight": 1199.0,
+      "kind": "air"
+    },
+    {
+      "t": 19.44,
+      "weight": 1049.0,
+      "kind": "air"
+    },
+    {
+      "t": 19.8,
+      "weight": 1628.0,
+      "kind": "ground"
+    },
+    {
+      "t": 20.88,
+      "weight": 1509.0,
+      "kind": "ground"
+    },
+    {
+      "t": 21.84,
+      "weight": 1210.0,
+      "kind": "air"
+    },
+    {
+      "t": 22.2,
+      "weight": 1113.0,
+      "kind": "air"
+    },
+    {
+      "t": 23.64,
+      "weight": 1147.0,
+      "kind": "air"
+    },
+    {
+      "t": 24.0,
+      "weight": 1647.0,
+      "kind": "ground"
+    },
+    {
+      "t": 24.72,
+      "weight": 1073.0,
+      "kind": "air"
+    },
+    {
+      "t": 25.08,
+      "weight": 1613.0,
+      "kind": "ground"
+    },
+    {
+      "t": 25.8,
+      "weight": 1001.0,
+      "kind": "air"
+    },
+    {
+      "t": 26.16,
+      "weight": 1015.0,
+      "kind": "air"
+    },
+    {
+      "t": 27.0,
+      "weight": 1055.0,
+      "kind": "air"
+    },
+    {
+      "t": 27.48,
+      "weight": 1140.0,
+      "kind": "air"
+    },
+    {
+      "t": 27.84,
+      "weight": 1034.0,
+      "kind": "air"
+    },
+    {
+      "t": 28.2,
+      "weight": 1452.0,
+      "kind": "ground"
+    },
+    {
+      "t": 28.92,
+      "weight": 1068.0,
+      "kind": "air"
+    },
+    {
+      "t": 29.28,
+      "weight": 1628.0,
+      "kind": "ground"
+    },
+    {
+      "t": 29.88,
+      "weight": 1045.0,
+      "kind": "air"
+    },
+    {
+      "t": 30.6,
+      "weight": 1083.0,
+      "kind": "air"
+    },
+    {
+      "t": 31.32,
+      "weight": 1390.0,
+      "kind": "ground"
+    },
+    {
+      "t": 32.64,
+      "weight": 1153.0,
+      "kind": "air"
+    },
+    {
+      "t": 33.0,
+      "weight": 1121.0,
+      "kind": "air"
+    },
+    {
+      "t": 33.36,
+      "weight": 1485.0,
+      "kind": "ground"
+    },
+    {
+      "t": 33.72,
+      "weight": 1092.0,
+      "kind": "air"
+    },
+    {
+      "t": 34.08,
+      "weight": 1264.0,
+      "kind": "air"
+    },
+    {
+      "t": 34.44,
+      "weight": 1349.0,
+      "kind": "ground"
+    },
+    {
+      "t": 35.16,
+      "weight": 1020.0,
+      "kind": "air"
+    },
+    {
+      "t": 35.52,
+      "weight": 1201.0,
+      "kind": "air"
+    },
+    {
+      "t": 36.12,
+      "weight": 1002.0,
+      "kind": "air"
+    },
+    {
+      "t": 36.48,
+      "weight": 1198.0,
+      "kind": "air"
+    },
+    {
+      "t": 37.56,
+      "weight": 1312.0,
+      "kind": "ground"
+    },
+    {
+      "t": 38.52,
+      "weight": 1121.0,
+      "kind": "air"
+    },
+    {
+      "t": 38.88,
+      "weight": 1203.0,
+      "kind": "air"
+    },
+    {
+      "t": 39.24,
+      "weight": 1058.0,
+      "kind": "air"
+    },
+    {
+      "t": 39.6,
+      "weight": 1294.0,
+      "kind": "ground"
+    },
+    {
+      "t": 41.28,
+      "weight": 1059.0,
+      "kind": "air"
+    },
+    {
+      "t": 41.64,
+      "weight": 1110.0,
+      "kind": "air"
+    },
+    {
+      "t": 42.0,
+      "weight": 1283.0,
+      "kind": "ground"
+    },
+    {
+      "t": 42.72,
+      "weight": 1457.0,
+      "kind": "ground"
+    },
+    {
+      "t": 43.8,
+      "weight": 1203.0,
+      "kind": "air"
+    },
+    {
+      "t": 44.4,
+      "weight": 1068.0,
+      "kind": "air"
+    },
+    {
+      "t": 44.76,
+      "weight": 1275.0,
+      "kind": "ground"
+    },
+    {
+      "t": 45.84,
+      "weight": 1558.0,
+      "kind": "ground"
+    },
+    {
+      "t": 46.2,
+      "weight": 1135.0,
+      "kind": "air"
+    },
+    {
+      "t": 46.56,
+      "weight": 1210.0,
+      "kind": "air"
+    },
+    {
+      "t": 46.92,
+      "weight": 1427.0,
+      "kind": "ground"
+    },
+    {
+      "t": 47.64,
+      "weight": 1407.0,
+      "kind": "ground"
+    },
+    {
+      "t": 48.0,
+      "weight": 1572.0,
+      "kind": "ground"
+    },
+    {
+      "t": 48.72,
+      "weight": 1216.0,
+      "kind": "air"
+    },
+    {
+      "t": 49.08,
+      "weight": 1037.0,
+      "kind": "air"
+    },
+    {
+      "t": 49.68,
+      "weight": 1189.0,
+      "kind": "air"
+    },
+    {
+      "t": 50.16,
+      "weight": 1116.0,
+      "kind": "air"
+    },
+    {
+      "t": 50.76,
+      "weight": 1399.0,
+      "kind": "ground"
+    },
+    {
+      "t": 51.12,
+      "weight": 1249.0,
+      "kind": "air"
+    },
+    {
+      "t": 52.44,
+      "weight": 1261.0,
+      "kind": "air"
+    },
+    {
+      "t": 52.92,
+      "weight": 1072.0,
+      "kind": "air"
+    },
+    {
+      "t": 53.52,
+      "weight": 1395.0,
+      "kind": "ground"
+    },
+    {
+      "t": 54.24,
+      "weight": 1253.0,
+      "kind": "air"
+    },
+    {
+      "t": 54.96,
+      "weight": 1065.0,
+      "kind": "air"
+    },
+    {
+      "t": 55.32,
+      "weight": 1526.0,
+      "kind": "ground"
+    },
+    {
+      "t": 55.8,
+      "weight": 1491.0,
+      "kind": "ground"
+    },
+    {
+      "t": 56.16,
+      "weight": 1209.0,
+      "kind": "air"
+    },
+    {
+      "t": 57.0,
+      "weight": 1020.0,
+      "kind": "air"
+    },
+    {
+      "t": 57.36,
+      "weight": 1451.0,
+      "kind": "ground"
+    },
+    {
+      "t": 58.08,
+      "weight": 1312.0,
+      "kind": "ground"
+    },
+    {
+      "t": 58.44,
+      "weight": 1370.0,
+      "kind": "ground"
+    },
+    {
+      "t": 59.4,
+      "weight": 1127.0,
+      "kind": "air"
+    },
+    {
+      "t": 60.48,
+      "weight": 1574.0,
+      "kind": "ground"
+    },
+    {
+      "t": 61.32,
+      "weight": 1268.0,
+      "kind": "air"
+    },
+    {
+      "t": 61.8,
+      "weight": 1055.0,
+      "kind": "air"
+    },
+    {
+      "t": 62.64,
+      "weight": 1022.0,
+      "kind": "air"
+    },
+    {
+      "t": 63.6,
+      "weight": 1288.0,
+      "kind": "ground"
+    },
+    {
+      "t": 63.96,
+      "weight": 1076.0,
+      "kind": "air"
+    },
+    {
+      "t": 64.68,
+      "weight": 1585.0,
+      "kind": "ground"
+    },
+    {
+      "t": 65.76,
+      "weight": 1164.0,
+      "kind": "air"
+    },
+    {
+      "t": 66.48,
+      "weight": 1049.0,
+      "kind": "air"
+    },
+    {
+      "t": 66.84,
+      "weight": 1045.0,
+      "kind": "air"
+    },
+    {
+      "t": 67.44,
+      "weight": 1083.0,
+      "kind": "air"
+    },
+    {
+      "t": 67.8,
+      "weight": 1684.0,
+      "kind": "ground"
+    },
+    {
+      "t": 68.88,
+      "weight": 1275.0,
+      "kind": "ground"
+    },
+    {
+      "t": 69.72,
+      "weight": 1143.0,
+      "kind": "air"
+    },
+    {
+      "t": 70.2,
+      "weight": 1125.0,
+      "kind": "air"
+    },
+    {
+      "t": 72.0,
+      "weight": 1752.0,
+      "kind": "ground"
+    },
+    {
+      "t": 72.72,
+      "weight": 1092.0,
+      "kind": "air"
+    },
+    {
+      "t": 73.08,
+      "weight": 1117.0,
+      "kind": "air"
+    },
+    {
+      "t": 74.04,
+      "weight": 1099.0,
+      "kind": "air"
+    },
+    {
+      "t": 74.76,
+      "weight": 1192.0,
+      "kind": "air"
+    },
+    {
+      "t": 75.12,
+      "weight": 1453.0,
+      "kind": "ground"
+    },
+    {
+      "t": 75.72,
+      "weight": 1031.0,
+      "kind": "air"
+    },
+    {
+      "t": 76.08,
+      "weight": 1112.0,
+      "kind": "air"
+    },
+    {
+      "t": 76.8,
+      "weight": 1103.0,
+      "kind": "air"
+    },
+    {
+      "t": 77.16,
+      "weight": 1145.0,
+      "kind": "air"
+    },
+    {
+      "t": 78.0,
+      "weight": 1119.0,
+      "kind": "air"
+    },
+    {
+      "t": 78.48,
+      "weight": 1021.0,
+      "kind": "air"
+    },
+    {
+      "t": 79.2,
+      "weight": 1153.0,
+      "kind": "air"
+    },
+    {
+      "t": 80.28,
+      "weight": 1334.0,
+      "kind": "ground"
+    },
+    {
+      "t": 81.0,
+      "weight": 1186.0,
+      "kind": "air"
+    },
+    {
+      "t": 81.96,
+      "weight": 1318.0,
+      "kind": "ground"
+    },
+    {
+      "t": 82.32,
+      "weight": 1359.0,
+      "kind": "ground"
+    },
+    {
+      "t": 83.16,
+      "weight": 1189.0,
+      "kind": "air"
+    },
+    {
+      "t": 83.64,
+      "weight": 1152.0,
+      "kind": "air"
+    },
+    {
+      "t": 84.36,
+      "weight": 1171.0,
+      "kind": "air"
+    },
+    {
+      "t": 85.44,
+      "weight": 1152.0,
+      "kind": "air"
+    },
+    {
+      "t": 86.16,
+      "weight": 1063.0,
+      "kind": "air"
+    },
+    {
+      "t": 86.52,
+      "weight": 1275.0,
+      "kind": "ground"
+    },
+    {
+      "t": 88.56,
+      "weight": 1260.0,
+      "kind": "air"
+    },
+    {
+      "t": 88.92,
+      "weight": 1527.0,
+      "kind": "ground"
+    },
+    {
+      "t": 89.28,
+      "weight": 1195.0,
+      "kind": "air"
+    },
+    {
+      "t": 89.64,
+      "weight": 1269.0,
+      "kind": "air"
+    },
+    {
+      "t": 90.0,
+      "weight": 1185.0,
+      "kind": "air"
+    },
+    {
+      "t": 90.36,
+      "weight": 1323.0,
+      "kind": "ground"
+    },
+    {
+      "t": 90.72,
+      "weight": 1599.0,
+      "kind": "ground"
+    },
+    {
+      "t": 91.32,
+      "weight": 1071.0,
+      "kind": "air"
+    },
+    {
+      "t": 91.68,
+      "weight": 1307.0,
+      "kind": "ground"
+    },
+    {
+      "t": 92.04,
+      "weight": 1155.0,
+      "kind": "air"
+    },
+    {
+      "t": 92.76,
+      "weight": 1035.0,
+      "kind": "air"
+    },
+    {
+      "t": 93.48,
+      "weight": 1390.0,
+      "kind": "ground"
+    },
+    {
+      "t": 94.08,
+      "weight": 1334.0,
+      "kind": "ground"
+    },
+    {
+      "t": 94.44,
+      "weight": 1108.0,
+      "kind": "air"
+    },
+    {
+      "t": 94.8,
+      "weight": 1031.0,
+      "kind": "air"
+    },
+    {
+      "t": 95.16,
+      "weight": 1172.0,
+      "kind": "air"
+    },
+    {
+      "t": 95.52,
+      "weight": 1130.0,
+      "kind": "air"
+    },
+    {
+      "t": 96.24,
+      "weight": 1245.0,
+      "kind": "air"
+    },
+    {
+      "t": 96.6,
+      "weight": 1028.0,
+      "kind": "air"
+    },
+    {
+      "t": 97.08,
+      "weight": 1030.0,
+      "kind": "air"
+    },
+    {
+      "t": 97.8,
+      "weight": 1018.0,
+      "kind": "air"
+    },
+    {
+      "t": 98.16,
+      "weight": 1225.0,
+      "kind": "air"
+    },
+    {
+      "t": 98.52,
+      "weight": 1305.0,
+      "kind": "ground"
+    },
+    {
+      "t": 98.88,
+      "weight": 1370.0,
+      "kind": "ground"
+    },
+    {
+      "t": 99.24,
+      "weight": 1078.0,
+      "kind": "air"
+    },
+    {
+      "t": 99.96,
+      "weight": 1113.0,
+      "kind": "air"
+    },
+    {
+      "t": 101.28,
+      "weight": 1124.0,
+      "kind": "air"
+    },
+    {
+      "t": 101.64,
+      "weight": 1094.0,
+      "kind": "air"
+    },
+    {
+      "t": 102.0,
+      "weight": 1170.0,
+      "kind": "air"
+    },
+    {
+      "t": 104.04,
+      "weight": 1208.0,
+      "kind": "air"
+    },
+    {
+      "t": 104.76,
+      "weight": 994.0,
+      "kind": "air"
+    },
+    {
+      "t": 105.36,
+      "weight": 1280.0,
+      "kind": "ground"
+    },
+    {
+      "t": 106.08,
+      "weight": 1177.0,
+      "kind": "air"
+    },
+    {
+      "t": 107.16,
+      "weight": 1110.0,
+      "kind": "air"
+    },
+    {
+      "t": 107.76,
+      "weight": 1133.0,
+      "kind": "air"
+    },
+    {
+      "t": 109.2,
+      "weight": 1477.0,
+      "kind": "ground"
+    },
+    {
+      "t": 110.28,
+      "weight": 1107.0,
+      "kind": "air"
+    },
+    {
+      "t": 110.64,
+      "weight": 1080.0,
+      "kind": "air"
+    },
+    {
+      "t": 111.36,
+      "weight": 1031.0,
+      "kind": "air"
+    },
+    {
+      "t": 111.96,
+      "weight": 1130.0,
+      "kind": "air"
+    },
+    {
+      "t": 112.32,
+      "weight": 1187.0,
+      "kind": "air"
+    },
+    {
+      "t": 114.0,
+      "weight": 1307.0,
+      "kind": "ground"
+    },
+    {
+      "t": 114.36,
+      "weight": 1140.0,
+      "kind": "air"
+    },
+    {
+      "t": 115.08,
+      "weight": 1290.0,
+      "kind": "ground"
+    },
+    {
+      "t": 115.44,
+      "weight": 1286.0,
+      "kind": "ground"
+    },
+    {
+      "t": 116.52,
+      "weight": 1006.0,
+      "kind": "air"
+    },
+    {
+      "t": 117.48,
+      "weight": 1307.0,
+      "kind": "ground"
+    },
+    {
+      "t": 118.56,
+      "weight": 1172.0,
+      "kind": "air"
+    },
+    {
+      "t": 120.6,
+      "weight": 1309.0,
+      "kind": "ground"
+    },
+    {
+      "t": 121.68,
+      "weight": 1340.0,
+      "kind": "ground"
+    },
+    {
+      "t": 122.04,
+      "weight": 1032.0,
+      "kind": "air"
+    },
+    {
+      "t": 123.72,
+      "weight": 1248.0,
+      "kind": "air"
+    },
+    {
+      "t": 124.8,
+      "weight": 1307.0,
+      "kind": "ground"
+    },
+    {
+      "t": 125.88,
+      "weight": 1050.0,
+      "kind": "air"
+    },
+    {
+      "t": 126.24,
+      "weight": 1010.0,
+      "kind": "air"
+    },
+    {
+      "t": 126.72,
+      "weight": 1036.0,
+      "kind": "air"
+    },
+    {
+      "t": 127.2,
+      "weight": 1325.0,
+      "kind": "ground"
+    },
+    {
+      "t": 127.68,
+      "weight": 1282.0,
+      "kind": "ground"
+    },
+    {
+      "t": 128.04,
+      "weight": 1004.0,
+      "kind": "air"
+    },
+    {
+      "t": 128.4,
+      "weight": 1025.0,
+      "kind": "air"
+    },
+    {
+      "t": 129.0,
+      "weight": 1184.0,
+      "kind": "air"
+    },
+    {
+      "t": 129.36,
+      "weight": 1019.0,
+      "kind": "air"
+    },
+    {
+      "t": 129.72,
+      "weight": 1339.0,
+      "kind": "ground"
+    },
+    {
+      "t": 130.08,
+      "weight": 1109.0,
+      "kind": "air"
+    },
+    {
+      "t": 130.68,
+      "weight": 1162.0,
+      "kind": "air"
+    },
+    {
+      "t": 131.04,
+      "weight": 1320.0,
+      "kind": "ground"
+    },
+    {
+      "t": 132.12,
+      "weight": 1105.0,
+      "kind": "air"
+    },
+    {
+      "t": 132.84,
+      "weight": 1125.0,
+      "kind": "air"
+    },
+    {
+      "t": 133.44,
+      "weight": 1158.0,
+      "kind": "air"
+    },
+    {
+      "t": 134.16,
+      "weight": 1083.0,
+      "kind": "air"
+    },
+    {
+      "t": 134.52,
+      "weight": 1221.0,
+      "kind": "air"
+    },
+    {
+      "t": 134.88,
+      "weight": 1101.0,
+      "kind": "air"
+    },
+    {
+      "t": 135.24,
+      "weight": 1470.0,
+      "kind": "ground"
+    },
+    {
+      "t": 135.72,
+      "weight": 1050.0,
+      "kind": "air"
+    },
+    {
+      "t": 138.0,
+      "weight": 1049.0,
+      "kind": "air"
+    },
+    {
+      "t": 138.36,
+      "weight": 1521.0,
+      "kind": "ground"
+    },
+    {
+      "t": 139.08,
+      "weight": 1269.0,
+      "kind": "air"
+    },
+    {
+      "t": 139.44,
+      "weight": 1377.0,
+      "kind": "ground"
+    },
+    {
+      "t": 141.12,
+      "weight": 1026.0,
+      "kind": "air"
+    },
+    {
+      "t": 141.48,
+      "weight": 1295.0,
+      "kind": "ground"
+    },
+    {
+      "t": 142.2,
+      "weight": 1052.0,
+      "kind": "air"
+    },
+    {
+      "t": 142.56,
+      "weight": 1337.0,
+      "kind": "ground"
+    },
+    {
+      "t": 144.72,
+      "weight": 1145.0,
+      "kind": "air"
+    },
+    {
+      "t": 145.32,
+      "weight": 1042.0,
+      "kind": "air"
+    },
+    {
+      "t": 145.68,
+      "weight": 1234.0,
+      "kind": "air"
+    },
+    {
+      "t": 146.4,
+      "weight": 1340.0,
+      "kind": "ground"
+    },
+    {
+      "t": 146.76,
+      "weight": 1100.0,
+      "kind": "air"
+    },
+    {
+      "t": 147.84,
+      "weight": 1077.0,
+      "kind": "air"
+    },
+    {
+      "t": 148.8,
+      "weight": 1095.0,
+      "kind": "air"
+    },
+    {
+      "t": 149.16,
+      "weight": 1252.0,
+      "kind": "air"
+    },
+    {
+      "t": 149.52,
+      "weight": 1055.0,
+      "kind": "air"
+    },
+    {
+      "t": 149.88,
+      "weight": 1171.0,
+      "kind": "air"
+    },
+    {
+      "t": 150.96,
+      "weight": 1311.0,
+      "kind": "ground"
+    },
+    {
+      "t": 151.56,
+      "weight": 1041.0,
+      "kind": "air"
+    },
+    {
+      "t": 151.92,
+      "weight": 1173.0,
+      "kind": "air"
+    },
+    {
+      "t": 152.28,
+      "weight": 1132.0,
+      "kind": "air"
+    },
+    {
+      "t": 152.64,
+      "weight": 1021.0,
+      "kind": "air"
+    },
+    {
+      "t": 153.0,
+      "weight": 1283.0,
+      "kind": "ground"
+    },
+    {
+      "t": 154.08,
+      "weight": 1074.0,
+      "kind": "air"
+    },
+    {
+      "t": 156.12,
+      "weight": 1606.0,
+      "kind": "ground"
+    },
+    {
+      "t": 157.2,
+      "weight": 1060.0,
+      "kind": "air"
+    },
+    {
+      "t": 159.96,
+      "weight": 1041.0,
+      "kind": "air"
+    },
+    {
+      "t": 160.32,
+      "weight": 1507.0,
+      "kind": "ground"
+    },
+    {
+      "t": 163.08,
+      "weight": 1198.0,
+      "kind": "air"
+    },
+    {
+      "t": 163.44,
+      "weight": 1296.0,
+      "kind": "ground"
+    },
+    {
+      "t": 164.76,
+      "weight": 1063.0,
+      "kind": "air"
+    },
+    {
+      "t": 166.56,
+      "weight": 1236.0,
+      "kind": "air"
+    },
+    {
+      "t": 168.6,
+      "weight": 1147.0,
+      "kind": "air"
+    },
+    {
+      "t": 168.96,
+      "weight": 1185.0,
+      "kind": "air"
+    },
+    {
+      "t": 169.68,
+      "weight": 1395.0,
+      "kind": "ground"
+    },
+    {
+      "t": 170.76,
+      "weight": 1185.0,
+      "kind": "air"
+    },
+    {
+      "t": 171.36,
+      "weight": 1461.0,
+      "kind": "ground"
+    },
+    {
+      "t": 171.72,
+      "weight": 1393.0,
+      "kind": "ground"
+    },
+    {
+      "t": 172.08,
+      "weight": 1324.0,
+      "kind": "ground"
+    },
+    {
+      "t": 173.04,
+      "weight": 1362.0,
+      "kind": "ground"
+    },
+    {
+      "t": 173.52,
+      "weight": 1195.0,
+      "kind": "air"
+    },
+    {
+      "t": 174.12,
+      "weight": 1047.0,
+      "kind": "air"
+    },
+    {
+      "t": 175.08,
+      "weight": 1130.0,
+      "kind": "air"
+    },
+    {
+      "t": 175.44,
+      "weight": 1029.0,
+      "kind": "air"
+    },
+    {
+      "t": 175.8,
+      "weight": 1205.0,
+      "kind": "air"
+    },
+    {
+      "t": 176.52,
+      "weight": 1065.0,
+      "kind": "air"
+    },
+    {
+      "t": 176.88,
+      "weight": 1131.0,
+      "kind": "air"
+    },
+    {
+      "t": 177.48,
+      "weight": 1154.0,
+      "kind": "air"
+    },
+    {
+      "t": 177.84,
+      "weight": 1180.0,
+      "kind": "air"
+    },
+    {
+      "t": 179.52,
+      "weight": 1064.0,
+      "kind": "air"
+    },
+    {
+      "t": 179.88,
+      "weight": 1350.0,
+      "kind": "ground"
+    }
+  ]
+}

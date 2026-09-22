@@ -1,0 +1,21 @@
+{
+  "cloud_size": [
+    640,
+    180
+  ],
+  "bird_sheet_size": [
+    96,
+    48
+  ],
+  "frames": 6,
+  "distance_variants": 3,
+  "palette_unchanged": true,
+  "sky_sha256": "3be12a94cb42f6959ff2f46c92432329e8033124896820bc8ac654a7b668acc6",
+  "sky_unchanged": true,
+  "binary_alpha": true,
+  "matching_cloud_edges": true,
+  "min_visible_birds_in_preview": 10,
+  "preview_seconds": 16,
+  "preview_loop_note": "Preview replays at 16s; runtime wraps flocks only offscreen.",
+  "status": "layer2_pending_approval"
+}

@@ -1,0 +1,12 @@
+State=Complete
+Seconds=64
+Distance=448
+Feet=-2.6
+Jumps=13
+AirJumps=3
+ElevatedLandings=7
+Orbs=3
+Slides=3
+Bursts=3
+Coins=73
+Score=3125

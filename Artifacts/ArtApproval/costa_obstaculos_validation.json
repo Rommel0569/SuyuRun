@@ -1,0 +1,45 @@
+{
+  "size": [
+    384,
+    96
+  ],
+  "rows": {
+    "hexagono": {
+      "frames": 4,
+      "cell": 32
+    },
+    "pajaro": {
+      "frames": 6,
+      "cell": 32
+    },
+    "bote_pescador": {
+      "frames": 4,
+      "cell": 64
+    }
+  },
+  "previous_assets_unchanged": {
+    "costa_capa1_cielo.png": "3be12a94cb42f6959ff2f46c92432329e8033124896820bc8ac654a7b668acc6",
+    "costa_capa1_cielo.png.meta": "d261ce59209291a996be2c9d8252368eb0a32177ced29c9eebf61d88d8e5d773",
+    "costa_capa2_aves.png": "feff4fadbda7b2ee08680f3ee112ad42f0cbeb0d7be52655271aa36b01a83270",
+    "costa_capa2_aves.png.meta": "f69df43240ba211e8a4578913649cc9ec2b5849b8496e5e088518db53dbf8d68",
+    "costa_capa2_nubes.png": "ce19e2bd81c349a10c3b797feb220308164c5ba0ddf57d97fa0fe9b6a1442117",
+    "costa_capa2_nubes.png.meta": "b2556115a37fb3a3e27aa75cc815c9a9bc0f3cd6dc7c5d00b829b5d52a8f06fc",
+    "costa_capa3_paracas.png": "d821a698103006baf1952d689fa44140970c344bdcf713a394653e4d47182b9c",
+    "costa_capa3_paracas.png.meta": "db4a025a850b30418a9a8f136e764d0695935e216a0420d9f3922ae99390169d",
+    "costa_capa4_mar.png": "f81b28b42c4c8845641b4b8ea0940dee82d38cbecbc0db184d86c060e34c87cb",
+    "costa_capa4_mar.png.meta": "2d118359048af7b55b94f98a9b9a18c5f382c24c6ea16bf4c68d4884e8154209",
+    "costa_capa5_huacas.png": "6ea17ffde35bd69db617ba5415961e417833be12e7248f56755931b4c8300ff9",
+    "costa_capa5_huacas.png.meta": "fd5e8bbdf5aa03bc5bc211fa1f58b3fb14b66e68edb16bd2c3e1a77e12d2fb44",
+    "costa_capa6_algarrobos.png": "d3c6ef5034cc1fa21adffc6db554d6f40e258f346e41814fced5d159b65d1502",
+    "costa_capa6_algarrobos.png.meta": "71ed69a4ea238655d3b90a7189e63440e77228d5f728b34df3a4ad52c35c7861",
+    "costa_capa7_suelo.png": "dd61d5b0f94ea6cecb04dc5c0a4dfbf85064bad7bcc3881a6f6d6a5529d413d2",
+    "costa_capa7_suelo.png.meta": "c3641b79b8adee4169f9a9df1ae93a4c2cad63e7eba6789b616d087c9b2a13a9",
+    "costa_heroe.png": "d866293011c2e8ec62db30581d7ad6fc0a42a76021324e84bd54b9d11e9c3b0c",
+    "costa_heroe.png.meta": "01f0a84659ba38752336ed986df9ddb2f3f75fa809e706f0571bd3b0a435e32c",
+    "costa_palette.json": "c4561e3bf67b020cac28801a2f16f569af8525f37c3313bd160d56d11c2adc3c",
+    "costa_plataformas.png": "d500b7ff42b18502e3432f8b29a0242d706757d9374ae4d69f3f4a88ffb44b7d",
+    "costa_plataformas.png.meta": "4632c58d648e52729c6bd5212189fb7586a93b4176de393026827a2c19a4799a"
+  },
+  "purpose": "enemy/obstacle art only; hitboxes, movement and spawn rules wired separately in Unity",
+  "status": "pending_user_approval"
+}

@@ -1,0 +1,57 @@
+{
+  "asset_hashes": {
+    "costa_bailarin.png": "45d4680a3546976cb9b93014bdfa7b968580e888c32a6ffc5069f8ac828f91ca",
+    "costa_capa1_cielo.png": "3be12a94cb42f6959ff2f46c92432329e8033124896820bc8ac654a7b668acc6",
+    "costa_capa2_aves.png": "feff4fadbda7b2ee08680f3ee112ad42f0cbeb0d7be52655271aa36b01a83270",
+    "costa_capa2_nubes.png": "ce19e2bd81c349a10c3b797feb220308164c5ba0ddf57d97fa0fe9b6a1442117",
+    "costa_capa3_paracas.png": "d821a698103006baf1952d689fa44140970c344bdcf713a394653e4d47182b9c",
+    "costa_capa4_mar.png": "f81b28b42c4c8845641b4b8ea0940dee82d38cbecbc0db184d86c060e34c87cb",
+    "costa_capa5_huacas.png": "6ea17ffde35bd69db617ba5415961e417833be12e7248f56755931b4c8300ff9",
+    "costa_capa6_algarrobos.png": "d3c6ef5034cc1fa21adffc6db554d6f40e258f346e41814fced5d159b65d1502",
+    "costa_capa7_suelo.png": "dd61d5b0f94ea6cecb04dc5c0a4dfbf85064bad7bcc3881a6f6d6a5529d413d2",
+    "costa_coleccionables.png": "31791b37fe09a4590044ee5473237aeb8304576698810ce6b200e7895dd25d24",
+    "costa_efectos.png": "d0d867e3301c62a30eaedcdfec6fc64a8832ce2def0d99f3d339e9e35c042dc9",
+    "costa_heroe.png": "d866293011c2e8ec62db30581d7ad6fc0a42a76021324e84bd54b9d11e9c3b0c",
+    "costa_heroe_logro.png": "6fc21978dbb601ece9be0a55561a4adca704392a6e3c09a7c60280775dc9a4e0",
+    "costa_obstaculos.png": "306c3f093487da784e37b647e74f144c9ae911d727ff4e83c55637e46f337c80",
+    "costa_plataformas.png": "d500b7ff42b18502e3432f8b29a0242d706757d9374ae4d69f3f4a88ffb44b7d",
+    "costa_resultados.png": "84321a89a9a0750bc18c4749586a395af85bd5c737703d2dcea2cfe792d37e1e"
+  },
+  "resource_copies_match": {
+    "costa_bailarin.png": true,
+    "costa_capa1_cielo.png": true,
+    "costa_capa2_aves.png": true,
+    "costa_capa2_nubes.png": true,
+    "costa_capa3_paracas.png": true,
+    "costa_capa4_mar.png": true,
+    "costa_capa5_huacas.png": true,
+    "costa_capa6_algarrobos.png": true,
+    "costa_capa7_suelo.png": true,
+    "costa_coleccionables.png": true,
+    "costa_heroe.png": true,
+    "costa_obstaculos.png": true,
+    "costa_plataformas.png": true
+  },
+  "tile_coverage_seconds_0_to_177": "PASS",
+  "ground_row": 148,
+  "base_resolution": [
+    320,
+    180
+  ],
+  "midi_tracks": 1,
+  "ticks_per_beat": 43,
+  "tempo_events": [
+    {
+      "tick": 0,
+      "seconds": 0.0,
+      "tempo": 500000
+    }
+  ],
+  "note_on_count": 12266,
+  "channels": [
+    0
+  ],
+  "drum_notes": 0,
+  "last_note_seconds": 174.88372093021016,
+  "timing_status": "Existing course preserved. MIDI transcription onsets are not a validated beat grid. Ear validation still required."
+}

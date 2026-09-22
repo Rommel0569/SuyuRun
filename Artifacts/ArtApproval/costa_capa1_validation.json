@@ -1,0 +1,17 @@
+{
+  "asset": "Assets\\SuyuRun\\Art\\PixelCosta\\costa_capa1_cielo.png",
+  "size": [
+    640,
+    180
+  ],
+  "mode": "RGBA",
+  "palette_colors": 24,
+  "used_colors": 10,
+  "outside_palette": 0,
+  "partial_alpha_pixels": 0,
+  "scaling": "native production; nearest x4 preview",
+  "parallax_factor": 0.0,
+  "seamless_required": false,
+  "status": "pending_user_approval",
+  "content": "sky, low sun, dithered clouds only"
+}

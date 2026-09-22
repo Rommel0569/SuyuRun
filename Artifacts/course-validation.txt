@@ -1,0 +1,1 @@
+PASS: course timing; invalid speed; duplicate beats; vertical course; gap removes floor; floor resumes; descending landing; no upward landing; side collision; unsafe checkpoint rejected; safe checkpoint accepted; recorded coast validates; four selected tracks; two scenes; four museum entries.

@@ -1,0 +1,21 @@
+SuyuRun: costa_music_map.json validation (source file unmodified)
+archivo=El_Alcatraz.mid bpm_candidato=95.5 bpm_confianza=baja
+duracion_s (mapa)=174.93 vs longitud real El Alcatraz.mp3=177.40
+diferencia=2.47s - el mapa viene de una transcripcion MIDI, no del mp3; se sostiene el ultimo valor de la serie mas alla de duracion_s.
+secciones_aprox: 5
+  intro      [   0.0s ..   32.0s) energia=baja-media uso=mar calmo, marea baja
+  subida     [  32.0s ..   80.0s) energia=alta uso=olas grandes, marea sube, espuma fuerte
+  calma      [  80.0s ..  112.0s) energia=baja uso=marea baja, revela terreno, cambio de ambiente de fondo
+  retorno    [ 112.0s ..  168.0s) energia=alta uso=picos ~128s y ~152s: olas maximas
+  final      [ 168.0s ..  174.9s) energia=decae uso=mar se aquieta
+energia: paso_s=0.25 muestras=700
+graves:  paso_s=0.25 muestras=700
+Muestras de verificacion (segundo -> energia, graves, seccion):
+  t=   0.0s energia=0.058 graves=0.077 seccion=intro
+  t=  16.0s energia=0.292 graves=0.314 seccion=intro
+  t=  48.0s energia=0.679 graves=0.395 seccion=subida
+  t=  96.0s energia=0.443 graves=0.585 seccion=calma
+  t= 130.0s energia=0.895 graves=0.689 seccion=retorno
+  t= 152.0s energia=0.741 graves=0.634 seccion=retorno
+  t= 172.0s energia=0.061 graves=0.092 seccion=final
+  t= 180.0s energia=0.006 graves=0.012 seccion=final

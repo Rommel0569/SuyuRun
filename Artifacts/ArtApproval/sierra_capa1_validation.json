@@ -1,0 +1,15 @@
+{
+  "size": [
+    640,
+    180
+  ],
+  "content": "amanecer dorado, sol bajo, nubes con dithering",
+  "purpose": "capa 1 de Sierra, compartida por los 3 actos (Camino de Tierra / Puente Colgante / Ruinas Preincas)",
+  "palette_compliant": true,
+  "binary_alpha": true,
+  "previous_assets_unchanged": {
+    "sierra_palette.json": "b18b9dc04ce558f14aa7a06522bb0312f7a0730c16ba1919cc1fb5065c90eb26",
+    "sierra_palette.json.meta": "4aacd41e458520aa50db2145cdbf57eaf2de6a373605959299e5b38193c99411"
+  },
+  "status": "pending_user_approval"
+}

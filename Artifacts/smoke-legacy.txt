@@ -1,0 +1,15 @@
+State=Complete
+Seconds=64.00667
+Distance=448.0467
+Feet=-2.6
+Jumps=7
+AirJumps=0
+ElevatedLandings=0
+Orbs=0
+Pads=0
+Slides=4
+Bursts=3
+Coins=59
+Score=2250
+BirdsDefeated=0
+Museum=0/4

@@ -1,0 +1,7 @@
+State=Complete
+Seconds=64
+Jumps=7
+Slides=4
+Bursts=3
+Coins=49
+Score=2225

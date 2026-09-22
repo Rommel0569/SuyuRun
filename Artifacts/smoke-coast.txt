@@ -1,0 +1,16 @@
+State=Complete
+Seconds=177.372
+Distance=1241.604
+Feet=-2.6
+Jumps=42
+AirJumps=9
+ElevatedLandings=27
+Orbs=9
+Pads=3
+Slides=9
+Bursts=9
+Coins=298
+Score=12975
+BirdsDefeated=18
+Museum=4/4
+SeaTideMin=0.001 SeaTideMax=0.801 SeaEnergyMax=0.999

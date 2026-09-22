@@ -1,0 +1,29 @@
+{
+  "asset": "costa_capa4_mar.png",
+  "sheet_size": [
+    640,
+    720
+  ],
+  "frame_size": [
+    640,
+    180
+  ],
+  "frame_count": 4,
+  "frame_order": "top to bottom",
+  "fps": 4,
+  "parallax_factor": 0.3,
+  "seamless_edges_each_frame": true,
+  "binary_alpha": true,
+  "palette_compliant": true,
+  "previous_assets_unchanged": {
+    "costa_capa1_cielo.png": "3be12a94cb42f6959ff2f46c92432329e8033124896820bc8ac654a7b668acc6",
+    "costa_capa2_nubes.png": "ce19e2bd81c349a10c3b797feb220308164c5ba0ddf57d97fa0fe9b6a1442117",
+    "costa_capa2_aves.png": "feff4fadbda7b2ee08680f3ee112ad42f0cbeb0d7be52655271aa36b01a83270",
+    "costa_capa3_paracas.png": "d821a698103006baf1952d689fa44140970c344bdcf713a394653e4d47182b9c",
+    "costa_palette.json": "c4561e3bf67b020cac28801a2f16f569af8525f37c3313bd160d56d11c2adc3c"
+  },
+  "waterline_y": 146,
+  "dither_only_in_fog": true,
+  "preview_note": "12-second review restarts; not a runtime capture.",
+  "status": "pending_user_approval"
+}

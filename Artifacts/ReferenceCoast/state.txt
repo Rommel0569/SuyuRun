@@ -1,0 +1,17 @@
+State=Dead
+Seconds=33.39333
+Distance=233.7533
+Feet=-2.6
+Jumps=10
+AirJumps=2
+ElevatedLandings=4
+Orbs=2
+Pads=1
+Slides=2
+Bursts=1
+Coins=47
+Score=2100
+BirdsDefeated=2
+Museum=4/4
+SeaSync=missing-costa_music_map
+Failure=encounter kind=0 x=234.3599 feet=-2.6 slide=0 velocity=0

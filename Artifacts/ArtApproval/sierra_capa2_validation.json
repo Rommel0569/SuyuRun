@@ -1,0 +1,14 @@
+{
+  "size": [
+    640,
+    180
+  ],
+  "factor": 0.05,
+  "content": "nevados en silueta con nieve, tile sin costuras",
+  "palette_compliant": true,
+  "binary_alpha": true,
+  "seam_matches": true,
+  "sky_sha256": "d2d86f78b0f8da1042934062f09887d181be08037680a6b063caded5155bb008",
+  "sky_unchanged": true,
+  "status": "pending_user_approval"
+}

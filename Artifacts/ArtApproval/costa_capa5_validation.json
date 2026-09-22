@@ -1,0 +1,29 @@
+{
+  "size": [
+    640,
+    180
+  ],
+  "factor": 0.5,
+  "palette_compliant": true,
+  "binary_alpha": true,
+  "matching_edges": true,
+  "previous_assets_unchanged": {
+    "costa_capa1_cielo.png": "3be12a94cb42f6959ff2f46c92432329e8033124896820bc8ac654a7b668acc6",
+    "costa_capa1_cielo.png.meta": "d261ce59209291a996be2c9d8252368eb0a32177ced29c9eebf61d88d8e5d773",
+    "costa_capa2_aves.png": "feff4fadbda7b2ee08680f3ee112ad42f0cbeb0d7be52655271aa36b01a83270",
+    "costa_capa2_aves.png.meta": "f69df43240ba211e8a4578913649cc9ec2b5849b8496e5e088518db53dbf8d68",
+    "costa_capa2_nubes.png": "ce19e2bd81c349a10c3b797feb220308164c5ba0ddf57d97fa0fe9b6a1442117",
+    "costa_capa2_nubes.png.meta": "b2556115a37fb3a3e27aa75cc815c9a9bc0f3cd6dc7c5d00b829b5d52a8f06fc",
+    "costa_capa3_paracas.png": "d821a698103006baf1952d689fa44140970c344bdcf713a394653e4d47182b9c",
+    "costa_capa3_paracas.png.meta": "db4a025a850b30418a9a8f136e764d0695935e216a0420d9f3922ae99390169d",
+    "costa_capa4_mar.png": "f81b28b42c4c8845641b4b8ea0940dee82d38cbecbc0db184d86c060e34c87cb",
+    "costa_capa4_mar.png.meta": "2d118359048af7b55b94f98a9b9a18c5f382c24c6ea16bf4c68d4884e8154209",
+    "costa_palette.json": "c4561e3bf67b020cac28801a2f16f569af8525f37c3313bd160d56d11c2adc3c"
+  },
+  "opaque_fraction": 0.0565,
+  "max_occupied_columns_per_view": 165,
+  "viewport_width": 320,
+  "purpose": "background architecture only, no colliders",
+  "preview_note": "12-second composite review; not a Unity capture",
+  "status": "pending_user_approval"
+}

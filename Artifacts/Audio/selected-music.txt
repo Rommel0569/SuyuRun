@@ -1,0 +1,5 @@
+Costa: 177.40s
+Sierra: 177.55s
+Selva: 180.53s
+Inicio: 295.29s
+User files imported; Sierra/Selva beatmaps still pending.

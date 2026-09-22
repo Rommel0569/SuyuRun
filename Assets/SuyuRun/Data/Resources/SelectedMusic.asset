@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39ffc5ee75ec0a2458124445ccdf5171, type: 3}
+  m_Name: SelectedMusic
+  m_EditorClassIdentifier: Assembly-CSharp::SuyuRun.SelectedMusic
+  costa: {fileID: 8300000, guid: b9e6e74f707361543acdc9969ce4b9bb, type: 3}
+  sierra: {fileID: 8300000, guid: 12a98ffc34b39c744a69ab41c75d60de, type: 3}
+  selva: {fileID: 8300000, guid: bb87e1f865f7fac4f91f22838a357e95, type: 3}
+  inicio: {fileID: 8300000, guid: 8c4876336b1f4b348b6e67cf8854a9d7, type: 3}
+  provenance: "Archivos proporcionados por el usuario. Documentar cr\xE9ditos y permisos
+    antes de distribuir."

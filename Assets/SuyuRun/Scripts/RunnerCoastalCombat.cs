@@ -10,6 +10,8 @@ namespace SuyuRun
             public Transform root;public float x,y,amplitude=.13f;public bool defeated;public int culture=-1;
             // Steering state (Reynolds-style Seek + Wander), see SteerBird below.
             public float curY,vy,wanderAngle;
+            // Console evidence of the steering state (0 = not logged yet / off screen, 1 = Wander, 2 = Seek).
+            public int id,loggedState;
         }
         const float BirdSeekRange=5.5f;   // world units of x-distance at which a bird notices the hero and gives chase
         const float BirdMaxSpeed=3.2f;    // vertical steering speed cap, units/s
@@ -80,11 +82,12 @@ namespace SuyuRun
             var root=new GameObject("Pixel obstacle (ART_BIBLE costa_obstaculos pajaro)").transform;
             PixelSprite("Bird sprite",root,ObstacleFrames("pajaro",6),1.1f,8f,7);
             float y=Ground+.7f;
-            birds.Add(new Bird{root=root,x=x,y=y,curY=y,amplitude=amplitude,culture=culture,wanderAngle=Random.Range(0f,Mathf.PI*2)});
+            birds.Add(new Bird{id=birds.Count+1,root=root,x=x,y=y,curY=y,amplitude=amplitude,culture=culture,wanderAngle=Random.Range(0f,Mathf.PI*2)});
         }
         void ResetCoastalEncounters(bool resume)
         {
             if(!resume){birdsDefeated=0;foreach(var bird in birds)bird.defeated=false;}
+            foreach(var bird in birds)bird.loggedState=0;
             foreach(var drop in memoryDrops)drop.reward.locked=!drop.source.taken;
         }
         void UpdateCoastalCombat(float dt,float previous)
@@ -124,7 +127,9 @@ namespace SuyuRun
         {
             float band=Mathf.Max(bird.amplitude,.32f)*3f;
             float targetY;
-            if(Mathf.Abs(sx)<BirdSeekRange)
+            bool seeking=Mathf.Abs(sx)<BirdSeekRange;
+            LogBirdState(bird,sx,seeking);
+            if(seeking)
             {
                 // Seek: head straight for the hero's current foot height so standing still stops working.
                 targetY=Mathf.Clamp(feet,bird.y-band,bird.y+band);
@@ -139,6 +144,18 @@ namespace SuyuRun
             float steering=Mathf.Clamp(desiredVelocity-bird.vy,-BirdMaxForce*dt,BirdMaxForce*dt);
             bird.vy=Mathf.Clamp(bird.vy+steering,-BirdMaxSpeed,BirdMaxSpeed);
             bird.curY=Mathf.Clamp(bird.curY+bird.vy*dt,bird.y-band,bird.y+band);
+        }
+        // Class demo: print each Seek/Wander transition once (only while the bird is on screen, so
+        // the console isn't flooded by the whole route's birds on the first frame).
+        void LogBirdState(Bird bird,float sx,bool seeking)
+        {
+            if(Mathf.Abs(bird.x-distance)>=24){bird.loggedState=0;return;}
+            int state=seeking?2:1;
+            if(state==bird.loggedState)return;
+            bird.loggedState=state;
+            Debug.Log(seeking
+                ?$"<color=red>[Ave {bird.id}] SEEKING</color> · héroe a {Mathf.Abs(sx):0.0} u (< {BirdSeekRange}) → persigue la altura del héroe (y={feet:0.00})"
+                :$"<color=cyan>[Ave {bird.id}] WANDERING</color> · héroe a {Mathf.Abs(sx):0.0} u (≥ {BirdSeekRange}) → deambula alrededor de y={bird.y:0.00}");
         }
     }
 }

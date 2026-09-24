@@ -5,7 +5,17 @@ namespace SuyuRun
 {
     public sealed partial class RunnerPrototype
     {
-        sealed class Bird {public Transform root;public float x,y,amplitude=.13f;public bool defeated;public int culture=-1;}
+        sealed class Bird
+        {
+            public Transform root;public float x,y,amplitude=.13f;public bool defeated;public int culture=-1;
+            // Steering state (Reynolds-style Seek + Wander), see SteerBird below.
+            public float curY,vy,wanderAngle;
+        }
+        const float BirdSeekRange=5.5f;   // world units of x-distance at which a bird notices the hero and gives chase
+        const float BirdMaxSpeed=3.2f;    // vertical steering speed cap, units/s
+        const float BirdMaxForce=10f;     // vertical acceleration cap applied to reach BirdMaxSpeed, units/s^2
+        const float BirdWanderJitter=3.4f;// how fast the wander angle drifts, rad/s
+        const float BirdWanderRadius=.42f;// how far the wander target strays from the bird's rest height
         sealed class MemoryDrop {public Item source,reward;}
         readonly List<Bird> birds=new List<Bird>();
         readonly List<MemoryDrop> memoryDrops=new List<MemoryDrop>();
@@ -13,6 +23,9 @@ namespace SuyuRun
 
         void BuildCoastalEncounters()
         {
+            // Demo request: show Seek+Wander right away instead of waiting for the first crate.
+            CreateBird(6f,-1);
+            CreateBird(10f,-1);
             var boxes=items.FindAll(it=>it.kind==2);int index=0;
             foreach(var box in boxes)
             {
@@ -66,7 +79,8 @@ namespace SuyuRun
             // vector gallinazo per the user's request that obstacles/enemies be pixel art.
             var root=new GameObject("Pixel obstacle (ART_BIBLE costa_obstaculos pajaro)").transform;
             PixelSprite("Bird sprite",root,ObstacleFrames("pajaro",6),1.1f,8f,7);
-            birds.Add(new Bird{root=root,x=x,y=Ground+.7f,amplitude=amplitude,culture=culture});
+            float y=Ground+.7f;
+            birds.Add(new Bird{root=root,x=x,y=y,curY=y,amplitude=amplitude,culture=culture,wanderAngle=Random.Range(0f,Mathf.PI*2)});
         }
         void ResetCoastalEncounters(bool resume)
         {
@@ -79,7 +93,7 @@ namespace SuyuRun
             foreach(var bird in birds)
             {
                 if(bird.defeated)continue;
-                float sx=bird.x-distance-3;float y=bird.y+Mathf.Sin(MusicalBeat*Mathf.PI+bird.x)*bird.amplitude;
+                float sx=bird.x-distance-3;SteerBird(bird,sx,dt);float y=bird.curY;
                 for(int i=shots.Count-1;i>=0;i--)
                 {
                     var shot=shots[i];if(Mathf.Abs(shot.position.x-sx)>.65f||Mathf.Abs(shot.position.y-y)>.6f)continue;
@@ -99,8 +113,32 @@ namespace SuyuRun
             foreach(var bird in birds)
             {
                 bird.root.gameObject.SetActive(mode!=Mode.Museum&&!bird.defeated&&Mathf.Abs(bird.x-distance)<24);
-                bird.root.position=new Vector3(bird.x-distance-3,bird.y+Mathf.Sin(MusicalBeat*Mathf.PI+bird.x)*bird.amplitude,0);
+                bird.root.position=new Vector3(bird.x-distance-3,bird.curY,0);
             }
+        }
+        // Reynolds-style Seek + Wander confined to the bird's vertical patrol band. The horizontal
+        // position keeps coming from the scripted world-scroll (bird.x-distance), which is what
+        // lets level markers place encounters precisely; only the altitude is steered, which is
+        // what the hero actually has to read and react to (jump, slide or shoot).
+        void SteerBird(Bird bird,float sx,float dt)
+        {
+            float band=Mathf.Max(bird.amplitude,.32f)*3f;
+            float targetY;
+            if(Mathf.Abs(sx)<BirdSeekRange)
+            {
+                // Seek: head straight for the hero's current foot height so standing still stops working.
+                targetY=Mathf.Clamp(feet,bird.y-band,bird.y+band);
+            }
+            else
+            {
+                // Wander: a target drifting around a slowly, randomly turning angle (classic Reynolds wander).
+                bird.wanderAngle+=Random.Range(-BirdWanderJitter,BirdWanderJitter)*dt;
+                targetY=bird.y+Mathf.Sin(bird.wanderAngle)*Mathf.Min(BirdWanderRadius,band);
+            }
+            float desiredVelocity=Mathf.Clamp(targetY-bird.curY,-1f,1f)*BirdMaxSpeed;
+            float steering=Mathf.Clamp(desiredVelocity-bird.vy,-BirdMaxForce*dt,BirdMaxForce*dt);
+            bird.vy=Mathf.Clamp(bird.vy+steering,-BirdMaxSpeed,BirdMaxSpeed);
+            bird.curY=Mathf.Clamp(bird.curY+bird.vy*dt,bird.y-band,bird.y+band);
         }
     }
 }

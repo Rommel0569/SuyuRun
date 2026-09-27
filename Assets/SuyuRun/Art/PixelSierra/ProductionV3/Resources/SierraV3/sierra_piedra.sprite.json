@@ -1,0 +1,46 @@
+{
+  "name": "sierra_piedra",
+  "file": "sierra_piedra.png",
+  "width": 8,
+  "height": 8,
+  "count": 4,
+  "fps": 8,
+  "loop": true,
+  "kind": "sprite",
+  "factor": 1,
+  "biome": "shared",
+  "pivotX": 0.5,
+  "pivotY": 0,
+  "ppu": 32,
+  "frames": [
+    {
+      "name": "sierra_piedra_0",
+      "x": 0,
+      "y": 0,
+      "width": 8,
+      "height": 8
+    },
+    {
+      "name": "sierra_piedra_1",
+      "x": 8,
+      "y": 0,
+      "width": 8,
+      "height": 8
+    },
+    {
+      "name": "sierra_piedra_2",
+      "x": 16,
+      "y": 0,
+      "width": 8,
+      "height": 8
+    },
+    {
+      "name": "sierra_piedra_3",
+      "x": 24,
+      "y": 0,
+      "width": 8,
+      "height": 8
+    }
+  ],
+  "notes": "Objeto de gameplay original; configurar hitbox por silueta, no por lienzo."
+}

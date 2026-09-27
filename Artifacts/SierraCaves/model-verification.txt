@@ -1,0 +1,18 @@
+PASS five-second grace in either completed objective
+PASS aimed charge, delayed lock, committed direction
+PASS movement, two jumps, no third, landing, drop: 30fps
+PASS movement, two jumps, no third, landing, drop: 60fps
+PASS movement, two jumps, no third, landing, drop: 144fps
+PASS magazine 5, reload 4 seconds, firing lock
+PASS fifteen spawns, multiple platform heights, fixed budget
+PASS cave wall lights: 12, all clear of platforms
+PASS cave 1: pistol, reward, boss awakening, arena, exit; audio=60.0555s
+Autoplay cave 1: cleared=True dead=False time=40.78481 health=5 x=1482.146 y=320 boss=0 kills=14 hits=29.06:contact@(1094.81, 276.58); 
+Variable steps cave 0: cleared=True jumps=14 pos=(1482.31, 320.00) hits=29.03:contact@(1094.08, 276.69); 
+PASS magazine 5, reload 4 seconds, firing lock
+PASS fifteen spawns, multiple platform heights, fixed budget
+PASS cave wall lights: 12, all clear of platforms
+PASS cave 2: pistol, reward, boss awakening, arena, exit; audio=60.0555s
+Autoplay cave 2: cleared=True dead=False time=47.85298 health=5 x=1482.146 y=320 boss=0 kills=16 hits=29.07:contact@(1095.74, 280.95); 
+Variable steps cave 1: cleared=True jumps=19 pos=(1482.26, 320.00) hits=29.63:projectile@(1095.92, 278.63); 
+2026-09-26T12:31:03.4381997-05:00

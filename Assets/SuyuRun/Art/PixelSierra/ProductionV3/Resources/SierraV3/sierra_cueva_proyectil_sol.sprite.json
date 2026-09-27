@@ -1,0 +1,46 @@
+{
+  "name": "sierra_cueva_proyectil_sol",
+  "file": "sierra_cueva_proyectil_sol.png",
+  "width": 12,
+  "height": 12,
+  "count": 4,
+  "fps": 10,
+  "loop": true,
+  "kind": "sprite",
+  "factor": 1,
+  "biome": "shared",
+  "pivotX": 0.5,
+  "pivotY": 0,
+  "ppu": 32,
+  "frames": [
+    {
+      "name": "sierra_cueva_proyectil_sol_0",
+      "x": 0,
+      "y": 0,
+      "width": 12,
+      "height": 12
+    },
+    {
+      "name": "sierra_cueva_proyectil_sol_1",
+      "x": 12,
+      "y": 0,
+      "width": 12,
+      "height": 12
+    },
+    {
+      "name": "sierra_cueva_proyectil_sol_2",
+      "x": 24,
+      "y": 0,
+      "width": 12,
+      "height": 12
+    },
+    {
+      "name": "sierra_cueva_proyectil_sol_3",
+      "x": 36,
+      "y": 0,
+      "width": 12,
+      "height": 12
+    }
+  ],
+  "notes": ""
+}

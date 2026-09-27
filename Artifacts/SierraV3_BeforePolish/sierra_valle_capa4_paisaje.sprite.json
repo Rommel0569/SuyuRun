@@ -1,0 +1,25 @@
+{
+  "name": "sierra_valle_capa4_paisaje",
+  "file": "sierra_valle_capa4_paisaje.png",
+  "width": 640,
+  "height": 180,
+  "count": 1,
+  "fps": 6,
+  "loop": true,
+  "kind": "layer",
+  "factor": 0.3,
+  "biome": "valle",
+  "pivotX": 0,
+  "pivotY": 1,
+  "ppu": 32,
+  "frames": [
+    {
+      "name": "sierra_valle_capa4_paisaje_0",
+      "x": 0,
+      "y": 0,
+      "width": 640,
+      "height": 180
+    }
+  ],
+  "notes": "Dibujo original nativo640x180; planos de color estilo Costa, sin reducci\u00f3n de foto ni recortes de composici\u00f3n."
+}

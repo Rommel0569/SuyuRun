@@ -1,0 +1,46 @@
+{
+  "name": "sierra_tronco",
+  "file": "sierra_tronco.png",
+  "width": 32,
+  "height": 32,
+  "count": 4,
+  "fps": 8,
+  "loop": true,
+  "kind": "sprite",
+  "factor": 1,
+  "biome": "shared",
+  "pivotX": 0.5,
+  "pivotY": 0,
+  "ppu": 32,
+  "frames": [
+    {
+      "name": "sierra_tronco_0",
+      "x": 0,
+      "y": 0,
+      "width": 32,
+      "height": 32
+    },
+    {
+      "name": "sierra_tronco_1",
+      "x": 32,
+      "y": 0,
+      "width": 32,
+      "height": 32
+    },
+    {
+      "name": "sierra_tronco_2",
+      "x": 64,
+      "y": 0,
+      "width": 32,
+      "height": 32
+    },
+    {
+      "name": "sierra_tronco_3",
+      "x": 96,
+      "y": 0,
+      "width": 32,
+      "height": 32
+    }
+  ],
+  "notes": "Objeto de gameplay original; configurar hitbox por silueta, no por lienzo."
+}

@@ -1,0 +1,60 @@
+{
+  "name": "sierra_halcon_vuelo",
+  "file": "sierra_halcon_vuelo.png",
+  "width": 32,
+  "height": 32,
+  "count": 6,
+  "fps": 8,
+  "loop": true,
+  "kind": "sprite",
+  "factor": 1,
+  "biome": "shared",
+  "pivotX": 0.5,
+  "pivotY": 0,
+  "ppu": 32,
+  "frames": [
+    {
+      "name": "sierra_halcon_vuelo_0",
+      "x": 0,
+      "y": 0,
+      "width": 32,
+      "height": 32
+    },
+    {
+      "name": "sierra_halcon_vuelo_1",
+      "x": 32,
+      "y": 0,
+      "width": 32,
+      "height": 32
+    },
+    {
+      "name": "sierra_halcon_vuelo_2",
+      "x": 64,
+      "y": 0,
+      "width": 32,
+      "height": 32
+    },
+    {
+      "name": "sierra_halcon_vuelo_3",
+      "x": 96,
+      "y": 0,
+      "width": 32,
+      "height": 32
+    },
+    {
+      "name": "sierra_halcon_vuelo_4",
+      "x": 128,
+      "y": 0,
+      "width": 32,
+      "height": 32
+    },
+    {
+      "name": "sierra_halcon_vuelo_5",
+      "x": 160,
+      "y": 0,
+      "width": 32,
+      "height": 32
+    }
+  ],
+  "notes": "Telegraph aviso antes de atacar h\u00e9roe o anclaje. Condor simb\u00f3lico fant\u00e1stico; no ense\u00f1anza de caza real."
+}

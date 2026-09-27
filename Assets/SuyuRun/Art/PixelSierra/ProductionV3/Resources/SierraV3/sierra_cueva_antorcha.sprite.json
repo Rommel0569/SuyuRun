@@ -1,0 +1,46 @@
+{
+  "name": "sierra_cueva_antorcha",
+  "file": "sierra_cueva_antorcha.png",
+  "width": 16,
+  "height": 32,
+  "count": 4,
+  "fps": 7,
+  "loop": true,
+  "kind": "sprite",
+  "factor": 1,
+  "biome": "shared",
+  "pivotX": 0.5,
+  "pivotY": 0,
+  "ppu": 32,
+  "frames": [
+    {
+      "name": "sierra_cueva_antorcha_0",
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 32
+    },
+    {
+      "name": "sierra_cueva_antorcha_1",
+      "x": 16,
+      "y": 0,
+      "width": 16,
+      "height": 32
+    },
+    {
+      "name": "sierra_cueva_antorcha_2",
+      "x": 32,
+      "y": 0,
+      "width": 16,
+      "height": 32
+    },
+    {
+      "name": "sierra_cueva_antorcha_3",
+      "x": 48,
+      "y": 0,
+      "width": 16,
+      "height": 32
+    }
+  ],
+  "notes": ""
+}

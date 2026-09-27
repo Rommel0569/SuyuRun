@@ -1,0 +1,53 @@
+{
+  "name": "sierra_fx_impacto_piedra",
+  "file": "sierra_fx_impacto_piedra.png",
+  "width": 24,
+  "height": 24,
+  "count": 5,
+  "fps": 12,
+  "loop": false,
+  "kind": "sprite",
+  "factor": 1,
+  "biome": "shared",
+  "pivotX": 0.5,
+  "pivotY": 0,
+  "ppu": 32,
+  "frames": [
+    {
+      "name": "sierra_fx_impacto_piedra_0",
+      "x": 0,
+      "y": 0,
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "sierra_fx_impacto_piedra_1",
+      "x": 24,
+      "y": 0,
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "sierra_fx_impacto_piedra_2",
+      "x": 48,
+      "y": 0,
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "sierra_fx_impacto_piedra_3",
+      "x": 72,
+      "y": 0,
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "sierra_fx_impacto_piedra_4",
+      "x": 96,
+      "y": 0,
+      "width": 24,
+      "height": 24
+    }
+  ],
+  "notes": "Part\u00edculas con alfa binario; el controlador debe destruir/reciclar tras \u00faltimo frame."
+}

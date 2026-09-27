@@ -1,0 +1,46 @@
+{
+  "name": "sierra_decor_ichu",
+  "file": "sierra_decor_ichu.png",
+  "width": 24,
+  "height": 20,
+  "count": 4,
+  "fps": 5,
+  "loop": true,
+  "kind": "sprite",
+  "factor": 1,
+  "biome": "shared",
+  "pivotX": 0.5,
+  "pivotY": 0,
+  "ppu": 32,
+  "frames": [
+    {
+      "name": "sierra_decor_ichu_0",
+      "x": 0,
+      "y": 0,
+      "width": 24,
+      "height": 20
+    },
+    {
+      "name": "sierra_decor_ichu_1",
+      "x": 24,
+      "y": 0,
+      "width": 24,
+      "height": 20
+    },
+    {
+      "name": "sierra_decor_ichu_2",
+      "x": 48,
+      "y": 0,
+      "width": 24,
+      "height": 20
+    },
+    {
+      "name": "sierra_decor_ichu_3",
+      "x": 72,
+      "y": 0,
+      "width": 24,
+      "height": 20
+    }
+  ],
+  "notes": "M\u00f3dulo independiente, no extra\u00eddo del fondo; decoraci\u00f3n sin colisi\u00f3n por defecto."
+}

@@ -1,0 +1,60 @@
+{
+  "name": "sierra_heroe_huaraca_girar",
+  "file": "sierra_heroe_huaraca_girar.png",
+  "width": 48,
+  "height": 48,
+  "count": 6,
+  "fps": 10,
+  "loop": true,
+  "kind": "sprite",
+  "factor": 1,
+  "biome": "shared",
+  "pivotX": 0.5,
+  "pivotY": 0,
+  "ppu": 32,
+  "frames": [
+    {
+      "name": "sierra_heroe_huaraca_girar_0",
+      "x": 0,
+      "y": 0,
+      "width": 48,
+      "height": 48
+    },
+    {
+      "name": "sierra_heroe_huaraca_girar_1",
+      "x": 48,
+      "y": 0,
+      "width": 48,
+      "height": 48
+    },
+    {
+      "name": "sierra_heroe_huaraca_girar_2",
+      "x": 96,
+      "y": 0,
+      "width": 48,
+      "height": 48
+    },
+    {
+      "name": "sierra_heroe_huaraca_girar_3",
+      "x": 144,
+      "y": 0,
+      "width": 48,
+      "height": 48
+    },
+    {
+      "name": "sierra_heroe_huaraca_girar_4",
+      "x": 192,
+      "y": 0,
+      "width": 48,
+      "height": 48
+    },
+    {
+      "name": "sierra_heroe_huaraca_girar_5",
+      "x": 240,
+      "y": 0,
+      "width": 48,
+      "height": 48
+    }
+  ],
+  "notes": "Evento de lanzamiento en frame1 de lanzar; direcci\u00f3n de proyectil viene del cursor, no del PNG."
+}

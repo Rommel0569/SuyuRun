@@ -1,0 +1,25 @@
+{
+  "name": "sierra_ui_panel",
+  "file": "sierra_ui_panel.png",
+  "width": 96,
+  "height": 48,
+  "count": 1,
+  "fps": 6,
+  "loop": true,
+  "kind": "sprite",
+  "factor": 1,
+  "biome": "shared",
+  "pivotX": 0.5,
+  "pivotY": 0,
+  "ppu": 32,
+  "frames": [
+    {
+      "name": "sierra_ui_panel_0",
+      "x": 0,
+      "y": 0,
+      "width": 96,
+      "height": 48
+    }
+  ],
+  "notes": "Sin texto horneado. Usar fuente pixel existente, bordes9-slice2px para panel/bot\u00f3n."
+}

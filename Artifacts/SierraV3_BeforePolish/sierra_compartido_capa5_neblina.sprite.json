@@ -1,0 +1,46 @@
+{
+  "name": "sierra_compartido_capa5_neblina",
+  "file": "sierra_compartido_capa5_neblina.png",
+  "width": 640,
+  "height": 180,
+  "count": 4,
+  "fps": 4,
+  "loop": true,
+  "kind": "layer",
+  "factor": 0.25,
+  "biome": "shared",
+  "pivotX": 0,
+  "pivotY": 1,
+  "ppu": 32,
+  "frames": [
+    {
+      "name": "sierra_compartido_capa5_neblina_0",
+      "x": 0,
+      "y": 540,
+      "width": 640,
+      "height": 180
+    },
+    {
+      "name": "sierra_compartido_capa5_neblina_1",
+      "x": 0,
+      "y": 360,
+      "width": 640,
+      "height": 180
+    },
+    {
+      "name": "sierra_compartido_capa5_neblina_2",
+      "x": 0,
+      "y": 180,
+      "width": 640,
+      "height": 180
+    },
+    {
+      "name": "sierra_compartido_capa5_neblina_3",
+      "x": 0,
+      "y": 0,
+      "width": 640,
+      "height": 180
+    }
+  ],
+  "notes": "Dithering binario, nunca alfa degradado; usar detr\u00e1s de m\u00f3dulos jugables."
+}

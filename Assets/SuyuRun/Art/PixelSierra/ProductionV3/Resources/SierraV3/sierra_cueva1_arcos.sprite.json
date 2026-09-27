@@ -1,0 +1,25 @@
+{
+  "name": "sierra_cueva1_arcos",
+  "file": "sierra_cueva1_arcos.png",
+  "width": 640,
+  "height": 384,
+  "count": 1,
+  "fps": 6,
+  "loop": true,
+  "kind": "layer",
+  "factor": 0.4,
+  "biome": "shared",
+  "pivotX": 0,
+  "pivotY": 1,
+  "ppu": 32,
+  "frames": [
+    {
+      "name": "sierra_cueva1_arcos_0",
+      "x": 0,
+      "y": 0,
+      "width": 640,
+      "height": 384
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,60 @@
+{
+  "name": "sierra_fx_polvo_aterrizar",
+  "file": "sierra_fx_polvo_aterrizar.png",
+  "width": 32,
+  "height": 32,
+  "count": 6,
+  "fps": 12,
+  "loop": false,
+  "kind": "sprite",
+  "factor": 1,
+  "biome": "shared",
+  "pivotX": 0.5,
+  "pivotY": 0,
+  "ppu": 32,
+  "frames": [
+    {
+      "name": "sierra_fx_polvo_aterrizar_0",
+      "x": 0,
+      "y": 0,
+      "width": 32,
+      "height": 32
+    },
+    {
+      "name": "sierra_fx_polvo_aterrizar_1",
+      "x": 32,
+      "y": 0,
+      "width": 32,
+      "height": 32
+    },
+    {
+      "name": "sierra_fx_polvo_aterrizar_2",
+      "x": 64,
+      "y": 0,
+      "width": 32,
+      "height": 32
+    },
+    {
+      "name": "sierra_fx_polvo_aterrizar_3",
+      "x": 96,
+      "y": 0,
+      "width": 32,
+      "height": 32
+    },
+    {
+      "name": "sierra_fx_polvo_aterrizar_4",
+      "x": 128,
+      "y": 0,
+      "width": 32,
+      "height": 32
+    },
+    {
+      "name": "sierra_fx_polvo_aterrizar_5",
+      "x": 160,
+      "y": 0,
+      "width": 32,
+      "height": 32
+    }
+  ],
+  "notes": "Part\u00edculas con alfa binario; el controlador debe destruir/reciclar tras \u00faltimo frame."
+}

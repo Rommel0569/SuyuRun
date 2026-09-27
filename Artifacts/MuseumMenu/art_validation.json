@@ -1,0 +1,72 @@
+{
+  "huaco_moche": {
+    "size": [
+      64,
+      64
+    ],
+    "colors": 15,
+    "palette": "Costa",
+    "binary_alpha": true,
+    "slot": 0
+  },
+  "textil_paracas": {
+    "size": [
+      64,
+      64
+    ],
+    "colors": 10,
+    "palette": "Costa",
+    "binary_alpha": true,
+    "slot": 1
+  },
+  "nicomedes": {
+    "size": [
+      64,
+      64
+    ],
+    "colors": 15,
+    "palette": "Costa",
+    "binary_alpha": true,
+    "slot": 2
+  },
+  "maria_reiche": {
+    "size": [
+      64,
+      64
+    ],
+    "colors": 17,
+    "palette": "Costa",
+    "binary_alpha": true,
+    "slot": 3
+  },
+  "cabeza_clava": {
+    "size": [
+      64,
+      64
+    ],
+    "colors": 6,
+    "palette": "Sierra",
+    "binary_alpha": true,
+    "slot": 4
+  },
+  "kero": {
+    "size": [
+      64,
+      64
+    ],
+    "colors": 7,
+    "palette": "Sierra",
+    "binary_alpha": true,
+    "slot": 5
+  },
+  "quipu": {
+    "size": [
+      64,
+      64
+    ],
+    "colors": 11,
+    "palette": "Sierra",
+    "binary_alpha": true,
+    "slot": 6
+  }
+}

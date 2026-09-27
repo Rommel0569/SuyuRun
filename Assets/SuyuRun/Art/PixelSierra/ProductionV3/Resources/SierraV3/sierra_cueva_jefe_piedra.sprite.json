@@ -1,0 +1,60 @@
+{
+  "name": "sierra_cueva_jefe_piedra",
+  "file": "sierra_cueva_jefe_piedra.png",
+  "width": 64,
+  "height": 80,
+  "count": 6,
+  "fps": 7,
+  "loop": true,
+  "kind": "sprite",
+  "factor": 1,
+  "biome": "shared",
+  "pivotX": 0.5,
+  "pivotY": 0,
+  "ppu": 32,
+  "frames": [
+    {
+      "name": "sierra_cueva_jefe_piedra_0",
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 80
+    },
+    {
+      "name": "sierra_cueva_jefe_piedra_1",
+      "x": 64,
+      "y": 0,
+      "width": 64,
+      "height": 80
+    },
+    {
+      "name": "sierra_cueva_jefe_piedra_2",
+      "x": 128,
+      "y": 0,
+      "width": 64,
+      "height": 80
+    },
+    {
+      "name": "sierra_cueva_jefe_piedra_3",
+      "x": 192,
+      "y": 0,
+      "width": 64,
+      "height": 80
+    },
+    {
+      "name": "sierra_cueva_jefe_piedra_4",
+      "x": 256,
+      "y": 0,
+      "width": 64,
+      "height": 80
+    },
+    {
+      "name": "sierra_cueva_jefe_piedra_5",
+      "x": 320,
+      "y": 0,
+      "width": 64,
+      "height": 80
+    }
+  ],
+  "notes": ""
+}

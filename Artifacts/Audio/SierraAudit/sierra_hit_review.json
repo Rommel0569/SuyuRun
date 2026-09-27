@@ -1,0 +1,3308 @@
+[
+  {
+    "index": 0,
+    "time": 0.0,
+    "kind": "ground",
+    "notesInWindow": 23,
+    "representativeNote": {
+      "tick": 9,
+      "time": 0.1046512,
+      "track": 0,
+      "channel": 0,
+      "pitch": 73,
+      "velocity": 68
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 1,
+    "time": 2.16,
+    "kind": "ground",
+    "notesInWindow": 22,
+    "representativeNote": {
+      "tick": 196,
+      "time": 2.2790698,
+      "track": 0,
+      "channel": 0,
+      "pitch": 75,
+      "velocity": 71
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 2,
+    "time": 3.84,
+    "kind": "air",
+    "notesInWindow": 14,
+    "representativeNote": {
+      "tick": 333,
+      "time": 3.872093,
+      "track": 0,
+      "channel": 0,
+      "pitch": 48,
+      "velocity": 73
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 3,
+    "time": 4.44,
+    "kind": "ground",
+    "notesInWindow": 34,
+    "representativeNote": {
+      "tick": 383,
+      "time": 4.4534884,
+      "track": 0,
+      "channel": 0,
+      "pitch": 74,
+      "velocity": 76
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 4,
+    "time": 6.24,
+    "kind": "air",
+    "notesInWindow": 15,
+    "representativeNote": {
+      "tick": 546,
+      "time": 6.3488372,
+      "track": 0,
+      "channel": 0,
+      "pitch": 45,
+      "velocity": 70
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 5,
+    "time": 6.6,
+    "kind": "ground",
+    "notesInWindow": 27,
+    "representativeNote": {
+      "tick": 569,
+      "time": 6.6162791,
+      "track": 0,
+      "channel": 0,
+      "pitch": 75,
+      "velocity": 82
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 6,
+    "time": 8.16,
+    "kind": "air",
+    "notesInWindow": 17,
+    "representativeNote": {
+      "tick": 710,
+      "time": 8.255814,
+      "track": 0,
+      "channel": 0,
+      "pitch": 45,
+      "velocity": 77
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 7,
+    "time": 8.52,
+    "kind": "ground",
+    "notesInWindow": 26,
+    "representativeNote": {
+      "tick": 736,
+      "time": 8.5581395,
+      "track": 0,
+      "channel": 0,
+      "pitch": 75,
+      "velocity": 74
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 8,
+    "time": 9.12,
+    "kind": "air",
+    "notesInWindow": 17,
+    "representativeNote": {
+      "tick": 786,
+      "time": 9.1395349,
+      "track": 0,
+      "channel": 0,
+      "pitch": 47,
+      "velocity": 59
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 9,
+    "time": 17.52,
+    "kind": "air",
+    "notesInWindow": 15,
+    "representativeNote": {
+      "tick": 1510,
+      "time": 17.5581395,
+      "track": 0,
+      "channel": 0,
+      "pitch": 34,
+      "velocity": 66
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 10,
+    "time": 19.44,
+    "kind": "air",
+    "notesInWindow": 12,
+    "representativeNote": {
+      "tick": 1674,
+      "time": 19.4651163,
+      "track": 0,
+      "channel": 0,
+      "pitch": 45,
+      "velocity": 66
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 11,
+    "time": 21.6,
+    "kind": "air",
+    "notesInWindow": 14,
+    "representativeNote": {
+      "tick": 1865,
+      "time": 21.6860465,
+      "track": 0,
+      "channel": 0,
+      "pitch": 45,
+      "velocity": 66
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 12,
+    "time": 24.0,
+    "kind": "ground",
+    "notesInWindow": 19,
+    "representativeNote": {
+      "tick": 2071,
+      "time": 24.0813953,
+      "track": 0,
+      "channel": 0,
+      "pitch": 45,
+      "velocity": 72
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 13,
+    "time": 25.32,
+    "kind": "air",
+    "notesInWindow": 13,
+    "representativeNote": {
+      "tick": 2179,
+      "time": 25.3372093,
+      "track": 0,
+      "channel": 0,
+      "pitch": 46,
+      "velocity": 73
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 14,
+    "time": 25.92,
+    "kind": "ground",
+    "notesInWindow": 20,
+    "representativeNote": {
+      "tick": 2236,
+      "time": 26.0,
+      "track": 0,
+      "channel": 0,
+      "pitch": 46,
+      "velocity": 86
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 15,
+    "time": 26.28,
+    "kind": "air",
+    "notesInWindow": 13,
+    "representativeNote": {
+      "tick": 2267,
+      "time": 26.3604651,
+      "track": 0,
+      "channel": 0,
+      "pitch": 46,
+      "velocity": 73
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 16,
+    "time": 26.76,
+    "kind": "ground",
+    "notesInWindow": 18,
+    "representativeNote": {
+      "tick": 2311,
+      "time": 26.872093,
+      "track": 0,
+      "channel": 0,
+      "pitch": 45,
+      "velocity": 85
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 17,
+    "time": 27.36,
+    "kind": "air",
+    "notesInWindow": 10,
+    "representativeNote": {
+      "tick": 2355,
+      "time": 27.3837209,
+      "track": 0,
+      "channel": 0,
+      "pitch": 48,
+      "velocity": 73
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 18,
+    "time": 28.44,
+    "kind": "ground",
+    "notesInWindow": 17,
+    "representativeNote": {
+      "tick": 2449,
+      "time": 28.4767442,
+      "track": 0,
+      "channel": 0,
+      "pitch": 47,
+      "velocity": 76
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 19,
+    "time": 34.68,
+    "kind": "air",
+    "notesInWindow": 15,
+    "representativeNote": {
+      "tick": 2991,
+      "time": 34.7790698,
+      "track": 0,
+      "channel": 0,
+      "pitch": 56,
+      "velocity": 71
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 20,
+    "time": 37.2,
+    "kind": "air",
+    "notesInWindow": 13,
+    "representativeNote": {
+      "tick": 3209,
+      "time": 37.3139535,
+      "track": 0,
+      "channel": 0,
+      "pitch": 50,
+      "velocity": 68
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 21,
+    "time": 37.56,
+    "kind": "air",
+    "notesInWindow": 15,
+    "representativeNote": {
+      "tick": 3239,
+      "time": 37.6627907,
+      "track": 0,
+      "channel": 0,
+      "pitch": 50,
+      "velocity": 68
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 22,
+    "time": 38.04,
+    "kind": "ground",
+    "notesInWindow": 23,
+    "representativeNote": {
+      "tick": 3274,
+      "time": 38.0697674,
+      "track": 0,
+      "channel": 0,
+      "pitch": 73,
+      "velocity": 72
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 23,
+    "time": 39.12,
+    "kind": "ground",
+    "notesInWindow": 21,
+    "representativeNote": {
+      "tick": 3374,
+      "time": 39.2325581,
+      "track": 0,
+      "channel": 0,
+      "pitch": 45,
+      "velocity": 67
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 24,
+    "time": 39.96,
+    "kind": "air",
+    "notesInWindow": 14,
+    "representativeNote": {
+      "tick": 3438,
+      "time": 39.9767442,
+      "track": 0,
+      "channel": 0,
+      "pitch": 47,
+      "velocity": 65
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 25,
+    "time": 40.44,
+    "kind": "ground",
+    "notesInWindow": 20,
+    "representativeNote": {
+      "tick": 3483,
+      "time": 40.5,
+      "track": 0,
+      "channel": 0,
+      "pitch": 45,
+      "velocity": 76
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 26,
+    "time": 41.04,
+    "kind": "air",
+    "notesInWindow": 16,
+    "representativeNote": {
+      "tick": 3535,
+      "time": 41.1046512,
+      "track": 0,
+      "channel": 0,
+      "pitch": 69,
+      "velocity": 62
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 27,
+    "time": 41.52,
+    "kind": "air",
+    "notesInWindow": 14,
+    "representativeNote": {
+      "tick": 3577,
+      "time": 41.5930233,
+      "track": 0,
+      "channel": 0,
+      "pitch": 47,
+      "velocity": 74
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 28,
+    "time": 42.48,
+    "kind": "air",
+    "notesInWindow": 17,
+    "representativeNote": {
+      "tick": 3657,
+      "time": 42.5232558,
+      "track": 0,
+      "channel": 0,
+      "pitch": 73,
+      "velocity": 68
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 29,
+    "time": 43.44,
+    "kind": "ground",
+    "notesInWindow": 22,
+    "representativeNote": {
+      "tick": 3742,
+      "time": 43.5116279,
+      "track": 0,
+      "channel": 0,
+      "pitch": 45,
+      "velocity": 77
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 30,
+    "time": 44.52,
+    "kind": "air",
+    "notesInWindow": 16,
+    "representativeNote": {
+      "tick": 3839,
+      "time": 44.6395349,
+      "track": 0,
+      "channel": 0,
+      "pitch": 44,
+      "velocity": 60
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 31,
+    "time": 45.24,
+    "kind": "air",
+    "notesInWindow": 17,
+    "representativeNote": {
+      "tick": 3899,
+      "time": 45.3372093,
+      "track": 0,
+      "channel": 0,
+      "pitch": 45,
+      "velocity": 78
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 32,
+    "time": 45.6,
+    "kind": "ground",
+    "notesInWindow": 21,
+    "representativeNote": {
+      "tick": 3928,
+      "time": 45.6744186,
+      "track": 0,
+      "channel": 0,
+      "pitch": 47,
+      "velocity": 77
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 33,
+    "time": 45.96,
+    "kind": "air",
+    "notesInWindow": 13,
+    "representativeNote": {
+      "tick": 3955,
+      "time": 45.9883721,
+      "track": 0,
+      "channel": 0,
+      "pitch": 50,
+      "velocity": 68
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 34,
+    "time": 46.92,
+    "kind": "air",
+    "notesInWindow": 15,
+    "representativeNote": {
+      "tick": 4044,
+      "time": 47.0232558,
+      "track": 0,
+      "channel": 0,
+      "pitch": 52,
+      "velocity": 62
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 35,
+    "time": 47.88,
+    "kind": "ground",
+    "notesInWindow": 16,
+    "representativeNote": {
+      "tick": 4122,
+      "time": 47.9302326,
+      "track": 0,
+      "channel": 0,
+      "pitch": 45,
+      "velocity": 76
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 36,
+    "time": 48.96,
+    "kind": "air",
+    "notesInWindow": 13,
+    "representativeNote": {
+      "tick": 4220,
+      "time": 49.0697674,
+      "track": 0,
+      "channel": 0,
+      "pitch": 44,
+      "velocity": 64
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 37,
+    "time": 49.8,
+    "kind": "air",
+    "notesInWindow": 13,
+    "representativeNote": {
+      "tick": 4287,
+      "time": 49.8488372,
+      "track": 0,
+      "channel": 0,
+      "pitch": 37,
+      "velocity": 64
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 38,
+    "time": 50.28,
+    "kind": "air",
+    "notesInWindow": 13,
+    "representativeNote": {
+      "tick": 4329,
+      "time": 50.3372093,
+      "track": 0,
+      "channel": 0,
+      "pitch": 48,
+      "velocity": 74
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 39,
+    "time": 51.0,
+    "kind": "air",
+    "notesInWindow": 13,
+    "representativeNote": {
+      "tick": 4393,
+      "time": 51.0813953,
+      "track": 0,
+      "channel": 0,
+      "pitch": 57,
+      "velocity": 66
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 40,
+    "time": 51.36,
+    "kind": "air",
+    "notesInWindow": 14,
+    "representativeNote": {
+      "tick": 4427,
+      "time": 51.4767442,
+      "track": 0,
+      "channel": 0,
+      "pitch": 41,
+      "velocity": 70
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 41,
+    "time": 52.2,
+    "kind": "air",
+    "notesInWindow": 14,
+    "representativeNote": {
+      "tick": 4490,
+      "time": 52.2093023,
+      "track": 0,
+      "channel": 0,
+      "pitch": 45,
+      "velocity": 80
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 42,
+    "time": 53.04,
+    "kind": "ground",
+    "notesInWindow": 18,
+    "representativeNote": {
+      "tick": 4563,
+      "time": 53.0581395,
+      "track": 0,
+      "channel": 0,
+      "pitch": 45,
+      "velocity": 71
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 43,
+    "time": 54.24,
+    "kind": "ground",
+    "notesInWindow": 19,
+    "representativeNote": {
+      "tick": 4668,
+      "time": 54.2790698,
+      "track": 0,
+      "channel": 0,
+      "pitch": 46,
+      "velocity": 71
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 44,
+    "time": 55.56,
+    "kind": "ground",
+    "notesInWindow": 23,
+    "representativeNote": {
+      "tick": 4787,
+      "time": 55.6627907,
+      "track": 0,
+      "channel": 0,
+      "pitch": 77,
+      "velocity": 67
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 45,
+    "time": 56.04,
+    "kind": "air",
+    "notesInWindow": 16,
+    "representativeNote": {
+      "tick": 4828,
+      "time": 56.1395349,
+      "track": 0,
+      "channel": 0,
+      "pitch": 74,
+      "velocity": 65
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 46,
+    "time": 56.52,
+    "kind": "ground",
+    "notesInWindow": 23,
+    "representativeNote": {
+      "tick": 4862,
+      "time": 56.5348837,
+      "track": 0,
+      "channel": 0,
+      "pitch": 45,
+      "velocity": 76
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 47,
+    "time": 56.88,
+    "kind": "ground",
+    "notesInWindow": 16,
+    "representativeNote": {
+      "tick": 4893,
+      "time": 56.8953488,
+      "track": 0,
+      "channel": 0,
+      "pitch": 44,
+      "velocity": 85
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 48,
+    "time": 57.36,
+    "kind": "ground",
+    "notesInWindow": 19,
+    "representativeNote": {
+      "tick": 4943,
+      "time": 57.4767442,
+      "track": 0,
+      "channel": 0,
+      "pitch": 74,
+      "velocity": 69
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 49,
+    "time": 57.96,
+    "kind": "air",
+    "notesInWindow": 18,
+    "representativeNote": {
+      "tick": 4991,
+      "time": 58.0348837,
+      "track": 0,
+      "channel": 0,
+      "pitch": 46,
+      "velocity": 78
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 50,
+    "time": 58.44,
+    "kind": "ground",
+    "notesInWindow": 21,
+    "representativeNote": {
+      "tick": 5035,
+      "time": 58.5465116,
+      "track": 0,
+      "channel": 0,
+      "pitch": 46,
+      "velocity": 75
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 51,
+    "time": 58.8,
+    "kind": "ground",
+    "notesInWindow": 22,
+    "representativeNote": {
+      "tick": 5064,
+      "time": 58.8837209,
+      "track": 0,
+      "channel": 0,
+      "pitch": 79,
+      "velocity": 73
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 52,
+    "time": 59.52,
+    "kind": "ground",
+    "notesInWindow": 18,
+    "representativeNote": {
+      "tick": 5127,
+      "time": 59.6162791,
+      "track": 0,
+      "channel": 0,
+      "pitch": 44,
+      "velocity": 75
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 53,
+    "time": 59.88,
+    "kind": "ground",
+    "notesInWindow": 18,
+    "representativeNote": {
+      "tick": 5151,
+      "time": 59.8953488,
+      "track": 0,
+      "channel": 0,
+      "pitch": 76,
+      "velocity": 71
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 54,
+    "time": 60.72,
+    "kind": "ground",
+    "notesInWindow": 18,
+    "representativeNote": {
+      "tick": 5228,
+      "time": 60.7906977,
+      "track": 0,
+      "channel": 0,
+      "pitch": 50,
+      "velocity": 76
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 55,
+    "time": 61.2,
+    "kind": "air",
+    "notesInWindow": 12,
+    "representativeNote": {
+      "tick": 5271,
+      "time": 61.2906977,
+      "track": 0,
+      "channel": 0,
+      "pitch": 44,
+      "velocity": 81
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 56,
+    "time": 61.8,
+    "kind": "ground",
+    "notesInWindow": 17,
+    "representativeNote": {
+      "tick": 5315,
+      "time": 61.8023256,
+      "track": 0,
+      "channel": 0,
+      "pitch": 43,
+      "velocity": 76
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 57,
+    "time": 62.16,
+    "kind": "ground",
+    "notesInWindow": 21,
+    "representativeNote": {
+      "tick": 5346,
+      "time": 62.1627907,
+      "track": 0,
+      "channel": 0,
+      "pitch": 40,
+      "velocity": 72
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 58,
+    "time": 62.88,
+    "kind": "ground",
+    "notesInWindow": 19,
+    "representativeNote": {
+      "tick": 5414,
+      "time": 62.9534884,
+      "track": 0,
+      "channel": 0,
+      "pitch": 47,
+      "velocity": 79
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 59,
+    "time": 63.36,
+    "kind": "ground",
+    "notesInWindow": 21,
+    "representativeNote": {
+      "tick": 5458,
+      "time": 63.4651163,
+      "track": 0,
+      "channel": 0,
+      "pitch": 44,
+      "velocity": 84
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 60,
+    "time": 64.2,
+    "kind": "air",
+    "notesInWindow": 15,
+    "representativeNote": {
+      "tick": 5527,
+      "time": 64.2674419,
+      "track": 0,
+      "channel": 0,
+      "pitch": 55,
+      "velocity": 70
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 61,
+    "time": 65.04,
+    "kind": "air",
+    "notesInWindow": 14,
+    "representativeNote": {
+      "tick": 5598,
+      "time": 65.0930233,
+      "track": 0,
+      "channel": 0,
+      "pitch": 45,
+      "velocity": 65
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 62,
+    "time": 65.4,
+    "kind": "air",
+    "notesInWindow": 16,
+    "representativeNote": {
+      "tick": 5626,
+      "time": 65.4186047,
+      "track": 0,
+      "channel": 0,
+      "pitch": 45,
+      "velocity": 69
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 63,
+    "time": 66.48,
+    "kind": "air",
+    "notesInWindow": 13,
+    "representativeNote": {
+      "tick": 5720,
+      "time": 66.5116279,
+      "track": 0,
+      "channel": 0,
+      "pitch": 41,
+      "velocity": 70
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 64,
+    "time": 67.32,
+    "kind": "air",
+    "notesInWindow": 20,
+    "representativeNote": {
+      "tick": 5793,
+      "time": 67.3604651,
+      "track": 0,
+      "channel": 0,
+      "pitch": 47,
+      "velocity": 58
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 65,
+    "time": 68.64,
+    "kind": "air",
+    "notesInWindow": 17,
+    "representativeNote": {
+      "tick": 5909,
+      "time": 68.7093023,
+      "track": 0,
+      "channel": 0,
+      "pitch": 44,
+      "velocity": 66
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 66,
+    "time": 69.36,
+    "kind": "air",
+    "notesInWindow": 14,
+    "representativeNote": {
+      "tick": 5975,
+      "time": 69.4767442,
+      "track": 0,
+      "channel": 0,
+      "pitch": 45,
+      "velocity": 74
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 67,
+    "time": 69.72,
+    "kind": "air",
+    "notesInWindow": 16,
+    "representativeNote": {
+      "tick": 5997,
+      "time": 69.7325581,
+      "track": 0,
+      "channel": 0,
+      "pitch": 45,
+      "velocity": 75
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 68,
+    "time": 70.8,
+    "kind": "air",
+    "notesInWindow": 16,
+    "representativeNote": {
+      "tick": 6091,
+      "time": 70.8255814,
+      "track": 0,
+      "channel": 0,
+      "pitch": 45,
+      "velocity": 69
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 69,
+    "time": 71.52,
+    "kind": "air",
+    "notesInWindow": 15,
+    "representativeNote": {
+      "tick": 6161,
+      "time": 71.6395349,
+      "track": 0,
+      "channel": 0,
+      "pitch": 56,
+      "velocity": 65
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 70,
+    "time": 75.0,
+    "kind": "ground",
+    "notesInWindow": 27,
+    "representativeNote": {
+      "tick": 6450,
+      "time": 75.0,
+      "track": 0,
+      "channel": 0,
+      "pitch": 75,
+      "velocity": 81
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 71,
+    "time": 76.8,
+    "kind": "ground",
+    "notesInWindow": 24,
+    "representativeNote": {
+      "tick": 6608,
+      "time": 76.8372093,
+      "track": 0,
+      "channel": 0,
+      "pitch": 76,
+      "velocity": 84
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 72,
+    "time": 77.16,
+    "kind": "air",
+    "notesInWindow": 17,
+    "representativeNote": {
+      "tick": 6637,
+      "time": 77.1744186,
+      "track": 0,
+      "channel": 0,
+      "pitch": 75,
+      "velocity": 69
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 73,
+    "time": 78.72,
+    "kind": "air",
+    "notesInWindow": 17,
+    "representativeNote": {
+      "tick": 6773,
+      "time": 78.755814,
+      "track": 0,
+      "channel": 0,
+      "pitch": 44,
+      "velocity": 69
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 74,
+    "time": 79.32,
+    "kind": "ground",
+    "notesInWindow": 23,
+    "representativeNote": {
+      "tick": 6825,
+      "time": 79.3604651,
+      "track": 0,
+      "channel": 0,
+      "pitch": 74,
+      "velocity": 71
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 75,
+    "time": 81.12,
+    "kind": "ground",
+    "notesInWindow": 23,
+    "representativeNote": {
+      "tick": 6982,
+      "time": 81.1860465,
+      "track": 0,
+      "channel": 0,
+      "pitch": 75,
+      "velocity": 82
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 76,
+    "time": 81.48,
+    "kind": "ground",
+    "notesInWindow": 22,
+    "representativeNote": {
+      "tick": 7009,
+      "time": 81.5,
+      "track": 0,
+      "channel": 0,
+      "pitch": 76,
+      "velocity": 74
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 77,
+    "time": 81.84,
+    "kind": "air",
+    "notesInWindow": 22,
+    "representativeNote": {
+      "tick": 7040,
+      "time": 81.8604651,
+      "track": 0,
+      "channel": 0,
+      "pitch": 38,
+      "velocity": 56
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 78,
+    "time": 83.4,
+    "kind": "air",
+    "notesInWindow": 14,
+    "representativeNote": {
+      "tick": 7182,
+      "time": 83.5116279,
+      "track": 0,
+      "channel": 0,
+      "pitch": 45,
+      "velocity": 60
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 79,
+    "time": 85.8,
+    "kind": "air",
+    "notesInWindow": 15,
+    "representativeNote": {
+      "tick": 7382,
+      "time": 85.8372093,
+      "track": 0,
+      "channel": 0,
+      "pitch": 48,
+      "velocity": 70
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 80,
+    "time": 86.88,
+    "kind": "air",
+    "notesInWindow": 15,
+    "representativeNote": {
+      "tick": 7477,
+      "time": 86.9418605,
+      "track": 0,
+      "channel": 0,
+      "pitch": 48,
+      "velocity": 71
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 81,
+    "time": 90.72,
+    "kind": "air",
+    "notesInWindow": 14,
+    "representativeNote": {
+      "tick": 7810,
+      "time": 90.8139535,
+      "track": 0,
+      "channel": 0,
+      "pitch": 48,
+      "velocity": 66
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 82,
+    "time": 95.16,
+    "kind": "air",
+    "notesInWindow": 14,
+    "representativeNote": {
+      "tick": 8184,
+      "time": 95.1627907,
+      "track": 0,
+      "channel": 0,
+      "pitch": 46,
+      "velocity": 85
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 83,
+    "time": 96.72,
+    "kind": "ground",
+    "notesInWindow": 16,
+    "representativeNote": {
+      "tick": 8323,
+      "time": 96.7790698,
+      "track": 0,
+      "channel": 0,
+      "pitch": 46,
+      "velocity": 77
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 84,
+    "time": 98.64,
+    "kind": "ground",
+    "notesInWindow": 16,
+    "representativeNote": {
+      "tick": 8492,
+      "time": 98.744186,
+      "track": 0,
+      "channel": 0,
+      "pitch": 45,
+      "velocity": 75
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 85,
+    "time": 99.0,
+    "kind": "air",
+    "notesInWindow": 13,
+    "representativeNote": {
+      "tick": 8522,
+      "time": 99.0930233,
+      "track": 0,
+      "channel": 0,
+      "pitch": 47,
+      "velocity": 73
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 86,
+    "time": 99.48,
+    "kind": "air",
+    "notesInWindow": 14,
+    "representativeNote": {
+      "tick": 8562,
+      "time": 99.5581395,
+      "track": 0,
+      "channel": 0,
+      "pitch": 44,
+      "velocity": 79
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 87,
+    "time": 103.32,
+    "kind": "air",
+    "notesInWindow": 13,
+    "representativeNote": {
+      "tick": 8893,
+      "time": 103.4069767,
+      "track": 0,
+      "channel": 0,
+      "pitch": 50,
+      "velocity": 79
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 88,
+    "time": 103.8,
+    "kind": "ground",
+    "notesInWindow": 19,
+    "representativeNote": {
+      "tick": 8935,
+      "time": 103.8953488,
+      "track": 0,
+      "channel": 0,
+      "pitch": 45,
+      "velocity": 79
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 89,
+    "time": 104.16,
+    "kind": "air",
+    "notesInWindow": 17,
+    "representativeNote": {
+      "tick": 8963,
+      "time": 104.2209302,
+      "track": 0,
+      "channel": 0,
+      "pitch": 45,
+      "velocity": 73
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 90,
+    "time": 105.24,
+    "kind": "ground",
+    "notesInWindow": 21,
+    "representativeNote": {
+      "tick": 9053,
+      "time": 105.2674419,
+      "track": 0,
+      "channel": 0,
+      "pitch": 44,
+      "velocity": 69
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 91,
+    "time": 106.32,
+    "kind": "air",
+    "notesInWindow": 17,
+    "representativeNote": {
+      "tick": 9151,
+      "time": 106.4069767,
+      "track": 0,
+      "channel": 0,
+      "pitch": 44,
+      "velocity": 67
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 92,
+    "time": 107.4,
+    "kind": "air",
+    "notesInWindow": 15,
+    "representativeNote": {
+      "tick": 9241,
+      "time": 107.4534884,
+      "track": 0,
+      "channel": 0,
+      "pitch": 45,
+      "velocity": 81
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 93,
+    "time": 109.56,
+    "kind": "air",
+    "notesInWindow": 15,
+    "representativeNote": {
+      "tick": 9429,
+      "time": 109.6395349,
+      "track": 0,
+      "channel": 0,
+      "pitch": 44,
+      "velocity": 70
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 94,
+    "time": 109.92,
+    "kind": "air",
+    "notesInWindow": 12,
+    "representativeNote": {
+      "tick": 9454,
+      "time": 109.9302326,
+      "track": 0,
+      "channel": 0,
+      "pitch": 46,
+      "velocity": 73
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 95,
+    "time": 110.4,
+    "kind": "air",
+    "notesInWindow": 14,
+    "representativeNote": {
+      "tick": 9499,
+      "time": 110.4534884,
+      "track": 0,
+      "channel": 0,
+      "pitch": 48,
+      "velocity": 69
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 96,
+    "time": 110.76,
+    "kind": "air",
+    "notesInWindow": 13,
+    "representativeNote": {
+      "tick": 9530,
+      "time": 110.8139535,
+      "track": 0,
+      "channel": 0,
+      "pitch": 44,
+      "velocity": 65
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 97,
+    "time": 111.96,
+    "kind": "air",
+    "notesInWindow": 19,
+    "representativeNote": {
+      "tick": 9638,
+      "time": 112.0697674,
+      "track": 0,
+      "channel": 0,
+      "pitch": 54,
+      "velocity": 58
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 98,
+    "time": 112.56,
+    "kind": "air",
+    "notesInWindow": 18,
+    "representativeNote": {
+      "tick": 9688,
+      "time": 112.6511628,
+      "track": 0,
+      "channel": 0,
+      "pitch": 44,
+      "velocity": 68
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 99,
+    "time": 113.16,
+    "kind": "air",
+    "notesInWindow": 12,
+    "representativeNote": {
+      "tick": 9738,
+      "time": 113.2325581,
+      "track": 0,
+      "channel": 0,
+      "pitch": 44,
+      "velocity": 80
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 100,
+    "time": 114.0,
+    "kind": "air",
+    "notesInWindow": 17,
+    "representativeNote": {
+      "tick": 9805,
+      "time": 114.0116279,
+      "track": 0,
+      "channel": 0,
+      "pitch": 47,
+      "velocity": 79
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 101,
+    "time": 114.84,
+    "kind": "air",
+    "notesInWindow": 12,
+    "representativeNote": {
+      "tick": 9880,
+      "time": 114.8837209,
+      "track": 0,
+      "channel": 0,
+      "pitch": 73,
+      "velocity": 69
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 102,
+    "time": 115.2,
+    "kind": "air",
+    "notesInWindow": 16,
+    "representativeNote": {
+      "tick": 9909,
+      "time": 115.2209302,
+      "track": 0,
+      "channel": 0,
+      "pitch": 72,
+      "velocity": 72
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 103,
+    "time": 116.16,
+    "kind": "ground",
+    "notesInWindow": 18,
+    "representativeNote": {
+      "tick": 9993,
+      "time": 116.1976744,
+      "track": 0,
+      "channel": 0,
+      "pitch": 46,
+      "velocity": 75
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 104,
+    "time": 117.48,
+    "kind": "air",
+    "notesInWindow": 13,
+    "representativeNote": {
+      "tick": 10112,
+      "time": 117.5813953,
+      "track": 0,
+      "channel": 0,
+      "pitch": 46,
+      "velocity": 74
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 105,
+    "time": 118.32,
+    "kind": "air",
+    "notesInWindow": 14,
+    "representativeNote": {
+      "tick": 10179,
+      "time": 118.3604651,
+      "track": 0,
+      "channel": 0,
+      "pitch": 49,
+      "velocity": 71
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 106,
+    "time": 118.68,
+    "kind": "air",
+    "notesInWindow": 12,
+    "representativeNote": {
+      "tick": 10209,
+      "time": 118.7093023,
+      "track": 0,
+      "channel": 0,
+      "pitch": 40,
+      "velocity": 66
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 107,
+    "time": 119.16,
+    "kind": "air",
+    "notesInWindow": 15,
+    "representativeNote": {
+      "tick": 10251,
+      "time": 119.1976744,
+      "track": 0,
+      "channel": 0,
+      "pitch": 48,
+      "velocity": 72
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 108,
+    "time": 119.52,
+    "kind": "ground",
+    "notesInWindow": 19,
+    "representativeNote": {
+      "tick": 10282,
+      "time": 119.5581395,
+      "track": 0,
+      "channel": 0,
+      "pitch": 69,
+      "velocity": 71
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 109,
+    "time": 120.6,
+    "kind": "air",
+    "notesInWindow": 16,
+    "representativeNote": {
+      "tick": 10378,
+      "time": 120.6744186,
+      "track": 0,
+      "channel": 0,
+      "pitch": 45,
+      "velocity": 78
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 110,
+    "time": 121.32,
+    "kind": "air",
+    "notesInWindow": 12,
+    "representativeNote": {
+      "tick": 10440,
+      "time": 121.3953488,
+      "track": 0,
+      "channel": 0,
+      "pitch": 47,
+      "velocity": 81
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 111,
+    "time": 122.16,
+    "kind": "ground",
+    "notesInWindow": 16,
+    "representativeNote": {
+      "tick": 10510,
+      "time": 122.2093023,
+      "track": 0,
+      "channel": 0,
+      "pitch": 47,
+      "velocity": 82
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 112,
+    "time": 122.52,
+    "kind": "air",
+    "notesInWindow": 13,
+    "representativeNote": {
+      "tick": 10540,
+      "time": 122.5581395,
+      "track": 0,
+      "channel": 0,
+      "pitch": 45,
+      "velocity": 62
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 113,
+    "time": 122.88,
+    "kind": "air",
+    "notesInWindow": 15,
+    "representativeNote": {
+      "tick": 10570,
+      "time": 122.9069767,
+      "track": 0,
+      "channel": 0,
+      "pitch": 45,
+      "velocity": 55
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 114,
+    "time": 124.92,
+    "kind": "air",
+    "notesInWindow": 18,
+    "representativeNote": {
+      "tick": 10749,
+      "time": 124.9883721,
+      "track": 0,
+      "channel": 0,
+      "pitch": 57,
+      "velocity": 73
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 115,
+    "time": 126.0,
+    "kind": "air",
+    "notesInWindow": 16,
+    "representativeNote": {
+      "tick": 10836,
+      "time": 126.0,
+      "track": 0,
+      "channel": 0,
+      "pitch": 72,
+      "velocity": 69
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 116,
+    "time": 126.48,
+    "kind": "air",
+    "notesInWindow": 14,
+    "representativeNote": {
+      "tick": 10885,
+      "time": 126.5697674,
+      "track": 0,
+      "channel": 0,
+      "pitch": 45,
+      "velocity": 77
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 117,
+    "time": 126.84,
+    "kind": "air",
+    "notesInWindow": 14,
+    "representativeNote": {
+      "tick": 10910,
+      "time": 126.8604651,
+      "track": 0,
+      "channel": 0,
+      "pitch": 45,
+      "velocity": 67
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 118,
+    "time": 127.32,
+    "kind": "air",
+    "notesInWindow": 16,
+    "representativeNote": {
+      "tick": 10956,
+      "time": 127.3953488,
+      "track": 0,
+      "channel": 0,
+      "pitch": 57,
+      "velocity": 70
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 119,
+    "time": 127.92,
+    "kind": "air",
+    "notesInWindow": 18,
+    "representativeNote": {
+      "tick": 11003,
+      "time": 127.9418605,
+      "track": 0,
+      "channel": 0,
+      "pitch": 49,
+      "velocity": 71
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 120,
+    "time": 128.4,
+    "kind": "air",
+    "notesInWindow": 15,
+    "representativeNote": {
+      "tick": 11052,
+      "time": 128.5116279,
+      "track": 0,
+      "channel": 0,
+      "pitch": 46,
+      "velocity": 84
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 121,
+    "time": 129.0,
+    "kind": "ground",
+    "notesInWindow": 26,
+    "representativeNote": {
+      "tick": 11102,
+      "time": 129.0930233,
+      "track": 0,
+      "channel": 0,
+      "pitch": 48,
+      "velocity": 72
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 122,
+    "time": 129.36,
+    "kind": "air",
+    "notesInWindow": 16,
+    "representativeNote": {
+      "tick": 11125,
+      "time": 129.3604651,
+      "track": 0,
+      "channel": 0,
+      "pitch": 38,
+      "velocity": 65
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 123,
+    "time": 130.08,
+    "kind": "ground",
+    "notesInWindow": 18,
+    "representativeNote": {
+      "tick": 11188,
+      "time": 130.0930233,
+      "track": 0,
+      "channel": 0,
+      "pitch": 44,
+      "velocity": 76
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 124,
+    "time": 130.44,
+    "kind": "ground",
+    "notesInWindow": 19,
+    "representativeNote": {
+      "tick": 11225,
+      "time": 130.5232558,
+      "track": 0,
+      "channel": 0,
+      "pitch": 45,
+      "velocity": 67
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 125,
+    "time": 130.8,
+    "kind": "air",
+    "notesInWindow": 19,
+    "representativeNote": {
+      "tick": 11252,
+      "time": 130.8372093,
+      "track": 0,
+      "channel": 0,
+      "pitch": 46,
+      "velocity": 79
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 126,
+    "time": 131.16,
+    "kind": "air",
+    "notesInWindow": 18,
+    "representativeNote": {
+      "tick": 11290,
+      "time": 131.2790698,
+      "track": 0,
+      "channel": 0,
+      "pitch": 48,
+      "velocity": 74
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 127,
+    "time": 131.52,
+    "kind": "air",
+    "notesInWindow": 17,
+    "representativeNote": {
+      "tick": 11313,
+      "time": 131.5465116,
+      "track": 0,
+      "channel": 0,
+      "pitch": 42,
+      "velocity": 66
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 128,
+    "time": 132.24,
+    "kind": "ground",
+    "notesInWindow": 23,
+    "representativeNote": {
+      "tick": 11381,
+      "time": 132.3372093,
+      "track": 0,
+      "channel": 0,
+      "pitch": 46,
+      "velocity": 72
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 129,
+    "time": 132.6,
+    "kind": "ground",
+    "notesInWindow": 20,
+    "representativeNote": {
+      "tick": 11409,
+      "time": 132.6627907,
+      "track": 0,
+      "channel": 0,
+      "pitch": 42,
+      "velocity": 69
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 130,
+    "time": 133.32,
+    "kind": "air",
+    "notesInWindow": 15,
+    "representativeNote": {
+      "tick": 11472,
+      "time": 133.3953488,
+      "track": 0,
+      "channel": 0,
+      "pitch": 44,
+      "velocity": 79
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 131,
+    "time": 133.8,
+    "kind": "ground",
+    "notesInWindow": 18,
+    "representativeNote": {
+      "tick": 11509,
+      "time": 133.8255814,
+      "track": 0,
+      "channel": 0,
+      "pitch": 44,
+      "velocity": 69
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 132,
+    "time": 134.16,
+    "kind": "air",
+    "notesInWindow": 21,
+    "representativeNote": {
+      "tick": 11545,
+      "time": 134.244186,
+      "track": 0,
+      "channel": 0,
+      "pitch": 89,
+      "velocity": 69
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 133,
+    "time": 134.52,
+    "kind": "air",
+    "notesInWindow": 14,
+    "representativeNote": {
+      "tick": 11572,
+      "time": 134.5581395,
+      "track": 0,
+      "channel": 0,
+      "pitch": 43,
+      "velocity": 72
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 134,
+    "time": 135.0,
+    "kind": "air",
+    "notesInWindow": 13,
+    "representativeNote": {
+      "tick": 11618,
+      "time": 135.0930233,
+      "track": 0,
+      "channel": 0,
+      "pitch": 46,
+      "velocity": 86
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 135,
+    "time": 135.6,
+    "kind": "ground",
+    "notesInWindow": 18,
+    "representativeNote": {
+      "tick": 11663,
+      "time": 135.6162791,
+      "track": 0,
+      "channel": 0,
+      "pitch": 47,
+      "velocity": 83
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 136,
+    "time": 136.08,
+    "kind": "ground",
+    "notesInWindow": 21,
+    "representativeNote": {
+      "tick": 11709,
+      "time": 136.1511628,
+      "track": 0,
+      "channel": 0,
+      "pitch": 45,
+      "velocity": 79
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 137,
+    "time": 136.68,
+    "kind": "ground",
+    "notesInWindow": 17,
+    "representativeNote": {
+      "tick": 11755,
+      "time": 136.6860465,
+      "track": 0,
+      "channel": 0,
+      "pitch": 44,
+      "velocity": 73
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 138,
+    "time": 137.16,
+    "kind": "air",
+    "notesInWindow": 15,
+    "representativeNote": {
+      "tick": 11801,
+      "time": 137.2209302,
+      "track": 0,
+      "channel": 0,
+      "pitch": 47,
+      "velocity": 76
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 139,
+    "time": 138.12,
+    "kind": "air",
+    "notesInWindow": 16,
+    "representativeNote": {
+      "tick": 11884,
+      "time": 138.1860465,
+      "track": 0,
+      "channel": 0,
+      "pitch": 72,
+      "velocity": 65
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 140,
+    "time": 139.08,
+    "kind": "air",
+    "notesInWindow": 16,
+    "representativeNote": {
+      "tick": 11965,
+      "time": 139.127907,
+      "track": 0,
+      "channel": 0,
+      "pitch": 71,
+      "velocity": 67
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 141,
+    "time": 139.44,
+    "kind": "air",
+    "notesInWindow": 19,
+    "representativeNote": {
+      "tick": 11993,
+      "time": 139.4534884,
+      "track": 0,
+      "channel": 0,
+      "pitch": 72,
+      "velocity": 63
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 142,
+    "time": 139.92,
+    "kind": "air",
+    "notesInWindow": 18,
+    "representativeNote": {
+      "tick": 12038,
+      "time": 139.9767442,
+      "track": 0,
+      "channel": 0,
+      "pitch": 45,
+      "velocity": 73
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 143,
+    "time": 140.28,
+    "kind": "air",
+    "notesInWindow": 17,
+    "representativeNote": {
+      "tick": 12071,
+      "time": 140.3604651,
+      "track": 0,
+      "channel": 0,
+      "pitch": 72,
+      "velocity": 66
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 144,
+    "time": 142.44,
+    "kind": "ground",
+    "notesInWindow": 20,
+    "representativeNote": {
+      "tick": 12259,
+      "time": 142.5465116,
+      "track": 0,
+      "channel": 0,
+      "pitch": 72,
+      "velocity": 73
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 145,
+    "time": 143.16,
+    "kind": "air",
+    "notesInWindow": 13,
+    "representativeNote": {
+      "tick": 12320,
+      "time": 143.255814,
+      "track": 0,
+      "channel": 0,
+      "pitch": 44,
+      "velocity": 70
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 146,
+    "time": 143.52,
+    "kind": "air",
+    "notesInWindow": 16,
+    "representativeNote": {
+      "tick": 12343,
+      "time": 143.5232558,
+      "track": 0,
+      "channel": 0,
+      "pitch": 45,
+      "velocity": 73
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 147,
+    "time": 144.0,
+    "kind": "air",
+    "notesInWindow": 18,
+    "representativeNote": {
+      "tick": 12385,
+      "time": 144.0116279,
+      "track": 0,
+      "channel": 0,
+      "pitch": 71,
+      "velocity": 56
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 148,
+    "time": 144.36,
+    "kind": "air",
+    "notesInWindow": 16,
+    "representativeNote": {
+      "tick": 12417,
+      "time": 144.3837209,
+      "track": 0,
+      "channel": 0,
+      "pitch": 46,
+      "velocity": 65
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 149,
+    "time": 144.72,
+    "kind": "air",
+    "notesInWindow": 18,
+    "representativeNote": {
+      "tick": 12455,
+      "time": 144.8255814,
+      "track": 0,
+      "channel": 0,
+      "pitch": 57,
+      "velocity": 66
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 150,
+    "time": 145.92,
+    "kind": "air",
+    "notesInWindow": 16,
+    "representativeNote": {
+      "tick": 12555,
+      "time": 145.9883721,
+      "track": 0,
+      "channel": 0,
+      "pitch": 45,
+      "velocity": 75
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 151,
+    "time": 147.6,
+    "kind": "ground",
+    "notesInWindow": 27,
+    "representativeNote": {
+      "tick": 12703,
+      "time": 147.7093023,
+      "track": 0,
+      "channel": 0,
+      "pitch": 73,
+      "velocity": 79
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 152,
+    "time": 148.08,
+    "kind": "air",
+    "notesInWindow": 13,
+    "representativeNote": {
+      "tick": 12743,
+      "time": 148.1744186,
+      "track": 0,
+      "channel": 0,
+      "pitch": 47,
+      "velocity": 76
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 153,
+    "time": 149.52,
+    "kind": "ground",
+    "notesInWindow": 23,
+    "representativeNote": {
+      "tick": 12859,
+      "time": 149.5232558,
+      "track": 0,
+      "channel": 0,
+      "pitch": 75,
+      "velocity": 77
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 154,
+    "time": 150.36,
+    "kind": "air",
+    "notesInWindow": 13,
+    "representativeNote": {
+      "tick": 12936,
+      "time": 150.4186047,
+      "track": 0,
+      "channel": 0,
+      "pitch": 46,
+      "velocity": 71
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 155,
+    "time": 152.04,
+    "kind": "ground",
+    "notesInWindow": 21,
+    "representativeNote": {
+      "tick": 13076,
+      "time": 152.0465116,
+      "track": 0,
+      "channel": 0,
+      "pitch": 75,
+      "velocity": 85
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 156,
+    "time": 153.6,
+    "kind": "air",
+    "notesInWindow": 14,
+    "representativeNote": {
+      "tick": 13213,
+      "time": 153.6395349,
+      "track": 0,
+      "channel": 0,
+      "pitch": 45,
+      "velocity": 78
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 157,
+    "time": 154.2,
+    "kind": "ground",
+    "notesInWindow": 29,
+    "representativeNote": {
+      "tick": 13262,
+      "time": 154.2093023,
+      "track": 0,
+      "channel": 0,
+      "pitch": 74,
+      "velocity": 75
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 158,
+    "time": 154.56,
+    "kind": "ground",
+    "notesInWindow": 17,
+    "representativeNote": {
+      "tick": 13296,
+      "time": 154.6046512,
+      "track": 0,
+      "channel": 0,
+      "pitch": 50,
+      "velocity": 74
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 159,
+    "time": 154.92,
+    "kind": "air",
+    "notesInWindow": 17,
+    "representativeNote": {
+      "tick": 13331,
+      "time": 155.0116279,
+      "track": 0,
+      "channel": 0,
+      "pitch": 67,
+      "velocity": 68
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 160,
+    "time": 155.76,
+    "kind": "air",
+    "notesInWindow": 15,
+    "representativeNote": {
+      "tick": 13401,
+      "time": 155.8255814,
+      "track": 0,
+      "channel": 0,
+      "pitch": 96,
+      "velocity": 62
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 161,
+    "time": 156.36,
+    "kind": "air",
+    "notesInWindow": 12,
+    "representativeNote": {
+      "tick": 13448,
+      "time": 156.372093,
+      "track": 0,
+      "channel": 0,
+      "pitch": 45,
+      "velocity": 72
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 162,
+    "time": 156.84,
+    "kind": "air",
+    "notesInWindow": 14,
+    "representativeNote": {
+      "tick": 13495,
+      "time": 156.9186047,
+      "track": 0,
+      "channel": 0,
+      "pitch": 45,
+      "velocity": 78
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 163,
+    "time": 158.16,
+    "kind": "air",
+    "notesInWindow": 13,
+    "representativeNote": {
+      "tick": 13602,
+      "time": 158.1627907,
+      "track": 0,
+      "channel": 0,
+      "pitch": 45,
+      "velocity": 70
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 164,
+    "time": 161.16,
+    "kind": "air",
+    "notesInWindow": 14,
+    "representativeNote": {
+      "tick": 13869,
+      "time": 161.2674419,
+      "track": 0,
+      "channel": 0,
+      "pitch": 45,
+      "velocity": 74
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 165,
+    "time": 161.76,
+    "kind": "air",
+    "notesInWindow": 13,
+    "representativeNote": {
+      "tick": 13916,
+      "time": 161.8139535,
+      "track": 0,
+      "channel": 0,
+      "pitch": 45,
+      "velocity": 87
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 166,
+    "time": 162.84,
+    "kind": "air",
+    "notesInWindow": 18,
+    "representativeNote": {
+      "tick": 14014,
+      "time": 162.9534884,
+      "track": 0,
+      "channel": 0,
+      "pitch": 48,
+      "velocity": 74
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 167,
+    "time": 163.44,
+    "kind": "air",
+    "notesInWindow": 13,
+    "representativeNote": {
+      "tick": 14058,
+      "time": 163.4651163,
+      "track": 0,
+      "channel": 0,
+      "pitch": 45,
+      "velocity": 71
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 168,
+    "time": 163.92,
+    "kind": "air",
+    "notesInWindow": 15,
+    "representativeNote": {
+      "tick": 14105,
+      "time": 164.0116279,
+      "track": 0,
+      "channel": 0,
+      "pitch": 48,
+      "velocity": 73
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 169,
+    "time": 164.52,
+    "kind": "air",
+    "notesInWindow": 13,
+    "representativeNote": {
+      "tick": 14153,
+      "time": 164.5697674,
+      "track": 0,
+      "channel": 0,
+      "pitch": 46,
+      "velocity": 75
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 170,
+    "time": 165.0,
+    "kind": "air",
+    "notesInWindow": 16,
+    "representativeNote": {
+      "tick": 14198,
+      "time": 165.0930233,
+      "track": 0,
+      "channel": 0,
+      "pitch": 46,
+      "velocity": 65
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 171,
+    "time": 165.84,
+    "kind": "air",
+    "notesInWindow": 18,
+    "representativeNote": {
+      "tick": 14270,
+      "time": 165.9302326,
+      "track": 0,
+      "channel": 0,
+      "pitch": 56,
+      "velocity": 71
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 172,
+    "time": 166.92,
+    "kind": "air",
+    "notesInWindow": 14,
+    "representativeNote": {
+      "tick": 14361,
+      "time": 166.9883721,
+      "track": 0,
+      "channel": 0,
+      "pitch": 57,
+      "velocity": 79
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  },
+  {
+    "index": 173,
+    "time": 169.2,
+    "kind": "ground",
+    "notesInWindow": 18,
+    "representativeNote": {
+      "tick": 14559,
+      "time": 169.2906977,
+      "track": 0,
+      "channel": 0,
+      "pitch": 45,
+      "velocity": 68
+    },
+    "flags": [
+      "unvalidated_by_ear",
+      "classification_by_intensity_not_instrument",
+      "binned_120ms_not_exact_note_onset"
+    ]
+  }
+]

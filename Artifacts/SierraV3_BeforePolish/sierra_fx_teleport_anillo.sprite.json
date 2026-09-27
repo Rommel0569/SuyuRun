@@ -1,0 +1,74 @@
+{
+  "name": "sierra_fx_teleport_anillo",
+  "file": "sierra_fx_teleport_anillo.png",
+  "width": 64,
+  "height": 64,
+  "count": 8,
+  "fps": 10,
+  "loop": false,
+  "kind": "sprite",
+  "factor": 1,
+  "biome": "shared",
+  "pivotX": 0.5,
+  "pivotY": 0,
+  "ppu": 32,
+  "frames": [
+    {
+      "name": "sierra_fx_teleport_anillo_0",
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64
+    },
+    {
+      "name": "sierra_fx_teleport_anillo_1",
+      "x": 64,
+      "y": 0,
+      "width": 64,
+      "height": 64
+    },
+    {
+      "name": "sierra_fx_teleport_anillo_2",
+      "x": 128,
+      "y": 0,
+      "width": 64,
+      "height": 64
+    },
+    {
+      "name": "sierra_fx_teleport_anillo_3",
+      "x": 192,
+      "y": 0,
+      "width": 64,
+      "height": 64
+    },
+    {
+      "name": "sierra_fx_teleport_anillo_4",
+      "x": 256,
+      "y": 0,
+      "width": 64,
+      "height": 64
+    },
+    {
+      "name": "sierra_fx_teleport_anillo_5",
+      "x": 320,
+      "y": 0,
+      "width": 64,
+      "height": 64
+    },
+    {
+      "name": "sierra_fx_teleport_anillo_6",
+      "x": 384,
+      "y": 0,
+      "width": 64,
+      "height": 64
+    },
+    {
+      "name": "sierra_fx_teleport_anillo_7",
+      "x": 448,
+      "y": 0,
+      "width": 64,
+      "height": 64
+    }
+  ],
+  "notes": ""
+}

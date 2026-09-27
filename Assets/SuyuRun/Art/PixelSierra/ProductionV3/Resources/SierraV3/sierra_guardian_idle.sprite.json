@@ -1,0 +1,46 @@
+{
+  "name": "sierra_guardian_idle",
+  "file": "sierra_guardian_idle.png",
+  "width": 48,
+  "height": 48,
+  "count": 4,
+  "fps": 8,
+  "loop": true,
+  "kind": "sprite",
+  "factor": 1,
+  "biome": "shared",
+  "pivotX": 0.5,
+  "pivotY": 0,
+  "ppu": 32,
+  "frames": [
+    {
+      "name": "sierra_guardian_idle_0",
+      "x": 0,
+      "y": 0,
+      "width": 48,
+      "height": 48
+    },
+    {
+      "name": "sierra_guardian_idle_1",
+      "x": 48,
+      "y": 0,
+      "width": 48,
+      "height": 48
+    },
+    {
+      "name": "sierra_guardian_idle_2",
+      "x": 96,
+      "y": 0,
+      "width": 48,
+      "height": 48
+    },
+    {
+      "name": "sierra_guardian_idle_3",
+      "x": 144,
+      "y": 0,
+      "width": 48,
+      "height": 48
+    }
+  ],
+  "notes": "Enemigo fant\u00e1stico original de piedra animada con huaraca, NO figura hist\u00f3rica. Aviso visual antes del proyectil; lanzamiento frame4."
+}

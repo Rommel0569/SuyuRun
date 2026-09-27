@@ -1,0 +1,46 @@
+{
+  "name": "sierra_cueva_oro",
+  "file": "sierra_cueva_oro.png",
+  "width": 64,
+  "height": 32,
+  "count": 4,
+  "fps": 5,
+  "loop": true,
+  "kind": "sprite",
+  "factor": 1,
+  "biome": "shared",
+  "pivotX": 0.5,
+  "pivotY": 0,
+  "ppu": 32,
+  "frames": [
+    {
+      "name": "sierra_cueva_oro_0",
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 32
+    },
+    {
+      "name": "sierra_cueva_oro_1",
+      "x": 64,
+      "y": 0,
+      "width": 64,
+      "height": 32
+    },
+    {
+      "name": "sierra_cueva_oro_2",
+      "x": 128,
+      "y": 0,
+      "width": 64,
+      "height": 32
+    },
+    {
+      "name": "sierra_cueva_oro_3",
+      "x": 192,
+      "y": 0,
+      "width": 64,
+      "height": 32
+    }
+  ],
+  "notes": ""
+}

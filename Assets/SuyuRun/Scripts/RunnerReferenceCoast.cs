@@ -125,17 +125,9 @@ namespace SuyuRun
             if(!monedaIcon)foreach(var s in Resources.LoadAll<Sprite>("costa_coleccionables"))if(s.name=="moneda_0")monedaIcon=s;
             // Top bar: costa_hud.png's panel_h, stretched (its adobe joint ticks are subtle enough
             // not to smear noticeably), with the 4 patrimony-piece slots, coin and points readouts.
-            DrawSprite(new Rect(16,10,1248,40),HudSprite("panel_h"));
-            for(int i=0;i<4;i++)
-            {
-                Rect sr=new Rect(24+i*44,14,32,32);
-                DrawSprite(sr,HudSprite("piece_slot"));
-                if(discovered[i]){GUI.color=gold;DrawSprite(new Rect(sr.x+6,sr.y+6,20,20),monedaIcon);GUI.color=Color.white;}
-            }
-            DrawSprite(new Rect(860,16,24,24),monedaIcon);
-            GUI.Label(new Rect(888,15,140,26),$"{coins:00}",small);
-            DrawSprite(new Rect(1040,16,24,24),HudSprite("icon_puntos"));
-            GUI.Label(new Rect(1068,15,196,26),$"{score:0000}",small);
+            RunnerHud.Draw(1,coins,score,small,i=>discovered[i],
+                r=>DrawSprite(r,HudSprite("panel_h")),r=>DrawSprite(r,HudSprite("piece_slot")),
+                r=>DrawSprite(r,monedaIcon),r=>DrawSprite(r,HudSprite("icon_puntos")),gold);
             var sandText=new GUIStyle(small);sandText.normal.textColor=new Color32(57,40,61,255);
             GUI.Label(new Rect(20,654,1200,26),$"ESPACIO saltar · S deslizar · E ráfaga {energy:0}% · ESC pausa     {ProgressSeconds:0} / {Duration:0}s",sandText);
             // Bottom progress bar: frame + fill sprite instead of a flat gold rect.

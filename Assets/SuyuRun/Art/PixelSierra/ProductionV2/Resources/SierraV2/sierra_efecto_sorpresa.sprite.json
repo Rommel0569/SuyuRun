@@ -1,0 +1,39 @@
+{
+  "name": "sierra_efecto_sorpresa",
+  "file": "sierra_efecto_sorpresa.png",
+  "width": 32,
+  "height": 32,
+  "count": 3,
+  "fps": 7,
+  "loop": false,
+  "kind": "sprite",
+  "factor": 1,
+  "biome": "shared",
+  "pivotX": 0.5,
+  "pivotY": 0,
+  "ppu": 32,
+  "frames": [
+    {
+      "name": "sierra_efecto_sorpresa_0",
+      "x": 0,
+      "y": 0,
+      "width": 32,
+      "height": 32
+    },
+    {
+      "name": "sierra_efecto_sorpresa_1",
+      "x": 32,
+      "y": 0,
+      "width": 32,
+      "height": 32
+    },
+    {
+      "name": "sierra_efecto_sorpresa_2",
+      "x": 64,
+      "y": 0,
+      "width": 32,
+      "height": 32
+    }
+  ],
+  "notes": "Reutiliza el ?! existente, remapeado sin modificar Costa."
+}

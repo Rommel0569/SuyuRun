@@ -6,6 +6,14 @@ namespace SuyuRun
     {
         bool ownsSong;
         AudioSource menuMusic;
+        MuseumAmbience museumAmbience;
+        void UpdateMuseumMusic()
+        {
+            if(legacyPrototype)return;
+            if(!museumAmbience)museumAmbience=gameObject.AddComponent<MuseumAmbience>();
+            museumAmbience.Tick(SharedMuseumVisible,musicVolumeMul);
+            if(menuMusic)menuMusic.volume=BaseMenuMusicVolume*musicVolumeMul*(1-museumAmbience.Mix);
+        }
         void SetupMenuMusic()
         {
             if(legacyPrototype)return;

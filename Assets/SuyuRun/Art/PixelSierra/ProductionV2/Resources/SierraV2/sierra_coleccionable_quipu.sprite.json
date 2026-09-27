@@ -1,0 +1,46 @@
+{
+  "name": "sierra_coleccionable_quipu",
+  "file": "sierra_coleccionable_quipu.png",
+  "width": 16,
+  "height": 16,
+  "count": 4,
+  "fps": 5,
+  "loop": true,
+  "kind": "sprite",
+  "factor": 1,
+  "biome": "shared",
+  "pivotX": 0.5,
+  "pivotY": 0,
+  "ppu": 32,
+  "frames": [
+    {
+      "name": "sierra_coleccionable_quipu_0",
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    {
+      "name": "sierra_coleccionable_quipu_1",
+      "x": 16,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    {
+      "name": "sierra_coleccionable_quipu_2",
+      "x": 32,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    {
+      "name": "sierra_coleccionable_quipu_3",
+      "x": 48,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  ],
+  "notes": "Interpretaci\u00f3n estilizada. La cabeza clava pertenece a Chav\u00edn, NO atribuir a Machu Picchu; museo debe explicarlo."
+}

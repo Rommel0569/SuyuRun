@@ -1,0 +1,1 @@
+Running 2.97 Pads=0; Orbs=0; Dives=0; Escapes=0; PaidRevives=0; Guide=False; Cave=None; Done=0/2; Local=0.00; Kills=0; Spawn=; Reloads=; Jumps=0; Position=; HP=; Boss=; Remaining=; Exit=; Extra=0; Music=0.291/0.000; Hits=

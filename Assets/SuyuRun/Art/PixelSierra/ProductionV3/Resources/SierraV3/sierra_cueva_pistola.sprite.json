@@ -1,0 +1,25 @@
+{
+  "name": "sierra_cueva_pistola",
+  "file": "sierra_cueva_pistola.png",
+  "width": 12,
+  "height": 8,
+  "count": 1,
+  "fps": 6,
+  "loop": true,
+  "kind": "sprite",
+  "factor": 1,
+  "biome": "shared",
+  "pivotX": 0.5,
+  "pivotY": 0,
+  "ppu": 32,
+  "frames": [
+    {
+      "name": "sierra_cueva_pistola_0",
+      "x": 0,
+      "y": 0,
+      "width": 12,
+      "height": 8
+    }
+  ],
+  "notes": ""
+}

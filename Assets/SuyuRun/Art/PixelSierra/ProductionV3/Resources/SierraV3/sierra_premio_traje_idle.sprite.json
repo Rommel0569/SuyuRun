@@ -1,0 +1,32 @@
+{
+  "name": "sierra_premio_traje_idle",
+  "file": "sierra_premio_traje_idle.png",
+  "width": 48,
+  "height": 48,
+  "count": 2,
+  "fps": 2,
+  "loop": true,
+  "kind": "sprite",
+  "factor": 1,
+  "biome": "shared",
+  "pivotX": 0.5,
+  "pivotY": 0,
+  "ppu": 32,
+  "frames": [
+    {
+      "name": "sierra_premio_traje_idle_0",
+      "x": 0,
+      "y": 0,
+      "width": 48,
+      "height": 48
+    },
+    {
+      "name": "sierra_premio_traje_idle_1",
+      "x": 48,
+      "y": 0,
+      "width": 48,
+      "height": 48
+    }
+  ],
+  "notes": ""
+}

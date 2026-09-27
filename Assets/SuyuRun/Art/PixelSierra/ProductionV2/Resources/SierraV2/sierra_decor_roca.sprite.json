@@ -1,0 +1,25 @@
+{
+  "name": "sierra_decor_roca",
+  "file": "sierra_decor_roca.png",
+  "width": 48,
+  "height": 32,
+  "count": 1,
+  "fps": 5,
+  "loop": true,
+  "kind": "sprite",
+  "factor": 1,
+  "biome": "shared",
+  "pivotX": 0.5,
+  "pivotY": 0,
+  "ppu": 32,
+  "frames": [
+    {
+      "name": "sierra_decor_roca_0",
+      "x": 0,
+      "y": 0,
+      "width": 48,
+      "height": 32
+    }
+  ],
+  "notes": "M\u00f3dulo independiente, no extra\u00eddo del fondo; decoraci\u00f3n sin colisi\u00f3n por defecto."
+}

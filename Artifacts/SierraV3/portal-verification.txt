@@ -1,0 +1,1 @@
+PASS: actual Costa ending -> curtain -> LoadScene Sierra -> arrival -> Running; replay resets Camino; errors=0; 2026-09-26T18:14:20.4456429-05:00

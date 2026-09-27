@@ -1,0 +1,318 @@
+{
+  "duration": 177.5543,
+  "speedPixelsPerSecond": 224,
+  "status": "fixed_authored_draft_pending_human_play_and_ear_review",
+  "timing": "MIDI-derived existing120ms accent bins. No tempo stretch. Mobility offsets are authored choreography.",
+  "events": [
+    {
+      "sourceIndex": -1,
+      "t": 6.0,
+      "beat": 12,
+      "kind": "puddle",
+      "validation": "auditory_review_pending",
+      "reason": "authored_on_declared_midi_grid"
+    },
+    {
+      "sourceIndex": 7,
+      "t": 8.52,
+      "beat": 17.04,
+      "kind": "jump",
+      "validation": "auditory_review_pending",
+      "reason": "authored_ground_sequence"
+    },
+    {
+      "sourceIndex": -1,
+      "t": 11.0,
+      "beat": 22,
+      "kind": "rock",
+      "validation": "auditory_review_pending",
+      "reason": "authored_on_declared_midi_grid"
+    },
+    {
+      "sourceIndex": -1,
+      "t": 13.5,
+      "beat": 27,
+      "kind": "spike_pair",
+      "validation": "auditory_review_pending",
+      "reason": "authored_on_declared_midi_grid"
+    },
+    {
+      "sourceIndex": 11,
+      "t": 21.6,
+      "beat": 43.2,
+      "kind": "rock",
+      "validation": "auditory_review_pending",
+      "reason": "variety_with_reaction_clearance"
+    },
+    {
+      "sourceIndex": 12,
+      "t": 24.0,
+      "beat": 48.0,
+      "kind": "jump",
+      "validation": "auditory_review_pending",
+      "reason": "authored_ground_sequence"
+    },
+    {
+      "sourceIndex": 18,
+      "t": 28.44,
+      "beat": 56.88,
+      "kind": "slide",
+      "validation": "auditory_review_pending",
+      "reason": "authored_ground_sequence"
+    },
+    {
+      "sourceIndex": -1,
+      "t": 31.0,
+      "beat": 62,
+      "kind": "log",
+      "validation": "auditory_review_pending",
+      "reason": "authored_on_declared_midi_grid"
+    },
+    {
+      "sourceIndex": 22,
+      "t": 38.04,
+      "beat": 76.08,
+      "kind": "guardian",
+      "validation": "auditory_review_pending",
+      "reason": "authored_ground_sequence"
+    },
+    {
+      "sourceIndex": 25,
+      "t": 40.44,
+      "beat": 80.88,
+      "kind": "slide",
+      "validation": "auditory_review_pending",
+      "reason": "variety_with_reaction_clearance"
+    },
+    {
+      "sourceIndex": 29,
+      "t": 43.44,
+      "beat": 86.88,
+      "kind": "jump",
+      "validation": "auditory_review_pending",
+      "reason": "authored_ground_sequence"
+    },
+    {
+      "sourceIndex": 33,
+      "t": 45.96,
+      "beat": 91.92,
+      "kind": "log",
+      "validation": "auditory_review_pending",
+      "reason": "variety_with_reaction_clearance"
+    },
+    {
+      "sourceIndex": 42,
+      "t": 53.04,
+      "beat": 106.08,
+      "kind": "jump",
+      "validation": "auditory_review_pending",
+      "reason": "authored_ground_sequence"
+    },
+    {
+      "sourceIndex": 45,
+      "t": 56.04,
+      "beat": 112.08,
+      "kind": "bird",
+      "validation": "auditory_review_pending",
+      "reason": "optional_aerial_target"
+    },
+    {
+      "sourceIndex": 69,
+      "t": 71.52,
+      "beat": 143.04,
+      "kind": "bird",
+      "validation": "auditory_review_pending",
+      "reason": "optional_aerial_target"
+    },
+    {
+      "sourceIndex": -1,
+      "t": 92.0,
+      "beat": 184,
+      "kind": "jump",
+      "validation": "auditory_review_pending",
+      "reason": "authored_on_declared_midi_grid"
+    },
+    {
+      "sourceIndex": -1,
+      "t": 100.5,
+      "beat": 201,
+      "kind": "slide",
+      "validation": "auditory_review_pending",
+      "reason": "authored_on_declared_midi_grid"
+    },
+    {
+      "sourceIndex": 88,
+      "t": 103.8,
+      "beat": 207.6,
+      "kind": "jump",
+      "validation": "auditory_review_pending",
+      "reason": "authored_ground_sequence"
+    },
+    {
+      "sourceIndex": 93,
+      "t": 109.56,
+      "beat": 219.12,
+      "kind": "spike_pair",
+      "validation": "auditory_review_pending",
+      "reason": "variety_with_reaction_clearance"
+    },
+    {
+      "sourceIndex": 98,
+      "t": 112.56,
+      "beat": 225.12,
+      "kind": "bird",
+      "validation": "auditory_review_pending",
+      "reason": "optional_aerial_target"
+    },
+    {
+      "sourceIndex": 101,
+      "t": 114.84,
+      "beat": 229.68,
+      "kind": "puddle",
+      "validation": "auditory_review_pending",
+      "reason": "variety_with_reaction_clearance"
+    },
+    {
+      "sourceIndex": 111,
+      "t": 122.16,
+      "beat": 244.32,
+      "kind": "double_jump",
+      "validation": "auditory_review_pending",
+      "reason": "authored_ground_sequence"
+    },
+    {
+      "sourceIndex": 114,
+      "t": 124.92,
+      "beat": 249.84,
+      "kind": "bird",
+      "validation": "auditory_review_pending",
+      "reason": "optional_aerial_target"
+    },
+    {
+      "sourceIndex": 121,
+      "t": 129.0,
+      "beat": 258.0,
+      "kind": "guardian",
+      "validation": "auditory_review_pending",
+      "reason": "authored_ground_sequence"
+    },
+    {
+      "sourceIndex": 128,
+      "t": 132.24,
+      "beat": 264.48,
+      "kind": "slide",
+      "validation": "auditory_review_pending",
+      "reason": "authored_ground_sequence"
+    },
+    {
+      "sourceIndex": 135,
+      "t": 135.6,
+      "beat": 271.2,
+      "kind": "jump",
+      "validation": "auditory_review_pending",
+      "reason": "authored_ground_sequence"
+    },
+    {
+      "sourceIndex": 144,
+      "t": 142.44,
+      "beat": 284.88,
+      "kind": "guardian",
+      "validation": "auditory_review_pending",
+      "reason": "authored_ground_sequence"
+    },
+    {
+      "sourceIndex": 149,
+      "t": 144.72,
+      "beat": 289.44,
+      "kind": "guardian",
+      "validation": "auditory_review_pending",
+      "reason": "variety_with_reaction_clearance"
+    },
+    {
+      "sourceIndex": 163,
+      "t": 158.16,
+      "beat": 316.32,
+      "kind": "double_jump",
+      "validation": "auditory_review_pending",
+      "reason": "variety_with_reaction_clearance"
+    },
+    {
+      "sourceIndex": 169,
+      "t": 164.52,
+      "beat": 329.04,
+      "kind": "rock",
+      "validation": "auditory_review_pending",
+      "reason": "variety_with_reaction_clearance"
+    },
+    {
+      "sourceIndex": 172,
+      "t": 166.92,
+      "beat": 333.84,
+      "kind": "slide",
+      "validation": "auditory_review_pending",
+      "reason": "variety_with_reaction_clearance"
+    },
+    {
+      "sourceIndex": 173,
+      "t": 169.2,
+      "beat": 338.4,
+      "kind": "guardian",
+      "validation": "auditory_review_pending",
+      "reason": "authored_ground_sequence"
+    }
+  ],
+  "mobility": [
+    {
+      "t": 17.52,
+      "sourceIndex": 9,
+      "kind": "launch_orb_dive",
+      "validation": "auditory_review_pending"
+    },
+    {
+      "t": 34.68,
+      "sourceIndex": 19,
+      "kind": "launch_orb_dive",
+      "validation": "auditory_review_pending"
+    },
+    {
+      "t": 49.8,
+      "sourceIndex": 37,
+      "kind": "launch_orb_dive",
+      "validation": "auditory_review_pending"
+    },
+    {
+      "t": 75.0,
+      "sourceIndex": 70,
+      "kind": "launch_orb_dive",
+      "validation": "auditory_review_pending"
+    },
+    {
+      "t": 106.32,
+      "sourceIndex": 91,
+      "kind": "launch_orb_dive",
+      "validation": "auditory_review_pending"
+    },
+    {
+      "t": 139.08,
+      "sourceIndex": 140,
+      "kind": "launch_orb_dive",
+      "validation": "auditory_review_pending"
+    },
+    {
+      "t": 161.16,
+      "sourceIndex": 164,
+      "kind": "launch_orb_dive",
+      "validation": "auditory_review_pending"
+    }
+  ],
+  "waves": [
+    {
+      "t": 85.0,
+      "count": 3
+    },
+    {
+      "t": 147.0,
+      "count": 5
+    }
+  ]
+}

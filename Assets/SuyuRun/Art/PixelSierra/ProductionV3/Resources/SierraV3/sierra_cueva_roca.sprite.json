@@ -1,0 +1,25 @@
+{
+  "name": "sierra_cueva_roca",
+  "file": "sierra_cueva_roca.png",
+  "width": 32,
+  "height": 32,
+  "count": 1,
+  "fps": 6,
+  "loop": true,
+  "kind": "sprite",
+  "factor": 1,
+  "biome": "shared",
+  "pivotX": 0.5,
+  "pivotY": 0,
+  "ppu": 32,
+  "frames": [
+    {
+      "name": "sierra_cueva_roca_0",
+      "x": 0,
+      "y": 0,
+      "width": 32,
+      "height": 32
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,60 @@
+{
+  "name": "sierra_valle_capa5_rio",
+  "file": "sierra_valle_capa5_rio.png",
+  "width": 640,
+  "height": 180,
+  "count": 6,
+  "fps": 8,
+  "loop": true,
+  "kind": "layer",
+  "factor": 0.3,
+  "biome": "valle",
+  "pivotX": 0,
+  "pivotY": 1,
+  "ppu": 32,
+  "frames": [
+    {
+      "name": "sierra_valle_capa5_rio_0",
+      "x": 0,
+      "y": 900,
+      "width": 640,
+      "height": 180
+    },
+    {
+      "name": "sierra_valle_capa5_rio_1",
+      "x": 0,
+      "y": 720,
+      "width": 640,
+      "height": 180
+    },
+    {
+      "name": "sierra_valle_capa5_rio_2",
+      "x": 0,
+      "y": 540,
+      "width": 640,
+      "height": 180
+    },
+    {
+      "name": "sierra_valle_capa5_rio_3",
+      "x": 0,
+      "y": 360,
+      "width": 640,
+      "height": 180
+    },
+    {
+      "name": "sierra_valle_capa5_rio_4",
+      "x": 0,
+      "y": 180,
+      "width": 640,
+      "height": 180
+    },
+    {
+      "name": "sierra_valle_capa5_rio_5",
+      "x": 0,
+      "y": 0,
+      "width": 640,
+      "height": 180
+    }
+  ],
+  "notes": "Cauce independiente dibujado completo, alineado con dos gargantas de capa4; mismo offset de scroll.6frames."
+}

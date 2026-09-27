@@ -1,0 +1,51 @@
+{
+  "name": "sierra_ruinas_pilar",
+  "file": "sierra_ruinas_pilar.png",
+  "width": 24,
+  "height": 64,
+  "count": 1,
+  "fps": 6,
+  "loop": true,
+  "kind": "sprite",
+  "factor": 1,
+  "biome": "ruinas",
+  "pivotX": 0.5,
+  "pivotY": 0,
+  "ppu": 32,
+  "frames": [
+    {
+      "name": "sierra_ruinas_pilar_0",
+      "x": 0,
+      "y": 0,
+      "width": 24,
+      "height": 64
+    }
+  ],
+  "notes": "M\u00f3dulo original de mamposter\u00eda; perfil superior para colisi\u00f3n.",
+  "surfaceY": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ]
+}

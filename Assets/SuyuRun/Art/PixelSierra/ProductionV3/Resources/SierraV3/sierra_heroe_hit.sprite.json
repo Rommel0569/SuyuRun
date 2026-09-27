@@ -1,0 +1,32 @@
+{
+  "name": "sierra_heroe_hit",
+  "file": "sierra_heroe_hit.png",
+  "width": 48,
+  "height": 48,
+  "count": 2,
+  "fps": 6,
+  "loop": false,
+  "kind": "sprite",
+  "factor": 1,
+  "biome": "shared",
+  "pivotX": 0.5,
+  "pivotY": 0,
+  "ppu": 32,
+  "frames": [
+    {
+      "name": "sierra_heroe_hit_0",
+      "x": 0,
+      "y": 0,
+      "width": 48,
+      "height": 48
+    },
+    {
+      "name": "sierra_heroe_hit_1",
+      "x": 48,
+      "y": 0,
+      "width": 48,
+      "height": 48
+    }
+  ],
+  "notes": "Mismo cuerpo/rostro Costa remapeado a paleta Sierra; brazos a\u00f1adidos. Base48x48."
+}

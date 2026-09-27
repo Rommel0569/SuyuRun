@@ -1,0 +1,32 @@
+{
+  "name": "sierra_heroe_huaraca_cargar",
+  "file": "sierra_heroe_huaraca_cargar.png",
+  "width": 48,
+  "height": 48,
+  "count": 2,
+  "fps": 10,
+  "loop": false,
+  "kind": "sprite",
+  "factor": 1,
+  "biome": "shared",
+  "pivotX": 0.5,
+  "pivotY": 0,
+  "ppu": 32,
+  "frames": [
+    {
+      "name": "sierra_heroe_huaraca_cargar_0",
+      "x": 0,
+      "y": 0,
+      "width": 48,
+      "height": 48
+    },
+    {
+      "name": "sierra_heroe_huaraca_cargar_1",
+      "x": 48,
+      "y": 0,
+      "width": 48,
+      "height": 48
+    }
+  ],
+  "notes": "Cargar piedra, dos cuerdas y cuna roja trenzada, giro, flexi\u00f3n/extensi\u00f3n. Piernas corriendo. Release runtime a0.8s, solo click v\u00e1lido."
+}

@@ -1,0 +1,46 @@
+{
+  "name": "sierra_heroe_huaraca_lanzar",
+  "file": "sierra_heroe_huaraca_lanzar.png",
+  "width": 48,
+  "height": 48,
+  "count": 4,
+  "fps": 12,
+  "loop": false,
+  "kind": "sprite",
+  "factor": 1,
+  "biome": "shared",
+  "pivotX": 0.5,
+  "pivotY": 0,
+  "ppu": 32,
+  "frames": [
+    {
+      "name": "sierra_heroe_huaraca_lanzar_0",
+      "x": 0,
+      "y": 0,
+      "width": 48,
+      "height": 48
+    },
+    {
+      "name": "sierra_heroe_huaraca_lanzar_1",
+      "x": 48,
+      "y": 0,
+      "width": 48,
+      "height": 48
+    },
+    {
+      "name": "sierra_heroe_huaraca_lanzar_2",
+      "x": 96,
+      "y": 0,
+      "width": 48,
+      "height": 48
+    },
+    {
+      "name": "sierra_heroe_huaraca_lanzar_3",
+      "x": 144,
+      "y": 0,
+      "width": 48,
+      "height": 48
+    }
+  ],
+  "notes": "Cargar piedra, dos cuerdas y cuna roja trenzada, giro, flexi\u00f3n/extensi\u00f3n. Piernas corriendo. Release runtime a0.8s, solo click v\u00e1lido."
+}

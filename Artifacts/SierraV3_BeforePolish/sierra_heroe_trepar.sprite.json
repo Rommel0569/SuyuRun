@@ -1,0 +1,46 @@
+{
+  "name": "sierra_heroe_trepar",
+  "file": "sierra_heroe_trepar.png",
+  "width": 48,
+  "height": 48,
+  "count": 4,
+  "fps": 10,
+  "loop": true,
+  "kind": "sprite",
+  "factor": 1,
+  "biome": "shared",
+  "pivotX": 0.5,
+  "pivotY": 0,
+  "ppu": 32,
+  "frames": [
+    {
+      "name": "sierra_heroe_trepar_0",
+      "x": 0,
+      "y": 0,
+      "width": 48,
+      "height": 48
+    },
+    {
+      "name": "sierra_heroe_trepar_1",
+      "x": 48,
+      "y": 0,
+      "width": 48,
+      "height": 48
+    },
+    {
+      "name": "sierra_heroe_trepar_2",
+      "x": 96,
+      "y": 0,
+      "width": 48,
+      "height": 48
+    },
+    {
+      "name": "sierra_heroe_trepar_3",
+      "x": 144,
+      "y": 0,
+      "width": 48,
+      "height": 48
+    }
+  ],
+  "notes": "Evento de lanzamiento en frame1 de lanzar; direcci\u00f3n de proyectil viene del cursor, no del PNG."
+}

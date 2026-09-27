@@ -23,7 +23,7 @@ namespace SuyuRun
         float Duration => course.duration;
         float Beat => 60f/course.EffectiveBpm;
         enum Mode { Menu, Running, Dead, Complete, Paused, Museum, Ending, Selector, Shop, Settings }
-        sealed class Item { public Transform visual; public float x, y, width, height; public int kind; public bool taken,locked; public int cultureIndex=-1; }
+        sealed class Item : RunnerPickup { }
         readonly List<Item> items = new List<Item>();
         readonly List<Transform> scenery = new List<Transform>();
         readonly List<Vector3> sceneryBase = new List<Vector3>();
@@ -233,6 +233,7 @@ namespace SuyuRun
         }
         void Update()
         {
+            UpdateMuseumMusic();
             // Recreate transient PCM after an Editor hot reload or asset unload.
             if(!song){LoadMusic();if(mode==Mode.Running)StartMusic(distance/Speed);}
             var k=Keyboard.current; var m=Mouse.current; var pad=Gamepad.current;
@@ -278,7 +279,7 @@ namespace SuyuRun
                 float remaining=(targetDistance-distance)/Speed;
                 while(remaining>.000001f&&mode==Mode.Running)
                 {
-                dt=Mathf.Min(remaining,1f/120f);remaining-=dt;
+                dt=Mathf.Min(remaining,RunnerMotion.MaxStep);remaining-=dt;
                 float previous=distance;distance+=dt*Speed;
                 grounded=grounded&&RunnerTerrain.Landing(course,distance,feet,feet-.03f,out float support)&&Mathf.Abs(feet-support)<.035f;
                 coyote=grounded?.09f:Mathf.Max(0,coyote-dt);
@@ -290,7 +291,7 @@ namespace SuyuRun
                 else if(buffer>0&&airCharge&&!grounded){velocity=11.5f;airCharge=false;buffer=0;impulsePulse=.45f;smokeAirJumps++;Judge();Beep(880,.14f);}
                 else buffer-=dt;
                 float oldFeet=feet;
-                velocity-=28*dt;feet+=velocity*dt;
+                RunnerMotion.Integrate(ref feet,ref velocity,-28,dt);
                 if(RunnerTerrain.Landing(course,distance,oldFeet,feet,out float surface))
                 {
                     if(!grounded&&velocity<-1){landingPulse=.2f;if(surface>Ground+.1f)smokeLandings++;}
@@ -435,6 +436,8 @@ namespace SuyuRun
             GUI.color=Color.white;
             if(legacyPrototype)cam.rect=new Rect(ox/Screen.width,oy/Screen.height,1280*scale/Screen.width,720*scale/Screen.height);
             GUI.matrix=Matrix4x4.TRS(new Vector3(ox,oy,0),Quaternion.identity,new Vector3(scale,scale,1));
+            if(!legacyPrototype&&DrawCoastTravel())return;
+            if(DrawSharedWindow())return;
             if(mode==Mode.Museum){DrawMuseum();return;}
             if(mode==Mode.Selector&&!legacyPrototype){DrawSelector();return;}
             if(mode==Mode.Shop&&!legacyPrototype){DrawShop();return;}
@@ -462,6 +465,21 @@ namespace SuyuRun
                 // native 220x140 aspect (x2.609) instead of stretched into the old wider box.
                 bool skin=!legacyPrototype&&texResultados;
                 Rect panelRect=new Rect(353,185,574,365);
+                if(skin)
+                {
+                    bool victory=mode==Mode.Complete,failed=mode==Mode.Dead;
+                    RunnerModal.Draw(panelRect,texResultados,small.font,new RunnerModal.Model{
+                        heading=victory?"¡RUTA COMPLETADA!":failed?"VUELVE A INTENTAR":"PAUSA",
+                        body=victory?"SIERRA DESBLOQUEADA":failed?"Salta, desliza o dispara según el obstáculo.":"La música y el recorrido esperan contigo.",
+                        coins=coins,score=score,bank=bank,showStats=victory,
+                        footer=victory?"MEMORIAS "+DiscoveredCount+" / 4":"ESPACIO · S · E · ESC",
+                        primary=victory?"A SIERRA":failed?"REINTENTAR":"CONTINUAR",
+                        primaryAction=()=>{if(victory)StartCoastTravel();else if(failed)Begin();else TogglePause();},
+                        secondary=victory?"MUSEO":failed?"REVIVIR · 5":"AL INICIO",
+                        secondaryEnabled=!failed||(checkpoint>0&&coins>=RunnerProgress.ReviveCost),
+                        secondaryAction=()=>{if(victory)OpenMuseum();else if(failed){if(RunnerProgress.TrySpend(ref coins,RunnerProgress.ReviveCost))Begin(true);}else ReturnToMenu();}
+                    });return;
+                }
                 if(skin)DrawTex(panelRect,texResultados);
                 else{GUI.color=new Color(.025f,.065f,.11f,.96f);GUI.DrawTexture(new Rect(285,185,710,365),Texture2D.whiteTexture);GUI.color=Color.white;}
                 string heading=mode==Mode.Menu?"EL PULSO DEL VIAJE":mode==Mode.Dead?"VUELVE A INTENTAR":mode==Mode.Complete?"¡RUTA COMPLETADA!":"PAUSA";
@@ -491,8 +509,9 @@ namespace SuyuRun
                 Rect btn1=skin?new Rect(panelRect.x+26,503,224,31):new Rect(325,402,280,52);
                 Rect btn2=skin?new Rect(panelRect.x+323,503,224,31):new Rect(625,402,320,52);
                 var btnStyle=skin?new GUIStyle(button){fontSize=12}:button;
-                if(GUI.Button(btn1,mode==Mode.Paused?"CONTINUAR":"JUGAR  /  ENTER",btnStyle)){if(mode==Mode.Paused)TogglePause();else Begin();}
-                if(mode==Mode.Dead&&checkpoint>0&&coins>=5&&GUI.Button(btn2,"REVIVIR · 5 MONEDAS",btnStyle)){coins-=5;Begin(true);}
+                if(GUI.Button(btn1,mode==Mode.Paused?"CONTINUAR":mode==Mode.Complete&&!legacyPrototype?"CONTINUAR A SIERRA":"JUGAR  /  ENTER",btnStyle))
+                {if(mode==Mode.Paused)TogglePause();else if(mode==Mode.Complete&&!legacyPrototype)RunnerProgress.OpenSierra();else Begin();}
+                if(mode==Mode.Dead&&checkpoint>0&&coins>=RunnerProgress.ReviveCost&&GUI.Button(btn2,"REVIVIR · 5 MONEDAS",btnStyle)&&RunnerProgress.TrySpend(ref coins,RunnerProgress.ReviveCost)){Begin(true);}
                 if(mode==Mode.Complete&&!legacyPrototype&&GUI.Button(btn2,"VER MUSEO · "+DiscoveredCount+" / 4",btnStyle))OpenMuseum();
                 if(legacyPrototype&&GUI.Button(btn2,"IR A COSTA ACTUAL",btnStyle))UnityEngine.SceneManagement.SceneManager.LoadScene("Level_Costa");
                 if(mode==Mode.Paused&&GUI.Button(btn2,"VOLVER AL INICIO",btnStyle))ReturnToMenu();

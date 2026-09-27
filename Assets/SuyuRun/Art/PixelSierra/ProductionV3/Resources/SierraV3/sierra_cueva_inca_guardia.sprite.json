@@ -1,0 +1,74 @@
+{
+  "name": "sierra_cueva_inca_guardia",
+  "file": "sierra_cueva_inca_guardia.png",
+  "width": 96,
+  "height": 96,
+  "count": 8,
+  "fps": 12,
+  "loop": true,
+  "kind": "sprite",
+  "factor": 1,
+  "biome": "shared",
+  "pivotX": 0.5,
+  "pivotY": 0,
+  "ppu": 32,
+  "frames": [
+    {
+      "name": "sierra_cueva_inca_guardia_0",
+      "x": 0,
+      "y": 0,
+      "width": 96,
+      "height": 96
+    },
+    {
+      "name": "sierra_cueva_inca_guardia_1",
+      "x": 96,
+      "y": 0,
+      "width": 96,
+      "height": 96
+    },
+    {
+      "name": "sierra_cueva_inca_guardia_2",
+      "x": 192,
+      "y": 0,
+      "width": 96,
+      "height": 96
+    },
+    {
+      "name": "sierra_cueva_inca_guardia_3",
+      "x": 288,
+      "y": 0,
+      "width": 96,
+      "height": 96
+    },
+    {
+      "name": "sierra_cueva_inca_guardia_4",
+      "x": 384,
+      "y": 0,
+      "width": 96,
+      "height": 96
+    },
+    {
+      "name": "sierra_cueva_inca_guardia_5",
+      "x": 480,
+      "y": 0,
+      "width": 96,
+      "height": 96
+    },
+    {
+      "name": "sierra_cueva_inca_guardia_6",
+      "x": 576,
+      "y": 0,
+      "width": 96,
+      "height": 96
+    },
+    {
+      "name": "sierra_cueva_inca_guardia_7",
+      "x": 672,
+      "y": 0,
+      "width": 96,
+      "height": 96
+    }
+  ],
+  "notes": ""
+}

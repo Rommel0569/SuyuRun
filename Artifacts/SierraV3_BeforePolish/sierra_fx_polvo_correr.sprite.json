@@ -1,0 +1,60 @@
+{
+  "name": "sierra_fx_polvo_correr",
+  "file": "sierra_fx_polvo_correr.png",
+  "width": 24,
+  "height": 24,
+  "count": 6,
+  "fps": 12,
+  "loop": false,
+  "kind": "sprite",
+  "factor": 1,
+  "biome": "shared",
+  "pivotX": 0.5,
+  "pivotY": 0,
+  "ppu": 32,
+  "frames": [
+    {
+      "name": "sierra_fx_polvo_correr_0",
+      "x": 0,
+      "y": 0,
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "sierra_fx_polvo_correr_1",
+      "x": 24,
+      "y": 0,
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "sierra_fx_polvo_correr_2",
+      "x": 48,
+      "y": 0,
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "sierra_fx_polvo_correr_3",
+      "x": 72,
+      "y": 0,
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "sierra_fx_polvo_correr_4",
+      "x": 96,
+      "y": 0,
+      "width": 24,
+      "height": 24
+    },
+    {
+      "name": "sierra_fx_polvo_correr_5",
+      "x": 120,
+      "y": 0,
+      "width": 24,
+      "height": 24
+    }
+  ],
+  "notes": "Part\u00edculas con alfa binario; el controlador debe destruir/reciclar tras \u00faltimo frame."
+}

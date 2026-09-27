@@ -64,7 +64,7 @@ namespace SuyuRun
             Beep(1320,.14f);
         }
         void OpenMuseum(){music.Stop();mode=Mode.Museum;if(menuMusic&&!menuMusic.isPlaying)menuMusic.Play();}
-        void UpdateMuseumDisplays(){for(int i=0;i<4;i++)if(museumDisplays[i])museumDisplays[i].gameObject.SetActive(mode==Mode.Museum&&museumSelection==i);}
+        void UpdateMuseumDisplays(){for(int i=0;i<4;i++)if(museumDisplays[i])museumDisplays[i].gameObject.SetActive(mode==Mode.Museum&&museumSelection==i&&!MuseumArt.Get(CoastalCulture.Entries[i].id));}
         void Panel(Rect rect,Color color){GUI.color=color;GUI.DrawTexture(rect,Texture2D.whiteTexture);GUI.color=Color.white;}
         // A hitbox with nothing drawn - the real look is the pixel-art background already baked
         // into the screen texture. GUIStyle.normal.background=null still falls back to the skin's
@@ -78,8 +78,10 @@ namespace SuyuRun
         }
         void DrawTitleScreen()
         {
+            if(!legacyPrototype&&DrawFinalTitle())return;
             if(legacyPrototype||!texInicio){DrawTitleScreenLegacyFallback();return;}
             DrawTex(new Rect(0,0,1280,720),texInicio);
+            DrawRegionalMenu();
             // Button hitboxes match costa_inicio.png's baked frames exactly (art coords x4 - the
             // art canvas is 320x180, GUI space here is 1280x720, a clean x4).
             if(InvisibleButton(new Rect(64,600,352,56)))Begin();
@@ -111,6 +113,11 @@ namespace SuyuRun
         }
         void DrawSelector()
         {
+            DrawRegionalSelector();
+        }
+        // Retained for reference; the baked lock artwork could not reflect persistent progress.
+        void DrawSelectorLegacy()
+        {
             if(!texSelector){DrawTitleScreenLegacyFallback();return;}
             DrawTex(new Rect(0,0,1280,720),texSelector);
             GUI.Label(new Rect(40,20,1200,72),"SELECTOR DE NIVEL",new GUIStyle(title){fontSize=20});
@@ -120,13 +127,14 @@ namespace SuyuRun
             int x0=(1280-total)/2,y0=(180-132)/2*4;
             if(InvisibleButton(new Rect(x0,y0,cardW,cardH)))Begin();
             GUI.Label(new Rect(x0,y0+cardH-4,cardW,28),"COSTA",new GUIStyle(small){alignment=TextAnchor.MiddleCenter});
-            GUI.Label(new Rect(x0+cardW+gap,y0+cardH/2-16,cardW,32),"SIERRA\n(bloqueado)",new GUIStyle(small){alignment=TextAnchor.MiddleCenter,wordWrap=true});
-            GUI.Label(new Rect(x0+2*(cardW+gap),y0+cardH/2-16,cardW,32),"SELVA\n(bloqueado)",new GUIStyle(small){alignment=TextAnchor.MiddleCenter,wordWrap=true});
+            if(RunnerProgress.SierraUnlocked&&InvisibleButton(new Rect(x0+cardW+gap,y0,cardW,cardH)))RunnerProgress.OpenSierra();
+            GUI.Label(new Rect(x0+cardW+gap,y0+cardH/2-16,cardW,32),RunnerProgress.SierraUnlocked?"SIERRA\nJUGAR":"SIERRA\n(bloqueado)",new GUIStyle(small){alignment=TextAnchor.MiddleCenter,wordWrap=true});
+            GUI.Label(new Rect(x0+2*(cardW+gap),y0+cardH/2-16,cardW,32),RunnerProgress.SelvaUnlocked?"SELVA\n(en desarrollo)":"SELVA\n(bloqueado)",new GUIStyle(small){alignment=TextAnchor.MiddleCenter,wordWrap=true});
             if(GUI.Button(new Rect(40,640,260,44),"VOLVER AL INICIO",button))ReturnToMenu();
         }
         void DrawMuseum()
         {
-            if(bodyStyle==null)bodyStyle=new GUIStyle(text){wordWrap=true,fontSize=13};
+            if(bodyStyle==null)bodyStyle=new GUIStyle(text){wordWrap=true,fontSize=11};
             if(texMuseoPared)
             {
                 // Tiled wall, native tile 32px at x4 GUI scale = 128px per tile.
@@ -135,12 +143,16 @@ namespace SuyuRun
             }
             Panel(new Rect(20,20,1240,100),new Color(.025f,.095f,.14f,.8f));
             GUI.Label(new Rect(48,38,970,70),"MUSEO / COSTA",title);GUI.Label(new Rect(970,57,280,35),DiscoveredCount+" de 4 memorias",text);
+            if(RunnerProgress.SierraUnlocked&&GUI.Button(new Rect(980,95,270,28),"MUSEO SIERRA",button))
+            {RunnerProgress.EnterSierraMuseum=true;RunnerProgress.OpenSierra();return;}
             // Detail panel keeps costa_museo_panel.png's native 280x300 aspect instead of
             // stretching it into the old flat box's wider proportions; same top/bottom budget
             // as before (145..550) so it doesn't collide with the selector row below.
             Rect panelRect=new Rect(610,145,378,405);
             if(texMuseoPanel)DrawTex(panelRect,texMuseoPanel);else Panel(panelRect,new Color(.025f,.095f,.14f,.97f));
             var entry=CoastalCulture.Entries[museumSelection];
+            if(texMuseoVitrina)DrawTex(new Rect(124,150,352,384),texMuseoVitrina);
+            MuseumArt.Draw(new Rect(172,202,256,256),entry.id,discovered[museumSelection]);
             GUI.Label(new Rect(panelRect.x+14,panelRect.y+6,panelRect.width-28,30),entry.name,new GUIStyle(title){fontSize=16});
             GUI.Label(new Rect(panelRect.x+14,panelRect.y+46,panelRect.width-28,32),entry.place,new GUIStyle(small){wordWrap=true});
             GUI.Label(new Rect(panelRect.x+14,panelRect.y+90,panelRect.width-28,255),discovered[museumSelection]?entry.description:entry.teaser+"\n\nRecoge su memoria en Costa para revelar la ficha completa.",bodyStyle);
@@ -149,8 +161,9 @@ namespace SuyuRun
             {
                 Rect br=new Rect(40+i*304,575,292,54);
                 if(texMuseoVitrina)DrawTex(new Rect(br.x,br.y,48,48),texMuseoVitrina);
+                MuseumArt.Draw(new Rect(br.x+8,br.y+8,32,32),CoastalCulture.Entries[i].id,discovered[i]);
                 if(InvisibleButton(br))museumSelection=i;
-                GUI.Label(new Rect(br.x+52,br.y,br.width-56,br.height),(discovered[i]?"✓ ":"○ ")+CoastalCulture.Entries[i].name,new GUIStyle(button){fontSize=15,alignment=TextAnchor.MiddleLeft});
+                GUI.Label(new Rect(br.x+52,br.y,br.width-56,br.height),CoastalCulture.Entries[i].name,new GUIStyle(button){fontSize=11,wordWrap=true,alignment=TextAnchor.MiddleLeft});
             }
             if(GUI.Button(new Rect(40,651,260,44),"VOLVER AL INICIO",button))ReturnToMenu();
         }

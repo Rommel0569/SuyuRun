@@ -1,0 +1,60 @@
+{
+  "name": "sierra_cueva_esbirro_piedra",
+  "file": "sierra_cueva_esbirro_piedra.png",
+  "width": 32,
+  "height": 48,
+  "count": 6,
+  "fps": 8,
+  "loop": true,
+  "kind": "sprite",
+  "factor": 1,
+  "biome": "shared",
+  "pivotX": 0.5,
+  "pivotY": 0,
+  "ppu": 32,
+  "frames": [
+    {
+      "name": "sierra_cueva_esbirro_piedra_0",
+      "x": 0,
+      "y": 0,
+      "width": 32,
+      "height": 48
+    },
+    {
+      "name": "sierra_cueva_esbirro_piedra_1",
+      "x": 32,
+      "y": 0,
+      "width": 32,
+      "height": 48
+    },
+    {
+      "name": "sierra_cueva_esbirro_piedra_2",
+      "x": 64,
+      "y": 0,
+      "width": 32,
+      "height": 48
+    },
+    {
+      "name": "sierra_cueva_esbirro_piedra_3",
+      "x": 96,
+      "y": 0,
+      "width": 32,
+      "height": 48
+    },
+    {
+      "name": "sierra_cueva_esbirro_piedra_4",
+      "x": 128,
+      "y": 0,
+      "width": 32,
+      "height": 48
+    },
+    {
+      "name": "sierra_cueva_esbirro_piedra_5",
+      "x": 160,
+      "y": 0,
+      "width": 32,
+      "height": 48
+    }
+  ],
+  "notes": ""
+}

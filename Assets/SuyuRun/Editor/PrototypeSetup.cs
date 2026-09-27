@@ -26,7 +26,12 @@ namespace SuyuRun.Editor
             EnsureLegacyScene();
             var startup=AssetDatabase.LoadAssetAtPath<SceneAsset>(EditorSceneManager.GetActiveScene().name=="Prototype_Legacy"?LegacyPath:ScenePath);
             if(startup!=null)EditorSceneManager.playModeStartScene=startup;
-            EditorBuildSettings.scenes=new[]{new EditorBuildSettingsScene(ScenePath,true),new EditorBuildSettingsScene(LegacyPath,true)};
+            var scenes=new System.Collections.Generic.List<EditorBuildSettingsScene>{new EditorBuildSettingsScene(ScenePath,true),new EditorBuildSettingsScene(LegacyPath,true)};
+            const string sierra="Assets/SuyuRun/Scenes/Level_Sierra_Integration.unity";
+            if(System.IO.File.Exists(sierra))scenes.Add(new EditorBuildSettingsScene(sierra,true));
+            foreach(var entry in EditorBuildSettings.scenes)
+                if(!scenes.Exists(s=>s.path==entry.path))scenes.Add(entry);
+            EditorBuildSettings.scenes=scenes.ToArray();
         }
         static void Poll()
         {
@@ -56,6 +61,14 @@ namespace SuyuRun.Editor
             else if(command=="legacy-smoke"){OpenLegacy();smoke=false;SessionState.SetBool("SuyuRun.Smoke",true);EditorApplication.isPlaying=true;}
             else if(command=="reference-check")ReferenceCoastCheck.Run();
             else if(command=="refresh")AssetDatabase.Refresh();
+            else if(command=="ready-mainmenu")
+            {
+                SessionState.SetBool("SuyuRun.Smoke",false);SessionState.SetBool("SuyuRun.ReferenceCheck",false);
+                SessionState.SetBool("SuyuRun.SierraDiagnostic",false);SessionState.SetBool("SuyuRun.CostaPortalQA",false);
+                EditorSceneManager.playModeStartScene=AssetDatabase.LoadAssetAtPath<SceneAsset>(ScenePath);
+                Directory.CreateDirectory("Artifacts/MuseumMenu");
+                File.WriteAllText("Artifacts/MuseumMenu/ready.txt","Unity Play starts Level_Costa main menu; diagnostics off. "+System.DateTime.Now.ToString("O"));
+            }
             else if(command=="build")Build();
             else if(command=="open")Open();
             else if(command=="validate")ValidateRules();

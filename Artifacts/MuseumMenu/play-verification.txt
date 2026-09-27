@@ -1,0 +1,1 @@
+PASS INICIO_FINAL menu, selector, seven 64px Point textures, museum playback/fade, shared Costa/Sierra museum/pause/settings/shop; errors=0; 2026-09-26T18:13:44.0147988-05:00

@@ -1,0 +1,25 @@
+{
+  "name": "sierra_compartido_capa1_cielo",
+  "file": "sierra_compartido_capa1_cielo.png",
+  "width": 640,
+  "height": 180,
+  "count": 1,
+  "fps": 6,
+  "loop": true,
+  "kind": "layer",
+  "factor": 0,
+  "biome": "shared",
+  "pivotX": 0,
+  "pivotY": 1,
+  "ppu": 32,
+  "frames": [
+    {
+      "name": "sierra_compartido_capa1_cielo_0",
+      "x": 0,
+      "y": 0,
+      "width": 640,
+      "height": 180
+    }
+  ],
+  "notes": "Cielo fijo: excepci\u00f3n a tile. Amanecer, no atardecer de Costa."
+}

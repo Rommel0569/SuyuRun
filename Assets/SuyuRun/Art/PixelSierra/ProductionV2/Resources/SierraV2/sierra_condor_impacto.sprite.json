@@ -1,0 +1,32 @@
+{
+  "name": "sierra_condor_impacto",
+  "file": "sierra_condor_impacto.png",
+  "width": 64,
+  "height": 48,
+  "count": 2,
+  "fps": 10,
+  "loop": false,
+  "kind": "sprite",
+  "factor": 1,
+  "biome": "shared",
+  "pivotX": 0.5,
+  "pivotY": 0,
+  "ppu": 32,
+  "frames": [
+    {
+      "name": "sierra_condor_impacto_0",
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 48
+    },
+    {
+      "name": "sierra_condor_impacto_1",
+      "x": 64,
+      "y": 0,
+      "width": 64,
+      "height": 48
+    }
+  ],
+  "notes": "Telegraph aviso antes de atacar h\u00e9roe o anclaje. Condor simb\u00f3lico fant\u00e1stico; no ense\u00f1anza de caza real."
+}

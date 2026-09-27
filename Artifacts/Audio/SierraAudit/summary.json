@@ -1,0 +1,21 @@
+{
+  "source": "sierra.midi",
+  "midiDuration": 170.7674418604395,
+  "audioDuration": 177.5543,
+  "differenceSeconds": 6.7868581,
+  "noteOnCount": 13835,
+  "declaredTempoBpm": 120,
+  "tracks": 1,
+  "channels": [
+    0
+  ],
+  "drumChannelPresent": false,
+  "priorHits": 174,
+  "binsWithoutNotes": [],
+  "conclusions": [
+    "No stretch applied. End-of-audio gap may be trailing audio, not proven global drift.",
+    "Previous extractor reads track0 and absolute ticks: safe only for this single-track constant-tempo file.",
+    "Previous ground/air distinction uses intensity, not identified bass/drums. All174 accents need ear review.",
+    "325 onset beats in SierraSoundtrack are MP3 estimates; do not conflate them with declared MIDI quarter notes."
+  ]
+}

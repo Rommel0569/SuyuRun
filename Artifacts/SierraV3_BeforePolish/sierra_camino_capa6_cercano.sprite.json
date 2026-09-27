@@ -1,0 +1,46 @@
+{
+  "name": "sierra_camino_capa6_cercano",
+  "file": "sierra_camino_capa6_cercano.png",
+  "width": 640,
+  "height": 180,
+  "count": 4,
+  "fps": 5,
+  "loop": true,
+  "kind": "layer",
+  "factor": 0.75,
+  "biome": "camino",
+  "pivotX": 0,
+  "pivotY": 1,
+  "ppu": 32,
+  "frames": [
+    {
+      "name": "sierra_camino_capa6_cercano_0",
+      "x": 0,
+      "y": 540,
+      "width": 640,
+      "height": 180
+    },
+    {
+      "name": "sierra_camino_capa6_cercano_1",
+      "x": 0,
+      "y": 360,
+      "width": 640,
+      "height": 180
+    },
+    {
+      "name": "sierra_camino_capa6_cercano_2",
+      "x": 0,
+      "y": 180,
+      "width": 640,
+      "height": 180
+    },
+    {
+      "name": "sierra_camino_capa6_cercano_3",
+      "x": 0,
+      "y": 0,
+      "width": 640,
+      "height": 180
+    }
+  ],
+  "notes": ""
+}

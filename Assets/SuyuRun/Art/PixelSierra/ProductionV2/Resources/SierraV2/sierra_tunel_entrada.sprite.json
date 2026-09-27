@@ -1,0 +1,46 @@
+{
+  "name": "sierra_tunel_entrada",
+  "file": "sierra_tunel_entrada.png",
+  "width": 128,
+  "height": 160,
+  "count": 4,
+  "fps": 7,
+  "loop": true,
+  "kind": "sprite",
+  "factor": 1,
+  "biome": "shared",
+  "pivotX": 0.5,
+  "pivotY": 0,
+  "ppu": 32,
+  "frames": [
+    {
+      "name": "sierra_tunel_entrada_0",
+      "x": 0,
+      "y": 0,
+      "width": 128,
+      "height": 160
+    },
+    {
+      "name": "sierra_tunel_entrada_1",
+      "x": 128,
+      "y": 0,
+      "width": 128,
+      "height": 160
+    },
+    {
+      "name": "sierra_tunel_entrada_2",
+      "x": 256,
+      "y": 0,
+      "width": 128,
+      "height": 160
+    },
+    {
+      "name": "sierra_tunel_entrada_3",
+      "x": 384,
+      "y": 0,
+      "width": 128,
+      "height": 160
+    }
+  ],
+  "notes": "Cubrir pantalla con sierra_tunel_oclusor durante el cambio. Apertura dibujada no define colisi\u00f3n."
+}

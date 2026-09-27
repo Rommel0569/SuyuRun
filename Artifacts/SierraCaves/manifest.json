@@ -1,0 +1,1353 @@
+[
+  {
+    "name": "sierra_cueva1_fondo",
+    "file": "sierra_cueva1_fondo.png",
+    "width": 640,
+    "height": 384,
+    "count": 1,
+    "fps": 6,
+    "loop": true,
+    "kind": "layer",
+    "factor": 0.15,
+    "biome": "shared",
+    "pivotX": 0,
+    "pivotY": 1,
+    "ppu": 32,
+    "frames": [
+      {
+        "name": "sierra_cueva1_fondo_0",
+        "x": 0,
+        "y": 0,
+        "width": 640,
+        "height": 384
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "sierra_cueva1_arcos",
+    "file": "sierra_cueva1_arcos.png",
+    "width": 640,
+    "height": 384,
+    "count": 1,
+    "fps": 6,
+    "loop": true,
+    "kind": "layer",
+    "factor": 0.4,
+    "biome": "shared",
+    "pivotX": 0,
+    "pivotY": 1,
+    "ppu": 32,
+    "frames": [
+      {
+        "name": "sierra_cueva1_arcos_0",
+        "x": 0,
+        "y": 0,
+        "width": 640,
+        "height": 384
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "sierra_cueva2_fondo",
+    "file": "sierra_cueva2_fondo.png",
+    "width": 640,
+    "height": 384,
+    "count": 1,
+    "fps": 6,
+    "loop": true,
+    "kind": "layer",
+    "factor": 0.15,
+    "biome": "shared",
+    "pivotX": 0,
+    "pivotY": 1,
+    "ppu": 32,
+    "frames": [
+      {
+        "name": "sierra_cueva2_fondo_0",
+        "x": 0,
+        "y": 0,
+        "width": 640,
+        "height": 384
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "sierra_cueva2_arcos",
+    "file": "sierra_cueva2_arcos.png",
+    "width": 640,
+    "height": 384,
+    "count": 1,
+    "fps": 6,
+    "loop": true,
+    "kind": "layer",
+    "factor": 0.4,
+    "biome": "shared",
+    "pivotX": 0,
+    "pivotY": 1,
+    "ppu": 32,
+    "frames": [
+      {
+        "name": "sierra_cueva2_arcos_0",
+        "x": 0,
+        "y": 0,
+        "width": 640,
+        "height": 384
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "sierra_cueva_suelo",
+    "file": "sierra_cueva_suelo.png",
+    "width": 32,
+    "height": 32,
+    "count": 1,
+    "fps": 6,
+    "loop": true,
+    "kind": "sprite",
+    "factor": 1,
+    "biome": "shared",
+    "pivotX": 0.5,
+    "pivotY": 0,
+    "ppu": 32,
+    "frames": [
+      {
+        "name": "sierra_cueva_suelo_0",
+        "x": 0,
+        "y": 0,
+        "width": 32,
+        "height": 32
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "sierra_cueva_roca",
+    "file": "sierra_cueva_roca.png",
+    "width": 32,
+    "height": 32,
+    "count": 1,
+    "fps": 6,
+    "loop": true,
+    "kind": "sprite",
+    "factor": 1,
+    "biome": "shared",
+    "pivotX": 0.5,
+    "pivotY": 0,
+    "ppu": 32,
+    "frames": [
+      {
+        "name": "sierra_cueva_roca_0",
+        "x": 0,
+        "y": 0,
+        "width": 32,
+        "height": 32
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "sierra_cueva_plataforma",
+    "file": "sierra_cueva_plataforma.png",
+    "width": 16,
+    "height": 12,
+    "count": 1,
+    "fps": 6,
+    "loop": true,
+    "kind": "sprite",
+    "factor": 1,
+    "biome": "shared",
+    "pivotX": 0.5,
+    "pivotY": 0,
+    "ppu": 32,
+    "frames": [
+      {
+        "name": "sierra_cueva_plataforma_0",
+        "x": 0,
+        "y": 0,
+        "width": 16,
+        "height": 12
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "sierra_cueva_antorcha",
+    "file": "sierra_cueva_antorcha.png",
+    "width": 16,
+    "height": 32,
+    "count": 4,
+    "fps": 7,
+    "loop": true,
+    "kind": "sprite",
+    "factor": 1,
+    "biome": "shared",
+    "pivotX": 0.5,
+    "pivotY": 0,
+    "ppu": 32,
+    "frames": [
+      {
+        "name": "sierra_cueva_antorcha_0",
+        "x": 0,
+        "y": 0,
+        "width": 16,
+        "height": 32
+      },
+      {
+        "name": "sierra_cueva_antorcha_1",
+        "x": 16,
+        "y": 0,
+        "width": 16,
+        "height": 32
+      },
+      {
+        "name": "sierra_cueva_antorcha_2",
+        "x": 32,
+        "y": 0,
+        "width": 16,
+        "height": 32
+      },
+      {
+        "name": "sierra_cueva_antorcha_3",
+        "x": 48,
+        "y": 0,
+        "width": 16,
+        "height": 32
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "sierra_cueva_pistola",
+    "file": "sierra_cueva_pistola.png",
+    "width": 12,
+    "height": 8,
+    "count": 1,
+    "fps": 6,
+    "loop": true,
+    "kind": "sprite",
+    "factor": 1,
+    "biome": "shared",
+    "pivotX": 0.5,
+    "pivotY": 0,
+    "ppu": 32,
+    "frames": [
+      {
+        "name": "sierra_cueva_pistola_0",
+        "x": 0,
+        "y": 0,
+        "width": 12,
+        "height": 8
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "sierra_cueva_bala",
+    "file": "sierra_cueva_bala.png",
+    "width": 8,
+    "height": 8,
+    "count": 1,
+    "fps": 6,
+    "loop": true,
+    "kind": "sprite",
+    "factor": 1,
+    "biome": "shared",
+    "pivotX": 0.5,
+    "pivotY": 0,
+    "ppu": 32,
+    "frames": [
+      {
+        "name": "sierra_cueva_bala_0",
+        "x": 0,
+        "y": 0,
+        "width": 8,
+        "height": 8
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "sierra_cueva_esbirro_piedra",
+    "file": "sierra_cueva_esbirro_piedra.png",
+    "width": 32,
+    "height": 48,
+    "count": 6,
+    "fps": 8,
+    "loop": true,
+    "kind": "sprite",
+    "factor": 1,
+    "biome": "shared",
+    "pivotX": 0.5,
+    "pivotY": 0,
+    "ppu": 32,
+    "frames": [
+      {
+        "name": "sierra_cueva_esbirro_piedra_0",
+        "x": 0,
+        "y": 0,
+        "width": 32,
+        "height": 48
+      },
+      {
+        "name": "sierra_cueva_esbirro_piedra_1",
+        "x": 32,
+        "y": 0,
+        "width": 32,
+        "height": 48
+      },
+      {
+        "name": "sierra_cueva_esbirro_piedra_2",
+        "x": 64,
+        "y": 0,
+        "width": 32,
+        "height": 48
+      },
+      {
+        "name": "sierra_cueva_esbirro_piedra_3",
+        "x": 96,
+        "y": 0,
+        "width": 32,
+        "height": 48
+      },
+      {
+        "name": "sierra_cueva_esbirro_piedra_4",
+        "x": 128,
+        "y": 0,
+        "width": 32,
+        "height": 48
+      },
+      {
+        "name": "sierra_cueva_esbirro_piedra_5",
+        "x": 160,
+        "y": 0,
+        "width": 32,
+        "height": 48
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "sierra_cueva_esqueleto",
+    "file": "sierra_cueva_esqueleto.png",
+    "width": 32,
+    "height": 48,
+    "count": 6,
+    "fps": 8,
+    "loop": true,
+    "kind": "sprite",
+    "factor": 1,
+    "biome": "shared",
+    "pivotX": 0.5,
+    "pivotY": 0,
+    "ppu": 32,
+    "frames": [
+      {
+        "name": "sierra_cueva_esqueleto_0",
+        "x": 0,
+        "y": 0,
+        "width": 32,
+        "height": 48
+      },
+      {
+        "name": "sierra_cueva_esqueleto_1",
+        "x": 32,
+        "y": 0,
+        "width": 32,
+        "height": 48
+      },
+      {
+        "name": "sierra_cueva_esqueleto_2",
+        "x": 64,
+        "y": 0,
+        "width": 32,
+        "height": 48
+      },
+      {
+        "name": "sierra_cueva_esqueleto_3",
+        "x": 96,
+        "y": 0,
+        "width": 32,
+        "height": 48
+      },
+      {
+        "name": "sierra_cueva_esqueleto_4",
+        "x": 128,
+        "y": 0,
+        "width": 32,
+        "height": 48
+      },
+      {
+        "name": "sierra_cueva_esqueleto_5",
+        "x": 160,
+        "y": 0,
+        "width": 32,
+        "height": 48
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "sierra_cueva_esqueleto_despertar",
+    "file": "sierra_cueva_esqueleto_despertar.png",
+    "width": 32,
+    "height": 48,
+    "count": 6,
+    "fps": 6,
+    "loop": false,
+    "kind": "sprite",
+    "factor": 1,
+    "biome": "shared",
+    "pivotX": 0.5,
+    "pivotY": 0,
+    "ppu": 32,
+    "frames": [
+      {
+        "name": "sierra_cueva_esqueleto_despertar_0",
+        "x": 0,
+        "y": 0,
+        "width": 32,
+        "height": 48
+      },
+      {
+        "name": "sierra_cueva_esqueleto_despertar_1",
+        "x": 32,
+        "y": 0,
+        "width": 32,
+        "height": 48
+      },
+      {
+        "name": "sierra_cueva_esqueleto_despertar_2",
+        "x": 64,
+        "y": 0,
+        "width": 32,
+        "height": 48
+      },
+      {
+        "name": "sierra_cueva_esqueleto_despertar_3",
+        "x": 96,
+        "y": 0,
+        "width": 32,
+        "height": 48
+      },
+      {
+        "name": "sierra_cueva_esqueleto_despertar_4",
+        "x": 128,
+        "y": 0,
+        "width": 32,
+        "height": 48
+      },
+      {
+        "name": "sierra_cueva_esqueleto_despertar_5",
+        "x": 160,
+        "y": 0,
+        "width": 32,
+        "height": 48
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "sierra_cueva_jefe_piedra",
+    "file": "sierra_cueva_jefe_piedra.png",
+    "width": 64,
+    "height": 80,
+    "count": 6,
+    "fps": 7,
+    "loop": true,
+    "kind": "sprite",
+    "factor": 1,
+    "biome": "shared",
+    "pivotX": 0.5,
+    "pivotY": 0,
+    "ppu": 32,
+    "frames": [
+      {
+        "name": "sierra_cueva_jefe_piedra_0",
+        "x": 0,
+        "y": 0,
+        "width": 64,
+        "height": 80
+      },
+      {
+        "name": "sierra_cueva_jefe_piedra_1",
+        "x": 64,
+        "y": 0,
+        "width": 64,
+        "height": 80
+      },
+      {
+        "name": "sierra_cueva_jefe_piedra_2",
+        "x": 128,
+        "y": 0,
+        "width": 64,
+        "height": 80
+      },
+      {
+        "name": "sierra_cueva_jefe_piedra_3",
+        "x": 192,
+        "y": 0,
+        "width": 64,
+        "height": 80
+      },
+      {
+        "name": "sierra_cueva_jefe_piedra_4",
+        "x": 256,
+        "y": 0,
+        "width": 64,
+        "height": 80
+      },
+      {
+        "name": "sierra_cueva_jefe_piedra_5",
+        "x": 320,
+        "y": 0,
+        "width": 64,
+        "height": 80
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "sierra_cueva_jefe_guerrero",
+    "file": "sierra_cueva_jefe_guerrero.png",
+    "width": 64,
+    "height": 80,
+    "count": 6,
+    "fps": 7,
+    "loop": true,
+    "kind": "sprite",
+    "factor": 1,
+    "biome": "shared",
+    "pivotX": 0.5,
+    "pivotY": 0,
+    "ppu": 32,
+    "frames": [
+      {
+        "name": "sierra_cueva_jefe_guerrero_0",
+        "x": 0,
+        "y": 0,
+        "width": 64,
+        "height": 80
+      },
+      {
+        "name": "sierra_cueva_jefe_guerrero_1",
+        "x": 64,
+        "y": 0,
+        "width": 64,
+        "height": 80
+      },
+      {
+        "name": "sierra_cueva_jefe_guerrero_2",
+        "x": 128,
+        "y": 0,
+        "width": 64,
+        "height": 80
+      },
+      {
+        "name": "sierra_cueva_jefe_guerrero_3",
+        "x": 192,
+        "y": 0,
+        "width": 64,
+        "height": 80
+      },
+      {
+        "name": "sierra_cueva_jefe_guerrero_4",
+        "x": 256,
+        "y": 0,
+        "width": 64,
+        "height": 80
+      },
+      {
+        "name": "sierra_cueva_jefe_guerrero_5",
+        "x": 320,
+        "y": 0,
+        "width": 64,
+        "height": 80
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "sierra_cueva_tumba",
+    "file": "sierra_cueva_tumba.png",
+    "width": 96,
+    "height": 64,
+    "count": 1,
+    "fps": 6,
+    "loop": true,
+    "kind": "sprite",
+    "factor": 1,
+    "biome": "shared",
+    "pivotX": 0.5,
+    "pivotY": 0,
+    "ppu": 32,
+    "frames": [
+      {
+        "name": "sierra_cueva_tumba_0",
+        "x": 0,
+        "y": 0,
+        "width": 96,
+        "height": 64
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "sierra_cueva_monolito_base",
+    "file": "sierra_cueva_monolito_base.png",
+    "width": 96,
+    "height": 64,
+    "count": 1,
+    "fps": 6,
+    "loop": true,
+    "kind": "sprite",
+    "factor": 1,
+    "biome": "shared",
+    "pivotX": 0.5,
+    "pivotY": 0,
+    "ppu": 32,
+    "frames": [
+      {
+        "name": "sierra_cueva_monolito_base_0",
+        "x": 0,
+        "y": 0,
+        "width": 96,
+        "height": 64
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "sierra_cueva_oro",
+    "file": "sierra_cueva_oro.png",
+    "width": 64,
+    "height": 32,
+    "count": 4,
+    "fps": 5,
+    "loop": true,
+    "kind": "sprite",
+    "factor": 1,
+    "biome": "shared",
+    "pivotX": 0.5,
+    "pivotY": 0,
+    "ppu": 32,
+    "frames": [
+      {
+        "name": "sierra_cueva_oro_0",
+        "x": 0,
+        "y": 0,
+        "width": 64,
+        "height": 32
+      },
+      {
+        "name": "sierra_cueva_oro_1",
+        "x": 64,
+        "y": 0,
+        "width": 64,
+        "height": 32
+      },
+      {
+        "name": "sierra_cueva_oro_2",
+        "x": 128,
+        "y": 0,
+        "width": 64,
+        "height": 32
+      },
+      {
+        "name": "sierra_cueva_oro_3",
+        "x": 192,
+        "y": 0,
+        "width": 64,
+        "height": 32
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "sierra_cueva_box_guardia",
+    "file": "sierra_cueva_box_guardia.png",
+    "width": 96,
+    "height": 96,
+    "count": 8,
+    "fps": 12,
+    "loop": true,
+    "kind": "sprite",
+    "factor": 1,
+    "biome": "shared",
+    "pivotX": 0.5,
+    "pivotY": 0,
+    "ppu": 32,
+    "frames": [
+      {
+        "name": "sierra_cueva_box_guardia_0",
+        "x": 0,
+        "y": 0,
+        "width": 96,
+        "height": 96
+      },
+      {
+        "name": "sierra_cueva_box_guardia_1",
+        "x": 96,
+        "y": 0,
+        "width": 96,
+        "height": 96
+      },
+      {
+        "name": "sierra_cueva_box_guardia_2",
+        "x": 192,
+        "y": 0,
+        "width": 96,
+        "height": 96
+      },
+      {
+        "name": "sierra_cueva_box_guardia_3",
+        "x": 288,
+        "y": 0,
+        "width": 96,
+        "height": 96
+      },
+      {
+        "name": "sierra_cueva_box_guardia_4",
+        "x": 384,
+        "y": 0,
+        "width": 96,
+        "height": 96
+      },
+      {
+        "name": "sierra_cueva_box_guardia_5",
+        "x": 480,
+        "y": 0,
+        "width": 96,
+        "height": 96
+      },
+      {
+        "name": "sierra_cueva_box_guardia_6",
+        "x": 576,
+        "y": 0,
+        "width": 96,
+        "height": 96
+      },
+      {
+        "name": "sierra_cueva_box_guardia_7",
+        "x": 672,
+        "y": 0,
+        "width": 96,
+        "height": 96
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "sierra_cueva_box_jab",
+    "file": "sierra_cueva_box_jab.png",
+    "width": 96,
+    "height": 96,
+    "count": 8,
+    "fps": 12,
+    "loop": false,
+    "kind": "sprite",
+    "factor": 1,
+    "biome": "shared",
+    "pivotX": 0.5,
+    "pivotY": 0,
+    "ppu": 32,
+    "frames": [
+      {
+        "name": "sierra_cueva_box_jab_0",
+        "x": 0,
+        "y": 0,
+        "width": 96,
+        "height": 96
+      },
+      {
+        "name": "sierra_cueva_box_jab_1",
+        "x": 96,
+        "y": 0,
+        "width": 96,
+        "height": 96
+      },
+      {
+        "name": "sierra_cueva_box_jab_2",
+        "x": 192,
+        "y": 0,
+        "width": 96,
+        "height": 96
+      },
+      {
+        "name": "sierra_cueva_box_jab_3",
+        "x": 288,
+        "y": 0,
+        "width": 96,
+        "height": 96
+      },
+      {
+        "name": "sierra_cueva_box_jab_4",
+        "x": 384,
+        "y": 0,
+        "width": 96,
+        "height": 96
+      },
+      {
+        "name": "sierra_cueva_box_jab_5",
+        "x": 480,
+        "y": 0,
+        "width": 96,
+        "height": 96
+      },
+      {
+        "name": "sierra_cueva_box_jab_6",
+        "x": 576,
+        "y": 0,
+        "width": 96,
+        "height": 96
+      },
+      {
+        "name": "sierra_cueva_box_jab_7",
+        "x": 672,
+        "y": 0,
+        "width": 96,
+        "height": 96
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "sierra_cueva_box_upper",
+    "file": "sierra_cueva_box_upper.png",
+    "width": 96,
+    "height": 96,
+    "count": 8,
+    "fps": 12,
+    "loop": false,
+    "kind": "sprite",
+    "factor": 1,
+    "biome": "shared",
+    "pivotX": 0.5,
+    "pivotY": 0,
+    "ppu": 32,
+    "frames": [
+      {
+        "name": "sierra_cueva_box_upper_0",
+        "x": 0,
+        "y": 0,
+        "width": 96,
+        "height": 96
+      },
+      {
+        "name": "sierra_cueva_box_upper_1",
+        "x": 96,
+        "y": 0,
+        "width": 96,
+        "height": 96
+      },
+      {
+        "name": "sierra_cueva_box_upper_2",
+        "x": 192,
+        "y": 0,
+        "width": 96,
+        "height": 96
+      },
+      {
+        "name": "sierra_cueva_box_upper_3",
+        "x": 288,
+        "y": 0,
+        "width": 96,
+        "height": 96
+      },
+      {
+        "name": "sierra_cueva_box_upper_4",
+        "x": 384,
+        "y": 0,
+        "width": 96,
+        "height": 96
+      },
+      {
+        "name": "sierra_cueva_box_upper_5",
+        "x": 480,
+        "y": 0,
+        "width": 96,
+        "height": 96
+      },
+      {
+        "name": "sierra_cueva_box_upper_6",
+        "x": 576,
+        "y": 0,
+        "width": 96,
+        "height": 96
+      },
+      {
+        "name": "sierra_cueva_box_upper_7",
+        "x": 672,
+        "y": 0,
+        "width": 96,
+        "height": 96
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "sierra_cueva_box_slam",
+    "file": "sierra_cueva_box_slam.png",
+    "width": 96,
+    "height": 96,
+    "count": 8,
+    "fps": 12,
+    "loop": false,
+    "kind": "sprite",
+    "factor": 1,
+    "biome": "shared",
+    "pivotX": 0.5,
+    "pivotY": 0,
+    "ppu": 32,
+    "frames": [
+      {
+        "name": "sierra_cueva_box_slam_0",
+        "x": 0,
+        "y": 0,
+        "width": 96,
+        "height": 96
+      },
+      {
+        "name": "sierra_cueva_box_slam_1",
+        "x": 96,
+        "y": 0,
+        "width": 96,
+        "height": 96
+      },
+      {
+        "name": "sierra_cueva_box_slam_2",
+        "x": 192,
+        "y": 0,
+        "width": 96,
+        "height": 96
+      },
+      {
+        "name": "sierra_cueva_box_slam_3",
+        "x": 288,
+        "y": 0,
+        "width": 96,
+        "height": 96
+      },
+      {
+        "name": "sierra_cueva_box_slam_4",
+        "x": 384,
+        "y": 0,
+        "width": 96,
+        "height": 96
+      },
+      {
+        "name": "sierra_cueva_box_slam_5",
+        "x": 480,
+        "y": 0,
+        "width": 96,
+        "height": 96
+      },
+      {
+        "name": "sierra_cueva_box_slam_6",
+        "x": 576,
+        "y": 0,
+        "width": 96,
+        "height": 96
+      },
+      {
+        "name": "sierra_cueva_box_slam_7",
+        "x": 672,
+        "y": 0,
+        "width": 96,
+        "height": 96
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "sierra_cueva_inca_guardia",
+    "file": "sierra_cueva_inca_guardia.png",
+    "width": 96,
+    "height": 96,
+    "count": 8,
+    "fps": 12,
+    "loop": true,
+    "kind": "sprite",
+    "factor": 1,
+    "biome": "shared",
+    "pivotX": 0.5,
+    "pivotY": 0,
+    "ppu": 32,
+    "frames": [
+      {
+        "name": "sierra_cueva_inca_guardia_0",
+        "x": 0,
+        "y": 0,
+        "width": 96,
+        "height": 96
+      },
+      {
+        "name": "sierra_cueva_inca_guardia_1",
+        "x": 96,
+        "y": 0,
+        "width": 96,
+        "height": 96
+      },
+      {
+        "name": "sierra_cueva_inca_guardia_2",
+        "x": 192,
+        "y": 0,
+        "width": 96,
+        "height": 96
+      },
+      {
+        "name": "sierra_cueva_inca_guardia_3",
+        "x": 288,
+        "y": 0,
+        "width": 96,
+        "height": 96
+      },
+      {
+        "name": "sierra_cueva_inca_guardia_4",
+        "x": 384,
+        "y": 0,
+        "width": 96,
+        "height": 96
+      },
+      {
+        "name": "sierra_cueva_inca_guardia_5",
+        "x": 480,
+        "y": 0,
+        "width": 96,
+        "height": 96
+      },
+      {
+        "name": "sierra_cueva_inca_guardia_6",
+        "x": 576,
+        "y": 0,
+        "width": 96,
+        "height": 96
+      },
+      {
+        "name": "sierra_cueva_inca_guardia_7",
+        "x": 672,
+        "y": 0,
+        "width": 96,
+        "height": 96
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "sierra_cueva_inca_maza",
+    "file": "sierra_cueva_inca_maza.png",
+    "width": 96,
+    "height": 96,
+    "count": 8,
+    "fps": 12,
+    "loop": false,
+    "kind": "sprite",
+    "factor": 1,
+    "biome": "shared",
+    "pivotX": 0.5,
+    "pivotY": 0,
+    "ppu": 32,
+    "frames": [
+      {
+        "name": "sierra_cueva_inca_maza_0",
+        "x": 0,
+        "y": 0,
+        "width": 96,
+        "height": 96
+      },
+      {
+        "name": "sierra_cueva_inca_maza_1",
+        "x": 96,
+        "y": 0,
+        "width": 96,
+        "height": 96
+      },
+      {
+        "name": "sierra_cueva_inca_maza_2",
+        "x": 192,
+        "y": 0,
+        "width": 96,
+        "height": 96
+      },
+      {
+        "name": "sierra_cueva_inca_maza_3",
+        "x": 288,
+        "y": 0,
+        "width": 96,
+        "height": 96
+      },
+      {
+        "name": "sierra_cueva_inca_maza_4",
+        "x": 384,
+        "y": 0,
+        "width": 96,
+        "height": 96
+      },
+      {
+        "name": "sierra_cueva_inca_maza_5",
+        "x": 480,
+        "y": 0,
+        "width": 96,
+        "height": 96
+      },
+      {
+        "name": "sierra_cueva_inca_maza_6",
+        "x": 576,
+        "y": 0,
+        "width": 96,
+        "height": 96
+      },
+      {
+        "name": "sierra_cueva_inca_maza_7",
+        "x": 672,
+        "y": 0,
+        "width": 96,
+        "height": 96
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "sierra_cueva_inca_sol",
+    "file": "sierra_cueva_inca_sol.png",
+    "width": 96,
+    "height": 96,
+    "count": 8,
+    "fps": 12,
+    "loop": false,
+    "kind": "sprite",
+    "factor": 1,
+    "biome": "shared",
+    "pivotX": 0.5,
+    "pivotY": 0,
+    "ppu": 32,
+    "frames": [
+      {
+        "name": "sierra_cueva_inca_sol_0",
+        "x": 0,
+        "y": 0,
+        "width": 96,
+        "height": 96
+      },
+      {
+        "name": "sierra_cueva_inca_sol_1",
+        "x": 96,
+        "y": 0,
+        "width": 96,
+        "height": 96
+      },
+      {
+        "name": "sierra_cueva_inca_sol_2",
+        "x": 192,
+        "y": 0,
+        "width": 96,
+        "height": 96
+      },
+      {
+        "name": "sierra_cueva_inca_sol_3",
+        "x": 288,
+        "y": 0,
+        "width": 96,
+        "height": 96
+      },
+      {
+        "name": "sierra_cueva_inca_sol_4",
+        "x": 384,
+        "y": 0,
+        "width": 96,
+        "height": 96
+      },
+      {
+        "name": "sierra_cueva_inca_sol_5",
+        "x": 480,
+        "y": 0,
+        "width": 96,
+        "height": 96
+      },
+      {
+        "name": "sierra_cueva_inca_sol_6",
+        "x": 576,
+        "y": 0,
+        "width": 96,
+        "height": 96
+      },
+      {
+        "name": "sierra_cueva_inca_sol_7",
+        "x": 672,
+        "y": 0,
+        "width": 96,
+        "height": 96
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "sierra_cueva_inca_carga",
+    "file": "sierra_cueva_inca_carga.png",
+    "width": 96,
+    "height": 96,
+    "count": 8,
+    "fps": 12,
+    "loop": false,
+    "kind": "sprite",
+    "factor": 1,
+    "biome": "shared",
+    "pivotX": 0.5,
+    "pivotY": 0,
+    "ppu": 32,
+    "frames": [
+      {
+        "name": "sierra_cueva_inca_carga_0",
+        "x": 0,
+        "y": 0,
+        "width": 96,
+        "height": 96
+      },
+      {
+        "name": "sierra_cueva_inca_carga_1",
+        "x": 96,
+        "y": 0,
+        "width": 96,
+        "height": 96
+      },
+      {
+        "name": "sierra_cueva_inca_carga_2",
+        "x": 192,
+        "y": 0,
+        "width": 96,
+        "height": 96
+      },
+      {
+        "name": "sierra_cueva_inca_carga_3",
+        "x": 288,
+        "y": 0,
+        "width": 96,
+        "height": 96
+      },
+      {
+        "name": "sierra_cueva_inca_carga_4",
+        "x": 384,
+        "y": 0,
+        "width": 96,
+        "height": 96
+      },
+      {
+        "name": "sierra_cueva_inca_carga_5",
+        "x": 480,
+        "y": 0,
+        "width": 96,
+        "height": 96
+      },
+      {
+        "name": "sierra_cueva_inca_carga_6",
+        "x": 576,
+        "y": 0,
+        "width": 96,
+        "height": 96
+      },
+      {
+        "name": "sierra_cueva_inca_carga_7",
+        "x": 672,
+        "y": 0,
+        "width": 96,
+        "height": 96
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "sierra_cueva_golpe",
+    "file": "sierra_cueva_golpe.png",
+    "width": 32,
+    "height": 32,
+    "count": 4,
+    "fps": 12,
+    "loop": false,
+    "kind": "sprite",
+    "factor": 1,
+    "biome": "shared",
+    "pivotX": 0.5,
+    "pivotY": 0,
+    "ppu": 32,
+    "frames": [
+      {
+        "name": "sierra_cueva_golpe_0",
+        "x": 0,
+        "y": 0,
+        "width": 32,
+        "height": 32
+      },
+      {
+        "name": "sierra_cueva_golpe_1",
+        "x": 32,
+        "y": 0,
+        "width": 32,
+        "height": 32
+      },
+      {
+        "name": "sierra_cueva_golpe_2",
+        "x": 64,
+        "y": 0,
+        "width": 32,
+        "height": 32
+      },
+      {
+        "name": "sierra_cueva_golpe_3",
+        "x": 96,
+        "y": 0,
+        "width": 32,
+        "height": 32
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "sierra_cueva_proyectil_sol",
+    "file": "sierra_cueva_proyectil_sol.png",
+    "width": 12,
+    "height": 12,
+    "count": 4,
+    "fps": 10,
+    "loop": true,
+    "kind": "sprite",
+    "factor": 1,
+    "biome": "shared",
+    "pivotX": 0.5,
+    "pivotY": 0,
+    "ppu": 32,
+    "frames": [
+      {
+        "name": "sierra_cueva_proyectil_sol_0",
+        "x": 0,
+        "y": 0,
+        "width": 12,
+        "height": 12
+      },
+      {
+        "name": "sierra_cueva_proyectil_sol_1",
+        "x": 12,
+        "y": 0,
+        "width": 12,
+        "height": 12
+      },
+      {
+        "name": "sierra_cueva_proyectil_sol_2",
+        "x": 24,
+        "y": 0,
+        "width": 12,
+        "height": 12
+      },
+      {
+        "name": "sierra_cueva_proyectil_sol_3",
+        "x": 36,
+        "y": 0,
+        "width": 12,
+        "height": 12
+      }
+    ],
+    "notes": ""
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "name": "sierra_compartido_capa3_nevados",
+  "file": "sierra_compartido_capa3_nevados.png",
+  "width": 640,
+  "height": 180,
+  "count": 1,
+  "fps": 6,
+  "loop": true,
+  "kind": "layer",
+  "factor": 0.12,
+  "biome": "shared",
+  "pivotX": 0,
+  "pivotY": 1,
+  "ppu": 32,
+  "frames": [
+    {
+      "name": "sierra_compartido_capa3_nevados_0",
+      "x": 0,
+      "y": 0,
+      "width": 640,
+      "height": 180
+    }
+  ],
+  "notes": ""
+}

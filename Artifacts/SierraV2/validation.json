@@ -1,0 +1,16 @@
+{
+  "assets": 93,
+  "frames": 352,
+  "paletteColors": 24,
+  "errors": [],
+  "scope": "Validaci\u00f3n de PNG/metadatos y previews offline. NO prueba de Unity, f\u00edsica ni ritmo.",
+  "catalogs": [
+    "sierra_catalogo_1.png",
+    "sierra_catalogo_2.png",
+    "sierra_catalogo_3.png",
+    "sierra_catalogo_4.png",
+    "sierra_catalogo_5.png",
+    "sierra_catalogo_6.png",
+    "sierra_catalogo_7.png"
+  ]
+}

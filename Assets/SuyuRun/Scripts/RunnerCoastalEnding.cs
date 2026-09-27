@@ -14,10 +14,19 @@ namespace SuyuRun
         float portalX;
         int endingPhase;
         float endingTimer;
+        double coastTravelAt=-1,endingDsp;
+        Vector3 coastCameraHome;
+        void StartCoastTravel(){if(coastTravelAt<0)coastTravelAt=AudioSettings.dspTime;}
+        bool DrawCoastTravel()
+        {
+            if(coastTravelAt<0)return false;
+            RunnerPresentation.Curtain((float)(AudioSettings.dspTime-coastTravelAt)/.6f,1280,720);return true;
+        }
         const float ArmsPhase = 1.4f, SurprisePhase = .8f, AbsorbPhase = 1.3f, GonePhase = .4f;
 
         void BuildCoastalEnding()
         {
+            coastCameraHome=cam.transform.position;
             heroLogro = HeroFrames(Resources.LoadAll<Sprite>("costa_heroe_logro"), "logro", 4);
             // Every other world item lands at the hero's fixed screen x (-3) exactly when
             // it.x==distance, because the shared scroll formula (it.x-distance-3) already bakes in
@@ -64,17 +73,26 @@ namespace SuyuRun
 
         void UpdateCoastalEnding()
         {
+            if(coastTravelAt>=0)
+            {
+                if(AudioSettings.dspTime-coastTravelAt>=.65){coastTravelAt=-1;RunnerProgress.OpenSierra();}
+                return;
+            }
             if (portalAnchor) portalAnchor.position = new Vector3(portalX - distance - 3, Ground, 0);
             if (portalAnchor) portalAnchor.gameObject.SetActive(mode != Mode.Menu && mode != Mode.Museum && Mathf.Abs(portalX - distance) < 28);
 
             if (mode != Mode.Ending)
             {
+                if(endingDsp>0){RunnerPresentation.CameraPose(cam,coastCameraHome,coastCameraHome,0,false);endingDsp=0;}
                 if (sorpresaAnchor && sorpresaAnchor.gameObject.activeSelf) sorpresaAnchor.gameObject.SetActive(false);
                 if (absorcionAnchor && absorcionAnchor.gameObject.activeSelf) absorcionAnchor.gameObject.SetActive(false);
                 return;
             }
 
-            endingTimer += Time.deltaTime;
+            double dsp=AudioSettings.dspTime;
+            endingTimer += endingDsp>0?(float)(dsp-endingDsp):0;endingDsp=dsp;
+            float approach=endingPhase==0?Mathf.Clamp01(endingTimer/.6f):endingPhase==3?1-Mathf.Clamp01(endingTimer/GonePhase):1;
+            RunnerPresentation.CameraPose(cam,coastCameraHome,new Vector3(-2.5f,Ground+1.25f,-10),approach,approach>.8f);
             if (sorpresaAnchor) sorpresaAnchor.position = new Vector3(-3, feet + 1.9f, 0);
             if (absorcionAnchor) absorcionAnchor.position = new Vector3(-3, feet + .8f, 0);
 
@@ -115,8 +133,7 @@ namespace SuyuRun
                     if (endingTimer >= GonePhase)
                     {
                         mode = Mode.Complete;
-                        bank += coins; best = Mathf.Max(best, score);
-                        if (!AutomatedSmokeTest) { PlayerPrefs.SetInt("SuyuRun.Prototype.Bank", bank); PlayerPrefs.SetInt("SuyuRun.Prototype.Best", best); PlayerPrefs.Save(); }
+                        RunnerProgress.Finish("Costa",coins,score,AutomatedSmokeTest,out bank,out best);
                     }
                     break;
             }

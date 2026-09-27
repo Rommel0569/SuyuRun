@@ -1,0 +1,25 @@
+{
+  "name": "sierra_tunel_oclusor",
+  "file": "sierra_tunel_oclusor.png",
+  "width": 32,
+  "height": 180,
+  "count": 1,
+  "fps": 6,
+  "loop": true,
+  "kind": "sprite",
+  "factor": 1,
+  "biome": "shared",
+  "pivotX": 0,
+  "pivotY": 1,
+  "ppu": 32,
+  "frames": [
+    {
+      "name": "sierra_tunel_oclusor_0",
+      "x": 0,
+      "y": 0,
+      "width": 32,
+      "height": 180
+    }
+  ],
+  "notes": "Expandir horizontalmente, opaco. Swap de bioma solo con pantalla cubierta."
+}

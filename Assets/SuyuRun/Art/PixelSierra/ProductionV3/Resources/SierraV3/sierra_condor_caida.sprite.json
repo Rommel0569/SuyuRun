@@ -1,0 +1,46 @@
+{
+  "name": "sierra_condor_caida",
+  "file": "sierra_condor_caida.png",
+  "width": 64,
+  "height": 48,
+  "count": 4,
+  "fps": 8,
+  "loop": false,
+  "kind": "sprite",
+  "factor": 1,
+  "biome": "shared",
+  "pivotX": 0.5,
+  "pivotY": 0,
+  "ppu": 32,
+  "frames": [
+    {
+      "name": "sierra_condor_caida_0",
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 48
+    },
+    {
+      "name": "sierra_condor_caida_1",
+      "x": 64,
+      "y": 0,
+      "width": 64,
+      "height": 48
+    },
+    {
+      "name": "sierra_condor_caida_2",
+      "x": 128,
+      "y": 0,
+      "width": 64,
+      "height": 48
+    },
+    {
+      "name": "sierra_condor_caida_3",
+      "x": 192,
+      "y": 0,
+      "width": 64,
+      "height": 48
+    }
+  ],
+  "notes": "Telegraph aviso antes de atacar h\u00e9roe o anclaje. Condor simb\u00f3lico fant\u00e1stico; no ense\u00f1anza de caza real."
+}

@@ -1,0 +1,25 @@
+{
+  "name": "sierra_cueva_bala",
+  "file": "sierra_cueva_bala.png",
+  "width": 8,
+  "height": 8,
+  "count": 1,
+  "fps": 6,
+  "loop": true,
+  "kind": "sprite",
+  "factor": 1,
+  "biome": "shared",
+  "pivotX": 0.5,
+  "pivotY": 0,
+  "ppu": 32,
+  "frames": [
+    {
+      "name": "sierra_cueva_bala_0",
+      "x": 0,
+      "y": 0,
+      "width": 8,
+      "height": 8
+    }
+  ],
+  "notes": ""
+}

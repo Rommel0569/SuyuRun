@@ -1,0 +1,1 @@
+PASS both60s caves, return to runner; errors=0; Cave=None; Done=2/2; Local=60.06; Kills=16; Spawn=15; Reloads=6; Jumps=21; Position=(1470.24, 320.00); HP=5; Boss=0; Hits=20.79:projectile@(1095.59, 278.38); 28.35:projectile@(1095.70, 278.61); 29.84:projectile@(1095.29, 304.37); 31.75:contact@(1095.29, 282.99); 33.00:contact@(1095.29, 287.02); ; 2026-09-26T07:18:50.3433478-05:00

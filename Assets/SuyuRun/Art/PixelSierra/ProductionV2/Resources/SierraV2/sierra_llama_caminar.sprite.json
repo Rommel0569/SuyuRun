@@ -1,0 +1,60 @@
+{
+  "name": "sierra_llama_caminar",
+  "file": "sierra_llama_caminar.png",
+  "width": 48,
+  "height": 48,
+  "count": 6,
+  "fps": 7,
+  "loop": true,
+  "kind": "sprite",
+  "factor": 1,
+  "biome": "shared",
+  "pivotX": 0.5,
+  "pivotY": 0,
+  "ppu": 32,
+  "frames": [
+    {
+      "name": "sierra_llama_caminar_0",
+      "x": 0,
+      "y": 0,
+      "width": 48,
+      "height": 48
+    },
+    {
+      "name": "sierra_llama_caminar_1",
+      "x": 48,
+      "y": 0,
+      "width": 48,
+      "height": 48
+    },
+    {
+      "name": "sierra_llama_caminar_2",
+      "x": 96,
+      "y": 0,
+      "width": 48,
+      "height": 48
+    },
+    {
+      "name": "sierra_llama_caminar_3",
+      "x": 144,
+      "y": 0,
+      "width": 48,
+      "height": 48
+    },
+    {
+      "name": "sierra_llama_caminar_4",
+      "x": 192,
+      "y": 0,
+      "width": 48,
+      "height": 48
+    },
+    {
+      "name": "sierra_llama_caminar_5",
+      "x": 240,
+      "y": 0,
+      "width": 48,
+      "height": 48
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,74 @@
+{
+  "name": "sierra_portal_ceremonial",
+  "file": "sierra_portal_ceremonial.png",
+  "width": 96,
+  "height": 112,
+  "count": 8,
+  "fps": 8,
+  "loop": true,
+  "kind": "sprite",
+  "factor": 1,
+  "biome": "shared",
+  "pivotX": 0.5,
+  "pivotY": 0,
+  "ppu": 32,
+  "frames": [
+    {
+      "name": "sierra_portal_ceremonial_0",
+      "x": 0,
+      "y": 0,
+      "width": 96,
+      "height": 112
+    },
+    {
+      "name": "sierra_portal_ceremonial_1",
+      "x": 96,
+      "y": 0,
+      "width": 96,
+      "height": 112
+    },
+    {
+      "name": "sierra_portal_ceremonial_2",
+      "x": 192,
+      "y": 0,
+      "width": 96,
+      "height": 112
+    },
+    {
+      "name": "sierra_portal_ceremonial_3",
+      "x": 288,
+      "y": 0,
+      "width": 96,
+      "height": 112
+    },
+    {
+      "name": "sierra_portal_ceremonial_4",
+      "x": 384,
+      "y": 0,
+      "width": 96,
+      "height": 112
+    },
+    {
+      "name": "sierra_portal_ceremonial_5",
+      "x": 480,
+      "y": 0,
+      "width": 96,
+      "height": 112
+    },
+    {
+      "name": "sierra_portal_ceremonial_6",
+      "x": 576,
+      "y": 0,
+      "width": 96,
+      "height": 112
+    },
+    {
+      "name": "sierra_portal_ceremonial_7",
+      "x": 672,
+      "y": 0,
+      "width": 96,
+      "height": 112
+    }
+  ],
+  "notes": "Portal fant\u00e1stico inspirado en piedra/sol escalonado; no ritual hist\u00f3rico documentado."
+}

@@ -1,0 +1,14 @@
+{
+  "frames": 4,
+  "frameWidth": 80,
+  "frameHeight": 80,
+  "logicalWidth": 40,
+  "logicalHeight": 40,
+  "pixelsPerUnit": 64,
+  "fps": 6,
+  "loop": true,
+  "original": "Assets/SuyuRun/Art/PixelCosta/Resources/costa_efecto_absorcion.png",
+  "source": "Tools/finish_remaining_visuals.py",
+  "finish": "native cluster micro-contours; preserved original composition",
+  "fullPlaythroughTested": false
+}

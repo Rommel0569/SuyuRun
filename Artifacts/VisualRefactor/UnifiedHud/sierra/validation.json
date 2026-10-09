@@ -1,0 +1,35 @@
+{
+  "header_gun": {
+    "width": 1248,
+    "height": 80,
+    "colors": 23,
+    "sourceBounds": [
+      4,
+      124,
+      2168,
+      262
+    ]
+  },
+  "header_sling": {
+    "width": 1248,
+    "height": 80,
+    "colors": 22,
+    "sourceBounds": [
+      4,
+      44,
+      2168,
+      182
+    ]
+  },
+  "footer": {
+    "width": 1248,
+    "height": 76,
+    "colors": 22,
+    "sourceBounds": [
+      4,
+      4,
+      2168,
+      144
+    ]
+  }
+}

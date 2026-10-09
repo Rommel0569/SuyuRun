@@ -1,0 +1,13 @@
+SierraCaveWorld 0 30fps cleared=True dead=False time=40.60 hp=5 boss=0 minions=0 x=1472.0 y=320.0 trace=29.27:contact@(1097.60, 293.00); 
+SierraCaveWorld 0 60fps cleared=True dead=False time=40.47 hp=5 boss=0 minions=0 x=1472.0 y=320.0 trace=29.10:contact@(1093.86, 278.21); 
+SierraCaveWorld 0 120fps cleared=True dead=False time=40.24 hp=5 boss=0 minions=0 x=1472.0 y=320.0 trace=29.06:contact@(1094.81, 276.58); 
+SierraCaveWorld 1 30fps cleared=True dead=False time=45.40 hp=4 boss=0 minions=0 x=1472.0 y=320.0 trace=29.80:projectile@(1097.60, 278.73); 34.27:contact@(1097.60, 280.17); 39.57:projectile@(1097.60, 283.73); 
+SierraCaveWorld 1 60fps cleared=True dead=False time=45.47 hp=5 boss=0 minions=0 x=1472.0 y=320.0 trace=29.73:projectile@(1095.73, 278.41); 34.15:contact@(1095.73, 277.71); 39.60:projectile@(1095.73, 285.36); 
+SierraCaveWorld 1 120fps cleared=True dead=False time=45.01 hp=5 boss=0 minions=0 x=1472.0 y=320.0 trace=29.07:contact@(1095.74, 280.95); 
+SelvaMiniWorld 0 30fps cleared=True dead=False time=42.40 hp=5 boss=0 minions=0 x=1494.0 y=320.0 trace=20.40:roots-or-curse@(1097.60, 278.69); 23.33:roots-or-curse@(1097.60, 279.30); 29.20:roots-or-curse@(1097.60, 280.17); 32.13:roots-or-curse@(1097.60, 279.30); 
+SelvaMiniWorld 0 60fps cleared=True dead=False time=42.20 hp=5 boss=0 minions=0 x=1494.0 y=320.0 trace=20.38:roots-or-curse@(1095.73, 277.01); 23.32:roots-or-curse@(1095.73, 277.17); 29.12:contact@(1095.73, 278.21); 32.12:roots-or-curse@(1095.73, 277.17); 
+SelvaMiniWorld 0 120fps cleared=True dead=False time=40.97 hp=5 boss=0 minions=0 x=1494.0 y=320.0 trace=20.37:roots-or-curse@(1095.74, 276.20); 23.30:roots-or-curse@(1095.74, 276.53); 29.07:contact@(1095.74, 276.76); 32.07:roots-or-curse@(1095.74, 276.70); 
+SelvaMiniWorld 1 30fps cleared=True dead=False time=30.13 hp=5 boss=0 minions=0 x=1494.0 y=320.0 trace=16.50:contact@(1232.00, 320.00); 20.40:roots-or-curse@(1288.00, 320.00); 23.33:roots-or-curse@(1288.00, 320.00); 
+SelvaMiniWorld 1 60fps cleared=True dead=False time=30.18 hp=5 boss=0 minions=0 x=1494.0 y=320.0 trace=16.50:contact@(1233.86, 320.00); 20.38:roots-or-curse@(1286.13, 320.00); 23.32:roots-or-curse@(1286.13, 320.00); 
+SelvaMiniWorld 1 120fps cleared=True dead=False time=29.92 hp=5 boss=0 minions=0 x=1494.0 y=320.0 trace=16.49:contact@(1231.08, 320.00); 20.37:roots-or-curse@(1286.14, 320.00); 23.30:roots-or-curse@(1286.14, 320.00); 
+Pure compiled combat-model simulation; not a Unity visual playthrough or music test.

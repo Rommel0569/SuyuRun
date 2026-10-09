@@ -2,6 +2,42 @@
 
 Dirección del usuario recibida el 18 de septiembre de 2026. Sustituye decisiones anteriores incompatibles. Se normalizan únicamente las marcas de escape y el formato de listas de la conversación.
 
+## Enmienda vigente — refactor visual, 03/10/2026
+
+Ratificación posterior 08/10/2026: usuario probó y aprobó la calidad del lote AtmosphereClean y pide extender ese acabado a todas las capas de fondo usadas por biomas y mininiveles. Aplicar limpieza de tramado repetitivo, detalle nativo y exportación de mayor densidad conservando paleta, geometría y originales; no atribuir aprobación de capas nuevas a esa referencia aprobada.
+
+Ratificación 08/10/2026: usuario pide «TODO ... COMPLETO EN PAQUETE» y autoriza aumentar calidad/detalle nativo de todas las capas, niveles y mininiveles sin pausas individuales. Conservar el HUD y portales que comprobó conformes, originales, paletas, tamaños lógicos, colisiones y recorrido. Corregir deformación de Tayta al lanzar huaraca. El acabado cinematográfico final y nuevas mejoras de jugabilidad Selva quedan para después por su indicación. No confundir autorización del lote con aprobación visual de cada resultado.
+
+Ratificación 04/10/2026: «Dámelo completo ... tipo profesional, complétalo ... al 100%». El usuario solicita completar el lote sin otra pausa de aprobación individual. Conservar los originales, las paletas, las colisiones y el flujo; verificar en Unity antes de anunciar finalización.
+
+Pedido más reciente: ampliar el refactor a escenarios, obstáculos y todo el
+arte del juego principal, aumentando detalle nativo sin aspecto suave ni
+cambiar el flujo. La resolución del PNG no determina su tamaño en mundo:
+conservar encuadre, posiciones, música y conexiones. El usuario pide reducir
+al protagonista: escala común 0.85 y colisiones proporcionales, también en
+cuevas; agacharse debe tener una silueta realmente baja. Mantener originales,
+paletas regionales y hojas nuevas versionadas. El aumento de resolución no
+autoriza declarar todo terminado ni presentar un reescalado como dibujo nuevo.
+
+Pedido posterior vigente: «arte como si ya tuvieras que incorporarlo al juego»
+y «pack completo de todo», ratificado con «LO APRUEBO». Lote autorizado sin
+pausas por asset. Preparar PNG nativos y contrato de importación verificable;
+no considerar una preview como integración ni un banco parcial como completo.
+
+Actualización posterior: el usuario solicita el banco completo en lote
+(«dame el banco completo de todos, confío en ti»). Autoriza avanzar sin
+pausar por aprobación de cada hoja, manteniendo la dirección visual aprobada.
+Esta autorización sustituye el paso de aprobación individual para este banco.
+
+El usuario autoriza aumentar la resolución de los sprites para conservar el
+detalle de la referencia de Tayta. Primera propuesta: personajes 96x96, mismo
+tamaño en mundo y mismas colisiones. Sustituye 48x48 y cuadrícula única donde
+sea necesario para estos sprites; mantiene pixel art y colores regionales.
+Traje protector de Selva: tipo gorila fantástico, rostro humano visible.
+Refactor de personajes, jefes, animaciones y efectos de habilidades, uno por
+uno con aprobación. Escenarios admiten pulido visual sin cambiar el flujo.
+No se consideran aprobadas hojas nuevas por aprobar la dirección general.
+
 GUÁRDALO EN TU MEMORIA. Antes de generar, modificar o corregir CUALQUIER asset, relee este documento completo. Si te pido un cambio, modifica SOLO lo pedido y respeta reglas, paleta y estilo ya aprobados. Al terminar cada asset, resume en 1 línea qué hiciste y espera mi confirmación. Si algo choca con estas reglas, avísame en una línea antes de generar.
 
 ## 1. PROYECTO

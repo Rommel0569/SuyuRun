@@ -1,0 +1,14 @@
+{
+  "frames": 4,
+  "frameWidth": 1280,
+  "frameHeight": 360,
+  "logicalWidth": 640,
+  "logicalHeight": 180,
+  "pixelsPerUnit": 64,
+  "fps": 5,
+  "loop": true,
+  "original": "Assets/SuyuRun/Art/PixelSierra/ProductionV3/Resources/SierraV3/sierra_valle_capa6_cercano.png",
+  "source": "Tools/finish_remaining_visuals.py",
+  "finish": "native cluster micro-contours; preserved original composition",
+  "fullPlaythroughTested": false
+}

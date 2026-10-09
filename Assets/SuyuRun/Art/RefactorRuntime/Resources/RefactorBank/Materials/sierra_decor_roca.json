@@ -1,0 +1,14 @@
+{
+  "frames": 1,
+  "frameWidth": 96,
+  "frameHeight": 64,
+  "logicalWidth": 48,
+  "logicalHeight": 32,
+  "pixelsPerUnit": 64,
+  "fps": 5,
+  "loop": true,
+  "original": "Assets/SuyuRun/Art/PixelSierra/ProductionV3/Resources/SierraV3/sierra_decor_roca.png",
+  "source": "Tools/finish_remaining_visuals.py",
+  "finish": "native cluster micro-contours; preserved original composition",
+  "fullPlaythroughTested": false
+}

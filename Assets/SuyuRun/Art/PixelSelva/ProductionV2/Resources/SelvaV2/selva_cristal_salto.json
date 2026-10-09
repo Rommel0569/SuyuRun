@@ -1,0 +1,42 @@
+{
+  "name": "selva_cristal_salto",
+  "frameWidth": 32,
+  "frameHeight": 32,
+  "frames": 4,
+  "fps": 5,
+  "loop": true,
+  "ppu": 32,
+  "pivot": [
+    0,
+    1
+  ],
+  "rectsUnity": [
+    {
+      "x": 0,
+      "y": 0,
+      "width": 32,
+      "height": 32
+    },
+    {
+      "x": 32,
+      "y": 0,
+      "width": 32,
+      "height": 32
+    },
+    {
+      "x": 64,
+      "y": 0,
+      "width": 32,
+      "height": 32
+    },
+    {
+      "x": 96,
+      "y": 0,
+      "width": 32,
+      "height": 32
+    }
+  ],
+  "group": "Props",
+  "factor": 1,
+  "seamlessX": false
+}

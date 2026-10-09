@@ -1,0 +1,1017 @@
+fileFormatVersion: 2
+guid: 8f38fa26efaad424e956cdd45d9280ab
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2233294090587500497
+    second: selva_fx_eco_0
+  - first:
+      213: -5436671444457672095
+    second: selva_fx_eco_1
+  - first:
+      213: 8213217303863198548
+    second: selva_fx_eco_2
+  - first:
+      213: -7618940840333409221
+    second: selva_fx_eco_3
+  - first:
+      213: -8136805145786862220
+    second: selva_fx_eco_4
+  - first:
+      213: -8755050743147271815
+    second: selva_fx_eco_5
+  - first:
+      213: -4946548150111632174
+    second: selva_fx_eco_6
+  - first:
+      213: 8041762151464367731
+    second: selva_fx_eco_7
+  - first:
+      213: -8967420454087348533
+    second: selva_fx_eco_8
+  - first:
+      213: -9156779246361075463
+    second: selva_fx_eco_9
+  - first:
+      213: 2512607936062503417
+    second: selva_fx_eco_10
+  - first:
+      213: -6450100602946690535
+    second: selva_fx_eco_11
+  - first:
+      213: 7317652689097821779
+    second: selva_fx_eco_12
+  - first:
+      213: 5381441631428259392
+    second: selva_fx_eco_13
+  - first:
+      213: -2153642952458571472
+    second: selva_fx_eco_14
+  - first:
+      213: -969496802451843683
+    second: selva_fx_eco_15
+  - first:
+      213: 7315193698843367302
+    second: selva_fx_eco_16
+  - first:
+      213: 6716169275236797662
+    second: selva_fx_eco_17
+  - first:
+      213: 2443560202130841479
+    second: selva_fx_eco_18
+  - first:
+      213: 4690722039619160851
+    second: selva_fx_eco_19
+  - first:
+      213: -4050446172290724675
+    second: selva_fx_eco_20
+  - first:
+      213: -8376278917518886048
+    second: selva_fx_eco_21
+  - first:
+      213: 8156140209247438038
+    second: selva_fx_eco_22
+  - first:
+      213: -4944355283090767856
+    second: selva_fx_eco_23
+  - first:
+      213: -1003662886012105548
+    second: selva_fx_eco_24
+  - first:
+      213: -5931914809052735123
+    second: selva_fx_eco_25
+  - first:
+      213: -8107122503664218743
+    second: selva_fx_eco_26
+  - first:
+      213: 6126192587854421106
+    second: selva_fx_eco_27
+  - first:
+      213: -166246298196990092
+    second: selva_fx_eco_28
+  - first:
+      213: 4701578709572683781
+    second: selva_fx_eco_29
+  - first:
+      213: 6712965875724859090
+    second: selva_fx_eco_30
+  - first:
+      213: -482555584522194015
+    second: selva_fx_eco_31
+  - first:
+      213: -2463194971243453780
+    second: selva_fx_eco_32
+  - first:
+      213: 7738489462867124352
+    second: selva_fx_eco_33
+  - first:
+      213: 1336360306840735199
+    second: selva_fx_eco_34
+  - first:
+      213: 2410424639473199142
+    second: selva_fx_eco_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: selva_fx_eco_0
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 89
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f209d8b6bdeb101e0800000000000000
+      internalID: -2233294090587500497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_eco_1
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 89
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 162379040201d84b0800000000000000
+      internalID: -5436671444457672095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_eco_2
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 93
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4538bd35f953bf170800000000000000
+      internalID: 8213217303863198548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_eco_3
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 87
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b34063f2ca5144690800000000000000
+      internalID: -7618940840333409221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_eco_4
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 101
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 475bdce94d2441f80800000000000000
+      internalID: -8136805145786862220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_eco_5
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 39
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 979ef204cbfcf7680800000000000000
+      internalID: -8755050743147271815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_eco_6
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 75
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d40b385aa45a5bb0800000000000000
+      internalID: -4946548150111632174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_eco_7
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 75
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 376f636d1141a9f60800000000000000
+      internalID: 8041762151464367731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_eco_8
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 75
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bce2d82cb925d8380800000000000000
+      internalID: -8967420454087348533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_eco_9
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 83
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f0aaf54ac59ce080800000000000000
+      internalID: -9156779246361075463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_eco_10
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 71
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f935d00b939ed220800000000000000
+      internalID: 2512607936062503417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_eco_11
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 69
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91264dbfca3ac76a0800000000000000
+      internalID: -6450100602946690535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_eco_12
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 81
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35e8b53a9568d8560800000000000000
+      internalID: 7317652689097821779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_eco_13
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 67
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04ea7c4d6a8beaa40800000000000000
+      internalID: 5381441631428259392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_eco_14
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 81
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 031fead2529bc12e0800000000000000
+      internalID: -2153642952458571472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_eco_15
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 59
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d951bf67bc7ab82f0800000000000000
+      internalID: -969496802451843683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_eco_16
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 61
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6871cba59e9c48560800000000000000
+      internalID: 7315193698843367302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_eco_17
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edcc1ed3f50a43d50800000000000000
+      internalID: 6716169275236797662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_eco_18
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 47
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78f5a4bae0549e120800000000000000
+      internalID: 2443560202130841479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_eco_19
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 55
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31b889fa7dac81140800000000000000
+      internalID: 4690722039619160851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_eco_20
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 61
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbc45ce9aace9c7c0800000000000000
+      internalID: -4050446172290724675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_eco_21
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 49
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06b71b534ba71cb80800000000000000
+      internalID: -8376278917518886048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_eco_22
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 41
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d44976ae4e603170800000000000000
+      internalID: 8156140209247438038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_eco_23
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 33
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0108c0cf01f126bb0800000000000000
+      internalID: -4944355283090767856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_eco_24
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 43
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bc410d3ce54212f0800000000000000
+      internalID: -1003662886012105548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_eco_25
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 31
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d695888e8ea9dada0800000000000000
+      internalID: -5931914809052735123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_eco_26
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 29
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98dc48a4907bd7f80800000000000000
+      internalID: -8107122503664218743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_eco_27
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 41
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27c91b063bb940550800000000000000
+      internalID: 6126192587854421106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_eco_28
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 29
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 477aeb26fdf51bdf0800000000000000
+      internalID: -166246298196990092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_eco_29
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 27
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5088e932dec5f3140800000000000000
+      internalID: 4701578709572683781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_eco_30
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 33
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d636eba5ee392d50800000000000000
+      internalID: 6712965875724859090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_eco_31
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 41
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a37c28a04e9d49f0800000000000000
+      internalID: -482555584522194015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_eco_32
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 21
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca261866939f0ddd0800000000000000
+      internalID: -2463194971243453780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_eco_33
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 15
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0806c4c8a23a46b60800000000000000
+      internalID: 7738489462867124352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_eco_34
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 15
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdd8c256e94bb8210800000000000000
+      internalID: 1336360306840735199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_eco_35
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 13
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62826a9407c837120800000000000000
+      internalID: 2410424639473199142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

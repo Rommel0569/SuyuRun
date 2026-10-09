@@ -1,0 +1,742 @@
+fileFormatVersion: 2
+guid: 2a34aa1644a1920409a2facd9678db17
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8926477334230876433
+    second: sierra_fx_astillas_madera_0
+  - first:
+      213: -6538862550434211500
+    second: sierra_fx_astillas_madera_1
+  - first:
+      213: -5253776076634617127
+    second: sierra_fx_astillas_madera_2
+  - first:
+      213: -6610232576817909606
+    second: sierra_fx_astillas_madera_3
+  - first:
+      213: -8790805056756382613
+    second: sierra_fx_astillas_madera_4
+  - first:
+      213: 1434646261332396125
+    second: sierra_fx_astillas_madera_5
+  - first:
+      213: 5084711558587202885
+    second: sierra_fx_astillas_madera_6
+  - first:
+      213: -1641615015856359656
+    second: sierra_fx_astillas_madera_7
+  - first:
+      213: 8785751050107090421
+    second: sierra_fx_astillas_madera_8
+  - first:
+      213: -2913031472700119791
+    second: sierra_fx_astillas_madera_9
+  - first:
+      213: -7215256285424065037
+    second: sierra_fx_astillas_madera_10
+  - first:
+      213: 2531946380833284856
+    second: sierra_fx_astillas_madera_11
+  - first:
+      213: 4551607987665803996
+    second: sierra_fx_astillas_madera_12
+  - first:
+      213: 2858736646506328884
+    second: sierra_fx_astillas_madera_13
+  - first:
+      213: 4684202384499669581
+    second: sierra_fx_astillas_madera_14
+  - first:
+      213: -6029398289968317604
+    second: sierra_fx_astillas_madera_15
+  - first:
+      213: 4602277666650288536
+    second: sierra_fx_astillas_madera_16
+  - first:
+      213: -7679948653700175369
+    second: sierra_fx_astillas_madera_17
+  - first:
+      213: 1190727718337596850
+    second: sierra_fx_astillas_madera_18
+  - first:
+      213: 4253715101315465382
+    second: sierra_fx_astillas_madera_19
+  - first:
+      213: 2829917294639321266
+    second: sierra_fx_astillas_madera_20
+  - first:
+      213: 6174580716722313583
+    second: sierra_fx_astillas_madera_21
+  - first:
+      213: 5824797160344699348
+    second: sierra_fx_astillas_madera_22
+  - first:
+      213: 5833685028216872718
+    second: sierra_fx_astillas_madera_23
+  - first:
+      213: 961600612957511541
+    second: sierra_fx_astillas_madera_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sierra_fx_astillas_madera_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 19
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feeb795b828ce1480800000000000000
+      internalID: -8926477334230876433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_astillas_madera_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 13
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 459934e972b4145a0800000000000000
+      internalID: -6538862550434211500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_astillas_madera_2
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 21
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9da8fb67e76d617b0800000000000000
+      internalID: -5253776076634617127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_astillas_madera_3
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 17
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a90bd007e7cb344a0800000000000000
+      internalID: -6610232576817909606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_astillas_madera_4
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 29
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6404566069c00680800000000000000
+      internalID: -8790805056756382613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_astillas_madera_5
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 37
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d584f017c23e8e310800000000000000
+      internalID: 1434646261332396125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_astillas_madera_6
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 29
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54db9eaf836809640800000000000000
+      internalID: 5084711558587202885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_astillas_madera_7
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 37
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8173fe937dfc739e0800000000000000
+      internalID: -1641615015856359656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_astillas_madera_8
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 11
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f5f5aaf7024de970800000000000000
+      internalID: 8785751050107090421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_astillas_madera_9
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 13
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1152d2a3f45d297d0800000000000000
+      internalID: -2913031472700119791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_astillas_madera_10
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 27
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f5e4efe2a24edb90800000000000000
+      internalID: -7215256285424065037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_astillas_madera_11
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 23
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f267eb81d7432320800000000000000
+      internalID: 2531946380833284856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_astillas_madera_12
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 27
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cda96ad695f8a2f30800000000000000
+      internalID: 4551607987665803996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_astillas_madera_13
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 9
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 433b66175d54ca720800000000000000
+      internalID: 2858736646506328884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_astillas_madera_14
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 3
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4af3203041a10140800000000000000
+      internalID: 4684202384499669581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_astillas_madera_15
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 15
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5b371d4336435ca0800000000000000
+      internalID: -6029398289968317604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_astillas_madera_16
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 17
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 891776667239edf30800000000000000
+      internalID: 4602277666650288536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_astillas_madera_17
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 11
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f926fab3675b6590800000000000000
+      internalID: -7679948653700175369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_astillas_madera_18
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 11
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bd49b31d80568010800000000000000
+      internalID: 1190727718337596850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_astillas_madera_19
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 13
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a08f95f85b380b30800000000000000
+      internalID: 4253715101315465382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_astillas_madera_20
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 1
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b016b239c2e54720800000000000000
+      internalID: 2829917294639321266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_astillas_madera_21
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 0
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f69d531927480b550800000000000000
+      internalID: 6174580716722313583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_astillas_madera_22
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 0
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d1cc0ff726d5d050800000000000000
+      internalID: 5824797160344699348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_astillas_madera_23
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 0
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0f916eff9965f050800000000000000
+      internalID: 5833685028216872718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_astillas_madera_24
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 5
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57f5127a9aa485d00800000000000000
+      internalID: 961600612957511541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,16 @@
+{
+  "frames": 1,
+  "frameWidth": 1280,
+  "frameHeight": 360,
+  "logicalWidth": 640,
+  "logicalHeight": 180,
+  "pixelsPerUnit": 64,
+  "fps": 1,
+  "loop": true,
+  "source": "Artifacts/VisualRefactor/LayerPolish/Sources/selva_rio_capa3_estructura.png",
+  "original": "Assets/SuyuRun/Art/PixelSelva/ProductionV2/Resources/SelvaV2/selva_rio_capa3_estructura.png",
+  "seamEndpointEqual": true,
+  "fullPlaythroughTested": false,
+  "previous": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Environment/selva_rio_capa3_estructura.json",
+  "finish": "independent imagegen redraw; native clusters"
+}

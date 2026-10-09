@@ -1,0 +1,22 @@
+Revision 2026-10-04: 13 independent background layers, detailed log and centred exits.
+PASS costa_capa3_paracas: native detail; original world dimensions and Point filtering
+PASS sierra_compartido_capa3_nevados: native detail; original world dimensions and Point filtering
+PASS selva_bosque_capa3_estructura: native detail; original world dimensions and Point filtering
+PASS costa_capa5_huacas: native detail; original world dimensions and Point filtering
+PASS sierra_ruinas_capa4_paisaje: native detail; original world dimensions and Point filtering
+PASS selva_templo_capa3_estructura: native detail; original world dimensions and Point filtering
+PASS sierra_cueva1_arcos: native detail; original world dimensions and Point filtering
+PASS sierra_cueva2_arcos: native detail; original world dimensions and Point filtering
+PASS sierra_valle_capa4_paisaje: native detail; original world dimensions and Point filtering
+PASS selva_rio_capa3_estructura: native detail; original world dimensions and Point filtering
+PASS selva_noche_capa3_estructura: native detail; original world dimensions and Point filtering
+PASS sierra_camino_capa4_paisaje: native detail; original world dimensions and Point filtering
+PASS selva_cueva_capa3_estructura: native detail; original world dimensions and Point filtering
+PASS detailed log: original 64x16 logical canvas and Point filtering
+PASS detailed ruins block: original 64x32 logical geometry
+PASS cave 0: Sierra and Selva clear at portal in 3s, including right edge
+PASS cave 0: magazine 5, no infinite fire, 4s reload in both regions
+PASS cave 1: Sierra and Selva clear at portal in 3s, including right edge
+PASS cave 1: magazine 5, no infinite fire, 4s reload in both regions
+PASS overtime: 5s if only boss or minions remain
+Model/resource checks only. Not a full visual playthrough or balance certification.

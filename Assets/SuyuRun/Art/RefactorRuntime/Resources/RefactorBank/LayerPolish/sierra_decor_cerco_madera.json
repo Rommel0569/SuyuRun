@@ -1,0 +1,17 @@
+{
+  "frames": 1,
+  "frameWidth": 192,
+  "frameHeight": 80,
+  "logicalWidth": 96,
+  "logicalHeight": 40,
+  "pixelsPerUnit": 64,
+  "fps": 5,
+  "loop": true,
+  "original": "Assets/SuyuRun/Art/PixelSierra/ProductionV3/Resources/SierraV3/sierra_decor_cerco_madera.png",
+  "source": "Artifacts/VisualRefactor/LayerPolish/Sources/sierra_decor_cerco_madera.png",
+  "finish": "independent imagegen redraw; native clusters",
+  "fullPlaythroughTested": false,
+  "previous": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/sierra_decor_cerco_madera.json",
+  "seamEndpointEqual": true,
+  "originalAlphaMaskPreserved": false
+}

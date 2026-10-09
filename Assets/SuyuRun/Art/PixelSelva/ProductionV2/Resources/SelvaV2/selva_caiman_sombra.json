@@ -1,0 +1,22 @@
+{
+  "name": "selva_caiman_sombra",
+  "frameWidth": 64,
+  "frameHeight": 16,
+  "frames": 1,
+  "fps": 8,
+  "loop": true,
+  "ppu": 32,
+  "pivot": [
+    0,
+    1
+  ],
+  "rectsUnity": [
+    {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 16
+    }
+  ],
+  "group": "Enemies"
+}

@@ -1,0 +1,18 @@
+{
+  "frames": 1,
+  "frameWidth": 64,
+  "frameHeight": 48,
+  "logicalWidth": 16,
+  "logicalHeight": 12,
+  "pixelsPerUnit": 128,
+  "fps": 6,
+  "loop": true,
+  "material": "stone",
+  "original": "Assets/SuyuRun/Art/PixelSierra/ProductionV3/Resources/SierraV3/sierra_cueva_plataforma.png",
+  "source": "Artifacts/VisualRefactor/AtmosphereClean/Sources/sierra_cueva_plataforma.png",
+  "fullPlaythroughTested": false,
+  "previous": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/sierra_cueva_plataforma.json",
+  "finish": "independent imagegen redraw; native clusters",
+  "seamEndpointEqual": false,
+  "originalAlphaMaskPreserved": true
+}

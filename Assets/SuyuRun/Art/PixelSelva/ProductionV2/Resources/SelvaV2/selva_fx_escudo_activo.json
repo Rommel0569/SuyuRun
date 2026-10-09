@@ -1,0 +1,42 @@
+{
+  "name": "selva_fx_escudo_activo",
+  "frameWidth": 48,
+  "frameHeight": 48,
+  "frames": 4,
+  "fps": 6,
+  "loop": true,
+  "ppu": 32,
+  "pivot": [
+    0,
+    1
+  ],
+  "rectsUnity": [
+    {
+      "x": 0,
+      "y": 0,
+      "width": 48,
+      "height": 48
+    },
+    {
+      "x": 48,
+      "y": 0,
+      "width": 48,
+      "height": 48
+    },
+    {
+      "x": 96,
+      "y": 0,
+      "width": 48,
+      "height": 48
+    },
+    {
+      "x": 144,
+      "y": 0,
+      "width": 48,
+      "height": 48
+    }
+  ],
+  "group": "Effects",
+  "factor": 1,
+  "seamlessX": false
+}

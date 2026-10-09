@@ -1,0 +1,15 @@
+{
+  "frames": 3,
+  "fps": 12,
+  "loop": false,
+  "frameWidth": 192,
+  "frameHeight": 128,
+  "pixelsPerUnit": 64,
+  "footAnchor": [
+    96,
+    124
+  ],
+  "source": "C:\\Users\\USER\\.codex\\generated_images\\01a0b183-22cf-7d11-8237-6260f5f81b06\\exec-07ab9fe2-34b2-4486-9351-78ea23bcee25.png",
+  "choreography": "Selva jump reference; Costa costume; common scale",
+  "playTested": false
+}

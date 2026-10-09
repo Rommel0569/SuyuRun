@@ -1,0 +1,1392 @@
+fileFormatVersion: 2
+guid: 7eadfec16fff2cf4cb3a1f573e863b1b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 11486786306668084
+    second: sierra_fx_humo_teleport_0
+  - first:
+      213: -8624847410971892806
+    second: sierra_fx_humo_teleport_1
+  - first:
+      213: -2897758347047007710
+    second: sierra_fx_humo_teleport_2
+  - first:
+      213: -6390890845225195816
+    second: sierra_fx_humo_teleport_3
+  - first:
+      213: 7285061905678522924
+    second: sierra_fx_humo_teleport_4
+  - first:
+      213: 6235477995537683196
+    second: sierra_fx_humo_teleport_5
+  - first:
+      213: 9144023512473776787
+    second: sierra_fx_humo_teleport_6
+  - first:
+      213: 8818326185323584988
+    second: sierra_fx_humo_teleport_7
+  - first:
+      213: 2001663623453779428
+    second: sierra_fx_humo_teleport_8
+  - first:
+      213: -136351959294260811
+    second: sierra_fx_humo_teleport_9
+  - first:
+      213: -1256659653896884353
+    second: sierra_fx_humo_teleport_10
+  - first:
+      213: -5975066818944394191
+    second: sierra_fx_humo_teleport_11
+  - first:
+      213: -5856441794599462190
+    second: sierra_fx_humo_teleport_12
+  - first:
+      213: 7597968363181987689
+    second: sierra_fx_humo_teleport_13
+  - first:
+      213: -475996236412912985
+    second: sierra_fx_humo_teleport_14
+  - first:
+      213: 77125037493409635
+    second: sierra_fx_humo_teleport_15
+  - first:
+      213: -6144373654792472780
+    second: sierra_fx_humo_teleport_16
+  - first:
+      213: 1188018715200271225
+    second: sierra_fx_humo_teleport_17
+  - first:
+      213: 5456899182916435999
+    second: sierra_fx_humo_teleport_18
+  - first:
+      213: 2962018058348434378
+    second: sierra_fx_humo_teleport_19
+  - first:
+      213: 2038903298758112477
+    second: sierra_fx_humo_teleport_20
+  - first:
+      213: -3804555207162231410
+    second: sierra_fx_humo_teleport_21
+  - first:
+      213: 6972372464869521
+    second: sierra_fx_humo_teleport_22
+  - first:
+      213: -126867527617548146
+    second: sierra_fx_humo_teleport_23
+  - first:
+      213: 7114537932459941479
+    second: sierra_fx_humo_teleport_24
+  - first:
+      213: 7767651485272449927
+    second: sierra_fx_humo_teleport_25
+  - first:
+      213: -9036194025830698176
+    second: sierra_fx_humo_teleport_26
+  - first:
+      213: 2296109406313589522
+    second: sierra_fx_humo_teleport_27
+  - first:
+      213: -2052951783871235796
+    second: sierra_fx_humo_teleport_28
+  - first:
+      213: -8784258068077606822
+    second: sierra_fx_humo_teleport_29
+  - first:
+      213: 4359419084369011661
+    second: sierra_fx_humo_teleport_30
+  - first:
+      213: 2435181398527475379
+    second: sierra_fx_humo_teleport_31
+  - first:
+      213: 5599603804068093643
+    second: sierra_fx_humo_teleport_32
+  - first:
+      213: -7026385137723188598
+    second: sierra_fx_humo_teleport_33
+  - first:
+      213: -1374419570977139669
+    second: sierra_fx_humo_teleport_34
+  - first:
+      213: 4318369785596779854
+    second: sierra_fx_humo_teleport_35
+  - first:
+      213: 5769716957903721594
+    second: sierra_fx_humo_teleport_36
+  - first:
+      213: 3054341373112087263
+    second: sierra_fx_humo_teleport_37
+  - first:
+      213: 6497908998128273988
+    second: sierra_fx_humo_teleport_38
+  - first:
+      213: -3885110243929788135
+    second: sierra_fx_humo_teleport_39
+  - first:
+      213: -3283427023824594927
+    second: sierra_fx_humo_teleport_40
+  - first:
+      213: -5340682880594896337
+    second: sierra_fx_humo_teleport_41
+  - first:
+      213: -4196360546842737571
+    second: sierra_fx_humo_teleport_42
+  - first:
+      213: 9076718373091762086
+    second: sierra_fx_humo_teleport_43
+  - first:
+      213: -9074499920829853971
+    second: sierra_fx_humo_teleport_44
+  - first:
+      213: -1538756819359889115
+    second: sierra_fx_humo_teleport_45
+  - first:
+      213: 2140520773279895095
+    second: sierra_fx_humo_teleport_46
+  - first:
+      213: 4676847546057125649
+    second: sierra_fx_humo_teleport_47
+  - first:
+      213: -3000074960240804041
+    second: sierra_fx_humo_teleport_48
+  - first:
+      213: 2790434464640966629
+    second: sierra_fx_humo_teleport_49
+  - first:
+      213: 1982240856188260669
+    second: sierra_fx_humo_teleport_50
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sierra_fx_humo_teleport_0
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 87
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4367b69db2fc82000800000000000000
+      internalID: 11486786306668084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_humo_teleport_1
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 91
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab3a213e9f26e4880800000000000000
+      internalID: -8624847410971892806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_humo_teleport_2
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 95
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22a0757e22819c7d0800000000000000
+      internalID: -2897758347047007710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_humo_teleport_3
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 45
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d66e0cf2aefe47a0800000000000000
+      internalID: -6390890845225195816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_humo_teleport_4
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 41
+        width: 54
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2ad2be843db91560800000000000000
+      internalID: 7285061905678522924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_humo_teleport_5
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 81
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf2d9c0333ed88650800000000000000
+      internalID: 6235477995537683196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_humo_teleport_6
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 77
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 392b1deffe816ee70800000000000000
+      internalID: 9144023512473776787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_humo_teleport_7
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 75
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdddcbda1fcf06a70800000000000000
+      internalID: 8818326185323584988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_humo_teleport_8
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 79
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e5a8c3d57657cb10800000000000000
+      internalID: 2001663623453779428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_humo_teleport_9
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 75
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b946dd8d949b1ef0800000000000000
+      internalID: -136351959294260811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_humo_teleport_10
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 77
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7f29ede3b27f8ee0800000000000000
+      internalID: -1256659653896884353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_humo_teleport_11
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 83
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13c989ba26c441da0800000000000000
+      internalID: -5975066818944394191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_humo_teleport_12
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 79
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dad521773db9bea0800000000000000
+      internalID: -5856441794599462190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_humo_teleport_13
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 51
+        width: 36
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9675e1678f7617960800000000000000
+      internalID: 7597968363181987689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_humo_teleport_14
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 47
+        width: 46
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aa7f26e1fbe469f0800000000000000
+      internalID: -475996236412912985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_humo_teleport_15
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 71
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 367551f10d0021100800000000000000
+      internalID: 77125037493409635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_humo_teleport_16
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 73
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43773da17bccabaa0800000000000000
+      internalID: -6144373654792472780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_humo_teleport_17
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 71
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97337022ab0bc7010800000000000000
+      internalID: 1188018715200271225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_humo_teleport_18
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 73
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f108adc15eccabb40800000000000000
+      internalID: 5456899182916435999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_humo_teleport_19
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 65
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac3962a0bb33b1920800000000000000
+      internalID: 2962018058348434378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_humo_teleport_20
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 73
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd479d56fb3ab4c10800000000000000
+      internalID: 2038903298758112477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_humo_teleport_21
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 65
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e858bbc4231833bc0800000000000000
+      internalID: -3804555207162231410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_humo_teleport_22
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 67
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 190a208f555c81000800000000000000
+      internalID: 6972372464869521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_humo_teleport_23
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 65
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e80f2d2e7a64d3ef0800000000000000
+      internalID: -126867527617548146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_humo_teleport_24
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 59
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76e115d1e8aebb260800000000000000
+      internalID: 7114537932459941479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_humo_teleport_25
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 63
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78323befedd3ccb60800000000000000
+      internalID: 7767651485272449927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_humo_teleport_26
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 53
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 043bad8c86df89280800000000000000
+      internalID: -9036194025830698176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_humo_teleport_27
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 61
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21b21c8f65b6ddf10800000000000000
+      internalID: 2296109406313589522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_humo_teleport_28
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 63
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c29b955ca337283e0800000000000000
+      internalID: -2052951783871235796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_humo_teleport_29
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 61
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5800ecf3db081680800000000000000
+      internalID: -8784258068077606822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_humo_teleport_30
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 63
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc3afde5f84cf7c30800000000000000
+      internalID: 4359419084369011661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_humo_teleport_31
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 61
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3be7ede64908bc120800000000000000
+      internalID: 2435181398527475379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_humo_teleport_32
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 49
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bce9768edf9c5bd40800000000000000
+      internalID: 5599603804068093643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_humo_teleport_33
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 49
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8adce2d1f34d7e90800000000000000
+      internalID: -7026385137723188598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_humo_teleport_34
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 47
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b241093aea41dece0800000000000000
+      internalID: -1374419570977139669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_humo_teleport_35
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 47
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4d9647b07eedeb30800000000000000
+      internalID: 4318369785596779854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_humo_teleport_36
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 53
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7416620107221050800000000000000
+      internalID: 5769716957903721594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_humo_teleport_37
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 45
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd2ff17db43336a20800000000000000
+      internalID: 3054341373112087263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_humo_teleport_38
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 47
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44a00407ec53d2a50800000000000000
+      internalID: 6497908998128273988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_humo_teleport_39
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 51
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 911755d31d0551ac0800000000000000
+      internalID: -3885110243929788135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_humo_teleport_40
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 45
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1185407a48cee62d0800000000000000
+      internalID: -3283427023824594927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_humo_teleport_41
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 51
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2a912c573512e5b0800000000000000
+      internalID: -5340682880594896337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_humo_teleport_42
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 39
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5489ffd05883c5c0800000000000000
+      internalID: -4196360546842737571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_humo_teleport_43
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 41
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6af5562154bf6fd70800000000000000
+      internalID: 9076718373091762086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_humo_teleport_44
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 37
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dee40a89666e01280800000000000000
+      internalID: -9074499920829853971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_humo_teleport_45
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 39
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 529085253dc35aae0800000000000000
+      internalID: -1538756819359889115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_humo_teleport_46
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 35
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73e41b56d48a4bd10800000000000000
+      internalID: 2140520773279895095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_humo_teleport_47
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 43
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11f646b601087e040800000000000000
+      internalID: 4676847546057125649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_humo_teleport_48
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 33
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73f7d4ff7b79d56d0800000000000000
+      internalID: -3000074960240804041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_humo_teleport_49
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 29
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ef9ee97c5d99b620800000000000000
+      internalID: 2790434464640966629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_humo_teleport_50
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 31
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d311e5c6e85528b10800000000000000
+      internalID: 1982240856188260669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

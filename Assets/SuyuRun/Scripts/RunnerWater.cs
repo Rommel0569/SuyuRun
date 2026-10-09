@@ -32,6 +32,7 @@ namespace SuyuRun
         Material SpriteMaterial(string resourcePath)
         {
             var sprite = Resources.Load<Sprite>(resourcePath);
+            if(sprite&&resourcePath=="costa_capa7_suelo")sprite=RefactorMaterialArt.Frame(resourcePath,sprite,0);
             var mat = new Material(Shader.Find("Sprites/Default"));
             if (sprite) mat.mainTexture = sprite.texture;
             else Debug.LogWarning("SuyuRun: missing sea sprite " + resourcePath);
@@ -45,7 +46,7 @@ namespace SuyuRun
         Sprite NamedSprite(string resourceName, string spriteName)
         {
             var all = Resources.LoadAll<Sprite>(resourceName);
-            foreach (var s in all) if (s.name == spriteName) return s;
+            foreach (var s in all) if (s.name == spriteName) return resourceName=="costa_plataformas"?RefactorMaterialArt.Frame("costa_plataforma_"+spriteName,s,0):s;
             Debug.LogWarning($"SuyuRun: sprite '{spriteName}' not found in Resources/{resourceName}");
             return null;
         }

@@ -1,0 +1,107 @@
+{
+  "name": "selva_caiman_acecho",
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 4,
+  "fps": 10,
+  "loop": true,
+  "ppu": 32,
+  "pivot": [
+    0,
+    1
+  ],
+  "rectsUnity": [
+    {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64
+    },
+    {
+      "x": 64,
+      "y": 0,
+      "width": 64,
+      "height": 64
+    },
+    {
+      "x": 128,
+      "y": 0,
+      "width": 64,
+      "height": 64
+    },
+    {
+      "x": 192,
+      "y": 0,
+      "width": 64,
+      "height": 64
+    }
+  ],
+  "group": "Enemies",
+  "hitboxes": [
+    {
+      "body": [
+        17,
+        27,
+        25,
+        17
+      ],
+      "mouth": [
+        45,
+        29,
+        16,
+        10
+      ],
+      "damaging": false,
+      "snap": false
+    },
+    {
+      "body": [
+        17,
+        27,
+        25,
+        17
+      ],
+      "mouth": [
+        45,
+        29,
+        16,
+        10
+      ],
+      "damaging": false,
+      "snap": false
+    },
+    {
+      "body": [
+        17,
+        27,
+        25,
+        17
+      ],
+      "mouth": [
+        45,
+        29,
+        16,
+        10
+      ],
+      "damaging": false,
+      "snap": false
+    },
+    {
+      "body": [
+        17,
+        27,
+        25,
+        17
+      ],
+      "mouth": [
+        45,
+        29,
+        16,
+        10
+      ],
+      "damaging": false,
+      "snap": false
+    }
+  ],
+  "notes": "64x64 rotation authored at native pixels. Body excludes tail. Only snap frame1 closes the mouth. Dive tint is palette-limited."
+}

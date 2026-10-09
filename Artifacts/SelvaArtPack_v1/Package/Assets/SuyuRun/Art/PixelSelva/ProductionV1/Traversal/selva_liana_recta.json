@@ -1,0 +1,41 @@
+{
+  "name": "selva_liana_recta",
+  "file": "Traversal/selva_liana_recta.png",
+  "frameWidth": 16,
+  "frameHeight": 96,
+  "frames": 2,
+  "layout": "horizontal",
+  "fps": 4,
+  "loop": true,
+  "ppu": 32,
+  "pivot": [
+    0.5,
+    0
+  ],
+  "parallax": 1,
+  "seamlessX": false,
+  "status": "proposal_pending_visual_approval",
+  "pinTop": [
+    8,
+    0
+  ],
+  "grip": [
+    8,
+    89
+  ],
+  "notes": "Anchor remains fixed. Glow is an interaction cue, not an extra collider.",
+  "rectsUnity": [
+    {
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 96
+    },
+    {
+      "x": 16,
+      "y": 0,
+      "width": 16,
+      "height": 96
+    }
+  ]
+}

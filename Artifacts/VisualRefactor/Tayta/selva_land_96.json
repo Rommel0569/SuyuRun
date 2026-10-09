@@ -1,0 +1,13 @@
+{
+  "frames": 2,
+  "fps": 12,
+  "loop": false,
+  "frameWidth": 96,
+  "frameHeight": 96,
+  "pixelsPerUnit": 64,
+  "gripCoordinateScale": 0.5,
+  "frameOrder": [
+    6,
+    7
+  ]
+}

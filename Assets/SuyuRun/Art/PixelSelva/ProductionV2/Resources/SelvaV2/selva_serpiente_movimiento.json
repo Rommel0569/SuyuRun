@@ -1,0 +1,54 @@
+{
+  "name": "selva_serpiente_movimiento",
+  "frameWidth": 48,
+  "frameHeight": 32,
+  "frames": 6,
+  "fps": 7,
+  "loop": true,
+  "ppu": 32,
+  "pivot": [
+    0,
+    1
+  ],
+  "rectsUnity": [
+    {
+      "x": 0,
+      "y": 0,
+      "width": 48,
+      "height": 32
+    },
+    {
+      "x": 48,
+      "y": 0,
+      "width": 48,
+      "height": 32
+    },
+    {
+      "x": 96,
+      "y": 0,
+      "width": 48,
+      "height": 32
+    },
+    {
+      "x": 144,
+      "y": 0,
+      "width": 48,
+      "height": 32
+    },
+    {
+      "x": 192,
+      "y": 0,
+      "width": 48,
+      "height": 32
+    },
+    {
+      "x": 240,
+      "y": 0,
+      "width": 48,
+      "height": 32
+    }
+  ],
+  "group": "Enemies",
+  "factor": 1,
+  "seamlessX": false
+}

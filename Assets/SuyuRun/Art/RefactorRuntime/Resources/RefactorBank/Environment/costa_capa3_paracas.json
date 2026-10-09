@@ -1,0 +1,26 @@
+{
+  "frames": 1,
+  "frameWidth": 1280,
+  "frameHeight": 360,
+  "pixelsPerUnit": 64,
+  "logicalWidth": 640,
+  "logicalHeight": 180,
+  "fps": 1,
+  "loop": true,
+  "source": "costa_paracas_detail_source.png",
+  "original": "PixelCosta/costa_capa3_paracas.png",
+  "sourceBounds": [
+    277,
+    372,
+    2143,
+    549
+  ],
+  "registeredBounds": [
+    84,
+    96,
+    629,
+    147
+  ],
+  "seamEndpointEqual": true,
+  "fullPlaythroughTested": false
+}

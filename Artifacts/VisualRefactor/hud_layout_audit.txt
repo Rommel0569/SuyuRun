@@ -1,0 +1,2 @@
+PASS four aligned frames, inset icons, screen bounds and separate message zone.
+Visual Play review remains separate.

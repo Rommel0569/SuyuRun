@@ -1,0 +1,42 @@
+{
+  "name": "selva_portal_salida",
+  "frameWidth": 64,
+  "frameHeight": 96,
+  "frames": 4,
+  "fps": 5,
+  "loop": true,
+  "ppu": 32,
+  "pivot": [
+    0,
+    1
+  ],
+  "rectsUnity": [
+    {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 96
+    },
+    {
+      "x": 64,
+      "y": 0,
+      "width": 64,
+      "height": 96
+    },
+    {
+      "x": 128,
+      "y": 0,
+      "width": 64,
+      "height": 96
+    },
+    {
+      "x": 192,
+      "y": 0,
+      "width": 64,
+      "height": 96
+    }
+  ],
+  "group": "Props",
+  "factor": 1,
+  "seamlessX": false
+}

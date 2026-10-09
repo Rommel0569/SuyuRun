@@ -1,0 +1,15 @@
+{
+  "frames": 6,
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "logicalWidth": 32,
+  "logicalHeight": 32,
+  "pixelsPerUnit": 64,
+  "fps": 6,
+  "loop": true,
+  "material": "wood",
+  "original": "Assets/SuyuRun/Art/PixelSelva/ProductionV2/Resources/SelvaV2/selva_obstaculo_raiz.png",
+  "source": "Tools/enhance_obstacle_readability.py",
+  "fullPlaythroughTested": false,
+  "readabilityLoop": true
+}

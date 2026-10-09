@@ -1,0 +1,792 @@
+fileFormatVersion: 2
+guid: 67f003d65fb4e7c43a0c612cf0d8b2c7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8655710728695947172
+    second: selva_fx_rastro_salto_0
+  - first:
+      213: 1008783292905076444
+    second: selva_fx_rastro_salto_1
+  - first:
+      213: -9216111885180414434
+    second: selva_fx_rastro_salto_2
+  - first:
+      213: 6510054320138995773
+    second: selva_fx_rastro_salto_3
+  - first:
+      213: -2500531494433012691
+    second: selva_fx_rastro_salto_4
+  - first:
+      213: -2052672813664442183
+    second: selva_fx_rastro_salto_5
+  - first:
+      213: 6003159553386600190
+    second: selva_fx_rastro_salto_6
+  - first:
+      213: 935293753479610147
+    second: selva_fx_rastro_salto_7
+  - first:
+      213: -3828858661316300412
+    second: selva_fx_rastro_salto_8
+  - first:
+      213: 2318243855882692616
+    second: selva_fx_rastro_salto_9
+  - first:
+      213: -7546587964383662089
+    second: selva_fx_rastro_salto_10
+  - first:
+      213: -2915014049525720381
+    second: selva_fx_rastro_salto_11
+  - first:
+      213: 1703178473085573368
+    second: selva_fx_rastro_salto_12
+  - first:
+      213: 7390502551988185448
+    second: selva_fx_rastro_salto_13
+  - first:
+      213: 3764697273508883604
+    second: selva_fx_rastro_salto_14
+  - first:
+      213: 8460885949788879949
+    second: selva_fx_rastro_salto_15
+  - first:
+      213: 1318357100651742781
+    second: selva_fx_rastro_salto_16
+  - first:
+      213: -6039770176691726412
+    second: selva_fx_rastro_salto_17
+  - first:
+      213: 1192154440922579619
+    second: selva_fx_rastro_salto_18
+  - first:
+      213: 4730424315920641230
+    second: selva_fx_rastro_salto_19
+  - first:
+      213: -2220304448426348743
+    second: selva_fx_rastro_salto_20
+  - first:
+      213: 886666562583671011
+    second: selva_fx_rastro_salto_21
+  - first:
+      213: -7514606752233519795
+    second: selva_fx_rastro_salto_22
+  - first:
+      213: 4887155524814159382
+    second: selva_fx_rastro_salto_23
+  - first:
+      213: -5754688046445103356
+    second: selva_fx_rastro_salto_24
+  - first:
+      213: -5641373128323198432
+    second: selva_fx_rastro_salto_25
+  - first:
+      213: 2001951383797382455
+    second: selva_fx_rastro_salto_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: selva_fx_rastro_salto_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 15
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4af957e3c034f1870800000000000000
+      internalID: 8655710728695947172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_rastro_salto_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 37
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd6b4f46f0beffd00800000000000000
+      internalID: 1008783292905076444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_rastro_salto_2
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 41
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e16d099c11bc91080800000000000000
+      internalID: -9216111885180414434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_rastro_salto_3
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 41
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d38c16499eb585a50800000000000000
+      internalID: 6510054320138995773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_rastro_salto_4
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 47
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d24c4acaad35c4dd0800000000000000
+      internalID: -2500531494433012691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_rastro_salto_5
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 39
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b8ed6593f07383e0800000000000000
+      internalID: -2052672813664442183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_rastro_salto_6
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 43
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef6d995cec18f4350800000000000000
+      internalID: 6003159553386600190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_rastro_salto_7
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 43
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32f3bc0a6b4dafc00800000000000000
+      internalID: 935293753479610147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_rastro_salto_8
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 47
+        width: 28
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 481701d65592ddac0800000000000000
+      internalID: -3828858661316300412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_rastro_salto_9
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 47
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 808ae9c118e0c2020800000000000000
+      internalID: 2318243855882692616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_rastro_salto_10
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 47
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ff6cacda32254790800000000000000
+      internalID: -7546587964383662089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_rastro_salto_11
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 47
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ca1fb69a2acb87d0800000000000000
+      internalID: -2915014049525720381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_rastro_salto_12
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 29
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f89b552cc7e2a710800000000000000
+      internalID: 1703178473085573368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_rastro_salto_13
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 35
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 869afda1ae6509660800000000000000
+      internalID: 7390502551988185448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_rastro_salto_14
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 29
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49ce06a5934ee3430800000000000000
+      internalID: 3764697273508883604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_rastro_salto_15
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 17
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4c724291fa1b6570800000000000000
+      internalID: 8460885949788879949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_rastro_salto_16
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 27
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d36067f4ccebb4210800000000000000
+      internalID: 1318357100651742781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_rastro_salto_17
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 27
+        width: 26
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b79a4d360d6e2ca0800000000000000
+      internalID: -6039770176691726412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_rastro_salto_18
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 9
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a24890d5226b8010800000000000000
+      internalID: 1192154440922579619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_rastro_salto_19
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 1
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecce15b3ad7d5a140800000000000000
+      internalID: 4730424315920641230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_rastro_salto_20
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 11
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93fe35a2ed4ef21e0800000000000000
+      internalID: -2220304448426348743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_rastro_salto_21
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 15
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e034097a821e4c00800000000000000
+      internalID: 886666562583671011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_rastro_salto_22
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 15
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d458e5219f0c6b790800000000000000
+      internalID: -7514606752233519795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_rastro_salto_23
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 7
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61eb2aa7e0aa2d340800000000000000
+      internalID: 4887155524814159382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_rastro_salto_24
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 13
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 407f37e16bd3320b0800000000000000
+      internalID: -5754688046445103356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_rastro_salto_25
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0229cd07701d5b1b0800000000000000
+      internalID: -5641373128323198432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_rastro_salto_26
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73d38d04d2c58cb10800000000000000
+      internalID: 2001951383797382455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

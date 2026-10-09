@@ -1,0 +1,66 @@
+{
+  "frames": 8,
+  "fps": 24,
+  "loop": false,
+  "frameWidth": 256,
+  "frameHeight": 128,
+  "pixelsPerUnit": 64,
+  "footAnchor": [
+    128,
+    124
+  ],
+  "uniformScale": 0.3565217391304348,
+  "bodyScaleReference": "82px-neutral-reference-no-anisotropic-scaling",
+  "frameBounds": [
+    [
+      103,
+      42,
+      50,
+      82
+    ],
+    [
+      103,
+      42,
+      94,
+      82
+    ],
+    [
+      97,
+      30,
+      120,
+      94
+    ],
+    [
+      97,
+      30,
+      74,
+      94
+    ],
+    [
+      103,
+      42,
+      100,
+      82
+    ],
+    [
+      103,
+      42,
+      127,
+      82
+    ],
+    [
+      103,
+      41,
+      65,
+      83
+    ],
+    [
+      103,
+      42,
+      54,
+      82
+    ]
+  ],
+  "integrated": true,
+  "playTested": false
+}

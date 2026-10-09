@@ -1,0 +1,14 @@
+{
+  "frames": 1,
+  "frameWidth": 192,
+  "frameHeight": 96,
+  "logicalWidth": 96,
+  "logicalHeight": 48,
+  "pixelsPerUnit": 64,
+  "fps": 6,
+  "loop": true,
+  "original": "Assets/SuyuRun/Art/PixelSierra/ProductionV3/Resources/SierraV3/sierra_ui_panel.png",
+  "source": "Tools/finish_remaining_visuals.py",
+  "finish": "native cluster micro-contours; preserved original composition",
+  "fullPlaythroughTested": false
+}

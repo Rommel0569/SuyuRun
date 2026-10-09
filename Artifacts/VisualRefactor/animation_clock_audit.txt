@@ -1,0 +1,6 @@
+PASS 30fps: all 12 poses, no skipped gait pose at Costa speed
+PASS 60fps: all 12 poses, no skipped gait pose at Costa speed
+PASS 120fps: all 12 poses, no skipped gait pose at Costa speed
+PASS state re-entry and checkpoint rewind restart one-shot poses
+PASS shared flight clock: takeoff, continuous ascent, double impulse and full descent
+Timing/selection test, not artistic approval or full Unity playthrough.

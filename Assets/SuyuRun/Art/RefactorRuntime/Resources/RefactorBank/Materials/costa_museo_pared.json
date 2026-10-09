@@ -1,0 +1,14 @@
+{
+  "frames": 1,
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "logicalWidth": 32,
+  "logicalHeight": 32,
+  "pixelsPerUnit": 64,
+  "fps": 6,
+  "loop": true,
+  "original": "Assets/SuyuRun/Art/PixelCosta/Resources/costa_museo_pared.png",
+  "source": "Tools/finish_remaining_visuals.py",
+  "finish": "native cluster micro-contours; preserved original composition",
+  "fullPlaythroughTested": false
+}

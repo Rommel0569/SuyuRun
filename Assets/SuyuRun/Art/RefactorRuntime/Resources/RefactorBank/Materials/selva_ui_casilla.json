@@ -1,0 +1,14 @@
+{
+  "frames": 1,
+  "frameWidth": 48,
+  "frameHeight": 48,
+  "logicalWidth": 24,
+  "logicalHeight": 24,
+  "pixelsPerUnit": 64,
+  "fps": 8,
+  "loop": true,
+  "original": "Assets/SuyuRun/Art/PixelSelva/ProductionV2/Resources/SelvaV2/selva_ui_casilla.png",
+  "source": "Tools/finish_remaining_visuals.py",
+  "finish": "native cluster micro-contours; preserved original composition",
+  "fullPlaythroughTested": false
+}

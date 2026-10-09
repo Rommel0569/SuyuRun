@@ -1,0 +1,20 @@
+{
+  "frames": 8,
+  "fps": 14,
+  "loop": true,
+  "frameWidth": 192,
+  "frameHeight": 128,
+  "pixelsPerUnit": 64,
+  "bodyScaleReference": "idle-common-source-scale",
+  "footAnchor": [
+    96,
+    124
+  ],
+  "renderOffsetFrom96Cell": [
+    -48,
+    -31
+  ],
+  "integrated": false,
+  "playTested": false,
+  "bodyRegistrationReviewRequired": true
+}

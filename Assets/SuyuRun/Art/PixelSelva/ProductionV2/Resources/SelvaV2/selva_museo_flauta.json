@@ -1,0 +1,25 @@
+{
+  "name": "selva_museo_flauta",
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 1,
+  "fps": 8,
+  "loop": true,
+  "ppu": 32,
+  "pivot": [
+    0,
+    1
+  ],
+  "rectsUnity": [
+    {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64
+    }
+  ],
+  "group": "Museum",
+  "factor": 1,
+  "seamlessX": false,
+  "notes": "Original native64px illustration; cultural object type proposal, not a documented historical replica."
+}

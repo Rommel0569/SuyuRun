@@ -1,0 +1,15 @@
+{
+  "frames": 2,
+  "fps": 16,
+  "loop": false,
+  "frameWidth": 256,
+  "frameHeight": 128,
+  "pixelsPerUnit": 64,
+  "footAnchor": [
+    128,
+    124
+  ],
+  "uniformScale": 0.32669322709163345,
+  "integrated": true,
+  "playTested": false
+}

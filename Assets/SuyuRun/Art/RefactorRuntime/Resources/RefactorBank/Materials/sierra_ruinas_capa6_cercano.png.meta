@@ -1,0 +1,2317 @@
+fileFormatVersion: 2
+guid: 3b935ee51ce0f2d43950d06006756ba1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3991759335256061255
+    second: sierra_ruinas_capa6_cercano_0
+  - first:
+      213: -1062226114042623967
+    second: sierra_ruinas_capa6_cercano_1
+  - first:
+      213: -8943785765798005366
+    second: sierra_ruinas_capa6_cercano_2
+  - first:
+      213: 5229350011045410322
+    second: sierra_ruinas_capa6_cercano_3
+  - first:
+      213: -2890716406578637168
+    second: sierra_ruinas_capa6_cercano_4
+  - first:
+      213: -4724628157428140030
+    second: sierra_ruinas_capa6_cercano_5
+  - first:
+      213: -4775459517202747378
+    second: sierra_ruinas_capa6_cercano_6
+  - first:
+      213: 7347829617971850213
+    second: sierra_ruinas_capa6_cercano_7
+  - first:
+      213: 6648985719605222354
+    second: sierra_ruinas_capa6_cercano_8
+  - first:
+      213: -4940462783986593026
+    second: sierra_ruinas_capa6_cercano_9
+  - first:
+      213: 2395695622611504463
+    second: sierra_ruinas_capa6_cercano_10
+  - first:
+      213: 6348099280246848849
+    second: sierra_ruinas_capa6_cercano_11
+  - first:
+      213: -1123738505128669472
+    second: sierra_ruinas_capa6_cercano_12
+  - first:
+      213: -3636774129768670370
+    second: sierra_ruinas_capa6_cercano_13
+  - first:
+      213: 8371305324888572578
+    second: sierra_ruinas_capa6_cercano_14
+  - first:
+      213: 5837893608938174481
+    second: sierra_ruinas_capa6_cercano_15
+  - first:
+      213: -8702243198604901236
+    second: sierra_ruinas_capa6_cercano_16
+  - first:
+      213: 6884442770299900908
+    second: sierra_ruinas_capa6_cercano_17
+  - first:
+      213: 7622701187771217141
+    second: sierra_ruinas_capa6_cercano_18
+  - first:
+      213: -199748770021071162
+    second: sierra_ruinas_capa6_cercano_19
+  - first:
+      213: 5633772467539975905
+    second: sierra_ruinas_capa6_cercano_20
+  - first:
+      213: 6392942388832587184
+    second: sierra_ruinas_capa6_cercano_21
+  - first:
+      213: -4904943571061777853
+    second: sierra_ruinas_capa6_cercano_22
+  - first:
+      213: 8237823260111942219
+    second: sierra_ruinas_capa6_cercano_23
+  - first:
+      213: 3610379937032944941
+    second: sierra_ruinas_capa6_cercano_24
+  - first:
+      213: -419413805626171717
+    second: sierra_ruinas_capa6_cercano_25
+  - first:
+      213: 6474912625243358859
+    second: sierra_ruinas_capa6_cercano_26
+  - first:
+      213: 1375698395645593262
+    second: sierra_ruinas_capa6_cercano_27
+  - first:
+      213: -7821767631519851454
+    second: sierra_ruinas_capa6_cercano_28
+  - first:
+      213: -7056143034429476564
+    second: sierra_ruinas_capa6_cercano_29
+  - first:
+      213: -7213149832538408963
+    second: sierra_ruinas_capa6_cercano_30
+  - first:
+      213: 8701835245227454289
+    second: sierra_ruinas_capa6_cercano_31
+  - first:
+      213: -3726021253807661212
+    second: sierra_ruinas_capa6_cercano_32
+  - first:
+      213: 6833677793981490601
+    second: sierra_ruinas_capa6_cercano_33
+  - first:
+      213: 8492811096761114966
+    second: sierra_ruinas_capa6_cercano_34
+  - first:
+      213: 4350888282276907377
+    second: sierra_ruinas_capa6_cercano_35
+  - first:
+      213: 994960881349523947
+    second: sierra_ruinas_capa6_cercano_36
+  - first:
+      213: -7293035833443027355
+    second: sierra_ruinas_capa6_cercano_37
+  - first:
+      213: -2897605579924652995
+    second: sierra_ruinas_capa6_cercano_38
+  - first:
+      213: 3376705242235088969
+    second: sierra_ruinas_capa6_cercano_39
+  - first:
+      213: -6171416251710220106
+    second: sierra_ruinas_capa6_cercano_40
+  - first:
+      213: -5241293896506882787
+    second: sierra_ruinas_capa6_cercano_41
+  - first:
+      213: 4885526609773146630
+    second: sierra_ruinas_capa6_cercano_42
+  - first:
+      213: -4896700886745384700
+    second: sierra_ruinas_capa6_cercano_43
+  - first:
+      213: -2970918167830316237
+    second: sierra_ruinas_capa6_cercano_44
+  - first:
+      213: -949603029071286073
+    second: sierra_ruinas_capa6_cercano_45
+  - first:
+      213: -2368830374207196329
+    second: sierra_ruinas_capa6_cercano_46
+  - first:
+      213: 4102926200049013225
+    second: sierra_ruinas_capa6_cercano_47
+  - first:
+      213: 9073642187063227274
+    second: sierra_ruinas_capa6_cercano_48
+  - first:
+      213: -5798365170613971467
+    second: sierra_ruinas_capa6_cercano_49
+  - first:
+      213: 4099377891452796508
+    second: sierra_ruinas_capa6_cercano_50
+  - first:
+      213: 3345461669699944287
+    second: sierra_ruinas_capa6_cercano_51
+  - first:
+      213: 4154991203109187177
+    second: sierra_ruinas_capa6_cercano_52
+  - first:
+      213: -4739630974660915185
+    second: sierra_ruinas_capa6_cercano_53
+  - first:
+      213: 2681375785978174155
+    second: sierra_ruinas_capa6_cercano_54
+  - first:
+      213: -474443041773172325
+    second: sierra_ruinas_capa6_cercano_55
+  - first:
+      213: 742505656365757958
+    second: sierra_ruinas_capa6_cercano_56
+  - first:
+      213: 1946831393330872827
+    second: sierra_ruinas_capa6_cercano_57
+  - first:
+      213: -3883010095758320072
+    second: sierra_ruinas_capa6_cercano_58
+  - first:
+      213: -2281671012182230913
+    second: sierra_ruinas_capa6_cercano_59
+  - first:
+      213: 4463989195675121674
+    second: sierra_ruinas_capa6_cercano_60
+  - first:
+      213: -9179459863703915084
+    second: sierra_ruinas_capa6_cercano_61
+  - first:
+      213: -8174726132860650929
+    second: sierra_ruinas_capa6_cercano_62
+  - first:
+      213: 6505969698999195424
+    second: sierra_ruinas_capa6_cercano_63
+  - first:
+      213: 7578962676243792635
+    second: sierra_ruinas_capa6_cercano_64
+  - first:
+      213: 3956131216683389533
+    second: sierra_ruinas_capa6_cercano_65
+  - first:
+      213: -4967902324576104334
+    second: sierra_ruinas_capa6_cercano_66
+  - first:
+      213: -6610024568582427521
+    second: sierra_ruinas_capa6_cercano_67
+  - first:
+      213: 1639411914401556049
+    second: sierra_ruinas_capa6_cercano_68
+  - first:
+      213: -3092859343046960051
+    second: sierra_ruinas_capa6_cercano_69
+  - first:
+      213: 9033380647252968944
+    second: sierra_ruinas_capa6_cercano_70
+  - first:
+      213: 3477620836723651079
+    second: sierra_ruinas_capa6_cercano_71
+  - first:
+      213: -1424695535517526743
+    second: sierra_ruinas_capa6_cercano_72
+  - first:
+      213: -2907046054578569797
+    second: sierra_ruinas_capa6_cercano_73
+  - first:
+      213: 3107128674161125974
+    second: sierra_ruinas_capa6_cercano_74
+  - first:
+      213: 3068331170625204966
+    second: sierra_ruinas_capa6_cercano_75
+  - first:
+      213: -1355577807744573370
+    second: sierra_ruinas_capa6_cercano_76
+  - first:
+      213: 5647931162938449711
+    second: sierra_ruinas_capa6_cercano_77
+  - first:
+      213: 29866378452206115
+    second: sierra_ruinas_capa6_cercano_78
+  - first:
+      213: -5786313382291820704
+    second: sierra_ruinas_capa6_cercano_79
+  - first:
+      213: 4001277360847194235
+    second: sierra_ruinas_capa6_cercano_80
+  - first:
+      213: 3874566310500560924
+    second: sierra_ruinas_capa6_cercano_81
+  - first:
+      213: 787310375890580323
+    second: sierra_ruinas_capa6_cercano_82
+  - first:
+      213: -4502223338897366670
+    second: sierra_ruinas_capa6_cercano_83
+  - first:
+      213: -1785828448998157131
+    second: sierra_ruinas_capa6_cercano_84
+  - first:
+      213: -8000588595037444769
+    second: sierra_ruinas_capa6_cercano_85
+  - first:
+      213: -4062996413622611811
+    second: sierra_ruinas_capa6_cercano_86
+  - first:
+      213: -4383811262932752283
+    second: sierra_ruinas_capa6_cercano_87
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_0
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 63
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ba8639a80c6a98c0800000000000000
+      internalID: -3991759335256061255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_1
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 49
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12888592af63241f0800000000000000
+      internalID: -1062226114042623967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_2
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 63
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a853a627b3a41e380800000000000000
+      internalID: -8943785765798005366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_3
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 61
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 216fb86f022629840800000000000000
+      internalID: 5229350011045410322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_4
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 63
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0969c7f6ebc12e7d0800000000000000
+      internalID: -2890716406578637168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_5
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 63
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 208ffa419bfbe6eb0800000000000000
+      internalID: -4724628157428140030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_6
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 61
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e003fddded82abdb0800000000000000
+      internalID: -4775459517202747378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_7
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 63
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eb6e496b1cb8f560800000000000000
+      internalID: 7347829617971850213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_8
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 63
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dbd6bdb841f54c50800000000000000
+      internalID: 6648985719605222354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_9
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 63
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef2117e0643ff6bb0800000000000000
+      internalID: -4940462783986593026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_10
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 61
+        width: 38
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4d87bfc9783f3120800000000000000
+      internalID: 2395695622611504463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_11
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 63
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15db60669aaf81850800000000000000
+      internalID: 6348099280246848849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_12
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 63
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ee806d88cda760f0800000000000000
+      internalID: -1123738505128669472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_13
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 63
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5bdeca8235978dc0800000000000000
+      internalID: -3636774129768670370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_14
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 63
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a2c15407d9dc2470800000000000000
+      internalID: 8371305324888572578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_15
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 61
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 118784d8e4d540150800000000000000
+      internalID: 5837893608938174481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_16
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 63
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c848816daeb6b3780800000000000000
+      internalID: -8702243198604901236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_17
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 51
+        width: 50
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce35b3869347a8f50800000000000000
+      internalID: 6884442770299900908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_18
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 63
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f43d0ee75649c960800000000000000
+      internalID: 7622701187771217141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_19
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 49
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c6a29e4d895a3df0800000000000000
+      internalID: -199748770021071162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_20
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 63
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ee9811d53e2f2e40800000000000000
+      internalID: 5633772467539975905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_21
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 61
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bd47eb3b3b48b850800000000000000
+      internalID: 6392942388832587184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_22
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 61
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34ad6834fc32eebb0800000000000000
+      internalID: -4904943571061777853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_23
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 63
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b423c65fb90a25270800000000000000
+      internalID: 8237823260111942219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_24
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 63
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2dbb039c65aa1230800000000000000
+      internalID: 3610379937032944941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_25
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 61
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbed1cdad51fd2af0800000000000000
+      internalID: -419413805626171717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_26
+      rect:
+        serializedVersion: 2
+        x: 1655
+        y: 61
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8682532ab28bd950800000000000000
+      internalID: 6474912625243358859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_27
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 63
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea6c78ee666771310800000000000000
+      internalID: 1375698395645593262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_28
+      rect:
+        serializedVersion: 2
+        x: 1801
+        y: 63
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24c5c97d7cf737390800000000000000
+      internalID: -7821767631519851454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_29
+      rect:
+        serializedVersion: 2
+        x: 1883
+        y: 63
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c21fb749b4b831e90800000000000000
+      internalID: -7056143034429476564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_30
+      rect:
+        serializedVersion: 2
+        x: 1965
+        y: 61
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df731e7b17eb5eb90800000000000000
+      internalID: -7213149832538408963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_31
+      rect:
+        serializedVersion: 2
+        x: 1993
+        y: 61
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15fa1cd1d0123c870800000000000000
+      internalID: 8701835245227454289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_32
+      rect:
+        serializedVersion: 2
+        x: 2047
+        y: 63
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46f1d3539638a4cc0800000000000000
+      internalID: -3726021253807661212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_33
+      rect:
+        serializedVersion: 2
+        x: 2129
+        y: 63
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a5edbb4fb916de50800000000000000
+      internalID: 6833677793981490601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_34
+      rect:
+        serializedVersion: 2
+        x: 2211
+        y: 63
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65121f612b68cd570800000000000000
+      internalID: 8492811096761114966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_35
+      rect:
+        serializedVersion: 2
+        x: 2293
+        y: 63
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 179468a37d5716c30800000000000000
+      internalID: 4350888282276907377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_36
+      rect:
+        serializedVersion: 2
+        x: 2331
+        y: 61
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be97f3a66afcecd00800000000000000
+      internalID: 994960881349523947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_37
+      rect:
+        serializedVersion: 2
+        x: 2347
+        y: 61
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 566fe65bc8ee9ca90800000000000000
+      internalID: -7293035833443027355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_38
+      rect:
+        serializedVersion: 2
+        x: 2375
+        y: 63
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3cb665c313a9c7d0800000000000000
+      internalID: -2897605579924652995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_39
+      rect:
+        serializedVersion: 2
+        x: 2457
+        y: 51
+        width: 52
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9403f9af6877cde20800000000000000
+      internalID: 3376705242235088969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_40
+      rect:
+        serializedVersion: 2
+        x: 2589
+        y: 63
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b85dbbdd99ba5aa0800000000000000
+      internalID: -6171416251710220106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_41
+      rect:
+        serializedVersion: 2
+        x: 2619
+        y: 49
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d15c84f78fe2347b0800000000000000
+      internalID: -5241293896506882787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_42
+      rect:
+        serializedVersion: 2
+        x: 2671
+        y: 63
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6023f342190ecc340800000000000000
+      internalID: 4885526609773146630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_43
+      rect:
+        serializedVersion: 2
+        x: 2687
+        y: 61
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4097332cc7c6b0cb0800000000000000
+      internalID: -4896700886745384700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_44
+      rect:
+        serializedVersion: 2
+        x: 2753
+        y: 63
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33b38bdbaad25c6d0800000000000000
+      internalID: -2970918167830316237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_45
+      rect:
+        serializedVersion: 2
+        x: 2835
+        y: 63
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c03296831552d2f0800000000000000
+      internalID: -949603029071286073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_46
+      rect:
+        serializedVersion: 2
+        x: 2917
+        y: 61
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75379344359302fd0800000000000000
+      internalID: -2368830374207196329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_47
+      rect:
+        serializedVersion: 2
+        x: 2999
+        y: 63
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e1909504a580f830800000000000000
+      internalID: 4102926200049013225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_48
+      rect:
+        serializedVersion: 2
+        x: 3081
+        y: 63
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a83f6e2be7d0ced70800000000000000
+      internalID: 9073642187063227274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_49
+      rect:
+        serializedVersion: 2
+        x: 3163
+        y: 63
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f59e8f2991188fa0800000000000000
+      internalID: -5798365170613971467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_50
+      rect:
+        serializedVersion: 2
+        x: 3245
+        y: 61
+        width: 38
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5e322c097ae3e830800000000000000
+      internalID: 4099377891452796508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_51
+      rect:
+        serializedVersion: 2
+        x: 3327
+        y: 63
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5f7620e9a77d6e20800000000000000
+      internalID: 3345461669699944287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_52
+      rect:
+        serializedVersion: 2
+        x: 3409
+        y: 63
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96e22323c7e79a930800000000000000
+      internalID: 4154991203109187177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_53
+      rect:
+        serializedVersion: 2
+        x: 3491
+        y: 63
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f00d5ec7db2793eb0800000000000000
+      internalID: -4739630974660915185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_54
+      rect:
+        serializedVersion: 2
+        x: 3573
+        y: 63
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bca10902219263520800000000000000
+      internalID: 2681375785978174155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_55
+      rect:
+        serializedVersion: 2
+        x: 3609
+        y: 61
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9944f431907a69f0800000000000000
+      internalID: -474443041773172325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_56
+      rect:
+        serializedVersion: 2
+        x: 3655
+        y: 63
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6063663e5f8ed4a00800000000000000
+      internalID: 742505656365757958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_57
+      rect:
+        serializedVersion: 2
+        x: 3737
+        y: 51
+        width: 50
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf1c01566d8840b10800000000000000
+      internalID: 1946831393330872827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_58
+      rect:
+        serializedVersion: 2
+        x: 3867
+        y: 63
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83ed11714e6cc1ac0800000000000000
+      internalID: -3883010095758320072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_59
+      rect:
+        serializedVersion: 2
+        x: 3897
+        y: 49
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f787290ad40e550e0800000000000000
+      internalID: -2281671012182230913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_60
+      rect:
+        serializedVersion: 2
+        x: 3949
+        y: 63
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a08b561b58643fd30800000000000000
+      internalID: 4463989195675121674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_61
+      rect:
+        serializedVersion: 2
+        x: 3967
+        y: 61
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b5f8f983e10c9080800000000000000
+      internalID: -9179459863703915084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_62
+      rect:
+        serializedVersion: 2
+        x: 3983
+        y: 61
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4afcbac4e98d8e80800000000000000
+      internalID: -8174726132860650929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_63
+      rect:
+        serializedVersion: 2
+        x: 4031
+        y: 63
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0275d4c98f8d94a50800000000000000
+      internalID: 6505969698999195424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_64
+      rect:
+        serializedVersion: 2
+        x: 4113
+        y: 63
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf284732662ed2960800000000000000
+      internalID: 7578962676243792635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_65
+      rect:
+        serializedVersion: 2
+        x: 4195
+        y: 61
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d525f3f816007e630800000000000000
+      internalID: 3956131216683389533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_66
+      rect:
+        serializedVersion: 2
+        x: 4213
+        y: 61
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 270ddc828277e0bb0800000000000000
+      internalID: -4967902324576104334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_67
+      rect:
+        serializedVersion: 2
+        x: 4277
+        y: 63
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7c2a012da97444a0800000000000000
+      internalID: -6610024568582427521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_68
+      rect:
+        serializedVersion: 2
+        x: 4359
+        y: 63
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 156a27e337c50c610800000000000000
+      internalID: 1639411914401556049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_69
+      rect:
+        serializedVersion: 2
+        x: 4441
+        y: 63
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4c107d60d4f315d0800000000000000
+      internalID: -3092859343046960051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_70
+      rect:
+        serializedVersion: 2
+        x: 4523
+        y: 61
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f5c66876d30d5d70800000000000000
+      internalID: 9033380647252968944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_71
+      rect:
+        serializedVersion: 2
+        x: 4551
+        y: 61
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 702f86cc9bdf24030800000000000000
+      internalID: 3477620836723651079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_72
+      rect:
+        serializedVersion: 2
+        x: 4605
+        y: 63
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 925946475f67a3ce0800000000000000
+      internalID: -1424695535517526743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_73
+      rect:
+        serializedVersion: 2
+        x: 4687
+        y: 63
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbdb42bf30918a7d0800000000000000
+      internalID: -2907046054578569797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_74
+      rect:
+        serializedVersion: 2
+        x: 4769
+        y: 63
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65aedce111dbe1b20800000000000000
+      internalID: 3107128674161125974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_75
+      rect:
+        serializedVersion: 2
+        x: 4851
+        y: 63
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e2bf5661f6e49a20800000000000000
+      internalID: 3068331170625204966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_76
+      rect:
+        serializedVersion: 2
+        x: 4889
+        y: 61
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6406bff7a25003de0800000000000000
+      internalID: -1355577807744573370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_77
+      rect:
+        serializedVersion: 2
+        x: 4905
+        y: 61
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2f1ecaf77b716e40800000000000000
+      internalID: 5647931162938449711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_78
+      rect:
+        serializedVersion: 2
+        x: 4933
+        y: 63
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3220f5e105b1a6000800000000000000
+      internalID: 29866378452206115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_79
+      rect:
+        serializedVersion: 2
+        x: 5015
+        y: 51
+        width: 52
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06f2861d2a2e2bfa0800000000000000
+      internalID: -5786313382291820704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_80
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 47
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b780c1d5f84678730800000000000000
+      internalID: 4001277360847194235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_81
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 47
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c10f414f78935c530800000000000000
+      internalID: 3874566310500560924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_82
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 47
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 363ffe29d961dea00800000000000000
+      internalID: 787310375890580323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_83
+      rect:
+        serializedVersion: 2
+        x: 2059
+        y: 47
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 271ac812ab3e481c0800000000000000
+      internalID: -4502223338897366670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_84
+      rect:
+        serializedVersion: 2
+        x: 2849
+        y: 47
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b49da3cc767737e0800000000000000
+      internalID: -1785828448998157131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_85
+      rect:
+        serializedVersion: 2
+        x: 3339
+        y: 47
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5560cecf0338f090800000000000000
+      internalID: -8000588595037444769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_86
+      rect:
+        serializedVersion: 2
+        x: 4129
+        y: 47
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d90965ad9465d97c0800000000000000
+      internalID: -4062996413622611811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_ruinas_capa6_cercano_87
+      rect:
+        serializedVersion: 2
+        x: 4619
+        y: 47
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 568698ef1e29923c0800000000000000
+      internalID: -4383811262932752283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

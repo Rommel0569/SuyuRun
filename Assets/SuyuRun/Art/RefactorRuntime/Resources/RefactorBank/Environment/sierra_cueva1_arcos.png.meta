@@ -1,0 +1,1467 @@
+fileFormatVersion: 2
+guid: d32146b59846c4244a3c06afe4ceac19
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7023448645182532044
+    second: sierra_cueva1_arcos_0
+  - first:
+      213: -4478447740786345867
+    second: sierra_cueva1_arcos_1
+  - first:
+      213: 3358200430455038643
+    second: sierra_cueva1_arcos_2
+  - first:
+      213: 5966771127222780275
+    second: sierra_cueva1_arcos_3
+  - first:
+      213: 2658901768745523805
+    second: sierra_cueva1_arcos_4
+  - first:
+      213: -7948579941361000894
+    second: sierra_cueva1_arcos_5
+  - first:
+      213: -2609953514484320948
+    second: sierra_cueva1_arcos_6
+  - first:
+      213: -8137456145319343121
+    second: sierra_cueva1_arcos_7
+  - first:
+      213: 434467153918410887
+    second: sierra_cueva1_arcos_8
+  - first:
+      213: 85344064755060250
+    second: sierra_cueva1_arcos_9
+  - first:
+      213: 3026103580468078560
+    second: sierra_cueva1_arcos_10
+  - first:
+      213: -8326825026904611474
+    second: sierra_cueva1_arcos_11
+  - first:
+      213: -8580148930718265606
+    second: sierra_cueva1_arcos_12
+  - first:
+      213: 1215822274966834275
+    second: sierra_cueva1_arcos_13
+  - first:
+      213: -6952625853792834735
+    second: sierra_cueva1_arcos_14
+  - first:
+      213: -2800618211612515248
+    second: sierra_cueva1_arcos_15
+  - first:
+      213: 1837696338398518347
+    second: sierra_cueva1_arcos_16
+  - first:
+      213: 8991466082749295909
+    second: sierra_cueva1_arcos_17
+  - first:
+      213: 8987524114725203467
+    second: sierra_cueva1_arcos_18
+  - first:
+      213: -5972997148094903755
+    second: sierra_cueva1_arcos_19
+  - first:
+      213: -4774036935573504937
+    second: sierra_cueva1_arcos_20
+  - first:
+      213: -4675314559201981523
+    second: sierra_cueva1_arcos_21
+  - first:
+      213: 1973154683738451503
+    second: sierra_cueva1_arcos_22
+  - first:
+      213: 2226293962458405009
+    second: sierra_cueva1_arcos_23
+  - first:
+      213: -1068804657025208166
+    second: sierra_cueva1_arcos_24
+  - first:
+      213: 8983695269258050326
+    second: sierra_cueva1_arcos_25
+  - first:
+      213: 946475159426702599
+    second: sierra_cueva1_arcos_26
+  - first:
+      213: 6841369954043316143
+    second: sierra_cueva1_arcos_27
+  - first:
+      213: 4616525296181024626
+    second: sierra_cueva1_arcos_28
+  - first:
+      213: -8338427078448756324
+    second: sierra_cueva1_arcos_29
+  - first:
+      213: 5480786172554093541
+    second: sierra_cueva1_arcos_30
+  - first:
+      213: -6581045363497223235
+    second: sierra_cueva1_arcos_31
+  - first:
+      213: -6384948018353443410
+    second: sierra_cueva1_arcos_32
+  - first:
+      213: 4712849136173927372
+    second: sierra_cueva1_arcos_33
+  - first:
+      213: 4960131955657548321
+    second: sierra_cueva1_arcos_34
+  - first:
+      213: 8443459187861966781
+    second: sierra_cueva1_arcos_35
+  - first:
+      213: -4979476701182156428
+    second: sierra_cueva1_arcos_36
+  - first:
+      213: 2087964340262063113
+    second: sierra_cueva1_arcos_37
+  - first:
+      213: -2879856196127664480
+    second: sierra_cueva1_arcos_38
+  - first:
+      213: 718742139616209167
+    second: sierra_cueva1_arcos_39
+  - first:
+      213: 3744594567121798217
+    second: sierra_cueva1_arcos_40
+  - first:
+      213: 5683926494711254451
+    second: sierra_cueva1_arcos_41
+  - first:
+      213: 6435150952197249987
+    second: sierra_cueva1_arcos_42
+  - first:
+      213: -5319594719672730028
+    second: sierra_cueva1_arcos_43
+  - first:
+      213: 896051827792011355
+    second: sierra_cueva1_arcos_44
+  - first:
+      213: 9033468697063082193
+    second: sierra_cueva1_arcos_45
+  - first:
+      213: -4105333096219091414
+    second: sierra_cueva1_arcos_46
+  - first:
+      213: -1486665088807345585
+    second: sierra_cueva1_arcos_47
+  - first:
+      213: -8295479931308468996
+    second: sierra_cueva1_arcos_48
+  - first:
+      213: 7822543292339722469
+    second: sierra_cueva1_arcos_49
+  - first:
+      213: 6989747766883625423
+    second: sierra_cueva1_arcos_50
+  - first:
+      213: 7025457597424550759
+    second: sierra_cueva1_arcos_51
+  - first:
+      213: -619459754613322394
+    second: sierra_cueva1_arcos_52
+  - first:
+      213: -7690140886037858035
+    second: sierra_cueva1_arcos_53
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sierra_cueva1_arcos_0
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 619
+        width: 322
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc9ad4ab45d487160800000000000000
+      internalID: 7023448645182532044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_cueva1_arcos_1
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 499
+        width: 58
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5787741f18b59d1c0800000000000000
+      internalID: -4478447740786345867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_cueva1_arcos_2
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 559
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b226ddbf79ba9e20800000000000000
+      internalID: 3358200430455038643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_cueva1_arcos_3
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 619
+        width: 322
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 371cb261aba3ec250800000000000000
+      internalID: 5966771127222780275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_cueva1_arcos_4
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 499
+        width: 58
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5a1cba321156e420800000000000000
+      internalID: 2658901768745523805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_cueva1_arcos_5
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 559
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24ed16e18a8f0b190800000000000000
+      internalID: -7948579941361000894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_cueva1_arcos_6
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 619
+        width: 284
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4531e05b1597cbd0800000000000000
+      internalID: -2609953514484320948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_cueva1_arcos_7
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 499
+        width: 58
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: febcbeaffb2f11f80800000000000000
+      internalID: -8137456145319343121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_cueva1_arcos_8
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 559
+        width: 20
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 780c1e71399870600800000000000000
+      internalID: 434467153918410887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_cueva1_arcos_9
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 439
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1ec96789f33f2100800000000000000
+      internalID: 85344064755060250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_cueva1_arcos_10
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 499
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e766576c21eef920800000000000000
+      internalID: 3026103580468078560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_cueva1_arcos_11
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 439
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e65a48461cc217c80800000000000000
+      internalID: -8326825026904611474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_cueva1_arcos_12
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 439
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afe0790d1003de880800000000000000
+      internalID: -8580148930718265606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_cueva1_arcos_13
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 499
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36cc769dae77fd010800000000000000
+      internalID: 1215822274966834275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_cueva1_arcos_14
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 439
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15b2b706f9f438f90800000000000000
+      internalID: -6952625853792834735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_cueva1_arcos_15
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 439
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 054a85923943229d0800000000000000
+      internalID: -2800618211612515248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_cueva1_arcos_16
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 499
+        width: 20
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4c974f451fc08910800000000000000
+      internalID: 1837696338398518347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_cueva1_arcos_17
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 439
+        width: 20
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52dae3073ca18cc70800000000000000
+      internalID: 8991466082749295909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_cueva1_arcos_18
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 319
+        width: 58
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0ee37c70991abc70800000000000000
+      internalID: 8987524114725203467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_cueva1_arcos_19
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 379
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53ac1677db6ab1da0800000000000000
+      internalID: -5972997148094903755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_cueva1_arcos_20
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 319
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75cfb8673b63fbdb0800000000000000
+      internalID: -4774036935573504937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_cueva1_arcos_21
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 319
+        width: 58
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dabcd85ed22fd1fb0800000000000000
+      internalID: -4675314559201981523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_cueva1_arcos_22
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 379
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2ee02b0bbd026b10800000000000000
+      internalID: 1973154683738451503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_cueva1_arcos_23
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 319
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1981eed309265ee10800000000000000
+      internalID: 2226293962458405009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_cueva1_arcos_24
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 319
+        width: 58
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a90bab3c3d7da21f0800000000000000
+      internalID: -1068804657025208166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_cueva1_arcos_25
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 379
+        width: 20
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61bbb7eef3f7cac70800000000000000
+      internalID: 8983695269258050326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_cueva1_arcos_26
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 319
+        width: 20
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70d1c52942e822d00800000000000000
+      internalID: 946475159426702599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_cueva1_arcos_27
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 259
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa748cfd9bd61fe50800000000000000
+      internalID: 6841369954043316143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_cueva1_arcos_28
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 139
+        width: 58
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27799772c41311040800000000000000
+      internalID: 4616525296181024626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_cueva1_arcos_29
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 259
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c99409340c4f74c80800000000000000
+      internalID: -8338427078448756324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_cueva1_arcos_30
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 199
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e3a5f84cf9af0c40800000000000000
+      internalID: 5480786172554093541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_cueva1_arcos_31
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 259
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbb340a1c1e6ba4a0800000000000000
+      internalID: -6581045363497223235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_cueva1_arcos_32
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 139
+        width: 58
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ead65b03b9b1467a0800000000000000
+      internalID: -6384948018353443410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_cueva1_arcos_33
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 259
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccb47a1d157676140800000000000000
+      internalID: 4712849136173927372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_cueva1_arcos_34
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 199
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1222808dbbde5d440800000000000000
+      internalID: 4960131955657548321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_cueva1_arcos_35
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 259
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbf450065613d2570800000000000000
+      internalID: 8443459187861966781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_cueva1_arcos_36
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 139
+        width: 58
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47124ba925855eab0800000000000000
+      internalID: -4979476701182156428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_cueva1_arcos_37
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 259
+        width: 20
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90cc0054180f9fc10800000000000000
+      internalID: 2087964340262063113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_cueva1_arcos_38
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 199
+        width: 20
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a65a993c02b808d0800000000000000
+      internalID: -2879856196127664480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_cueva1_arcos_39
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 79
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f09adecfa2c79f900800000000000000
+      internalID: 718742139616209167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_cueva1_arcos_40
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 139
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94407294be877f330800000000000000
+      internalID: 3744594567121798217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_cueva1_arcos_41
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 79
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bd02be380d51ee40800000000000000
+      internalID: 5683926494711254451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_cueva1_arcos_42
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 79
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cbdbb532bf3e4950800000000000000
+      internalID: 6435150952197249987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_cueva1_arcos_43
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 139
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45efcd079c00d26b0800000000000000
+      internalID: -5319594719672730028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_cueva1_arcos_44
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 79
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b50e1efc36a6f6c00800000000000000
+      internalID: 896051827792011355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_cueva1_arcos_45
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 79
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d84e0a2be35d5d70800000000000000
+      internalID: 9033468697063082193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_cueva1_arcos_46
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 139
+        width: 20
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2ed43bcc4de607c0800000000000000
+      internalID: -4105333096219091414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_cueva1_arcos_47
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 79
+        width: 20
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f42e9a97afd4e5be0800000000000000
+      internalID: -1486665088807345585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_cueva1_arcos_48
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 19
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf41afc24f880ec80800000000000000
+      internalID: -8295479931308468996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_cueva1_arcos_49
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 19
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e81604cda14f8c60800000000000000
+      internalID: 7822543292339722469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_cueva1_arcos_50
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 19
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc9adaa8f82900160800000000000000
+      internalID: 6989747766883625423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_cueva1_arcos_51
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 19
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7634f0f56707f7160800000000000000
+      internalID: 7025457597424550759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_cueva1_arcos_52
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 19
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66d4f9d92ac3767f0800000000000000
+      internalID: -619459754613322394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_cueva1_arcos_53
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 19
+        width: 20
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d097107bb91274590800000000000000
+      internalID: -7690140886037858035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

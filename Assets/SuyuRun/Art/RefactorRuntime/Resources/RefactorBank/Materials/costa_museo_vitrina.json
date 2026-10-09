@@ -1,0 +1,14 @@
+{
+  "frames": 1,
+  "frameWidth": 96,
+  "frameHeight": 96,
+  "logicalWidth": 48,
+  "logicalHeight": 48,
+  "pixelsPerUnit": 64,
+  "fps": 6,
+  "loop": true,
+  "original": "Assets/SuyuRun/Art/PixelCosta/Resources/costa_museo_vitrina.png",
+  "source": "Tools/finish_remaining_visuals.py",
+  "finish": "native cluster micro-contours; preserved original composition",
+  "fullPlaythroughTested": false
+}

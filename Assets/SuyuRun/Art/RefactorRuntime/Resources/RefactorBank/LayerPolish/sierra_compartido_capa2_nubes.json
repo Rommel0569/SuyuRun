@@ -1,0 +1,16 @@
+{
+  "frames": 1,
+  "frameWidth": 1280,
+  "frameHeight": 360,
+  "logicalWidth": 640,
+  "logicalHeight": 180,
+  "pixelsPerUnit": 64,
+  "fps": 6,
+  "loop": true,
+  "original": "Assets/SuyuRun/Art/PixelSierra/ProductionV3/Resources/SierraV3/sierra_compartido_capa2_nubes.png",
+  "source": "Artifacts/VisualRefactor/LayerPolish/Sources/sierra_compartido_capa2_nubes.png",
+  "finish": "independent imagegen redraw; native clusters",
+  "fullPlaythroughTested": false,
+  "previous": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/sierra_compartido_capa2_nubes.json",
+  "seamEndpointEqual": true
+}

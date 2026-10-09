@@ -1,0 +1,14 @@
+{
+  "frames": 8,
+  "frameWidth": 128,
+  "frameHeight": 128,
+  "logicalWidth": 64,
+  "logicalHeight": 64,
+  "pixelsPerUnit": 64,
+  "fps": 10,
+  "loop": false,
+  "original": "Assets/SuyuRun/Art/PixelSierra/ProductionV3/Resources/SierraV3/sierra_fx_portal_absorcion.png",
+  "source": "Tools/finish_remaining_visuals.py",
+  "finish": "native cluster micro-contours; preserved original composition",
+  "fullPlaythroughTested": false
+}

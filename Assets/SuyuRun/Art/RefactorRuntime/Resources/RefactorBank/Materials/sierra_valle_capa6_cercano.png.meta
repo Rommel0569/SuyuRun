@@ -1,0 +1,2317 @@
+fileFormatVersion: 2
+guid: 17cdf620e47dd1c4590c8746c2d0930e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2894871873345867022
+    second: sierra_valle_capa6_cercano_0
+  - first:
+      213: -3797344925232728856
+    second: sierra_valle_capa6_cercano_1
+  - first:
+      213: 2975698146276707076
+    second: sierra_valle_capa6_cercano_2
+  - first:
+      213: -1641752277628813776
+    second: sierra_valle_capa6_cercano_3
+  - first:
+      213: -5426972391133339444
+    second: sierra_valle_capa6_cercano_4
+  - first:
+      213: -7724195136764711637
+    second: sierra_valle_capa6_cercano_5
+  - first:
+      213: -3946024543488896082
+    second: sierra_valle_capa6_cercano_6
+  - first:
+      213: -558968107435088508
+    second: sierra_valle_capa6_cercano_7
+  - first:
+      213: -1186318777012638635
+    second: sierra_valle_capa6_cercano_8
+  - first:
+      213: -8425473891376257310
+    second: sierra_valle_capa6_cercano_9
+  - first:
+      213: 544496091807272526
+    second: sierra_valle_capa6_cercano_10
+  - first:
+      213: -3896897639621964127
+    second: sierra_valle_capa6_cercano_11
+  - first:
+      213: 8649255150935503969
+    second: sierra_valle_capa6_cercano_12
+  - first:
+      213: 7500604146697520348
+    second: sierra_valle_capa6_cercano_13
+  - first:
+      213: -7917440991812950721
+    second: sierra_valle_capa6_cercano_14
+  - first:
+      213: -2310166245996395228
+    second: sierra_valle_capa6_cercano_15
+  - first:
+      213: -5732947405018262593
+    second: sierra_valle_capa6_cercano_16
+  - first:
+      213: -8829792806252070669
+    second: sierra_valle_capa6_cercano_17
+  - first:
+      213: 7592581378281026849
+    second: sierra_valle_capa6_cercano_18
+  - first:
+      213: -6352038479135964814
+    second: sierra_valle_capa6_cercano_19
+  - first:
+      213: -6421188551769462553
+    second: sierra_valle_capa6_cercano_20
+  - first:
+      213: 5732157100052096345
+    second: sierra_valle_capa6_cercano_21
+  - first:
+      213: -4112572182669268364
+    second: sierra_valle_capa6_cercano_22
+  - first:
+      213: 3460916786726419322
+    second: sierra_valle_capa6_cercano_23
+  - first:
+      213: -997007098300948983
+    second: sierra_valle_capa6_cercano_24
+  - first:
+      213: -2804470502433430532
+    second: sierra_valle_capa6_cercano_25
+  - first:
+      213: -5133048961887266290
+    second: sierra_valle_capa6_cercano_26
+  - first:
+      213: -3649413813376207528
+    second: sierra_valle_capa6_cercano_27
+  - first:
+      213: 7280750980444499955
+    second: sierra_valle_capa6_cercano_28
+  - first:
+      213: -4468731455224319840
+    second: sierra_valle_capa6_cercano_29
+  - first:
+      213: 2117505943865136479
+    second: sierra_valle_capa6_cercano_30
+  - first:
+      213: -7771783673094707038
+    second: sierra_valle_capa6_cercano_31
+  - first:
+      213: -7805105871610169773
+    second: sierra_valle_capa6_cercano_32
+  - first:
+      213: -8458766657089692244
+    second: sierra_valle_capa6_cercano_33
+  - first:
+      213: -8285636450153379139
+    second: sierra_valle_capa6_cercano_34
+  - first:
+      213: -2418286561880950936
+    second: sierra_valle_capa6_cercano_35
+  - first:
+      213: -8153718995171810703
+    second: sierra_valle_capa6_cercano_36
+  - first:
+      213: -2462368342536954682
+    second: sierra_valle_capa6_cercano_37
+  - first:
+      213: 8289889897393266631
+    second: sierra_valle_capa6_cercano_38
+  - first:
+      213: -3791206728149692279
+    second: sierra_valle_capa6_cercano_39
+  - first:
+      213: 6828448697127888698
+    second: sierra_valle_capa6_cercano_40
+  - first:
+      213: 8748499453443042370
+    second: sierra_valle_capa6_cercano_41
+  - first:
+      213: 2460323631863116713
+    second: sierra_valle_capa6_cercano_42
+  - first:
+      213: -8937919558055516223
+    second: sierra_valle_capa6_cercano_43
+  - first:
+      213: 2914375330812534828
+    second: sierra_valle_capa6_cercano_44
+  - first:
+      213: -4180094090392478603
+    second: sierra_valle_capa6_cercano_45
+  - first:
+      213: -6275711271312535938
+    second: sierra_valle_capa6_cercano_46
+  - first:
+      213: 3782524124339543292
+    second: sierra_valle_capa6_cercano_47
+  - first:
+      213: 7304712433023434146
+    second: sierra_valle_capa6_cercano_48
+  - first:
+      213: 873729014714642715
+    second: sierra_valle_capa6_cercano_49
+  - first:
+      213: 5391769183842320598
+    second: sierra_valle_capa6_cercano_50
+  - first:
+      213: 2136913891065525503
+    second: sierra_valle_capa6_cercano_51
+  - first:
+      213: 2139384989820570253
+    second: sierra_valle_capa6_cercano_52
+  - first:
+      213: -3724480852694377577
+    second: sierra_valle_capa6_cercano_53
+  - first:
+      213: -8106621788118777555
+    second: sierra_valle_capa6_cercano_54
+  - first:
+      213: -3119705606997871245
+    second: sierra_valle_capa6_cercano_55
+  - first:
+      213: -8652607086666981276
+    second: sierra_valle_capa6_cercano_56
+  - first:
+      213: 30504187741131689
+    second: sierra_valle_capa6_cercano_57
+  - first:
+      213: -2951825189130260981
+    second: sierra_valle_capa6_cercano_58
+  - first:
+      213: 8895496028811413309
+    second: sierra_valle_capa6_cercano_59
+  - first:
+      213: -2584184366942275371
+    second: sierra_valle_capa6_cercano_60
+  - first:
+      213: 5313869217328263198
+    second: sierra_valle_capa6_cercano_61
+  - first:
+      213: -2744237339954751335
+    second: sierra_valle_capa6_cercano_62
+  - first:
+      213: 6274438889230670120
+    second: sierra_valle_capa6_cercano_63
+  - first:
+      213: -8026230570682258830
+    second: sierra_valle_capa6_cercano_64
+  - first:
+      213: 6383083860059121647
+    second: sierra_valle_capa6_cercano_65
+  - first:
+      213: -3406034356573220219
+    second: sierra_valle_capa6_cercano_66
+  - first:
+      213: -6969605031638095819
+    second: sierra_valle_capa6_cercano_67
+  - first:
+      213: -4700298421145363294
+    second: sierra_valle_capa6_cercano_68
+  - first:
+      213: -3891204007465412923
+    second: sierra_valle_capa6_cercano_69
+  - first:
+      213: -4191834687327542016
+    second: sierra_valle_capa6_cercano_70
+  - first:
+      213: 5154534644960540309
+    second: sierra_valle_capa6_cercano_71
+  - first:
+      213: -6528320425589323479
+    second: sierra_valle_capa6_cercano_72
+  - first:
+      213: -8649207574346710878
+    second: sierra_valle_capa6_cercano_73
+  - first:
+      213: 178976501030531623
+    second: sierra_valle_capa6_cercano_74
+  - first:
+      213: 7798537828247203764
+    second: sierra_valle_capa6_cercano_75
+  - first:
+      213: -1486306898890251897
+    second: sierra_valle_capa6_cercano_76
+  - first:
+      213: 4031345856498813840
+    second: sierra_valle_capa6_cercano_77
+  - first:
+      213: -8060827658053727172
+    second: sierra_valle_capa6_cercano_78
+  - first:
+      213: -2542996858270189508
+    second: sierra_valle_capa6_cercano_79
+  - first:
+      213: 4308300793956432018
+    second: sierra_valle_capa6_cercano_80
+  - first:
+      213: 4823542305740169513
+    second: sierra_valle_capa6_cercano_81
+  - first:
+      213: -5064646316076495846
+    second: sierra_valle_capa6_cercano_82
+  - first:
+      213: -4541690944295459082
+    second: sierra_valle_capa6_cercano_83
+  - first:
+      213: -838854227805155457
+    second: sierra_valle_capa6_cercano_84
+  - first:
+      213: 7719464212802715785
+    second: sierra_valle_capa6_cercano_85
+  - first:
+      213: -1764258932808667742
+    second: sierra_valle_capa6_cercano_86
+  - first:
+      213: 7658281861773724088
+    second: sierra_valle_capa6_cercano_87
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_0
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0dcc0191a6ac2820800000000000000
+      internalID: 2894871873345867022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_1
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 0
+        width: 70
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e4fed1e8ee1d4bc0800000000000000
+      internalID: -3797344925232728856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_2
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40b8c97b2bdcb4920800000000000000
+      internalID: 2975698146276707076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_3
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 49
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03efeba70035739e0800000000000000
+      internalID: -1641752277628813776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_4
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc025a41d558fa4b0800000000000000
+      internalID: -5426972391133339444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_5
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2de65992752ec490800000000000000
+      internalID: -7724195136764711637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_6
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 47
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea31f5aa597ec39c0800000000000000
+      internalID: -3946024543488896082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_7
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 49
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4852f83c7752e38f0800000000000000
+      internalID: -558968107435088508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_8
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55c29c19b59598fe0800000000000000
+      internalID: -1186318777012638635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_9
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e6a038c224b21b80800000000000000
+      internalID: -8425473891376257310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_10
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 0
+        width: 70
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4ec2c58f407e8700800000000000000
+      internalID: 544496091807272526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_11
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 49
+        width: 38
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ae46405e307be9c0800000000000000
+      internalID: -3896897639621964127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_12
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1647a3bebb3580870800000000000000
+      internalID: 8649255150935503969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_13
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 47
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd44ab44bbf771860800000000000000
+      internalID: 7500604146697520348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_14
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f356fd8cd599f1290800000000000000
+      internalID: -7917440991812950721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_15
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 425894ff904a0ffd0800000000000000
+      internalID: -2310166245996395228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_16
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb393e7a5ba7070b0800000000000000
+      internalID: -5732947405018262593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_17
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 49
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f8bb079936467580800000000000000
+      internalID: -8829792806252070669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_18
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 125bfac49844e5960800000000000000
+      internalID: 7592581378281026849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_19
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 0
+        width: 70
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2710d7368a609d7a0800000000000000
+      internalID: -6352038479135964814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_20
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 51
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e8e9f7780b53e6a0800000000000000
+      internalID: -6421188551769462553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_21
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 0
+        width: 70
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 955a6512386bc8f40800000000000000
+      internalID: 5732157100052096345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_22
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 51
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47a68d2a3653de6c0800000000000000
+      internalID: -4112572182669268364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_23
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 49
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7bb3061b75a70030800000000000000
+      internalID: 3460916786726419322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_24
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 49
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90e9a33935be922f0800000000000000
+      internalID: -997007098300948983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_25
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 51
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf3e46fcfe48419d0800000000000000
+      internalID: -2804470502433430532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_26
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 51
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0a950c4a2fb3c8b0800000000000000
+      internalID: -5133048961887266290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_27
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 47
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 855be4fd87daa5dc0800000000000000
+      internalID: -3649413813376207528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_28
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 49
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ffa87f017c6a0560800000000000000
+      internalID: 7280750980444499955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_29
+      rect:
+        serializedVersion: 2
+        x: 1655
+        y: 49
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a07db6fa60ebf1c0800000000000000
+      internalID: -4468731455224319840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_30
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 51
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f551cd9df64e26d10800000000000000
+      internalID: 2117505943865136479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_31
+      rect:
+        serializedVersion: 2
+        x: 1801
+        y: 51
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a8620e0de3152490800000000000000
+      internalID: -7771783673094707038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_32
+      rect:
+        serializedVersion: 2
+        x: 1867
+        y: 0
+        width: 70
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3563c502091bea390800000000000000
+      internalID: -7805105871610169773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_33
+      rect:
+        serializedVersion: 2
+        x: 1965
+        y: 49
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cad1046ba8c6c9a80800000000000000
+      internalID: -8458766657089692244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_34
+      rect:
+        serializedVersion: 2
+        x: 1993
+        y: 49
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dba449a3c81830d80800000000000000
+      internalID: -8285636450153379139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_35
+      rect:
+        serializedVersion: 2
+        x: 2047
+        y: 51
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8673cf14f25807ed0800000000000000
+      internalID: -2418286561880950936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_36
+      rect:
+        serializedVersion: 2
+        x: 2059
+        y: 47
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 172ed6e26cb28de80800000000000000
+      internalID: -8153718995171810703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_37
+      rect:
+        serializedVersion: 2
+        x: 2129
+        y: 51
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ccdae4e909e3ddd0800000000000000
+      internalID: -2462368342536954682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_38
+      rect:
+        serializedVersion: 2
+        x: 2211
+        y: 51
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cf9931a0fa9b0370800000000000000
+      internalID: 8289889897393266631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_39
+      rect:
+        serializedVersion: 2
+        x: 2293
+        y: 51
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9801192419de26bc0800000000000000
+      internalID: -3791206728149692279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_40
+      rect:
+        serializedVersion: 2
+        x: 2331
+        y: 49
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a37694f49e583ce50800000000000000
+      internalID: 6828448697127888698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_41
+      rect:
+        serializedVersion: 2
+        x: 2347
+        y: 49
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24ceb20c6e9e86970800000000000000
+      internalID: 8748499453443042370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_42
+      rect:
+        serializedVersion: 2
+        x: 2375
+        y: 51
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a333bdce43d42220800000000000000
+      internalID: 2460323631863116713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_43
+      rect:
+        serializedVersion: 2
+        x: 2423
+        y: 0
+        width: 70
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c7a51f548126f380800000000000000
+      internalID: -8937919558055516223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_44
+      rect:
+        serializedVersion: 2
+        x: 2589
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c202e3f1ce0f17820800000000000000
+      internalID: 2914375330812534828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_45
+      rect:
+        serializedVersion: 2
+        x: 2607
+        y: 0
+        width: 70
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57c527662925df5c0800000000000000
+      internalID: -4180094090392478603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_46
+      rect:
+        serializedVersion: 2
+        x: 2671
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7e408059d138e8a0800000000000000
+      internalID: -6275711271312535938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_47
+      rect:
+        serializedVersion: 2
+        x: 2687
+        y: 49
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfc9a9186a93e7430800000000000000
+      internalID: 3782524124339543292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_48
+      rect:
+        serializedVersion: 2
+        x: 2753
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2adbdbc714d8f5560800000000000000
+      internalID: 7304712433023434146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_49
+      rect:
+        serializedVersion: 2
+        x: 2835
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b11b400e8eb102c00800000000000000
+      internalID: 873729014714642715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_50
+      rect:
+        serializedVersion: 2
+        x: 2849
+        y: 47
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d0c1d1818963da40800000000000000
+      internalID: 5391769183842320598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_51
+      rect:
+        serializedVersion: 2
+        x: 2917
+        y: 49
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff4fe80bcd7d7ad10800000000000000
+      internalID: 2136913891065525503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_52
+      rect:
+        serializedVersion: 2
+        x: 2999
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8ace04305f90bd10800000000000000
+      internalID: 2139384989820570253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_53
+      rect:
+        serializedVersion: 2
+        x: 3081
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79b586ac56cff4cc0800000000000000
+      internalID: -3724480852694377577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_54
+      rect:
+        serializedVersion: 2
+        x: 3147
+        y: 0
+        width: 70
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d210db63f6e7f7f80800000000000000
+      internalID: -8106621788118777555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_55
+      rect:
+        serializedVersion: 2
+        x: 3245
+        y: 49
+        width: 38
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 375f813874494b4d0800000000000000
+      internalID: -3119705606997871245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_56
+      rect:
+        serializedVersion: 2
+        x: 3327
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 460ef2ab2b3cbe780800000000000000
+      internalID: -8652607086666981276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_57
+      rect:
+        serializedVersion: 2
+        x: 3339
+        y: 47
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a3d87aa56f5c6000800000000000000
+      internalID: 30504187741131689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_58
+      rect:
+        serializedVersion: 2
+        x: 3409
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0e27d241a20907d0800000000000000
+      internalID: -2951825189130260981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_59
+      rect:
+        serializedVersion: 2
+        x: 3491
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d37c3320286237b70800000000000000
+      internalID: 8895496028811413309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_60
+      rect:
+        serializedVersion: 2
+        x: 3573
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d8b9468202232cd0800000000000000
+      internalID: -2584184366942275371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_61
+      rect:
+        serializedVersion: 2
+        x: 3609
+        y: 49
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e10fbb926e7aeb940800000000000000
+      internalID: 5313869217328263198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_62
+      rect:
+        serializedVersion: 2
+        x: 3655
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99852accda28ae9d0800000000000000
+      internalID: -2744237339954751335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_63
+      rect:
+        serializedVersion: 2
+        x: 3703
+        y: 0
+        width: 70
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8299d752de8431750800000000000000
+      internalID: 6274438889230670120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_64
+      rect:
+        serializedVersion: 2
+        x: 3867
+        y: 51
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27a6a1d12d91d9090800000000000000
+      internalID: -8026230570682258830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_65
+      rect:
+        serializedVersion: 2
+        x: 3887
+        y: 0
+        width: 70
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe76a52a3f4459850800000000000000
+      internalID: 6383083860059121647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_66
+      rect:
+        serializedVersion: 2
+        x: 3949
+        y: 51
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5825da37cc55bb0d0800000000000000
+      internalID: -3406034356573220219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_67
+      rect:
+        serializedVersion: 2
+        x: 3967
+        y: 49
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 538af68762df64f90800000000000000
+      internalID: -6969605031638095819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_68
+      rect:
+        serializedVersion: 2
+        x: 3983
+        y: 49
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ac1d4d3d7f25ceb0800000000000000
+      internalID: -4700298421145363294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_69
+      rect:
+        serializedVersion: 2
+        x: 4031
+        y: 51
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c6927a529aaff9c0800000000000000
+      internalID: -3891204007465412923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_70
+      rect:
+        serializedVersion: 2
+        x: 4113
+        y: 51
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0056ea8af8c93d5c0800000000000000
+      internalID: -4191834687327542016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_71
+      rect:
+        serializedVersion: 2
+        x: 4129
+        y: 47
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 596315f13f5988740800000000000000
+      internalID: 5154534644960540309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_72
+      rect:
+        serializedVersion: 2
+        x: 4195
+        y: 49
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92942d4592fb665a0800000000000000
+      internalID: -6528320425589323479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_73
+      rect:
+        serializedVersion: 2
+        x: 4213
+        y: 49
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a0427e5987d7f780800000000000000
+      internalID: -8649207574346710878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_74
+      rect:
+        serializedVersion: 2
+        x: 4277
+        y: 51
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 722311fed2adb7200800000000000000
+      internalID: 178976501030531623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_75
+      rect:
+        serializedVersion: 2
+        x: 4359
+        y: 51
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bfee1c16d8f93c60800000000000000
+      internalID: 7798537828247203764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_76
+      rect:
+        serializedVersion: 2
+        x: 4427
+        y: 0
+        width: 70
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7812f6010c39f5be0800000000000000
+      internalID: -1486306898890251897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_77
+      rect:
+        serializedVersion: 2
+        x: 4523
+        y: 49
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09bca5f82b732f730800000000000000
+      internalID: 4031345856498813840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_78
+      rect:
+        serializedVersion: 2
+        x: 4551
+        y: 49
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3c401ef3ff222090800000000000000
+      internalID: -8060827658053727172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_79
+      rect:
+        serializedVersion: 2
+        x: 4605
+        y: 51
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c38fedda4d575bcd0800000000000000
+      internalID: -2542996858270189508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_80
+      rect:
+        serializedVersion: 2
+        x: 4619
+        y: 47
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2987e49eeb82acb30800000000000000
+      internalID: 4308300793956432018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_81
+      rect:
+        serializedVersion: 2
+        x: 4687
+        y: 51
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92126bcbb2aa0f240800000000000000
+      internalID: 4823542305740169513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_82
+      rect:
+        serializedVersion: 2
+        x: 4769
+        y: 51
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1c05495203c6b9b0800000000000000
+      internalID: -5064646316076495846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_83
+      rect:
+        serializedVersion: 2
+        x: 4851
+        y: 51
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f629a9262ca8f0c0800000000000000
+      internalID: -4541690944295459082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_84
+      rect:
+        serializedVersion: 2
+        x: 4889
+        y: 49
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7fc655368acb54f0800000000000000
+      internalID: -838854227805155457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_85
+      rect:
+        serializedVersion: 2
+        x: 4905
+        y: 49
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98042745dcb012b60800000000000000
+      internalID: 7719464212802715785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_86
+      rect:
+        serializedVersion: 2
+        x: 4933
+        y: 51
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ad212a19d71487e0800000000000000
+      internalID: -1764258932808667742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_valle_capa6_cercano_87
+      rect:
+        serializedVersion: 2
+        x: 4983
+        y: 0
+        width: 70
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b907d827cea74a60800000000000000
+      internalID: 7658281861773724088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

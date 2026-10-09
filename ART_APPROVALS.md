@@ -1,6 +1,276 @@
 # Estado de aprobación de arte
 
+## Extensión AtmosphereClean — 08/10/2026
+
+Usuario ratifica que probó y aprobó el acabado previo y autoriza extenderlo a todas las capas de fondos de niveles y mininiveles. 55 capas nuevas más los ocho fondos previos cubren los63recursos del catálogo de12contextos; queñua adicional conservada. PPU128, paletas regionales, originales y geometría preservados. Carga prioritaria en Environment/Materials; registro superficial del agua corregido. Alcance y límites: Artifacts/VisualRefactor/AtmosphereClean/EXTENSION_ENTREGA.md. No atribuir aprobación estética de estas55capas nuevas ni recorrido Play de esta revisión.
+
+## Cielos limpios, queñua y pie Sierra — 08/10/2026
+
+Corrección solicitada por el usuario ante molestia visual del tramado. Ocho fondos redibujados y cuatro poses de queñua, AtmosphereClean prioritario, fondos2560×720/PPU128 y árbol256×288/PPU128, mismo tamaño lógico y geometría. Pie Sierra sin montañas/plantas; marco/casillas originales exactos conservados. Controles centrados con espacio común en todos los niveles/mininiveles. Originales preservados. Inspección PNG y compilación PASS; Unity Play y aceptación visual pendientes. Alcance/prompts/verificaciones en Artifacts/VisualRefactor/AtmosphereClean. No significa refactor aprobado de todas las demás capas.
+
+
+## Pasamanos Sierra — corrección solicitada 08/10/2026
+
+Cerco de madera redibujado con imagegen integrado mediante LayerPolish/sierra_decor_cerco_madera: 192×80, tamaño lógico 96×40, PPU64 y 15 colores de la paleta Sierra. Original Materials conservado. Vetas, uniones y amarres visibles; colocación por columnas de un píxel lógico para evitar saltos de ocho píxeles en los travesaños, columnas fuera de pantalla descartadas y vacíos de acantilados excluidos. Sin cambios al recorrido ni colisiones. Revisión PNG realizada; verificación visual Unity Play y aprobación del usuario pendientes.
+
+
+## Lote completo de capas — 08/10/2026
+
+Lote autorizado por «CONTINUA ... TODAS LAS CAPAS ... EN PAQUETE». 63 capas únicas redibujadas y conectadas en los 12 contextos reales, más tres hojas de huaraca (carga/giro/lanzamiento). Originales, HUD y portales comprobados conservados; tamaño lógico, colisiones y música sin cambios. Importación Point/PPU64, paletas existentes de hasta24colores. Compilación runtime/Editor PASS; auditoría PNG456hojas/1570frames, cero fallos. No son todas hojas nuevas: el lote nuevo tiene66.
+
+Inspección de capas realizada por láminas; aceptación visual del usuario y recorrido Unity Play pendientes. Auditoría Unity batch intentada dos veces, termina antes de ejecutar el método al iniciar licencia; no existe PASS de carga real de esta revisión. No anunciar100% ni juego libre de bugs. Catálogo, prompts, fuentes y ZIP en Artifacts/VisualRefactor/LayerPolish. Esta entrada sustituye el estado provisional del cielo Costa01; ahora está seleccionado por los cargadores del lote autorizado, sin atribuir aprobación estética nueva.
+
+## Pulido por capas — Costa 01, 08/10/2026
+
+Nueva revisión del cielo independiente generada con imagegen y exportada a 1280×360, 16 colores de la paleta Costa existente. Archivo Artifacts/VisualRefactor/LayerPolish/Costa01/costa_capa1_cielo_pulido_v3.png. Pendiente aprobación; no sustituye el asset activo. Original conservado. Usuario confirma HUD, portales y animaciones generales; señala deformación de Tayta al lanzar huaraca, pendiente corrección específica. Final cinematográfico y mejoras de jugabilidad Selva pospuestos por usuario.
+
+## HUD unificado regenerado — 08/10/2026
+
+Pedido explícito de regenerar todos los marcos: nueve recursos nuevos UnifiedHud (Costa/Sierra/Selva, cabecera pistola, cabecera huaraca y pie). Vida/arma integradas en el propio arte, no módulos superpuestos; cifras y teclas centradas por geometría regional. RunnerHud compartido por niveles y minicuevas. Originales conservados. Exportación de 24 colores máximo, Point sin compresión; compilación PASS y 24 modelos geométricos PASS. Inspección de los nueve PNG realizada; Unity Play y aprobación visual del usuario pendientes. Documentación: Artifacts/VisualRefactor/UnifiedHud/ENTREGA.md.
+
+## Inca MotionV3 y revisión de cierre — 08/10/2026
+
+Lote autorizado por pedido de corrección inmediata. Dos hojas nuevas integradas: carga 12 poses y retirada 8 poses, originales conservados. Montaje final revisado con capas Materials, cámara y coreografía continua; ajustes de prioridad aérea Selva. Contratos 387 hojas/1445 frames y compilación/modelos PASS. No son aprobaciones visuales: Play de esta revisión pendiente. Entrega/prompt en Artifacts/VisualRefactor/IncaLocomotion/ENTREGA.md.
+
+## HUD tallado de las tres referencias — 08/10/2026
+
+Lote solicitado y autorizado: seis paneles regionales integrados en RunnerHud, minicuevas incluidas, y tres hojas aéreas Costa con coreografía Selva. Originales y escenarios conservados. Recursos versionados HudCarved y *_selva_pose. Compilación/contratos/geometría/relojes PASS; aceptación visual y Play pendientes. Detalles y fuentes: Artifacts/VisualRefactor/HudCarved/ENTREGA.md. Esta entrada reemplaza el marco provisional en código para el pedido actual; no equivale a aprobación visual ni a certificar 100%.
+
+## Refactor funcional — 08/10/2026
+
+Lote autorizado por el usuario. Cambios de vidas, continuidad del combate musical, caminar de jefes, legibilidad HUD y portales por dos planos guardados. Compilación PASS; puerta Costa renderizada en Unity en cinco fases PASS; pruebas de modelos y contratos PASS. La auditoría conjunta final no arrancó por validación del cliente de licencia; no declarar recorrido completo ni aprobación visual de todos los portales. Estado detallado: Artifacts/VisualRefactor/CIERRE_08_OCT.md. Las cifras y estados inferiores son históricos.
+
+## Lote consolidado posterior — 04/10/2026
+
+152 hojas de materiales registradas en Unity; 371 hojas / 1359 frames en contratos PNG sin fallos. Acabado nativo adicional de 106 hojas, fuente original conservada. Integración y límites en `Artifacts/VisualRefactor/CIERRE_REFACTOR_VISUAL.md`. La autorización de lote permite producir/integrar; no equivale a aprobación visual de todas las hojas ni a certificar el juego sin bugs.
+
+Corregida también la referencia de render para vistas Game pequeñas en Costa/Sierra/Selva, sin cambiar encuadre ni tamaños. Compilación PASS y doce comprobaciones en Editor real PASS, incluido destino 549x309; ver `pixel_viewport_audit.txt`.
+
+Las cifras inferiores son históricas.
+
+## Actualización del lote — 04/10/2026
+
+- Fluidez: reloj de carrera Costa corregido (dejaba saltar poses), reloj local de estados Sierra/cuevas y reentrada de salto Selva. Movimiento detallado en cuadrícula nativa. Compilación y pruebas de reloj 30/60/120 FPS PASS; aceptación visual pendiente.
+- Lote materiales ampliado a 46 hojas con cuatro túneles/portales, auditor real Unity PASS. Banco desplegado: 265 hojas / 1020 frames, no poses únicas. Alcance/pendientes en FLUIDEZ_04_OCT.md.
+
+- Revisión posterior: 42 hojas de materiales conectadas y verificadas en Unity: tamaño en mundo, carga, frames y filtrado Point PASS. Suelo Costa repite el friso con Wrap Repeat, sin estirar el borde.
+- Auditor PNG actualizado: 261 hojas / 1000 frames, cero fallos de contrato; incluye alternativas, no 1000 poses únicas activas.
+- Tour diagnóstico del código nuevo: tres actos y dos cuevas de Sierra, seis zonas de Selva, sin excepciones registradas. No sustituye el recorrido cronológico completo.
+- HUD Selva usa sprites de recogida legibles en sus casillas, sin reducir las láminas detalladas del museo; piezas no obtenidas en silueta negra.
+- Pendiente: repetir Costa con piloto aislado de teclado externo y evaluado por subpaso físico. La prueba previa murió ante el ave inicial; no certifica fallo humano ni nivel completado. No anunciar 100% ni ausencia de bugs.
+
+- Continuación autorizada por «CONTINUA CON LA REFACTORIZACION DEL JUEGO, AL 100%»; se mantiene el permiso de lote del banco, sin borrar originales.
+- Trece fondos independientes conectados y un tronco Selva de detalle nativo doble, con tamaño lógico y colisiones originales. Pendientes de aceptación visual de esta revisión.
+- Auditor de texturas: 218 hojas/932 frames desplegados, sin fallos de dimensiones, alfa binario o máximo 24 colores. No son 932 poses únicas ni una certificación de calidad.
+- HUD compacto y orientación/centrado de portales corregidos en código. Pruebas de geometría y simulación PASS; la última captura de Play aún usaba el código anterior del Editor. Es necesario refrescar y repetir antes de dar por verificados visualmente los últimos cambios.
+- No se anuncia completado el refactor global: faltan plataformas/obstáculos restantes y recorrido visual completo.
+
+## Estado vigente del lote — refactor integrado, 03/10/2026
+
+- Las notas inferiores son históricas; no describen la integración actual.
+- Lote autorizado por «LO APRUEBO», «COMPLETA CON TODO LO QUE QUEDA PENDIENTE»
+  y «CONTINUA». Se conserva el arte anterior.
+- 205 hojas / 922 frames en banco más seis capas de entorno; 210 recursos desplegados. Hay selecciones
+  alternativas y repetidas: no son 922 poses únicas activas.
+- Nuevos ciclos de carrera, disparo corriendo y agachado profundo conectados.
+  Escala común 0.85; pendiente aceptación visual de esta revisión y Play completo.
+- Alcance ampliado por usuario: detalle de escenarios y obstáculos obligatorio.
+  Seis capas activadas en lote autorizado; pendientes de aceptación visual completa.
+- Pruebas de geometría y recursos PASS; doce simulaciones de cuevas superadas.
+  Último smoke Play sin excepciones. No es un recorrido visual completo.
+- Tayta de los tres niveles, extras/recompensas, cuatro jefes con MotionV2,
+  esbirros, aves, caimán y NPC costeros conectados mediante registro visual.
+- Unity: compilación satisfactoria, 303 comprobaciones de carga/registro.
+  Pruebas cortas en Play; NO equivalen a un recorrido completo ni aprobación
+  visual individual de todos los frames. Detalle en Artifacts/VisualRefactor/ESTADO_ACTUAL.md.
+
+## Ampliación de movimientos de jefes — revisión actual
+
+- Banco Avance02: 91 hojas / 418 frames con catálogo e importador staging.
+  Core Costa/Sierra nuevo exportado; estados extra y revisión nativa pendientes.
+  No confundir aprobación del lote/dirección con prueba de todo el arte o juego.
+
+- Pedido posterior autoriza el pack completo en lote («LO APRUEBO»), con
+  preparación técnica para Unity. No requiere pausa por cada hoja.
+- Extensiones MotionV2 de los cuatro jefes exportadas: 12 hojas, 96 poses.
+  Catálogo y menú de importación a staging; NO activadas en gameplay ni
+  probadas en Play. Falta registro corporal entre bancos y eventos reales.
+
+- Usuario acepta la entrega MotionV2 del jefe de piedra mediante «CONTINUA».
+  Aprobación visual, no certificación de integración ni gameplay.
+- Siguiente entrega: Pachacútec MotionV2, pendiente de aprobación visual.
+
+- Jefe de piedra: extensión MotionV2 (jab, uppercut, carga), pendiente de
+  aprobación visual. No reemplaza el banco anterior ni está integrada en Unity.
+- Se respeta la instrucción actual de una entrega por asset y confirmación
+  antes del siguiente. Pendientes en Artifacts/VisualRefactor/Bosses/MOTION_STATUS.md.
+
 Dirección vigente: `ART_BIBLE.md`. El cambio de estilo NO convierte el arte previo en pixel art aprobado.
+
+## Refactor visual de mayor resolución — 03/10/2026
+
+- Usuario autoriza el banco completo en lote, sin pausas por hoja. Salto
+  aceptado mediante «continúa». Nuevo alcance registrado en ART_BIBLE.
+- Banco de revisión exportado: Tayta protector 25 hojas/98 frames, cuatro
+  jefes 32 hojas/128 frames, efectos 8 hojas/32 frames. No integrado en Unity.
+  Fuentes Costa/Sierra nuevas guardadas como borradores, no como arte final.
+  Estado y pendientes: Artifacts/VisualRefactor/README.md.
+
+- Reposo protector 96x96 APROBADO explícitamente: «Sí lo apruebo a ese nivel
+  de calidad». Dirección de calidad autorizada para todos los personajes.
+- Carrera protectora 96x96 APROBADA explícitamente: «Está bien continúa».
+- Salto protector 96x96, ocho poses y selecciones jump/double_jump/fall/land,
+  pendiente de aprobación en Artifacts/VisualRefactor/Tayta/selva_jump_96.png.
+- Carrera protectora 96x96, ocho poses. Exportada en
+  Artifacts/VisualRefactor/Tayta/selva_run_96.png; no sustituye runtime aún.
+
+- Aumento de resolución autorizado explícitamente. Personajes/jefes/efectos;
+  escenarios solo acabado sin cambiar flujo. Entregas uno por uno.
+- Primera hoja: Artifacts/VisualRefactor/Tayta/selva_idle_96.png, cuatro poses
+  de reposo 96x96. Aprobada visualmente. NO integrada en runtime.
+
+## Traje protector tipo gorila — 03/10/2026
+
+- V1 aprobada como dirección; usuario solicita más acabado antes de completar
+  las animaciones. V2 mejora contraste, volúmenes y lectura del pelaje.
+  Artifacts/Tayta/selva_traje_gorila_propuesta_v2.png pendiente de aprobación.
+  El lote de animaciones está autorizado, pero no integrado aún.
+
+- Solicitud del usuario: recompensa al terminar Sierra y traje con escudo para
+  Selva, rostro de Tayta visible. Sustituye el diseño anterior de fibras.
+- Una propuesta en Artifacts/Tayta/selva_traje_gorila_propuesta.png.
+  Pendiente de aprobación; NO integrada. Originales conservados.
+
+## Tayta — pulido 03/10/2026
+
+- Carrera V3 aceptada por el usuario («Sí ahora sí está bien»), con solicitud
+  de revisar estabilidad, recortes y escala al disparar. Se conserva su arte;
+  selección de última pose de vuelo usa la pose3 completa en lugar de la celda7
+  del borde de la fuente. Carrera/disparo Selva comparten reloj de piernas.
+  Estos ajustes de estabilidad quedan para revisión en Play, sin afirmar cero bugs.
+
+- Carrera V2 rechazada: seguía pareciendo trote. V3 redibujada a partir de las
+  referencias de zancada del usuario e integrada para revisión en los tres
+  niveles. V2 conservada. Aprobación visual de V3 pendiente.
+
+- Usuario autoriza corregir e integrar en lote carrera/disparo y ajustes de los
+  tres niveles, conservando los originales. Cinco PNG nuevos `_v2` y seis JSON de
+  selección de poses completas. Selva usa Tayta sin que el Animator anterior lo
+  sobrescriba. Detalles y límites: Docs/TAYTA_POLISH_03_OCT.md.
+- Integrado para revisión, NO aprobado visualmente ni certificado en Unity Play.
+
+## Selva V2 — pulido e integración 02/10/2026
+
+- Museo Selva V4 APROBADO explícitamente («Elegante, ahora sí»). Integrado mediante MuseumArt; V3 y anteriores conservados.
+- Tayta: usuario autoriza crear e integrar el lote completo para los tres niveles. Aclara mantener Costa SIN brazos, revelación final, Sierra CON brazos y Selva con protección. 48 hojas / 323 frames de 48x48 integrados como reemplazo visual no destructivo, misma física y controles. Paletas regionales existentes; revisión en Play pendiente. Detalle: Docs/TAYTA_REFACTOR.md.
+
+- Museo V3 rechazado visualmente por el usuario. Nueva propuesta V4 con objetos volumétricos pixel art, generada con imagegen y normalizada a 64x64 usando la paleta Selva existente. Fuentes y preview en Artifacts/MuseumSelvaV4; prompts en Docs/SELVA_MUSEO_V4.md. Pendiente de aprobación, sin sustituir recursos del juego hasta confirmación.
+
+- Lote de museo Selva y baile final autorizado explícitamente. Cuatro piezas 64x64 nuevas (`_v3`) y celebración 48x48 de 8 frames; originales preservados. Integrado para revisión, aprobación visual pendiente. Referencias y alcance: Docs/SELVA_CIERRE_Y_MUSEO.md.
+
+- Ampliación de encuentros autorizada en lote por el usuario: Guardián de Raíces y reemplazo del escarabajo por Chullachaqui. Nuevos sprites, efectos y animaciones están integrados para revisión; su aprobación visual sigue pendiente. Registro: Docs/SELVA_ENCUENTROS_CHULLACHAQUI.md.
+
+- El usuario solicita ahora mejorar el arte **y después integrarlo en Unity**; ya no es una entrega exclusivamente de arte.
+- Dirección nueva: 24–32 colores, emboscada/inmersión física del caimán, superficie transparente del río, lianas flexibles y poses orgánicas. Se conserva V1 para comparación y el traje aprobado de Sierra como base del héroe.
+- V2 propone 28 colores. La aceptación visual de esta revisión está **pendiente del usuario**; no se etiqueta el lote como aprobado.
+- Arte generado: 171 PNG y 597 celdas, capas independientes, validación de paleta/alfa/costuras sin fallos. Archivos en `Assets/SuyuRun/Art/PixelSelva/ProductionV2/Resources/SelvaV2`.
+- Escena `Level_Selva` creada y registrada. Primera verificación Unity Play sin errores de runtime; revisión final y capturas registradas en `Artifacts/SelvaV2`. Alcance y límites en `Docs/SELVA_V2_ARTE_E_INTEGRACION.md`.
+- Costa y Sierra siguen cerrados. Cambios compartidos limitados a acceso Sierra→Selva, panorama Selva del inicio, selector y cuarta colección regional en el museo (tercera región).
+
+## Selva — paquete de revisión 27/09/2026
+
+- Costa y Sierra CERRADOS por confirmación del usuario: «ya lo probé y sí está bien».
+  Esta aceptación sustituye los pendientes de revisión anteriores de esos niveles.
+- Encargo explícito: «ahora solo dame el arte pero completo. DAME EN PAQUETE».
+  Autoriza este lote completo como excepción a una capa por entrega; NO autoriza
+  dar por aprobada la nueva paleta ni integrar el nivel sin revisión.
+- El usuario recalca que Selva debe conservar el estilo aprobado de Costa/Sierra.
+  Se comparan Costa/capa7 y Sierra/ProductionV3. Ensayo imagegen de árboles con
+  exceso de textura descartado. Paquete final de propuesta: dibujo nativo Pillow
+  autorizado en la biblia, masas de color limpias, PPU32 y cuadrícula común.
+- `Artifacts/SelvaArtPack_v1/`: seis ambientes; cueva y ruinas son mininiveles
+  laterales, no runner. Héroe con el mismo traje protector recibido en Sierra;
+  animaciones de agarre, balanceo, suelta y reagarre, caimanes debajo.
+- Paleta existente Selva de24colores: sigue PROPUESTA. Todo el nuevo lote está
+  PENDIENTE de aprobación visual. Se conserva fuera de Assets del proyecto activo.
+- Fuente, manifiesto, PNG independientes, JSON de frames, GIF y ZIP incluidos.
+  Solo arte: no se declara implementada la física, IA, escenas ni el nivel Selva.
+
+## Camélidos y menú fijo — 26/09
+
+Usuario solicita llamas/alpacas pastando como su referencia y paisajes fijos en
+el inicio. Un atlas nuevo `sierra_camelidos_pastando.png`: 12frames por especie,
+32×32, misma paleta ProductionV3, alfa binario. Conserva los PNG de llamas previos.
+Reutiliza el generador editable del proyecto, sin cambiar fondos, marcos o niveles.
+Integración: tres animales en la vista Sierra del menú y grupos en Camino/Ruinas;
+posiciones de mundo absolutas, descarte solo fuera de pantalla. Menú/selector
+sin scroll horizontal; permanecen las animaciones ambientales en su sitio.
+Vista `Artifacts/SierraGrazers/pastando.gif`. Aprobación visual del usuario pendiente.
+
+## Interfaz única y museo — 26/09, instrucción más reciente
+
+Lote de inicio y siete imágenes de museo AUTORIZADO explícitamente. Integración
+solicitada en las vitrinas de cada pieza; aprobación visual final aún pendiente.
+El usuario exige conservar `Artifacts/ArtApproval/INICIO_FINAL.jpeg` tal cual,
+salvo los paisajes regionales. Se conserva el original y se crea un marco PNG
+con máscaras exclusivamente en los paisajes; los demás píxeles son idénticos.
+Esta orden explícita de fidelidad prevalece para este marco sobre la reducción
+a 320×180/24 colores: no se afirma que el JPEG de referencia cumpla ese contrato.
+Costa/Sierra usan sus capas originales independientes animadas; Selva sin paisaje.
+Ventanas externas al gameplay: un único renderer compartido, misma disposición
+en Costa, Sierra y cuevas, con variación de color regional. No se cambian recorridos.
+Nuevas piezas: `Assets/SuyuRun/Art/SharedMenu/Resources/Museum`, 64×64, paletas
+regionales verificadas, alfa binario. Original del atlas preservado en Artifacts.
+
+
+## Últimos retoques solicitados — 26/09
+
+Usuario: «En general ya quedó la parte de las cuevas». Reubicar antorchas,
+marcar el suelo de «SALTA» y cambiar los troncos cafés por sellos azules
+levitantes. Implementados sin reemplazar PNG anteriores; aceptación de estos
+retoques pendiente. Vistas Unity en `Artifacts/SierraV3/finishing-*.png`.
+
+## Claridad Sierra — revisión26/09
+
+UI/visuales nativos de código: vida segmentada en cuevas, marca de carga dirigida,
+rombo concéntrico de impulso inspirado en Costa (azul/subida, rojo/descenso), barrera
+terracota biselada de alto contraste. No se sobrescriben PNG ni se cambia la paleta.
+Implementación solicitada por el usuario; aceptación visual manual todavía pendiente.
+
+## Cuevas Sierra — lote autorizado el25/09/2026
+
+El usuario respondió «Sí, autorizo el lote completo de las dos cuevas» y confirmó
+plataformas laterales A/D, W/ESP doble salto, S bajar. Excepción expresa al flujo
+de un asset por entrega para estas dos cuevas. Duración: canción de1minuto cada una.
+28PNG nuevos en ProductionV3/Resources/SierraV3 con prefijo `sierra_cueva`.
+La ampliación solicitada incorpora10hojas de combate de jefes y efectos;
+conserva las18anteriores. Previews `Artifacts/SierraCaves/*_combos.gif`.
+Paleta Sierra conservada y alfa binario verificado. Aprobación visual final pendiente;
+no reemplazan fondos exteriores ni arte aprobado de Costa.
+Brief y pruebas: `Docs/SIERRA_CUEVAS_25_SEPTIEMBRE.md`.
+
+## Revisión individual — 25/09/2026
+
+- Fondo Sierra conservado sin regenerar, conforme a la especificación adicional.
+- Halcón en vuelo: revisión de6frames32x32 APROBADA explícitamente por el usuario («Si lo apruebo»).
+  Vista: `Artifacts/SierraV3/halcon_revision.gif`; anterior en `Artifacts/SierraV3/BeforeFalconRefinement`.
+- Siguiente revisión solicitada: roca rodante,8frames32x32, grietas que giran en sentido de avance.
+  Anterior conservado en `Artifacts/SierraV3/BeforeRollingRock`; vista `Artifacts/SierraV3/roca_rodante_revision.gif`.
+  APROBADA explícitamente por el usuario («Lo apruebo, continua, completa todo sierra»).
+  El cierre funcional posterior reutiliza este arte: no genera ni sustituye otros PNG.
+
+
+## Actualización vigente — 24/09/2026
+
+### Continuación — acabado e integración
+
+El usuario confirma que V3 se parece mucho más a Costa y pide más acabado, conservar el pixel art y continuar con el nivel/MIDI. Se conserva esa dirección: detalles puntuales de roca/muros, flores/ichu, vetas y amarres de puente; sin volver al texturizado deV2. Respaldo previo: `Artifacts/SierraV3_BeforePolish`. No equivale a declarar el nivel final aprobado. Se autoriza seguir con una escena de integración separada; Costa sigue cerrada.
+
+- **Costa cerrado y aprobado por el usuario**, quien jugó y completó el nivel. No modificar Costa. Esta confirmación sustituye los pendientes de integración antiguos listados más abajo.
+- Encargo actual: Sierra completo en tres biomas (camino ondulado, varios puentes, ruinas incas), con túneles de conexión y recursos animados. El usuario autorizó el lote artístico completo, excepción al proceso individual en esta entrega.
+- `ProductionV2`: propuesta inicial demasiado texturizada frente al Costa aprobado; conservada, NO aprobada y NO usar como dirección final.
+- `ProductionV3`: propuesta corregida a planos de color y siluetas limpias, mismo lenguaje pixel de Costa. 93PNG, 346frames, paleta24 propuesta. Pendiente de aprobación VISUAL; el comentario «si es igual no hay problema continúa» no aprueba a ciegas estas imágenes nuevas.
+- Brief vigente: `Docs/SIERRA_PRODUCTION_BRIEF.md`. Entrega y límites: `Docs/SIERRA_V3_ENTREGA.md`. Los registros antiguos de crossfade, ruinas «preincas» o prohibición de continuar Sierra quedan sustituidos por este encargo: túneles opacos, ruinas INCAS y continuación autorizada.
 
 ## Sierra y Selva — se paran acá, las capas de escena las hace Astra
 

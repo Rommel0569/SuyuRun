@@ -1,0 +1,24 @@
+{
+  "name": "selva_museo_sonaja_v3",
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 1,
+  "fps": 8,
+  "loop": true,
+  "ppu": 32,
+  "pivot": [
+    0,
+    1
+  ],
+  "rectsUnity": [
+    {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64
+    }
+  ],
+  "group": "Museum",
+  "reference": "https://hanaqpacha.patternbyetsy.com/listing/1747624101/shipibo-gourd-rattle-from-the-peruvian",
+  "notes": "Native interpretation; not a facsimile or universal ceremonial attribution."
+}

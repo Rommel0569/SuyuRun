@@ -1,0 +1,27 @@
+{
+  "name": "selva_bosque_capa5_cercania",
+  "file": "Layers/selva_bosque_capa5_cercania.png",
+  "frameWidth": 640,
+  "frameHeight": 180,
+  "frames": 1,
+  "layout": "vertical",
+  "fps": 8,
+  "loop": true,
+  "ppu": 32,
+  "pivot": [
+    0.5,
+    0
+  ],
+  "parallax": 0.75,
+  "seamlessX": true,
+  "status": "proposal_pending_visual_approval",
+  "zone": "bosque",
+  "rectsUnity": [
+    {
+      "x": 0,
+      "y": 0,
+      "width": 640,
+      "height": 180
+    }
+  ]
+}

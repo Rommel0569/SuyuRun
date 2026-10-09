@@ -1,0 +1,14 @@
+{
+  "frames": 1,
+  "frameWidth": 128,
+  "frameHeight": 32,
+  "logicalWidth": 64,
+  "logicalHeight": 16,
+  "pixelsPerUnit": 64,
+  "fps": 1,
+  "loop": true,
+  "source": "Artifacts/VisualRefactor/selva_plataforma_tronco_detail_source.png",
+  "original": "Assets/SuyuRun/Art/PixelSelva/ProductionV2/Resources/SelvaV2/selva_plataforma_tronco.png",
+  "seamEndpointEqual": false,
+  "fullPlaythroughTested": false
+}

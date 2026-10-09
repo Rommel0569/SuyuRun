@@ -1,0 +1,1964 @@
+{
+  "pngs": 163,
+  "frames": 510,
+  "paletteColorsUsed": 24,
+  "failures": [],
+  "checks": [
+    {
+      "name": "selva_bosque_capa1_cielo",
+      "size": [
+        640,
+        180
+      ],
+      "colors": 5,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 1,
+      "sha256": "a4d3703978688f9d1bacd5ea650268cc9a93c6721955eee9cfbf375846eb2830"
+    },
+    {
+      "name": "selva_bosque_capa2_lejania",
+      "size": [
+        640,
+        180
+      ],
+      "colors": 1,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 1,
+      "sha256": "1fbe0df2c9bb1781a3483990440643af97653ae56e03910155169dbf9afd2974"
+    },
+    {
+      "name": "selva_bosque_capa3_estructura",
+      "size": [
+        640,
+        180
+      ],
+      "colors": 9,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 1,
+      "sha256": "53299e269f5e6e2b1f867214031bb11235ff2ec96ead6f18ef29031c70db2c8a"
+    },
+    {
+      "name": "selva_bosque_capa4_agua",
+      "size": [
+        640,
+        720
+      ],
+      "colors": 3,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 4,
+      "sha256": "b4d3a5de0bf700203ed24fe806bfdc6ae11b93b3769dc7d3983e7d0829977142"
+    },
+    {
+      "name": "selva_bosque_capa5_cercania",
+      "size": [
+        640,
+        180
+      ],
+      "colors": 8,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 1,
+      "sha256": "2500ad8c17a9c7f6b1ab71dfdee0e233a94b53ebbba060d8c69e243896ad045f"
+    },
+    {
+      "name": "selva_bosque_capa6_frontal",
+      "size": [
+        640,
+        180
+      ],
+      "colors": 1,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 1,
+      "sha256": "78e94591c72f13c2412134f122c2c3cd9b3800b9d61d4ec03db6e1a9c6744423"
+    },
+    {
+      "name": "selva_rio_capa1_cielo",
+      "size": [
+        640,
+        180
+      ],
+      "colors": 5,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 1,
+      "sha256": "a4d3703978688f9d1bacd5ea650268cc9a93c6721955eee9cfbf375846eb2830"
+    },
+    {
+      "name": "selva_rio_capa2_lejania",
+      "size": [
+        640,
+        180
+      ],
+      "colors": 1,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 1,
+      "sha256": "1fbe0df2c9bb1781a3483990440643af97653ae56e03910155169dbf9afd2974"
+    },
+    {
+      "name": "selva_rio_capa3_estructura",
+      "size": [
+        640,
+        180
+      ],
+      "colors": 9,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 1,
+      "sha256": "53299e269f5e6e2b1f867214031bb11235ff2ec96ead6f18ef29031c70db2c8a"
+    },
+    {
+      "name": "selva_rio_capa4_agua",
+      "size": [
+        640,
+        720
+      ],
+      "colors": 3,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 4,
+      "sha256": "64a486e7b3f187e6c1249aee153ca3425501b75a2f44081daf23f1a2592467b3"
+    },
+    {
+      "name": "selva_rio_capa5_cercania",
+      "size": [
+        640,
+        180
+      ],
+      "colors": 8,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 1,
+      "sha256": "2500ad8c17a9c7f6b1ab71dfdee0e233a94b53ebbba060d8c69e243896ad045f"
+    },
+    {
+      "name": "selva_rio_capa6_frontal",
+      "size": [
+        640,
+        180
+      ],
+      "colors": 1,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 1,
+      "sha256": "78e94591c72f13c2412134f122c2c3cd9b3800b9d61d4ec03db6e1a9c6744423"
+    },
+    {
+      "name": "selva_cueva_capa1_oscuridad",
+      "size": [
+        640,
+        180
+      ],
+      "colors": 3,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 1,
+      "sha256": "b2962eb02f90cbf9ba97dd4a49ef58588f1e5ea8c03404243b32e9c35b520a80"
+    },
+    {
+      "name": "selva_cueva_capa2_lejania",
+      "size": [
+        640,
+        180
+      ],
+      "colors": 2,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 1,
+      "sha256": "a61399b6985f7532a853d2deab04bdbb85c543dd7e3264a457a9a232f29fd4f0"
+    },
+    {
+      "name": "selva_cueva_capa3_estructura",
+      "size": [
+        640,
+        180
+      ],
+      "colors": 2,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 1,
+      "sha256": "c88375908dd2e8aff79abe6c87e5f9fe69655d260608b66e56c6727507564ce4"
+    },
+    {
+      "name": "selva_cueva_capa4_agua",
+      "size": [
+        640,
+        720
+      ],
+      "colors": 4,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 4,
+      "sha256": "162c2cb9cc4b96b414acdaa82ef2925ee2d472bfe5a5d87ba6a0a1a80f9b7f54"
+    },
+    {
+      "name": "selva_cueva_capa5_cercania",
+      "size": [
+        640,
+        180
+      ],
+      "colors": 3,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 1,
+      "sha256": "a8271606293890e35befc8359b6b4a174bd5b5c24d785755a4fb283573ee44d2"
+    },
+    {
+      "name": "selva_cueva_capa6_frontal",
+      "size": [
+        640,
+        180
+      ],
+      "colors": 1,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 1,
+      "sha256": "78e94591c72f13c2412134f122c2c3cd9b3800b9d61d4ec03db6e1a9c6744423"
+    },
+    {
+      "name": "selva_ruinas_capa1_cielo",
+      "size": [
+        640,
+        180
+      ],
+      "colors": 5,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 1,
+      "sha256": "a4d3703978688f9d1bacd5ea650268cc9a93c6721955eee9cfbf375846eb2830"
+    },
+    {
+      "name": "selva_ruinas_capa2_lejania",
+      "size": [
+        640,
+        180
+      ],
+      "colors": 1,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 1,
+      "sha256": "1fbe0df2c9bb1781a3483990440643af97653ae56e03910155169dbf9afd2974"
+    },
+    {
+      "name": "selva_ruinas_capa3_estructura",
+      "size": [
+        640,
+        180
+      ],
+      "colors": 6,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 1,
+      "sha256": "cac1f9db1fc49cc1fe344745ab1111a5f349763d33ad30f17f9360bb9c807cc0"
+    },
+    {
+      "name": "selva_ruinas_capa4_agua",
+      "size": [
+        640,
+        720
+      ],
+      "colors": 3,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 4,
+      "sha256": "b4d3a5de0bf700203ed24fe806bfdc6ae11b93b3769dc7d3983e7d0829977142"
+    },
+    {
+      "name": "selva_ruinas_capa5_cercania",
+      "size": [
+        640,
+        180
+      ],
+      "colors": 4,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 1,
+      "sha256": "a4b10d7eda0f63d7937cc7a9419f1c45175c876764a6b7f0bf469b404c5f7537"
+    },
+    {
+      "name": "selva_ruinas_capa6_frontal",
+      "size": [
+        640,
+        180
+      ],
+      "colors": 1,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 1,
+      "sha256": "78e94591c72f13c2412134f122c2c3cd9b3800b9d61d4ec03db6e1a9c6744423"
+    },
+    {
+      "name": "selva_noche_capa1_cielo",
+      "size": [
+        640,
+        180
+      ],
+      "colors": 5,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 1,
+      "sha256": "209fd6c812af10a930346b8f304c776963f9cfbf87769da70c9d0baed8b47685"
+    },
+    {
+      "name": "selva_noche_capa2_lejania",
+      "size": [
+        640,
+        180
+      ],
+      "colors": 1,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 1,
+      "sha256": "c7f6b013b42260bce427ce0f4f6b6883a385881d4e8968cc6f00f3dba74c6c46"
+    },
+    {
+      "name": "selva_noche_capa3_estructura",
+      "size": [
+        640,
+        180
+      ],
+      "colors": 6,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 1,
+      "sha256": "d6207fc4ad48458e6ec850ba0f22afddd3e469b4d289713166c90cb5e9789a19"
+    },
+    {
+      "name": "selva_noche_capa4_agua",
+      "size": [
+        640,
+        720
+      ],
+      "colors": 3,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 4,
+      "sha256": "b4d3a5de0bf700203ed24fe806bfdc6ae11b93b3769dc7d3983e7d0829977142"
+    },
+    {
+      "name": "selva_noche_capa5_cercania",
+      "size": [
+        640,
+        180
+      ],
+      "colors": 1,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 1,
+      "sha256": "9267452218d5fbf67a9825737cbc678b07e14d40d5108af45e765da3628b606e"
+    },
+    {
+      "name": "selva_noche_capa6_frontal",
+      "size": [
+        640,
+        180
+      ],
+      "colors": 1,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 1,
+      "sha256": "78e94591c72f13c2412134f122c2c3cd9b3800b9d61d4ec03db6e1a9c6744423"
+    },
+    {
+      "name": "selva_templo_capa1_cielo",
+      "size": [
+        640,
+        180
+      ],
+      "colors": 5,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 1,
+      "sha256": "a4d3703978688f9d1bacd5ea650268cc9a93c6721955eee9cfbf375846eb2830"
+    },
+    {
+      "name": "selva_templo_capa2_lejania",
+      "size": [
+        640,
+        180
+      ],
+      "colors": 1,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 1,
+      "sha256": "1fbe0df2c9bb1781a3483990440643af97653ae56e03910155169dbf9afd2974"
+    },
+    {
+      "name": "selva_templo_capa3_estructura",
+      "size": [
+        640,
+        180
+      ],
+      "colors": 9,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 1,
+      "sha256": "53299e269f5e6e2b1f867214031bb11235ff2ec96ead6f18ef29031c70db2c8a"
+    },
+    {
+      "name": "selva_templo_capa4_agua",
+      "size": [
+        640,
+        720
+      ],
+      "colors": 3,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 4,
+      "sha256": "b4d3a5de0bf700203ed24fe806bfdc6ae11b93b3769dc7d3983e7d0829977142"
+    },
+    {
+      "name": "selva_templo_capa5_cercania",
+      "size": [
+        640,
+        180
+      ],
+      "colors": 5,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 1,
+      "sha256": "e246a010298f2eb24f26eb5c30edc7cfb85cb20cfc96a15ed0965c32dff3f2b9"
+    },
+    {
+      "name": "selva_templo_capa6_frontal",
+      "size": [
+        640,
+        180
+      ],
+      "colors": 1,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 1,
+      "sha256": "78e94591c72f13c2412134f122c2c3cd9b3800b9d61d4ec03db6e1a9c6744423"
+    },
+    {
+      "name": "selva_compartido_niebla",
+      "size": [
+        640,
+        720
+      ],
+      "colors": 1,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 4,
+      "sha256": "ce2869dea1368d1bcd3c8e3f528f6bf37ee994ec6c9ad0db8bc59338553c755f"
+    },
+    {
+      "name": "selva_tile_tierra_superficie",
+      "size": [
+        32,
+        32
+      ],
+      "colors": 7,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 1,
+      "sha256": "3919cdf1e0ba6665695d4cdfa4fcc61db8260ac11ab953199f239e746ba36dbd"
+    },
+    {
+      "name": "selva_tile_tierra_relleno",
+      "size": [
+        32,
+        32
+      ],
+      "colors": 3,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 1,
+      "sha256": "53d372c8681e03b91dba1beb21a585978cffd95db8dd93050f7eb98a2d8a3a84"
+    },
+    {
+      "name": "selva_tile_tierra_borde_izq",
+      "size": [
+        32,
+        32
+      ],
+      "colors": 7,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 1,
+      "sha256": "9c57ddea4fe444ef5be4076d59a94fa7d706869c7cffd43cbbff20268c3e4270"
+    },
+    {
+      "name": "selva_tile_tierra_borde_der",
+      "size": [
+        32,
+        32
+      ],
+      "colors": 7,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 1,
+      "sha256": "f4d274ad75278cb424de81e31e78b60be28c761b90e9ca3e25fe8e7c3d76a19b"
+    },
+    {
+      "name": "selva_tile_roca_superficie",
+      "size": [
+        32,
+        32
+      ],
+      "colors": 7,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 1,
+      "sha256": "3919cdf1e0ba6665695d4cdfa4fcc61db8260ac11ab953199f239e746ba36dbd"
+    },
+    {
+      "name": "selva_tile_roca_relleno",
+      "size": [
+        32,
+        32
+      ],
+      "colors": 3,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 1,
+      "sha256": "53d372c8681e03b91dba1beb21a585978cffd95db8dd93050f7eb98a2d8a3a84"
+    },
+    {
+      "name": "selva_tile_roca_borde_izq",
+      "size": [
+        32,
+        32
+      ],
+      "colors": 7,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 1,
+      "sha256": "9c57ddea4fe444ef5be4076d59a94fa7d706869c7cffd43cbbff20268c3e4270"
+    },
+    {
+      "name": "selva_tile_roca_borde_der",
+      "size": [
+        32,
+        32
+      ],
+      "colors": 7,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 1,
+      "sha256": "f4d274ad75278cb424de81e31e78b60be28c761b90e9ca3e25fe8e7c3d76a19b"
+    },
+    {
+      "name": "selva_tile_ruina_superficie",
+      "size": [
+        32,
+        32
+      ],
+      "colors": 4,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 1,
+      "sha256": "0386851bb788779239aa38f0d8a26fdafe5c1b2664640d253eec503f5c7102ba"
+    },
+    {
+      "name": "selva_tile_ruina_relleno",
+      "size": [
+        32,
+        32
+      ],
+      "colors": 3,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 1,
+      "sha256": "fe8d686ca783e323b369c1f3c81679f8dd114f19b54e4f56c8e4e154c5350477"
+    },
+    {
+      "name": "selva_tile_ruina_borde_izq",
+      "size": [
+        32,
+        32
+      ],
+      "colors": 4,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 1,
+      "sha256": "bd2845d72f83c6ba41b470e98c96e202be99b3d33836fbd5dc154f4425d754a2"
+    },
+    {
+      "name": "selva_tile_ruina_borde_der",
+      "size": [
+        32,
+        32
+      ],
+      "colors": 4,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 1,
+      "sha256": "686cf9a4caee78f8a7161241d2290be1493beae4d6d75fc26ea8fdd3e83d485a"
+    },
+    {
+      "name": "selva_tile_cueva_superficie",
+      "size": [
+        32,
+        32
+      ],
+      "colors": 6,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 1,
+      "sha256": "c5f1a9ce309b2c8299142ecc72a2771d5e0f366932e7726f5934dd8b92dfa049"
+    },
+    {
+      "name": "selva_tile_cueva_relleno",
+      "size": [
+        32,
+        32
+      ],
+      "colors": 3,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 1,
+      "sha256": "455dbead0d4ca91426188da60fc29256ac1d362912eb83572b3e7cbe99640188"
+    },
+    {
+      "name": "selva_tile_cueva_borde_izq",
+      "size": [
+        32,
+        32
+      ],
+      "colors": 6,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 1,
+      "sha256": "cb136dfbc3a07250bee6f0e9b409e2c78bbf45b3525f350f3188da8e5a38f7af"
+    },
+    {
+      "name": "selva_tile_cueva_borde_der",
+      "size": [
+        32,
+        32
+      ],
+      "colors": 6,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 1,
+      "sha256": "8d69517af31e19039598258334401c7e87f7128346a75ba430d7fcaf28c403c2"
+    },
+    {
+      "name": "selva_plataforma_tronco",
+      "size": [
+        64,
+        16
+      ],
+      "colors": 5,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 1,
+      "sha256": "8bbb35aa9f9948c9f411839751464a9648af7c14a826327f1a483b050b7e8dee"
+    },
+    {
+      "name": "selva_plataforma_piedra",
+      "size": [
+        48,
+        16
+      ],
+      "colors": 4,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 1,
+      "sha256": "390d607bb3ab1847e2047407b5719866f9aff2bee60e6f1a78105ded4490fc88"
+    },
+    {
+      "name": "selva_plataforma_victoria",
+      "size": [
+        96,
+        12
+      ],
+      "colors": 5,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 2,
+      "sha256": "5d0254a00c76f3e2ebc07247aa73167454d899ad4eab677c1524257c43e621aa"
+    },
+    {
+      "name": "selva_plataforma_puente",
+      "size": [
+        256,
+        24
+      ],
+      "colors": 3,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 2,
+      "sha256": "75e764d8dd69fcbc31505b3b7d453d1b61797c7b43be69cbf4103c3dc45e3b28"
+    },
+    {
+      "name": "selva_plataforma_bote",
+      "size": [
+        320,
+        32
+      ],
+      "colors": 4,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 4,
+      "sha256": "86d72d9e9a68e85261067b60e4d7d04d848aa27ba232be6085fc71c2594d9ce1"
+    },
+    {
+      "name": "selva_plataforma_rampa",
+      "size": [
+        64,
+        32
+      ],
+      "colors": 4,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 1,
+      "sha256": "1af06fe067ae5a31e8508877a86c6988d29b63c5d5335b4787f7a6bc2eda6a6f"
+    },
+    {
+      "name": "selva_obstaculo_pinchos",
+      "size": [
+        128,
+        32
+      ],
+      "colors": 5,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 2,
+      "sha256": "119a6731fb77dcf54c9cf2438963351527f7aa88bf0d3879027ab5b78a771c28"
+    },
+    {
+      "name": "selva_obstaculo_raiz",
+      "size": [
+        128,
+        32
+      ],
+      "colors": 6,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 2,
+      "sha256": "2c756c5fe8f214d08c225dd81b7cdea74d3524798046859914fc87cf7671fd43"
+    },
+    {
+      "name": "selva_obstaculo_techo",
+      "size": [
+        128,
+        32
+      ],
+      "colors": 5,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 2,
+      "sha256": "6a5c0c1ffe775af101138d36b36df78c945f2fcbdb851f41bd6cf533bd8c3b31"
+    },
+    {
+      "name": "selva_obstaculo_trampa",
+      "size": [
+        128,
+        32
+      ],
+      "colors": 5,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 4,
+      "sha256": "65d2a01c9cab3d4eec3a2db4341cf7d5a82a8d5f6ff673fa7dd19520936f4be6"
+    },
+    {
+      "name": "selva_obstaculo_estaca",
+      "size": [
+        128,
+        32
+      ],
+      "colors": 5,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 2,
+      "sha256": "119a6731fb77dcf54c9cf2438963351527f7aa88bf0d3879027ab5b78a771c28"
+    },
+    {
+      "name": "selva_liana_recta",
+      "size": [
+        32,
+        96
+      ],
+      "colors": 7,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 2,
+      "sha256": "f859ab3978e425b1ba7134b0200af1967113e276aa8e098d24816fe587b3fa2c"
+    },
+    {
+      "name": "selva_liana_balanceo",
+      "size": [
+        1024,
+        112
+      ],
+      "colors": 5,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 5,
+      "sha256": "5e5f4de21e4ac022d87e236ec43a51ad618d92e0dbf981049afda32282e15078"
+    },
+    {
+      "name": "selva_heroe_idle",
+      "size": [
+        192,
+        48
+      ],
+      "colors": 7,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 3,
+      "sha256": "d7d0c17876d5f461e7d657b406075dfb915a2750a985fbf8ba01d8a131f09d3e"
+    },
+    {
+      "name": "selva_heroe_run",
+      "size": [
+        384,
+        48
+      ],
+      "colors": 7,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 5,
+      "sha256": "cfd794c47152f65469fc4fb5ff015e818ef2f232f000f040ecf0e2cee0b66fbe"
+    },
+    {
+      "name": "selva_heroe_jump",
+      "size": [
+        144,
+        48
+      ],
+      "colors": 7,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 3,
+      "sha256": "83ebe27f793d5a81b88d7f754e002bb9b02ba9e7635cd5fe42f57fa5c8af4f3c"
+    },
+    {
+      "name": "selva_heroe_double_jump",
+      "size": [
+        192,
+        48
+      ],
+      "colors": 8,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 4,
+      "sha256": "3aaaf8ab5bc247faabc9f6942617638f49a4b067e76ad0dece3b668c11969899"
+    },
+    {
+      "name": "selva_heroe_land",
+      "size": [
+        96,
+        48
+      ],
+      "colors": 7,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 2,
+      "sha256": "c1079e1bc4477f064d5a74d9258353222740b3de5316543b5e19d90a4de4de7d"
+    },
+    {
+      "name": "selva_heroe_slide",
+      "size": [
+        144,
+        48
+      ],
+      "colors": 7,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 3,
+      "sha256": "0bfa9b97a2615b0d80f3db55c823622faec3311f335e3dc593745383ad896f2b"
+    },
+    {
+      "name": "selva_heroe_burst",
+      "size": [
+        192,
+        48
+      ],
+      "colors": 8,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 2,
+      "sha256": "7d569f56128da33d7d8c7842c9db600e67db282dc950bb72793aa82e91210bef"
+    },
+    {
+      "name": "selva_heroe_reload",
+      "size": [
+        192,
+        48
+      ],
+      "colors": 8,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 4,
+      "sha256": "5127588b527d5446caa5da40f8aa62ab7d08e48fa1be498dd15d23ef5bda6f4d"
+    },
+    {
+      "name": "selva_heroe_hit",
+      "size": [
+        96,
+        48
+      ],
+      "colors": 9,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 2,
+      "sha256": "cc3aeeba54426818658d140d2be29959bc7913ef66dafc1e7b40609e633b9ea8"
+    },
+    {
+      "name": "selva_heroe_grab",
+      "size": [
+        144,
+        48
+      ],
+      "colors": 7,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 3,
+      "sha256": "38d5b60aa7a5fca3b6ca1a5382a497e034d0df30a8351638cb8cdb8373c0ea30"
+    },
+    {
+      "name": "selva_heroe_swing",
+      "size": [
+        384,
+        48
+      ],
+      "colors": 7,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 5,
+      "sha256": "027ffc1afdc3b5821bc3162be108c2509656f95561ef1d99d0a97994c95586f1"
+    },
+    {
+      "name": "selva_heroe_release",
+      "size": [
+        144,
+        48
+      ],
+      "colors": 7,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 3,
+      "sha256": "dcc9a5bc319873ece03749931ba0c6295773f5ade7dbbbe9cb9dc4d140d7fce2"
+    },
+    {
+      "name": "selva_heroe_regrab",
+      "size": [
+        144,
+        48
+      ],
+      "colors": 7,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 3,
+      "sha256": "38d5b60aa7a5fca3b6ca1a5382a497e034d0df30a8351638cb8cdb8373c0ea30"
+    },
+    {
+      "name": "selva_heroe_fall",
+      "size": [
+        144,
+        48
+      ],
+      "colors": 7,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 3,
+      "sha256": "164b5a0ef3a668ac40bd41fb3222cf7fe6493e76b815957ac2c28c5164bd6b4c"
+    },
+    {
+      "name": "selva_heroe_climb",
+      "size": [
+        288,
+        48
+      ],
+      "colors": 7,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 3,
+      "sha256": "a98f5cf3269e35bfe755a7cac6b1eff6d06afe3c7e4690f1428346eaf56d7bbf"
+    },
+    {
+      "name": "selva_heroe_victory",
+      "size": [
+        192,
+        48
+      ],
+      "colors": 7,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 4,
+      "sha256": "cd2395f75d9d830d6819473f3fc88bdd5fc3124ea50a8ea679a45d8bea7a24a8"
+    },
+    {
+      "name": "selva_heroe_death",
+      "size": [
+        240,
+        48
+      ],
+      "colors": 7,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 5,
+      "sha256": "bfad9ce4677f4551b500f4ce4eb21e887acb44d0dd5fc21ae7e941a3693a9048"
+    },
+    {
+      "name": "selva_caiman_idle",
+      "size": [
+        128,
+        32
+      ],
+      "colors": 8,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 2,
+      "sha256": "19037707f87207dc80a6b59d6ffabf138de0f92b813cb94289f4342d601a85bd"
+    },
+    {
+      "name": "selva_caiman_nadar",
+      "size": [
+        384,
+        32
+      ],
+      "colors": 8,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 2,
+      "sha256": "b5655ebd345f4158ebe947470eb56c603ce037be1b66e9a529dedfb073b12da3"
+    },
+    {
+      "name": "selva_caiman_salto",
+      "size": [
+        384,
+        32
+      ],
+      "colors": 9,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 6,
+      "sha256": "3503d9ce7a0dc8b7bc47de974a1fe20b7799eabe44d67385a288756fced6fcf3"
+    },
+    {
+      "name": "selva_caiman_morder",
+      "size": [
+        256,
+        32
+      ],
+      "colors": 9,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 4,
+      "sha256": "10bed036b4cc3c5cc441fe72b8b28936951a40828a0c063941d46a81fc9243b2"
+    },
+    {
+      "name": "selva_caiman_caminar",
+      "size": [
+        384,
+        32
+      ],
+      "colors": 8,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 3,
+      "sha256": "48ec4869f9bac4aaa883735f13cbf2f163641373a487c2eb1129390db8c1baa2"
+    },
+    {
+      "name": "selva_caiman_hit",
+      "size": [
+        128,
+        32
+      ],
+      "colors": 8,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 2,
+      "sha256": "330228ef8f238550bf6742f5884ac5527da61e95d2fc9cff58aa0b9dee088603"
+    },
+    {
+      "name": "selva_caiman_derrota",
+      "size": [
+        256,
+        32
+      ],
+      "colors": 8,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 4,
+      "sha256": "ed7f7108180b50e898f874d1200cd00ccc5bdac6222c7d4352913963b367d7d0"
+    },
+    {
+      "name": "selva_guacamayo_movimiento",
+      "size": [
+        192,
+        32
+      ],
+      "colors": 6,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 3,
+      "sha256": "05570ce19e912ee5855d97570a35b27c1f109460db604b58d21aa6f964d20128"
+    },
+    {
+      "name": "selva_murcielago_movimiento",
+      "size": [
+        192,
+        24
+      ],
+      "colors": 4,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 3,
+      "sha256": "b60ab3df53061d777e753918819f7f741db9fb9c01405967688b87656d2fae7a"
+    },
+    {
+      "name": "selva_serpiente_movimiento",
+      "size": [
+        288,
+        32
+      ],
+      "colors": 7,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 6,
+      "sha256": "c4f3637978ad6b6df7be81d5165b642e2df4d40643d3cc58472a43b323245429"
+    },
+    {
+      "name": "selva_mono_movimiento",
+      "size": [
+        192,
+        32
+      ],
+      "colors": 4,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 3,
+      "sha256": "d30ce26bc1e531e6f6cf04a41bba28fd289e80277b418921368434a7a4a0db00"
+    },
+    {
+      "name": "selva_delfin_movimiento",
+      "size": [
+        384,
+        32
+      ],
+      "colors": 4,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 3,
+      "sha256": "1388e13e4ecbb2e74178157bdd26788603744c7921f8fdd9d86583b45fce81f2"
+    },
+    {
+      "name": "selva_luciernaga_movimiento",
+      "size": [
+        32,
+        8
+      ],
+      "colors": 3,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 2,
+      "sha256": "be6799aa9e313f526265be80ac72421fdf5ad15681339817e7a559cdb03765fa"
+    },
+    {
+      "name": "selva_boss_raices_despertar",
+      "size": [
+        576,
+        96
+      ],
+      "colors": 7,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 6,
+      "sha256": "de36ddcd2b6669b3682bb36e335753aa473a329d4c7dc1e2e244ddf392a3b248"
+    },
+    {
+      "name": "selva_boss_raices_idle",
+      "size": [
+        384,
+        96
+      ],
+      "colors": 7,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 2,
+      "sha256": "21f1a2e935a7751efb6f5ac1c2e1b86f520fc07c942773af8ea66f02a3eeb94f"
+    },
+    {
+      "name": "selva_boss_raices_andar",
+      "size": [
+        576,
+        96
+      ],
+      "colors": 7,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 6,
+      "sha256": "17d9ac46f34178a21626f8da58b53b05fb3be4abddf3389857afbe67ef2a7ab8"
+    },
+    {
+      "name": "selva_boss_raices_anticipar",
+      "size": [
+        384,
+        96
+      ],
+      "colors": 8,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 4,
+      "sha256": "3c4dcd3459e05be8e1c38506ff9ed9aea806da697d7a1f7c8100b56f8a233397"
+    },
+    {
+      "name": "selva_boss_raices_golpe",
+      "size": [
+        576,
+        96
+      ],
+      "colors": 7,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 6,
+      "sha256": "43343a4fcaa3030d9e197e1cfa5902b0ab29e47bc07c821f0c317903d45d65ea"
+    },
+    {
+      "name": "selva_boss_raices_carga",
+      "size": [
+        576,
+        96
+      ],
+      "colors": 7,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 6,
+      "sha256": "17d9ac46f34178a21626f8da58b53b05fb3be4abddf3389857afbe67ef2a7ab8"
+    },
+    {
+      "name": "selva_boss_raices_hit",
+      "size": [
+        192,
+        96
+      ],
+      "colors": 7,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 2,
+      "sha256": "56ad64e4cef3fdefa143eb785f10a8a8be6be5461c6fef53a246c54cfa3c5167"
+    },
+    {
+      "name": "selva_boss_raices_derrota",
+      "size": [
+        576,
+        96
+      ],
+      "colors": 7,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 6,
+      "sha256": "0c2681ba9c28be58ac1119f3d9d35a5acd9d3cdf10d0dd38da1e8ab4bd094301"
+    },
+    {
+      "name": "selva_boss_escarabajo_despertar",
+      "size": [
+        576,
+        96
+      ],
+      "colors": 5,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 6,
+      "sha256": "b835d15e498a70759a56090803bcaa370eb975410c35a192ed9b8965fc21a499"
+    },
+    {
+      "name": "selva_boss_escarabajo_idle",
+      "size": [
+        384,
+        96
+      ],
+      "colors": 4,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 2,
+      "sha256": "62e4ad324e3339c5cd63ef6aefeea025b969c83b3fe67995fe3e9d6d165f5a61"
+    },
+    {
+      "name": "selva_boss_escarabajo_andar",
+      "size": [
+        576,
+        96
+      ],
+      "colors": 4,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 6,
+      "sha256": "1074eb0bc01493173231c3b4e7c0d5ebea03c403f6c17218c1caa61f563cc169"
+    },
+    {
+      "name": "selva_boss_escarabajo_anticipar",
+      "size": [
+        384,
+        96
+      ],
+      "colors": 5,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 4,
+      "sha256": "08d4c7942747306f3fca8a6640fbc6c1d8aa2dd920c7cde551279bc3d15a8289"
+    },
+    {
+      "name": "selva_boss_escarabajo_golpe",
+      "size": [
+        576,
+        96
+      ],
+      "colors": 4,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 6,
+      "sha256": "35c97a42c829df4f1c72742d54fa5327caa134cb1c489a27e2730c619a285596"
+    },
+    {
+      "name": "selva_boss_escarabajo_carga",
+      "size": [
+        576,
+        96
+      ],
+      "colors": 4,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 6,
+      "sha256": "1074eb0bc01493173231c3b4e7c0d5ebea03c403f6c17218c1caa61f563cc169"
+    },
+    {
+      "name": "selva_boss_escarabajo_hit",
+      "size": [
+        192,
+        96
+      ],
+      "colors": 4,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 2,
+      "sha256": "cce1eea0a59c219d86d86c4434926fe525d992585f5ea98cd74b8cf7ef853bd7"
+    },
+    {
+      "name": "selva_boss_escarabajo_derrota",
+      "size": [
+        576,
+        96
+      ],
+      "colors": 5,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 6,
+      "sha256": "dbfcecda8b0ea44eedd821f036e749f1f96bb1acb745677b66c56838e8acb1bf"
+    },
+    {
+      "name": "selva_fx_salpicadura",
+      "size": [
+        128,
+        32
+      ],
+      "colors": 1,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 4,
+      "sha256": "dd4c03d1673a8b47d568cc7c3cd82438ed731fc49514bc467b86a88dbf9962ac"
+    },
+    {
+      "name": "selva_fx_polvo",
+      "size": [
+        192,
+        32
+      ],
+      "colors": 1,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 6,
+      "sha256": "b2e3e1c801e43d23f6ce52afb2549d019be61f04a710879bd7d1bd4d3fea6c58"
+    },
+    {
+      "name": "selva_fx_hojas",
+      "size": [
+        192,
+        32
+      ],
+      "colors": 1,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 6,
+      "sha256": "9ab98763c2e49ca424df0791991e588320cc6983082b609703c602053a714f8f"
+    },
+    {
+      "name": "selva_fx_impacto",
+      "size": [
+        192,
+        32
+      ],
+      "colors": 1,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 6,
+      "sha256": "4b99ec4d4c45cacdb8f23c9749ea6a7515777219dca04e2bda4b47d63f7b341e"
+    },
+    {
+      "name": "selva_fx_astillas",
+      "size": [
+        192,
+        32
+      ],
+      "colors": 1,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 6,
+      "sha256": "461a9f7ff09a1f4805014c2f649a05b68b14e66998f055eec15413e66ab88614"
+    },
+    {
+      "name": "selva_fx_escudo_romper",
+      "size": [
+        192,
+        48
+      ],
+      "colors": 1,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 4,
+      "sha256": "410686adce20f42cdc178dd0819e00876917ede427dc1f0e403b1332aad54dbc"
+    },
+    {
+      "name": "selva_fx_destello",
+      "size": [
+        192,
+        32
+      ],
+      "colors": 1,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 6,
+      "sha256": "4b99ec4d4c45cacdb8f23c9749ea6a7515777219dca04e2bda4b47d63f7b341e"
+    },
+    {
+      "name": "selva_fx_portal",
+      "size": [
+        288,
+        48
+      ],
+      "colors": 1,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 6,
+      "sha256": "55d24459958a1e4fcc7408a1d68e830422ff305e4e902277b76ac8d13c6ec7a2"
+    },
+    {
+      "name": "selva_fx_veneno",
+      "size": [
+        192,
+        32
+      ],
+      "colors": 1,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 6,
+      "sha256": "84a3e83370379cb658035aaebcc8974f1d1bac7a7d9ae4b6c8fe3540a10d340c"
+    },
+    {
+      "name": "selva_fx_disparo",
+      "size": [
+        192,
+        32
+      ],
+      "colors": 1,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 6,
+      "sha256": "5019f3746f9a030dcac06cfa45c4c9a51fe31b8eed7b80fc92ce8d06fe596aef"
+    },
+    {
+      "name": "selva_fx_rastro_salto",
+      "size": [
+        192,
+        32
+      ],
+      "colors": 1,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 6,
+      "sha256": "8afa28a458019ff7509266c0f96a6bec09d63efb0c2c9f257268874d38d59c14"
+    },
+    {
+      "name": "selva_fx_escudo_activo",
+      "size": [
+        192,
+        48
+      ],
+      "colors": 3,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 2,
+      "sha256": "d80592f8de07d964977dc6cbb41d3ce94623ff0eb9272eacae9fc5a7f8e827de"
+    },
+    {
+      "name": "selva_antorcha",
+      "size": [
+        128,
+        32
+      ],
+      "colors": 5,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 4,
+      "sha256": "1e10400c8db266ee88803266d80f0d0f0a45e5490ecf1e0dec361221501e78c0"
+    },
+    {
+      "name": "selva_flor",
+      "size": [
+        128,
+        32
+      ],
+      "colors": 6,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 1,
+      "sha256": "944dcf4b939cdda6566e80ff2df229e3f873c73f4c02a7b07f08fcde9250a141"
+    },
+    {
+      "name": "selva_hongo",
+      "size": [
+        128,
+        32
+      ],
+      "colors": 5,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 1,
+      "sha256": "4cc72af83e9857d8e59ce438558946e3e96cba3703c7a1467aa84f137d3cea52"
+    },
+    {
+      "name": "selva_cascada",
+      "size": [
+        128,
+        96
+      ],
+      "colors": 3,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 4,
+      "sha256": "c806f7f80a7fb8351ecb8ac281f6fe211f5634c9e1d3bad7bc0d7b82261fdf8e"
+    },
+    {
+      "name": "selva_portal_salida",
+      "size": [
+        256,
+        96
+      ],
+      "colors": 8,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 4,
+      "sha256": "be698aa688ea242180d4a71495830ef942510c66897f0c9de3d04efcaa089936"
+    },
+    {
+      "name": "selva_entrada_cueva",
+      "size": [
+        256,
+        96
+      ],
+      "colors": 7,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 1,
+      "sha256": "4bb63ec5f8ba2d9327f13291d86921b83a6e8c3919fdad9ad4886554cbb9f17b"
+    },
+    {
+      "name": "selva_entrada_ruinas",
+      "size": [
+        256,
+        96
+      ],
+      "colors": 7,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 1,
+      "sha256": "4bb63ec5f8ba2d9327f13291d86921b83a6e8c3919fdad9ad4886554cbb9f17b"
+    },
+    {
+      "name": "selva_cristal_salto",
+      "size": [
+        128,
+        32
+      ],
+      "colors": 3,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 3,
+      "sha256": "8a8ad3c4d77f489b181bdc51d7cc493d813d3ae3abf3f61b95b4c0d528785458"
+    },
+    {
+      "name": "selva_cristal_descenso",
+      "size": [
+        128,
+        32
+      ],
+      "colors": 3,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 3,
+      "sha256": "c7402832b2d3c69bcc07e86e10506730fc02e11d410877de127d12cf34087a0d"
+    },
+    {
+      "name": "selva_esbirro_brote_idle",
+      "size": [
+        128,
+        32
+      ],
+      "colors": 7,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 4,
+      "sha256": "99cb46aef55d85a3e2c10dd6c6afe8d6d1576534977e059115251b67d84ccd41"
+    },
+    {
+      "name": "selva_esbirro_brote_caminar",
+      "size": [
+        192,
+        32
+      ],
+      "colors": 7,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 6,
+      "sha256": "dbf68cb6a648546f0159497ca46076348b47fb26b2a1dc0c0717fe1477a1cd2b"
+    },
+    {
+      "name": "selva_esbirro_brote_ataque",
+      "size": [
+        192,
+        32
+      ],
+      "colors": 7,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 6,
+      "sha256": "6c6870818ec3669ec5fb1ee8167c1a8d29587783c4d61eab28b4769668be1ba9"
+    },
+    {
+      "name": "selva_esbirro_brote_hit",
+      "size": [
+        64,
+        32
+      ],
+      "colors": 7,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 2,
+      "sha256": "2a5e00812ea64c9e3cc2cc9c4ddf8dc04f5cce0af748cb48a3e2723be38090c8"
+    },
+    {
+      "name": "selva_esbirro_brote_derrota",
+      "size": [
+        128,
+        32
+      ],
+      "colors": 7,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 4,
+      "sha256": "dfed3f74a624ec0fd3435d3d47ccedd2f02108df05b1afadf17352b495d0691a"
+    },
+    {
+      "name": "selva_esbirro_escarabajo_idle",
+      "size": [
+        128,
+        32
+      ],
+      "colors": 4,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 4,
+      "sha256": "ea7a07fc19ccd5ea941fcf66f1992fa31e5ac2eff20d55743d658cb75e23d82d"
+    },
+    {
+      "name": "selva_esbirro_escarabajo_caminar",
+      "size": [
+        192,
+        32
+      ],
+      "colors": 4,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 6,
+      "sha256": "928afc6e84a52ef5bbf2d92a7eedfe34ce577622eafb6eb97a5d36fc494f11f9"
+    },
+    {
+      "name": "selva_esbirro_escarabajo_ataque",
+      "size": [
+        192,
+        32
+      ],
+      "colors": 4,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 6,
+      "sha256": "928afc6e84a52ef5bbf2d92a7eedfe34ce577622eafb6eb97a5d36fc494f11f9"
+    },
+    {
+      "name": "selva_esbirro_escarabajo_hit",
+      "size": [
+        64,
+        32
+      ],
+      "colors": 4,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 2,
+      "sha256": "f23714589f79a5bc02534f2d56eba05b63946a557e253c9c951ee99fabd00d54"
+    },
+    {
+      "name": "selva_esbirro_escarabajo_derrota",
+      "size": [
+        128,
+        32
+      ],
+      "colors": 4,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 4,
+      "sha256": "9f98d535df85b5805a410edf8e62d9a0d838d14cfcbc685d273b162ddec55350"
+    },
+    {
+      "name": "selva_helecho_viento",
+      "size": [
+        256,
+        64
+      ],
+      "colors": 3,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 3,
+      "sha256": "d70e0394dabc9372001fc91f03a7780c58657ffc6a0f882819ebe5d32d3641f7"
+    },
+    {
+      "name": "selva_gota_cueva",
+      "size": [
+        64,
+        24
+      ],
+      "colors": 2,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 4,
+      "sha256": "0c0614b1621478a27e259bf902a9791b6304416db30b9df243a70fb50bc371a6"
+    },
+    {
+      "name": "selva_decor_roca_musgo",
+      "size": [
+        64,
+        64
+      ],
+      "colors": 5,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 1,
+      "sha256": "2e98b96d48964d426a33dc91db470d82fca60517517d3b99332866fb934b02f4"
+    },
+    {
+      "name": "selva_decor_raiz_colgante",
+      "size": [
+        64,
+        64
+      ],
+      "colors": 3,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 1,
+      "sha256": "1205ae0713b2f5b07c90e1568b1cdc8b609365d127e5927381b4c193060179a9"
+    },
+    {
+      "name": "selva_decor_rama_anclaje",
+      "size": [
+        64,
+        64
+      ],
+      "colors": 5,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 1,
+      "sha256": "b56d5400c378f05c28dc9f06b1a33c1c63499e213e4720452108efe1ccce3f93"
+    },
+    {
+      "name": "selva_decor_casa_ribera",
+      "size": [
+        96,
+        80
+      ],
+      "colors": 4,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 1,
+      "sha256": "dbf4b0b7498ad08b2d95f199be14afee19e73e6befd4126dc6d9ae83620fdb52"
+    },
+    {
+      "name": "selva_decor_barca_remador",
+      "size": [
+        320,
+        48
+      ],
+      "colors": 4,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 4,
+      "sha256": "b3edb837e084ac1b5c00177d2b009a99bcce2929048ee2bb1482f477f48250a7"
+    },
+    {
+      "name": "selva_coleccionable_ceramica",
+      "size": [
+        32,
+        16
+      ],
+      "colors": 4,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 2,
+      "sha256": "b7b5e5d771830df0b86777f0a698bd70330bab6f5d025f2906fb164ae4318521"
+    },
+    {
+      "name": "selva_museo_ceramica",
+      "size": [
+        64,
+        64
+      ],
+      "colors": 5,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 1,
+      "sha256": "cc3b02afe55b411fe1c2366c115d9fa122f0b9d30547bf6c380ead1eaf94b1e3"
+    },
+    {
+      "name": "selva_coleccionable_flauta",
+      "size": [
+        32,
+        16
+      ],
+      "colors": 3,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 2,
+      "sha256": "10315724551ff9dbe0c416390fe7aa7dbcbe9d6095ab882d565e54584f571d79"
+    },
+    {
+      "name": "selva_museo_flauta",
+      "size": [
+        64,
+        64
+      ],
+      "colors": 4,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 1,
+      "sha256": "24807c1bf53d45b44a886b2dc5efd6b14f830e5f73037960c1a5e8cd4a84ff6d"
+    },
+    {
+      "name": "selva_coleccionable_textil",
+      "size": [
+        32,
+        16
+      ],
+      "colors": 4,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 2,
+      "sha256": "c2e0def498edc1601b63a7bdcd9bcdf66d1a2f5df988f43e67cf284a0e4c06ca"
+    },
+    {
+      "name": "selva_museo_textil",
+      "size": [
+        64,
+        64
+      ],
+      "colors": 6,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 1,
+      "sha256": "ca21878ddf04fadb0823ba99c03bf574b8e9e30344252d91d1b2d7c5c7fdf714"
+    },
+    {
+      "name": "selva_coleccionable_sonaja",
+      "size": [
+        32,
+        16
+      ],
+      "colors": 4,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 2,
+      "sha256": "5389ac0401ac4c46d86fbeff903b6472ebd499dd4624bd9fbdd3ed5c94172bd1"
+    },
+    {
+      "name": "selva_museo_sonaja",
+      "size": [
+        64,
+        64
+      ],
+      "colors": 5,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 1,
+      "sha256": "86422dc97bcd05c38bf36118fed647416f784468eb3a54212ff60ca404b5b651"
+    },
+    {
+      "name": "selva_coleccionable_moneda",
+      "size": [
+        32,
+        16
+      ],
+      "colors": 3,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 2,
+      "sha256": "f472f8e743c1518df3f043885fabbf8be2c43bcc10bc23b87584d123193c234b"
+    },
+    {
+      "name": "selva_ui_panel",
+      "size": [
+        48,
+        48
+      ],
+      "colors": 6,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 1,
+      "sha256": "246c56b626741881d2a5bb4f3f18eac1394d5e778e3d589c86f4ddbceebbad34"
+    },
+    {
+      "name": "selva_ui_boton",
+      "size": [
+        48,
+        16
+      ],
+      "colors": 6,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 1,
+      "sha256": "113749757416ea26e655c967583a51c827dc30b55be4641041786fc21be29071"
+    },
+    {
+      "name": "selva_ui_casilla",
+      "size": [
+        24,
+        24
+      ],
+      "colors": 6,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 1,
+      "sha256": "7608c4918373afa6632c239a6078773ce5a14ad5cad0d24d1baa9d9e2ed3347d"
+    },
+    {
+      "name": "selva_ui_barra",
+      "size": [
+        64,
+        10
+      ],
+      "colors": 6,
+      "palette": true,
+      "seam": true,
+      "uniqueFrames": 1,
+      "sha256": "4e2303f238340946cebb47080247358f0b6d9c5634877a5ef4c2724e942967de"
+    }
+  ]
+}

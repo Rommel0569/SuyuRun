@@ -1,0 +1,14 @@
+{
+  "frames": 1,
+  "frameWidth": 128,
+  "frameHeight": 64,
+  "logicalWidth": 64,
+  "logicalHeight": 32,
+  "pixelsPerUnit": 64,
+  "fps": 6,
+  "loop": true,
+  "material": "stone",
+  "original": "Assets/SuyuRun/Art/PixelSierra/ProductionV3/Resources/SierraV3/sierra_ruinas_escalera.png",
+  "source": "Tools/refine_playable_materials.py",
+  "fullPlaythroughTested": false
+}

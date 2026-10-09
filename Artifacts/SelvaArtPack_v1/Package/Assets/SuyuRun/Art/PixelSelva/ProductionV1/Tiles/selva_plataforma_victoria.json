@@ -1,0 +1,33 @@
+{
+  "name": "selva_plataforma_victoria",
+  "file": "Tiles/selva_plataforma_victoria.png",
+  "frameWidth": 48,
+  "frameHeight": 12,
+  "frames": 2,
+  "layout": "horizontal",
+  "fps": 4,
+  "loop": true,
+  "ppu": 32,
+  "pivot": [
+    0.5,
+    0
+  ],
+  "parallax": 1,
+  "seamlessX": false,
+  "status": "proposal_pending_visual_approval",
+  "collision": "top_only; define collider separately from decoration",
+  "rectsUnity": [
+    {
+      "x": 0,
+      "y": 0,
+      "width": 48,
+      "height": 12
+    },
+    {
+      "x": 48,
+      "y": 0,
+      "width": 48,
+      "height": 12
+    }
+  ]
+}

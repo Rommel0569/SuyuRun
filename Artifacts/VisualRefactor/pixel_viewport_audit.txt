@@ -1,0 +1,13 @@
+Adaptive pixel reference: same world framing, no undersized-target warning at tested sizes.
+PASS (160, 90) close=False: 160x90, PPU=16
+PASS (160, 90) close=True: 160x90, PPU=32
+PASS (320, 180) close=False: 320x180, PPU=32
+PASS (320, 180) close=True: 320x180, PPU=64
+PASS (549, 309) close=False: 320x180, PPU=32
+PASS (549, 309) close=True: 320x180, PPU=64
+PASS (640, 360) close=False: 640x360, PPU=64
+PASS (640, 360) close=True: 640x360, PPU=128
+PASS (1280, 720) close=False: 640x360, PPU=64
+PASS (1280, 720) close=True: 640x360, PPU=128
+PASS (3440, 1440) close=False: 640x360, PPU=64
+PASS (3440, 1440) close=True: 640x360, PPU=128

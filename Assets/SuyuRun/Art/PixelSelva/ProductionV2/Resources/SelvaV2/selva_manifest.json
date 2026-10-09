@@ -1,0 +1,9400 @@
+{
+  "version": 2,
+  "assets": [
+    {
+      "name": "selva_tile_tierra_superficie",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 1,
+      "fps": 8,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        }
+      ],
+      "group": "Tiles",
+      "factor": 1,
+      "seamlessX": true
+    },
+    {
+      "name": "selva_tile_tierra_relleno",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 1,
+      "fps": 8,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        }
+      ],
+      "group": "Tiles",
+      "factor": 1,
+      "seamlessX": true
+    },
+    {
+      "name": "selva_tile_tierra_borde_izq",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 1,
+      "fps": 8,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        }
+      ],
+      "group": "Tiles",
+      "factor": 1,
+      "seamlessX": false
+    },
+    {
+      "name": "selva_tile_tierra_borde_der",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 1,
+      "fps": 8,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        }
+      ],
+      "group": "Tiles",
+      "factor": 1,
+      "seamlessX": false
+    },
+    {
+      "name": "selva_tile_roca_superficie",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 1,
+      "fps": 8,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        }
+      ],
+      "group": "Tiles",
+      "factor": 1,
+      "seamlessX": true
+    },
+    {
+      "name": "selva_tile_roca_relleno",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 1,
+      "fps": 8,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        }
+      ],
+      "group": "Tiles",
+      "factor": 1,
+      "seamlessX": true
+    },
+    {
+      "name": "selva_tile_roca_borde_izq",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 1,
+      "fps": 8,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        }
+      ],
+      "group": "Tiles",
+      "factor": 1,
+      "seamlessX": false
+    },
+    {
+      "name": "selva_tile_roca_borde_der",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 1,
+      "fps": 8,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        }
+      ],
+      "group": "Tiles",
+      "factor": 1,
+      "seamlessX": false
+    },
+    {
+      "name": "selva_tile_ruina_superficie",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 1,
+      "fps": 8,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        }
+      ],
+      "group": "Tiles",
+      "factor": 1,
+      "seamlessX": true
+    },
+    {
+      "name": "selva_tile_ruina_relleno",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 1,
+      "fps": 8,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        }
+      ],
+      "group": "Tiles",
+      "factor": 1,
+      "seamlessX": true
+    },
+    {
+      "name": "selva_tile_ruina_borde_izq",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 1,
+      "fps": 8,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        }
+      ],
+      "group": "Tiles",
+      "factor": 1,
+      "seamlessX": false
+    },
+    {
+      "name": "selva_tile_ruina_borde_der",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 1,
+      "fps": 8,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        }
+      ],
+      "group": "Tiles",
+      "factor": 1,
+      "seamlessX": false
+    },
+    {
+      "name": "selva_tile_cueva_superficie",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 1,
+      "fps": 8,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        }
+      ],
+      "group": "Tiles",
+      "factor": 1,
+      "seamlessX": true
+    },
+    {
+      "name": "selva_tile_cueva_relleno",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 1,
+      "fps": 8,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        }
+      ],
+      "group": "Tiles",
+      "factor": 1,
+      "seamlessX": true
+    },
+    {
+      "name": "selva_tile_cueva_borde_izq",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 1,
+      "fps": 8,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        }
+      ],
+      "group": "Tiles",
+      "factor": 1,
+      "seamlessX": false
+    },
+    {
+      "name": "selva_tile_cueva_borde_der",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 1,
+      "fps": 8,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        }
+      ],
+      "group": "Tiles",
+      "factor": 1,
+      "seamlessX": false
+    },
+    {
+      "name": "selva_plataforma_tronco",
+      "frameWidth": 64,
+      "frameHeight": 16,
+      "frames": 1,
+      "fps": 4,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 64,
+          "height": 16
+        }
+      ],
+      "group": "Tiles",
+      "factor": 1,
+      "seamlessX": false,
+      "collision": "top_only; define collider separately from decoration"
+    },
+    {
+      "name": "selva_plataforma_piedra",
+      "frameWidth": 48,
+      "frameHeight": 16,
+      "frames": 1,
+      "fps": 4,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 48,
+          "height": 16
+        }
+      ],
+      "group": "Tiles",
+      "factor": 1,
+      "seamlessX": false,
+      "collision": "top_only; define collider separately from decoration"
+    },
+    {
+      "name": "selva_plataforma_victoria",
+      "frameWidth": 48,
+      "frameHeight": 12,
+      "frames": 2,
+      "fps": 4,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 48,
+          "height": 12
+        },
+        {
+          "x": 48,
+          "y": 0,
+          "width": 48,
+          "height": 12
+        }
+      ],
+      "group": "Tiles",
+      "factor": 1,
+      "seamlessX": false,
+      "collision": "top_only; define collider separately from decoration"
+    },
+    {
+      "name": "selva_plataforma_puente",
+      "frameWidth": 64,
+      "frameHeight": 24,
+      "frames": 4,
+      "fps": 4,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 64,
+          "height": 24
+        },
+        {
+          "x": 64,
+          "y": 0,
+          "width": 64,
+          "height": 24
+        },
+        {
+          "x": 128,
+          "y": 0,
+          "width": 64,
+          "height": 24
+        },
+        {
+          "x": 192,
+          "y": 0,
+          "width": 64,
+          "height": 24
+        }
+      ],
+      "group": "Tiles",
+      "factor": 1,
+      "seamlessX": false,
+      "collision": "top_only; define collider separately from decoration"
+    },
+    {
+      "name": "selva_plataforma_bote",
+      "frameWidth": 80,
+      "frameHeight": 32,
+      "frames": 4,
+      "fps": 4,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 80,
+          "height": 32
+        },
+        {
+          "x": 80,
+          "y": 0,
+          "width": 80,
+          "height": 32
+        },
+        {
+          "x": 160,
+          "y": 0,
+          "width": 80,
+          "height": 32
+        },
+        {
+          "x": 240,
+          "y": 0,
+          "width": 80,
+          "height": 32
+        }
+      ],
+      "group": "Tiles",
+      "factor": 1,
+      "seamlessX": false,
+      "collision": "top_only; define collider separately from decoration"
+    },
+    {
+      "name": "selva_plataforma_rampa",
+      "frameWidth": 64,
+      "frameHeight": 32,
+      "frames": 1,
+      "fps": 4,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 64,
+          "height": 32
+        }
+      ],
+      "group": "Tiles",
+      "factor": 1,
+      "seamlessX": false,
+      "collision": "top_only; define collider separately from decoration"
+    },
+    {
+      "name": "selva_obstaculo_pinchos",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 4,
+      "fps": 6,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 32,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 64,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        }
+      ],
+      "group": "Obstacles",
+      "factor": 1,
+      "seamlessX": false
+    },
+    {
+      "name": "selva_obstaculo_raiz",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 4,
+      "fps": 6,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 32,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 64,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        }
+      ],
+      "group": "Obstacles",
+      "factor": 1,
+      "seamlessX": false
+    },
+    {
+      "name": "selva_obstaculo_techo",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 4,
+      "fps": 6,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 32,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 64,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        }
+      ],
+      "group": "Obstacles",
+      "factor": 1,
+      "seamlessX": false
+    },
+    {
+      "name": "selva_obstaculo_trampa",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 4,
+      "fps": 6,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 32,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 64,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        }
+      ],
+      "group": "Obstacles",
+      "factor": 1,
+      "seamlessX": false
+    },
+    {
+      "name": "selva_obstaculo_estaca",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 4,
+      "fps": 6,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 32,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 64,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        }
+      ],
+      "group": "Obstacles",
+      "factor": 1,
+      "seamlessX": false
+    },
+    {
+      "name": "selva_caiman_idle",
+      "frameWidth": 64,
+      "frameHeight": 32,
+      "frames": 2,
+      "fps": 9,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 64,
+          "height": 32
+        },
+        {
+          "x": 64,
+          "y": 0,
+          "width": 64,
+          "height": 32
+        }
+      ],
+      "group": "Enemies",
+      "factor": 1,
+      "seamlessX": false
+    },
+    {
+      "name": "selva_caiman_salto",
+      "frameWidth": 64,
+      "frameHeight": 32,
+      "frames": 6,
+      "fps": 9,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 64,
+          "height": 32
+        },
+        {
+          "x": 64,
+          "y": 0,
+          "width": 64,
+          "height": 32
+        },
+        {
+          "x": 128,
+          "y": 0,
+          "width": 64,
+          "height": 32
+        },
+        {
+          "x": 192,
+          "y": 0,
+          "width": 64,
+          "height": 32
+        },
+        {
+          "x": 256,
+          "y": 0,
+          "width": 64,
+          "height": 32
+        },
+        {
+          "x": 320,
+          "y": 0,
+          "width": 64,
+          "height": 32
+        }
+      ],
+      "group": "Enemies",
+      "factor": 1,
+      "seamlessX": false
+    },
+    {
+      "name": "selva_caiman_morder",
+      "frameWidth": 64,
+      "frameHeight": 32,
+      "frames": 4,
+      "fps": 9,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 64,
+          "height": 32
+        },
+        {
+          "x": 64,
+          "y": 0,
+          "width": 64,
+          "height": 32
+        },
+        {
+          "x": 128,
+          "y": 0,
+          "width": 64,
+          "height": 32
+        },
+        {
+          "x": 192,
+          "y": 0,
+          "width": 64,
+          "height": 32
+        }
+      ],
+      "group": "Enemies",
+      "factor": 1,
+      "seamlessX": false
+    },
+    {
+      "name": "selva_caiman_caminar",
+      "frameWidth": 64,
+      "frameHeight": 32,
+      "frames": 6,
+      "fps": 9,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 64,
+          "height": 32
+        },
+        {
+          "x": 64,
+          "y": 0,
+          "width": 64,
+          "height": 32
+        },
+        {
+          "x": 128,
+          "y": 0,
+          "width": 64,
+          "height": 32
+        },
+        {
+          "x": 192,
+          "y": 0,
+          "width": 64,
+          "height": 32
+        },
+        {
+          "x": 256,
+          "y": 0,
+          "width": 64,
+          "height": 32
+        },
+        {
+          "x": 320,
+          "y": 0,
+          "width": 64,
+          "height": 32
+        }
+      ],
+      "group": "Enemies",
+      "factor": 1,
+      "seamlessX": false
+    },
+    {
+      "name": "selva_caiman_hit",
+      "frameWidth": 64,
+      "frameHeight": 32,
+      "frames": 2,
+      "fps": 9,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 64,
+          "height": 32
+        },
+        {
+          "x": 64,
+          "y": 0,
+          "width": 64,
+          "height": 32
+        }
+      ],
+      "group": "Enemies",
+      "factor": 1,
+      "seamlessX": false
+    },
+    {
+      "name": "selva_caiman_derrota",
+      "frameWidth": 64,
+      "frameHeight": 32,
+      "frames": 4,
+      "fps": 9,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 64,
+          "height": 32
+        },
+        {
+          "x": 64,
+          "y": 0,
+          "width": 64,
+          "height": 32
+        },
+        {
+          "x": 128,
+          "y": 0,
+          "width": 64,
+          "height": 32
+        },
+        {
+          "x": 192,
+          "y": 0,
+          "width": 64,
+          "height": 32
+        }
+      ],
+      "group": "Enemies",
+      "factor": 1,
+      "seamlessX": false
+    },
+    {
+      "name": "selva_guacamayo_movimiento",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 6,
+      "fps": 9,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 32,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 64,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 128,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 160,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        }
+      ],
+      "group": "Fauna",
+      "factor": 1,
+      "seamlessX": false
+    },
+    {
+      "name": "selva_murcielago_movimiento",
+      "frameWidth": 32,
+      "frameHeight": 24,
+      "frames": 6,
+      "fps": 7,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 32,
+          "height": 24
+        },
+        {
+          "x": 32,
+          "y": 0,
+          "width": 32,
+          "height": 24
+        },
+        {
+          "x": 64,
+          "y": 0,
+          "width": 32,
+          "height": 24
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 32,
+          "height": 24
+        },
+        {
+          "x": 128,
+          "y": 0,
+          "width": 32,
+          "height": 24
+        },
+        {
+          "x": 160,
+          "y": 0,
+          "width": 32,
+          "height": 24
+        }
+      ],
+      "group": "Enemies",
+      "factor": 1,
+      "seamlessX": false
+    },
+    {
+      "name": "selva_serpiente_movimiento",
+      "frameWidth": 48,
+      "frameHeight": 32,
+      "frames": 6,
+      "fps": 7,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 48,
+          "height": 32
+        },
+        {
+          "x": 48,
+          "y": 0,
+          "width": 48,
+          "height": 32
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 48,
+          "height": 32
+        },
+        {
+          "x": 144,
+          "y": 0,
+          "width": 48,
+          "height": 32
+        },
+        {
+          "x": 192,
+          "y": 0,
+          "width": 48,
+          "height": 32
+        },
+        {
+          "x": 240,
+          "y": 0,
+          "width": 48,
+          "height": 32
+        }
+      ],
+      "group": "Enemies",
+      "factor": 1,
+      "seamlessX": false
+    },
+    {
+      "name": "selva_mono_movimiento",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 6,
+      "fps": 7,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 32,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 64,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 128,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 160,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        }
+      ],
+      "group": "Fauna",
+      "factor": 1,
+      "seamlessX": false
+    },
+    {
+      "name": "selva_delfin_movimiento",
+      "frameWidth": 64,
+      "frameHeight": 32,
+      "frames": 6,
+      "fps": 7,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 64,
+          "height": 32
+        },
+        {
+          "x": 64,
+          "y": 0,
+          "width": 64,
+          "height": 32
+        },
+        {
+          "x": 128,
+          "y": 0,
+          "width": 64,
+          "height": 32
+        },
+        {
+          "x": 192,
+          "y": 0,
+          "width": 64,
+          "height": 32
+        },
+        {
+          "x": 256,
+          "y": 0,
+          "width": 64,
+          "height": 32
+        },
+        {
+          "x": 320,
+          "y": 0,
+          "width": 64,
+          "height": 32
+        }
+      ],
+      "group": "Fauna",
+      "factor": 1,
+      "seamlessX": false
+    },
+    {
+      "name": "selva_luciernaga_movimiento",
+      "frameWidth": 8,
+      "frameHeight": 8,
+      "frames": 4,
+      "fps": 7,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 8,
+          "height": 8
+        },
+        {
+          "x": 8,
+          "y": 0,
+          "width": 8,
+          "height": 8
+        },
+        {
+          "x": 16,
+          "y": 0,
+          "width": 8,
+          "height": 8
+        },
+        {
+          "x": 24,
+          "y": 0,
+          "width": 8,
+          "height": 8
+        }
+      ],
+      "group": "Fauna",
+      "factor": 1,
+      "seamlessX": false
+    },
+    {
+      "name": "selva_boss_raices_despertar",
+      "frameWidth": 96,
+      "frameHeight": 96,
+      "frames": 6,
+      "fps": 8,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 192,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 288,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 384,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 480,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        }
+      ],
+      "group": "Bosses",
+      "factor": 1,
+      "seamlessX": false,
+      "role": "Cueva: guardian de raices",
+      "fiction": true
+    },
+    {
+      "name": "selva_boss_raices_idle",
+      "frameWidth": 96,
+      "frameHeight": 96,
+      "frames": 4,
+      "fps": 8,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 192,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 288,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        }
+      ],
+      "group": "Bosses",
+      "factor": 1,
+      "seamlessX": false,
+      "role": "Cueva: guardian de raices",
+      "fiction": true
+    },
+    {
+      "name": "selva_boss_raices_andar",
+      "frameWidth": 96,
+      "frameHeight": 96,
+      "frames": 6,
+      "fps": 8,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 192,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 288,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 384,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 480,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        }
+      ],
+      "group": "Bosses",
+      "factor": 1,
+      "seamlessX": false,
+      "role": "Cueva: guardian de raices",
+      "fiction": true
+    },
+    {
+      "name": "selva_boss_raices_anticipar",
+      "frameWidth": 96,
+      "frameHeight": 96,
+      "frames": 4,
+      "fps": 8,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 192,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 288,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        }
+      ],
+      "group": "Bosses",
+      "factor": 1,
+      "seamlessX": false,
+      "role": "Cueva: guardian de raices",
+      "fiction": true
+    },
+    {
+      "name": "selva_boss_raices_golpe",
+      "frameWidth": 96,
+      "frameHeight": 96,
+      "frames": 6,
+      "fps": 8,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 192,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 288,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 384,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 480,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        }
+      ],
+      "group": "Bosses",
+      "factor": 1,
+      "seamlessX": false,
+      "role": "Cueva: guardian de raices",
+      "fiction": true
+    },
+    {
+      "name": "selva_boss_raices_carga",
+      "frameWidth": 96,
+      "frameHeight": 96,
+      "frames": 6,
+      "fps": 8,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 192,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 288,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 384,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 480,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        }
+      ],
+      "group": "Bosses",
+      "factor": 1,
+      "seamlessX": false,
+      "role": "Cueva: guardian de raices",
+      "fiction": true
+    },
+    {
+      "name": "selva_boss_raices_hit",
+      "frameWidth": 96,
+      "frameHeight": 96,
+      "frames": 2,
+      "fps": 8,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        }
+      ],
+      "group": "Bosses",
+      "factor": 1,
+      "seamlessX": false,
+      "role": "Cueva: guardian de raices",
+      "fiction": true
+    },
+    {
+      "name": "selva_boss_raices_derrota",
+      "frameWidth": 96,
+      "frameHeight": 96,
+      "frames": 6,
+      "fps": 8,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 192,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 288,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 384,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 480,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        }
+      ],
+      "group": "Bosses",
+      "factor": 1,
+      "seamlessX": false,
+      "role": "Cueva: guardian de raices",
+      "fiction": true
+    },
+    {
+      "name": "selva_boss_escarabajo_despertar",
+      "frameWidth": 96,
+      "frameHeight": 96,
+      "frames": 6,
+      "fps": 8,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 192,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 288,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 384,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 480,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        }
+      ],
+      "group": "Bosses",
+      "factor": 1,
+      "seamlessX": false,
+      "role": "Ruinas: centinela escarabajo de bronce",
+      "fiction": true
+    },
+    {
+      "name": "selva_boss_escarabajo_idle",
+      "frameWidth": 96,
+      "frameHeight": 96,
+      "frames": 4,
+      "fps": 8,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 192,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 288,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        }
+      ],
+      "group": "Bosses",
+      "factor": 1,
+      "seamlessX": false,
+      "role": "Ruinas: centinela escarabajo de bronce",
+      "fiction": true
+    },
+    {
+      "name": "selva_boss_escarabajo_andar",
+      "frameWidth": 96,
+      "frameHeight": 96,
+      "frames": 6,
+      "fps": 8,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 192,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 288,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 384,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 480,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        }
+      ],
+      "group": "Bosses",
+      "factor": 1,
+      "seamlessX": false,
+      "role": "Ruinas: centinela escarabajo de bronce",
+      "fiction": true
+    },
+    {
+      "name": "selva_boss_escarabajo_anticipar",
+      "frameWidth": 96,
+      "frameHeight": 96,
+      "frames": 4,
+      "fps": 8,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 192,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 288,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        }
+      ],
+      "group": "Bosses",
+      "factor": 1,
+      "seamlessX": false,
+      "role": "Ruinas: centinela escarabajo de bronce",
+      "fiction": true
+    },
+    {
+      "name": "selva_boss_escarabajo_golpe",
+      "frameWidth": 96,
+      "frameHeight": 96,
+      "frames": 6,
+      "fps": 8,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 192,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 288,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 384,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 480,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        }
+      ],
+      "group": "Bosses",
+      "factor": 1,
+      "seamlessX": false,
+      "role": "Ruinas: centinela escarabajo de bronce",
+      "fiction": true
+    },
+    {
+      "name": "selva_boss_escarabajo_carga",
+      "frameWidth": 96,
+      "frameHeight": 96,
+      "frames": 6,
+      "fps": 8,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 192,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 288,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 384,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 480,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        }
+      ],
+      "group": "Bosses",
+      "factor": 1,
+      "seamlessX": false,
+      "role": "Ruinas: centinela escarabajo de bronce",
+      "fiction": true
+    },
+    {
+      "name": "selva_boss_escarabajo_hit",
+      "frameWidth": 96,
+      "frameHeight": 96,
+      "frames": 2,
+      "fps": 8,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        }
+      ],
+      "group": "Bosses",
+      "factor": 1,
+      "seamlessX": false,
+      "role": "Ruinas: centinela escarabajo de bronce",
+      "fiction": true
+    },
+    {
+      "name": "selva_boss_escarabajo_derrota",
+      "frameWidth": 96,
+      "frameHeight": 96,
+      "frames": 6,
+      "fps": 8,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 192,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 288,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 384,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 480,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        }
+      ],
+      "group": "Bosses",
+      "factor": 1,
+      "seamlessX": false,
+      "role": "Ruinas: centinela escarabajo de bronce",
+      "fiction": true
+    },
+    {
+      "name": "selva_fx_salpicadura",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 4,
+      "fps": 12,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 32,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 64,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        }
+      ],
+      "group": "Effects",
+      "factor": 1,
+      "seamlessX": false
+    },
+    {
+      "name": "selva_fx_polvo",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 6,
+      "fps": 12,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 32,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 64,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 128,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 160,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        }
+      ],
+      "group": "Effects",
+      "factor": 1,
+      "seamlessX": false
+    },
+    {
+      "name": "selva_fx_hojas",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 6,
+      "fps": 12,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 32,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 64,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 128,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 160,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        }
+      ],
+      "group": "Effects",
+      "factor": 1,
+      "seamlessX": false
+    },
+    {
+      "name": "selva_fx_impacto",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 6,
+      "fps": 12,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 32,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 64,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 128,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 160,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        }
+      ],
+      "group": "Effects",
+      "factor": 1,
+      "seamlessX": false
+    },
+    {
+      "name": "selva_fx_astillas",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 6,
+      "fps": 12,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 32,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 64,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 128,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 160,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        }
+      ],
+      "group": "Effects",
+      "factor": 1,
+      "seamlessX": false
+    },
+    {
+      "name": "selva_fx_escudo_romper",
+      "frameWidth": 48,
+      "frameHeight": 48,
+      "frames": 4,
+      "fps": 12,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 48,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 144,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        }
+      ],
+      "group": "Effects",
+      "factor": 1,
+      "seamlessX": false
+    },
+    {
+      "name": "selva_fx_destello",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 6,
+      "fps": 12,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 32,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 64,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 128,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 160,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        }
+      ],
+      "group": "Effects",
+      "factor": 1,
+      "seamlessX": false
+    },
+    {
+      "name": "selva_fx_portal",
+      "frameWidth": 48,
+      "frameHeight": 48,
+      "frames": 6,
+      "fps": 12,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 48,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 144,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 192,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 240,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        }
+      ],
+      "group": "Effects",
+      "factor": 1,
+      "seamlessX": false
+    },
+    {
+      "name": "selva_fx_veneno",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 6,
+      "fps": 12,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 32,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 64,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 128,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 160,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        }
+      ],
+      "group": "Effects",
+      "factor": 1,
+      "seamlessX": false
+    },
+    {
+      "name": "selva_fx_disparo",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 6,
+      "fps": 12,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 32,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 64,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 128,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 160,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        }
+      ],
+      "group": "Effects",
+      "factor": 1,
+      "seamlessX": false
+    },
+    {
+      "name": "selva_fx_rastro_salto",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 6,
+      "fps": 12,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 32,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 64,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 128,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 160,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        }
+      ],
+      "group": "Effects",
+      "factor": 1,
+      "seamlessX": false
+    },
+    {
+      "name": "selva_fx_escudo_activo",
+      "frameWidth": 48,
+      "frameHeight": 48,
+      "frames": 4,
+      "fps": 6,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 48,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 144,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        }
+      ],
+      "group": "Effects",
+      "factor": 1,
+      "seamlessX": false
+    },
+    {
+      "name": "selva_antorcha",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 4,
+      "fps": 5,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 32,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 64,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        }
+      ],
+      "group": "Props",
+      "factor": 1,
+      "seamlessX": false
+    },
+    {
+      "name": "selva_flor",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 4,
+      "fps": 5,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 32,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 64,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        }
+      ],
+      "group": "Props",
+      "factor": 1,
+      "seamlessX": false
+    },
+    {
+      "name": "selva_hongo",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 4,
+      "fps": 5,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 32,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 64,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        }
+      ],
+      "group": "Props",
+      "factor": 1,
+      "seamlessX": false
+    },
+    {
+      "name": "selva_cascada",
+      "frameWidth": 32,
+      "frameHeight": 96,
+      "frames": 4,
+      "fps": 5,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 32,
+          "height": 96
+        },
+        {
+          "x": 32,
+          "y": 0,
+          "width": 32,
+          "height": 96
+        },
+        {
+          "x": 64,
+          "y": 0,
+          "width": 32,
+          "height": 96
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 32,
+          "height": 96
+        }
+      ],
+      "group": "Props",
+      "factor": 1,
+      "seamlessX": false
+    },
+    {
+      "name": "selva_portal_salida",
+      "frameWidth": 64,
+      "frameHeight": 96,
+      "frames": 4,
+      "fps": 5,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 64,
+          "height": 96
+        },
+        {
+          "x": 64,
+          "y": 0,
+          "width": 64,
+          "height": 96
+        },
+        {
+          "x": 128,
+          "y": 0,
+          "width": 64,
+          "height": 96
+        },
+        {
+          "x": 192,
+          "y": 0,
+          "width": 64,
+          "height": 96
+        }
+      ],
+      "group": "Props",
+      "factor": 1,
+      "seamlessX": false
+    },
+    {
+      "name": "selva_entrada_cueva",
+      "frameWidth": 64,
+      "frameHeight": 96,
+      "frames": 4,
+      "fps": 5,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 64,
+          "height": 96
+        },
+        {
+          "x": 64,
+          "y": 0,
+          "width": 64,
+          "height": 96
+        },
+        {
+          "x": 128,
+          "y": 0,
+          "width": 64,
+          "height": 96
+        },
+        {
+          "x": 192,
+          "y": 0,
+          "width": 64,
+          "height": 96
+        }
+      ],
+      "group": "Props",
+      "factor": 1,
+      "seamlessX": false
+    },
+    {
+      "name": "selva_entrada_ruinas",
+      "frameWidth": 64,
+      "frameHeight": 96,
+      "frames": 4,
+      "fps": 5,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 64,
+          "height": 96
+        },
+        {
+          "x": 64,
+          "y": 0,
+          "width": 64,
+          "height": 96
+        },
+        {
+          "x": 128,
+          "y": 0,
+          "width": 64,
+          "height": 96
+        },
+        {
+          "x": 192,
+          "y": 0,
+          "width": 64,
+          "height": 96
+        }
+      ],
+      "group": "Props",
+      "factor": 1,
+      "seamlessX": false
+    },
+    {
+      "name": "selva_cristal_salto",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 4,
+      "fps": 5,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 32,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 64,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        }
+      ],
+      "group": "Props",
+      "factor": 1,
+      "seamlessX": false
+    },
+    {
+      "name": "selva_cristal_descenso",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 4,
+      "fps": 5,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 32,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 64,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        }
+      ],
+      "group": "Props",
+      "factor": 1,
+      "seamlessX": false
+    },
+    {
+      "name": "selva_esbirro_brote_idle",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 4,
+      "fps": 9,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 32,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 64,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        }
+      ],
+      "group": "Enemies",
+      "factor": 1,
+      "seamlessX": false,
+      "fiction": true
+    },
+    {
+      "name": "selva_esbirro_brote_caminar",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 6,
+      "fps": 9,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 32,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 64,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 128,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 160,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        }
+      ],
+      "group": "Enemies",
+      "factor": 1,
+      "seamlessX": false,
+      "fiction": true
+    },
+    {
+      "name": "selva_esbirro_brote_ataque",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 6,
+      "fps": 9,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 32,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 64,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 128,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 160,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        }
+      ],
+      "group": "Enemies",
+      "factor": 1,
+      "seamlessX": false,
+      "fiction": true
+    },
+    {
+      "name": "selva_esbirro_brote_hit",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 2,
+      "fps": 9,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 32,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        }
+      ],
+      "group": "Enemies",
+      "factor": 1,
+      "seamlessX": false,
+      "fiction": true
+    },
+    {
+      "name": "selva_esbirro_brote_derrota",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 4,
+      "fps": 9,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 32,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 64,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        }
+      ],
+      "group": "Enemies",
+      "factor": 1,
+      "seamlessX": false,
+      "fiction": true
+    },
+    {
+      "name": "selva_esbirro_escarabajo_idle",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 4,
+      "fps": 9,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 32,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 64,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        }
+      ],
+      "group": "Enemies",
+      "factor": 1,
+      "seamlessX": false,
+      "fiction": true
+    },
+    {
+      "name": "selva_esbirro_escarabajo_caminar",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 6,
+      "fps": 9,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 32,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 64,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 128,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 160,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        }
+      ],
+      "group": "Enemies",
+      "factor": 1,
+      "seamlessX": false,
+      "fiction": true
+    },
+    {
+      "name": "selva_esbirro_escarabajo_ataque",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 6,
+      "fps": 9,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 32,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 64,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 128,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 160,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        }
+      ],
+      "group": "Enemies",
+      "factor": 1,
+      "seamlessX": false,
+      "fiction": true
+    },
+    {
+      "name": "selva_esbirro_escarabajo_hit",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 2,
+      "fps": 9,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 32,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        }
+      ],
+      "group": "Enemies",
+      "factor": 1,
+      "seamlessX": false,
+      "fiction": true
+    },
+    {
+      "name": "selva_esbirro_escarabajo_derrota",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 4,
+      "fps": 9,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 32,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 64,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        }
+      ],
+      "group": "Enemies",
+      "factor": 1,
+      "seamlessX": false,
+      "fiction": true
+    },
+    {
+      "name": "selva_helecho_viento",
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "frames": 4,
+      "fps": 3,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        },
+        {
+          "x": 64,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        },
+        {
+          "x": 128,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        },
+        {
+          "x": 192,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        }
+      ],
+      "group": "Fauna",
+      "factor": 1,
+      "seamlessX": false
+    },
+    {
+      "name": "selva_gota_cueva",
+      "frameWidth": 16,
+      "frameHeight": 24,
+      "frames": 4,
+      "fps": 8,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 16,
+          "height": 24
+        },
+        {
+          "x": 16,
+          "y": 0,
+          "width": 16,
+          "height": 24
+        },
+        {
+          "x": 32,
+          "y": 0,
+          "width": 16,
+          "height": 24
+        },
+        {
+          "x": 48,
+          "y": 0,
+          "width": 16,
+          "height": 24
+        }
+      ],
+      "group": "Effects",
+      "factor": 1,
+      "seamlessX": false
+    },
+    {
+      "name": "selva_decor_roca_musgo",
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "frames": 1,
+      "fps": 5,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        }
+      ],
+      "group": "Props",
+      "factor": 1,
+      "seamlessX": false
+    },
+    {
+      "name": "selva_decor_raiz_colgante",
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "frames": 1,
+      "fps": 5,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        }
+      ],
+      "group": "Props",
+      "factor": 1,
+      "seamlessX": false
+    },
+    {
+      "name": "selva_decor_rama_anclaje",
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "frames": 1,
+      "fps": 5,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        }
+      ],
+      "group": "Props",
+      "factor": 1,
+      "seamlessX": false
+    },
+    {
+      "name": "selva_decor_casa_ribera",
+      "frameWidth": 96,
+      "frameHeight": 80,
+      "frames": 1,
+      "fps": 5,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 96,
+          "height": 80
+        }
+      ],
+      "group": "Props",
+      "factor": 1,
+      "seamlessX": false
+    },
+    {
+      "name": "selva_decor_barca_remador",
+      "frameWidth": 80,
+      "frameHeight": 48,
+      "frames": 4,
+      "fps": 5,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 80,
+          "height": 48
+        },
+        {
+          "x": 80,
+          "y": 0,
+          "width": 80,
+          "height": 48
+        },
+        {
+          "x": 160,
+          "y": 0,
+          "width": 80,
+          "height": 48
+        },
+        {
+          "x": 240,
+          "y": 0,
+          "width": 80,
+          "height": 48
+        }
+      ],
+      "group": "Props",
+      "factor": 1,
+      "seamlessX": false
+    },
+    {
+      "name": "selva_coleccionable_ceramica",
+      "frameWidth": 16,
+      "frameHeight": 16,
+      "frames": 2,
+      "fps": 3,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 16,
+          "height": 16
+        },
+        {
+          "x": 16,
+          "y": 0,
+          "width": 16,
+          "height": 16
+        }
+      ],
+      "group": "Collectibles",
+      "factor": 1,
+      "seamlessX": false,
+      "notes": "Original illustrative motif, not a museum reconstruction. Cultural attribution must be researched before a historical ficha."
+    },
+    {
+      "name": "selva_museo_ceramica",
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "frames": 1,
+      "fps": 8,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        }
+      ],
+      "group": "Museum",
+      "factor": 1,
+      "seamlessX": false,
+      "notes": "Original native64px illustration; cultural object type proposal, not a documented historical replica."
+    },
+    {
+      "name": "selva_coleccionable_flauta",
+      "frameWidth": 16,
+      "frameHeight": 16,
+      "frames": 2,
+      "fps": 3,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 16,
+          "height": 16
+        },
+        {
+          "x": 16,
+          "y": 0,
+          "width": 16,
+          "height": 16
+        }
+      ],
+      "group": "Collectibles",
+      "factor": 1,
+      "seamlessX": false,
+      "notes": "Original illustrative motif, not a museum reconstruction. Cultural attribution must be researched before a historical ficha."
+    },
+    {
+      "name": "selva_museo_flauta",
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "frames": 1,
+      "fps": 8,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        }
+      ],
+      "group": "Museum",
+      "factor": 1,
+      "seamlessX": false,
+      "notes": "Original native64px illustration; cultural object type proposal, not a documented historical replica."
+    },
+    {
+      "name": "selva_coleccionable_textil",
+      "frameWidth": 16,
+      "frameHeight": 16,
+      "frames": 2,
+      "fps": 3,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 16,
+          "height": 16
+        },
+        {
+          "x": 16,
+          "y": 0,
+          "width": 16,
+          "height": 16
+        }
+      ],
+      "group": "Collectibles",
+      "factor": 1,
+      "seamlessX": false,
+      "notes": "Original illustrative motif, not a museum reconstruction. Cultural attribution must be researched before a historical ficha."
+    },
+    {
+      "name": "selva_museo_textil",
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "frames": 1,
+      "fps": 8,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        }
+      ],
+      "group": "Museum",
+      "factor": 1,
+      "seamlessX": false,
+      "notes": "Original native64px illustration; cultural object type proposal, not a documented historical replica."
+    },
+    {
+      "name": "selva_coleccionable_sonaja",
+      "frameWidth": 16,
+      "frameHeight": 16,
+      "frames": 2,
+      "fps": 3,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 16,
+          "height": 16
+        },
+        {
+          "x": 16,
+          "y": 0,
+          "width": 16,
+          "height": 16
+        }
+      ],
+      "group": "Collectibles",
+      "factor": 1,
+      "seamlessX": false,
+      "notes": "Original illustrative motif, not a museum reconstruction. Cultural attribution must be researched before a historical ficha."
+    },
+    {
+      "name": "selva_museo_sonaja",
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "frames": 1,
+      "fps": 8,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        }
+      ],
+      "group": "Museum",
+      "factor": 1,
+      "seamlessX": false,
+      "notes": "Original native64px illustration; cultural object type proposal, not a documented historical replica."
+    },
+    {
+      "name": "selva_coleccionable_moneda",
+      "frameWidth": 16,
+      "frameHeight": 16,
+      "frames": 2,
+      "fps": 3,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 16,
+          "height": 16
+        },
+        {
+          "x": 16,
+          "y": 0,
+          "width": 16,
+          "height": 16
+        }
+      ],
+      "group": "Collectibles",
+      "factor": 1,
+      "seamlessX": false,
+      "notes": "Original illustrative motif, not a museum reconstruction. Cultural attribution must be researched before a historical ficha."
+    },
+    {
+      "name": "selva_ui_panel",
+      "frameWidth": 48,
+      "frameHeight": 48,
+      "frames": 1,
+      "fps": 8,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        }
+      ],
+      "group": "UI",
+      "factor": 1,
+      "seamlessX": false,
+      "border": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "notes": "Optional skin only. Reuse current shared UI; do not change layout or bake text."
+    },
+    {
+      "name": "selva_ui_boton",
+      "frameWidth": 48,
+      "frameHeight": 16,
+      "frames": 1,
+      "fps": 8,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 48,
+          "height": 16
+        }
+      ],
+      "group": "UI",
+      "factor": 1,
+      "seamlessX": false,
+      "border": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "notes": "Optional skin only. Reuse current shared UI; do not change layout or bake text."
+    },
+    {
+      "name": "selva_ui_casilla",
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 8,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 24,
+          "height": 24
+        }
+      ],
+      "group": "UI",
+      "factor": 1,
+      "seamlessX": false,
+      "border": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "notes": "Optional skin only. Reuse current shared UI; do not change layout or bake text."
+    },
+    {
+      "name": "selva_ui_barra",
+      "frameWidth": 64,
+      "frameHeight": 10,
+      "frames": 1,
+      "fps": 8,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 64,
+          "height": 10
+        }
+      ],
+      "group": "UI",
+      "factor": 1,
+      "seamlessX": false,
+      "border": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "notes": "Optional skin only. Reuse current shared UI; do not change layout or bake text."
+    },
+    {
+      "name": "selva_bosque_capa1_cielo",
+      "frameWidth": 640,
+      "frameHeight": 180,
+      "frames": 1,
+      "fps": 8,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 640,
+          "height": 180
+        }
+      ],
+      "group": "Layers",
+      "factor": 0,
+      "seamlessX": false
+    },
+    {
+      "name": "selva_bosque_capa2_lejania",
+      "frameWidth": 640,
+      "frameHeight": 180,
+      "frames": 1,
+      "fps": 8,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 640,
+          "height": 180
+        }
+      ],
+      "group": "Layers",
+      "factor": 0.15,
+      "seamlessX": true
+    },
+    {
+      "name": "selva_bosque_capa3_estructura",
+      "frameWidth": 640,
+      "frameHeight": 180,
+      "frames": 1,
+      "fps": 8,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 640,
+          "height": 180
+        }
+      ],
+      "group": "Layers",
+      "factor": 0.32,
+      "seamlessX": true
+    },
+    {
+      "name": "selva_bosque_capa5_cercania",
+      "frameWidth": 640,
+      "frameHeight": 180,
+      "frames": 1,
+      "fps": 8,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 640,
+          "height": 180
+        }
+      ],
+      "group": "Layers",
+      "factor": 0.72,
+      "seamlessX": true
+    },
+    {
+      "name": "selva_bosque_capa6_frontal",
+      "frameWidth": 640,
+      "frameHeight": 180,
+      "frames": 1,
+      "fps": 8,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 640,
+          "height": 180
+        }
+      ],
+      "group": "Layers",
+      "factor": 1.3,
+      "seamlessX": true
+    },
+    {
+      "name": "selva_rio_capa1_cielo",
+      "frameWidth": 640,
+      "frameHeight": 180,
+      "frames": 1,
+      "fps": 8,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 640,
+          "height": 180
+        }
+      ],
+      "group": "Layers",
+      "factor": 0,
+      "seamlessX": false
+    },
+    {
+      "name": "selva_rio_capa2_lejania",
+      "frameWidth": 640,
+      "frameHeight": 180,
+      "frames": 1,
+      "fps": 8,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 640,
+          "height": 180
+        }
+      ],
+      "group": "Layers",
+      "factor": 0.15,
+      "seamlessX": true
+    },
+    {
+      "name": "selva_rio_capa3_estructura",
+      "frameWidth": 640,
+      "frameHeight": 180,
+      "frames": 1,
+      "fps": 8,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 640,
+          "height": 180
+        }
+      ],
+      "group": "Layers",
+      "factor": 0.32,
+      "seamlessX": true
+    },
+    {
+      "name": "selva_rio_capa5_cercania",
+      "frameWidth": 640,
+      "frameHeight": 180,
+      "frames": 1,
+      "fps": 8,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 640,
+          "height": 180
+        }
+      ],
+      "group": "Layers",
+      "factor": 0.72,
+      "seamlessX": true
+    },
+    {
+      "name": "selva_rio_capa6_frontal",
+      "frameWidth": 640,
+      "frameHeight": 180,
+      "frames": 1,
+      "fps": 8,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 640,
+          "height": 180
+        }
+      ],
+      "group": "Layers",
+      "factor": 1.3,
+      "seamlessX": true
+    },
+    {
+      "name": "selva_cueva_capa1_cielo",
+      "frameWidth": 640,
+      "frameHeight": 180,
+      "frames": 1,
+      "fps": 8,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 640,
+          "height": 180
+        }
+      ],
+      "group": "Layers",
+      "factor": 0,
+      "seamlessX": false
+    },
+    {
+      "name": "selva_cueva_capa2_lejania",
+      "frameWidth": 640,
+      "frameHeight": 180,
+      "frames": 1,
+      "fps": 8,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 640,
+          "height": 180
+        }
+      ],
+      "group": "Layers",
+      "factor": 0.15,
+      "seamlessX": true
+    },
+    {
+      "name": "selva_cueva_capa3_estructura",
+      "frameWidth": 640,
+      "frameHeight": 180,
+      "frames": 1,
+      "fps": 8,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 640,
+          "height": 180
+        }
+      ],
+      "group": "Layers",
+      "factor": 0.32,
+      "seamlessX": true
+    },
+    {
+      "name": "selva_cueva_capa5_cercania",
+      "frameWidth": 640,
+      "frameHeight": 180,
+      "frames": 1,
+      "fps": 8,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 640,
+          "height": 180
+        }
+      ],
+      "group": "Layers",
+      "factor": 0.72,
+      "seamlessX": true
+    },
+    {
+      "name": "selva_cueva_capa6_frontal",
+      "frameWidth": 640,
+      "frameHeight": 180,
+      "frames": 1,
+      "fps": 8,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 640,
+          "height": 180
+        }
+      ],
+      "group": "Layers",
+      "factor": 1.3,
+      "seamlessX": true
+    },
+    {
+      "name": "selva_ruinas_capa1_cielo",
+      "frameWidth": 640,
+      "frameHeight": 180,
+      "frames": 1,
+      "fps": 8,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 640,
+          "height": 180
+        }
+      ],
+      "group": "Layers",
+      "factor": 0,
+      "seamlessX": false
+    },
+    {
+      "name": "selva_ruinas_capa2_lejania",
+      "frameWidth": 640,
+      "frameHeight": 180,
+      "frames": 1,
+      "fps": 8,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 640,
+          "height": 180
+        }
+      ],
+      "group": "Layers",
+      "factor": 0.15,
+      "seamlessX": true
+    },
+    {
+      "name": "selva_ruinas_capa3_estructura",
+      "frameWidth": 640,
+      "frameHeight": 180,
+      "frames": 1,
+      "fps": 8,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 640,
+          "height": 180
+        }
+      ],
+      "group": "Layers",
+      "factor": 0.32,
+      "seamlessX": true
+    },
+    {
+      "name": "selva_ruinas_capa5_cercania",
+      "frameWidth": 640,
+      "frameHeight": 180,
+      "frames": 1,
+      "fps": 8,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 640,
+          "height": 180
+        }
+      ],
+      "group": "Layers",
+      "factor": 0.72,
+      "seamlessX": true
+    },
+    {
+      "name": "selva_ruinas_capa6_frontal",
+      "frameWidth": 640,
+      "frameHeight": 180,
+      "frames": 1,
+      "fps": 8,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 640,
+          "height": 180
+        }
+      ],
+      "group": "Layers",
+      "factor": 1.3,
+      "seamlessX": true
+    },
+    {
+      "name": "selva_noche_capa1_cielo",
+      "frameWidth": 640,
+      "frameHeight": 180,
+      "frames": 1,
+      "fps": 8,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 640,
+          "height": 180
+        }
+      ],
+      "group": "Layers",
+      "factor": 0,
+      "seamlessX": false
+    },
+    {
+      "name": "selva_noche_capa2_lejania",
+      "frameWidth": 640,
+      "frameHeight": 180,
+      "frames": 1,
+      "fps": 8,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 640,
+          "height": 180
+        }
+      ],
+      "group": "Layers",
+      "factor": 0.15,
+      "seamlessX": true
+    },
+    {
+      "name": "selva_noche_capa3_estructura",
+      "frameWidth": 640,
+      "frameHeight": 180,
+      "frames": 1,
+      "fps": 8,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 640,
+          "height": 180
+        }
+      ],
+      "group": "Layers",
+      "factor": 0.32,
+      "seamlessX": true
+    },
+    {
+      "name": "selva_noche_capa5_cercania",
+      "frameWidth": 640,
+      "frameHeight": 180,
+      "frames": 1,
+      "fps": 8,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 640,
+          "height": 180
+        }
+      ],
+      "group": "Layers",
+      "factor": 0.72,
+      "seamlessX": true
+    },
+    {
+      "name": "selva_noche_capa6_frontal",
+      "frameWidth": 640,
+      "frameHeight": 180,
+      "frames": 1,
+      "fps": 8,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 640,
+          "height": 180
+        }
+      ],
+      "group": "Layers",
+      "factor": 1.3,
+      "seamlessX": true
+    },
+    {
+      "name": "selva_templo_capa1_cielo",
+      "frameWidth": 640,
+      "frameHeight": 180,
+      "frames": 1,
+      "fps": 8,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 640,
+          "height": 180
+        }
+      ],
+      "group": "Layers",
+      "factor": 0,
+      "seamlessX": false
+    },
+    {
+      "name": "selva_templo_capa2_lejania",
+      "frameWidth": 640,
+      "frameHeight": 180,
+      "frames": 1,
+      "fps": 8,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 640,
+          "height": 180
+        }
+      ],
+      "group": "Layers",
+      "factor": 0.15,
+      "seamlessX": true
+    },
+    {
+      "name": "selva_templo_capa3_estructura",
+      "frameWidth": 640,
+      "frameHeight": 180,
+      "frames": 1,
+      "fps": 8,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 640,
+          "height": 180
+        }
+      ],
+      "group": "Layers",
+      "factor": 0.32,
+      "seamlessX": true
+    },
+    {
+      "name": "selva_templo_capa5_cercania",
+      "frameWidth": 640,
+      "frameHeight": 180,
+      "frames": 1,
+      "fps": 8,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 640,
+          "height": 180
+        }
+      ],
+      "group": "Layers",
+      "factor": 0.72,
+      "seamlessX": true
+    },
+    {
+      "name": "selva_templo_capa6_frontal",
+      "frameWidth": 640,
+      "frameHeight": 180,
+      "frames": 1,
+      "fps": 8,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 640,
+          "height": 180
+        }
+      ],
+      "group": "Layers",
+      "factor": 1.3,
+      "seamlessX": true
+    },
+    {
+      "name": "selva_niebla",
+      "frameWidth": 640,
+      "frameHeight": 180,
+      "frames": 1,
+      "fps": 8,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 640,
+          "height": 180
+        }
+      ],
+      "group": "Layers",
+      "factor": 0.08,
+      "seamlessX": true
+    },
+    {
+      "name": "selva_rayos_sol",
+      "frameWidth": 640,
+      "frameHeight": 180,
+      "frames": 1,
+      "fps": 8,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 640,
+          "height": 180
+        }
+      ],
+      "group": "Layers",
+      "factor": 0.2,
+      "seamlessX": true,
+      "alphaException": "discrete sun shafts; no blur or alpha gradient"
+    },
+    {
+      "name": "selva_agua_fondo",
+      "frameWidth": 640,
+      "frameHeight": 180,
+      "frames": 6,
+      "fps": 8,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 900,
+          "width": 640,
+          "height": 180
+        },
+        {
+          "x": 0,
+          "y": 720,
+          "width": 640,
+          "height": 180
+        },
+        {
+          "x": 0,
+          "y": 540,
+          "width": 640,
+          "height": 180
+        },
+        {
+          "x": 0,
+          "y": 360,
+          "width": 640,
+          "height": 180
+        },
+        {
+          "x": 0,
+          "y": 180,
+          "width": 640,
+          "height": 180
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 640,
+          "height": 180
+        }
+      ],
+      "group": "Layers",
+      "factor": 1,
+      "seamlessX": true
+    },
+    {
+      "name": "selva_agua_superficie",
+      "frameWidth": 640,
+      "frameHeight": 180,
+      "frames": 6,
+      "fps": 8,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 900,
+          "width": 640,
+          "height": 180
+        },
+        {
+          "x": 0,
+          "y": 720,
+          "width": 640,
+          "height": 180
+        },
+        {
+          "x": 0,
+          "y": 540,
+          "width": 640,
+          "height": 180
+        },
+        {
+          "x": 0,
+          "y": 360,
+          "width": 640,
+          "height": 180
+        },
+        {
+          "x": 0,
+          "y": 180,
+          "width": 640,
+          "height": 180
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 640,
+          "height": 180
+        }
+      ],
+      "group": "Layers",
+      "factor": 1,
+      "seamlessX": true,
+      "alphaException": "125/255 tinted water above submerged objects"
+    },
+    {
+      "name": "selva_fx_ondas",
+      "frameWidth": 64,
+      "frameHeight": 24,
+      "frames": 8,
+      "fps": 12,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 64,
+          "height": 24
+        },
+        {
+          "x": 64,
+          "y": 0,
+          "width": 64,
+          "height": 24
+        },
+        {
+          "x": 128,
+          "y": 0,
+          "width": 64,
+          "height": 24
+        },
+        {
+          "x": 192,
+          "y": 0,
+          "width": 64,
+          "height": 24
+        },
+        {
+          "x": 256,
+          "y": 0,
+          "width": 64,
+          "height": 24
+        },
+        {
+          "x": 320,
+          "y": 0,
+          "width": 64,
+          "height": 24
+        },
+        {
+          "x": 384,
+          "y": 0,
+          "width": 64,
+          "height": 24
+        },
+        {
+          "x": 448,
+          "y": 0,
+          "width": 64,
+          "height": 24
+        }
+      ],
+      "group": "Effects"
+    },
+    {
+      "name": "selva_fx_burbujas",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 8,
+      "fps": 12,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 32,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 64,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 128,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 160,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 192,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 224,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        }
+      ],
+      "group": "Effects"
+    },
+    {
+      "name": "selva_fx_splash_salida",
+      "frameWidth": 64,
+      "frameHeight": 48,
+      "frames": 8,
+      "fps": 12,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 64,
+          "height": 48
+        },
+        {
+          "x": 64,
+          "y": 0,
+          "width": 64,
+          "height": 48
+        },
+        {
+          "x": 128,
+          "y": 0,
+          "width": 64,
+          "height": 48
+        },
+        {
+          "x": 192,
+          "y": 0,
+          "width": 64,
+          "height": 48
+        },
+        {
+          "x": 256,
+          "y": 0,
+          "width": 64,
+          "height": 48
+        },
+        {
+          "x": 320,
+          "y": 0,
+          "width": 64,
+          "height": 48
+        },
+        {
+          "x": 384,
+          "y": 0,
+          "width": 64,
+          "height": 48
+        },
+        {
+          "x": 448,
+          "y": 0,
+          "width": 64,
+          "height": 48
+        }
+      ],
+      "group": "Effects"
+    },
+    {
+      "name": "selva_fx_splash_entrada",
+      "frameWidth": 80,
+      "frameHeight": 40,
+      "frames": 10,
+      "fps": 12,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 80,
+          "height": 40
+        },
+        {
+          "x": 80,
+          "y": 0,
+          "width": 80,
+          "height": 40
+        },
+        {
+          "x": 160,
+          "y": 0,
+          "width": 80,
+          "height": 40
+        },
+        {
+          "x": 240,
+          "y": 0,
+          "width": 80,
+          "height": 40
+        },
+        {
+          "x": 320,
+          "y": 0,
+          "width": 80,
+          "height": 40
+        },
+        {
+          "x": 400,
+          "y": 0,
+          "width": 80,
+          "height": 40
+        },
+        {
+          "x": 480,
+          "y": 0,
+          "width": 80,
+          "height": 40
+        },
+        {
+          "x": 560,
+          "y": 0,
+          "width": 80,
+          "height": 40
+        },
+        {
+          "x": 640,
+          "y": 0,
+          "width": 80,
+          "height": 40
+        },
+        {
+          "x": 720,
+          "y": 0,
+          "width": 80,
+          "height": 40
+        }
+      ],
+      "group": "Effects"
+    },
+    {
+      "name": "selva_fx_espuma",
+      "frameWidth": 64,
+      "frameHeight": 16,
+      "frames": 8,
+      "fps": 12,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 64,
+          "height": 16
+        },
+        {
+          "x": 64,
+          "y": 0,
+          "width": 64,
+          "height": 16
+        },
+        {
+          "x": 128,
+          "y": 0,
+          "width": 64,
+          "height": 16
+        },
+        {
+          "x": 192,
+          "y": 0,
+          "width": 64,
+          "height": 16
+        },
+        {
+          "x": 256,
+          "y": 0,
+          "width": 64,
+          "height": 16
+        },
+        {
+          "x": 320,
+          "y": 0,
+          "width": 64,
+          "height": 16
+        },
+        {
+          "x": 384,
+          "y": 0,
+          "width": 64,
+          "height": 16
+        },
+        {
+          "x": 448,
+          "y": 0,
+          "width": 64,
+          "height": 16
+        }
+      ],
+      "group": "Effects"
+    },
+    {
+      "name": "selva_caiman_sombra",
+      "frameWidth": 64,
+      "frameHeight": 16,
+      "frames": 1,
+      "fps": 8,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 64,
+          "height": 16
+        }
+      ],
+      "group": "Enemies"
+    },
+    {
+      "name": "selva_caiman_acecho",
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "frames": 4,
+      "fps": 10,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        },
+        {
+          "x": 64,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        },
+        {
+          "x": 128,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        },
+        {
+          "x": 192,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        }
+      ],
+      "group": "Enemies",
+      "hitboxes": [
+        {
+          "body": [
+            17,
+            27,
+            25,
+            17
+          ],
+          "mouth": [
+            45,
+            29,
+            16,
+            10
+          ],
+          "damaging": false,
+          "snap": false
+        },
+        {
+          "body": [
+            17,
+            27,
+            25,
+            17
+          ],
+          "mouth": [
+            45,
+            29,
+            16,
+            10
+          ],
+          "damaging": false,
+          "snap": false
+        },
+        {
+          "body": [
+            17,
+            27,
+            25,
+            17
+          ],
+          "mouth": [
+            45,
+            29,
+            16,
+            10
+          ],
+          "damaging": false,
+          "snap": false
+        },
+        {
+          "body": [
+            17,
+            27,
+            25,
+            17
+          ],
+          "mouth": [
+            45,
+            29,
+            16,
+            10
+          ],
+          "damaging": false,
+          "snap": false
+        }
+      ],
+      "notes": "64x64 rotation authored at native pixels. Body excludes tail. Only snap frame1 closes the mouth. Dive tint is palette-limited."
+    },
+    {
+      "name": "selva_caiman_anticipacion",
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "frames": 3,
+      "fps": 10,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        },
+        {
+          "x": 64,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        },
+        {
+          "x": 128,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        }
+      ],
+      "group": "Enemies",
+      "hitboxes": [
+        {
+          "body": [
+            17,
+            26,
+            26,
+            19
+          ],
+          "mouth": [
+            45,
+            27,
+            16,
+            11
+          ],
+          "damaging": false,
+          "snap": false
+        },
+        {
+          "body": [
+            16,
+            25,
+            27,
+            21
+          ],
+          "mouth": [
+            43,
+            22,
+            19,
+            13
+          ],
+          "damaging": false,
+          "snap": false
+        },
+        {
+          "body": [
+            16,
+            23,
+            28,
+            24
+          ],
+          "mouth": [
+            42,
+            17,
+            22,
+            15
+          ],
+          "damaging": false,
+          "snap": false
+        }
+      ],
+      "notes": "64x64 rotation authored at native pixels. Body excludes tail. Only snap frame1 closes the mouth. Dive tint is palette-limited."
+    },
+    {
+      "name": "selva_caiman_emerger",
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "frames": 4,
+      "fps": 10,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        },
+        {
+          "x": 64,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        },
+        {
+          "x": 128,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        },
+        {
+          "x": 192,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        }
+      ],
+      "group": "Enemies",
+      "hitboxes": [
+        {
+          "body": [
+            18,
+            22,
+            25,
+            26
+          ],
+          "mouth": [
+            37,
+            8,
+            23,
+            18
+          ],
+          "damaging": true,
+          "snap": false
+        },
+        {
+          "body": [
+            17,
+            22,
+            27,
+            26
+          ],
+          "mouth": [
+            39,
+            11,
+            25,
+            17
+          ],
+          "damaging": true,
+          "snap": false
+        },
+        {
+          "body": [
+            16,
+            23,
+            28,
+            24
+          ],
+          "mouth": [
+            42,
+            17,
+            22,
+            16
+          ],
+          "damaging": true,
+          "snap": false
+        },
+        {
+          "body": [
+            16,
+            25,
+            27,
+            21
+          ],
+          "mouth": [
+            44,
+            23,
+            20,
+            17
+          ],
+          "damaging": true,
+          "snap": false
+        }
+      ],
+      "notes": "64x64 rotation authored at native pixels. Body excludes tail. Only snap frame1 closes the mouth. Dive tint is palette-limited."
+    },
+    {
+      "name": "selva_caiman_snap",
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "frames": 3,
+      "fps": 16,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        },
+        {
+          "x": 64,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        },
+        {
+          "x": 128,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        }
+      ],
+      "group": "Enemies",
+      "hitboxes": [
+        {
+          "body": [
+            17,
+            26,
+            26,
+            19
+          ],
+          "mouth": [
+            44,
+            27,
+            18,
+            16
+          ],
+          "damaging": true,
+          "snap": false
+        },
+        {
+          "body": [
+            17,
+            27,
+            25,
+            17
+          ],
+          "mouth": [
+            45,
+            29,
+            16,
+            10
+          ],
+          "damaging": true,
+          "snap": true
+        },
+        {
+          "body": [
+            18,
+            26,
+            23,
+            16
+          ],
+          "mouth": [
+            44,
+            31,
+            17,
+            13
+          ],
+          "damaging": true,
+          "snap": false
+        }
+      ],
+      "notes": "64x64 rotation authored at native pixels. Body excludes tail. Only snap frame1 closes the mouth. Dive tint is palette-limited."
+    },
+    {
+      "name": "selva_caiman_caida",
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "frames": 4,
+      "fps": 10,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        },
+        {
+          "x": 64,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        },
+        {
+          "x": 128,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        },
+        {
+          "x": 192,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        }
+      ],
+      "group": "Enemies",
+      "hitboxes": [
+        {
+          "body": [
+            17,
+            24,
+            24,
+            19
+          ],
+          "mouth": [
+            42,
+            34,
+            18,
+            15
+          ],
+          "damaging": true,
+          "snap": false
+        },
+        {
+          "body": [
+            16,
+            22,
+            26,
+            23
+          ],
+          "mouth": [
+            40,
+            37,
+            18,
+            18
+          ],
+          "damaging": true,
+          "snap": false
+        },
+        {
+          "body": [
+            15,
+            20,
+            26,
+            26
+          ],
+          "mouth": [
+            37,
+            40,
+            18,
+            19
+          ],
+          "damaging": true,
+          "snap": false
+        },
+        {
+          "body": [
+            15,
+            19,
+            25,
+            28
+          ],
+          "mouth": [
+            33,
+            43,
+            16,
+            19
+          ],
+          "damaging": true,
+          "snap": false
+        }
+      ],
+      "notes": "64x64 rotation authored at native pixels. Body excludes tail. Only snap frame1 closes the mouth. Dive tint is palette-limited."
+    },
+    {
+      "name": "selva_caiman_inmersion",
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "frames": 6,
+      "fps": 10,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        },
+        {
+          "x": 64,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        },
+        {
+          "x": 128,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        },
+        {
+          "x": 192,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        },
+        {
+          "x": 256,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        },
+        {
+          "x": 320,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        }
+      ],
+      "group": "Enemies",
+      "hitboxes": [
+        {
+          "body": [
+            15,
+            19,
+            25,
+            28
+          ],
+          "mouth": [
+            33,
+            44,
+            16,
+            18
+          ],
+          "damaging": false,
+          "snap": false
+        },
+        {
+          "body": [
+            16,
+            19,
+            24,
+            28
+          ],
+          "mouth": [
+            31,
+            45,
+            16,
+            18
+          ],
+          "damaging": false,
+          "snap": false
+        },
+        {
+          "body": [
+            16,
+            19,
+            24,
+            28
+          ],
+          "mouth": [
+            31,
+            45,
+            14,
+            18
+          ],
+          "damaging": false,
+          "snap": false
+        },
+        {
+          "body": [
+            16,
+            19,
+            23,
+            28
+          ],
+          "mouth": [
+            29,
+            46,
+            14,
+            18
+          ],
+          "damaging": false,
+          "snap": false
+        },
+        {
+          "body": [
+            17,
+            19,
+            22,
+            28
+          ],
+          "mouth": [
+            29,
+            46,
+            13,
+            18
+          ],
+          "damaging": false,
+          "snap": false
+        },
+        {
+          "body": [
+            17,
+            19,
+            21,
+            27
+          ],
+          "mouth": [
+            28,
+            46,
+            13,
+            18
+          ],
+          "damaging": false,
+          "snap": false
+        }
+      ],
+      "notes": "64x64 rotation authored at native pixels. Body excludes tail. Only snap frame1 closes the mouth. Dive tint is palette-limited."
+    },
+    {
+      "name": "selva_caiman_nadar",
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "frames": 4,
+      "fps": 10,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        },
+        {
+          "x": 64,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        },
+        {
+          "x": 128,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        },
+        {
+          "x": 192,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        }
+      ],
+      "group": "Enemies",
+      "hitboxes": [
+        {
+          "body": [
+            17,
+            27,
+            25,
+            17
+          ],
+          "mouth": [
+            45,
+            29,
+            16,
+            10
+          ],
+          "damaging": false,
+          "snap": false
+        },
+        {
+          "body": [
+            17,
+            27,
+            25,
+            17
+          ],
+          "mouth": [
+            45,
+            30,
+            16,
+            10
+          ],
+          "damaging": false,
+          "snap": false
+        },
+        {
+          "body": [
+            17,
+            27,
+            25,
+            17
+          ],
+          "mouth": [
+            45,
+            29,
+            16,
+            10
+          ],
+          "damaging": false,
+          "snap": false
+        },
+        {
+          "body": [
+            17,
+            27,
+            25,
+            17
+          ],
+          "mouth": [
+            45,
+            28,
+            16,
+            10
+          ],
+          "damaging": false,
+          "snap": false
+        }
+      ],
+      "notes": "64x64 rotation authored at native pixels. Body excludes tail. Only snap frame1 closes the mouth. Dive tint is palette-limited."
+    },
+    {
+      "name": "selva_heroe_idle",
+      "frameWidth": 48,
+      "frameHeight": 48,
+      "frames": 6,
+      "fps": 9,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 48,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 144,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 192,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 240,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        }
+      ],
+      "group": "Hero",
+      "handPerFrame": [
+        [
+          39,
+          32
+        ],
+        [
+          39,
+          33
+        ],
+        [
+          39,
+          32
+        ],
+        [
+          39,
+          33
+        ],
+        [
+          39,
+          32
+        ],
+        [
+          39,
+          33
+        ]
+      ]
+    },
+    {
+      "name": "selva_heroe_run",
+      "frameWidth": 48,
+      "frameHeight": 48,
+      "frames": 12,
+      "fps": 14,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 48,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 144,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 192,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 240,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 288,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 336,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 384,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 432,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 480,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 528,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        }
+      ],
+      "group": "Hero",
+      "handPerFrame": [
+        [
+          39,
+          32
+        ],
+        [
+          39,
+          34
+        ],
+        [
+          39,
+          36
+        ],
+        [
+          39,
+          37
+        ],
+        [
+          39,
+          36
+        ],
+        [
+          39,
+          34
+        ],
+        [
+          39,
+          32
+        ],
+        [
+          39,
+          30
+        ],
+        [
+          39,
+          28
+        ],
+        [
+          39,
+          27
+        ],
+        [
+          39,
+          28
+        ],
+        [
+          39,
+          29
+        ]
+      ]
+    },
+    {
+      "name": "selva_heroe_jump",
+      "frameWidth": 48,
+      "frameHeight": 48,
+      "frames": 5,
+      "fps": 9,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 48,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 144,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 192,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        }
+      ],
+      "group": "Hero",
+      "handPerFrame": [
+        [
+          39,
+          32
+        ],
+        [
+          39,
+          33
+        ],
+        [
+          39,
+          32
+        ],
+        [
+          39,
+          33
+        ],
+        [
+          39,
+          32
+        ]
+      ]
+    },
+    {
+      "name": "selva_heroe_double_jump",
+      "frameWidth": 48,
+      "frameHeight": 48,
+      "frames": 5,
+      "fps": 9,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 48,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 144,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 192,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        }
+      ],
+      "group": "Hero",
+      "handPerFrame": [
+        [
+          39,
+          32
+        ],
+        [
+          39,
+          33
+        ],
+        [
+          39,
+          32
+        ],
+        [
+          39,
+          33
+        ],
+        [
+          39,
+          32
+        ]
+      ]
+    },
+    {
+      "name": "selva_heroe_land",
+      "frameWidth": 48,
+      "frameHeight": 48,
+      "frames": 3,
+      "fps": 9,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 48,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        }
+      ],
+      "group": "Hero",
+      "handPerFrame": [
+        [
+          39,
+          32
+        ],
+        [
+          39,
+          33
+        ],
+        [
+          39,
+          32
+        ]
+      ]
+    },
+    {
+      "name": "selva_heroe_slide",
+      "frameWidth": 48,
+      "frameHeight": 48,
+      "frames": 4,
+      "fps": 9,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 48,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 144,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        }
+      ],
+      "group": "Hero",
+      "handPerFrame": [
+        [
+          39,
+          32
+        ],
+        [
+          39,
+          33
+        ],
+        [
+          39,
+          32
+        ],
+        [
+          39,
+          33
+        ]
+      ]
+    },
+    {
+      "name": "selva_heroe_burst",
+      "frameWidth": 48,
+      "frameHeight": 48,
+      "frames": 4,
+      "fps": 9,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 48,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 144,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        }
+      ],
+      "group": "Hero",
+      "handPerFrame": [
+        [
+          42,
+          24
+        ],
+        [
+          42,
+          23
+        ],
+        [
+          42,
+          24
+        ],
+        [
+          42,
+          23
+        ]
+      ]
+    },
+    {
+      "name": "selva_heroe_reload",
+      "frameWidth": 48,
+      "frameHeight": 48,
+      "frames": 5,
+      "fps": 9,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 48,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 144,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 192,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        }
+      ],
+      "group": "Hero",
+      "handPerFrame": [
+        [
+          42,
+          24
+        ],
+        [
+          42,
+          23
+        ],
+        [
+          42,
+          24
+        ],
+        [
+          42,
+          23
+        ],
+        [
+          42,
+          24
+        ]
+      ]
+    },
+    {
+      "name": "selva_heroe_hit",
+      "frameWidth": 48,
+      "frameHeight": 48,
+      "frames": 3,
+      "fps": 9,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 48,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        }
+      ],
+      "group": "Hero",
+      "handPerFrame": [
+        [
+          39,
+          32
+        ],
+        [
+          39,
+          33
+        ],
+        [
+          39,
+          32
+        ]
+      ]
+    },
+    {
+      "name": "selva_heroe_grab",
+      "frameWidth": 48,
+      "frameHeight": 48,
+      "frames": 4,
+      "fps": 9,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 48,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 144,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        }
+      ],
+      "group": "Hero",
+      "handPerFrame": [
+        [
+          33,
+          11
+        ],
+        [
+          30,
+          8
+        ],
+        [
+          27,
+          5
+        ],
+        [
+          24,
+          2
+        ]
+      ]
+    },
+    {
+      "name": "selva_heroe_swing",
+      "frameWidth": 48,
+      "frameHeight": 48,
+      "frames": 16,
+      "fps": 9,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 48,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 144,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 192,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 240,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 288,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 336,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 384,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 432,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 480,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 528,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 576,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 624,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 672,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 720,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        }
+      ],
+      "group": "Hero",
+      "handPerFrame": [
+        [
+          24,
+          2
+        ],
+        [
+          24,
+          2
+        ],
+        [
+          24,
+          2
+        ],
+        [
+          24,
+          2
+        ],
+        [
+          24,
+          2
+        ],
+        [
+          24,
+          2
+        ],
+        [
+          24,
+          2
+        ],
+        [
+          24,
+          2
+        ],
+        [
+          24,
+          2
+        ],
+        [
+          24,
+          2
+        ],
+        [
+          24,
+          2
+        ],
+        [
+          24,
+          2
+        ],
+        [
+          24,
+          2
+        ],
+        [
+          24,
+          2
+        ],
+        [
+          24,
+          2
+        ],
+        [
+          24,
+          2
+        ]
+      ]
+    },
+    {
+      "name": "selva_heroe_release",
+      "frameWidth": 48,
+      "frameHeight": 48,
+      "frames": 5,
+      "fps": 9,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 48,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 144,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 192,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        }
+      ],
+      "group": "Hero",
+      "handPerFrame": [
+        [
+          26,
+          3
+        ],
+        [
+          29,
+          6
+        ],
+        [
+          32,
+          9
+        ],
+        [
+          35,
+          12
+        ],
+        [
+          38,
+          15
+        ]
+      ]
+    },
+    {
+      "name": "selva_heroe_regrab",
+      "frameWidth": 48,
+      "frameHeight": 48,
+      "frames": 4,
+      "fps": 9,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 48,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 144,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        }
+      ],
+      "group": "Hero",
+      "handPerFrame": [
+        [
+          33,
+          11
+        ],
+        [
+          30,
+          8
+        ],
+        [
+          27,
+          5
+        ],
+        [
+          24,
+          2
+        ]
+      ]
+    },
+    {
+      "name": "selva_heroe_fall",
+      "frameWidth": 48,
+      "frameHeight": 48,
+      "frames": 4,
+      "fps": 9,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 48,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 144,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        }
+      ],
+      "group": "Hero",
+      "handPerFrame": [
+        [
+          39,
+          32
+        ],
+        [
+          39,
+          33
+        ],
+        [
+          39,
+          32
+        ],
+        [
+          39,
+          33
+        ]
+      ]
+    },
+    {
+      "name": "selva_heroe_climb",
+      "frameWidth": 48,
+      "frameHeight": 48,
+      "frames": 6,
+      "fps": 9,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 48,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 144,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 192,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 240,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        }
+      ],
+      "group": "Hero",
+      "handPerFrame": [
+        [
+          39,
+          32
+        ],
+        [
+          39,
+          33
+        ],
+        [
+          39,
+          32
+        ],
+        [
+          39,
+          33
+        ],
+        [
+          39,
+          32
+        ],
+        [
+          39,
+          33
+        ]
+      ]
+    },
+    {
+      "name": "selva_heroe_victory",
+      "frameWidth": 48,
+      "frameHeight": 48,
+      "frames": 6,
+      "fps": 9,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 48,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 144,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 192,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 240,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        }
+      ],
+      "group": "Hero",
+      "handPerFrame": [
+        [
+          39,
+          32
+        ],
+        [
+          39,
+          33
+        ],
+        [
+          39,
+          32
+        ],
+        [
+          39,
+          33
+        ],
+        [
+          39,
+          32
+        ],
+        [
+          39,
+          33
+        ]
+      ]
+    },
+    {
+      "name": "selva_heroe_death",
+      "frameWidth": 48,
+      "frameHeight": 48,
+      "frames": 6,
+      "fps": 9,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 48,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 144,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 192,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 240,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        }
+      ],
+      "group": "Hero",
+      "handPerFrame": [
+        [
+          39,
+          32
+        ],
+        [
+          39,
+          33
+        ],
+        [
+          39,
+          32
+        ],
+        [
+          39,
+          33
+        ],
+        [
+          39,
+          32
+        ],
+        [
+          39,
+          33
+        ]
+      ]
+    },
+    {
+      "name": "selva_liana_curva",
+      "frameWidth": 144,
+      "frameHeight": 104,
+      "frames": 17,
+      "fps": 8,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 144,
+          "height": 104
+        },
+        {
+          "x": 144,
+          "y": 0,
+          "width": 144,
+          "height": 104
+        },
+        {
+          "x": 288,
+          "y": 0,
+          "width": 144,
+          "height": 104
+        },
+        {
+          "x": 432,
+          "y": 0,
+          "width": 144,
+          "height": 104
+        },
+        {
+          "x": 576,
+          "y": 0,
+          "width": 144,
+          "height": 104
+        },
+        {
+          "x": 720,
+          "y": 0,
+          "width": 144,
+          "height": 104
+        },
+        {
+          "x": 864,
+          "y": 0,
+          "width": 144,
+          "height": 104
+        },
+        {
+          "x": 1008,
+          "y": 0,
+          "width": 144,
+          "height": 104
+        },
+        {
+          "x": 1152,
+          "y": 0,
+          "width": 144,
+          "height": 104
+        },
+        {
+          "x": 1296,
+          "y": 0,
+          "width": 144,
+          "height": 104
+        },
+        {
+          "x": 1440,
+          "y": 0,
+          "width": 144,
+          "height": 104
+        },
+        {
+          "x": 1584,
+          "y": 0,
+          "width": 144,
+          "height": 104
+        },
+        {
+          "x": 1728,
+          "y": 0,
+          "width": 144,
+          "height": 104
+        },
+        {
+          "x": 1872,
+          "y": 0,
+          "width": 144,
+          "height": 104
+        },
+        {
+          "x": 2016,
+          "y": 0,
+          "width": 144,
+          "height": 104
+        },
+        {
+          "x": 2160,
+          "y": 0,
+          "width": 144,
+          "height": 104
+        },
+        {
+          "x": 2304,
+          "y": 0,
+          "width": 144,
+          "height": 104
+        }
+      ],
+      "group": "Traversal",
+      "anchor": [
+        64,
+        3
+      ],
+      "gripPerFrame": [
+        [
+          -4,
+          49
+        ],
+        [
+          2,
+          57
+        ],
+        [
+          9,
+          64
+        ],
+        [
+          17,
+          70
+        ],
+        [
+          26,
+          75
+        ],
+        [
+          35,
+          80
+        ],
+        [
+          44,
+          83
+        ],
+        [
+          54,
+          84
+        ],
+        [
+          64,
+          85
+        ],
+        [
+          74,
+          84
+        ],
+        [
+          84,
+          83
+        ],
+        [
+          93,
+          80
+        ],
+        [
+          102,
+          75
+        ],
+        [
+          111,
+          70
+        ],
+        [
+          119,
+          64
+        ],
+        [
+          126,
+          57
+        ],
+        [
+          132,
+          49
+        ]
+      ],
+      "angles": [
+        -56,
+        -49,
+        -42,
+        -35,
+        -28,
+        -21,
+        -14,
+        -7,
+        0,
+        7,
+        14,
+        21,
+        28,
+        35,
+        42,
+        49,
+        56
+      ],
+      "notes": "Pose bank sampled by pendulum angle. Runtime bend follows angular inertia; no rigid rod rotation."
+    },
+    {
+      "name": "selva_boss_chullachaqui_idle",
+      "frameWidth": 96,
+      "frameHeight": 96,
+      "frames": 6,
+      "fps": 12,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 192,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 288,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 384,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 480,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        }
+      ],
+      "group": "Combat"
+    },
+    {
+      "name": "selva_boss_chullachaqui_andar",
+      "frameWidth": 96,
+      "frameHeight": 96,
+      "frames": 6,
+      "fps": 12,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 192,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 288,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 384,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 480,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        }
+      ],
+      "group": "Combat"
+    },
+    {
+      "name": "selva_boss_chullachaqui_despertar",
+      "frameWidth": 96,
+      "frameHeight": 96,
+      "frames": 6,
+      "fps": 12,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 192,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 288,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 384,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 480,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        }
+      ],
+      "group": "Combat"
+    },
+    {
+      "name": "selva_boss_chullachaqui_anticipar",
+      "frameWidth": 96,
+      "frameHeight": 96,
+      "frames": 6,
+      "fps": 12,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 192,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 288,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 384,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 480,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        }
+      ],
+      "group": "Combat"
+    },
+    {
+      "name": "selva_boss_chullachaqui_golpe",
+      "frameWidth": 96,
+      "frameHeight": 96,
+      "frames": 6,
+      "fps": 12,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 192,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 288,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 384,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 480,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        }
+      ],
+      "group": "Combat"
+    },
+    {
+      "name": "selva_boss_chullachaqui_carga",
+      "frameWidth": 96,
+      "frameHeight": 96,
+      "frames": 6,
+      "fps": 12,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 192,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 288,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 384,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 480,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        }
+      ],
+      "group": "Combat"
+    },
+    {
+      "name": "selva_boss_chullachaqui_hit",
+      "frameWidth": 96,
+      "frameHeight": 96,
+      "frames": 6,
+      "fps": 12,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 192,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 288,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 384,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 480,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        }
+      ],
+      "group": "Combat"
+    },
+    {
+      "name": "selva_boss_chullachaqui_derrota",
+      "frameWidth": 96,
+      "frameHeight": 96,
+      "frames": 6,
+      "fps": 12,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 192,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 288,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 384,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        },
+        {
+          "x": 480,
+          "y": 0,
+          "width": 96,
+          "height": 96
+        }
+      ],
+      "group": "Combat"
+    },
+    {
+      "name": "selva_heroe_punch",
+      "frameWidth": 48,
+      "frameHeight": 48,
+      "frames": 6,
+      "fps": 12,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 48,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 144,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 192,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 240,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        }
+      ],
+      "group": "Combat"
+    },
+    {
+      "name": "selva_heroe_kick",
+      "frameWidth": 48,
+      "frameHeight": 48,
+      "frames": 6,
+      "fps": 12,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 48,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 144,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 192,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 240,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        }
+      ],
+      "group": "Combat"
+    },
+    {
+      "name": "selva_heroe_uppercut",
+      "frameWidth": 48,
+      "frameHeight": 48,
+      "frames": 6,
+      "fps": 12,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 48,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 144,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 192,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 240,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        }
+      ],
+      "group": "Combat"
+    },
+    {
+      "name": "selva_heroe_guard",
+      "frameWidth": 48,
+      "frameHeight": 48,
+      "frames": 6,
+      "fps": 12,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 48,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 144,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 192,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 240,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        }
+      ],
+      "group": "Combat"
+    },
+    {
+      "name": "selva_fx_raiz_aviso",
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "frames": 6,
+      "fps": 12,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        },
+        {
+          "x": 64,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        },
+        {
+          "x": 128,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        },
+        {
+          "x": 192,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        },
+        {
+          "x": 256,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        },
+        {
+          "x": 320,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        }
+      ],
+      "group": "Combat"
+    },
+    {
+      "name": "selva_fx_raiz_erupcion",
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "frames": 6,
+      "fps": 12,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        },
+        {
+          "x": 64,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        },
+        {
+          "x": 128,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        },
+        {
+          "x": 192,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        },
+        {
+          "x": 256,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        },
+        {
+          "x": 320,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        }
+      ],
+      "group": "Combat"
+    },
+    {
+      "name": "selva_fx_raiz_amarre",
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "frames": 6,
+      "fps": 12,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        },
+        {
+          "x": 64,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        },
+        {
+          "x": 128,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        },
+        {
+          "x": 192,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        },
+        {
+          "x": 256,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        },
+        {
+          "x": 320,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        }
+      ],
+      "group": "Combat"
+    },
+    {
+      "name": "selva_fx_maldicion",
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "frames": 6,
+      "fps": 12,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        },
+        {
+          "x": 64,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        },
+        {
+          "x": 128,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        },
+        {
+          "x": 192,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        },
+        {
+          "x": 256,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        },
+        {
+          "x": 320,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        }
+      ],
+      "group": "Combat"
+    },
+    {
+      "name": "selva_fx_eco",
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "frames": 6,
+      "fps": 12,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        },
+        {
+          "x": 64,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        },
+        {
+          "x": 128,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        },
+        {
+          "x": 192,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        },
+        {
+          "x": 256,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        },
+        {
+          "x": 320,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        }
+      ],
+      "group": "Combat"
+    },
+    {
+      "name": "selva_fx_impacto_puno",
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "frames": 6,
+      "fps": 12,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        },
+        {
+          "x": 64,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        },
+        {
+          "x": 128,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        },
+        {
+          "x": 192,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        },
+        {
+          "x": 256,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        },
+        {
+          "x": 320,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        }
+      ],
+      "group": "Combat"
+    },
+    {
+      "name": "selva_esbirro_eco_idle",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 6,
+      "fps": 12,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 32,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 64,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 128,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 160,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        }
+      ],
+      "group": "Combat"
+    },
+    {
+      "name": "selva_esbirro_eco_caminar",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 6,
+      "fps": 12,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 32,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 64,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 128,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 160,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        }
+      ],
+      "group": "Combat"
+    },
+    {
+      "name": "selva_esbirro_eco_hit",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 6,
+      "fps": 12,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 32,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 64,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 128,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 160,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        }
+      ],
+      "group": "Combat"
+    },
+    {
+      "name": "selva_esbirro_eco_derrota",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 6,
+      "fps": 12,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 32,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 64,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 128,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "x": 160,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        }
+      ],
+      "group": "Combat"
+    },
+    {
+      "name": "selva_esbirro_ecopiedra_idle",
+      "frameWidth": 32,
+      "frameHeight": 40,
+      "frames": 6,
+      "fps": 10,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 32,
+          "height": 40
+        },
+        {
+          "x": 32,
+          "y": 0,
+          "width": 32,
+          "height": 40
+        },
+        {
+          "x": 64,
+          "y": 0,
+          "width": 32,
+          "height": 40
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 32,
+          "height": 40
+        },
+        {
+          "x": 128,
+          "y": 0,
+          "width": 32,
+          "height": 40
+        },
+        {
+          "x": 160,
+          "y": 0,
+          "width": 32,
+          "height": 40
+        }
+      ],
+      "group": "Combat"
+    },
+    {
+      "name": "selva_esbirro_ecopiedra_caminar",
+      "frameWidth": 32,
+      "frameHeight": 40,
+      "frames": 6,
+      "fps": 10,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 32,
+          "height": 40
+        },
+        {
+          "x": 32,
+          "y": 0,
+          "width": 32,
+          "height": 40
+        },
+        {
+          "x": 64,
+          "y": 0,
+          "width": 32,
+          "height": 40
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 32,
+          "height": 40
+        },
+        {
+          "x": 128,
+          "y": 0,
+          "width": 32,
+          "height": 40
+        },
+        {
+          "x": 160,
+          "y": 0,
+          "width": 32,
+          "height": 40
+        }
+      ],
+      "group": "Combat"
+    },
+    {
+      "name": "selva_esbirro_ecopiedra_hit",
+      "frameWidth": 32,
+      "frameHeight": 40,
+      "frames": 6,
+      "fps": 10,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 32,
+          "height": 40
+        },
+        {
+          "x": 32,
+          "y": 0,
+          "width": 32,
+          "height": 40
+        },
+        {
+          "x": 64,
+          "y": 0,
+          "width": 32,
+          "height": 40
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 32,
+          "height": 40
+        },
+        {
+          "x": 128,
+          "y": 0,
+          "width": 32,
+          "height": 40
+        },
+        {
+          "x": 160,
+          "y": 0,
+          "width": 32,
+          "height": 40
+        }
+      ],
+      "group": "Combat"
+    },
+    {
+      "name": "selva_esbirro_ecopiedra_derrota",
+      "frameWidth": 32,
+      "frameHeight": 40,
+      "frames": 6,
+      "fps": 10,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 32,
+          "height": 40
+        },
+        {
+          "x": 32,
+          "y": 0,
+          "width": 32,
+          "height": 40
+        },
+        {
+          "x": 64,
+          "y": 0,
+          "width": 32,
+          "height": 40
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 32,
+          "height": 40
+        },
+        {
+          "x": 128,
+          "y": 0,
+          "width": 32,
+          "height": 40
+        },
+        {
+          "x": 160,
+          "y": 0,
+          "width": 32,
+          "height": 40
+        }
+      ],
+      "group": "Combat"
+    },
+    {
+      "name": "selva_esbirro_ecoinca_idle",
+      "frameWidth": 32,
+      "frameHeight": 40,
+      "frames": 6,
+      "fps": 10,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 32,
+          "height": 40
+        },
+        {
+          "x": 32,
+          "y": 0,
+          "width": 32,
+          "height": 40
+        },
+        {
+          "x": 64,
+          "y": 0,
+          "width": 32,
+          "height": 40
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 32,
+          "height": 40
+        },
+        {
+          "x": 128,
+          "y": 0,
+          "width": 32,
+          "height": 40
+        },
+        {
+          "x": 160,
+          "y": 0,
+          "width": 32,
+          "height": 40
+        }
+      ],
+      "group": "Combat"
+    },
+    {
+      "name": "selva_esbirro_ecoinca_caminar",
+      "frameWidth": 32,
+      "frameHeight": 40,
+      "frames": 6,
+      "fps": 10,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 32,
+          "height": 40
+        },
+        {
+          "x": 32,
+          "y": 0,
+          "width": 32,
+          "height": 40
+        },
+        {
+          "x": 64,
+          "y": 0,
+          "width": 32,
+          "height": 40
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 32,
+          "height": 40
+        },
+        {
+          "x": 128,
+          "y": 0,
+          "width": 32,
+          "height": 40
+        },
+        {
+          "x": 160,
+          "y": 0,
+          "width": 32,
+          "height": 40
+        }
+      ],
+      "group": "Combat"
+    },
+    {
+      "name": "selva_esbirro_ecoinca_hit",
+      "frameWidth": 32,
+      "frameHeight": 40,
+      "frames": 6,
+      "fps": 10,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 32,
+          "height": 40
+        },
+        {
+          "x": 32,
+          "y": 0,
+          "width": 32,
+          "height": 40
+        },
+        {
+          "x": 64,
+          "y": 0,
+          "width": 32,
+          "height": 40
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 32,
+          "height": 40
+        },
+        {
+          "x": 128,
+          "y": 0,
+          "width": 32,
+          "height": 40
+        },
+        {
+          "x": 160,
+          "y": 0,
+          "width": 32,
+          "height": 40
+        }
+      ],
+      "group": "Combat"
+    },
+    {
+      "name": "selva_esbirro_ecoinca_derrota",
+      "frameWidth": 32,
+      "frameHeight": 40,
+      "frames": 6,
+      "fps": 10,
+      "loop": false,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 32,
+          "height": 40
+        },
+        {
+          "x": 32,
+          "y": 0,
+          "width": 32,
+          "height": 40
+        },
+        {
+          "x": 64,
+          "y": 0,
+          "width": 32,
+          "height": 40
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 32,
+          "height": 40
+        },
+        {
+          "x": 128,
+          "y": 0,
+          "width": 32,
+          "height": 40
+        },
+        {
+          "x": 160,
+          "y": 0,
+          "width": 32,
+          "height": 40
+        }
+      ],
+      "group": "Combat"
+    },
+    {
+      "name": "selva_museo_ceramica_v3",
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "frames": 1,
+      "fps": 8,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        }
+      ],
+      "group": "Museum",
+      "reference": "https://americanindian.si.edu/exhibitions/infinityofnations/amazon/181949.html",
+      "notes": "Native interpretation; not a facsimile or universal ceremonial attribution."
+    },
+    {
+      "name": "selva_museo_flauta_v3",
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "frames": 1,
+      "fps": 8,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        }
+      ],
+      "group": "Museum",
+      "reference": "https://americanindian.si.edu/collections-search/object/NMAI_218689",
+      "notes": "Native interpretation; not a facsimile or universal ceremonial attribution."
+    },
+    {
+      "name": "selva_museo_textil_v3",
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "frames": 1,
+      "fps": 8,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        }
+      ],
+      "group": "Museum",
+      "reference": "https://www.metmuseum.org/art/collection/search/829475",
+      "notes": "Native interpretation; not a facsimile or universal ceremonial attribution."
+    },
+    {
+      "name": "selva_museo_sonaja_v3",
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "frames": 1,
+      "fps": 8,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        }
+      ],
+      "group": "Museum",
+      "reference": "https://hanaqpacha.patternbyetsy.com/listing/1747624101/shipibo-gourd-rattle-from-the-peruvian",
+      "notes": "Native interpretation; not a facsimile or universal ceremonial attribution."
+    },
+    {
+      "name": "selva_heroe_baile",
+      "frameWidth": 48,
+      "frameHeight": 48,
+      "frames": 8,
+      "fps": 8,
+      "loop": true,
+      "ppu": 32,
+      "pivot": [
+        0,
+        1
+      ],
+      "rectsUnity": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 48,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 144,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 192,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 240,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 288,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "x": 336,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        }
+      ],
+      "group": "Hero"
+    }
+  ],
+  "encountersRevision": 3
+}

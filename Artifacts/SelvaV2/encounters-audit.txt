@@ -1,0 +1,6 @@
+2026-10-02T16:06:34.5486754-05:00
+CuevaGuardian seconds=60.05551
+Chullachaqui seconds=60.05551
+mini 0: cleared=True dead=False time=59.99724 boss=0 remaining=0 cursed=False health=5
+mini 1: cleared=True dead=False time=59.99724 boss=0 remaining=0 cursed=True health=5
+Completed model audit. Does not certify visual/gameplay balance.

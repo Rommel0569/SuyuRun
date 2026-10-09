@@ -1,0 +1,24 @@
+{
+  "name": "selva_decor_roca_musgo",
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 1,
+  "fps": 5,
+  "loop": true,
+  "ppu": 32,
+  "pivot": [
+    0,
+    1
+  ],
+  "rectsUnity": [
+    {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64
+    }
+  ],
+  "group": "Props",
+  "factor": 1,
+  "seamlessX": false
+}

@@ -14,7 +14,7 @@ namespace SuyuRun
         // hero sprite's squash during slide must match this exact ratio, not an arbitrary factor,
         // or the visible silhouette can still poke into a duck obstacle even though the hitbox
         // itself already cleared it (see UpdateHeroSprite).
-        const float HeroStandHeight = 1.06f, HeroSlideHeight = .48f;
+        const float HeroStandHeight = 1.06f*TaytaArt.WorldScale, HeroSlideHeight = .48f*TaytaArt.WorldScale;
         [SerializeField] RunnerCourse course;
         [SerializeField] bool legacyPrototype;
         public void ConfigureLegacy(RunnerCourse original){legacyPrototype=true;course=original;}
@@ -34,6 +34,7 @@ namespace SuyuRun
         SpriteRenderer heroRenderer;
         float heroFrameW, heroFrameH;
         Sprite[] heroIdle, heroRun, heroJump, heroLand, heroSlide, heroRafaga;
+        readonly RunnerAirClock coastAirClock=new RunnerAirClock();
         Camera cam;
         Material material;
         AudioSource music, effects;
@@ -120,10 +121,19 @@ namespace SuyuRun
             if(all==null||all.Length==0){Debug.LogWarning("SuyuRun: costa_heroe sprite sheet not found in Resources; hero has no visual.",this);return;}
             heroIdle=HeroFrames(all,"idle",4);heroRun=HeroFrames(all,"run",8);heroJump=HeroFrames(all,"jump",3);
             heroLand=HeroFrames(all,"land",2);heroSlide=HeroFrames(all,"slide",3);heroRafaga=HeroFrames(all,"rafaga",4);
+            heroIdle=TaytaArt.Frames("costa","idle",4)??heroIdle;
+            heroRun=TaytaArt.Get("costa","run")?.frames??heroRun;
+            // Controller indexes takeoff/apex/descent, not a full timeline.
+            var taytaJump=TaytaArt.Get("costa","jump");
+            if(taytaJump!=null)heroJump=new[]{taytaJump.frames[0],taytaJump.frames[Mathf.Min(3,taytaJump.frames.Length-1)],taytaJump.frames[taytaJump.frames.Length-1]};
+            heroLand=TaytaArt.Frames("costa","land",2)??heroLand;
+            heroSlide=TaytaArt.Get("costa","slide")?.frames??heroSlide;
+            heroRafaga=TaytaArt.Frames("costa","burst",4)??heroRafaga;
             var spriteGo=new GameObject("Costa pixel hero");spriteGo.transform.SetParent(hero,false);
             // Sprite pivot is the top-left pixel (ART_BIBLE.md convention); offset so the sprite's
             // bottom-center lands on the hero root, which AnimateHero positions at (x, feet).
             heroFrameH=heroIdle[0].rect.height/heroIdle[0].pixelsPerUnit;heroFrameW=heroIdle[0].rect.width/heroIdle[0].pixelsPerUnit;
+            if(RefactorActorArt.IsRegistered(heroIdle[0])){heroFrameH=1.5f;heroFrameW=1.5f;}
             spriteGo.transform.localPosition=new Vector3(-heroFrameW/2f,heroFrameH,0);
             heroRenderer=spriteGo.AddComponent<SpriteRenderer>();heroRenderer.sortingOrder=10;heroRenderer.sprite=heroIdle[0];
         }
@@ -141,6 +151,7 @@ namespace SuyuRun
             if(obstacleSheet==null)obstacleSheet=Resources.LoadAll<Sprite>("costa_obstaculos");
             var frames=new Sprite[count];
             foreach(var s in obstacleSheet)for(int i=0;i<count;i++)if(s.name==baseName+"_"+i)frames[i]=s;
+            for(int i=0;i<count;i++)if(frames[i])frames[i]=RefactorActorArt.Frame(baseName,0,i,frames[i],count);
             return frames;
         }
         // Centers a top-left-pivot sprite (ART_BIBLE.md convention) on its parent's local origin,
@@ -180,7 +191,7 @@ namespace SuyuRun
         {
             float ground=RunnerTerrain.TopAt(course,x);
             if(float.IsNegativeInfinity(ground))ground=Ground;
-            float y=kind==1?ground+1.3f:kind==3?ground+.7f:ground+.43f;
+            float y=kind==1?ground+GameScale.DuckClearance/32+.25f:kind==3?ground+.7f:ground+.43f;
             if(!float.IsNaN(overrideY))y=overrideY;
             if(kind==3)foreach(var hazard in items)
                 if(hazard.kind==0&&Mathf.Abs(hazard.x-x)<1.8f)y=Mathf.Max(y,hazard.y+hazard.height*.5f+.85f);
@@ -221,14 +232,14 @@ namespace SuyuRun
             lastFailure="none";
             distance=resumeCheckpoint?checkpoint:0; feet=Ground; velocity=0; slide=burst=buffer=0; energy=100;
             if(menuMusic)menuMusic.Stop();
-            grounded=true;airCharge=false;coyote=0;landingPulse=impulsePulse=0;
+            grounded=true;airCharge=true;coyote=0;landingPulse=impulsePulse=0;
             if(!resumeCheckpoint){smokeJumps=smokeSlides=smokeBursts=smokeAirJumps=smokeLandings=smokeOrbs=smokePads=0;}
             else foreach(var it in items)if((it.kind==4||it.kind==5)&&it.x>=checkpoint)it.taken=false;
             if(!resumeCheckpoint) { coins=score=0; checkpoint=0; foreach(var it in items) it.taken=false; }
             ResetCoastalEncounters(resumeCheckpoint);
             foreach(var shot in shots) if(shot) Destroy(shot.gameObject); shots.Clear();
             StartMusic(distance/Speed);
-            endingPhase=0;endingTimer=0;if(heroRenderer)heroRenderer.enabled=true;
+            endingPhase=0;endingTimer=0;if(heroRenderer){heroRenderer.enabled=true;heroRenderer.color=Color.white;RunnerPortalIngress.Apply(heroRenderer,Vector3.zero,0);}
             mode=Mode.Running; feedback="¡Sigue el pulso!"; feedbackUntil=Time.unscaledTime+2;
         }
         void Update()
@@ -237,11 +248,15 @@ namespace SuyuRun
             // Recreate transient PCM after an Editor hot reload or asset unload.
             if(!song){LoadMusic();if(mode==Mode.Running)StartMusic(distance/Speed);}
             var k=Keyboard.current; var m=Mouse.current; var pad=Gamepad.current;
+            if(AutomatedSmokeTest){k=null;m=null;pad=null;}
             bool jump=(k!=null&&k.spaceKey.wasPressedThisFrame)||(m!=null&&m.leftButton.wasPressedThisFrame)||(pad!=null&&pad.buttonSouth.wasPressedThisFrame);
             bool duck=k!=null&&(k.sKey.isPressed||k.downArrowKey.isPressed)||pad!=null&&pad.buttonEast.isPressed;
-            bool fire=k!=null&&k.eKey.wasPressedThisFrame||m!=null&&m.rightButton.wasPressedThisFrame||pad!=null&&pad.rightTrigger.wasPressedThisFrame;
-            if(AutomatedSmokeTest)
+            bool fire=k!=null&&k.eKey.isPressed||m!=null&&m.rightButton.isPressed||pad!=null&&pad.rightTrigger.isPressed;
+            void DiagnosticInput()
             {
+                // Diagnostic input must be isolated from keys/mouse used in other apps.
+                // Otherwise a background QA run silently mixes human input with its pilot.
+                jump=false;duck=false;fire=false;
                 if(mode==Mode.Menu)Begin();
                 foreach(var obstacle in items)
                 {
@@ -253,9 +268,10 @@ namespace SuyuRun
                 }
                 foreach(var p in course.platforms)if(p.x-distance<(feet>Ground+.1f?4.7f:2.8f)&&p.x-distance>1.1f&&feet<Ground+p.elevation-.05f&&grounded)jump=true;
                 foreach(var gap in course.gaps)if(gap.x-distance<1.6f&&gap.x-distance>0&&grounded)jump=true;
-                foreach(var bird in birds)if(!bird.defeated&&bird.x-distance<3.4f&&bird.x-distance>1.5f&&grounded&&burst<=0)jump=true;
+                foreach(var bird in birds)if(!bird.defeated&&bird.x-distance<3.4f&&bird.x-distance>.45f&&grounded&&burst<=0)jump=true;
                 if(airCharge&&!grounded&&velocity<3)jump=true;
             }
+            if(AutomatedSmokeTest)DiagnosticInput();
             // Latch the press into `buffer` the instant it happens, at real Update() cadence -
             // distance/physics below only advance in chunks of AudioSettings.dspTime, which ticks
             // once per audio buffer (~21ms) rather than every rendered frame, so a press landing in
@@ -280,6 +296,7 @@ namespace SuyuRun
                 while(remaining>.000001f&&mode==Mode.Running)
                 {
                 dt=Mathf.Min(remaining,RunnerMotion.MaxStep);remaining-=dt;
+                if(AutomatedSmokeTest){DiagnosticInput();if(jump)buffer=.13f;}
                 float previous=distance;distance+=dt*Speed;
                 grounded=grounded&&RunnerTerrain.Landing(course,distance,feet,feet-.03f,out float support)&&Mathf.Abs(feet-support)<.035f;
                 coyote=grounded?.09f:Mathf.Max(0,coyote-dt);
@@ -295,15 +312,16 @@ namespace SuyuRun
                 if(RunnerTerrain.Landing(course,distance,oldFeet,feet,out float surface))
                 {
                     if(!grounded&&velocity<-1){landingPulse=.2f;if(surface>Ground+.1f)smokeLandings++;}
-                    feet=surface;velocity=0;grounded=true;airCharge=false;
+                    feet=surface;velocity=0;grounded=true;airCharge=true;
                 }
                 else grounded=false;
                 if(RunnerTerrain.HitsWall(course,previous,distance,feet)||feet<Ground-4){lastFailure="platform wall or fall at "+distance;mode=Mode.Dead;music.Pause();Beep(100,.25f);}
                 float oldSlide=slide;slide=duck&&grounded?1:0;if(slide>0&&oldSlide==0)smokeSlides++;
-                if(fire&&energy>=100) { burst=3+upgradeRafaga;energy=0; nextShot=0; smokeBursts++; Judge(); }
-                fire=false;
-                energy=Mathf.Min(100,energy+dt*5); burst=Mathf.Max(0,burst-dt);
-                if(burst>0) { nextShot-=dt; if(nextShot<=0) { nextShot=.12f; shots.Add(Rect("Light pulse",null,-2.4f,feet+.55f,.45f,.1f,cream,20)); Beep(980,.025f); } }
+                bool shooting=fire&&energy>0;
+                if(shooting&&burst<=0){nextShot=0;smokeBursts++;Judge();}
+                burst=shooting?dt+.001f:0;
+                energy=Mathf.Clamp(energy+(shooting?-100f/(3+upgradeRafaga):fire?0:5)*dt,0,100);
+                if(burst>0) { nextShot-=dt; if(nextShot<=0) { nextShot=.12f; shots.Add(Rect("Light pulse",null,-2.4f,feet+.55f,.45f,.1f,cream,20)); RunnerShotAudio.Play(gameObject); } }
                 for(int i=shots.Count-1;i>=0;i--) { shots[i].position+=Vector3.right*23*dt; if(shots[i].position.x>13) { Destroy(shots[i].gameObject);shots.RemoveAt(i); } }
                 // Duck obstacles only need the ground-slide hitbox reduction while grounded on it,
                 // not while airborne - but several duck bars sit right after a step-up platform
@@ -320,7 +338,7 @@ namespace SuyuRun
                     if(it.taken)continue;
                     // Coin-magnet shop upgrade widens the coin pickup box only (other kinds unaffected).
                     float magnet=it.kind==3?upgradeIman*.4f:0;
-                    bool overlap=it.x-it.width/2-magnet < distance+.33f+magnet && it.x+it.width/2+magnet>previous-.33f-magnet && feet<it.y+it.height/2+magnet && feet+height>it.y-it.height/2-magnet;
+                    bool overlap=it.x-it.width/2-magnet < distance+.33f*TaytaArt.WorldScale+magnet && it.x+it.width/2+magnet>previous-.33f*TaytaArt.WorldScale-magnet && feet<it.y+it.height/2+magnet && feet+height>it.y-it.height/2-magnet;
                     if(overlap&&it.kind==0)
                     {
                         float intersectionHeight=Mathf.Clamp01((feet-(it.y-it.height/2))/it.height);
@@ -333,7 +351,7 @@ namespace SuyuRun
                 float candidate=Mathf.Floor(distance/(Speed*course.checkpointSeconds))*Speed*course.checkpointSeconds;
                 bool combatSafe=true;foreach(var bird in birds)if(!bird.defeated&&Mathf.Abs(bird.x-candidate)<6)combatSafe=false;
                 if(candidate>checkpoint&&combatSafe&&RunnerTerrain.SafeCheckpoint(course,candidate))checkpoint=candidate;
-                if(distance>=Duration*Speed&&mode==Mode.Running&&!legacyPrototype) { mode=Mode.Ending;endingPhase=0;endingTimer=0;music.Stop(); }
+                if(distance>=Duration*Speed&&mode==Mode.Running&&!legacyPrototype) { distance=Duration*Speed;feet=Ground;velocity=0;slide=0;mode=Mode.Ending;endingPhase=0;endingTimer=0;music.Stop(); }
                 else if(distance>=Duration*Speed&&mode==Mode.Running) { mode=Mode.Complete;music.Stop();bank+=coins;best=Mathf.Max(best,score);if(!AutomatedSmokeTest){PlayerPrefs.SetInt("SuyuRun.Prototype.Bank",bank);PlayerPrefs.SetInt("SuyuRun.Prototype.Best",best);PlayerPrefs.Save();} }
                 }
             }
@@ -355,7 +373,7 @@ namespace SuyuRun
         }
         void AnimateHero()
         {
-            float t=mode==Mode.Running?distance*2:Time.time*2;
+            float t=mode==Mode.Running?GameScale.GaitClock(distance*GameScale.PixelsPerWorldUnit):Time.time;
             hero.position=new Vector3(-3,feet,0);
             bool run=mode==Mode.Running;
             landingPulse=Mathf.Max(0,landingPulse-Time.deltaTime);impulsePulse=Mathf.Max(0,impulsePulse-Time.deltaTime);
@@ -374,18 +392,24 @@ namespace SuyuRun
         void UpdateHeroSprite(float t,bool run)
         {
             if(!heroRenderer||heroIdle==null)return;
-            if(mode==Mode.Ending&&heroLogro!=null&&heroLogro.Length>0)
+            if((mode==Mode.Ending||mode==Mode.Complete)&&heroLogro!=null&&heroLogro.Length>0)
             {
                 int logroIndex=endingPhase==0?Mathf.Clamp(Mathf.FloorToInt(endingTimer*3f),0,heroLogro.Length-1):heroLogro.Length-1;
                 if(heroLogro[logroIndex])heroRenderer.sprite=heroLogro[logroIndex];
                 return;
             }
             Sprite[] frames;int index;float cycle;
-            if(!grounded){frames=heroJump;index=velocity>1f?1:velocity<-1f?2:0;}
+            float airAge=coastAirClock.Age(grounded,airCharge?1:2,-velocity,distance/Speed);
+            if(!grounded)
+            {
+                string state=velocity<0?"fall":airCharge?"jump":"double_jump";
+                var airborne=TaytaArt.Frame("costa",state,airAge);
+                frames=airborne?new[]{airborne}:heroJump;index=airborne?0:velocity>1f?1:velocity<-1f?2:0;
+            }
             else if(slide>0){frames=heroSlide;cycle=Mathf.Repeat(t*.5f,1f);index=Mathf.Clamp(Mathf.FloorToInt(cycle*heroSlide.Length),0,heroSlide.Length-1);}
-            else if(burst>0){frames=heroRafaga;cycle=Mathf.Repeat(t*.6f,1f);index=Mathf.Clamp(Mathf.FloorToInt(cycle*heroRafaga.Length),0,heroRafaga.Length-1);}
+            else if(burst>0){frames=run?heroRun:heroRafaga;float fps=run?(TaytaArt.Get("costa","run")?.spec.fps??14):heroRafaga.Length*.6f;index=Mathf.FloorToInt(t*fps)%frames.Length;}
             else if(landingPulse>.08f){frames=heroLand;index=landingPulse>.15f?0:1;}
-            else if(run&&grounded){frames=heroRun;cycle=Mathf.Repeat(t*.35f,1f);index=Mathf.Clamp(Mathf.FloorToInt(cycle*heroRun.Length),0,heroRun.Length-1);}
+            else if(run&&grounded){frames=heroRun;var sheet=TaytaArt.Get("costa","run");float fps=sheet!=null?sheet.spec.fps:14;index=Mathf.FloorToInt(t*fps)%heroRun.Length;}
             else{frames=heroIdle;cycle=Mathf.Repeat(t*.12f,1f);index=Mathf.Clamp(Mathf.FloorToInt(cycle*heroIdle.Length),0,heroIdle.Length-1);}
             if(frames!=null&&frames.Length>0&&frames[index])heroRenderer.sprite=frames[index];
             // Second bug fix: squashing to an arbitrary .85 left the rendered sprite ~1.27 units
@@ -393,7 +417,9 @@ namespace SuyuRun
             // ground), so the silhouette visibly poked into it even though the real hitbox (0.48
             // tall) had already cleared it cleanly. The vertical squash now matches that hitbox
             // ratio exactly, so the visible character is never taller than what's actually safe.
-            var squash=slide>0?new Vector3(1.12f,HeroSlideHeight/HeroStandHeight,1):landingPulse>0?new Vector3(1+landingPulse*.3f,1-landingPulse*.3f,1):Vector3.one;
+            // Tayta has a drawn crouch pose already; do not squash it a second time to half height.
+            var squash=!grounded?Vector3.one:slide>0?new Vector3(1.12f,TaytaArt.Get("costa","slide")!=null?.8f:HeroSlideHeight/HeroStandHeight,1):landingPulse>0?new Vector3(1+landingPulse*.3f,1-landingPulse*.3f,1):Vector3.one;
+            if(slide>0&&RefactorActorArt.IsRegistered(heroRenderer.sprite))squash=Vector3.one;
             heroRenderer.transform.localScale=squash;
             // The sprite's local origin is its top-left pixel (BuildHero), so scaling the transform
             // without repositioning it shrinks the sprite DOWNWARD FROM THE HEAD, pulling the feet
@@ -428,7 +454,7 @@ namespace SuyuRun
                 title.normal.textColor=text.normal.textColor=small.normal.textColor=cream;
             }
             float scale=Mathf.Min(Screen.width/1280f,Screen.height/720f);
-            if(!legacyPrototype)scale=Mathf.Max(1,Mathf.Floor(Mathf.Min(Screen.width/320f,Screen.height/180f)))/4f;
+            if(!legacyPrototype)scale=RunnerHud.ScreenScale/4f;
             float ox=(Screen.width-1280*scale)*.5f,oy=(Screen.height-720*scale)*.5f;
             GUI.matrix=Matrix4x4.identity;GUI.color=Color.black;
             if(oy>0){GUI.DrawTexture(new Rect(0,0,Screen.width,oy),Texture2D.whiteTexture);GUI.DrawTexture(new Rect(0,Screen.height-oy,Screen.width,oy),Texture2D.whiteTexture);}
@@ -476,8 +502,8 @@ namespace SuyuRun
                         primary=victory?"A SIERRA":failed?"REINTENTAR":"CONTINUAR",
                         primaryAction=()=>{if(victory)StartCoastTravel();else if(failed)Begin();else TogglePause();},
                         secondary=victory?"MUSEO":failed?"REVIVIR · 5":"AL INICIO",
-                        secondaryEnabled=!failed||(checkpoint>0&&coins>=RunnerProgress.ReviveCost),
-                        secondaryAction=()=>{if(victory)OpenMuseum();else if(failed){if(RunnerProgress.TrySpend(ref coins,RunnerProgress.ReviveCost))Begin(true);}else ReturnToMenu();}
+                        secondaryEnabled=!failed||(checkpoint>0&&RunnerProgress.CanRevive(coins)),
+                        secondaryAction=()=>{if(victory)OpenMuseum();else if(failed){if(RunnerProgress.TryRevive(ref coins))Begin(true);}else ReturnToMenu();}
                     });return;
                 }
                 if(skin)DrawTex(panelRect,texResultados);
@@ -511,7 +537,7 @@ namespace SuyuRun
                 var btnStyle=skin?new GUIStyle(button){fontSize=12}:button;
                 if(GUI.Button(btn1,mode==Mode.Paused?"CONTINUAR":mode==Mode.Complete&&!legacyPrototype?"CONTINUAR A SIERRA":"JUGAR  /  ENTER",btnStyle))
                 {if(mode==Mode.Paused)TogglePause();else if(mode==Mode.Complete&&!legacyPrototype)RunnerProgress.OpenSierra();else Begin();}
-                if(mode==Mode.Dead&&checkpoint>0&&coins>=RunnerProgress.ReviveCost&&GUI.Button(btn2,"REVIVIR · 5 MONEDAS",btnStyle)&&RunnerProgress.TrySpend(ref coins,RunnerProgress.ReviveCost)){Begin(true);}
+                if(mode==Mode.Dead&&checkpoint>0&&RunnerProgress.CanRevive(coins)&&GUI.Button(btn2,"REVIVIR · 5 MONEDAS",btnStyle)&&RunnerProgress.TryRevive(ref coins)){Begin(true);}
                 if(mode==Mode.Complete&&!legacyPrototype&&GUI.Button(btn2,"VER MUSEO · "+DiscoveredCount+" / 4",btnStyle))OpenMuseum();
                 if(legacyPrototype&&GUI.Button(btn2,"IR A COSTA ACTUAL",btnStyle))UnityEngine.SceneManagement.SceneManager.LoadScene("Level_Costa");
                 if(mode==Mode.Paused&&GUI.Button(btn2,"VOLVER AL INICIO",btnStyle))ReturnToMenu();

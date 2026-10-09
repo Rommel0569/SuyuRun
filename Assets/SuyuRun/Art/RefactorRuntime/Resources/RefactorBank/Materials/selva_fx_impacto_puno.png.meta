@@ -1,0 +1,1017 @@
+fileFormatVersion: 2
+guid: ea730d83f7bbbd34aa63e026130e0bfa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2143752133618100160
+    second: selva_fx_impacto_puno_0
+  - first:
+      213: 9057654049417523231
+    second: selva_fx_impacto_puno_1
+  - first:
+      213: -3015618079410639171
+    second: selva_fx_impacto_puno_2
+  - first:
+      213: 4548335472971545946
+    second: selva_fx_impacto_puno_3
+  - first:
+      213: 4330960726521624763
+    second: selva_fx_impacto_puno_4
+  - first:
+      213: 2553964496199341863
+    second: selva_fx_impacto_puno_5
+  - first:
+      213: -5630035936971242022
+    second: selva_fx_impacto_puno_6
+  - first:
+      213: 5718022095641933193
+    second: selva_fx_impacto_puno_7
+  - first:
+      213: -7698756713757387789
+    second: selva_fx_impacto_puno_8
+  - first:
+      213: -5767068073061780750
+    second: selva_fx_impacto_puno_9
+  - first:
+      213: -1540322805995607229
+    second: selva_fx_impacto_puno_10
+  - first:
+      213: 5634514351593746711
+    second: selva_fx_impacto_puno_11
+  - first:
+      213: -9056019366847643749
+    second: selva_fx_impacto_puno_12
+  - first:
+      213: 7388174431918514866
+    second: selva_fx_impacto_puno_13
+  - first:
+      213: 7390501617360581568
+    second: selva_fx_impacto_puno_14
+  - first:
+      213: -4217478258079310267
+    second: selva_fx_impacto_puno_15
+  - first:
+      213: -1232643210319544176
+    second: selva_fx_impacto_puno_16
+  - first:
+      213: 5883784068835810375
+    second: selva_fx_impacto_puno_17
+  - first:
+      213: 3194704961468473639
+    second: selva_fx_impacto_puno_18
+  - first:
+      213: 220674332273947168
+    second: selva_fx_impacto_puno_19
+  - first:
+      213: -3328107351123967742
+    second: selva_fx_impacto_puno_20
+  - first:
+      213: -2090844387125888339
+    second: selva_fx_impacto_puno_21
+  - first:
+      213: 7128866208637196223
+    second: selva_fx_impacto_puno_22
+  - first:
+      213: 816703235851253588
+    second: selva_fx_impacto_puno_23
+  - first:
+      213: -6911582125992101473
+    second: selva_fx_impacto_puno_24
+  - first:
+      213: -5610839498299578558
+    second: selva_fx_impacto_puno_25
+  - first:
+      213: -8505789597012598630
+    second: selva_fx_impacto_puno_26
+  - first:
+      213: 6221579946337928168
+    second: selva_fx_impacto_puno_27
+  - first:
+      213: -8505763587968668257
+    second: selva_fx_impacto_puno_28
+  - first:
+      213: 2786813675920052282
+    second: selva_fx_impacto_puno_29
+  - first:
+      213: -3570116852079566027
+    second: selva_fx_impacto_puno_30
+  - first:
+      213: -1213581047831191694
+    second: selva_fx_impacto_puno_31
+  - first:
+      213: -5708051533638371867
+    second: selva_fx_impacto_puno_32
+  - first:
+      213: 6322545723140114646
+    second: selva_fx_impacto_puno_33
+  - first:
+      213: -5402429830554412679
+    second: selva_fx_impacto_puno_34
+  - first:
+      213: 4812206646571910376
+    second: selva_fx_impacto_puno_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: selva_fx_impacto_puno_0
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 89
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0481535eaccdf32e0800000000000000
+      internalID: -2143752133618100160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_impacto_puno_1
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 89
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f10f8e15e5043bd70800000000000000
+      internalID: 9057654049417523231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_impacto_puno_2
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 93
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbeab7e855f5626d0800000000000000
+      internalID: -3015618079410639171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_impacto_puno_3
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 87
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5df6c9b30fee1f30800000000000000
+      internalID: 4548335472971545946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_impacto_puno_4
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 101
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb83d7895d9aa1c30800000000000000
+      internalID: 4330960726521624763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_impacto_puno_5
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 39
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 727dbe48d21817320800000000000000
+      internalID: 2553964496199341863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_impacto_puno_6
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 75
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad5452005281ed1b0800000000000000
+      internalID: -5630035936971242022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_impacto_puno_7
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 75
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9857294fcce7a5f40800000000000000
+      internalID: 5718022095641933193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_impacto_puno_8
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 75
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f356500f85882590800000000000000
+      internalID: -7698756713757387789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_impacto_puno_9
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 83
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f2f7ad842247ffa0800000000000000
+      internalID: -5767068073061780750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_impacto_puno_10
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 71
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34be235a19caf9ae0800000000000000
+      internalID: -1540322805995607229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_impacto_puno_11
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 69
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 711f59823f0d13e40800000000000000
+      internalID: 5634514351593746711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_impacto_puno_12
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 81
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9ffcffdd5e825280800000000000000
+      internalID: -9056019366847643749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_impacto_puno_13
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 67
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b260296081188660800000000000000
+      internalID: 7388174431918514866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_impacto_puno_14
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 81
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c33abe7016509660800000000000000
+      internalID: 7390501617360581568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_impacto_puno_15
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 59
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54edf339ed18875c0800000000000000
+      internalID: -4217478258079310267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_impacto_puno_16
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 61
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0904b12f785c4eee0800000000000000
+      internalID: -1232643210319544176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_impacto_puno_17
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74c9f0edf6667a150800000000000000
+      internalID: 5883784068835810375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_impacto_puno_18
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 47
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 721a1867c3fd55c20800000000000000
+      internalID: 3194704961468473639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_impacto_puno_19
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 55
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0223c32d22eff0300800000000000000
+      internalID: 220674332273947168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_impacto_puno_20
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 61
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 201c3e94fff20d1d0800000000000000
+      internalID: -3328107351123967742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_impacto_puno_21
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 49
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daafdb09b14dbf2e0800000000000000
+      internalID: -2090844387125888339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_impacto_puno_22
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 41
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb71b11eb02dee260800000000000000
+      internalID: 7128866208637196223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_impacto_puno_23
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 33
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45773d31443855b00800000000000000
+      internalID: 816703235851253588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_impacto_puno_24
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 43
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f993d40fca02510a0800000000000000
+      internalID: -6911582125992101473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_impacto_puno_25
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 31
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2476f1c243b4222b0800000000000000
+      internalID: -5610839498299578558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_impacto_puno_26
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 29
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a90e9d75d6d55f980800000000000000
+      internalID: -8505789597012598630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_impacto_puno_27
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 41
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e38a237ffd775650800000000000000
+      internalID: 6221579946337928168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_impacto_puno_28
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 29
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9decab051575f980800000000000000
+      internalID: -8505763587968668257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_impacto_puno_29
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 27
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a305a68e540cca620800000000000000
+      internalID: 2786813675920052282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_impacto_puno_30
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 33
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 533692963a5647ec0800000000000000
+      internalID: -3570116852079566027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_impacto_puno_31
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 41
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27f10e1877e782fe0800000000000000
+      internalID: -1213581047831191694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_impacto_puno_32
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 21
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e57cd96f5de8c0b0800000000000000
+      internalID: -5708051533638371867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_impacto_puno_33
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 15
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d88eef36d13eb750800000000000000
+      internalID: 6322545723140114646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_impacto_puno_34
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 15
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97994d141b6b605b0800000000000000
+      internalID: -5402429830554412679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_impacto_puno_35
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 13
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e441bae27468c240800000000000000
+      internalID: 4812206646571910376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

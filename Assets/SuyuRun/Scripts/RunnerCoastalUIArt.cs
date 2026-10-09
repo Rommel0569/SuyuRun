@@ -23,11 +23,11 @@ namespace SuyuRun
             texResultados=Resources.Load<Texture2D>("costa_resultados");
             hudSprites=Resources.LoadAll<Sprite>("costa_hud");
         }
-        Sprite HudSprite(string name){if(hudSprites==null)return null;foreach(var s in hudSprites)if(s.name==name)return s;return null;}
+        Sprite HudSprite(string name){if(hudSprites==null)return null;foreach(var s in hudSprites)if(s.name==name)return RefactorMaterialArt.Frame("costa_ui_"+name,s,0);return null;}
 
         // Draws a full Texture2D stretched into `rect`, Point-filtered (no smoothing) - used for
         // whole-screen backgrounds and single-piece art (inicio, selector, museo panels, tienda).
-        void DrawTex(Rect rect,Texture2D tex){if(!tex)return;GUI.DrawTexture(rect,tex,ScaleMode.StretchToFill);}
+        void DrawTex(Rect rect,Texture2D tex){if(!tex)return;GUI.DrawTexture(rect,RefactorMaterialArt.FullTexture(tex),ScaleMode.StretchToFill);}
 
         // Draws one sub-sprite of an atlas (costa_hud.png) stretched into `rect`, converting the
         // sprite's pixel rect to normalized UV since GUI.DrawTexture can't take a Sprite directly.
@@ -43,7 +43,7 @@ namespace SuyuRun
         void DrawSpriteTiled(Rect rect,Sprite sprite,float pxScale)
         {
             if(!sprite)return;
-            float w=sprite.rect.width*pxScale;
+            float w=RefactorActorArt.Size(sprite).x*pxScale;
             for(float x=rect.x;x<rect.x+rect.width;x+=w)
             {
                 float remaining=Mathf.Min(w,rect.x+rect.width-x);

@@ -1,0 +1,57 @@
+PASS Tayta costa/idle
+PASS Tayta costa/run
+PASS Tayta costa/jump
+PASS Tayta costa/slide
+PASS Tayta costa/burst
+PASS Tayta costa/hit
+PASS Tayta costa/death
+PASS Tayta sierra/idle
+PASS Tayta sierra/run
+PASS Tayta sierra/jump
+PASS Tayta sierra/slide
+PASS Tayta sierra/burst
+PASS Tayta sierra/hit
+PASS Tayta sierra/death
+PASS Tayta selva/idle
+PASS Tayta selva/run
+PASS Tayta selva/jump
+PASS Tayta selva/slide
+PASS Tayta selva/burst
+PASS Tayta selva/hit
+PASS Tayta selva/death
+PASS Tayta extra costa/land
+PASS Tayta extra costa/victory
+PASS Tayta extra costa/reload
+PASS Tayta extra costa/double_jump
+PASS Tayta extra costa/fall
+PASS Tayta extra sierra/huaraca_cargar
+PASS Tayta extra sierra/huaraca_girar
+PASS Tayta extra sierra/huaraca_lanzar
+PASS Tayta extra sierra/victory
+PASS Tayta extra selva/swing
+PASS Tayta extra selva/grab
+PASS Tayta extra selva/release
+PASS Tayta extra selva/climb
+PASS Tayta extra selva/punch
+PASS Tayta extra selva/kick
+PASS Tayta extra selva/uppercut
+PASS Tayta extra selva/guard
+PASS boss_raices_idle
+PASS boss_raices_golpe
+PASS boss_chullachaqui_idle
+PASS boss_chullachaqui_golpe
+PASS esbirro_brote_caminar
+PASS esbirro_eco_caminar
+PASS caiman_emerger
+PASS caiman_inmersion
+PASS guardian_idle
+PASS guardian_huaraca
+PASS condor_vuelo
+PASS halcon_vuelo
+PASS cueva_esqueleto
+PASS cueva_esbirro_piedra
+PASS cueva_box_jab
+PASS cueva_box_upper
+PASS cueva_inca_maza
+PASS cueva_inca_carga
+PASS 306 frame/resource checks. Not a visual Play certification.

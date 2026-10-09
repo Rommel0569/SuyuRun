@@ -1,0 +1,4572 @@
+{
+  "newSheets": 66,
+  "totalSheets": 456,
+  "records": [
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/boat/anticipation.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "68aa717befa7e0d54157809b498c8271ad73e452076521f6d0faeca18ca08ff7"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/boat/attack.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "5bc251f89323c8eafc31112cbee0c96fb121c8f01e9ac6780035fe5b724fc672"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/boat/charge.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "7544e04abe87aa16f88aced4c9c019afbb076f742c115d23f3e3e1bbf3bac849"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/boat/death.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "fbed57489e40d3e495217805b5e49e6f562013604074f4d898a19a6d95ce2ba7"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/boat/hit.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "37e5aeb566d79660988e4b649a74432129a7df6811e2cc32e3550cc2cc4677bc"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/boat/idle.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "4db06b2dc0f5c0f08b6ef7701918a08090982e0132aa01fc3b7ef0f503ab7fcd"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/boat/spawn.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "842ea7e26a1c2583f6b35df1c0750885be8e689e35305e9f2be759a2c91c0795"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/boat/walk.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "b8b821b7b5d80f0e6e235cadf07671e06f5ad08ef6b60d090b41046024078a66"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/caiman/anticipation.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "2a98824258b8b0fa185496a24a59d55f2fdef5fdedf173c3388bc71d440f0ba4"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/caiman/breach.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "6c5386aee5ec0d8bbf9f4b2fa7ba9e91f32bfc0da075722524b8e89633dfd87f"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/caiman/death.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "56121e2b0fe58347561fde2b31f38d526574e2d51c54a09cabc15696989a5a21"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/caiman/dive.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "89898d3f7f9b33662f04160918a7c0ec25b97c2ea2b2209bc76ff52e3f07a2eb"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/caiman/fall.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "5ea6673e7516d8348db697c37bf8bf603494c2286d047304cb63a511f7e40763"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/caiman/idle.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "b0b87ed84a9d321fed14a387a686a249985838f7fe4341c70c1f379ed0ecf764"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/caiman/snap.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "f2c9accd8b9bdc04ffb7e63ecf227e6f3c3d226727bba945886fc1f2d9d0cd32"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/caiman/stalk.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "e30b2f989f358361023e4bef2c0b2e3c265c7eda02058f80ff56ba9d6817c80f"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/coastbird/anticipation.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "3385e97720da4d7190bb098d81a0556c4887b6af1fae9ee6b791f70acc6f9d75"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/coastbird/attack.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "4179440c50da7cec42771ca874cef19d525430876e4d82b249e12f0deffdb167"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/coastbird/charge.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "25fdd294363200940a82c03e00c6320fb63d14ea429b1dec22c1703b91c6357b"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/coastbird/death.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "35237e908d07da54c3f5f7feb14172a6023156e40b385a7a303568b3a1d363cc"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/coastbird/flight.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "920eefaaea7b6d49ee6334b20a58a334b3953f6dc3297b36dcd8dadc4446c5ff"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/coastbird/hit.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "929e54ec54912230afd9e1dde792cf25d2eb00430cd810b084f3cff9c8a739fd"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/coastbird/idle.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "e8fbaf1ab1c97725aa76447e5e4f6ab1235b74cbcceef022d80a263133245962"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/coastbird/spawn.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "2c8d5111b8b663210c814dbc58f590dfa7314789262195bef2cba587ebb03d4e"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/condor/anticipation.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "b0c1d19829689b9b7dad83d819aa8c120e786aa847d2fefb1ef943da66835e21"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/condor/charge.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "0dfb8fa6679210dd1a3c08d5e59779773df20e36f51039e8fafb3e620f24687d"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/condor/death.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "f53e87192d6a9e70baf8fe0b59bc3b8d2fcbe38474f791f093760405670eb65c"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/condor/dive.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "5541239fd4a0805a6ecd3748baa892ab4317c4481843488bd1f6186feb3b2200"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/condor/flight.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "253e984a160989b707b58ab60389f03605fc616b8fc4a4a23d9bae054270b42c"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/condor/flight2.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "65153d5a25a57bdb891718cc201dd42bcaf122425224f49fa98ad52b6a863a39"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/condor/hit.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "4543e717ac1dce6089e90b2ba57448c9e54d085071707e64b252e2e5f772ac5c"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/dancer/dance.png",
+      "frames": 12,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "6dffea1a1a8e76665df63bc3025c0842498dada96f2e8614883c1ffcbf9a86e1"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/dancer/dance2.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "d8fc74e67e55a85c09f67bb24ce9673d1973efb233fee5362a8d72c887727327"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/dancer/dance3.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "59b6eb1db48eb791667da448ad29dd42efd7e7387f074618d05bb9f1cd93e09b"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/dancer/idle.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "4c645db211e9279d012bb20cc1613b3a6b0969b71a5eba2a9e95f92f1c76ab29"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/guardian/anticipation.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "1a501ccf2524196bc0926934a19cd849bdfdba6246ed54a8fe406edc766f0f27"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/guardian/attack.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "83480548737a80bb97e75d000c777a7aeddc1cf2f5948e446e63f856d1c8268b"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/guardian/charge.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "b6fb947bd5bd0eb203a6d3686a39194efea142e8e4d19ee683b191565259a16c"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/guardian/death.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "6428d7b95ee625654e1383f6283bcaa0c1c13bb366e112d03e431d97cd5841a8"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/guardian/hit.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "59553a59aed222a4a2c44623b47fe714f17da31bd4f00e74212dbd084654a414"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/guardian/idle.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "5a1ce8d6303bd7cab32683dea11525d9c9ed908ac678d91dd15b402996fbd6d8"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/guardian/spawn.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "6cc01b7416220ce67fb71ab96244e7243e5f5d8028f6702479d2897ee9a66d39"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/guardian/walk.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "3243b2b678bd88148e42f59f971b2b90aeab560c693a6a56eac3da702748448e"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/hawk/anticipation.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "53655d186676e98e03c9764bf2bf8e9ee46a4a482bde3d489626d659658c579c"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/hawk/charge.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "e87d5b66532aaf98ce426a076eb127f6c6c5f112509cc695a99f0bed27d0626d"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/hawk/death.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "1618ef6de245ca6d81fd8142b5548815fd2a9a343dcd09ec83182dfc35bb99a1"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/hawk/dive.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "d6ddf12249f83cd78fb25118dd5f3912922987c648a6554c85bc43dc0442408c"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/hawk/flight.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "98512b3b8c6bde25c5333891eef748b525500300f9872dc0fa74b8e815a83c1e"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/hawk/flight2.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "b3054be887d96671c20ae78f65c0788e32dff1439b67fd607a4356847a2a5b64"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/hawk/hit.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "df39c979427ace3cb8d42578da5abf169767ec819d0239aa265134653cd57f23"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/hexagon/anticipation.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "90bcd9e40d14ebc8dee3d641e427dbf1b8ff41f50268a6906723eed72a77a5c5"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/hexagon/attack.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "43a50c229114238b2ddbd5fdd07faef95a9ea82339d9d876903700f1cc9fb0f9"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/hexagon/charge.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "8d29910d2fbbfb79ca9fb07ed245b4e3aa98164f2847b6eb1b8099e8e9643d7c"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/hexagon/death.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "f6d821af7005ec4e25d871e1d3d8adef020750594741e1713a4997da108e9d73"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/hexagon/hit.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "5032fc0ab5f9e9251e4f799fabd52f01618004fc0ead0f93e2a99e17ee4617a7"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/hexagon/idle.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "7be6499c9c1f810448d58ee3268c34aee7375813228ca29e29e027b21dba2bbe"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/hexagon/spawn.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "e0962da32486bc0b363a3f5498c809e5550178eb71ee9168958426688cf89506"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/hexagon/walk.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "db511ad8525e9ba4b69a42739d34d078a2a49b386145a27b90adb3756781187e"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/pebble/anticipation.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "6210ac020d9ea9bb4d9333f811ad7068c72b1878584c1ea87cdd3e4b5118277f"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/pebble/attack.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "9d4a06ef21c42177f82e8888c6ab0f7053d3922bdf74886616eef008fba02c5b"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/pebble/charge.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "caf5a61e69fc07ee3693ccc927a6b185ca755d4fe0fa5809244e7191b87e4fd6"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/pebble/death.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "41e9b26d372d33a1facf635f82a3e17a39a69aaa7b8c49801c4efd999fdf9781"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/pebble/hit.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "e24ecb229548c9cd0da68793773711a9c1bc2d4f48a47648684b7ad55c5a22f2"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/pebble/idle.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "34f99a572668f3acb9f320899d76e5f38263990682781e294df0f0c284e38266"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/pebble/spawn.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "aeeeb1a2cb49378697445d9cfeb5462d9d15f0c9bfbbe60a8163eaf7641745f7"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/pebble/walk.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "74f0a1325b5980b5b3138a875b7e003fc7a86de19c02d3327b653f92b625a82f"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/puna/anticipation.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "12fb7e4a77c70e40c00dbfb0636ba8560bea0aa34de5ceffd79c042fd87508ba"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/puna/charge.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "5c241327d3638926e818ebb7e3837d9d7b1ddc817cd8e23c9c54ba0e694dd816"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/puna/death.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "659ad1b2056b27123888116ca9f5d7b86530e44d70e3f7456361beafa017b4ea"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/puna/dive.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "f1f163a33e999ece4a9920aa7fcabf76764ca50dfa7f5c415dd8da9eaa6b9e1c"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/puna/flight.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "b757b78f8fc1d443782b46ae70d394f04bcbe6578e74ea4032e6e1cb987e992d"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/puna/flight2.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "9a8ba4ea45fb1248a4a6d0b7b146cbaba18d68869a78f986a0f5d65ad15c014e"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/puna/hit.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "bbc0b9cd93c7e24f947e425e10ee1ae13c02d329a0aa71025d8fcfea9b08d063"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/puna/recover.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "82c952c5f10282277792b479ac04a918bb787370cc0e4c0187ec64c8f6bc60c8"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/skeleton/anticipation.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "556d79b4d4b580f727afb0c5bf38164b4563860192b5fff9fd3efcf6c586e117"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/skeleton/attack.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "f787f855b7faba220202fe5a290adc555497b35119462f0be36a718f2db0b7ac"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/skeleton/charge.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "4c33b7eb24acd7dc0f4afa436655d2dda1e69cbafc0c6b1254d9d02f3dbff289"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/skeleton/death.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "4201ab52f6ff138ab1cd13786f9bb21ee0e94ee89154101e665379086054efeb"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/skeleton/hit.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "8af7020ba5388538cb776cd65482de4068ad2ab3a2c02c3fd836d16fa0cd7b09"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/skeleton/idle.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "ae5e4779f59b42b7316bcbfc6b4af53bd356e740b3f7e91a6d5e49ba4ef51228"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/skeleton/spawn.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "e3b20f734c11fd42e414a75161fb9065882d2ce596f9c4fb086081f11f1878b2"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/skeleton/walk.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "91cd526c536b6451c4ea68fba80c4756d86471dc326f6ac79c069384f7233071"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/sprout/anticipation.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "a3ba3c06f6b96d43f4204da646e15c7f48feb35253258e4af6958ced399a1ade"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/sprout/attack.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "e11d9f71b1683ac2fc73ea18abeca51f3f4e4410fc731e56a2ccd7b7774034bd"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/sprout/charge.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "65d19d8c87d9d602202148aa31b3b8e1594af54572b5a1f37276209f84e53157"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/sprout/death.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "61c85508731fcc5d19a40f93f38a5512f9178b5934beb97468fe78aaf7a9aedb"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/sprout/hit.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "03415b7cf3a3fffe434593dcc8d74c67aa128f0b6e66f4e15e996acac33c737d"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/sprout/idle.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "a97c51179f93fe01ab09afda61deef7ed80bf59392703322908773488cb687b1"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/sprout/spawn.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "c59e06cff53b7877b6822a738eecfc143a0d624e5a2a2d658e77835472f114f5"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Actors/sprout/walk.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "e45ef65ea7276da7ee0fa5163aa78afac970b67ecb09a8d107a810034d013238"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/chulla/andar.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "1ea7e6ed308b4584afa2c11b424ac545939049bea50907beb36d16f4668c46af"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/chulla/anticipar.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "b0597d9ebeed5b65677f63956e9c135dab881f672d8384187fe3e29532e81013"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/chulla/carga.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "475278c08fd19657ed2d3210ed2ddaeb57d853a5a0c976fdacc739855d5d2554"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/chulla/derrota.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "2c6e367d857c0bcf24e7dd4f337ab4851b909fa8c2407ba634e03243ba9e3052"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/chulla/despertar.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "15b8b35344a9630948342d1132737a0af858b362277e3f5a680e62479df68e5d"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/chulla/golpe.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "e175db7bd2d72ada2c89e5178b4172f1964da15be41d405425a2cffe029d0180"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/chulla/hit.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "719a3f9468085c3a2704c147f44586dc28b8d86c9a906d05194912bee12f3ee1"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/chulla/idle.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "869b586cb0e17081b3ebc791da2f352ca6c64e11c235d71b16228f8d0c3d5621"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/chulla/MotionV2/curse.png",
+      "frames": 8,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "f2fd56733be159fbe9ae7c6b2ad26c2c8b44fe76bbdbe143d5b903828384a809"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/chulla/MotionV2/lunge.png",
+      "frames": 8,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "f3b7399abb31eac9d42bca274bc9155bf567e3f44ff87b15ab96170ce6dcf03a"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/chulla/MotionV2/summon.png",
+      "frames": 8,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "4550f1dd55a5093ab2c1d7aa16387b36fe680653e4e3b96226e3ee631a4d7fc4"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Effects/arbol_atadura.png",
+      "frames": 4,
+      "native": [
+        96,
+        96
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "4588dff98a1b80b25c856361f3c5303676a898795ecbc627cd4608e839aceab1"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Effects/escudo.png",
+      "frames": 4,
+      "native": [
+        96,
+        96
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "af67736eef26f2faf3612f5664263e007be5c040497fbb8db7d0d23f43809143"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Effects/impacto_arma.png",
+      "frames": 4,
+      "native": [
+        96,
+        96
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "07a7a5acceac754a76a9a725be503a3a6ca7d7a5b616a6cd20c684daa23e094a"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Effects/impacto_dorado.png",
+      "frames": 4,
+      "native": [
+        96,
+        96
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "47525bfa77ddab8a8e64ba738c8b15e3b664c73c9fe39150813a8a60ae21110a"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Effects/impacto_piedra.png",
+      "frames": 4,
+      "native": [
+        96,
+        96
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "465df2e3644f1170e5aa33f19292366375b26ca9ef16d98314ace378b09eb96b"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Effects/invocacion.png",
+      "frames": 4,
+      "native": [
+        96,
+        96
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "a3d9117fcca72d79301de6b85f890174d95342443c9a642cb5c2c1b28bea9be5"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Effects/maldicion.png",
+      "frames": 4,
+      "native": [
+        96,
+        96
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "588a32002939f00a4ced94f9fbdec4b96efba8feee2fd1a164f7033fa973b1b4"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Effects/raiz_dano.png",
+      "frames": 4,
+      "native": [
+        96,
+        96
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "04a2dd8a29b5d20843a4b337565664a2d88e0dcebb8a3f1fbfe796f25ff4d61e"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Environment/costa_capa3_paracas.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "9797a3db4f6a26cb9a97dd865ff8b22cc96ac43f8dd45e66c233025c83304868"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Environment/costa_capa5_huacas.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "d8d9cf66de008a31f00f7a17273eb842161dfb1c1ff434c87c3650eed0c5da27"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Environment/selva_bosque_capa3_estructura.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "bb724920762e25b7b05eeed2fd16e2c864d5fd25fcc25e8d9e149ec97913aa00"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Environment/selva_cueva_capa3_estructura.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "a906040c1d73df519107dd30ee8205e6ceca72b4e13003ccd170806ff19f1ac4"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Environment/selva_noche_capa3_estructura.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "5b9f778f333ac82d2d76ea5ee04c2c82a2330dd653449217603a3244b0bf192f"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Environment/selva_plataforma_tronco.png",
+      "frames": 1,
+      "native": [
+        128,
+        32
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "7e91b8664a9fd2661af2badca05dea94f1dd4929f3cebe5259494b6857727072"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Environment/selva_rio_capa3_estructura.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "6e13450e3fe73f41c18b8fafa81b584faa22d5abfb49a6dc9b214bec04e09ff3"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Environment/selva_templo_capa3_estructura.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "14af4b5a188226c63462a185352428bd70f13f861337ee8fd7362cedf5e1028f"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Environment/sierra_camino_capa4_paisaje.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "a013c7c9075a3a2368168c042aef06e5b3ab2800c7e2dceec7a3d696aa9ad169"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Environment/sierra_compartido_capa3_nevados.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "bec126c6978544fa6ef7d22e3611dd70e1ea0f91daa5b5c57f354b1f81f6929d"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Environment/sierra_cueva1_arcos.png",
+      "frames": 1,
+      "native": [
+        1280,
+        768
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "70154570ba6f72ba98f1d5f449b702148f903415f1ee2825520fb829b1e3eba9"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Environment/sierra_cueva2_arcos.png",
+      "frames": 1,
+      "native": [
+        1280,
+        768
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "85b6fc3be0c45e624e95075810f83a945565d2f4798a8d20931b505991451924"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Environment/sierra_ruinas_bloque.png",
+      "frames": 1,
+      "native": [
+        128,
+        64
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "3f69a88228ffd46921c8b34e8450121c5a5aeedeb2f23447432a735cfa3aa7fb"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Environment/sierra_ruinas_capa4_paisaje.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "0e0d037df68fd5a228260f7da8bf1ac180b220a568237eb2bdeeceb40beaec36"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Environment/sierra_valle_capa4_paisaje.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "dd34be99014c8f2837792b6a31f4418d8ae8404d35a37a1962450194631924d1"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/inca/andar.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "bdd6e8b75b181c6e34099604814607524605020b8d0eadb96aafae7aa46bb2cb"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/inca/anticipar.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "9730126f520b4439b281be1e6c0a4a8b4e476adb79454691dc2b446a66276bfe"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/inca/carga.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "8aac931d08a75655fd1e2b29dea3089bdc10982e79765decf0d1933f1fa74cb1"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/inca/derrota.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "6b77917a97d4915f953f7283bd9862aec42f35b789903c0900d3ca4689ba2cc6"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/inca/despertar.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "7cac51cf71ec75c21710fa71377d1588f9e44e9739e9ef8a3f45a960e62e4085"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/inca/golpe.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "c9c38eef5bfc02044185e07a05429de759c1a1d0cbe4bc01588bbc49c66bf76e"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/inca/hit.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "0616a73cfa731a47da3b2f351b85334cd48664d150e096035fc9c49837bd125a"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/inca/idle.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "c7e36231cd6cd602db9960cc3704e8288051ccf51bac0dd1a55dc39d367b8ff3"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/inca/MotionV2/charge.png",
+      "frames": 8,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "e087b5e9ead28899c0289f52fc14f7416731e00e3d4c3b8709f54ada015a1a1e"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/inca/MotionV2/mace.png",
+      "frames": 8,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "f7aa8894c546573d3e49628d1b38cfeedaac552f0588edf1a96ffbbaa987bf65"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/inca/MotionV2/summon.png",
+      "frames": 8,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "77c92126470fe704c559dfd20a33dad59cc1feb006a4be232a31ea5e7576888b"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/inca/MotionV3/charge_run.png",
+      "frames": 12,
+      "native": [
+        192,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "62cc3667f4e5e4acfd484341c32b18b74633bd02c3c40d54a0fb616efb64d805"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/inca/MotionV3/retreat.png",
+      "frames": 8,
+      "native": [
+        192,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "ba661e1dddb858d629920d35dbdecefd8b92b039a45a5fefea1458c4d90aa3e7"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/costa_capa1_cielo.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-this-revision",
+      "sha256": "90ce681914d8313f3f8bc3588b50fadb7090a3ff415a0320e4293f1b6ee71695"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/costa_capa2_aves.png",
+      "frames": 18,
+      "native": [
+        32,
+        32
+      ],
+      "status": "redrawn-this-revision",
+      "sha256": "84944422ff568d2a1df9db37259d0c267e0ca17036d0e7203752e07eab09b978"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/costa_capa2_nubes.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-this-revision",
+      "sha256": "75675cb7af06a0fe48cf949d37e4cbb4151546f1fff4b935624543337ca83f66"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/costa_capa3_paracas.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-this-revision",
+      "sha256": "b4e85734030fe411fbb35496827ba353d72a60a79688c86ccf02443cbe2d777c"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/costa_capa4_mar.png",
+      "frames": 4,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-this-revision",
+      "sha256": "80e49768dd687d9bab29084c6312ef523b1c61961eedfb26dfdbe7da142d97db"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/costa_capa5_huacas.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-this-revision",
+      "sha256": "715bcb735c8d62eb142d313325b207d2137e9f30392f564cfb1e2d6b46138c23"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/costa_capa6_algarrobos.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-this-revision",
+      "sha256": "a2787c75e47934507cc146faa68e60baa1611e7143ccb81feba5873dd7cf165c"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/costa_capa7_suelo.png",
+      "frames": 1,
+      "native": [
+        64,
+        64
+      ],
+      "status": "redrawn-this-revision",
+      "sha256": "8110bd7f5eda47ea4453a590e9005aa8e400219c3ef36017d1e8dcdf4f01f61f"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_agua_fondo.png",
+      "frames": 6,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-this-revision",
+      "sha256": "e73c3ebe580ba7f398c293438501200bbf8a4b7d20351f7196a55a9cdf844f57"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_agua_superficie.png",
+      "frames": 6,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-this-revision",
+      "sha256": "ce15d2a9546507ba2820ae352eaacc0eeca66d6572b2215e6105d51f18fbcb66"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_bosque_capa1_cielo.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-this-revision",
+      "sha256": "9e0b222dabafc1208be91ea870ab01bf6245c5e4abfec8bcc851002fa36bff5e"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_bosque_capa2_lejania.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-this-revision",
+      "sha256": "1cc6bf4cd59428df80b572688c5092abfe794d1d36e6b584626da903e42cf39a"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_bosque_capa3_estructura.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-this-revision",
+      "sha256": "309cc13171b2b02e49e10ea0c56eedb23f1056a51493f2a424865af19756196e"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_bosque_capa5_cercania.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-this-revision",
+      "sha256": "3c5da284fe4638f5d3d673f83fb15dfa1678412a90b159b91c3f1b5bf40b921c"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_bosque_capa6_frontal.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-this-revision",
+      "sha256": "847924093c92eb78950507a3be2b765d33ed56af1cab0078c5e2921799f7bc73"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_cueva_capa1_cielo.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-this-revision",
+      "sha256": "9bd01b83ae7092250e756c88240c8fa4e053e4936e4e522dfd112a3d871609ff"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_cueva_capa2_lejania.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-this-revision",
+      "sha256": "2ccf7a5daf6463c610ccc60988b381ac62e0493f16daf9a4d096a7a459d8fd97"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_cueva_capa3_estructura.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-this-revision",
+      "sha256": "2db98e38866ed0c7a0db4951c665622692820f9de4f602f2aeb9255a3f1c2cd2"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_cueva_capa5_cercania.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-this-revision",
+      "sha256": "aff72d3737db540faf13e905ec14d9c6a52dde3987ba50ea50ec827c7237ae48"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_cueva_capa6_frontal.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-this-revision",
+      "sha256": "d699c80dac27e536682949ed5f97aa606c73d50c7a405ec913885815961c7864"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_niebla.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-this-revision",
+      "sha256": "cf06de97274fc1ceba46291d45c4a30cd69cc6220a2870d3052c104dca737373"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_noche_capa1_cielo.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-this-revision",
+      "sha256": "09a99af0c933e4f3c3578b4f3c336c9bc722370230891a86e421405e1d091396"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_noche_capa2_lejania.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-this-revision",
+      "sha256": "21888dc9b7d4c84d194ea3049e786c6e9a87a5ed686b0ab64668b36dcaf15440"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_noche_capa3_estructura.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-this-revision",
+      "sha256": "e25f201d354329be517d738549a09c2dbdda02dd88ba594bb060005a1257f60a"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_noche_capa5_cercania.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-this-revision",
+      "sha256": "fcd24655de9c9849ad8de1ad5f54fe41f074f549502071f8ce34bfc5ca16f4df"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_noche_capa6_frontal.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-this-revision",
+      "sha256": "c24e9331e5f5200c1ef34535dc100415b5ebf9a63d757386f3c616880aa0b589"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_rayos_sol.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-this-revision",
+      "sha256": "5a7eb2683029ae03cedb012a164c6c8ac877c4dce94f77a32ef60333018b7348"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_rio_capa1_cielo.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-this-revision",
+      "sha256": "46803fc34cbf3f1f48ac6c57919d529beeadb5aaf5f71154dff5843d00dcddb9"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_rio_capa2_lejania.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-this-revision",
+      "sha256": "5a1ed7a6ecb7d3028a80921d08581320bdcc83cfe755c4ef08377afbb9d6cfcb"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_rio_capa3_estructura.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-this-revision",
+      "sha256": "6c92a27b99a5019d2a228467a3b78cc9e54e854217e1e2fc6953e0306ee5f3e7"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_rio_capa5_cercania.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-this-revision",
+      "sha256": "b42d05fb8999a1a9369340b69915b83ed734d0300166318b0a9e24f47b99614f"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_rio_capa6_frontal.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-this-revision",
+      "sha256": "b3eae308008abc24a06ece61bdd6557cd4e5458285fc601f0953ffae5c0b7755"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_ruinas_capa1_cielo.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-this-revision",
+      "sha256": "7a5474acd29422ce78a20d51868dd4beb8853b14594e77b5bd016e44965739a0"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_ruinas_capa2_lejania.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-this-revision",
+      "sha256": "98ea34d10361bf794dceb5293541ee075a7e90bd1ce37dc3b7741156ff7eb127"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_ruinas_capa3_estructura.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-this-revision",
+      "sha256": "e5afc78431d68d3bc886865ffc01e78505d2de9fc5344bf4640dc08f063d1a2e"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_ruinas_capa5_cercania.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-this-revision",
+      "sha256": "a4cde4e522ce4cd05e1fc322d4784b9c2b670c99eeb6f1e4438398546b5705f5"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_ruinas_capa6_frontal.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-this-revision",
+      "sha256": "58c47598c7011ab48c703007344fb8ab1308a72a584e5ef78f2b88f9e599130d"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_templo_capa1_cielo.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-this-revision",
+      "sha256": "c268dcbb54cdbea81dee94d4bb69eaf52cf03f518a37ba2994d6c7a76872cd3a"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_templo_capa2_lejania.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-this-revision",
+      "sha256": "20c1816d097ace615403d37c798bdaf618f3e3870fcccd78eb846485f4855993"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_templo_capa3_estructura.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-this-revision",
+      "sha256": "4d5c8a5ac5dcd2d7c0dd84a95f21feddb534cd60fca5d84ad1c365c38b51cd8f"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_templo_capa5_cercania.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-this-revision",
+      "sha256": "3b817af6bcbbfad1e674a5de817d7f0a1398322e39df945c4302c8459e33e73c"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_templo_capa6_frontal.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-this-revision",
+      "sha256": "df85c92366d8ba84514087d11eff8cc33ed37b4c7d21c55f12ef93f556b2f118"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_tile_cueva_relleno.png",
+      "frames": 1,
+      "native": [
+        64,
+        64
+      ],
+      "status": "redrawn-this-revision",
+      "sha256": "002e90f138152a7957ff5a6c9eadf8b27f038a28cb9377baf77a886ca6155195"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_tile_cueva_superficie.png",
+      "frames": 1,
+      "native": [
+        64,
+        64
+      ],
+      "status": "redrawn-this-revision",
+      "sha256": "ec92d1fa831c6a5eb99ad8199ec1ba9f2467c36c00578abfdf6099338bdd61d5"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_tile_ruina_relleno.png",
+      "frames": 1,
+      "native": [
+        64,
+        64
+      ],
+      "status": "redrawn-this-revision",
+      "sha256": "f616d06efd46944361cdadcf11387b79232d24b4a6b85392332779a29534673c"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_tile_ruina_superficie.png",
+      "frames": 1,
+      "native": [
+        64,
+        64
+      ],
+      "status": "redrawn-this-revision",
+      "sha256": "aea3c3d0f967959d1febe984cc176585b4ce34cd246936a34d40eef132ad0b4a"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/sierra_camino_capa4_paisaje.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-this-revision",
+      "sha256": "14c940f9e0997d926be3e96f07c620a65a03579a30c068ae930ce509b45e5749"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/sierra_camino_capa7_suelo.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-this-revision",
+      "sha256": "bb18e0f272460105510a01f838b50730add15cee862bfe68ab0408aa3fc6176f"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/sierra_compartido_capa1_cielo.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-this-revision",
+      "sha256": "62a1c8837e1f50c2bd03a354f4172028ab91fa43f347367e276765dd6013e9f5"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/sierra_compartido_capa2_nubes.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-this-revision",
+      "sha256": "53fb688609caf3d9a439d3394ef997fd888b761ea416423c3ecde946dd06da10"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/sierra_compartido_capa3_nevados.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-this-revision",
+      "sha256": "1941e66e141889f485b8be1ec0b129fcd27b47c49c170c71c7ce601b29e209ae"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/sierra_cueva1_arcos.png",
+      "frames": 1,
+      "native": [
+        1280,
+        768
+      ],
+      "status": "redrawn-this-revision",
+      "sha256": "80711bdd90cee1e64521d90e8b0766d7fd9399a1a4a7bc20b262839718b3cddd"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/sierra_cueva1_fondo.png",
+      "frames": 1,
+      "native": [
+        1280,
+        768
+      ],
+      "status": "redrawn-this-revision",
+      "sha256": "c5ab0a361bcbe71a1e3e25092548592d67c9829bf6477643724147ce4d9ac4e0"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/sierra_cueva2_arcos.png",
+      "frames": 1,
+      "native": [
+        1280,
+        768
+      ],
+      "status": "redrawn-this-revision",
+      "sha256": "74cdbf6b4c7a81ab477dd8aecf5649392a037e205979ecb4c187326b7118177d"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/sierra_cueva2_fondo.png",
+      "frames": 1,
+      "native": [
+        1280,
+        768
+      ],
+      "status": "redrawn-this-revision",
+      "sha256": "6ccc8838f9f1bafec0ade0cbee50a0e31a5de9a5344cf7142ab5d14a53762fa3"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/sierra_cueva_plataforma.png",
+      "frames": 1,
+      "native": [
+        32,
+        24
+      ],
+      "status": "redrawn-this-revision",
+      "sha256": "14fbc47f9869215ad12bf64cca9bce2e9a8d01a232e344b57b88743c07e27367"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/sierra_cueva_roca.png",
+      "frames": 1,
+      "native": [
+        64,
+        64
+      ],
+      "status": "redrawn-this-revision",
+      "sha256": "4f6e4541caf2c0d2678c22149d50e5421483b86f321ad03fc7d027d81ef53649"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/sierra_cueva_suelo.png",
+      "frames": 1,
+      "native": [
+        64,
+        64
+      ],
+      "status": "redrawn-this-revision",
+      "sha256": "6f6788ed741f9834967415bfe8bbad1f04458175b773f58588cb7b8a59769692"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/sierra_ruinas_capa4_paisaje.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-this-revision",
+      "sha256": "21f38b5c5db97471d8a6979d9217347c97d9b9c1b88ca48a29458a85a7b2988a"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/sierra_ruinas_capa7_suelo.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-this-revision",
+      "sha256": "2784a36b989f9786581432e7cd2a637bf07962866d1795f521ed2c0b3e4635cc"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/sierra_valle_capa4_paisaje.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-this-revision",
+      "sha256": "a238e974c3f4d4a829976c3dcebb78c2acc8c6694dacaebf762d36b7a33452ca"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/sierra_valle_capa5_rio.png",
+      "frames": 6,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-this-revision",
+      "sha256": "4c743c12e52535066a6f649e2a7fbea35ac0787e2caae388064a37658407edd9"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/sierra_valle_capa7_suelo.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-this-revision",
+      "sha256": "ad8cdcfc56abe335a21f4149ce96fcb7aededd8ae96e1201dd0e4640247cfce2"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/costa_capa1_cielo.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "722d3f39764680db4872a78919d4530c3305f50c3862e97149cc83c1fbff3ecf"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/costa_capa2_aves.png",
+      "frames": 18,
+      "native": [
+        32,
+        32
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "22f17b706c2bdd980a091bea266abe740acce2f08ec576b634d0b68176939312"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/costa_capa2_nubes.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "1c8075a7fd319464f2081dab7ccc2c6545ff7a7679fa5890ae3660f3f64a522d"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/costa_capa4_mar.png",
+      "frames": 4,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "2e21e75959646f5dbd73b268dc91bb88dcce6c52adac27a27d9ffc0ae621e2c2"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/costa_capa6_algarrobos.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "215098d79010b8d66b666c0a70245b0c1b95eb9ab717771e87da45849587c55a"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/costa_capa7_suelo.png",
+      "frames": 1,
+      "native": [
+        64,
+        64
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "1e5cfad214b39c7a6400c027e97e17196905892e5dfed06ac5191a2fc01252ba"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/costa_efecto_absorcion.png",
+      "frames": 4,
+      "native": [
+        80,
+        80
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "080c4f4eceb0ad1fdb3fdfb5685bc9feb2aee191388167f8e7ff9cbc91c6ae74"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/costa_efecto_sorpresa.png",
+      "frames": 3,
+      "native": [
+        64,
+        64
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "add3f276448101c18f81e3bd253e54ec660ead5f9a44466a40db794b346c6e9f"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/costa_museo_panel.png",
+      "frames": 1,
+      "native": [
+        560,
+        600
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "2797daaf6bb2f871ce1c60417ba91ff08f1b3eff5d2f34c3c9dd9dd310a84470"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/costa_museo_pared.png",
+      "frames": 1,
+      "native": [
+        64,
+        64
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "e9acae77a5d01a3f3a7132935945ec63d085cf095c624657d397e75e35c62e30"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/costa_museo_vitrina.png",
+      "frames": 1,
+      "native": [
+        96,
+        96
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "b45f8c5da4160ed8948275d0312e938b58e4f26103c2073c418583158b00236f"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/costa_plataforma_bloque.png",
+      "frames": 1,
+      "native": [
+        96,
+        64
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "8918a18a7abfc282adf3bc3fd0eb73301170290b5a93980347d9c524853664e3"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/costa_plataforma_pilar.png",
+      "frames": 1,
+      "native": [
+        32,
+        96
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "d00ddf3d5964dc1bebf1f237d3133730d2bc1120819aff39caad09d11c88eac4"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/costa_plataforma_rampa.png",
+      "frames": 1,
+      "native": [
+        64,
+        64
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "e501a04a06c1b29266b979caf80d0a9009a8d66122d67f2eef26b1af9a87f27f"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/costa_puerta_dimensional.png",
+      "frames": 2,
+      "native": [
+        128,
+        192
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "b10973e6aeb207cba6792cc388a9d44b5ed05c8880cf2df17a2ad577a975f5cc"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/costa_resultados.png",
+      "frames": 1,
+      "native": [
+        440,
+        280
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "46372dd3cc9af5ac12e30e2e9d6f797c125ae2a55c549e4f4e8f4d56b0ffedf8"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/costa_selector.png",
+      "frames": 1,
+      "native": [
+        640,
+        360
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "fc29a836fc143bdd72fc0abbc611403032ae0a0f4d5bbb4c0950ab035c67b8fc"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/costa_tienda.png",
+      "frames": 1,
+      "native": [
+        560,
+        360
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "76eddaec6b05f8cd1e54ca4ccee61683fdb0d8f525d0b12a793e0252519d353e"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/costa_ui_bar_progress_fill.png",
+      "frames": 1,
+      "native": [
+        22,
+        12
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "6acf3adfeb11b8cb8b64eb8a5e5e1e3fa9fd738570328fa199d3010d63a49637"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/costa_ui_bar_progress_frame.png",
+      "frames": 1,
+      "native": [
+        128,
+        12
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "47cae662b4dbabfd6023b137e187cf865579fa9084b9da644f7efadf90fb8049"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/costa_ui_bar_rafaga_fill.png",
+      "frames": 1,
+      "native": [
+        22,
+        20
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "8df5145ba720c801f867c7f116f540959ac2fd86ac5c2e8d5988cfb7d7152ddc"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/costa_ui_bar_rafaga_frame.png",
+      "frames": 1,
+      "native": [
+        128,
+        20
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "73d88a93901182a01e60fe6080f29facbb98d62994c79f65560efc36893c7319"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/costa_ui_icon_puntos.png",
+      "frames": 1,
+      "native": [
+        24,
+        24
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "276a4108f11e2b4c23738c4b6d75d7f4069f578b777830bbe96f5d77d81d01a0"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/costa_ui_panel_h.png",
+      "frames": 1,
+      "native": [
+        64,
+        40
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "b1d36495a93d37a41951b281e75c994969ae5bc3d4289a42ea5774d88e4b139c"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/costa_ui_piece_slot.png",
+      "frames": 1,
+      "native": [
+        32,
+        32
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "c705fdb2bf51fd552dd4824368d6e9a8892d572230191b0ab251bde8b50f7b46"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_agua_fondo.png",
+      "frames": 6,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "8482a67fdc6f587b47ae71275ac6bcc7bf7745d37e5130fd3d9534d5064f6585"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_agua_superficie.png",
+      "frames": 6,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "c8ef4acaf2a249ceee8219df4213932cf7e4b48c5faaa5a1f9e0a1d78d746ea9"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_bosque_capa1_cielo.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "478448ee7d0d1dd7f1322fc16abe5b8810b9ffdcd0364bbcdeefbd9f26f44d8c"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_bosque_capa2_lejania.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "c46b1a77a508befa3d919f80ffb3cf0ee7b724105de916c5e923d8d17f9d01c3"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_bosque_capa5_cercania.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "e634fc605de2336fd03c217ce8b7b0b3bb0bc3e9cb7a028514bd5dbc13a2b7a3"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_bosque_capa6_frontal.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "babe85e18601f84d548c3638ffe4717efe03d1c31175824b7d7fd74f8127d91f"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_cueva_capa1_cielo.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "7794a8599b7366e5796fd1175536ccd85ddfc15da89714e31b16976a98b43d6c"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_cueva_capa2_lejania.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "87346139df3dc993dc240c2ac40db5508d8be868d6cc66d3008fd504f13f3d00"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_cueva_capa5_cercania.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "5bf9cab86b3d5145e7cdc2b1cc4cc01b9d2bb8a769a3bef16d2aaebc366e2bcb"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_cueva_capa6_frontal.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "babe85e18601f84d548c3638ffe4717efe03d1c31175824b7d7fd74f8127d91f"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_decor_barca_remador.png",
+      "frames": 4,
+      "native": [
+        160,
+        96
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "2bb017524d7d9e50dbefd9dc5ee1744716e065fb393f9c5e572aeb35bf7ca3fe"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_decor_casa_ribera.png",
+      "frames": 1,
+      "native": [
+        192,
+        160
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "4b93d6e7dc4578f565f550d411145c79ac53819457cfb09f2c0a51342ec8d08f"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_decor_raiz_colgante.png",
+      "frames": 1,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "6f19d153ca56de8561fe8527e2709271f564b2af4172a0d1fa30d33fbf7795f0"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_decor_rama_anclaje.png",
+      "frames": 1,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "6b3843cf074c6ad3595158671af9b54374bb5608da263c63fe249c75ae030a3b"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_decor_roca_musgo.png",
+      "frames": 1,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "dd669c720d046a72fbc77b73c34765c173d232b704e18cbe0747f8980b41e90e"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_fx_astillas.png",
+      "frames": 6,
+      "native": [
+        64,
+        64
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "4983747c3d6629eb8d649eb03e73f1be0d5242998e3708a22bdf3360b167d6ce"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_fx_burbujas.png",
+      "frames": 8,
+      "native": [
+        64,
+        64
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "11798a06df1738287be623bf33da32cb29e884d1e392c1f93e59012426ff34e4"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_fx_destello.png",
+      "frames": 6,
+      "native": [
+        64,
+        64
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "5cd64fbaff6c10eeb4a8b6691f4c8e5136a6180e1ec7de05471689b7da0329d8"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_fx_disparo.png",
+      "frames": 6,
+      "native": [
+        64,
+        64
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "5aad096d9cd5fcf160ec354949ca521daa54bec1d5b5772d639fed2f86395cbc"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_fx_eco.png",
+      "frames": 6,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "2557ba0b8678dafbd47b62b3dd0e50c74626951f534ef605d3a899b7d56f6b80"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_fx_escudo_activo.png",
+      "frames": 4,
+      "native": [
+        96,
+        96
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "5ae39a1f43743c86fd78f3b64f08595a81719e3a48fecd71bcf2753e8c3019e9"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_fx_espuma.png",
+      "frames": 8,
+      "native": [
+        128,
+        32
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "7fc574a785708fa6e6dd9e53ca28eea5bb84b9547d2418da65ee31a20a33b413"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_fx_hojas.png",
+      "frames": 6,
+      "native": [
+        64,
+        64
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "29a8beabf8b59a6003e1505ad3bcb451f6f8d5d0fd302da04abd2bcbe8d88f75"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_fx_impacto_puno.png",
+      "frames": 6,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "2557ba0b8678dafbd47b62b3dd0e50c74626951f534ef605d3a899b7d56f6b80"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_fx_ondas.png",
+      "frames": 8,
+      "native": [
+        128,
+        48
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "575c38b0bd2cb84b3eaa35b4eb4c5a6c183b7af968557dae62306291dcb64086"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_fx_polvo.png",
+      "frames": 6,
+      "native": [
+        64,
+        64
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "6b73a190c5738e98a1aa18d738b6f95914b19f907b8b4e2c692696d8a55dc866"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_fx_portal.png",
+      "frames": 6,
+      "native": [
+        96,
+        96
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "3530a1f56aedd7c298e64c78cb7da285199ef07548dd67caccff351e9ab58826"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_fx_raiz_aviso.png",
+      "frames": 6,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "1036f5a2fee435b1e2f85ba08044c8d31cfaa53519ce450a80af0c4d2e9c49a3"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_fx_rastro_salto.png",
+      "frames": 6,
+      "native": [
+        64,
+        64
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "030dcfff982b8b0c69295d46f6b0e605eb61ffe5914e37cf177e88bae60fe2a8"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_fx_salpicadura.png",
+      "frames": 4,
+      "native": [
+        64,
+        64
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "e5bf8288ebd45c05e3a0407eb334a7a4cb45613f79b3f15aabd58670e2780ba4"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_fx_splash_entrada.png",
+      "frames": 10,
+      "native": [
+        160,
+        80
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "83fe0e8cff8ed127f7b22abf457b3c069cbec64a8f11fa5e90663c2843724498"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_fx_splash_salida.png",
+      "frames": 8,
+      "native": [
+        128,
+        96
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "4f146ce44bb8f7e8109ca99025387fec8cbec9aa4301a99398a9db3c0160e6bf"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_fx_veneno.png",
+      "frames": 6,
+      "native": [
+        64,
+        64
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "6833813d299ef26c9bb9f2c027c9e63d6ad2914b8b5f4e7e864caa320964eb01"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_niebla.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "afe636a4b8750bf917d91bda14c3c84cef255d215b502af87ee9d3245ec34a0d"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_noche_capa1_cielo.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "39fe5103f3ab6003d132ee7723660ba5c132394860569c679af649c8d63190a7"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_noche_capa2_lejania.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "f3449fee31bce1261cc331fddc3864933bea141512ee8a3e463fdfe00e60ebc6"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_noche_capa5_cercania.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "73ed777d377d08b7bc095d1f702c635bdde2fb5dfd16026bd295f9fc8c797cf7"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_noche_capa6_frontal.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "babe85e18601f84d548c3638ffe4717efe03d1c31175824b7d7fd74f8127d91f"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_obstaculo_estaca.png",
+      "frames": 4,
+      "native": [
+        64,
+        64
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "a4e797fb5b04d38a45afc3982be6d26a04a5043e2316ecd0066f342afc9507fa"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_obstaculo_pinchos.png",
+      "frames": 4,
+      "native": [
+        64,
+        64
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "055d5baf5e913c365f27db0a00fc06a7047d8d8b15f7095d2223c925145437fd"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_obstaculo_raiz.png",
+      "frames": 4,
+      "native": [
+        64,
+        64
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "2f2793198b248385c0643bfdf065fb714d991414a6e5f5326b4d148a830acb2c"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_obstaculo_techo.png",
+      "frames": 4,
+      "native": [
+        64,
+        64
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "8e90b6bc2e3e8372013be07525ef57a928b85f6de1d4e342a36ec8b5626c92ec"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_obstaculo_trampa.png",
+      "frames": 4,
+      "native": [
+        64,
+        64
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "bbc1c5ab8aea3e3e4977b7fae75dc40ad156ce77f50325e9d4565b0cd8ba9c86"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_plataforma_bote.png",
+      "frames": 4,
+      "native": [
+        160,
+        64
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "c8a6109dede9ff4f1060583d890e3d3126a525141d8cb0901078946db61d4336"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_plataforma_piedra.png",
+      "frames": 1,
+      "native": [
+        96,
+        32
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "151432c7b65d27ba0ac8fbda98c9477b688c7bdd72ca7ddb45c1f7ec4d6265ad"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_plataforma_puente.png",
+      "frames": 4,
+      "native": [
+        128,
+        48
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "76940f51e26d9a50ca99627cc6caf737607849158bd2acfafed6b8dbe61d7e48"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_plataforma_rampa.png",
+      "frames": 1,
+      "native": [
+        128,
+        64
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "e6d0e8e2b87c4eb117d5025394a944a8a1de3f671eff3601c477c39d852fa293"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_plataforma_victoria.png",
+      "frames": 2,
+      "native": [
+        96,
+        24
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "23ef78ccccf7feb87ca1ac520576cd6446bbf561ebb23b7068205d7bf390bdf4"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_portal_salida.png",
+      "frames": 4,
+      "native": [
+        128,
+        192
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "84291faa5366cbe228a50c666aab6a22d37cd5fde66f6af1562ba334d35617eb"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_rayos_sol.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "6a0219ca77b1941b6fe98ef3e1e89c7173f0e8881dc90c78b653921d985521d0"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_rio_capa1_cielo.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "478448ee7d0d1dd7f1322fc16abe5b8810b9ffdcd0364bbcdeefbd9f26f44d8c"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_rio_capa2_lejania.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "c46b1a77a508befa3d919f80ffb3cf0ee7b724105de916c5e923d8d17f9d01c3"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_rio_capa5_cercania.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "e634fc605de2336fd03c217ce8b7b0b3bb0bc3e9cb7a028514bd5dbc13a2b7a3"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_rio_capa6_frontal.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "babe85e18601f84d548c3638ffe4717efe03d1c31175824b7d7fd74f8127d91f"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_ruinas_capa1_cielo.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "7794a8599b7366e5796fd1175536ccd85ddfc15da89714e31b16976a98b43d6c"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_ruinas_capa2_lejania.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "87346139df3dc993dc240c2ac40db5508d8be868d6cc66d3008fd504f13f3d00"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_ruinas_capa3_estructura.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "fe99f1290476d08fcf18fff8df76d8b8e859abaa4c0e4f31b61d8d3d8963ef5d"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_ruinas_capa5_cercania.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "5bf9cab86b3d5145e7cdc2b1cc4cc01b9d2bb8a769a3bef16d2aaebc366e2bcb"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_ruinas_capa6_frontal.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "babe85e18601f84d548c3638ffe4717efe03d1c31175824b7d7fd74f8127d91f"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_templo_capa1_cielo.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "478448ee7d0d1dd7f1322fc16abe5b8810b9ffdcd0364bbcdeefbd9f26f44d8c"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_templo_capa2_lejania.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "c46b1a77a508befa3d919f80ffb3cf0ee7b724105de916c5e923d8d17f9d01c3"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_templo_capa5_cercania.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "5aa87b3fd90485c3291851b74f4fa699c869167c4605796ffa2f851dbd9e90f4"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_templo_capa6_frontal.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "babe85e18601f84d548c3638ffe4717efe03d1c31175824b7d7fd74f8127d91f"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_tile_cueva_borde_der.png",
+      "frames": 1,
+      "native": [
+        64,
+        64
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "fa4bc963d82b18d68fdb1dd59e719df21abff86e006758bea5d9af9a69b88acc"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_tile_cueva_borde_izq.png",
+      "frames": 1,
+      "native": [
+        64,
+        64
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "acd7bc6f30ca8079d14de823cb516744725e42cc063b6ddfd66633e5979c187b"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_tile_cueva_relleno.png",
+      "frames": 1,
+      "native": [
+        64,
+        64
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "dfe173bc2d2deaad9af7d6ce8a98e4f63cb2d6364cc405b4ccb116cde8609b31"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_tile_cueva_superficie.png",
+      "frames": 1,
+      "native": [
+        64,
+        64
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "5c4d6c392970f7d15eeaee554534927a64fa3fa4168d567a550aec00cbde0cd0"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_tile_roca_borde_der.png",
+      "frames": 1,
+      "native": [
+        64,
+        64
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "a243b9115570e9cc3c932edbb763ed5771db37ca6a23259906e0af17eb5db567"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_tile_roca_borde_izq.png",
+      "frames": 1,
+      "native": [
+        64,
+        64
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "a91ae7ff1b885dd9234fe8607372d8c514f6c35495e8b0ed6868e9b3a662906d"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_tile_roca_relleno.png",
+      "frames": 1,
+      "native": [
+        64,
+        64
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "30aaaa324174eee9d105b5193ff24cd17d6df80cb15119d919c6f86fb0e02034"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_tile_roca_superficie.png",
+      "frames": 1,
+      "native": [
+        64,
+        64
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "3c4a53daf5a06652b81513ac002169eb0bfa10c7b58c1121102b1ac8cbc2da1b"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_tile_ruina_borde_der.png",
+      "frames": 1,
+      "native": [
+        64,
+        64
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "94681677574cb553aa0538f508e46be85fa4685f9d26131090c8c070cd11255b"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_tile_ruina_borde_izq.png",
+      "frames": 1,
+      "native": [
+        64,
+        64
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "284db2384a37ed5ce895291b492cbd74f821b1fbf871723a4666bd9005c24f6b"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_tile_ruina_relleno.png",
+      "frames": 1,
+      "native": [
+        64,
+        64
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "c693d1649c59db2dadbe8b7725a25ed52e7045c15a7a96988aa428114b8e3ddd"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_tile_ruina_superficie.png",
+      "frames": 1,
+      "native": [
+        64,
+        64
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "257e12b20987c83c7c189715f0711488d453b0ed2b7c574197e8b014ab93179b"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_tile_tierra_borde_der.png",
+      "frames": 1,
+      "native": [
+        64,
+        64
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "6b553ffe39b6becf7f079099603d8e1103434ee041a3214d7e2b5d230cf988df"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_tile_tierra_borde_izq.png",
+      "frames": 1,
+      "native": [
+        64,
+        64
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "fb474b95634cba64375b6ed722410e9e24108b3196d4e0d98ee6f2f9169e33ea"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_tile_tierra_relleno.png",
+      "frames": 1,
+      "native": [
+        64,
+        64
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "00c0fa4077136a09ce7e93c4c1242d91aa225d46f340f6427c2ab661c3c09171"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_tile_tierra_superficie.png",
+      "frames": 1,
+      "native": [
+        64,
+        64
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "12ed73db1c7621a20aa9991a196a2217c76fdaa946228adb20059204f0fe2607"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_ui_barra.png",
+      "frames": 1,
+      "native": [
+        128,
+        20
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "896d40ed0ceabd929c3efb5e1b131a62164e65145f56dc9a3cbf2338e9ec9833"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_ui_boton.png",
+      "frames": 1,
+      "native": [
+        96,
+        32
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "337b3462388fa638d1bf41ec594f936508586469f1e25a612edce61edfd6682a"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_ui_casilla.png",
+      "frames": 1,
+      "native": [
+        48,
+        48
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "e0e5444d6b338ffd31c4398346e3c070a6b7fe3924560c581881780e1fff4663"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_ui_panel.png",
+      "frames": 1,
+      "native": [
+        96,
+        96
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "ce9140baef70d0424659ee0e0af000148eacedfded927805aed068ec694984d1"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/sierra_camino_capa6_cercano.png",
+      "frames": 4,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "5f57a67991040a22eed21547e39398dfd539a9263922aa45fc9f9bc050fcc8b8"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/sierra_camino_capa7_suelo.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "7b5fde397fd7daf28a6610d3e5547a86c4b40c8068f79af16689f8ecd5f40966"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/sierra_compartido_capa1_cielo.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "0e7ba92efb1eccfdc7cbe0e77d45f2b2ef4fd166c3c51d601fe0b94e9349b2e6"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/sierra_compartido_capa2_nubes.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "920392f7f4a537526cd4e0addc997c33b60eb54758bfb1e39e91edb6d45aa87d"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/sierra_compartido_capa5_neblina.png",
+      "frames": 4,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "f7109b3271a99c898f220cb3a7b3daaf2e2a5cb4de217253e48e790ae540109b"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/sierra_cueva_plataforma.png",
+      "frames": 1,
+      "native": [
+        32,
+        24
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "e6746495af483d80d0892c877fb819567ee782d5face9ca9e2576b15a6fbac12"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/sierra_cueva_roca.png",
+      "frames": 1,
+      "native": [
+        64,
+        64
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "df1d27b4829db957ba78f53afa30753e4038c6c33525558dabac20dc60d8fb6f"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/sierra_cueva_suelo.png",
+      "frames": 1,
+      "native": [
+        64,
+        64
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "d3e82d7038ad577127cd771fd6439befb5c17adfba43022cecdedf1b96eab80b"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/sierra_decor_arbol_queuna.png",
+      "frames": 4,
+      "native": [
+        128,
+        144
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "ef809a933b762b3d07443a28e8c62274b32ccaa009ea2216910b8897518a1a91"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/sierra_decor_cerco_madera.png",
+      "frames": 1,
+      "native": [
+        192,
+        80
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "64fa734d582d8de9beedfefee0efea8556ec3ffb7ae715cbdcdca9ebd58d4c35"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/sierra_decor_ichu.png",
+      "frames": 4,
+      "native": [
+        48,
+        40
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "f8974c78408ca888fb151fe631b11a0dbb58dbac11b24d33ad3d0c016cbde283"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/sierra_decor_roca.png",
+      "frames": 1,
+      "native": [
+        96,
+        64
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "92ded327e1f322ea1d102a49bc2f0a92368490d4d0ffca4482660e9d407b83df"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/sierra_fx_astillas_madera.png",
+      "frames": 6,
+      "native": [
+        64,
+        64
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "2bf80e59901d012283c43499ea896880c577ba79c1f98910ab085c1ac3dfcf0c"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/sierra_fx_chispas.png",
+      "frames": 6,
+      "native": [
+        48,
+        48
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "32953790ba99aa6d200beb216b0297455465f52049bc98691aa8d93369a47f07"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/sierra_fx_cuerda_rotura.png",
+      "frames": 5,
+      "native": [
+        64,
+        64
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "de30583193539ea16d0db06978b337c89f99324473fb817a2d50754feb460a36"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/sierra_fx_escombros_piedra.png",
+      "frames": 6,
+      "native": [
+        64,
+        64
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "3d6f4d301bd0987219ab297e97727c5d91a2bada374673aec8e5c10fa5dfcabd"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/sierra_fx_escudo_activar.png",
+      "frames": 8,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "a1890d8ea11d6e25bc934262b7a023e640dff74a41baa81169551f7b340e59cd"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/sierra_fx_escudo_romper.png",
+      "frames": 8,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "6db81a2d1c23b01a05b26e3cf58352c1d415f387f4703b5ed27ed3eb6edf138b"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/sierra_fx_humo_teleport.png",
+      "frames": 8,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "e45b3bbab786fa93b73637ac51c16af585f8d4e4face98cc4255d8621f10931d"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/sierra_fx_impacto_piedra.png",
+      "frames": 5,
+      "native": [
+        48,
+        48
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "9129a17a571cf704e6936980a1b2f320784764b55445fdeeafcd1aa83fe4ae63"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/sierra_fx_polvo_aterrizar.png",
+      "frames": 6,
+      "native": [
+        64,
+        64
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "d3320403105b2d9a5a55779abefca8042f3e46e472d8dbd4e4ad33ca94ba11d9"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/sierra_fx_polvo_correr.png",
+      "frames": 6,
+      "native": [
+        48,
+        48
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "229c9c12474172778d2ffa321ea3a425db9f3e588a7b3ab740dea9db3b677c25"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/sierra_fx_portal_absorcion.png",
+      "frames": 8,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "1e84cb3153575e22bc4cc7d46c0fbddaf416c45ed04badec128f353d566902d3"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/sierra_fx_salpicadura.png",
+      "frames": 6,
+      "native": [
+        64,
+        64
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "0650cab44328926879d5e842b068a59de3166f698b0714d1ace7270391dc725b"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/sierra_fx_teleport_anillo.png",
+      "frames": 8,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "6c8d0e600c9ee687354792a0a84ad55ef66417cc11dc41f12fccb0d9852bbb9b"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/sierra_piedra.png",
+      "frames": 4,
+      "native": [
+        16,
+        16
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "feeaa453889b247599f74426949a063dc8e61855bc047201c1da34432917f0cf"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/sierra_pinchos.png",
+      "frames": 1,
+      "native": [
+        64,
+        64
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "fbf1e569829d8a85b810a2f2856bfed13387e0bca335c3df6c964d34bc7f3f8d"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/sierra_portal_ceremonial.png",
+      "frames": 8,
+      "native": [
+        192,
+        224
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "878e21d71d2515522f7b6b40627ec27c3dad98d99a24dfa95520fad99716cc46"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/sierra_ruinas_capa6_cercano.png",
+      "frames": 4,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "c760a037c0146ed14d45609a21d83237f285f60e3a6c829bb88f751662933bdf"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/sierra_ruinas_capa7_suelo.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "5aeb95ceee84fa69cb42dac3ebf227a64e0cc9c896c42fa822877095ab808ad3"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/sierra_ruinas_escalera.png",
+      "frames": 1,
+      "native": [
+        128,
+        64
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "1ff7d3f02d39115bbc702b6e88c2085aecac64dad4deefc5772a9f8827855008"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/sierra_ruinas_pilar.png",
+      "frames": 1,
+      "native": [
+        48,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "ff113cc2037a08a91745397dbf433425a30b1fe36044462f23d98b8e009cf90f"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/sierra_ruinas_rampa.png",
+      "frames": 1,
+      "native": [
+        128,
+        64
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "1edf88899731812da115438b2b912116c073a2b0e58fdd6b24c2b488386c8b69"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/sierra_tronco.png",
+      "frames": 1,
+      "native": [
+        64,
+        64
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "09d178d5163e72f745038a2d665ec419c7f744ff01f820c71f8222291caa6750"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/sierra_tunel_entrada.png",
+      "frames": 4,
+      "native": [
+        256,
+        320
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "d8972de47a4cd45af015c30604f859a44039ab55f198f697ec2224530e5005cc"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/sierra_tunel_salida.png",
+      "frames": 4,
+      "native": [
+        256,
+        320
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "68d7bb9ae8715fe2e18a9578edb268d24c556ecb958d610f00c3174157fe7d2d"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/sierra_ui_barra_integridad.png",
+      "frames": 1,
+      "native": [
+        128,
+        24
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "50a0b747ddd6f1b0cb43589862f7adc2608352a9143ee6668ed9ffed231d8a4a"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/sierra_ui_boton.png",
+      "frames": 1,
+      "native": [
+        128,
+        32
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "bb5789c60bd2ca1b4f9bbe53e22959939bc63313f38fad03d9058e31dfb598c5"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/sierra_ui_casilla.png",
+      "frames": 1,
+      "native": [
+        40,
+        40
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "325c873df7d3ff1807f3ba3cb55bcdaa7f3370ae4a2bdaeb5f404d1a98f685ef"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/sierra_ui_panel.png",
+      "frames": 1,
+      "native": [
+        192,
+        96
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "8dcf111469f061eb8b0ddcdc2237b3c6f5dd5ffcc9bcdf0acde06f91884db6a7"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/sierra_ui_reticula.png",
+      "frames": 1,
+      "native": [
+        32,
+        32
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "a6bc6d38204ee9213721ab6a6764e19a898a179524140cd7f1da7452dbe52474"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/sierra_valle_capa5_rio.png",
+      "frames": 6,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "98b31f9afc361d01bcdd253e1060099c6e5c14d25df6d8ada787e431a69380e9"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/sierra_valle_capa6_cercano.png",
+      "frames": 4,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "11366d8a8a239e06bedd41b848f1fbda8fc74983fbd925321df151434b06367b"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/sierra_valle_capa7_suelo.png",
+      "frames": 1,
+      "native": [
+        1280,
+        360
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "c7c030ef2f28259cf1d54462a401522c68a4e83319890bac3b6726a6b1cc3489"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Readability/selva_obstaculo_estaca.png",
+      "frames": 6,
+      "native": [
+        64,
+        64
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "0e395922c9ed30006159604e9cfd4398d2d0ad9b517968849cbfcca76978f655"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Readability/selva_obstaculo_pinchos.png",
+      "frames": 6,
+      "native": [
+        64,
+        64
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "843a3c2bae2230884a22e68604a6274fcbb6fa13ac7bdc9a218f83c42d5e7394"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Readability/selva_obstaculo_raiz.png",
+      "frames": 6,
+      "native": [
+        64,
+        64
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "1bddda677c5d9e37bc6f91e3426df84c2fd9ccf1828c68a1236a25e6c2f73572"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Readability/selva_obstaculo_techo.png",
+      "frames": 6,
+      "native": [
+        64,
+        64
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "d81d5cce2255b24e215d55f20d8f397292cb2f0ee6d15c7c7b8186c179f8a6d3"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Readability/selva_obstaculo_trampa.png",
+      "frames": 6,
+      "native": [
+        64,
+        64
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "cc649eefac719a50f536414cabd773e8ca6dc7954e5de21591f16ba8253f3f50"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Readability/sierra_piedra.png",
+      "frames": 6,
+      "native": [
+        16,
+        16
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "a08c78641cb60fd614641e39191c9c78f3b485143587f29ae868bbd90d53742b"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Readability/sierra_pinchos.png",
+      "frames": 6,
+      "native": [
+        64,
+        64
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "0b8245aa30831da260586f015ffbb2493c7581602fc3f7e3a16fd32c3cefa883"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Readability/sierra_tronco.png",
+      "frames": 6,
+      "native": [
+        64,
+        64
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "60a3a1a24a4f0a20ef73c2013f34c489a7b42c3b0a4f26ccae6f3657daaabf22"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/stone/andar.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "e530d5730cb0611ba3151f8598b3a4011d847f5b369888ee4c7fd962a3ca0848"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/stone/anticipar.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "5a8692f5a9d0add012b62108cde5e231f62a719d4f70f150675ff3b0f2c5efb6"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/stone/carga.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "8afb15e313a66d78ed6b2ba19498319855c1db79d0fa27e21dd65ee29cf7443d"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/stone/derrota.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "f8d16a6b1fa3673dc029ae9848523657e2977dcbc4d8048b4a122712d9073d31"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/stone/despertar.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "139e4d9600431874f11a0a22585ad40db7e0a303c753fb1e7e803720679e6a29"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/stone/golpe.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "dd8babff4aef2cac01c82e09e5dd3e026c8beb5347a2642bf11c8c6bbffe1c26"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/stone/hit.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "e1ef577a043c19519278186ca075f105ede2498534b04d4c18fa7b60fc8d8626"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/stone/idle.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "456d8eb2da3d1ce87a6488b24d5eb0be68f8b7b2c962c75519550d2b1a3e5d49"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/stone/MotionV2/charge.png",
+      "frames": 8,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "5691c39670a060ba2e436387953f6907c4078f087626c1819d498ee3e6317ec3"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/stone/MotionV2/jab.png",
+      "frames": 8,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "1b6de4051c112e7b5cd4c78f31a4de0cd6695065bb542531c9b4ebcc12dbb920"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/stone/MotionV2/uppercut.png",
+      "frames": 8,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "2e161379fb8744a4ff7a7a0c53e9f1df082c8b9f5b5f6b1c9c27bc275bb0f9ed"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaCosta/burst.png",
+      "frames": 4,
+      "native": [
+        192,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "65bfe4f38b6382f9a8bbf0ff12e74879ec50bf673c81596ce9d626a6381f42a2"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaCosta/dance.png",
+      "frames": 4,
+      "native": [
+        192,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "bd1ab285c59f74dc8c47a3c06a8fc8755de39859157bb1f5c1e9bb78e107df61"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaCosta/death.png",
+      "frames": 4,
+      "native": [
+        192,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "4d0de0adf4d516444fdbf021ed81b8e711c7316b66481a77a01b0e4b8699628e"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaCosta/double_jump.png",
+      "frames": 4,
+      "native": [
+        192,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "790879f8fc46387898c960865c0831041da77358b118fa4c1d4e9bd660d16984"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaCosta/double_jump_selva_pose.png",
+      "frames": 3,
+      "native": [
+        192,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "9e4d1c16d9cadcd0b010c7f0d995d7ca3d0ca178337f98c902a9378289487951"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaCosta/fall.png",
+      "frames": 4,
+      "native": [
+        192,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "84b2312b71048ecfcdb010c2f0a71ee7ae2fbc04fe3543cdaf2f9769a690b25c"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaCosta/fall_selva_pose.png",
+      "frames": 2,
+      "native": [
+        192,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "a7017d87d4877083da5b5850e1dc8267d697ee1b6423ae299708c9520e69a04d"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaCosta/guard.png",
+      "frames": 4,
+      "native": [
+        192,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "6bec78588558bbc1be1009c95512e86fc7e3794407bdb4ba5a477254a717e4c0"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaCosta/hit.png",
+      "frames": 4,
+      "native": [
+        192,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "3c850abea51da0e9aa6aed525b48640e9e2415141255eb50e7217bc0feed00fa"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaCosta/idle.png",
+      "frames": 4,
+      "native": [
+        192,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "834758e785dcef28cbb3ee1801df897cf86f4bc90f3f55772b346755e056d451"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaCosta/jump.png",
+      "frames": 4,
+      "native": [
+        192,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "0de9eb2506637450da3670301e4d9987ee204eb088af942d435f437da49d48d5"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaCosta/jump_selva_pose.png",
+      "frames": 4,
+      "native": [
+        192,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "02f44f43e9da311fb632c1222df4b4f72733a016cf48a3f8a7d51789fba748d7"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaCosta/land.png",
+      "frames": 4,
+      "native": [
+        192,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "7569327b49a52b639dc8d4e11181660512c92a04258586dc1ca934a4bfdaeb45"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaCosta/reload.png",
+      "frames": 4,
+      "native": [
+        192,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "213181479e5b93589ad0dece8c5ddb99bd2be14ef83ab37a0f0349ed4f7f8e98"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaCosta/run.png",
+      "frames": 8,
+      "native": [
+        192,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "dcfa0fec9faa39c29e344142699b453e31a3709f1a59e817331038bb8f6277c7"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaCosta/run_human.png",
+      "frames": 12,
+      "native": [
+        192,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "4a7b99fa775d96650e2b8d5e329ccb87460ecc7ba9561aaaca7e7ecee864d326"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaCosta/slide.png",
+      "frames": 4,
+      "native": [
+        192,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "6fa82f7b45a311c7470321f959748728b67a60ef5b62daf9e4144b3c85c0c193"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaCosta/slide_human.png",
+      "frames": 4,
+      "native": [
+        192,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "40fdf1dedc33e72d90fce210177a978270d93d3dc3429efc95aef56361a38723"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaCosta/victory.png",
+      "frames": 4,
+      "native": [
+        192,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "c25b6de19482c2c0dddbea073fe2d146cd0a9ad0b8ffce1d0cae426b1b2578d5"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaSelva/baile.png",
+      "frames": 4,
+      "native": [
+        96,
+        96
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "ff4b5ade3fea10b9ae05ae842be57f3056e263c6a7f2c35c911d77822b94b594"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaSelva/burst.png",
+      "frames": 8,
+      "native": [
+        96,
+        96
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "e9084e1878e2c486dd1c5fe971e68f5073fc0d0abf98e35c3368ea5134175991"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaSelva/burst_human.png",
+      "frames": 12,
+      "native": [
+        192,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "2cd5f3c116e9f34fce94db59d6f4a85ac13f5fc66ad01464e77e8231ed222f0b"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaSelva/climb.png",
+      "frames": 4,
+      "native": [
+        96,
+        96
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "bf65fdfd9c92b5cea4365b05eddcb949f107892cfeb7e4f882714d53516f7be2"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaSelva/death.png",
+      "frames": 4,
+      "native": [
+        96,
+        96
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "83ace060259118f209d3d75ea322bef69abb2d27d2d1957b64601c85362e3622"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaSelva/dodge.png",
+      "frames": 4,
+      "native": [
+        96,
+        96
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "45c5ad0535ed1f25629d20f97715a01acca4b9c1b81b4982a7f1d05141111da0"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaSelva/double_jump.png",
+      "frames": 3,
+      "native": [
+        96,
+        96
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "3c855b7386713f7deb48d7dc056cbfe6fab925636b8b2718a4cfec39bfc598f5"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaSelva/fall.png",
+      "frames": 1,
+      "native": [
+        96,
+        96
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "247787e7fcac5a7888f26f8d0701bde11123320c201707aa88240d34f4d8e888"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaSelva/grab.png",
+      "frames": 2,
+      "native": [
+        96,
+        96
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "b66ac4cbebd2991df9f551342a0ac5a2696567f67753cb0a5e62ae1647f09622"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaSelva/guard.png",
+      "frames": 4,
+      "native": [
+        96,
+        96
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "afed121d51461b8e5e8c43a22e6b57a025e5ef5fe7c54baf37e27ae1218f0ec9"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaSelva/hit.png",
+      "frames": 4,
+      "native": [
+        96,
+        96
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "a50da8b24ee0a8556c52512ebb426e7f9dc5739c5f34ec67816a88581ab58f46"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaSelva/idle.png",
+      "frames": 4,
+      "native": [
+        96,
+        96
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "520b03c1fa0687415c6ff9effa770365eb6d39fa7182397069f0c896adec0db3"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaSelva/jump.png",
+      "frames": 5,
+      "native": [
+        96,
+        96
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "4300d3cce686d79196829bdf14391a38ab223fe5d3b32e94f2477b7b874f7b2e"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaSelva/kick.png",
+      "frames": 4,
+      "native": [
+        96,
+        96
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "a07c64b42293180e221ad18373a79ebc458695e998884c2f355c682c453632ca"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaSelva/land.png",
+      "frames": 2,
+      "native": [
+        96,
+        96
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "d82868744d846aa4cee1056dba79bf9ae9e263ddb62850002e96cab69e19b262"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaSelva/punch.png",
+      "frames": 4,
+      "native": [
+        96,
+        96
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "352d29305d708d2e3f45e887fe0c95c173a491c1eb9ee7d79db2338ddf54df1a"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaSelva/regrab.png",
+      "frames": 3,
+      "native": [
+        96,
+        96
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "a79857ad369ccf33fa62e7403b8487a0bd15e91b3b2e37910bc877a0486caff6"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaSelva/release.png",
+      "frames": 2,
+      "native": [
+        96,
+        96
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "ce6dde8f43f285a8d1d19ac7dd429e86cdbf53a3efdfa4561093336af84afca7"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaSelva/reload.png",
+      "frames": 4,
+      "native": [
+        96,
+        96
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "7f0ad36f9968c91706a7fc4a10553c4c1343cccc3bb10cec20fa5bad084419e1"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaSelva/run.png",
+      "frames": 8,
+      "native": [
+        96,
+        96
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "ddf1ac08e9160971d1e9c52d770239ff7af50cf98031aee893b80f7230f873c1"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaSelva/run_human.png",
+      "frames": 12,
+      "native": [
+        192,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "b5c6cb7e4f9e7c547ec2b35c2cf3b429ec36cf5eb3569be836cc0c9ff61ece96"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaSelva/slide.png",
+      "frames": 4,
+      "native": [
+        96,
+        96
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "296a5894e1385bd38fcc3f3ac0f66519e188ef18eb2c86ef80e260ca1e6fddf5"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaSelva/slide_enter.png",
+      "frames": 2,
+      "native": [
+        96,
+        96
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "e4e1fb82fa0a093ca94a9a8dfd92dfba49dd52d7d408c9d4a252ab35ffed356e"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaSelva/slide_exit.png",
+      "frames": 2,
+      "native": [
+        96,
+        96
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "16925b9d77009f49f1de571722cda3b43af950c309a7d7f2c7b9c9a3184b7fc7"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaSelva/slide_human.png",
+      "frames": 4,
+      "native": [
+        192,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "fcd0fccec1528220f5ea0733f0571d1779d36bf42eafbd43450f08f1b943f058"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaSelva/swing.png",
+      "frames": 8,
+      "native": [
+        96,
+        96
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "5fa33151ef15088e3991448c13cc3948de1566e3cd995221824eea35b47ace58"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaSelva/uppercut.png",
+      "frames": 4,
+      "native": [
+        96,
+        96
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "9ae8fd791b8e84468f35c8d924c1817fb2b7b26d5b7d5bcbc4b0b39983907053"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaSelva/victory.png",
+      "frames": 4,
+      "native": [
+        96,
+        96
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "f44e270ae9ddc5ecf134d69edb73cc540a44052df33359710fcdecb0e3ab08ee"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaSierra/burst.png",
+      "frames": 4,
+      "native": [
+        192,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "dc965f49f52236176fb5d9789ecde2e9e76d5fa682b6ab70b7c0323fcb5cebcc"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaSierra/burst_human.png",
+      "frames": 12,
+      "native": [
+        192,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "13f2e8298872cbfea9c58405dcfa74349f107d6193c21e4135e2143deef47f2d"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaSierra/climb.png",
+      "frames": 4,
+      "native": [
+        192,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "b7013dfd5af7fdcfee72545934f46f9260e53a892538382a0dca2039a3711f74"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaSierra/dance.png",
+      "frames": 4,
+      "native": [
+        192,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "b54103bf4c7d151a34a0776fd15b66350e5176e3ede60d309cdc60ee57738f69"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaSierra/death.png",
+      "frames": 4,
+      "native": [
+        192,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "9d16d83574425d1b17589735a433f200250de2ee8ba70394ccf63e8a1aabd5f5"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaSierra/double_jump_selva_pose.png",
+      "frames": 3,
+      "native": [
+        192,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "2e63fe01ab7875ccf990b9bd5c591490b2776360691866d06203b084118c157e"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaSierra/double_jump_shoot.png",
+      "frames": 3,
+      "native": [
+        192,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "17f855c9c8468c977bcdf5fbeecd905973735790550f1b848088ddc46ca9dc05"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaSierra/fall_selva_pose.png",
+      "frames": 2,
+      "native": [
+        192,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "e7ee19106ac5b5ce0a05239acada969b2bdf823b58868faeb145180164b8b3bf"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaSierra/fall_shoot.png",
+      "frames": 2,
+      "native": [
+        192,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "8ba10e52b1520542ee415854b698097404ff864f6aabfca0c9c277246ea6e961"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaSierra/guard.png",
+      "frames": 4,
+      "native": [
+        192,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "31a211dc87c4d6f197273b130e423df1cf50004a0131cabc4f4e922aea236d10"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaSierra/hit.png",
+      "frames": 4,
+      "native": [
+        192,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "5412798aef9c48cc8d105ab7491cdb0f55d5c7f088fb193db337fc4d7027d887"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaSierra/huaraca_load.png",
+      "frames": 4,
+      "native": [
+        192,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "f409bb901d6b0014c2b3335c14ad27f26c156312c41225bc08e979577b7ccaa8"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaSierra/huaraca_load_v3.png",
+      "frames": 2,
+      "native": [
+        256,
+        128
+      ],
+      "status": "redrawn-this-revision",
+      "sha256": "f9bb9bba5c296be39f93cb9be2f14558d4db577cad43c2a47bd2ffc125fc179a"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaSierra/huaraca_spin.png",
+      "frames": 4,
+      "native": [
+        192,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "c9a027ec37cc4b59cc0332d3697ed8f9053e9c8a53271608784b105817fef31c"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaSierra/huaraca_spin_v3.png",
+      "frames": 8,
+      "native": [
+        256,
+        192
+      ],
+      "status": "redrawn-this-revision",
+      "sha256": "bd8d62b5c1338a20dfbccf3a0a6041f8469c9e6e2e197d1201b598e51dc5b868"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaSierra/huaraca_throw.png",
+      "frames": 4,
+      "native": [
+        192,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "e6158ab8accfca8a1614413d79f53c2cda342374148cf2dc1c8a98ab608c60b4"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaSierra/huaraca_throw_v3.png",
+      "frames": 8,
+      "native": [
+        256,
+        128
+      ],
+      "status": "redrawn-this-revision",
+      "sha256": "cfa95abc629e74c3b56acf6cab84ec50ae1f210a804a93577642250fdb30d50e"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaSierra/idle.png",
+      "frames": 4,
+      "native": [
+        192,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "608f7f52229d03e17ff4651cc8887db52947786d1cf6113f9bb3b68037228e99"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaSierra/jump.png",
+      "frames": 4,
+      "native": [
+        192,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "b6a4bb0bf8f5aa01b9f2e08c9f455b3085244a63f986ade1bd914cb870099350"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaSierra/jump_selva_pose.png",
+      "frames": 4,
+      "native": [
+        192,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "f517aa6df1b2c5d75328d63f75f307f5dbc2db85251a76f4b55ef6a917c9457a"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaSierra/jump_shoot.png",
+      "frames": 4,
+      "native": [
+        192,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "aa3aa60500f63aac55614296f9e1270ae8c06b27eecf9105fda72aa742dd7468"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaSierra/reload.png",
+      "frames": 4,
+      "native": [
+        192,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "29ff4c9036ad961caa5789b7814529d98699add3e60cbac13746b5f63ac2480d"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaSierra/run.png",
+      "frames": 8,
+      "native": [
+        192,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "80794b4490cac636f1bcec959bcb694ddef822203dc15114c21566f471399104"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaSierra/run_human.png",
+      "frames": 12,
+      "native": [
+        192,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "c1b7861c5ceea28c061ac78941459310f9cfed540df3dc03363f21b1ec242df6"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaSierra/slide.png",
+      "frames": 4,
+      "native": [
+        192,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "e8f569254b4e8f3e448a595e75156b9a7273ff800aca58c6a97666789c3f7daf"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaSierra/slide_human.png",
+      "frames": 4,
+      "native": [
+        192,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "17fba37780e1bd55fa1839e977ee18596672f33923ab1e15b3a43423977cd465"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaSierra/transformation.png",
+      "frames": 4,
+      "native": [
+        192,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "12b447ca545f812100dc0285352599b7adf607ff736060c5db21474ce65d9454"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/treant/andar.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "ee9a624c3f5761cdeb06171556d1296867b392d186d1b2fe9c78e7f2ffd6628a"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/treant/anticipar.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "65e13452eebd55807c511b8e0e4e97d372135cdbab22446a41674fa35b9a271d"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/treant/carga.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "b38c946ad6ede6b59dc1cc9677cb4c1ee8ca159774d64373b11854167f867775"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/treant/derrota.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "21133ae6916e103b72aca08dcbb02b3bbefddf9475a2cc46342a775ca8073bd8"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/treant/despertar.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "8e8426942cd20fd9bbc85f79d51421c2a973aedf925fee70167d02d049680c57"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/treant/golpe.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "d08621ed7574f0a8075fd3659267d1d90899d07c0127608fec4397daa4031bdd"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/treant/hit.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "ec728fa5d397d87c4ef67537e67a6172568d48a9a9e3ee0247bcb5ba41748ce3"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/treant/idle.png",
+      "frames": 4,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "579f6dfe6f4a12d976fff67de4ddb6531a17d30020d71766707fa7e6fd11b733"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/treant/MotionV2/bind.png",
+      "frames": 8,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "9a9162803758f865d324639a22515ef0dc706f4b5dc7dd82be15a2f7bc7f8832"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/treant/MotionV2/charge.png",
+      "frames": 8,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "258c52c17a89083e177f541b6fa4f82f1bdef6231710535466c1cea4697467d0"
+    },
+    {
+      "path": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/treant/MotionV2/roots.png",
+      "frames": 8,
+      "native": [
+        128,
+        128
+      ],
+      "status": "existing-bank-not-redrawn-this-revision",
+      "sha256": "c27c2529e794be1380080745ca85cafb860d4487c7f47f28d5005b89e2accf1e"
+    }
+  ],
+  "layerSetProduced": true,
+  "layerCount": 63,
+  "unityResourceAuditPassed": false,
+  "fullVisualPolishComplete": false,
+  "unityPlayVerified": false,
+  "scope": "All 63 runtime scenery layers redrawn, plus three huaraca sheets. Other assets included from existing library, not newly drawn."
+}

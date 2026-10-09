@@ -1,0 +1,10 @@
+PASS costa: 12 gait poses and common PPU for idle/run/jump/slide/burst/hit
+PASS costa: 4 deep crouch poses fit 19px clearance visually
+PASS sierra: 12 gait poses and common PPU for idle/run/jump/slide/burst/hit
+PASS sierra: 4 deep crouch poses fit 19px clearance visually
+PASS selva: 12 gait poses and common PPU for idle/run/jump/slide/burst/hit
+PASS selva: 4 deep crouch poses fit 19px clearance visually
+PASS Sierra/Selva minilevel bodies: 15.3 x 28.9 logical pixels, feet unchanged
+PASS Selva duck obstacle: standing collides, crouching clears
+PASS shared Costa/Sierra clearance requires crouch at reduced hero scale
+Geometry/resource assertions only; visual acceptance and full playthrough remain separate.

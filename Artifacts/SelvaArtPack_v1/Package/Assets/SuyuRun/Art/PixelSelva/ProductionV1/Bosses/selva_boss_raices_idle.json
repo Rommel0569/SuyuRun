@@ -1,0 +1,46 @@
+{
+  "name": "selva_boss_raices_idle",
+  "file": "Bosses/selva_boss_raices_idle.png",
+  "frameWidth": 96,
+  "frameHeight": 96,
+  "frames": 4,
+  "layout": "horizontal",
+  "fps": 8,
+  "loop": true,
+  "ppu": 32,
+  "pivot": [
+    0.5,
+    0
+  ],
+  "parallax": 1,
+  "seamlessX": false,
+  "status": "proposal_pending_visual_approval",
+  "role": "Cueva: guardian de raices",
+  "fiction": true,
+  "rectsUnity": [
+    {
+      "x": 0,
+      "y": 0,
+      "width": 96,
+      "height": 96
+    },
+    {
+      "x": 96,
+      "y": 0,
+      "width": 96,
+      "height": 96
+    },
+    {
+      "x": 192,
+      "y": 0,
+      "width": 96,
+      "height": 96
+    },
+    {
+      "x": 288,
+      "y": 0,
+      "width": 96,
+      "height": 96
+    }
+  ]
+}

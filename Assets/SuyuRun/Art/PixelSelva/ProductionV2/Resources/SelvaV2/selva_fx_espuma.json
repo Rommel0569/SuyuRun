@@ -1,0 +1,64 @@
+{
+  "name": "selva_fx_espuma",
+  "frameWidth": 64,
+  "frameHeight": 16,
+  "frames": 8,
+  "fps": 12,
+  "loop": false,
+  "ppu": 32,
+  "pivot": [
+    0,
+    1
+  ],
+  "rectsUnity": [
+    {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 16
+    },
+    {
+      "x": 64,
+      "y": 0,
+      "width": 64,
+      "height": 16
+    },
+    {
+      "x": 128,
+      "y": 0,
+      "width": 64,
+      "height": 16
+    },
+    {
+      "x": 192,
+      "y": 0,
+      "width": 64,
+      "height": 16
+    },
+    {
+      "x": 256,
+      "y": 0,
+      "width": 64,
+      "height": 16
+    },
+    {
+      "x": 320,
+      "y": 0,
+      "width": 64,
+      "height": 16
+    },
+    {
+      "x": 384,
+      "y": 0,
+      "width": 64,
+      "height": 16
+    },
+    {
+      "x": 448,
+      "y": 0,
+      "width": 64,
+      "height": 16
+    }
+  ],
+  "group": "Effects"
+}

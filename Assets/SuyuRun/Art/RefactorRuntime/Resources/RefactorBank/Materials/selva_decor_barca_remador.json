@@ -1,0 +1,14 @@
+{
+  "frames": 4,
+  "frameWidth": 160,
+  "frameHeight": 96,
+  "logicalWidth": 80,
+  "logicalHeight": 48,
+  "pixelsPerUnit": 64,
+  "fps": 5,
+  "loop": true,
+  "original": "Assets/SuyuRun/Art/PixelSelva/ProductionV2/Resources/SelvaV2/selva_decor_barca_remador.png",
+  "source": "Tools/finish_remaining_visuals.py",
+  "finish": "native cluster micro-contours; preserved original composition",
+  "fullPlaythroughTested": false
+}

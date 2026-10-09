@@ -1,0 +1,14 @@
+{
+  "frames": 1,
+  "frameWidth": 96,
+  "frameHeight": 32,
+  "logicalWidth": 48,
+  "logicalHeight": 16,
+  "pixelsPerUnit": 64,
+  "fps": 4,
+  "loop": true,
+  "material": "stone",
+  "original": "Assets/SuyuRun/Art/PixelSelva/ProductionV2/Resources/SelvaV2/selva_plataforma_piedra.png",
+  "source": "Tools/refine_playable_materials.py",
+  "fullPlaythroughTested": false
+}

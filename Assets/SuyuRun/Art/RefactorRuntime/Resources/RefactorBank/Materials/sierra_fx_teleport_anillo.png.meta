@@ -1,0 +1,892 @@
+fileFormatVersion: 2
+guid: 3fa2a51cfec288047a939c83072e036c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7228446984210754756
+    second: sierra_fx_teleport_anillo_0
+  - first:
+      213: -6580235384565823172
+    second: sierra_fx_teleport_anillo_1
+  - first:
+      213: -3599365906376749781
+    second: sierra_fx_teleport_anillo_2
+  - first:
+      213: -2947931605189662473
+    second: sierra_fx_teleport_anillo_3
+  - first:
+      213: 7869070660070598377
+    second: sierra_fx_teleport_anillo_4
+  - first:
+      213: -8345290100589107463
+    second: sierra_fx_teleport_anillo_5
+  - first:
+      213: -3358535012270330832
+    second: sierra_fx_teleport_anillo_6
+  - first:
+      213: -7657248966040197139
+    second: sierra_fx_teleport_anillo_7
+  - first:
+      213: 5975649103358539966
+    second: sierra_fx_teleport_anillo_8
+  - first:
+      213: 5057800486372391983
+    second: sierra_fx_teleport_anillo_9
+  - first:
+      213: 2115756274802417086
+    second: sierra_fx_teleport_anillo_10
+  - first:
+      213: -6389382579604103920
+    second: sierra_fx_teleport_anillo_11
+  - first:
+      213: 8755086822342139153
+    second: sierra_fx_teleport_anillo_12
+  - first:
+      213: 4512143901392313254
+    second: sierra_fx_teleport_anillo_13
+  - first:
+      213: 7458408430549315350
+    second: sierra_fx_teleport_anillo_14
+  - first:
+      213: -2764455108297867785
+    second: sierra_fx_teleport_anillo_15
+  - first:
+      213: 8301773873720523477
+    second: sierra_fx_teleport_anillo_16
+  - first:
+      213: 899275924183706189
+    second: sierra_fx_teleport_anillo_17
+  - first:
+      213: 8249463136451811307
+    second: sierra_fx_teleport_anillo_18
+  - first:
+      213: -5610303331053911633
+    second: sierra_fx_teleport_anillo_19
+  - first:
+      213: 1202605707167508706
+    second: sierra_fx_teleport_anillo_20
+  - first:
+      213: 1321418141597367829
+    second: sierra_fx_teleport_anillo_21
+  - first:
+      213: 3133014309575721435
+    second: sierra_fx_teleport_anillo_22
+  - first:
+      213: -7948195174796159229
+    second: sierra_fx_teleport_anillo_23
+  - first:
+      213: 82581297974542236
+    second: sierra_fx_teleport_anillo_24
+  - first:
+      213: -1931553208723687406
+    second: sierra_fx_teleport_anillo_25
+  - first:
+      213: 2581296181980142734
+    second: sierra_fx_teleport_anillo_26
+  - first:
+      213: -2257373666202343139
+    second: sierra_fx_teleport_anillo_27
+  - first:
+      213: 1078973742423099632
+    second: sierra_fx_teleport_anillo_28
+  - first:
+      213: -8843662913714084404
+    second: sierra_fx_teleport_anillo_29
+  - first:
+      213: 5151235065270719883
+    second: sierra_fx_teleport_anillo_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sierra_fx_teleport_anillo_0
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 53
+        width: 50
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cc20a3fb3a905460800000000000000
+      internalID: 7228446984210754756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_teleport_anillo_1
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 51
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c398f7408ce4ea4a0800000000000000
+      internalID: -6580235384565823172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_teleport_anillo_2
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 71
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2d03c547cb7c0ec0800000000000000
+      internalID: -3599365906376749781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_teleport_anillo_3
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 51
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f8e58ae2d7d617d0800000000000000
+      internalID: -2947931605189662473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_teleport_anillo_4
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 59
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e6e4fdb21e843d60800000000000000
+      internalID: 7869070660070598377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_teleport_anillo_5
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 73
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f66dc66ed29f2c80800000000000000
+      internalID: -8345290100589107463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_teleport_anillo_6
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 71
+        width: 28
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03c2aeb53361461d0800000000000000
+      internalID: -3358535012270330832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_teleport_anillo_7
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 67
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de7627e92acfbb590800000000000000
+      internalID: -7657248966040197139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_teleport_anillo_8
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 67
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb8311cf235cde250800000000000000
+      internalID: 5975649103358539966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_teleport_anillo_9
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 67
+        width: 58
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2c3607bebae03640800000000000000
+      internalID: 5057800486372391983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_teleport_anillo_10
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 65
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebdd6e64f1dac5d10800000000000000
+      internalID: 2115756274802417086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_teleport_anillo_11
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 67
+        width: 84
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01dd0a0756a5457a0800000000000000
+      internalID: -6389382579604103920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_teleport_anillo_12
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 59
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11d18671411508970800000000000000
+      internalID: 8755086822342139153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_teleport_anillo_13
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 63
+        width: 96
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ab1fe1d8fa5e9e30800000000000000
+      internalID: 4512143901392313254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_teleport_anillo_14
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 57
+        width: 26
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61faba483f6918760800000000000000
+      internalID: 7458408430549315350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_teleport_anillo_15
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 55
+        width: 38
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fd3468c9bea2a9d0800000000000000
+      internalID: -2764455108297867785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_teleport_anillo_16
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 49
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dafabc7a53d53370800000000000000
+      internalID: 8301773873720523477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_teleport_anillo_17
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 59
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4ae70040beda7c00800000000000000
+      internalID: 899275924183706189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_teleport_anillo_18
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 59
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be7d3ebd30bfb7270800000000000000
+      internalID: 8249463136451811307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_teleport_anillo_19
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 59
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa1475658d23422b0800000000000000
+      internalID: -5610303331053911633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_teleport_anillo_20
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 43
+        width: 60
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e8a39cd48380b010800000000000000
+      internalID: 1202605707167508706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_teleport_anillo_21
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 61
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51efaa17cce965210800000000000000
+      internalID: 1321418141597367829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_teleport_anillo_22
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 41
+        width: 70
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd10a764ae3ba7b20800000000000000
+      internalID: 3133014309575721435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_teleport_anillo_23
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 49
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3071dc0999652b190800000000000000
+      internalID: -7948195174796159229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_teleport_anillo_24
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 51
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9ffcd2c043652100800000000000000
+      internalID: 82581297974542236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_teleport_anillo_25
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 49
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2183249279eb135e0800000000000000
+      internalID: -1931553208723687406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_teleport_anillo_26
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 47
+        width: 22
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8c9ff2833b92d320800000000000000
+      internalID: 2581296181980142734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_teleport_anillo_27
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 45
+        width: 30
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1920b45c923ca0e0800000000000000
+      internalID: -2257373666202343139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_teleport_anillo_28
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 45
+        width: 50
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f84a1fe6e849fe00800000000000000
+      internalID: 1078973742423099632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_teleport_anillo_29
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 43
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc5a6ca8f6ff44580800000000000000
+      internalID: -8843662913714084404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_teleport_anillo_30
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 41
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b855ffbdffcdc7740800000000000000
+      internalID: 5151235065270719883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

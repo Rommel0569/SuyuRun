@@ -1,0 +1,52 @@
+{
+  "name": "selva_heroe_punch",
+  "frameWidth": 48,
+  "frameHeight": 48,
+  "frames": 6,
+  "fps": 12,
+  "loop": false,
+  "ppu": 32,
+  "pivot": [
+    0,
+    1
+  ],
+  "rectsUnity": [
+    {
+      "x": 0,
+      "y": 0,
+      "width": 48,
+      "height": 48
+    },
+    {
+      "x": 48,
+      "y": 0,
+      "width": 48,
+      "height": 48
+    },
+    {
+      "x": 96,
+      "y": 0,
+      "width": 48,
+      "height": 48
+    },
+    {
+      "x": 144,
+      "y": 0,
+      "width": 48,
+      "height": 48
+    },
+    {
+      "x": 192,
+      "y": 0,
+      "width": 48,
+      "height": 48
+    },
+    {
+      "x": 240,
+      "y": 0,
+      "width": 48,
+      "height": 48
+    }
+  ],
+  "group": "Combat"
+}

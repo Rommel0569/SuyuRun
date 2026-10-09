@@ -1,0 +1,10 @@
+{
+  "frames": 4,
+  "fps": 10,
+  "loop": false,
+  "frameWidth": 128,
+  "frameHeight": 128,
+  "pixelsPerUnit": 64,
+  "orientation": "left",
+  "hitboxesUnchanged": true
+}

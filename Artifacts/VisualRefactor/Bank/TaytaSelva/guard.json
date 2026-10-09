@@ -1,0 +1,9 @@
+{
+  "frames": 4,
+  "fps": 6,
+  "loop": true,
+  "frameWidth": 96,
+  "frameHeight": 96,
+  "pixelsPerUnit": 64,
+  "gripCoordinateScale": 0.5
+}

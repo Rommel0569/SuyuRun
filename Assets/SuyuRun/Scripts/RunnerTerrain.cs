@@ -25,14 +25,14 @@ namespace SuyuRun
             foreach(var p in course.platforms)
             {
                 float y=Floor+p.elevation;
-                if(x+.25f>=p.x&&x-.25f<=p.x+p.width&&oldFeet>=y-.025f&&newFeet<=y)top=Mathf.Max(top,y);
+                if(x+.25f*GameScale.HeroScale>=p.x&&x-.25f*GameScale.HeroScale<=p.x+p.width&&oldFeet>=y-.025f&&newFeet<=y)top=Mathf.Max(top,y);
             }
             return !float.IsNegativeInfinity(top);
         }
         public static bool HitsWall(RunnerCourse course,float oldX,float x,float feet)
         {
             foreach(var p in course.platforms)
-                if(oldX+.28f<=p.x&&x+.28f>p.x&&feet<Floor+p.elevation-.04f)return true;
+                if(oldX+.28f*GameScale.HeroScale<=p.x&&x+.28f*GameScale.HeroScale>p.x&&feet<Floor+p.elevation-.04f)return true;
             return false;
         }
         public static bool SafeCheckpoint(RunnerCourse course,float x)

@@ -1,0 +1,24 @@
+{
+  "name": "selva_tile_roca_borde_izq",
+  "frameWidth": 32,
+  "frameHeight": 32,
+  "frames": 1,
+  "fps": 8,
+  "loop": true,
+  "ppu": 32,
+  "pivot": [
+    0,
+    1
+  ],
+  "rectsUnity": [
+    {
+      "x": 0,
+      "y": 0,
+      "width": 32,
+      "height": 32
+    }
+  ],
+  "group": "Tiles",
+  "factor": 1,
+  "seamlessX": false
+}

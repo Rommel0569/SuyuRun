@@ -31,7 +31,7 @@ namespace SuyuRun
             camera.transform.position=new Vector3(Mathf.Round(p.x*32)/32,Mathf.Round(p.y*32)/32,home.z);
             var pixel=camera.GetComponent<PixelPerfectCamera>();
             // Integer 1x/2x cut-in preserves hard pixel edges during cinematics.
-            if(pixel)pixel.assetsPPU=close?64:32;
+            if(pixel)RunnerPixelViewport.Configure(camera,close);
         }
     }
 }

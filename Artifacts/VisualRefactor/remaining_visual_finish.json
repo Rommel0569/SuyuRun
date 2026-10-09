@@ -1,0 +1,850 @@
+[
+  {
+    "name": "sierra_camino_capa6_cercano",
+    "frames": 4,
+    "logical": [
+      640,
+      180
+    ]
+  },
+  {
+    "name": "sierra_compartido_capa1_cielo",
+    "frames": 1,
+    "logical": [
+      640,
+      180
+    ]
+  },
+  {
+    "name": "sierra_compartido_capa2_nubes",
+    "frames": 1,
+    "logical": [
+      640,
+      180
+    ]
+  },
+  {
+    "name": "sierra_compartido_capa5_neblina",
+    "frames": 4,
+    "logical": [
+      640,
+      180
+    ]
+  },
+  {
+    "name": "sierra_decor_arbol_queuna",
+    "frames": 4,
+    "logical": [
+      64,
+      72
+    ]
+  },
+  {
+    "name": "sierra_decor_cerco_madera",
+    "frames": 1,
+    "logical": [
+      96,
+      40
+    ]
+  },
+  {
+    "name": "sierra_decor_ichu",
+    "frames": 4,
+    "logical": [
+      24,
+      20
+    ]
+  },
+  {
+    "name": "sierra_decor_roca",
+    "frames": 1,
+    "logical": [
+      48,
+      32
+    ]
+  },
+  {
+    "name": "sierra_fx_astillas_madera",
+    "frames": 6,
+    "logical": [
+      32,
+      32
+    ]
+  },
+  {
+    "name": "sierra_fx_chispas",
+    "frames": 6,
+    "logical": [
+      24,
+      24
+    ]
+  },
+  {
+    "name": "sierra_fx_cuerda_rotura",
+    "frames": 5,
+    "logical": [
+      32,
+      32
+    ]
+  },
+  {
+    "name": "sierra_fx_escombros_piedra",
+    "frames": 6,
+    "logical": [
+      32,
+      32
+    ]
+  },
+  {
+    "name": "sierra_fx_escudo_activar",
+    "frames": 8,
+    "logical": [
+      64,
+      64
+    ]
+  },
+  {
+    "name": "sierra_fx_escudo_romper",
+    "frames": 8,
+    "logical": [
+      64,
+      64
+    ]
+  },
+  {
+    "name": "sierra_fx_humo_teleport",
+    "frames": 8,
+    "logical": [
+      64,
+      64
+    ]
+  },
+  {
+    "name": "sierra_fx_impacto_piedra",
+    "frames": 5,
+    "logical": [
+      24,
+      24
+    ]
+  },
+  {
+    "name": "sierra_fx_polvo_aterrizar",
+    "frames": 6,
+    "logical": [
+      32,
+      32
+    ]
+  },
+  {
+    "name": "sierra_fx_polvo_correr",
+    "frames": 6,
+    "logical": [
+      24,
+      24
+    ]
+  },
+  {
+    "name": "sierra_fx_portal_absorcion",
+    "frames": 8,
+    "logical": [
+      64,
+      64
+    ]
+  },
+  {
+    "name": "sierra_fx_salpicadura",
+    "frames": 6,
+    "logical": [
+      32,
+      32
+    ]
+  },
+  {
+    "name": "sierra_fx_teleport_anillo",
+    "frames": 8,
+    "logical": [
+      64,
+      64
+    ]
+  },
+  {
+    "name": "sierra_ruinas_capa6_cercano",
+    "frames": 4,
+    "logical": [
+      640,
+      180
+    ]
+  },
+  {
+    "name": "sierra_ui_barra_integridad",
+    "frames": 1,
+    "logical": [
+      64,
+      12
+    ]
+  },
+  {
+    "name": "sierra_ui_boton",
+    "frames": 1,
+    "logical": [
+      64,
+      16
+    ]
+  },
+  {
+    "name": "sierra_ui_casilla",
+    "frames": 1,
+    "logical": [
+      20,
+      20
+    ]
+  },
+  {
+    "name": "sierra_ui_panel",
+    "frames": 1,
+    "logical": [
+      96,
+      48
+    ]
+  },
+  {
+    "name": "sierra_ui_reticula",
+    "frames": 1,
+    "logical": [
+      16,
+      16
+    ]
+  },
+  {
+    "name": "sierra_valle_capa5_rio",
+    "frames": 6,
+    "logical": [
+      640,
+      180
+    ]
+  },
+  {
+    "name": "sierra_valle_capa6_cercano",
+    "frames": 4,
+    "logical": [
+      640,
+      180
+    ]
+  },
+  {
+    "name": "selva_agua_fondo",
+    "frames": 6,
+    "logical": [
+      640,
+      180
+    ]
+  },
+  {
+    "name": "selva_agua_superficie",
+    "frames": 6,
+    "logical": [
+      640,
+      180
+    ]
+  },
+  {
+    "name": "selva_bosque_capa1_cielo",
+    "frames": 1,
+    "logical": [
+      640,
+      180
+    ]
+  },
+  {
+    "name": "selva_bosque_capa2_lejania",
+    "frames": 1,
+    "logical": [
+      640,
+      180
+    ]
+  },
+  {
+    "name": "selva_bosque_capa5_cercania",
+    "frames": 1,
+    "logical": [
+      640,
+      180
+    ]
+  },
+  {
+    "name": "selva_bosque_capa6_frontal",
+    "frames": 1,
+    "logical": [
+      640,
+      180
+    ]
+  },
+  {
+    "name": "selva_cueva_capa1_cielo",
+    "frames": 1,
+    "logical": [
+      640,
+      180
+    ]
+  },
+  {
+    "name": "selva_cueva_capa2_lejania",
+    "frames": 1,
+    "logical": [
+      640,
+      180
+    ]
+  },
+  {
+    "name": "selva_cueva_capa5_cercania",
+    "frames": 1,
+    "logical": [
+      640,
+      180
+    ]
+  },
+  {
+    "name": "selva_cueva_capa6_frontal",
+    "frames": 1,
+    "logical": [
+      640,
+      180
+    ]
+  },
+  {
+    "name": "selva_decor_barca_remador",
+    "frames": 4,
+    "logical": [
+      80,
+      48
+    ]
+  },
+  {
+    "name": "selva_decor_casa_ribera",
+    "frames": 1,
+    "logical": [
+      96,
+      80
+    ]
+  },
+  {
+    "name": "selva_decor_raiz_colgante",
+    "frames": 1,
+    "logical": [
+      64,
+      64
+    ]
+  },
+  {
+    "name": "selva_decor_rama_anclaje",
+    "frames": 1,
+    "logical": [
+      64,
+      64
+    ]
+  },
+  {
+    "name": "selva_decor_roca_musgo",
+    "frames": 1,
+    "logical": [
+      64,
+      64
+    ]
+  },
+  {
+    "name": "selva_fx_astillas",
+    "frames": 6,
+    "logical": [
+      32,
+      32
+    ]
+  },
+  {
+    "name": "selva_fx_burbujas",
+    "frames": 8,
+    "logical": [
+      32,
+      32
+    ]
+  },
+  {
+    "name": "selva_fx_destello",
+    "frames": 6,
+    "logical": [
+      32,
+      32
+    ]
+  },
+  {
+    "name": "selva_fx_disparo",
+    "frames": 6,
+    "logical": [
+      32,
+      32
+    ]
+  },
+  {
+    "name": "selva_fx_eco",
+    "frames": 6,
+    "logical": [
+      64,
+      64
+    ]
+  },
+  {
+    "name": "selva_fx_escudo_activo",
+    "frames": 4,
+    "logical": [
+      48,
+      48
+    ]
+  },
+  {
+    "name": "selva_fx_espuma",
+    "frames": 8,
+    "logical": [
+      64,
+      16
+    ]
+  },
+  {
+    "name": "selva_fx_hojas",
+    "frames": 6,
+    "logical": [
+      32,
+      32
+    ]
+  },
+  {
+    "name": "selva_fx_impacto_puno",
+    "frames": 6,
+    "logical": [
+      64,
+      64
+    ]
+  },
+  {
+    "name": "selva_fx_ondas",
+    "frames": 8,
+    "logical": [
+      64,
+      24
+    ]
+  },
+  {
+    "name": "selva_fx_polvo",
+    "frames": 6,
+    "logical": [
+      32,
+      32
+    ]
+  },
+  {
+    "name": "selva_fx_portal",
+    "frames": 6,
+    "logical": [
+      48,
+      48
+    ]
+  },
+  {
+    "name": "selva_fx_raiz_aviso",
+    "frames": 6,
+    "logical": [
+      64,
+      64
+    ]
+  },
+  {
+    "name": "selva_fx_rastro_salto",
+    "frames": 6,
+    "logical": [
+      32,
+      32
+    ]
+  },
+  {
+    "name": "selva_fx_salpicadura",
+    "frames": 4,
+    "logical": [
+      32,
+      32
+    ]
+  },
+  {
+    "name": "selva_fx_splash_entrada",
+    "frames": 10,
+    "logical": [
+      80,
+      40
+    ]
+  },
+  {
+    "name": "selva_fx_splash_salida",
+    "frames": 8,
+    "logical": [
+      64,
+      48
+    ]
+  },
+  {
+    "name": "selva_fx_veneno",
+    "frames": 6,
+    "logical": [
+      32,
+      32
+    ]
+  },
+  {
+    "name": "selva_niebla",
+    "frames": 1,
+    "logical": [
+      640,
+      180
+    ]
+  },
+  {
+    "name": "selva_noche_capa1_cielo",
+    "frames": 1,
+    "logical": [
+      640,
+      180
+    ]
+  },
+  {
+    "name": "selva_noche_capa2_lejania",
+    "frames": 1,
+    "logical": [
+      640,
+      180
+    ]
+  },
+  {
+    "name": "selva_noche_capa5_cercania",
+    "frames": 1,
+    "logical": [
+      640,
+      180
+    ]
+  },
+  {
+    "name": "selva_noche_capa6_frontal",
+    "frames": 1,
+    "logical": [
+      640,
+      180
+    ]
+  },
+  {
+    "name": "selva_rayos_sol",
+    "frames": 1,
+    "logical": [
+      640,
+      180
+    ]
+  },
+  {
+    "name": "selva_rio_capa1_cielo",
+    "frames": 1,
+    "logical": [
+      640,
+      180
+    ]
+  },
+  {
+    "name": "selva_rio_capa2_lejania",
+    "frames": 1,
+    "logical": [
+      640,
+      180
+    ]
+  },
+  {
+    "name": "selva_rio_capa5_cercania",
+    "frames": 1,
+    "logical": [
+      640,
+      180
+    ]
+  },
+  {
+    "name": "selva_rio_capa6_frontal",
+    "frames": 1,
+    "logical": [
+      640,
+      180
+    ]
+  },
+  {
+    "name": "selva_ruinas_capa1_cielo",
+    "frames": 1,
+    "logical": [
+      640,
+      180
+    ]
+  },
+  {
+    "name": "selva_ruinas_capa2_lejania",
+    "frames": 1,
+    "logical": [
+      640,
+      180
+    ]
+  },
+  {
+    "name": "selva_ruinas_capa3_estructura",
+    "frames": 1,
+    "logical": [
+      640,
+      180
+    ]
+  },
+  {
+    "name": "selva_ruinas_capa5_cercania",
+    "frames": 1,
+    "logical": [
+      640,
+      180
+    ]
+  },
+  {
+    "name": "selva_ruinas_capa6_frontal",
+    "frames": 1,
+    "logical": [
+      640,
+      180
+    ]
+  },
+  {
+    "name": "selva_templo_capa1_cielo",
+    "frames": 1,
+    "logical": [
+      640,
+      180
+    ]
+  },
+  {
+    "name": "selva_templo_capa2_lejania",
+    "frames": 1,
+    "logical": [
+      640,
+      180
+    ]
+  },
+  {
+    "name": "selva_templo_capa5_cercania",
+    "frames": 1,
+    "logical": [
+      640,
+      180
+    ]
+  },
+  {
+    "name": "selva_templo_capa6_frontal",
+    "frames": 1,
+    "logical": [
+      640,
+      180
+    ]
+  },
+  {
+    "name": "selva_ui_barra",
+    "frames": 1,
+    "logical": [
+      64,
+      10
+    ]
+  },
+  {
+    "name": "selva_ui_boton",
+    "frames": 1,
+    "logical": [
+      48,
+      16
+    ]
+  },
+  {
+    "name": "selva_ui_casilla",
+    "frames": 1,
+    "logical": [
+      24,
+      24
+    ]
+  },
+  {
+    "name": "selva_ui_panel",
+    "frames": 1,
+    "logical": [
+      48,
+      48
+    ]
+  },
+  {
+    "name": "costa_capa1_cielo",
+    "frames": 1,
+    "logical": [
+      640,
+      180
+    ]
+  },
+  {
+    "name": "costa_capa2_nubes",
+    "frames": 1,
+    "logical": [
+      640,
+      180
+    ]
+  },
+  {
+    "name": "costa_capa4_mar",
+    "frames": 4,
+    "logical": [
+      640,
+      180
+    ]
+  },
+  {
+    "name": "costa_capa6_algarrobos",
+    "frames": 1,
+    "logical": [
+      640,
+      180
+    ]
+  },
+  {
+    "name": "costa_puerta_dimensional",
+    "frames": 2,
+    "logical": [
+      64,
+      96
+    ]
+  },
+  {
+    "name": "costa_efecto_sorpresa",
+    "frames": 3,
+    "logical": [
+      32,
+      32
+    ]
+  },
+  {
+    "name": "costa_efecto_absorcion",
+    "frames": 4,
+    "logical": [
+      40,
+      40
+    ]
+  },
+  {
+    "name": "costa_museo_panel",
+    "frames": 1,
+    "logical": [
+      280,
+      300
+    ]
+  },
+  {
+    "name": "costa_museo_pared",
+    "frames": 1,
+    "logical": [
+      32,
+      32
+    ]
+  },
+  {
+    "name": "costa_museo_vitrina",
+    "frames": 1,
+    "logical": [
+      48,
+      48
+    ]
+  },
+  {
+    "name": "costa_resultados",
+    "frames": 1,
+    "logical": [
+      220,
+      140
+    ]
+  },
+  {
+    "name": "costa_selector",
+    "frames": 1,
+    "logical": [
+      320,
+      180
+    ]
+  },
+  {
+    "name": "costa_tienda",
+    "frames": 1,
+    "logical": [
+      280,
+      180
+    ]
+  },
+  {
+    "name": "costa_ui_panel_h",
+    "frames": 1,
+    "logical": [
+      32,
+      20
+    ]
+  },
+  {
+    "name": "costa_ui_bar_rafaga_frame",
+    "frames": 1,
+    "logical": [
+      64,
+      10
+    ]
+  },
+  {
+    "name": "costa_ui_bar_rafaga_fill",
+    "frames": 1,
+    "logical": [
+      11,
+      10
+    ]
+  },
+  {
+    "name": "costa_ui_bar_progress_frame",
+    "frames": 1,
+    "logical": [
+      64,
+      6
+    ]
+  },
+  {
+    "name": "costa_ui_bar_progress_fill",
+    "frames": 1,
+    "logical": [
+      11,
+      6
+    ]
+  },
+  {
+    "name": "costa_ui_piece_slot",
+    "frames": 1,
+    "logical": [
+      16,
+      16
+    ]
+  },
+  {
+    "name": "costa_ui_icon_puntos",
+    "frames": 1,
+    "logical": [
+      12,
+      12
+    ]
+  },
+  {
+    "name": "costa_capa2_aves",
+    "frames": 18,
+    "logical": [
+      16,
+      16
+    ]
+  }
+]

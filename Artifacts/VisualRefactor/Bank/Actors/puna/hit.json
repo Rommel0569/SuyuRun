@@ -1,0 +1,11 @@
+{
+  "frames": 4,
+  "frameWidth": 128,
+  "frameHeight": 128,
+  "pixelsPerUnit": 64,
+  "fps": 12,
+  "loop": false,
+  "orientation": "right",
+  "integrated": false,
+  "region": "sierra"
+}

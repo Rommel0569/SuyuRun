@@ -1,5 +1,106 @@
 # SuyuRun: estado verificable
 
+## Selva V2 — 02/10/2026
+
+171 PNG / 597 celdas / 28 colores, física de emboscada e inmersión, superficie reactiva y balanceo con inercia. Escena `Level_Selva` creada y registrada; acceso desde Sierra y selector, panorama fijo Selva en inicio, museo permanente. Documentación: `Docs/SELVA_V2_ARTE_E_INTEGRACION.md`. La primera prueba Play validó todas las hojas y ciclo caimán, hitbox snap, salto inmediato, doble salto, liana y entrada a ambos mininiveles sin errores de runtime. La última prueba se registra en `Artifacts/SelvaV2/unity-verification.txt`. Aprobación visual y balance humano pendientes; Costa/Sierra se conservan cerrados.
+
+## Retoques finales de Sierra — 26/09
+
+Usuario conforme en general con las cuevas. Se ajustan únicamente antorchas sin
+solapamiento, señalización animada del suelo en «SALTA» de Ruinas y sustitución
+visual de los troncos cafés por sellos azules levitantes. Ver
+`Docs/SIERRA_RETOQUES_VISUALES_26_SEPTIEMBRE.md`. Conexión Costa/Sierra pendiente
+de las nuevas indicaciones del usuario, sin cambios en este encargo.
+
+## Revisión más reciente — claridad y cierre de cuevas
+
+Leer `Docs/SIERRA_CIERRE_JUGABILIDAD_26_SEPTIEMBRE.md`. Sustituye la espera hasta
+final de canción: todos los enemigos + portal3s; prórroga única5s al límite si
+uno de los objetivos ya se completó. Barra de vida, carga dirigida, fades de
+volumen y obstáculos/impulsos contrastantes. Modelo y pruebas Python aprobados.
+Unity Play26/09 a12:11:37: COMPLETE177,55s de runner,2/2cuevas,0errores,
+7impulsos/7orbes/7descensos, escape y reintento. Todos los enemigos eliminados
+antes de salir; segunda cueva15esbirros y jefe. Aceptación manual pendiente.
+
+## Revisión de combate de cuevas — 26/09/2026
+
+Ver `Docs/SIERRA_CUEVAS_COMBATE_26_SEPTIEMBRE.md`: hasta15apariciones por cueva,
+pistola5balas/recarga4s, introducciones históricas/fantásticas, combos de ambos
+jefes,10hojas adicionales y túneles anclados al terreno. Prueba de ambas cuevas
+en Unity Play26/09 a07:18:50:2/2completadas,60,0555s cada una, retorno al runner,
+0errores; segunda cueva15apariciones y6recargas. Simulación de combate también
+superada con pasos fijos y variables. Aprobación visual/dificultad del usuario pendiente.
+
+## Ampliación vigente — cuevas de Sierra25/09/2026
+
+Ver `Docs/SIERRA_CUEVAS_25_SEPTIEMBRE.md`. Dos mininiveles laterales, un minuto por
+canción, entre los tres biomas; lote artístico autorizado expresamente. Entrada
+gradual, exploración libre, pistola/doble salto, enemigos y jefes propios, retorno
+al segundo congelado del runner. Controles ESPACIO/huaraca corregidos; llama y
+escalones revisados. Modelo probado en Unity; ambas cuevas pasan la prueba integrada.
+Los resultados de20:58citados abajo son históricos y NO incluyen estas cuevas.
+
+## Actualización vigente — Sierra, septiembre 2026
+
+### Cierre funcional para prueba del usuario
+
+Guía vigente: `Docs/SIERRA_LISTO_PARA_PROBAR.md`. Halcón y roca aprobados.
+Sierra completo integrado con museo, tienda, ajustes/tap-tempo, rachas, sonidos de acciones,
+pausa/resultados pixelados y cámara/transición del portal. Sin PNG nuevos ni ejecutable nuevo.
+Unity completo25/09 20:58:03:177.55s y cero errores;7bases/7orbes/7descensos, escape, reintento y guardián.
+La aceptación manual/musical queda para el usuario, como pidió. Selva conserva desbloqueo/recompensa pero sigue fuera del alcance.
+Los pendientes inferiores son históricos; el checklist vigente distingue implementación y validación.
+
+### Acotaciones de salto/combate — 25/09
+
+Halcón aprobado por el usuario. Ave de descenso ahora es un peligro letal de800px/s,
+avisado antes de entrar; viga posterior exige agacharse al aterrizar. Rocas ruedan hacia el
+protagonista y no son destruibles; añaden un ave apuntable para combatir con huaraca en el salto.
+Se adaptó la reducción visual de altura de Costa, anclada a los pies y solo en suelo.
+Total60encuentros, sin modificar tiempos principales del mapa ni el fondo.
+Único asset revisado: roca8frames; copia previa guardada. Pendiente de aprobación visual.
+La prueba matemática confirma en las7secuencias que el descenso evita el ave y la ruta alta colisiona.
+Evidencia y prueba visual final: `Docs/SIERRA_DESCENSO_ROCAS_25_SEPTIEMBRE.md`.
+Unity completó177.55s con cero errores; prueba corta posterior del agachado también sin errores.
+
+### Especificaciones adicionales — 25/09, tarde
+
+Estado detallado y pendientes: `Docs/SIERRA_CHECKLIST_ESPECIFICACIONES.md`.
+50encuentros y21puntos de movilidad; oleadas3/5, barro escapable, retorno pagado animado,
+guardián con diálogo y llegada caminando desde portal. HUD, modal, movimiento, recogibles y progreso comparten componentes con Costa.
+Play diagnóstico completó177.55s sin errores a las15:54:20:7bases/7orbes/7descensos, escape y reintento pagado.
+No equivale a validación manual ni musical. Cámara/cinemática completa y aprobación visual siguen pendientes.
+Único asset refinado para revisión: halcón6frames. Sin nuevo ejecutable ni cambios al fondo.
+
+### Variedad y descenso aéreo
+
+Nueva entrega en `Docs/SIERRA_OBSTACULOS_Y_MOVILIDAD.md`: siete secuencias base→punto aéreo→descenso,
+aves de cruce derecha→izquierda y rocas saltables/destructibles. Fondo y PNG existentes conservados.
+Tres pruebas matemáticas pasan a30/60/144fps. Unity registra por separado impulsos/orbes/descensos;
+consultar `Artifacts/SierraV3/unity-play-result.txt` para el resultado de la prueba más reciente.
+
+### Integración del 25/09, en verificación
+
+Ver `Docs/SIERRA_INTEGRACION_25_SEPTIEMBRE.md`: conexión desde resultado del portal de Costa,
+selector desbloqueable, guardado y gasto de reintentos compartidos, datos de recogibles extraídos,
+piedras/monedas en Sierra, retorno seguro después de la mitad, puentes768px y recompensa persistente.
+No se generaron assets nuevos ni ejecutables. Falta integración completa de interfaces/física,
+cinemáticas y pulido visual; no considerar este avance una entrega final100%.
+
+Costa fue aprobado y completado manualmente por el usuario; los pendientes antiguos inferiores son históricos.
+Sierra tiene una integración aislada V3. Última prueba automática registrada: Complete177.55, errors=0,
+2026-09-24T19:49:35-05:00, después de velocidad224px/s, huaraca por selección, doble salto y cercas apoyadas.
+Esto no valida selección manual, balance o sincronía de oído. No se generó un ejecutable.
+
+Nuevo alcance: `Docs/SIERRA_ESPECIFICACIONES_ADICIONALES.md`. Conservar fondo actual y migrar
+funciones al sistema compartido existente, sin duplicar monedas/respawn/HUD/pausa/victoria.
+Inspección: RunnerPrototype contiene actualmente esos estados y operaciones como miembros privados;
+RunnerShop, RunnerMuseum, RunnerSettings y RunnerCoastalEnding son extensiones parciales del mismo controlador.
+La integración SierraStageDirector NO cumple todavía ese requisito arquitectónico nuevo.
+No se ha eliminado ni migrado a ciegas. Aclaraciones resueltas por el usuario el25/09:
+traje protector existente para Selva; autorizado conectar únicamente el teleporte final Costa→Sierra.
+La conexión y la migración al controlador compartido siguen pendientes de implementación y prueba.
+
 ## (f) Resultados y animación de logro propuestos
 
 Tras confirmar la integración en Unity, se produjo `costa_resultados.png` (panel de resultados, zonas de texto en blanco para la fuente pixel real) y `costa_heroe_logro.png` (4 fotogramas, brazos aparecen con brillo dorado — la animación de fin de nivel que desbloquea Sierra). Validación de paleta/alfa/hashes de todo lo anterior en `Artifacts/ArtApproval/costa_resultados_validation.json`. Pendiente de aprobación antes de (g): HUD, inicio, selector, museo y tienda.
@@ -215,3 +316,20 @@ Los tres niveles finales, museo, fichas culturales verificadas, personajes alter
 ## Decisiones provisionales que requieren revisión durante el desarrollo
 
 La compra directa de reaparición por cinco monedas es una simplificación del prototipo; sustituir por inventario de reintentos. La colisión del prototipo es geométrica y propia. El curso está escrito a mano en datos editables. El cronograma es una estimación, no evidencia de terminación ni una garantía de tiempo.
+# 26/09 — interfaz única / INICIO_FINAL / museo
+
+Encargo actualizado: inicio idéntico a INICIO_FINAL excepto los paisajes;
+ventanas compartidas en Costa, Sierra y cuevas. Arte original conservado.
+Siete piezas de museo nuevas y MUSEO.mp3 integrados. Selector reconoce también
+SierraComplete para no bloquear un nivel completado directamente en el editor.
+Cambio de código del compañero integrado selectivamente desde origin/main;
+sin push ni demo ejecutada. Detalle y límites: Docs/MUSEO_INICIO_INTEGRACION_26_SEPTIEMBRE.md.
+Pruebas/capturas actualizadas: Artifacts/MuseumMenu. No se generó ejecutable.
+# 26/09 — camélidos pastando y menú inmóvil
+
+Atlas adicional de llamas/alpacas: 12frames por especie, patas ancladas y cabeza
+que baja a comer. Usado en inicio/selector Sierra y en Camino/Ruinas.
+Paisajes del menú sin scroll lateral. Descarte de animales solo al salir completo
+de pantalla; no se modificaron obstáculos, música o MIDI. Arte anterior conservado.
+Referencia y prueba: Docs/SIERRA_CAMELIDOS_MENU_FIJO.md / Artifacts/SierraGrazers.
+Selva no se inicia todavía: siguiente paso, planificación con el usuario.

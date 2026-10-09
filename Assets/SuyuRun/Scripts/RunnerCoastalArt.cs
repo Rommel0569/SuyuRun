@@ -116,7 +116,7 @@ namespace SuyuRun
             var pilar=NamedSprite("costa_plataformas","pilar");
             if(!pilar||width<2f)return;
             if(!pilarMaterial){pilarMaterial=new Material(Shader.Find("Sprites/Default"));pilarMaterial.mainTexture=pilar.texture;ownedSpriteMaterials.Add(pilarMaterial);}
-            float pw=pilar.rect.width/32f,ph=pilar.rect.height/32f;
+            float pw=pilar.rect.width/pilar.pixelsPerUnit,ph=pilar.rect.height/pilar.pixelsPerUnit;
             var uv=SubRectUv(pilar);
             var go=new GameObject("Pillar accent (ART_BIBLE)");go.transform.SetParent(root,false);
             go.transform.localPosition=new Vector3(width-pw*.6f,bottom+ph*.5f,0);

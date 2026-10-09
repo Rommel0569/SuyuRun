@@ -1,0 +1,26 @@
+{
+  "name": "selva_tile_cueva_borde_der",
+  "file": "Tiles/selva_tile_cueva_borde_der.png",
+  "frameWidth": 32,
+  "frameHeight": 32,
+  "frames": 1,
+  "layout": "horizontal",
+  "fps": 8,
+  "loop": true,
+  "ppu": 32,
+  "pivot": [
+    0.5,
+    0
+  ],
+  "parallax": 1,
+  "seamlessX": false,
+  "status": "proposal_pending_visual_approval",
+  "rectsUnity": [
+    {
+      "x": 0,
+      "y": 0,
+      "width": 32,
+      "height": 32
+    }
+  ]
+}

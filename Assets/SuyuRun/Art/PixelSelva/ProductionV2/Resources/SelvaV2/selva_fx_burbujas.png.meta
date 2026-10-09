@@ -1,0 +1,421 @@
+fileFormatVersion: 2
+guid: d14c927acf719d941bc477f43a044b6f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8159572461744733755
+    second: selva_fx_burbujas_0
+  - first:
+      213: 7086910852238918345
+    second: selva_fx_burbujas_1
+  - first:
+      213: -462692014009249229
+    second: selva_fx_burbujas_2
+  - first:
+      213: 6964765732507392518
+    second: selva_fx_burbujas_3
+  - first:
+      213: -5204434167964260069
+    second: selva_fx_burbujas_4
+  - first:
+      213: 3786443355152452642
+    second: selva_fx_burbujas_5
+  - first:
+      213: -7009373997588254302
+    second: selva_fx_burbujas_6
+  - first:
+      213: -8409150338535597499
+    second: selva_fx_burbujas_7
+  - first:
+      213: -2890109057737113055
+    second: selva_fx_burbujas_8
+  - first:
+      213: 283354888039808874
+    second: selva_fx_burbujas_9
+  - first:
+      213: 5385753038943600226
+    second: selva_fx_burbujas_10
+  - first:
+      213: 5614260330831877332
+    second: selva_fx_burbujas_11
+  - first:
+      213: 5914036566608687104
+    second: selva_fx_burbujas_12
+  - first:
+      213: -4288052877474502448
+    second: selva_fx_burbujas_13
+  - first:
+      213: 819797685065453601
+    second: selva_fx_burbujas_14
+  - first:
+      213: -230598604954591498
+    second: selva_fx_burbujas_15
+  - first:
+      213: -1424002696552504710
+    second: selva_fx_burbujas_16
+  - first:
+      213: -8828762081215719989
+    second: selva_fx_burbujas_17
+  - first:
+      213: -7751313158504548057
+    second: selva_fx_burbujas_18
+  - first:
+      213: 7644741733558174783
+    second: selva_fx_burbujas_19
+  - first:
+      213: -5399854645337211078
+    second: selva_fx_burbujas_20
+  - first:
+      213: 5154493059359738272
+    second: selva_fx_burbujas_21
+  - first:
+      213: -4804594894486868101
+    second: selva_fx_burbujas_22
+  - first:
+      213: 4890812115455482510
+    second: selva_fx_burbujas_23
+  - first:
+      213: 4553431274813938579
+    second: selva_fx_burbujas_24
+  - first:
+      213: -6619281349351932054
+    second: selva_fx_burbujas_25
+  - first:
+      213: 7639677580411496703
+    second: selva_fx_burbujas_26
+  - first:
+      213: -892422389370417254
+    second: selva_fx_burbujas_27
+  - first:
+      213: -8218720066687932821
+    second: selva_fx_burbujas_28
+  - first:
+      213: 8860519050952668363
+    second: selva_fx_burbujas_29
+  - first:
+      213: -7318364941033097896
+    second: selva_fx_burbujas_30
+  - first:
+      213: 4414366802125252502
+    second: selva_fx_burbujas_31
+  - first:
+      213: 6178417914253719318
+    second: selva_fx_burbujas_32
+  - first:
+      213: 874714368514291715
+    second: selva_fx_burbujas_33
+  - first:
+      213: -5269254966373478085
+    second: selva_fx_burbujas_34
+  - first:
+      213: -2804403073287079812
+    second: selva_fx_burbujas_35
+  - first:
+      213: 2463585318115849979
+    second: selva_fx_burbujas_36
+  - first:
+      213: -7455921065941079451
+    second: selva_fx_burbujas_37
+  - first:
+      213: -491669379403404300
+    second: selva_fx_burbujas_38
+  - first:
+      213: 6777122783340033845
+    second: selva_fx_burbujas_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 1
+  spritePivot: {x: 0, y: 1}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: selva_fx_burbujas_000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd332a68e7ed67540800000000000000
+      internalID: 5005432670874907615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_burbujas_001
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a8a864a437357820800000000000000
+      internalID: 2915297033028413607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_burbujas_002
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea89f588ec2edefb0800000000000000
+      internalID: -4616784666305783634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_burbujas_003
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87a6199aff54e0760800000000000000
+      internalID: 7425949799944383096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_burbujas_004
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb4ee465094e5d080800000000000000
+      internalID: -9163166558240971588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_burbujas_005
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba2f193e0c4f68b70800000000000000
+      internalID: 8901070822833255083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_burbujas_006
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4490a3cb2c2bdd0b0800000000000000
+      internalID: -5702205003729860284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_fx_burbujas_007
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1b0892aacfa57c40800000000000000
+      internalID: 5509503004003797790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      selva_fx_burbujas_000: 5005432670874907615
+      selva_fx_burbujas_001: 2915297033028413607
+      selva_fx_burbujas_002: -4616784666305783634
+      selva_fx_burbujas_003: 7425949799944383096
+      selva_fx_burbujas_004: -9163166558240971588
+      selva_fx_burbujas_005: 8901070822833255083
+      selva_fx_burbujas_006: -5702205003729860284
+      selva_fx_burbujas_007: 5509503004003797790
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

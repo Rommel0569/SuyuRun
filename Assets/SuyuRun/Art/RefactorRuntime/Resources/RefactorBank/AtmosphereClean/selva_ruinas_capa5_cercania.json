@@ -1,0 +1,17 @@
+{
+  "frames": 1,
+  "frameWidth": 2560,
+  "frameHeight": 720,
+  "logicalWidth": 640,
+  "logicalHeight": 180,
+  "pixelsPerUnit": 128,
+  "fps": 8,
+  "loop": true,
+  "original": "Assets/SuyuRun/Art/PixelSelva/ProductionV2/Resources/SelvaV2/selva_ruinas_capa5_cercania.png",
+  "source": "Artifacts/VisualRefactor/AtmosphereClean/Sources/selva_ruinas_capa5_cercania.png",
+  "finish": "independent imagegen redraw; native clusters",
+  "fullPlaythroughTested": false,
+  "previous": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_ruinas_capa5_cercania.json",
+  "seamEndpointEqual": true,
+  "originalAlphaMaskPreserved": false
+}

@@ -1,0 +1,14 @@
+{
+  "frames": 3,
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "logicalWidth": 32,
+  "logicalHeight": 32,
+  "pixelsPerUnit": 64,
+  "fps": 6,
+  "loop": true,
+  "original": "Assets/SuyuRun/Art/PixelCosta/Resources/costa_efecto_sorpresa.png",
+  "source": "Tools/finish_remaining_visuals.py",
+  "finish": "native cluster micro-contours; preserved original composition",
+  "fullPlaythroughTested": false
+}

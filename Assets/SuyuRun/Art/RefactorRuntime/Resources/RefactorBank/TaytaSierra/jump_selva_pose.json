@@ -1,0 +1,15 @@
+{
+  "frames": 4,
+  "fps": 12,
+  "loop": false,
+  "frameWidth": 192,
+  "frameHeight": 128,
+  "pixelsPerUnit": 64,
+  "footAnchor": [
+    96,
+    124
+  ],
+  "source": "C:\\Users\\USER\\.codex\\generated_images\\01a0b183-22cf-7d11-8237-6260f5f81b06\\exec-becb0644-62c9-41f2-a311-d200b2f15edf.png",
+  "choreography": "Selva jump reference; sierra costume; common scale",
+  "playTested": false
+}

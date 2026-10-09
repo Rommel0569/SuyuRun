@@ -1,0 +1,11 @@
+{
+  "sheets": 48,
+  "failures": [],
+  "grips": [
+    "Assets\\SuyuRun\\Art\\Tayta\\Resources\\Tayta\\selva\\climb.json",
+    "Assets\\SuyuRun\\Art\\Tayta\\Resources\\Tayta\\selva\\grab.json",
+    "Assets\\SuyuRun\\Art\\Tayta\\Resources\\Tayta\\selva\\regrab.json",
+    "Assets\\SuyuRun\\Art\\Tayta\\Resources\\Tayta\\selva\\release.json",
+    "Assets\\SuyuRun\\Art\\Tayta\\Resources\\Tayta\\selva\\swing.json"
+  ]
+}

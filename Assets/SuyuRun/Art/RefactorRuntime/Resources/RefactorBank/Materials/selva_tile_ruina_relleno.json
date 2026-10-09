@@ -1,0 +1,14 @@
+{
+  "frames": 1,
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "logicalWidth": 32,
+  "logicalHeight": 32,
+  "pixelsPerUnit": 64,
+  "fps": 8,
+  "loop": true,
+  "material": "stone",
+  "original": "Assets/SuyuRun/Art/PixelSelva/ProductionV2/Resources/SelvaV2/selva_tile_ruina_relleno.png",
+  "source": "Tools/refine_playable_materials.py",
+  "fullPlaythroughTested": false
+}

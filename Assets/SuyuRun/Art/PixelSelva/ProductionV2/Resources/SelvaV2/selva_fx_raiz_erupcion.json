@@ -1,0 +1,52 @@
+{
+  "name": "selva_fx_raiz_erupcion",
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 6,
+  "fps": 12,
+  "loop": false,
+  "ppu": 32,
+  "pivot": [
+    0,
+    1
+  ],
+  "rectsUnity": [
+    {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64
+    },
+    {
+      "x": 64,
+      "y": 0,
+      "width": 64,
+      "height": 64
+    },
+    {
+      "x": 128,
+      "y": 0,
+      "width": 64,
+      "height": 64
+    },
+    {
+      "x": 192,
+      "y": 0,
+      "width": 64,
+      "height": 64
+    },
+    {
+      "x": 256,
+      "y": 0,
+      "width": 64,
+      "height": 64
+    },
+    {
+      "x": 320,
+      "y": 0,
+      "width": 64,
+      "height": 64
+    }
+  ],
+  "group": "Combat"
+}

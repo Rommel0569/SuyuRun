@@ -1,0 +1,26 @@
+{
+  "frames": 1,
+  "frameWidth": 1280,
+  "frameHeight": 360,
+  "logicalWidth": 640,
+  "logicalHeight": 180,
+  "pixelsPerUnit": 64,
+  "fps": 8,
+  "loop": true,
+  "original": "Assets/SuyuRun/Art/PixelSelva/ProductionV2/Resources/SelvaV2/selva_rayos_sol.png",
+  "source": "Artifacts/VisualRefactor/LayerPolish/Sources/selva_rayos_sol.png",
+  "finish": "independent imagegen redraw; native clusters",
+  "fullPlaythroughTested": false,
+  "alphaMode": "preserveSource",
+  "sourceRectsUnity": [
+    {
+      "x": 0,
+      "y": 0,
+      "width": 640,
+      "height": 180
+    }
+  ],
+  "previous": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_rayos_sol.json",
+  "seamEndpointEqual": false,
+  "originalAlphaMaskPreserved": true
+}

@@ -1,0 +1,1133 @@
+{
+  "sheets": 48,
+  "frames": 323,
+  "failures": [],
+  "details": [
+    {
+      "region": "costa",
+      "state": "burst",
+      "heights": [
+        40,
+        40,
+        40,
+        43,
+        39,
+        40,
+        39,
+        40
+      ],
+      "feet": [
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48
+      ],
+      "distinctLegs": 8,
+      "revision": false
+    },
+    {
+      "region": "costa",
+      "state": "double_jump",
+      "heights": [
+        40,
+        38,
+        34,
+        38,
+        40
+      ],
+      "feet": [
+        48,
+        48,
+        48,
+        48,
+        48
+      ],
+      "distinctLegs": 5,
+      "revision": false
+    },
+    {
+      "region": "costa",
+      "state": "fall",
+      "heights": [
+        38,
+        40,
+        32
+      ],
+      "feet": [
+        48,
+        48,
+        48
+      ],
+      "distinctLegs": 3,
+      "revision": false
+    },
+    {
+      "region": "costa",
+      "state": "hit",
+      "heights": [
+        46,
+        43,
+        46,
+        46,
+        42,
+        38,
+        41,
+        46
+      ],
+      "feet": [
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48
+      ],
+      "distinctLegs": 8,
+      "revision": false
+    },
+    {
+      "region": "costa",
+      "state": "idle",
+      "heights": [
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41
+      ],
+      "feet": [
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48
+      ],
+      "distinctLegs": 8,
+      "revision": false
+    },
+    {
+      "region": "costa",
+      "state": "jump",
+      "heights": [
+        32,
+        40,
+        38,
+        34,
+        38,
+        40,
+        32,
+        31
+      ],
+      "feet": [
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48
+      ],
+      "distinctLegs": 8,
+      "revision": false
+    },
+    {
+      "region": "costa",
+      "state": "land",
+      "heights": [
+        32,
+        31
+      ],
+      "feet": [
+        48,
+        48
+      ],
+      "distinctLegs": 2,
+      "revision": false
+    },
+    {
+      "region": "costa",
+      "state": "run",
+      "heights": [
+        39,
+        39,
+        41,
+        38,
+        38,
+        39,
+        39,
+        38
+      ],
+      "feet": [
+        48,
+        48,
+        48,
+        46,
+        48,
+        48,
+        48,
+        46
+      ],
+      "distinctLegs": 7,
+      "revision": true
+    },
+    {
+      "region": "costa",
+      "state": "slide",
+      "heights": [
+        32,
+        32,
+        34,
+        35,
+        34
+      ],
+      "feet": [
+        48,
+        48,
+        48,
+        48,
+        48
+      ],
+      "distinctLegs": 5,
+      "revision": false
+    },
+    {
+      "region": "costa",
+      "state": "victory",
+      "heights": [
+        46,
+        46,
+        46,
+        27,
+        46,
+        46,
+        46,
+        46
+      ],
+      "feet": [
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48
+      ],
+      "distinctLegs": 7,
+      "revision": true
+    },
+    {
+      "region": "selva",
+      "state": "baile",
+      "heights": [
+        43,
+        43,
+        45,
+        45,
+        45,
+        42,
+        44,
+        45
+      ],
+      "feet": [
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48
+      ],
+      "distinctLegs": 8,
+      "revision": false
+    },
+    {
+      "region": "selva",
+      "state": "burst",
+      "heights": [
+        44,
+        43,
+        44,
+        43,
+        44,
+        43,
+        45,
+        43
+      ],
+      "feet": [
+        48,
+        48,
+        48,
+        46,
+        48,
+        48,
+        48,
+        46
+      ],
+      "distinctLegs": 8,
+      "revision": true
+    },
+    {
+      "region": "selva",
+      "state": "climb",
+      "heights": [
+        46,
+        46,
+        46,
+        46
+      ],
+      "feet": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "distinctLegs": 4,
+      "revision": false
+    },
+    {
+      "region": "selva",
+      "state": "death",
+      "heights": [
+        46,
+        46,
+        41,
+        25,
+        21,
+        21,
+        18,
+        18
+      ],
+      "feet": [
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48
+      ],
+      "distinctLegs": 7,
+      "revision": false
+    },
+    {
+      "region": "selva",
+      "state": "double_jump",
+      "heights": [
+        46,
+        46,
+        43,
+        39,
+        39
+      ],
+      "feet": [
+        48,
+        48,
+        48,
+        48,
+        48
+      ],
+      "distinctLegs": 4,
+      "revision": true
+    },
+    {
+      "region": "selva",
+      "state": "fall",
+      "heights": [
+        39,
+        39,
+        44
+      ],
+      "feet": [
+        48,
+        48,
+        48
+      ],
+      "distinctLegs": 2,
+      "revision": true
+    },
+    {
+      "region": "selva",
+      "state": "grab",
+      "heights": [
+        46,
+        46
+      ],
+      "feet": [
+        48,
+        48
+      ],
+      "distinctLegs": 2,
+      "revision": false
+    },
+    {
+      "region": "selva",
+      "state": "guard",
+      "heights": [
+        46,
+        46,
+        46,
+        46,
+        46,
+        46,
+        46,
+        46
+      ],
+      "feet": [
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48
+      ],
+      "distinctLegs": 8,
+      "revision": false
+    },
+    {
+      "region": "selva",
+      "state": "hit",
+      "heights": [
+        46,
+        46,
+        46,
+        45,
+        35,
+        29,
+        29,
+        29
+      ],
+      "feet": [
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48
+      ],
+      "distinctLegs": 6,
+      "revision": true
+    },
+    {
+      "region": "selva",
+      "state": "idle",
+      "heights": [
+        46,
+        46,
+        46,
+        46,
+        46,
+        46,
+        46,
+        46
+      ],
+      "feet": [
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48
+      ],
+      "distinctLegs": 8,
+      "revision": false
+    },
+    {
+      "region": "selva",
+      "state": "jump",
+      "heights": [
+        38,
+        46,
+        46,
+        43,
+        39,
+        39,
+        44,
+        44
+      ],
+      "feet": [
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48
+      ],
+      "distinctLegs": 6,
+      "revision": true
+    },
+    {
+      "region": "selva",
+      "state": "kick",
+      "heights": [
+        44,
+        43,
+        42,
+        42,
+        40,
+        41,
+        43,
+        43
+      ],
+      "feet": [
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48
+      ],
+      "distinctLegs": 8,
+      "revision": false
+    },
+    {
+      "region": "selva",
+      "state": "land",
+      "heights": [
+        44,
+        44
+      ],
+      "feet": [
+        48,
+        48
+      ],
+      "distinctLegs": 1,
+      "revision": false
+    },
+    {
+      "region": "selva",
+      "state": "punch",
+      "heights": [
+        46,
+        46,
+        46,
+        41,
+        46,
+        46,
+        46,
+        46
+      ],
+      "feet": [
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48
+      ],
+      "distinctLegs": 8,
+      "revision": false
+    },
+    {
+      "region": "selva",
+      "state": "regrab",
+      "heights": [
+        46,
+        46,
+        46
+      ],
+      "feet": [
+        48,
+        48,
+        48
+      ],
+      "distinctLegs": 3,
+      "revision": false
+    },
+    {
+      "region": "selva",
+      "state": "release",
+      "heights": [
+        46,
+        46,
+        46
+      ],
+      "feet": [
+        48,
+        48,
+        48
+      ],
+      "distinctLegs": 3,
+      "revision": false
+    },
+    {
+      "region": "selva",
+      "state": "reload",
+      "heights": [
+        46,
+        46,
+        46,
+        46,
+        46,
+        46,
+        46,
+        46
+      ],
+      "feet": [
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48
+      ],
+      "distinctLegs": 8,
+      "revision": false
+    },
+    {
+      "region": "selva",
+      "state": "run",
+      "heights": [
+        44,
+        43,
+        45,
+        40,
+        43,
+        42,
+        43,
+        40
+      ],
+      "feet": [
+        48,
+        48,
+        48,
+        46,
+        48,
+        48,
+        48,
+        46
+      ],
+      "distinctLegs": 7,
+      "revision": true
+    },
+    {
+      "region": "selva",
+      "state": "slide",
+      "heights": [
+        34,
+        29,
+        31,
+        25,
+        32,
+        30,
+        27,
+        29
+      ],
+      "feet": [
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48
+      ],
+      "distinctLegs": 8,
+      "revision": false
+    },
+    {
+      "region": "selva",
+      "state": "swing",
+      "heights": [
+        46,
+        46,
+        46,
+        46,
+        46,
+        46,
+        46,
+        46,
+        46,
+        46,
+        46,
+        46,
+        46,
+        46,
+        46,
+        46
+      ],
+      "feet": [
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48
+      ],
+      "distinctLegs": 16,
+      "revision": false
+    },
+    {
+      "region": "selva",
+      "state": "uppercut",
+      "heights": [
+        37,
+        45,
+        46,
+        46,
+        46,
+        45,
+        44,
+        43
+      ],
+      "feet": [
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48
+      ],
+      "distinctLegs": 8,
+      "revision": false
+    },
+    {
+      "region": "selva",
+      "state": "victory",
+      "heights": [
+        43,
+        43,
+        45,
+        45,
+        45,
+        42,
+        44,
+        45
+      ],
+      "feet": [
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48
+      ],
+      "distinctLegs": 8,
+      "revision": false
+    },
+    {
+      "region": "sierra",
+      "state": "baile",
+      "heights": [
+        39,
+        42,
+        39,
+        40,
+        40,
+        40,
+        41,
+        41
+      ],
+      "feet": [
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48
+      ],
+      "distinctLegs": 8,
+      "revision": false
+    },
+    {
+      "region": "sierra",
+      "state": "burst",
+      "heights": [
+        40,
+        40,
+        41,
+        40,
+        41,
+        40,
+        41,
+        40
+      ],
+      "feet": [
+        48,
+        48,
+        48,
+        46,
+        48,
+        48,
+        48,
+        46
+      ],
+      "distinctLegs": 8,
+      "revision": true
+    },
+    {
+      "region": "sierra",
+      "state": "climb",
+      "heights": [
+        42,
+        43,
+        39,
+        40
+      ],
+      "feet": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "distinctLegs": 4,
+      "revision": false
+    },
+    {
+      "region": "sierra",
+      "state": "death",
+      "heights": [
+        42,
+        39,
+        35,
+        32,
+        26,
+        22,
+        17,
+        16
+      ],
+      "feet": [
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48
+      ],
+      "distinctLegs": 8,
+      "revision": false
+    },
+    {
+      "region": "sierra",
+      "state": "double_jump",
+      "heights": [
+        42,
+        43,
+        39,
+        40,
+        43
+      ],
+      "feet": [
+        48,
+        48,
+        48,
+        48,
+        48
+      ],
+      "distinctLegs": 5,
+      "revision": false
+    },
+    {
+      "region": "sierra",
+      "state": "fall",
+      "heights": [
+        40,
+        43,
+        36
+      ],
+      "feet": [
+        48,
+        48,
+        48
+      ],
+      "distinctLegs": 3,
+      "revision": false
+    },
+    {
+      "region": "sierra",
+      "state": "hit",
+      "heights": [
+        39,
+        39,
+        45,
+        39,
+        38,
+        32,
+        30,
+        39
+      ],
+      "feet": [
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48
+      ],
+      "distinctLegs": 8,
+      "revision": false
+    },
+    {
+      "region": "sierra",
+      "state": "huaraca_cargar",
+      "heights": [
+        41,
+        41,
+        41,
+        41,
+        41,
+        42,
+        40,
+        42
+      ],
+      "feet": [
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48
+      ],
+      "distinctLegs": 8,
+      "revision": false
+    },
+    {
+      "region": "sierra",
+      "state": "huaraca_girar",
+      "heights": [
+        42,
+        43,
+        45,
+        44,
+        45,
+        44,
+        45,
+        38
+      ],
+      "feet": [
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48
+      ],
+      "distinctLegs": 8,
+      "revision": false
+    },
+    {
+      "region": "sierra",
+      "state": "huaraca_lanzar",
+      "heights": [
+        39,
+        42,
+        39,
+        42,
+        42,
+        42,
+        34,
+        39
+      ],
+      "feet": [
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48
+      ],
+      "distinctLegs": 7,
+      "revision": true
+    },
+    {
+      "region": "sierra",
+      "state": "idle",
+      "heights": [
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        41
+      ],
+      "feet": [
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48
+      ],
+      "distinctLegs": 8,
+      "revision": false
+    },
+    {
+      "region": "sierra",
+      "state": "jump",
+      "heights": [
+        34,
+        42,
+        43,
+        39,
+        40,
+        43,
+        36,
+        33
+      ],
+      "feet": [
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48
+      ],
+      "distinctLegs": 8,
+      "revision": false
+    },
+    {
+      "region": "sierra",
+      "state": "land",
+      "heights": [
+        36,
+        33
+      ],
+      "feet": [
+        48,
+        48
+      ],
+      "distinctLegs": 2,
+      "revision": false
+    },
+    {
+      "region": "sierra",
+      "state": "run",
+      "heights": [
+        40,
+        39,
+        41,
+        34,
+        39,
+        38,
+        40,
+        34
+      ],
+      "feet": [
+        48,
+        48,
+        48,
+        45,
+        48,
+        48,
+        48,
+        45
+      ],
+      "distinctLegs": 7,
+      "revision": true
+    },
+    {
+      "region": "sierra",
+      "state": "slide",
+      "heights": [
+        32,
+        29,
+        28,
+        29,
+        31,
+        30,
+        32,
+        32
+      ],
+      "feet": [
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48
+      ],
+      "distinctLegs": 8,
+      "revision": false
+    },
+    {
+      "region": "sierra",
+      "state": "victory",
+      "heights": [
+        39,
+        40,
+        42,
+        42,
+        41,
+        41,
+        40,
+        40
+      ],
+      "feet": [
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48
+      ],
+      "distinctLegs": 8,
+      "revision": false
+    }
+  ]
+}

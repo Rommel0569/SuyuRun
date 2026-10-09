@@ -1,0 +1,44 @@
+{
+  "name": "selva_boss_escarabajo_idle",
+  "frameWidth": 96,
+  "frameHeight": 96,
+  "frames": 4,
+  "fps": 8,
+  "loop": true,
+  "ppu": 32,
+  "pivot": [
+    0,
+    1
+  ],
+  "rectsUnity": [
+    {
+      "x": 0,
+      "y": 0,
+      "width": 96,
+      "height": 96
+    },
+    {
+      "x": 96,
+      "y": 0,
+      "width": 96,
+      "height": 96
+    },
+    {
+      "x": 192,
+      "y": 0,
+      "width": 96,
+      "height": 96
+    },
+    {
+      "x": 288,
+      "y": 0,
+      "width": 96,
+      "height": 96
+    }
+  ],
+  "group": "Bosses",
+  "factor": 1,
+  "seamlessX": false,
+  "role": "Ruinas: centinela escarabajo de bronce",
+  "fiction": true
+}

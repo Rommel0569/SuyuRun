@@ -1,0 +1,54 @@
+{
+  "name": "selva_mono_movimiento",
+  "frameWidth": 32,
+  "frameHeight": 32,
+  "frames": 6,
+  "fps": 7,
+  "loop": true,
+  "ppu": 32,
+  "pivot": [
+    0,
+    1
+  ],
+  "rectsUnity": [
+    {
+      "x": 0,
+      "y": 0,
+      "width": 32,
+      "height": 32
+    },
+    {
+      "x": 32,
+      "y": 0,
+      "width": 32,
+      "height": 32
+    },
+    {
+      "x": 64,
+      "y": 0,
+      "width": 32,
+      "height": 32
+    },
+    {
+      "x": 96,
+      "y": 0,
+      "width": 32,
+      "height": 32
+    },
+    {
+      "x": 128,
+      "y": 0,
+      "width": 32,
+      "height": 32
+    },
+    {
+      "x": 160,
+      "y": 0,
+      "width": 32,
+      "height": 32
+    }
+  ],
+  "group": "Fauna",
+  "factor": 1,
+  "seamlessX": false
+}

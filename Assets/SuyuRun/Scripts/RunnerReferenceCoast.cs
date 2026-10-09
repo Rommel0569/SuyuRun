@@ -37,7 +37,12 @@ namespace SuyuRun
             var texture=Resources.Load<Texture2D>(name);
             if(!texture)throw new System.InvalidOperationException("Missing approved Costa layer: "+name);
             var band=new ReferenceBand{factor=factor,frames=new Sprite[count]};
-            for(int f=0;f<count;f++)band.frames[f]=ReferenceSprite(texture,new Rect(0,texture.height-(f+1)*180,640,180));
+            for(int f=0;f<count;f++)
+            {
+                var legacy=ReferenceSprite(texture,new Rect(0,texture.height-(f+1)*180,640,180));
+                band.frames[f]=count==1?RefactorEnvironmentArt.Frame(name,legacy):legacy;
+                if(band.frames[f]==legacy)band.frames[f]=RefactorMaterialArt.Frame(name,legacy,0,f);
+            }
             for(int i=0;i<2;i++)band.copies[i]=ReferenceRenderer(name+" / tile "+i,band.frames[0],order,world);
             referenceBands.Add(band);
         }
@@ -49,11 +54,17 @@ namespace SuyuRun
             cam.backgroundColor=new Color32(33,28,45,255);
             var pp=cam.GetComponent<UnityEngine.Rendering.Universal.PixelPerfectCamera>();
             if(!pp)pp=cam.gameObject.AddComponent<UnityEngine.Rendering.Universal.PixelPerfectCamera>();
-            pp.assetsPPU=32;pp.refResolutionX=320;pp.refResolutionY=180;
+            pp.assetsPPU=64;pp.refResolutionX=640;pp.refResolutionY=360;
             pp.gridSnapping=UnityEngine.Rendering.Universal.PixelPerfectCamera.GridSnapping.UpscaleRenderTexture;
-            pp.cropFrame=UnityEngine.Rendering.Universal.PixelPerfectCamera.CropFrame.Windowbox;
+            pp.cropFrame=UnityEngine.Rendering.Universal.PixelPerfectCamera.CropFrame.StretchFill;
+            RunnerPixelViewport.Configure(cam);
             var skyTexture=Resources.Load<Texture2D>("costa_capa1_cielo");
-            var sky=ReferenceRenderer("Fixed sky / approved central window",ReferenceSprite(skyTexture,new Rect(160,0,320,180)),-40,world);
+            var fullSky=ReferenceSprite(skyTexture,new Rect(0,0,640,180));
+            var detailedSky=RefactorMaterialArt.Frame("costa_capa1_cielo",fullSky,0);
+            float skyRatio=detailedSky.pixelsPerUnit/32;
+            var skySprite=Sprite.Create(detailedSky.texture,new Rect(160*skyRatio,0,320*skyRatio,180*skyRatio),new Vector2(0,1),detailedSky.pixelsPerUnit,0,SpriteMeshType.FullRect);
+            referenceSprites.Add(skySprite);
+            var sky=ReferenceRenderer("Fixed sky / approved central window",skySprite,-40,world);
             sky.transform.localPosition=new Vector3(CoastLeft,CoastTop,0);
             var clouds=new GameObject("Clouds and continuous flocks");clouds.transform.SetParent(world,false);
             clouds.transform.localPosition=new Vector3(CoastLeft,CoastTop,0);
@@ -85,7 +96,7 @@ namespace SuyuRun
             waterTime=referenceTime;
             foreach(var band in referenceBands)
             {
-                int shift=(160+Mathf.RoundToInt(distance*CoastPpu*band.factor))%640;
+                float shift=Mathf.Repeat(160+GameScale.SnapVisual(distance*CoastPpu*band.factor,true),640);
                 var frame=band.frames[Mathf.FloorToInt(referenceTime*4)%band.frames.Length];
                 for(int i=0;i<2;i++)
                 {
@@ -102,12 +113,13 @@ namespace SuyuRun
             {
                 float beat=course.SecondsToBeat(referenceTime);
                 int f=Mathf.FloorToInt(Mathf.Repeat(beat*.5f,1)*6);
-                int shift=(160+Mathf.RoundToInt(distance*CoastPpu*.5f))%640;
+                float shift=Mathf.Repeat(160+GameScale.SnapVisual(distance*CoastPpu*.5f,true),640);
                 // x=340 is the roof centre in the ORIGINAL layer 5; dancer moves with it,
                 // not on an unrelated repeated island. Feet meet row 131, the top terrace.
                 for(int i=0;i<2;i++)
                 {
-                    referenceDancers[i].sprite=referenceDanceFrames[f];
+                    if(!referenceDancers[i])continue;
+                    referenceDancers[i].sprite=RefactorActorArt.Frame("bailarin",0,Mathf.FloorToInt(Mathf.Repeat(beat*.5f,1)*12),referenceDanceFrames[f]);
                     referenceDancers[i].transform.localPosition=new Vector3(CoastLeft+(340-12+i*640-shift)/CoastPpu,CoastTop-(131-40)/CoastPpu,0);
                 }
             }
@@ -121,19 +133,25 @@ namespace SuyuRun
         Sprite monedaIcon;
         void DrawCompactCoastHud()
         {
+            var savedHudMatrix=GUI.matrix;GUI.matrix=savedHudMatrix*Matrix4x4.Scale(Vector3.one*4);RunnerHud.Progress(ProgressSeconds/Duration);GUI.matrix=savedHudMatrix;
             if(!texHud){DrawCompactCoastHudLegacyFallback();return;}
             if(!monedaIcon)foreach(var s in Resources.LoadAll<Sprite>("costa_coleccionables"))if(s.name=="moneda_0")monedaIcon=s;
             // Top bar: costa_hud.png's panel_h, stretched (its adobe joint ticks are subtle enough
             // not to smear noticeably), with the 4 patrimony-piece slots, coin and points readouts.
             RunnerHud.Draw(1,coins,score,small,i=>discovered[i],
-                r=>DrawSprite(r,HudSprite("panel_h")),r=>DrawSprite(r,HudSprite("piece_slot")),
-                r=>DrawSprite(r,monedaIcon),r=>DrawSprite(r,HudSprite("icon_puntos")),gold);
-            var sandText=new GUIStyle(small);sandText.normal.textColor=new Color32(57,40,61,255);
-            GUI.Label(new Rect(20,654,1200,26),$"ESPACIO saltar · S deslizar · E ráfaga {energy:0}% · ESC pausa     {ProgressSeconds:0} / {Duration:0}s",sandText);
+                r=>RunnerHud.Panel(r,HudSprite("panel_h"),4),r=>DrawSprite(r,HudSprite("piece_slot")),
+                r=>DrawSprite(r,monedaIcon),r=>DrawSprite(r,HudSprite("icon_puntos")),gold,
+                (i,r)=>MuseumArt.Draw(r,CoastalCulture.Entries[i].id,discovered[i]));
+            GUI.matrix=savedHudMatrix*Matrix4x4.Scale(Vector3.one*4);
+            RunnerHud.RunnerStatus(mode==Mode.Dead?0:1,1,energy/100);
+            RunnerHud.Text(RunnerHud.CoinCounter,"MON "+coins.ToString("00"),new GUIStyle(small){fontSize=4,normal={textColor=cream}});
+            RunnerHud.Text(RunnerHud.ScoreCounter,"PTS "+score.ToString("0000"),new GUIStyle(small){fontSize=4,normal={textColor=cream}});
+            if(Time.unscaledTime<feedbackUntil)RunnerHud.NoticeText(feedback,new GUIStyle(small){fontSize=4,normal={textColor=cream}});
+            GUI.matrix=savedHudMatrix;
+            var sandText=new GUIStyle(small){padding=new RectOffset(0,0,0,0)};sandText.normal.textColor=cream;
+            var controls=RunnerHud.Controls;
+            RunnerHud.ControlHints(new Rect(controls.x*4,controls.y*4,controls.width*4,controls.height*4),$"ESP x2 · S deslizar · E {energy:0}% · ESC pausa",sandText);
             // Bottom progress bar: frame + fill sprite instead of a flat gold rect.
-            DrawSprite(new Rect(20,690,1240,10),HudSprite("bar_progress_frame"));
-            DrawSpriteTiled(new Rect(22,692,1236*Mathf.Clamp01(ProgressSeconds/Duration),6),HudSprite("bar_progress_fill"),3f);
-            if(Time.unscaledTime<feedbackUntil)GUI.Label(new Rect(20,620,1100,26),feedback,sandText);
         }
         void DrawCompactCoastHudLegacyFallback()
         {

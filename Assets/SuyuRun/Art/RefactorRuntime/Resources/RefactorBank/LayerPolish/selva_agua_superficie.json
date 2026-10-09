@@ -1,0 +1,54 @@
+{
+  "frames": 6,
+  "frameWidth": 1280,
+  "frameHeight": 360,
+  "logicalWidth": 640,
+  "logicalHeight": 180,
+  "pixelsPerUnit": 64,
+  "fps": 8,
+  "loop": true,
+  "original": "Assets/SuyuRun/Art/PixelSelva/ProductionV2/Resources/SelvaV2/selva_agua_superficie.png",
+  "source": "Artifacts/VisualRefactor/LayerPolish/Sources/selva_agua_superficie.png",
+  "finish": "independent imagegen framewise redraw",
+  "fullPlaythroughTested": false,
+  "alphaMode": "preserveSource",
+  "sourceRectsUnity": [
+    {
+      "x": 0,
+      "y": 900,
+      "width": 640,
+      "height": 180
+    },
+    {
+      "x": 0,
+      "y": 720,
+      "width": 640,
+      "height": 180
+    },
+    {
+      "x": 0,
+      "y": 540,
+      "width": 640,
+      "height": 180
+    },
+    {
+      "x": 0,
+      "y": 360,
+      "width": 640,
+      "height": 180
+    },
+    {
+      "x": 0,
+      "y": 180,
+      "width": 640,
+      "height": 180
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "width": 640,
+      "height": 180
+    }
+  ],
+  "previous": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_agua_superficie.json"
+}

@@ -1,0 +1,76 @@
+{
+  "name": "selva_fx_splash_entrada",
+  "frameWidth": 80,
+  "frameHeight": 40,
+  "frames": 10,
+  "fps": 12,
+  "loop": false,
+  "ppu": 32,
+  "pivot": [
+    0,
+    1
+  ],
+  "rectsUnity": [
+    {
+      "x": 0,
+      "y": 0,
+      "width": 80,
+      "height": 40
+    },
+    {
+      "x": 80,
+      "y": 0,
+      "width": 80,
+      "height": 40
+    },
+    {
+      "x": 160,
+      "y": 0,
+      "width": 80,
+      "height": 40
+    },
+    {
+      "x": 240,
+      "y": 0,
+      "width": 80,
+      "height": 40
+    },
+    {
+      "x": 320,
+      "y": 0,
+      "width": 80,
+      "height": 40
+    },
+    {
+      "x": 400,
+      "y": 0,
+      "width": 80,
+      "height": 40
+    },
+    {
+      "x": 480,
+      "y": 0,
+      "width": 80,
+      "height": 40
+    },
+    {
+      "x": 560,
+      "y": 0,
+      "width": 80,
+      "height": 40
+    },
+    {
+      "x": 640,
+      "y": 0,
+      "width": 80,
+      "height": 40
+    },
+    {
+      "x": 720,
+      "y": 0,
+      "width": 80,
+      "height": 40
+    }
+  ],
+  "group": "Effects"
+}

@@ -117,6 +117,8 @@ namespace SuyuRun
             {
                 bird.root.gameObject.SetActive(mode!=Mode.Museum&&!bird.defeated&&Mathf.Abs(bird.x-distance)<24);
                 bird.root.position=new Vector3(bird.x-distance-3,bird.curY,0);
+                foreach(var renderer in bird.root.GetComponentsInChildren<SpriteRenderer>())
+                    RunnerFacing.Apply(renderer,RunnerFacing.TowardLeft(bird.x-distance-3,-3));
             }
         }
         // Reynolds-style Seek + Wander confined to the bird's vertical patrol band. The horizontal

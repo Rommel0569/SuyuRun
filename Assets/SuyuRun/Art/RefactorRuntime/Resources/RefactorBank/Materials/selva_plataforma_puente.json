@@ -1,0 +1,14 @@
+{
+  "frames": 4,
+  "frameWidth": 128,
+  "frameHeight": 48,
+  "logicalWidth": 64,
+  "logicalHeight": 24,
+  "pixelsPerUnit": 64,
+  "fps": 4,
+  "loop": true,
+  "material": "wood",
+  "original": "Assets/SuyuRun/Art/PixelSelva/ProductionV2/Resources/SelvaV2/selva_plataforma_puente.png",
+  "source": "Tools/refine_playable_materials.py",
+  "fullPlaythroughTested": false
+}

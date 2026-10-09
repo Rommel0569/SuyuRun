@@ -15,10 +15,10 @@ namespace SuyuRun
             Matrix4x4 saved=GUI.matrix;GUI.matrix=saved*Matrix4x4.Scale(Vector3.one*4);
             SharedGameMenu.Draw(sharedMenu,new SharedGameMenu.Context{
                 sierra=false,paused=mode==Mode.Paused,dead=mode==Mode.Dead,complete=mode==Mode.Complete,
-                diagnostic=AutomatedSmokeTest,coins=coins,score=score,bank=bank,canRevive=checkpoint>0&&coins>=RunnerProgress.ReviveCost,
+                diagnostic=AutomatedSmokeTest,coins=coins,score=score,bank=bank,canRevive=checkpoint>0&&RunnerProgress.CanRevive(coins),
                 detail=mode==Mode.Complete?"SIERRA DESBLOQUEADA":mode==Mode.Dead?"Salta, desliza o dispara segun el obstaculo.":"La musica y el recorrido estan en pausa.",
                 resume=()=>{LoadUpgrades();TogglePause();},retry=()=>Begin(),menu=ReturnToMenu,next=StartCoastTravel,
-                revive=()=>{if(RunnerProgress.TrySpend(ref coins,RunnerProgress.ReviveCost))Begin(true);},
+                revive=()=>{if(RunnerProgress.TryRevive(ref coins))Begin(true);},
                 settingsChanged=()=>{LoadSettings();LoadUpgrades();bank=PlayerPrefs.GetInt("SuyuRun.Prototype.Bank");},
                 collected=(region,index)=>PlayerPrefs.GetInt("SuyuRun.Museum."+(region==0?"Costa."+CoastalCulture.Entries[index].id:"Sierra."+SharedGameMenu.SierraIds[index]),0)==1||(region==0&&discovered[index])
             });
@@ -36,10 +36,10 @@ namespace SuyuRun
             sharedMenu.tab=serviceTab;
             SharedGameMenu.Draw(sharedMenu,new SharedGameMenu.Context{
                 sierra=true,paused=paused,dead=dead||caveFailed,complete=complete,diagnostic=DiagnosticAutoplay,
-                coins=coins,score=score,bank=bank,canRevive=!caveFailed&&checkpointTime>0&&coins>=RunnerProgress.ReviveCost,
+                coins=coins+(cave?.coins??0),score=score,bank=bank,canRevive=(caveFailed||dead&&checkpointTime>0)&&RunnerProgress.CanRevive(coins+(cave?.coins??0)),
                 detail=complete?"TRAJE PROTECTOR OBTENIDO · SELVA DESBLOQUEADA":caveFailed?"Reintenta la cueva sin perder el recorrido.":dead?"Usa las marcas para preparar el salto.":"La musica y el recorrido estan en pausa.",
                 resume=ToggleSierraPause,retry=()=>{if(caveFailed)RetryCave();else Restart();},revive=Revive,
-                menu=()=>UnityEngine.SceneManagement.SceneManager.LoadScene("Level_Costa"),
+                menu=()=>UnityEngine.SceneManagement.SceneManager.LoadScene("Level_Costa"),next=()=>RunnerProgress.OpenSelva(),
                 settingsChanged=()=>{liveMusicVolume=PlayerPrefs.GetFloat("SuyuRun.Settings.MusicVol",1);music.volume=.34f*liveMusicVolume;latency=PlayerPrefs.GetFloat("SuyuRun.Settings.Latency",0);bank=PlayerPrefs.GetInt("SuyuRun.Prototype.Bank");},
                 collected=(region,index)=>region==1?HasMemory(index):PlayerPrefs.GetInt("SuyuRun.Museum.Costa."+CoastalCulture.Entries[index].id,0)==1,
                 calibrationInfo="TAPS "+tapErrors.Count+" · "+Mathf.RoundToInt(tapBpm)+" BPM · PULSA T",

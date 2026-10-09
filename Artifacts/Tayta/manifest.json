@@ -1,0 +1,338 @@
+{
+  "costa/idle": {
+    "frames": 8,
+    "fps": 5,
+    "loop": true,
+    "frameWidth": 48,
+    "frameHeight": 48
+  },
+  "costa/run": {
+    "frames": 8,
+    "fps": 14,
+    "loop": true,
+    "frameWidth": 48,
+    "frameHeight": 48
+  },
+  "costa/jump": {
+    "frames": 8,
+    "fps": 12,
+    "loop": false,
+    "frameWidth": 48,
+    "frameHeight": 48
+  },
+  "costa/land": {
+    "frames": 2,
+    "fps": 12,
+    "loop": false,
+    "frameWidth": 48,
+    "frameHeight": 48
+  },
+  "costa/double_jump": {
+    "frames": 5,
+    "fps": 12,
+    "loop": false,
+    "frameWidth": 48,
+    "frameHeight": 48
+  },
+  "costa/fall": {
+    "frames": 3,
+    "fps": 12,
+    "loop": false,
+    "frameWidth": 48,
+    "frameHeight": 48
+  },
+  "sierra/idle": {
+    "frames": 8,
+    "fps": 5,
+    "loop": true,
+    "frameWidth": 48,
+    "frameHeight": 48
+  },
+  "sierra/run": {
+    "frames": 8,
+    "fps": 14,
+    "loop": true,
+    "frameWidth": 48,
+    "frameHeight": 48
+  },
+  "sierra/jump": {
+    "frames": 8,
+    "fps": 12,
+    "loop": false,
+    "frameWidth": 48,
+    "frameHeight": 48
+  },
+  "sierra/land": {
+    "frames": 2,
+    "fps": 12,
+    "loop": false,
+    "frameWidth": 48,
+    "frameHeight": 48
+  },
+  "sierra/double_jump": {
+    "frames": 5,
+    "fps": 12,
+    "loop": false,
+    "frameWidth": 48,
+    "frameHeight": 48
+  },
+  "sierra/fall": {
+    "frames": 3,
+    "fps": 12,
+    "loop": false,
+    "frameWidth": 48,
+    "frameHeight": 48
+  },
+  "selva/idle": {
+    "frames": 8,
+    "fps": 5,
+    "loop": true,
+    "frameWidth": 48,
+    "frameHeight": 48
+  },
+  "selva/run": {
+    "frames": 8,
+    "fps": 14,
+    "loop": true,
+    "frameWidth": 48,
+    "frameHeight": 48
+  },
+  "selva/jump": {
+    "frames": 8,
+    "fps": 12,
+    "loop": false,
+    "frameWidth": 48,
+    "frameHeight": 48
+  },
+  "selva/land": {
+    "frames": 2,
+    "fps": 12,
+    "loop": false,
+    "frameWidth": 48,
+    "frameHeight": 48
+  },
+  "selva/double_jump": {
+    "frames": 5,
+    "fps": 12,
+    "loop": false,
+    "frameWidth": 48,
+    "frameHeight": 48
+  },
+  "selva/fall": {
+    "frames": 3,
+    "fps": 12,
+    "loop": false,
+    "frameWidth": 48,
+    "frameHeight": 48
+  },
+  "costa/slide": {
+    "frames": 5,
+    "fps": 12,
+    "loop": true,
+    "frameWidth": 48,
+    "frameHeight": 48
+  },
+  "costa/burst": {
+    "frames": 8,
+    "fps": 12,
+    "loop": true,
+    "frameWidth": 48,
+    "frameHeight": 48
+  },
+  "costa/hit": {
+    "frames": 8,
+    "fps": 12,
+    "loop": false,
+    "frameWidth": 48,
+    "frameHeight": 48
+  },
+  "costa/victory": {
+    "frames": 8,
+    "fps": 12,
+    "loop": false,
+    "frameWidth": 48,
+    "frameHeight": 48
+  },
+  "sierra/slide": {
+    "frames": 8,
+    "fps": 12,
+    "loop": true,
+    "frameWidth": 48,
+    "frameHeight": 48
+  },
+  "sierra/huaraca_cargar": {
+    "frames": 8,
+    "fps": 24,
+    "loop": false,
+    "frameWidth": 48,
+    "frameHeight": 48
+  },
+  "sierra/huaraca_girar": {
+    "frames": 8,
+    "fps": 24,
+    "loop": true,
+    "frameWidth": 48,
+    "frameHeight": 48
+  },
+  "sierra/huaraca_lanzar": {
+    "frames": 8,
+    "fps": 24,
+    "loop": false,
+    "frameWidth": 48,
+    "frameHeight": 48
+  },
+  "sierra/victory": {
+    "frames": 8,
+    "fps": 12,
+    "loop": false,
+    "frameWidth": 48,
+    "frameHeight": 48
+  },
+  "sierra/climb": {
+    "frames": 4,
+    "fps": 12,
+    "loop": true,
+    "frameWidth": 48,
+    "frameHeight": 48
+  },
+  "sierra/burst": {
+    "frames": 8,
+    "fps": 12,
+    "loop": true,
+    "frameWidth": 48,
+    "frameHeight": 48
+  },
+  "sierra/hit": {
+    "frames": 8,
+    "fps": 12,
+    "loop": false,
+    "frameWidth": 48,
+    "frameHeight": 48
+  },
+  "sierra/death": {
+    "frames": 8,
+    "fps": 12,
+    "loop": false,
+    "frameWidth": 48,
+    "frameHeight": 48
+  },
+  "sierra/baile": {
+    "frames": 8,
+    "fps": 12,
+    "loop": true,
+    "frameWidth": 48,
+    "frameHeight": 48
+  },
+  "selva/burst": {
+    "frames": 8,
+    "fps": 12,
+    "loop": true,
+    "frameWidth": 48,
+    "frameHeight": 48
+  },
+  "selva/punch": {
+    "frames": 8,
+    "fps": 12,
+    "loop": false,
+    "frameWidth": 48,
+    "frameHeight": 48
+  },
+  "selva/kick": {
+    "frames": 8,
+    "fps": 12,
+    "loop": false,
+    "frameWidth": 48,
+    "frameHeight": 48
+  },
+  "selva/slide": {
+    "frames": 8,
+    "fps": 12,
+    "loop": true,
+    "frameWidth": 48,
+    "frameHeight": 48
+  },
+  "selva/reload": {
+    "frames": 8,
+    "fps": 12,
+    "loop": true,
+    "frameWidth": 48,
+    "frameHeight": 48
+  },
+  "selva/guard": {
+    "frames": 8,
+    "fps": 12,
+    "loop": true,
+    "frameWidth": 48,
+    "frameHeight": 48
+  },
+  "selva/uppercut": {
+    "frames": 8,
+    "fps": 12,
+    "loop": false,
+    "frameWidth": 48,
+    "frameHeight": 48
+  },
+  "selva/hit": {
+    "frames": 8,
+    "fps": 12,
+    "loop": false,
+    "frameWidth": 48,
+    "frameHeight": 48
+  },
+  "selva/death": {
+    "frames": 8,
+    "fps": 12,
+    "loop": false,
+    "frameWidth": 48,
+    "frameHeight": 48
+  },
+  "selva/baile": {
+    "frames": 8,
+    "fps": 12,
+    "loop": true,
+    "frameWidth": 48,
+    "frameHeight": 48
+  },
+  "selva/victory": {
+    "frames": 8,
+    "fps": 12,
+    "loop": true,
+    "frameWidth": 48,
+    "frameHeight": 48
+  },
+  "selva/swing": {
+    "frames": 16,
+    "fps": 12,
+    "loop": false,
+    "frameWidth": 48,
+    "frameHeight": 48
+  },
+  "selva/grab": {
+    "frames": 2,
+    "fps": 12,
+    "loop": false,
+    "frameWidth": 48,
+    "frameHeight": 48
+  },
+  "selva/regrab": {
+    "frames": 3,
+    "fps": 12,
+    "loop": false,
+    "frameWidth": 48,
+    "frameHeight": 48
+  },
+  "selva/release": {
+    "frames": 3,
+    "fps": 12,
+    "loop": false,
+    "frameWidth": 48,
+    "frameHeight": 48
+  },
+  "selva/climb": {
+    "frames": 4,
+    "fps": 12,
+    "loop": true,
+    "frameWidth": 48,
+    "frameHeight": 48
+  }
+}

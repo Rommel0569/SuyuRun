@@ -1,0 +1,107 @@
+{
+  "name": "selva_caiman_emerger",
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 4,
+  "fps": 10,
+  "loop": false,
+  "ppu": 32,
+  "pivot": [
+    0,
+    1
+  ],
+  "rectsUnity": [
+    {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64
+    },
+    {
+      "x": 64,
+      "y": 0,
+      "width": 64,
+      "height": 64
+    },
+    {
+      "x": 128,
+      "y": 0,
+      "width": 64,
+      "height": 64
+    },
+    {
+      "x": 192,
+      "y": 0,
+      "width": 64,
+      "height": 64
+    }
+  ],
+  "group": "Enemies",
+  "hitboxes": [
+    {
+      "body": [
+        18,
+        22,
+        25,
+        26
+      ],
+      "mouth": [
+        37,
+        8,
+        23,
+        18
+      ],
+      "damaging": true,
+      "snap": false
+    },
+    {
+      "body": [
+        17,
+        22,
+        27,
+        26
+      ],
+      "mouth": [
+        39,
+        11,
+        25,
+        17
+      ],
+      "damaging": true,
+      "snap": false
+    },
+    {
+      "body": [
+        16,
+        23,
+        28,
+        24
+      ],
+      "mouth": [
+        42,
+        17,
+        22,
+        16
+      ],
+      "damaging": true,
+      "snap": false
+    },
+    {
+      "body": [
+        16,
+        25,
+        27,
+        21
+      ],
+      "mouth": [
+        44,
+        23,
+        20,
+        17
+      ],
+      "damaging": true,
+      "snap": false
+    }
+  ],
+  "notes": "64x64 rotation authored at native pixels. Body excludes tail. Only snap frame1 closes the mouth. Dive tint is palette-limited."
+}

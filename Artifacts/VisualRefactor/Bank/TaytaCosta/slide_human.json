@@ -1,0 +1,28 @@
+{
+  "frames": 4,
+  "fps": 12,
+  "loop": true,
+  "frameWidth": 192,
+  "frameHeight": 128,
+  "pixelsPerUnit": 64,
+  "footAnchor": [
+    96,
+    124
+  ],
+  "gaitLift": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "silhouetteHeights": [
+    43,
+    43,
+    44,
+    44
+  ],
+  "strideLogicalPixels": 112,
+  "source": "Artifacts/VisualRefactor/Heroes/costa_human_slide_source.png",
+  "integrated": false,
+  "playTested": false
+}

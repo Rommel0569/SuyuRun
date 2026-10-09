@@ -1,0 +1,80 @@
+[
+  {
+    "region": "costa",
+    "kind": "header",
+    "path": "C:\\Users\\USER\\Documents\\ChatGPT\\JOGO\\SuyuRun\\Assets\\SuyuRun\\Art\\RefactorRuntime\\Resources\\HudCarved\\costa_header.png",
+    "size": [
+      624,
+      40
+    ],
+    "sourceBand": [
+      45,
+      170
+    ]
+  },
+  {
+    "region": "costa",
+    "kind": "footer",
+    "path": "C:\\Users\\USER\\Documents\\ChatGPT\\JOGO\\SuyuRun\\Assets\\SuyuRun\\Art\\RefactorRuntime\\Resources\\HudCarved\\costa_footer.png",
+    "size": [
+      624,
+      40
+    ],
+    "sourceBand": [
+      198,
+      317
+    ]
+  },
+  {
+    "region": "sierra",
+    "kind": "header",
+    "path": "C:\\Users\\USER\\Documents\\ChatGPT\\JOGO\\SuyuRun\\Assets\\SuyuRun\\Art\\RefactorRuntime\\Resources\\HudCarved\\sierra_header.png",
+    "size": [
+      624,
+      40
+    ],
+    "sourceBand": [
+      360,
+      485
+    ]
+  },
+  {
+    "region": "sierra",
+    "kind": "footer",
+    "path": "C:\\Users\\USER\\Documents\\ChatGPT\\JOGO\\SuyuRun\\Assets\\SuyuRun\\Art\\RefactorRuntime\\Resources\\HudCarved\\sierra_footer.png",
+    "size": [
+      624,
+      40
+    ],
+    "sourceBand": [
+      514,
+      632
+    ]
+  },
+  {
+    "region": "selva",
+    "kind": "header",
+    "path": "C:\\Users\\USER\\Documents\\ChatGPT\\JOGO\\SuyuRun\\Assets\\SuyuRun\\Art\\RefactorRuntime\\Resources\\HudCarved\\selva_header.png",
+    "size": [
+      624,
+      40
+    ],
+    "sourceBand": [
+      682,
+      808
+    ]
+  },
+  {
+    "region": "selva",
+    "kind": "footer",
+    "path": "C:\\Users\\USER\\Documents\\ChatGPT\\JOGO\\SuyuRun\\Assets\\SuyuRun\\Art\\RefactorRuntime\\Resources\\HudCarved\\selva_footer.png",
+    "size": [
+      624,
+      40
+    ],
+    "sourceBand": [
+      842,
+      961
+    ]
+  }
+]

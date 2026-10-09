@@ -1,0 +1,14 @@
+{
+  "frames": 6,
+  "frameWidth": 96,
+  "frameHeight": 96,
+  "logicalWidth": 48,
+  "logicalHeight": 48,
+  "pixelsPerUnit": 64,
+  "fps": 12,
+  "loop": false,
+  "original": "Assets/SuyuRun/Art/PixelSelva/ProductionV2/Resources/SelvaV2/selva_fx_portal.png",
+  "source": "Tools/finish_remaining_visuals.py",
+  "finish": "native cluster micro-contours; preserved original composition",
+  "fullPlaythroughTested": false
+}

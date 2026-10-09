@@ -1,0 +1,24 @@
+{
+  "name": "selva_rio_capa2_lejania",
+  "frameWidth": 640,
+  "frameHeight": 180,
+  "frames": 1,
+  "fps": 8,
+  "loop": true,
+  "ppu": 32,
+  "pivot": [
+    0,
+    1
+  ],
+  "rectsUnity": [
+    {
+      "x": 0,
+      "y": 0,
+      "width": 640,
+      "height": 180
+    }
+  ],
+  "group": "Layers",
+  "factor": 0.15,
+  "seamlessX": true
+}

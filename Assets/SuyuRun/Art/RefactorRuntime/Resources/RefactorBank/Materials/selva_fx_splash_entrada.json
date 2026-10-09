@@ -1,0 +1,14 @@
+{
+  "frames": 10,
+  "frameWidth": 160,
+  "frameHeight": 80,
+  "logicalWidth": 80,
+  "logicalHeight": 40,
+  "pixelsPerUnit": 64,
+  "fps": 12,
+  "loop": false,
+  "original": "Assets/SuyuRun/Art/PixelSelva/ProductionV2/Resources/SelvaV2/selva_fx_splash_entrada.png",
+  "source": "Tools/finish_remaining_visuals.py",
+  "finish": "native cluster micro-contours; preserved original composition",
+  "fullPlaythroughTested": false
+}

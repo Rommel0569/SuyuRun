@@ -1,0 +1,2 @@
+Run the read-only geometry and resource checks after the next Unity domain reload.
+Does not enter Play, switch scene, mutate progress or produce a build.

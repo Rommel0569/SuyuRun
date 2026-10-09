@@ -10,13 +10,19 @@ namespace SuyuRun
         {
             public bool sierra,paused,dead,complete,diagnostic,canRevive;
             public int coins,score,bank;
-            public string detail,calibrationInfo;
+            public string detail,calibrationInfo,regionName;
             public Action resume,retry,menu,next,revive,settingsChanged,previewMusic,applyCalibration,resetCalibration;
             public Func<int,int,bool> collected;
         }
         static Font font;
         static readonly Color Ink=new Color32(33,28,45,255),Gold=new Color32(248,197,110,255),Paper=new Color32(255,240,194,255);
         public static readonly string[] SierraIds={"cabeza_clava","kero","quipu"};
+        public static readonly string[] SelvaIds={"selva_ceramica","selva_flauta","selva_textil","selva_sonaja"};
+        static readonly string[] SelvaNames={"Ceramica con kene","Flauta del viajero","Textil con kene","Sonaja del viajero"};
+        static readonly string[] SelvaOrigins={"SHIPIBO-KONIBO · UCAYALI","OBJETO ORIGINAL · SUYURUN","SHIPIBO-KONIBO · UCAYALI","OBJETO ORIGINAL · SUYURUN"};
+        static readonly string[] SelvaDescriptions={"El kene es un sistema de disenos aplicado a ceramica, textiles y otros soportes. Esta pieza pixel art es una interpretacion, no una replica arqueologica.","Instrumento de viento original del juego. No se atribuye este diseno a un pueblo o periodo historico especifico.","El kene expresa conocimientos y estetica Shipibo-Konibo. Los disenos se aplican tambien en textiles; este sprite es una interpretacion artistica.","Instrumento de percusion original del juego. No representa una pieza historica documentada."};
+        public static bool IsCollected(int region,int index)
+        {string key=region==0?"Costa."+CoastalCulture.Entries[index].id:region==1?"Sierra."+SierraIds[index]:"Selva."+SelvaIds[index];return PlayerPrefs.GetInt("SuyuRun.Museum."+key,0)==1;}
         static readonly string[] SierraNames={"Cabeza clava","Kero ceremonial","Quipu"};
         static readonly string[] Origins={"CHAVIN · ANCASH","TRADICION ANDINA · INCA","REGISTRO ANDINO · INCA"};
         static readonly string[] Descriptions={
@@ -38,6 +44,14 @@ namespace SuyuRun
             RunnerPresentation.Box(r,Ink);
             RunnerPresentation.Box(new Rect(r.x+1,r.y+1,r.width-2,r.height-2),Gold);
             RunnerPresentation.Box(new Rect(r.x+3,r.y+3,r.width-6,r.height-6),Skin(sierra));
+            // Native half-logical-pixel bevels stay inside the existing shared layout.
+            if(r.width>12&&r.height>12)
+            {
+                RunnerPresentation.Box(new Rect(r.x+3,r.y+3,r.width-6,.5f),Paper);
+                RunnerPresentation.Box(new Rect(r.x+3,r.yMax-3.5f,r.width-6,.5f),Ink);
+                RunnerPresentation.Box(new Rect(r.x+3,r.y+3,.5f,r.height-6),Paper);
+                RunnerPresentation.Box(new Rect(r.xMax-3.5f,r.y+3,.5f,r.height-6),Ink);
+            }
             foreach(float x in new[]{r.x,r.xMax-6})foreach(float y in new[]{r.y,r.yMax-6})
             {RunnerPresentation.Box(new Rect(x,y,6,6),Ink);RunnerPresentation.Box(new Rect(x+1,y+1,4,4),Gold);RunnerPresentation.Box(new Rect(x+2,y+2,2,2),Skin(sierra));}
         }
@@ -53,16 +67,22 @@ namespace SuyuRun
         {
             Frame(new Rect(5,7,310,169),c.sierra);
             GUI.Label(new Rect(16,15,182,11),"SUYURUN",Text(8));
-            GUI.Label(new Rect(204,16,97,10),c.sierra?"SIERRA":"COSTA",Text(5,TextAnchor.MiddleRight));
-            string[] tabs={"RESUMEN","MUSEO","AJUSTES","TIENDA"};
-            for(int i=0;i<4;i++)if(Button(new Rect(14+i*74,29,70,15),tabs[i],c.sierra))state.tab=i;
+            GUI.Label(new Rect(204,16,97,10),c.regionName??(c.sierra?"SIERRA":"COSTA"),Text(5,TextAnchor.MiddleRight));
+            string[] tabs={"RESUMEN","MUSEO","AJUSTES","TIENDA","AYUDA"};
+            for(int i=0;i<5;i++)if(Button(new Rect(14+i*59,29,56,15),tabs[i],c.sierra))state.tab=i;
             if(state.tab==1)Museum(state,c);
             else if(state.tab==2)Settings(c);
             else if(state.tab==3)Shop(c);
+            else if(state.tab==4)Tutorial(c);
             else Summary(state,c);
             if(Button(new Rect(14,154,142,15),c.paused?"CONTINUAR":"VOLVER AL INICIO",c.sierra))
             {if(c.paused)c.resume?.Invoke();else c.menu?.Invoke();}
             if(Button(new Rect(164,154,142,15),"MENU PRINCIPAL",c.sierra))c.menu?.Invoke();
+        }
+        static void Tutorial(Context c)
+        {
+            GUI.Label(new Rect(20,51,280,13),"COMO JUGAR",Text(7,TextAnchor.MiddleCenter));
+            GUI.Label(new Rect(22,70,276,72),"RUNNER: avanzas automaticamente.\nESP: salto; pulsa otra vez para doble salto.\nS / ABAJO: deslizar bajo obstaculos.\nE: rafaga. SIERRA: click en el ave, huaraca.\nSELVA: click en nudo de liana, ESP soltar.\nCUEVAS: A/D mover, W/ESP x2, S bajar.\nCLICK/E disparar; R recargar.\nCHULLACHAQUI: E golpe, F patada, Q upper.\nVence al jefe y esbirros; entra en la puerta.",Text(4));
         }
         static void Summary(State state,Context c)
         {
@@ -78,22 +98,23 @@ namespace SuyuRun
         }
         static void Museum(State s,Context c)
         {
-            if(Button(new Rect(16,49,60,13),"COSTA",c.sierra)){s.region=0;s.index=0;}
-            if(Button(new Rect(80,49,60,13),"SIERRA",c.sierra)){s.region=1;s.index=0;}
-            int count=s.region==0?4:3;s.index=Mathf.Clamp(s.index,0,count-1);
+            if(Button(new Rect(16,49,42,13),"COSTA",c.sierra)){s.region=0;s.index=0;}
+            if(Button(new Rect(62,49,42,13),"SIERRA",c.sierra)){s.region=1;s.index=0;}
+            if(Button(new Rect(108,49,38,13),"SELVA",c.sierra)){s.region=2;s.index=0;}
+            int count=s.region==1?3:4;s.index=Mathf.Clamp(s.index,0,count-1);
             var entry=s.region==0?CoastalCulture.Entries[s.index]:null;
-            string id=entry!=null?entry.id:SierraIds[s.index];
-            bool owned=c.collected!=null&&c.collected(s.region,s.index);
+            string id=entry!=null?entry.id:s.region==1?SierraIds[s.index]:SelvaIds[s.index];
+            bool owned=s.region==2?IsCollected(2,s.index):c.collected!=null&&c.collected(s.region,s.index);
             Frame(new Rect(16,68,74,77),c.sierra);
             MuseumArt.Draw(new Rect(21,73,64,64),id,owned);
-            GUI.Label(new Rect(98,68,204,14),entry!=null?entry.name:SierraNames[s.index],Text(6));
-            GUI.Label(new Rect(98,86,204,16),entry!=null?entry.place:Origins[s.index],Text(4));
-            string description=entry!=null?entry.description:Descriptions[s.index];
-            GUI.Label(new Rect(98,105,204,39),owned?description:"Memoria aun no recogida. Encuentrala en "+(s.region==0?"Costa":"Sierra")+" para revelar su historia.",Text(4));
+            GUI.Label(new Rect(98,68,204,14),entry!=null?entry.name:s.region==1?SierraNames[s.index]:SelvaNames[s.index],Text(6));
+            GUI.Label(new Rect(98,86,204,16),entry!=null?entry.place:s.region==1?Origins[s.index]:SelvaOrigins[s.index],Text(4));
+            string description=entry!=null?entry.description:s.region==1?Descriptions[s.index]:SelvaDescriptions[s.index];
+            GUI.Label(new Rect(98,105,204,39),owned?description:"Memoria aun no recogida. Encuentrala en "+(s.region==0?"Costa":s.region==1?"Sierra":"Selva")+" para revelar su historia.",Text(4));
             if(Button(new Rect(150,49,20,13),"<",c.sierra))s.index=(s.index+count-1)%count;
             GUI.Label(new Rect(175,52,43,10),(s.index+1)+" / "+count,Text());
             if(Button(new Rect(216,49,20,13),">",c.sierra))s.index=(s.index+1)%count;
-            if(Button(new Rect(240,49,64,13),"FUENTE",c.sierra))Application.OpenURL(entry!=null?entry.source:Sources[s.index]);
+            if(Button(new Rect(240,49,64,13),"FUENTE",c.sierra,s.region!=2||s.index==0||s.index==2))Application.OpenURL(entry!=null?entry.source:s.region==1?Sources[s.index]:"https://bdpi.cultura.gob.pe/pueblos/shipibo-konibo");
         }
         static void Settings(Context c)
         {

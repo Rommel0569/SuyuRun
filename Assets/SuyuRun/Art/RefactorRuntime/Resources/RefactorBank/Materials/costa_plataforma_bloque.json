@@ -1,0 +1,14 @@
+{
+  "frames": 1,
+  "frameWidth": 96,
+  "frameHeight": 64,
+  "logicalWidth": 48,
+  "logicalHeight": 32,
+  "pixelsPerUnit": 64,
+  "fps": 1,
+  "loop": true,
+  "material": "stone",
+  "original": "Assets/SuyuRun/Art/PixelCosta/Resources/costa_plataformas.png",
+  "source": "Tools/refine_playable_materials.py",
+  "fullPlaythroughTested": false
+}

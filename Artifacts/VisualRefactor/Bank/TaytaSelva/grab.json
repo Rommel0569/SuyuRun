@@ -1,0 +1,18 @@
+{
+  "frames": 2,
+  "fps": 12,
+  "loop": false,
+  "frameWidth": 96,
+  "frameHeight": 96,
+  "pixelsPerUnit": 64,
+  "gripCoordinateScale": 0.5,
+  "gripX": [
+    48.675,
+    46.81818181818182
+  ],
+  "gripY": [
+    17,
+    17
+  ],
+  "anchorReviewRequired": true
+}

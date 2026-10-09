@@ -1,0 +1,44 @@
+{
+  "name": "selva_fx_escudo_romper",
+  "file": "Effects/selva_fx_escudo_romper.png",
+  "frameWidth": 48,
+  "frameHeight": 48,
+  "frames": 4,
+  "layout": "horizontal",
+  "fps": 12,
+  "loop": false,
+  "ppu": 32,
+  "pivot": [
+    0.5,
+    0
+  ],
+  "parallax": 1,
+  "seamlessX": false,
+  "status": "proposal_pending_visual_approval",
+  "rectsUnity": [
+    {
+      "x": 0,
+      "y": 0,
+      "width": 48,
+      "height": 48
+    },
+    {
+      "x": 48,
+      "y": 0,
+      "width": 48,
+      "height": 48
+    },
+    {
+      "x": 96,
+      "y": 0,
+      "width": 48,
+      "height": 48
+    },
+    {
+      "x": 144,
+      "y": 0,
+      "width": 48,
+      "height": 48
+    }
+  ]
+}

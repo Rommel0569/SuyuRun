@@ -1,0 +1,13 @@
+{
+  "frames": 12,
+  "frameWidth": 192,
+  "frameHeight": 128,
+  "fps": 24,
+  "loop": true,
+  "pixelsPerUnit": 64,
+  "referenceExtent": 102,
+  "footY": 124,
+  "orientation": "right",
+  "hitboxesUnchanged": true,
+  "playTested": false
+}

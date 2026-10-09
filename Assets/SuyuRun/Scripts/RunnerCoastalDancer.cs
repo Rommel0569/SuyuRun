@@ -23,7 +23,7 @@ namespace SuyuRun
             if(bloque)
             {
                 var rockGo=new GameObject("Rock (ART_BIBLE bloque)");rockGo.transform.SetParent(danceIsland,false);
-                float rw=bloque.rect.width/32f,rh=bloque.rect.height/32f;
+                float rw=bloque.rect.width/bloque.pixelsPerUnit,rh=bloque.rect.height/bloque.pixelsPerUnit;
                 rockGo.transform.localPosition=new Vector3(-rw*.5f,0,0);
                 var rockMat=new Material(Shader.Find("Sprites/Default"));rockMat.mainTexture=bloque.texture;ownedSpriteMaterials.Add(rockMat);
                 rockGo.AddComponent<MeshFilter>().sharedMesh=SubRectQuadMesh(rw,rh,SubRectUv(bloque));
@@ -40,6 +40,11 @@ namespace SuyuRun
             var bailarinSheet=Resources.LoadAll<Sprite>("costa_bailarin");
             dancerFrames=new Sprite[6];
             if(bailarinSheet!=null)foreach(var s in bailarinSheet)for(int i=0;i<6;i++)if(s.name=="baile_"+i)dancerFrames[i]=s;
+            if(dancerFrames[0]&&RefactorActorArt.IsRegistered(RefactorActorArt.Frame("bailarin",0,0,dancerFrames[0],12)))
+            {
+                var legacy=dancerFrames[0];dancerFrames=new Sprite[12];
+                for(int i=0;i<12;i++)dancerFrames[i]=RefactorActorArt.Frame("bailarin",0,i,legacy,12);
+            }
             var dancerGo=new GameObject("Dancer (ART_BIBLE costa_bailarin)");dancerGo.transform.SetParent(danceIsland,false);
             float dw=.75f,dh=1.25f; // 24x40 native at PPU 32
             dancerGo.transform.localPosition=new Vector3(-dw*.5f,.05f+dh,0);

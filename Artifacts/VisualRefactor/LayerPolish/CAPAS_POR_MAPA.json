@@ -1,0 +1,888 @@
+{
+  "contexts": {
+    "Costa": [
+      "costa_capa1_cielo",
+      "costa_capa2_nubes",
+      "costa_capa2_aves",
+      "costa_capa3_paracas",
+      "costa_capa4_mar",
+      "costa_capa5_huacas",
+      "costa_capa6_algarrobos",
+      "costa_capa7_suelo"
+    ],
+    "Sierra/camino": [
+      "sierra_compartido_capa1_cielo",
+      "sierra_compartido_capa2_nubes",
+      "sierra_compartido_capa3_nevados",
+      "sierra_camino_capa4_paisaje",
+      "sierra_camino_capa7_suelo"
+    ],
+    "Sierra/valle": [
+      "sierra_compartido_capa1_cielo",
+      "sierra_compartido_capa2_nubes",
+      "sierra_compartido_capa3_nevados",
+      "sierra_valle_capa4_paisaje",
+      "sierra_valle_capa7_suelo",
+      "sierra_valle_capa5_rio"
+    ],
+    "Sierra/ruinas": [
+      "sierra_compartido_capa1_cielo",
+      "sierra_compartido_capa2_nubes",
+      "sierra_compartido_capa3_nevados",
+      "sierra_ruinas_capa4_paisaje",
+      "sierra_ruinas_capa7_suelo"
+    ],
+    "Sierra/minicueva1": [
+      "sierra_cueva1_fondo",
+      "sierra_cueva1_arcos",
+      "sierra_cueva_suelo",
+      "sierra_cueva_roca",
+      "sierra_cueva_plataforma"
+    ],
+    "Sierra/minicueva2": [
+      "sierra_cueva2_fondo",
+      "sierra_cueva2_arcos",
+      "sierra_cueva_suelo",
+      "sierra_cueva_roca",
+      "sierra_cueva_plataforma"
+    ],
+    "Selva/1-bosque": [
+      "selva_bosque_capa1_cielo",
+      "selva_bosque_capa2_lejania",
+      "selva_bosque_capa3_estructura",
+      "selva_bosque_capa5_cercania",
+      "selva_bosque_capa6_frontal",
+      "selva_niebla",
+      "selva_rayos_sol"
+    ],
+    "Selva/2-rio": [
+      "selva_rio_capa1_cielo",
+      "selva_rio_capa2_lejania",
+      "selva_rio_capa3_estructura",
+      "selva_rio_capa5_cercania",
+      "selva_rio_capa6_frontal",
+      "selva_niebla",
+      "selva_rayos_sol",
+      "selva_agua_fondo",
+      "selva_agua_superficie"
+    ],
+    "Selva/3-cueva": [
+      "selva_cueva_capa1_cielo",
+      "selva_cueva_capa2_lejania",
+      "selva_cueva_capa3_estructura",
+      "selva_cueva_capa5_cercania",
+      "selva_cueva_capa6_frontal",
+      "selva_niebla",
+      "selva_rayos_sol",
+      "selva_tile_cueva_superficie",
+      "selva_tile_cueva_relleno"
+    ],
+    "Selva/4-noche": [
+      "selva_noche_capa1_cielo",
+      "selva_noche_capa2_lejania",
+      "selva_noche_capa3_estructura",
+      "selva_noche_capa5_cercania",
+      "selva_noche_capa6_frontal",
+      "selva_niebla",
+      "selva_rayos_sol"
+    ],
+    "Selva/5-ruinas": [
+      "selva_ruinas_capa1_cielo",
+      "selva_ruinas_capa2_lejania",
+      "selva_ruinas_capa3_estructura",
+      "selva_ruinas_capa5_cercania",
+      "selva_ruinas_capa6_frontal",
+      "selva_niebla",
+      "selva_rayos_sol",
+      "selva_tile_ruina_superficie",
+      "selva_tile_ruina_relleno"
+    ],
+    "Selva/6-templo": [
+      "selva_templo_capa1_cielo",
+      "selva_templo_capa2_lejania",
+      "selva_templo_capa3_estructura",
+      "selva_templo_capa5_cercania",
+      "selva_templo_capa6_frontal",
+      "selva_niebla",
+      "selva_rayos_sol"
+    ]
+  },
+  "uniqueLayers": 63,
+  "layers": [
+    {
+      "name": "costa_capa1_cielo",
+      "contexts": [
+        "Costa"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/costa_capa1_cielo.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot"
+    },
+    {
+      "name": "costa_capa2_aves",
+      "contexts": [
+        "Costa"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/costa_capa2_aves.png",
+      "native": [
+        32,
+        32
+      ],
+      "status": "redrawn-current-lot"
+    },
+    {
+      "name": "costa_capa2_nubes",
+      "contexts": [
+        "Costa"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/costa_capa2_nubes.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot"
+    },
+    {
+      "name": "costa_capa3_paracas",
+      "contexts": [
+        "Costa"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/costa_capa3_paracas.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot"
+    },
+    {
+      "name": "costa_capa4_mar",
+      "contexts": [
+        "Costa"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/costa_capa4_mar.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot"
+    },
+    {
+      "name": "costa_capa5_huacas",
+      "contexts": [
+        "Costa"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/costa_capa5_huacas.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot"
+    },
+    {
+      "name": "costa_capa6_algarrobos",
+      "contexts": [
+        "Costa"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/costa_capa6_algarrobos.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot"
+    },
+    {
+      "name": "costa_capa7_suelo",
+      "contexts": [
+        "Costa"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/costa_capa7_suelo.png",
+      "native": [
+        64,
+        64
+      ],
+      "status": "redrawn-current-lot"
+    },
+    {
+      "name": "selva_agua_fondo",
+      "contexts": [
+        "Selva/2-rio"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_agua_fondo.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot"
+    },
+    {
+      "name": "selva_agua_superficie",
+      "contexts": [
+        "Selva/2-rio"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_agua_superficie.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot"
+    },
+    {
+      "name": "selva_bosque_capa1_cielo",
+      "contexts": [
+        "Selva/1-bosque"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_bosque_capa1_cielo.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot"
+    },
+    {
+      "name": "selva_bosque_capa2_lejania",
+      "contexts": [
+        "Selva/1-bosque"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_bosque_capa2_lejania.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot"
+    },
+    {
+      "name": "selva_bosque_capa3_estructura",
+      "contexts": [
+        "Selva/1-bosque"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_bosque_capa3_estructura.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot"
+    },
+    {
+      "name": "selva_bosque_capa5_cercania",
+      "contexts": [
+        "Selva/1-bosque"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_bosque_capa5_cercania.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot"
+    },
+    {
+      "name": "selva_bosque_capa6_frontal",
+      "contexts": [
+        "Selva/1-bosque"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_bosque_capa6_frontal.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot"
+    },
+    {
+      "name": "selva_cueva_capa1_cielo",
+      "contexts": [
+        "Selva/3-cueva"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_cueva_capa1_cielo.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot"
+    },
+    {
+      "name": "selva_cueva_capa2_lejania",
+      "contexts": [
+        "Selva/3-cueva"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_cueva_capa2_lejania.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot"
+    },
+    {
+      "name": "selva_cueva_capa3_estructura",
+      "contexts": [
+        "Selva/3-cueva"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_cueva_capa3_estructura.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot"
+    },
+    {
+      "name": "selva_cueva_capa5_cercania",
+      "contexts": [
+        "Selva/3-cueva"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_cueva_capa5_cercania.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot"
+    },
+    {
+      "name": "selva_cueva_capa6_frontal",
+      "contexts": [
+        "Selva/3-cueva"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_cueva_capa6_frontal.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot"
+    },
+    {
+      "name": "selva_niebla",
+      "contexts": [
+        "Selva/1-bosque",
+        "Selva/2-rio",
+        "Selva/3-cueva",
+        "Selva/4-noche",
+        "Selva/5-ruinas",
+        "Selva/6-templo"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_niebla.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot"
+    },
+    {
+      "name": "selva_noche_capa1_cielo",
+      "contexts": [
+        "Selva/4-noche"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_noche_capa1_cielo.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot"
+    },
+    {
+      "name": "selva_noche_capa2_lejania",
+      "contexts": [
+        "Selva/4-noche"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_noche_capa2_lejania.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot"
+    },
+    {
+      "name": "selva_noche_capa3_estructura",
+      "contexts": [
+        "Selva/4-noche"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_noche_capa3_estructura.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot"
+    },
+    {
+      "name": "selva_noche_capa5_cercania",
+      "contexts": [
+        "Selva/4-noche"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_noche_capa5_cercania.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot"
+    },
+    {
+      "name": "selva_noche_capa6_frontal",
+      "contexts": [
+        "Selva/4-noche"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_noche_capa6_frontal.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot"
+    },
+    {
+      "name": "selva_rayos_sol",
+      "contexts": [
+        "Selva/1-bosque",
+        "Selva/2-rio",
+        "Selva/3-cueva",
+        "Selva/4-noche",
+        "Selva/5-ruinas",
+        "Selva/6-templo"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_rayos_sol.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot"
+    },
+    {
+      "name": "selva_rio_capa1_cielo",
+      "contexts": [
+        "Selva/2-rio"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_rio_capa1_cielo.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot"
+    },
+    {
+      "name": "selva_rio_capa2_lejania",
+      "contexts": [
+        "Selva/2-rio"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_rio_capa2_lejania.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot"
+    },
+    {
+      "name": "selva_rio_capa3_estructura",
+      "contexts": [
+        "Selva/2-rio"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_rio_capa3_estructura.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot"
+    },
+    {
+      "name": "selva_rio_capa5_cercania",
+      "contexts": [
+        "Selva/2-rio"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_rio_capa5_cercania.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot"
+    },
+    {
+      "name": "selva_rio_capa6_frontal",
+      "contexts": [
+        "Selva/2-rio"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_rio_capa6_frontal.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot"
+    },
+    {
+      "name": "selva_ruinas_capa1_cielo",
+      "contexts": [
+        "Selva/5-ruinas"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_ruinas_capa1_cielo.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot"
+    },
+    {
+      "name": "selva_ruinas_capa2_lejania",
+      "contexts": [
+        "Selva/5-ruinas"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_ruinas_capa2_lejania.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot"
+    },
+    {
+      "name": "selva_ruinas_capa3_estructura",
+      "contexts": [
+        "Selva/5-ruinas"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_ruinas_capa3_estructura.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot"
+    },
+    {
+      "name": "selva_ruinas_capa5_cercania",
+      "contexts": [
+        "Selva/5-ruinas"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_ruinas_capa5_cercania.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot"
+    },
+    {
+      "name": "selva_ruinas_capa6_frontal",
+      "contexts": [
+        "Selva/5-ruinas"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_ruinas_capa6_frontal.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot"
+    },
+    {
+      "name": "selva_templo_capa1_cielo",
+      "contexts": [
+        "Selva/6-templo"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_templo_capa1_cielo.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot"
+    },
+    {
+      "name": "selva_templo_capa2_lejania",
+      "contexts": [
+        "Selva/6-templo"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_templo_capa2_lejania.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot"
+    },
+    {
+      "name": "selva_templo_capa3_estructura",
+      "contexts": [
+        "Selva/6-templo"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_templo_capa3_estructura.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot"
+    },
+    {
+      "name": "selva_templo_capa5_cercania",
+      "contexts": [
+        "Selva/6-templo"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_templo_capa5_cercania.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot"
+    },
+    {
+      "name": "selva_templo_capa6_frontal",
+      "contexts": [
+        "Selva/6-templo"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_templo_capa6_frontal.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot"
+    },
+    {
+      "name": "selva_tile_cueva_relleno",
+      "contexts": [
+        "Selva/3-cueva"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_tile_cueva_relleno.png",
+      "native": [
+        64,
+        64
+      ],
+      "status": "redrawn-current-lot"
+    },
+    {
+      "name": "selva_tile_cueva_superficie",
+      "contexts": [
+        "Selva/3-cueva"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_tile_cueva_superficie.png",
+      "native": [
+        64,
+        64
+      ],
+      "status": "redrawn-current-lot"
+    },
+    {
+      "name": "selva_tile_ruina_relleno",
+      "contexts": [
+        "Selva/5-ruinas"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_tile_ruina_relleno.png",
+      "native": [
+        64,
+        64
+      ],
+      "status": "redrawn-current-lot"
+    },
+    {
+      "name": "selva_tile_ruina_superficie",
+      "contexts": [
+        "Selva/5-ruinas"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_tile_ruina_superficie.png",
+      "native": [
+        64,
+        64
+      ],
+      "status": "redrawn-current-lot"
+    },
+    {
+      "name": "sierra_camino_capa4_paisaje",
+      "contexts": [
+        "Sierra/camino"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/sierra_camino_capa4_paisaje.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot"
+    },
+    {
+      "name": "sierra_camino_capa7_suelo",
+      "contexts": [
+        "Sierra/camino"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/sierra_camino_capa7_suelo.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot"
+    },
+    {
+      "name": "sierra_compartido_capa1_cielo",
+      "contexts": [
+        "Sierra/camino",
+        "Sierra/valle",
+        "Sierra/ruinas"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/sierra_compartido_capa1_cielo.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot"
+    },
+    {
+      "name": "sierra_compartido_capa2_nubes",
+      "contexts": [
+        "Sierra/camino",
+        "Sierra/valle",
+        "Sierra/ruinas"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/sierra_compartido_capa2_nubes.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot"
+    },
+    {
+      "name": "sierra_compartido_capa3_nevados",
+      "contexts": [
+        "Sierra/camino",
+        "Sierra/valle",
+        "Sierra/ruinas"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/sierra_compartido_capa3_nevados.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot"
+    },
+    {
+      "name": "sierra_cueva1_arcos",
+      "contexts": [
+        "Sierra/minicueva1"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/sierra_cueva1_arcos.png",
+      "native": [
+        1280,
+        768
+      ],
+      "status": "redrawn-current-lot"
+    },
+    {
+      "name": "sierra_cueva1_fondo",
+      "contexts": [
+        "Sierra/minicueva1"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/sierra_cueva1_fondo.png",
+      "native": [
+        1280,
+        768
+      ],
+      "status": "redrawn-current-lot"
+    },
+    {
+      "name": "sierra_cueva2_arcos",
+      "contexts": [
+        "Sierra/minicueva2"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/sierra_cueva2_arcos.png",
+      "native": [
+        1280,
+        768
+      ],
+      "status": "redrawn-current-lot"
+    },
+    {
+      "name": "sierra_cueva2_fondo",
+      "contexts": [
+        "Sierra/minicueva2"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/sierra_cueva2_fondo.png",
+      "native": [
+        1280,
+        768
+      ],
+      "status": "redrawn-current-lot"
+    },
+    {
+      "name": "sierra_cueva_plataforma",
+      "contexts": [
+        "Sierra/minicueva1",
+        "Sierra/minicueva2"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/sierra_cueva_plataforma.png",
+      "native": [
+        32,
+        24
+      ],
+      "status": "redrawn-current-lot"
+    },
+    {
+      "name": "sierra_cueva_roca",
+      "contexts": [
+        "Sierra/minicueva1",
+        "Sierra/minicueva2"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/sierra_cueva_roca.png",
+      "native": [
+        64,
+        64
+      ],
+      "status": "redrawn-current-lot"
+    },
+    {
+      "name": "sierra_cueva_suelo",
+      "contexts": [
+        "Sierra/minicueva1",
+        "Sierra/minicueva2"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/sierra_cueva_suelo.png",
+      "native": [
+        64,
+        64
+      ],
+      "status": "redrawn-current-lot"
+    },
+    {
+      "name": "sierra_ruinas_capa4_paisaje",
+      "contexts": [
+        "Sierra/ruinas"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/sierra_ruinas_capa4_paisaje.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot"
+    },
+    {
+      "name": "sierra_ruinas_capa7_suelo",
+      "contexts": [
+        "Sierra/ruinas"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/sierra_ruinas_capa7_suelo.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot"
+    },
+    {
+      "name": "sierra_valle_capa4_paisaje",
+      "contexts": [
+        "Sierra/valle"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/sierra_valle_capa4_paisaje.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot"
+    },
+    {
+      "name": "sierra_valle_capa5_rio",
+      "contexts": [
+        "Sierra/valle"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/sierra_valle_capa5_rio.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot"
+    },
+    {
+      "name": "sierra_valle_capa7_suelo",
+      "contexts": [
+        "Sierra/valle"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/sierra_valle_capa7_suelo.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot"
+    }
+  ]
+}

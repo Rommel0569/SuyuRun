@@ -13,8 +13,7 @@ namespace SuyuRun
             Panel(new Rect(0,0,1280,720),new Color32(33,28,45,255));
             RegionalPanorama(FinalRect(32,308,630,650),false);
             RegionalPanorama(FinalRect(715,308,654,660),true);
-            // Selva keeps its frame and label but no invented/unimplemented gameplay scene.
-            Panel(FinalRect(1380,308,650,745),new Color32(33,28,45,255));
+            SelvaPanorama(FinalRect(1380,308,650,745));
             DrawTex(new Rect(0,0,1280,720),finalTitleFrame);
             if(InvisibleButton(FinalRect(111,955,560,88)))Begin();
             if(InvisibleButton(FinalRect(722,955,292,88)))mode=Mode.Selector;
@@ -63,6 +62,15 @@ namespace SuyuRun
             GUI.Label(new Rect(32,540,552,32),"COSTA · EL ALCATRAZ",style);
             GUI.Label(new Rect(688,540,552,32),"SIERRA · CAMINO DE LOS ANDES",style);
         }
+        void SelvaPanorama(Rect viewport)
+        {
+            GUI.BeginGroup(viewport);
+            foreach(var layer in new[]{"bosque_capa1_cielo","bosque_capa2_lejania","bosque_capa3_estructura","bosque_capa5_cercania"})
+            {var s=SelvaArt.Get(layer);var r=s.spec.rectsUnity[0];GUI.DrawTextureWithTexCoords(new Rect(-288,viewport.height-720,2560,720),s.texture,new Rect(r.x/(float)s.texture.width,r.y/(float)s.texture.height,r.width/(float)s.texture.width,r.height/(float)s.texture.height));}
+            var bird=SelvaArt.Get("guacamayo_movimiento");int f=(int)(Time.unscaledTime*8)%bird.spec.frames;var b=bird.spec.rectsUnity[f];
+            GUI.DrawTextureWithTexCoords(new Rect(84,viewport.height-360,128,128),bird.texture,new Rect(b.x/(float)bird.texture.width,b.y/(float)bird.texture.height,b.width/(float)bird.texture.width,b.height/(float)bird.texture.height));
+            GUI.EndGroup();
+        }
         int RegionalMemories(string region,string[] ids)
         {int count=0;foreach(var id in ids)if(PlayerPrefs.GetInt("SuyuRun.Museum."+region+"."+id,0)==1)count++;return count;}
         void CommonFrame(Rect r)
@@ -86,14 +94,14 @@ namespace SuyuRun
                 float x=48+i*400;bool unlocked=i==0||i==1&&RunnerProgress.SierraUnlocked||i==2&&RunnerProgress.SelvaUnlocked;
                 CommonFrame(new Rect(x,112,384,492));
                 if(i<2)RegionalPanorama(new Rect(x+8,120,368,320),i==1);
-                else Panel(new Rect(x+8,120,368,320),new Color32(46,59,34,255));
+                else SelvaPanorama(new Rect(x+8,120,368,320));
                 GUI.Label(new Rect(x+8,450,368,40),names[i],new GUIStyle(title){fontSize=22,alignment=TextAnchor.MiddleCenter});
-                int memories=i==0?DiscoveredCount:RegionalMemories("Sierra",new[]{"cabeza_clava","kero","quipu"});
-                GUI.Label(new Rect(x+8,496,368,28),i<2?$"PIEZAS {memories}/{(i==0?4:3)}":"ARTE Y NIVEL PENDIENTES",new GUIStyle(small){alignment=TextAnchor.MiddleCenter});
-                string caption=i==2?(unlocked?"PRÓXIMAMENTE":"BLOQUEADO"):unlocked?"JUGAR":"COMPLETA COSTA";
-                bool old=GUI.enabled;GUI.enabled=unlocked&&i<2;
-                if(CommonButton(new Rect(x+24,546,336,40),caption,unlocked&&i<2))
-                {if(i==0)Begin();else {RunnerProgress.EnterSierraMuseum=false;RunnerProgress.OpenSierra();}}
+                int memories=i==0?DiscoveredCount:i==1?RegionalMemories("Sierra",SharedGameMenu.SierraIds):RegionalMemories("Selva",SharedGameMenu.SelvaIds);
+                GUI.Label(new Rect(x+8,496,368,28),$"PIEZAS {memories}/{(i==1?3:4)}",new GUIStyle(small){alignment=TextAnchor.MiddleCenter});
+                string caption=unlocked?"JUGAR":i==2?"COMPLETA SIERRA":"COMPLETA COSTA";
+                bool old=GUI.enabled;GUI.enabled=unlocked;
+                if(CommonButton(new Rect(x+24,546,336,40),caption,unlocked))
+                {if(i==0)Begin();else if(i==2)RunnerProgress.OpenSelva();else {RunnerProgress.EnterSierraMuseum=false;RunnerProgress.OpenSierra();}}
                 GUI.enabled=old;
             }
             if(CommonButton(new Rect(40,640,360,52),"VOLVER AL INICIO"))ReturnToMenu();

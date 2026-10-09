@@ -1,0 +1,14 @@
+{
+  "frames": 1,
+  "frameWidth": 1280,
+  "frameHeight": 360,
+  "logicalWidth": 640,
+  "logicalHeight": 180,
+  "pixelsPerUnit": 64,
+  "fps": 1,
+  "loop": true,
+  "source": "Artifacts/VisualRefactor/selva_cueva_capa3_estructura_detail_source.png",
+  "original": "Assets/SuyuRun/Art/PixelSelva/ProductionV2/Resources/SelvaV2/selva_cueva_capa3_estructura.png",
+  "seamEndpointEqual": true,
+  "fullPlaythroughTested": false
+}

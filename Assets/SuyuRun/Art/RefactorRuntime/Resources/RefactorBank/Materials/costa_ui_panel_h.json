@@ -1,0 +1,14 @@
+{
+  "frames": 1,
+  "frameWidth": 64,
+  "frameHeight": 40,
+  "logicalWidth": 32,
+  "logicalHeight": 20,
+  "pixelsPerUnit": 64,
+  "fps": 1,
+  "loop": true,
+  "original": "Assets/SuyuRun/Art/PixelCosta/Resources/costa_hud.png",
+  "source": "Tools/finish_remaining_visuals.py",
+  "finish": "native cluster micro-contours; preserved original composition",
+  "fullPlaythroughTested": false
+}

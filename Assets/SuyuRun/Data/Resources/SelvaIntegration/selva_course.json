@@ -1,0 +1,561 @@
+{
+  "duration": 180.5322,
+  "speed": 160,
+  "events": [
+    {
+      "beat": 8,
+      "time": 4.0,
+      "x": 732.0,
+      "kind": "root"
+    },
+    {
+      "beat": 11,
+      "time": 5.5,
+      "x": 972.0,
+      "kind": "double"
+    },
+    {
+      "beat": 14,
+      "time": 7.0,
+      "x": 1212.0,
+      "kind": "estaca"
+    },
+    {
+      "beat": 17,
+      "time": 8.5,
+      "x": 1452.0,
+      "kind": "slide"
+    },
+    {
+      "beat": 20,
+      "time": 10.0,
+      "x": 1692.0,
+      "kind": "trampa"
+    },
+    {
+      "beat": 23,
+      "time": 11.5,
+      "x": 1932.0,
+      "kind": "air"
+    },
+    {
+      "beat": 26,
+      "time": 13.0,
+      "x": 2172.0,
+      "kind": "jump"
+    },
+    {
+      "beat": 29,
+      "time": 14.5,
+      "x": 2412.0,
+      "kind": "slide"
+    },
+    {
+      "beat": 32,
+      "time": 16.0,
+      "x": 2652.0,
+      "kind": "root"
+    },
+    {
+      "beat": 35,
+      "time": 17.5,
+      "x": 2892.0,
+      "kind": "double"
+    },
+    {
+      "beat": 38,
+      "time": 19.0,
+      "x": 3132.0,
+      "kind": "estaca"
+    },
+    {
+      "beat": 41,
+      "time": 20.5,
+      "x": 3372.0,
+      "kind": "slide"
+    },
+    {
+      "beat": 44,
+      "time": 22.0,
+      "x": 3612.0,
+      "kind": "trampa"
+    },
+    {
+      "beat": 47,
+      "time": 23.5,
+      "x": 3852.0,
+      "kind": "air"
+    },
+    {
+      "beat": 50,
+      "time": 25.0,
+      "x": 4092.0,
+      "kind": "jump"
+    },
+    {
+      "beat": 53,
+      "time": 26.5,
+      "x": 4332.0,
+      "kind": "slide"
+    },
+    {
+      "beat": 56,
+      "time": 28.0,
+      "x": 4572.0,
+      "kind": "root"
+    },
+    {
+      "beat": 59,
+      "time": 29.5,
+      "x": 4812.0,
+      "kind": "double"
+    },
+    {
+      "beat": 62,
+      "time": 31.0,
+      "x": 5052.0,
+      "kind": "estaca"
+    },
+    {
+      "beat": 65,
+      "time": 32.5,
+      "x": 5292.0,
+      "kind": "slide"
+    },
+    {
+      "beat": 68,
+      "time": 34.0,
+      "x": 5532.0,
+      "kind": "trampa"
+    },
+    {
+      "beat": 71,
+      "time": 35.5,
+      "x": 5772.0,
+      "kind": "air"
+    },
+    {
+      "beat": 74,
+      "time": 37.0,
+      "x": 6012.0,
+      "kind": "jump"
+    },
+    {
+      "beat": 77,
+      "time": 38.5,
+      "x": 6252.0,
+      "kind": "slide"
+    },
+    {
+      "beat": 80,
+      "time": 40.0,
+      "x": 6492.0,
+      "kind": "root"
+    },
+    {
+      "beat": 83,
+      "time": 41.5,
+      "x": 6732.0,
+      "kind": "double"
+    },
+    {
+      "beat": 86,
+      "time": 43.0,
+      "x": 6972.0,
+      "kind": "estaca"
+    },
+    {
+      "beat": 116,
+      "time": 58.0,
+      "x": 9372.0,
+      "kind": "jump"
+    },
+    {
+      "beat": 125,
+      "time": 62.5,
+      "x": 10092.0,
+      "kind": "jump"
+    },
+    {
+      "beat": 134,
+      "time": 67.0,
+      "x": 10812.0,
+      "kind": "jump"
+    },
+    {
+      "beat": 143,
+      "time": 71.5,
+      "x": 11532.0,
+      "kind": "jump"
+    },
+    {
+      "beat": 152,
+      "time": 76.0,
+      "x": 12252.0,
+      "kind": "jump"
+    },
+    {
+      "beat": 161,
+      "time": 80.5,
+      "x": 12972.0,
+      "kind": "jump"
+    },
+    {
+      "beat": 185,
+      "time": 92.5,
+      "x": 14892.0,
+      "kind": "slide"
+    },
+    {
+      "beat": 188,
+      "time": 94.0,
+      "x": 15132.0,
+      "kind": "trampa"
+    },
+    {
+      "beat": 191,
+      "time": 95.5,
+      "x": 15372.0,
+      "kind": "air"
+    },
+    {
+      "beat": 194,
+      "time": 97.0,
+      "x": 15612.0,
+      "kind": "jump"
+    },
+    {
+      "beat": 197,
+      "time": 98.5,
+      "x": 15852.0,
+      "kind": "slide"
+    },
+    {
+      "beat": 200,
+      "time": 100.0,
+      "x": 16092.0,
+      "kind": "root"
+    },
+    {
+      "beat": 203,
+      "time": 101.5,
+      "x": 16332.0,
+      "kind": "double"
+    },
+    {
+      "beat": 206,
+      "time": 103.0,
+      "x": 16572.0,
+      "kind": "estaca"
+    },
+    {
+      "beat": 209,
+      "time": 104.5,
+      "x": 16812.0,
+      "kind": "slide"
+    },
+    {
+      "beat": 212,
+      "time": 106.0,
+      "x": 17052.0,
+      "kind": "trampa"
+    },
+    {
+      "beat": 215,
+      "time": 107.5,
+      "x": 17292.0,
+      "kind": "air"
+    },
+    {
+      "beat": 218,
+      "time": 109.0,
+      "x": 17532.0,
+      "kind": "jump"
+    },
+    {
+      "beat": 221,
+      "time": 110.5,
+      "x": 17772.0,
+      "kind": "slide"
+    },
+    {
+      "beat": 224,
+      "time": 112.0,
+      "x": 18012.0,
+      "kind": "root"
+    },
+    {
+      "beat": 227,
+      "time": 113.5,
+      "x": 18252.0,
+      "kind": "double"
+    },
+    {
+      "beat": 230,
+      "time": 115.0,
+      "x": 18492.0,
+      "kind": "estaca"
+    },
+    {
+      "beat": 233,
+      "time": 116.5,
+      "x": 18732.0,
+      "kind": "slide"
+    },
+    {
+      "beat": 236,
+      "time": 118.0,
+      "x": 18972.0,
+      "kind": "trampa"
+    },
+    {
+      "beat": 239,
+      "time": 119.5,
+      "x": 19212.0,
+      "kind": "air"
+    },
+    {
+      "beat": 242,
+      "time": 121.0,
+      "x": 19452.0,
+      "kind": "jump"
+    },
+    {
+      "beat": 245,
+      "time": 122.5,
+      "x": 19692.0,
+      "kind": "slide"
+    },
+    {
+      "beat": 248,
+      "time": 124.0,
+      "x": 19932.0,
+      "kind": "root"
+    },
+    {
+      "beat": 251,
+      "time": 125.5,
+      "x": 20172.0,
+      "kind": "double"
+    },
+    {
+      "beat": 254,
+      "time": 127.0,
+      "x": 20412.0,
+      "kind": "estaca"
+    },
+    {
+      "beat": 257,
+      "time": 128.5,
+      "x": 20652.0,
+      "kind": "slide"
+    },
+    {
+      "beat": 260,
+      "time": 130.0,
+      "x": 20892.0,
+      "kind": "trampa"
+    },
+    {
+      "beat": 263,
+      "time": 131.5,
+      "x": 21132.0,
+      "kind": "air"
+    },
+    {
+      "beat": 266,
+      "time": 133.0,
+      "x": 21372.0,
+      "kind": "jump"
+    },
+    {
+      "beat": 275,
+      "time": 137.5,
+      "x": 22092.0,
+      "kind": "double"
+    },
+    {
+      "beat": 278,
+      "time": 139.0,
+      "x": 22332.0,
+      "kind": "estaca"
+    },
+    {
+      "beat": 281,
+      "time": 140.5,
+      "x": 22572.0,
+      "kind": "slide"
+    },
+    {
+      "beat": 284,
+      "time": 142.0,
+      "x": 22812.0,
+      "kind": "trampa"
+    },
+    {
+      "beat": 287,
+      "time": 143.5,
+      "x": 23052.0,
+      "kind": "air"
+    },
+    {
+      "beat": 290,
+      "time": 145.0,
+      "x": 23292.0,
+      "kind": "jump"
+    },
+    {
+      "beat": 293,
+      "time": 146.5,
+      "x": 23532.0,
+      "kind": "slide"
+    },
+    {
+      "beat": 296,
+      "time": 148.0,
+      "x": 23772.0,
+      "kind": "root"
+    },
+    {
+      "beat": 299,
+      "time": 149.5,
+      "x": 24012.0,
+      "kind": "double"
+    },
+    {
+      "beat": 302,
+      "time": 151.0,
+      "x": 24252.0,
+      "kind": "estaca"
+    },
+    {
+      "beat": 305,
+      "time": 152.5,
+      "x": 24492.0,
+      "kind": "slide"
+    },
+    {
+      "beat": 308,
+      "time": 154.0,
+      "x": 24732.0,
+      "kind": "trampa"
+    },
+    {
+      "beat": 311,
+      "time": 155.5,
+      "x": 24972.0,
+      "kind": "air"
+    },
+    {
+      "beat": 314,
+      "time": 157.0,
+      "x": 25212.0,
+      "kind": "jump"
+    },
+    {
+      "beat": 317,
+      "time": 158.5,
+      "x": 25452.0,
+      "kind": "slide"
+    },
+    {
+      "beat": 320,
+      "time": 160.0,
+      "x": 25692.0,
+      "kind": "root"
+    },
+    {
+      "beat": 323,
+      "time": 161.5,
+      "x": 25932.0,
+      "kind": "double"
+    },
+    {
+      "beat": 326,
+      "time": 163.0,
+      "x": 26172.0,
+      "kind": "estaca"
+    },
+    {
+      "beat": 329,
+      "time": 164.5,
+      "x": 26412.0,
+      "kind": "slide"
+    },
+    {
+      "beat": 332,
+      "time": 166.0,
+      "x": 26652.0,
+      "kind": "trampa"
+    },
+    {
+      "beat": 335,
+      "time": 167.5,
+      "x": 26892.0,
+      "kind": "air"
+    },
+    {
+      "beat": 338,
+      "time": 169.0,
+      "x": 27132.0,
+      "kind": "jump"
+    },
+    {
+      "beat": 341,
+      "time": 170.5,
+      "x": 27372.0,
+      "kind": "slide"
+    },
+    {
+      "beat": 344,
+      "time": 172.0,
+      "x": 27612.0,
+      "kind": "root"
+    },
+    {
+      "beat": 347,
+      "time": 173.5,
+      "x": 27852.0,
+      "kind": "double"
+    },
+    {
+      "beat": 350,
+      "time": 175.0,
+      "x": 28092.0,
+      "kind": "estaca"
+    },
+    {
+      "beat": 353,
+      "time": 176.5,
+      "x": 28332.0,
+      "kind": "slide"
+    }
+  ],
+  "zones": [
+    "bosque",
+    "rio",
+    "cueva",
+    "noche",
+    "ruinas",
+    "templo"
+  ],
+  "runnerIntervals": [
+    [
+      0,
+      45
+    ],
+    [
+      45,
+      90
+    ],
+    [
+      90,
+      135
+    ],
+    [
+      135,
+      180.5322
+    ]
+  ],
+  "miniDuration": 60
+}

@@ -1,0 +1,151 @@
+{
+  "name": "selva_caiman_inmersion",
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 6,
+  "fps": 10,
+  "loop": false,
+  "ppu": 32,
+  "pivot": [
+    0,
+    1
+  ],
+  "rectsUnity": [
+    {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64
+    },
+    {
+      "x": 64,
+      "y": 0,
+      "width": 64,
+      "height": 64
+    },
+    {
+      "x": 128,
+      "y": 0,
+      "width": 64,
+      "height": 64
+    },
+    {
+      "x": 192,
+      "y": 0,
+      "width": 64,
+      "height": 64
+    },
+    {
+      "x": 256,
+      "y": 0,
+      "width": 64,
+      "height": 64
+    },
+    {
+      "x": 320,
+      "y": 0,
+      "width": 64,
+      "height": 64
+    }
+  ],
+  "group": "Enemies",
+  "hitboxes": [
+    {
+      "body": [
+        15,
+        19,
+        25,
+        28
+      ],
+      "mouth": [
+        33,
+        44,
+        16,
+        18
+      ],
+      "damaging": false,
+      "snap": false
+    },
+    {
+      "body": [
+        16,
+        19,
+        24,
+        28
+      ],
+      "mouth": [
+        31,
+        45,
+        16,
+        18
+      ],
+      "damaging": false,
+      "snap": false
+    },
+    {
+      "body": [
+        16,
+        19,
+        24,
+        28
+      ],
+      "mouth": [
+        31,
+        45,
+        14,
+        18
+      ],
+      "damaging": false,
+      "snap": false
+    },
+    {
+      "body": [
+        16,
+        19,
+        23,
+        28
+      ],
+      "mouth": [
+        29,
+        46,
+        14,
+        18
+      ],
+      "damaging": false,
+      "snap": false
+    },
+    {
+      "body": [
+        17,
+        19,
+        22,
+        28
+      ],
+      "mouth": [
+        29,
+        46,
+        13,
+        18
+      ],
+      "damaging": false,
+      "snap": false
+    },
+    {
+      "body": [
+        17,
+        19,
+        21,
+        27
+      ],
+      "mouth": [
+        28,
+        46,
+        13,
+        18
+      ],
+      "damaging": false,
+      "snap": false
+    }
+  ],
+  "notes": "64x64 rotation authored at native pixels. Body excludes tail. Only snap frame1 closes the mouth. Dive tint is palette-limited."
+}

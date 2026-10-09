@@ -1,0 +1,1121 @@
+{
+  "contexts": {
+    "Costa": [
+      "costa_capa1_cielo",
+      "costa_capa2_nubes",
+      "costa_capa2_aves",
+      "costa_capa3_paracas",
+      "costa_capa4_mar",
+      "costa_capa5_huacas",
+      "costa_capa6_algarrobos",
+      "costa_capa7_suelo"
+    ],
+    "Sierra/camino": [
+      "sierra_compartido_capa1_cielo",
+      "sierra_compartido_capa2_nubes",
+      "sierra_compartido_capa3_nevados",
+      "sierra_camino_capa4_paisaje",
+      "sierra_camino_capa7_suelo"
+    ],
+    "Sierra/valle": [
+      "sierra_compartido_capa1_cielo",
+      "sierra_compartido_capa2_nubes",
+      "sierra_compartido_capa3_nevados",
+      "sierra_valle_capa4_paisaje",
+      "sierra_valle_capa7_suelo",
+      "sierra_valle_capa5_rio"
+    ],
+    "Sierra/ruinas": [
+      "sierra_compartido_capa1_cielo",
+      "sierra_compartido_capa2_nubes",
+      "sierra_compartido_capa3_nevados",
+      "sierra_ruinas_capa4_paisaje",
+      "sierra_ruinas_capa7_suelo"
+    ],
+    "Sierra/minicueva1": [
+      "sierra_cueva1_fondo",
+      "sierra_cueva1_arcos",
+      "sierra_cueva_suelo",
+      "sierra_cueva_roca",
+      "sierra_cueva_plataforma"
+    ],
+    "Sierra/minicueva2": [
+      "sierra_cueva2_fondo",
+      "sierra_cueva2_arcos",
+      "sierra_cueva_suelo",
+      "sierra_cueva_roca",
+      "sierra_cueva_plataforma"
+    ],
+    "Selva/1-bosque": [
+      "selva_bosque_capa1_cielo",
+      "selva_bosque_capa2_lejania",
+      "selva_bosque_capa3_estructura",
+      "selva_bosque_capa5_cercania",
+      "selva_bosque_capa6_frontal",
+      "selva_niebla",
+      "selva_rayos_sol"
+    ],
+    "Selva/2-rio": [
+      "selva_rio_capa1_cielo",
+      "selva_rio_capa2_lejania",
+      "selva_rio_capa3_estructura",
+      "selva_rio_capa5_cercania",
+      "selva_rio_capa6_frontal",
+      "selva_niebla",
+      "selva_rayos_sol",
+      "selva_agua_fondo",
+      "selva_agua_superficie"
+    ],
+    "Selva/3-cueva": [
+      "selva_cueva_capa1_cielo",
+      "selva_cueva_capa2_lejania",
+      "selva_cueva_capa3_estructura",
+      "selva_cueva_capa5_cercania",
+      "selva_cueva_capa6_frontal",
+      "selva_niebla",
+      "selva_rayos_sol",
+      "selva_tile_cueva_superficie",
+      "selva_tile_cueva_relleno"
+    ],
+    "Selva/4-noche": [
+      "selva_noche_capa1_cielo",
+      "selva_noche_capa2_lejania",
+      "selva_noche_capa3_estructura",
+      "selva_noche_capa5_cercania",
+      "selva_noche_capa6_frontal",
+      "selva_niebla",
+      "selva_rayos_sol"
+    ],
+    "Selva/5-ruinas": [
+      "selva_ruinas_capa1_cielo",
+      "selva_ruinas_capa2_lejania",
+      "selva_ruinas_capa3_estructura",
+      "selva_ruinas_capa5_cercania",
+      "selva_ruinas_capa6_frontal",
+      "selva_niebla",
+      "selva_rayos_sol",
+      "selva_tile_ruina_superficie",
+      "selva_tile_ruina_relleno"
+    ],
+    "Selva/6-templo": [
+      "selva_templo_capa1_cielo",
+      "selva_templo_capa2_lejania",
+      "selva_templo_capa3_estructura",
+      "selva_templo_capa5_cercania",
+      "selva_templo_capa6_frontal",
+      "selva_niebla",
+      "selva_rayos_sol"
+    ]
+  },
+  "jobs": [
+    {
+      "name": "costa_capa2_aves",
+      "contexts": [
+        "Costa"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/costa_capa2_aves.png",
+      "native": [
+        32,
+        32
+      ],
+      "status": "redrawn-current-lot",
+      "frames": 18,
+      "width": 16,
+      "height": 16,
+      "prompt": "Use case: precise-object-edit. SUYURUN production pixel-art asset. Input image is the edit target. Redraw ONLY this layer: three small coastal seabird species flying LEFT, 18 flight poses in 6 columns by 3 rows, six coherent flap phases per species, equal cells and common body scale. SPRITESHEET 18 frames in 6 columns x3 rows, aligned consistent silhouettes and smooth loop. Match the user's approved refined clean pixel-art quality: finer native sharp contours, cohesive natural clusters, deliberate material details, elegant readable silhouettes. REMOVE dense dithering, checkerboards, scattered grain, noisy random micro-pixels and big flat geometric placeholder clumps. Prefer clean shaded planes and restrained highlights. Keep regional palette, layout, subject count, transparency and general footprint. Side-on orthographic 2D, no perspective, smooth gradients, blur, antialiasing, text, UI or new characters. Keep other layers absent. Warm orange ochre terracotta, purple shadows and turquoise water. ",
+      "columns": 6,
+      "transparent": true
+    },
+    {
+      "name": "costa_capa2_nubes",
+      "contexts": [
+        "Costa"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/costa_capa2_nubes.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot",
+      "frames": 1,
+      "width": 640,
+      "height": 180,
+      "prompt": "Use case: precise-object-edit. SUYURUN production pixel-art asset. Input image is the edit target. Redraw ONLY this layer: four isolated low warm ochre clouds, positioned with broad transparent gaps, refined clean cloud silhouettes. One independent single layer, not a full landscape. Match the user's approved refined clean pixel-art quality: finer native sharp contours, cohesive natural clusters, deliberate material details, elegant readable silhouettes. REMOVE dense dithering, checkerboards, scattered grain, noisy random micro-pixels and big flat geometric placeholder clumps. Prefer clean shaded planes and restrained highlights. Keep regional palette, layout, subject count, transparency and general footprint. Side-on orthographic 2D, no perspective, smooth gradients, blur, antialiasing, text, UI or new characters. Keep other layers absent. Warm orange ochre terracotta, purple shadows and turquoise water. ",
+      "columns": 1,
+      "transparent": true
+    },
+    {
+      "name": "costa_capa3_paracas",
+      "contexts": [
+        "Costa"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/costa_capa3_paracas.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot",
+      "frames": 1,
+      "width": 640,
+      "height": 180,
+      "prompt": "Use case: precise-object-edit. SUYURUN production pixel-art asset. Input image is the edit target. Redraw ONLY this layer: two separated distant purple/ochre Paracas hills, one has the Candelabro geoglyph engraved subtly; transparent sky and broad negative space. One independent single layer, not a full landscape. Match the user's approved refined clean pixel-art quality: finer native sharp contours, cohesive natural clusters, deliberate material details, elegant readable silhouettes. REMOVE dense dithering, checkerboards, scattered grain, noisy random micro-pixels and big flat geometric placeholder clumps. Prefer clean shaded planes and restrained highlights. Keep regional palette, layout, subject count, transparency and general footprint. Side-on orthographic 2D, no perspective, smooth gradients, blur, antialiasing, text, UI or new characters. Keep other layers absent. Warm orange ochre terracotta, purple shadows and turquoise water. ",
+      "columns": 1,
+      "transparent": true
+    },
+    {
+      "name": "costa_capa4_mar",
+      "contexts": [
+        "Costa"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/costa_capa4_mar.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot",
+      "frames": 4,
+      "width": 640,
+      "height": 180,
+      "prompt": "Use case: precise-object-edit. SUYURUN production pixel-art asset. Input image is the edit target. Redraw ONLY this layer: four animated horizontal turquoise coastal ocean ribbons, a distant small caballito de totora boat preserved; clean shifting foam and wave crest cycle, 4 equal wide rows. SPRITESHEET 4 frames in 4 equal horizontal rows, aligned consistent silhouettes and smooth loop. Match the user's approved refined clean pixel-art quality: finer native sharp contours, cohesive natural clusters, deliberate material details, elegant readable silhouettes. REMOVE dense dithering, checkerboards, scattered grain, noisy random micro-pixels and big flat geometric placeholder clumps. Prefer clean shaded planes and restrained highlights. Keep regional palette, layout, subject count, transparency and general footprint. Side-on orthographic 2D, no perspective, smooth gradients, blur, antialiasing, text, UI or new characters. Keep other layers absent. Warm orange ochre terracotta, purple shadows and turquoise water. ",
+      "columns": 1,
+      "transparent": true
+    },
+    {
+      "name": "costa_capa5_huacas",
+      "contexts": [
+        "Costa"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/costa_capa5_huacas.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot",
+      "frames": 1,
+      "width": 640,
+      "height": 180,
+      "prompt": "Use case: precise-object-edit. SUYURUN production pixel-art asset. Input image is the edit target. Redraw ONLY this layer: central stepped adobe huaca with stairway and two separated low walls bearing wave and fish friezes, clear adobe joints, transparent empty upper space. One independent single layer, not a full landscape. Match the user's approved refined clean pixel-art quality: finer native sharp contours, cohesive natural clusters, deliberate material details, elegant readable silhouettes. REMOVE dense dithering, checkerboards, scattered grain, noisy random micro-pixels and big flat geometric placeholder clumps. Prefer clean shaded planes and restrained highlights. Keep regional palette, layout, subject count, transparency and general footprint. Side-on orthographic 2D, no perspective, smooth gradients, blur, antialiasing, text, UI or new characters. Keep other layers absent. Warm orange ochre terracotta, purple shadows and turquoise water. ",
+      "columns": 1,
+      "transparent": true
+    },
+    {
+      "name": "costa_capa6_algarrobos",
+      "contexts": [
+        "Costa"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/costa_capa6_algarrobos.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot",
+      "frames": 1,
+      "width": 640,
+      "height": 180,
+      "prompt": "Use case: precise-object-edit. SUYURUN production pixel-art asset. Input image is the edit target. Redraw ONLY this layer: two isolated dry algarrobo tree clusters and reclining sea lions on rocks, retain side-view placement and large transparent gaps. One independent single layer, not a full landscape. Match the user's approved refined clean pixel-art quality: finer native sharp contours, cohesive natural clusters, deliberate material details, elegant readable silhouettes. REMOVE dense dithering, checkerboards, scattered grain, noisy random micro-pixels and big flat geometric placeholder clumps. Prefer clean shaded planes and restrained highlights. Keep regional palette, layout, subject count, transparency and general footprint. Side-on orthographic 2D, no perspective, smooth gradients, blur, antialiasing, text, UI or new characters. Keep other layers absent. Warm orange ochre terracotta, purple shadows and turquoise water. ",
+      "columns": 1,
+      "transparent": true
+    },
+    {
+      "name": "costa_capa7_suelo",
+      "contexts": [
+        "Costa"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/costa_capa7_suelo.png",
+      "native": [
+        64,
+        64
+      ],
+      "status": "redrawn-current-lot",
+      "frames": 1,
+      "width": 32,
+      "height": 32,
+      "prompt": "Use case: precise-object-edit. SUYURUN production pixel-art asset. Input image is the edit target. Redraw ONLY this layer: seamless warm sand ground tile, turquoise textile frieze at the top, sparse deliberate sand flecks, crisp step-free walkable top edge. One independent single layer, not a full landscape. Match the user's approved refined clean pixel-art quality: finer native sharp contours, cohesive natural clusters, deliberate material details, elegant readable silhouettes. REMOVE dense dithering, checkerboards, scattered grain, noisy random micro-pixels and big flat geometric placeholder clumps. Prefer clean shaded planes and restrained highlights. Keep regional palette, layout, subject count, transparency and general footprint. Side-on orthographic 2D, no perspective, smooth gradients, blur, antialiasing, text, UI or new characters. Keep other layers absent. Warm orange ochre terracotta, purple shadows and turquoise water. ",
+      "columns": 1,
+      "transparent": true
+    },
+    {
+      "name": "selva_agua_fondo",
+      "contexts": [
+        "Selva/2-rio"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_agua_fondo.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot",
+      "frames": 6,
+      "width": 640,
+      "height": 180,
+      "prompt": "Use case: precise-object-edit. SUYURUN production pixel-art asset. Input image is the edit target. Redraw ONLY this layer: the existing independently drawn selva agua fondo layer shown in the reference, retaining its subjects, placement, silhouettes and transparent gaps. SPRITESHEET 6 frames in 6 equal horizontal rows, aligned consistent silhouettes and smooth loop. Match the user's approved refined clean pixel-art quality: finer native sharp contours, cohesive natural clusters, deliberate material details, elegant readable silhouettes. REMOVE dense dithering, checkerboards, scattered grain, noisy random micro-pixels and big flat geometric placeholder clumps. Prefer clean shaded planes and restrained highlights. Keep regional palette, layout, subject count, transparency and general footprint. Side-on orthographic 2D, no perspective, smooth gradients, blur, antialiasing, text, UI or new characters. Keep other layers absent. Deep olive/jungle greens, ochre wood, dark river brown, blue-purple shadows. ",
+      "columns": 1,
+      "transparent": false
+    },
+    {
+      "name": "selva_agua_superficie",
+      "contexts": [
+        "Selva/2-rio"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_agua_superficie.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot",
+      "frames": 6,
+      "width": 640,
+      "height": 180,
+      "prompt": "Use case: precise-object-edit. SUYURUN production pixel-art asset. Input image is the edit target. Redraw ONLY this layer: the existing independently drawn selva agua superficie layer shown in the reference, retaining its subjects, placement, silhouettes and transparent gaps. SPRITESHEET 6 frames in 6 equal horizontal rows, aligned consistent silhouettes and smooth loop. Match the user's approved refined clean pixel-art quality: finer native sharp contours, cohesive natural clusters, deliberate material details, elegant readable silhouettes. REMOVE dense dithering, checkerboards, scattered grain, noisy random micro-pixels and big flat geometric placeholder clumps. Prefer clean shaded planes and restrained highlights. Keep regional palette, layout, subject count, transparency and general footprint. Side-on orthographic 2D, no perspective, smooth gradients, blur, antialiasing, text, UI or new characters. Keep other layers absent. Deep olive/jungle greens, ochre wood, dark river brown, blue-purple shadows. ",
+      "columns": 1,
+      "transparent": true
+    },
+    {
+      "name": "selva_bosque_capa2_lejania",
+      "contexts": [
+        "Selva/1-bosque"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_bosque_capa2_lejania.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot",
+      "frames": 1,
+      "width": 640,
+      "height": 180,
+      "prompt": "Use case: precise-object-edit. SUYURUN production pixel-art asset. Input image is the edit target. Redraw ONLY this layer: the existing independently drawn selva bosque capa2 lejania layer shown in the reference, retaining its subjects, placement, silhouettes and transparent gaps. One independent single layer, not a full landscape. Match the user's approved refined clean pixel-art quality: finer native sharp contours, cohesive natural clusters, deliberate material details, elegant readable silhouettes. REMOVE dense dithering, checkerboards, scattered grain, noisy random micro-pixels and big flat geometric placeholder clumps. Prefer clean shaded planes and restrained highlights. Keep regional palette, layout, subject count, transparency and general footprint. Side-on orthographic 2D, no perspective, smooth gradients, blur, antialiasing, text, UI or new characters. Keep other layers absent. Deep olive/jungle greens, ochre wood, dark river brown, blue-purple shadows. ",
+      "columns": 1,
+      "transparent": true
+    },
+    {
+      "name": "selva_bosque_capa3_estructura",
+      "contexts": [
+        "Selva/1-bosque"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_bosque_capa3_estructura.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot",
+      "frames": 1,
+      "width": 640,
+      "height": 180,
+      "prompt": "Use case: precise-object-edit. SUYURUN production pixel-art asset. Input image is the edit target. Redraw ONLY this layer: the existing independently drawn selva bosque capa3 estructura layer shown in the reference, retaining its subjects, placement, silhouettes and transparent gaps. One independent single layer, not a full landscape. Match the user's approved refined clean pixel-art quality: finer native sharp contours, cohesive natural clusters, deliberate material details, elegant readable silhouettes. REMOVE dense dithering, checkerboards, scattered grain, noisy random micro-pixels and big flat geometric placeholder clumps. Prefer clean shaded planes and restrained highlights. Keep regional palette, layout, subject count, transparency and general footprint. Side-on orthographic 2D, no perspective, smooth gradients, blur, antialiasing, text, UI or new characters. Keep other layers absent. Deep olive/jungle greens, ochre wood, dark river brown, blue-purple shadows. ",
+      "columns": 1,
+      "transparent": true
+    },
+    {
+      "name": "selva_bosque_capa5_cercania",
+      "contexts": [
+        "Selva/1-bosque"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_bosque_capa5_cercania.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot",
+      "frames": 1,
+      "width": 640,
+      "height": 180,
+      "prompt": "Use case: precise-object-edit. SUYURUN production pixel-art asset. Input image is the edit target. Redraw ONLY this layer: the existing independently drawn selva bosque capa5 cercania layer shown in the reference, retaining its subjects, placement, silhouettes and transparent gaps. One independent single layer, not a full landscape. Match the user's approved refined clean pixel-art quality: finer native sharp contours, cohesive natural clusters, deliberate material details, elegant readable silhouettes. REMOVE dense dithering, checkerboards, scattered grain, noisy random micro-pixels and big flat geometric placeholder clumps. Prefer clean shaded planes and restrained highlights. Keep regional palette, layout, subject count, transparency and general footprint. Side-on orthographic 2D, no perspective, smooth gradients, blur, antialiasing, text, UI or new characters. Keep other layers absent. Deep olive/jungle greens, ochre wood, dark river brown, blue-purple shadows. ",
+      "columns": 1,
+      "transparent": true
+    },
+    {
+      "name": "selva_bosque_capa6_frontal",
+      "contexts": [
+        "Selva/1-bosque"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_bosque_capa6_frontal.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot",
+      "frames": 1,
+      "width": 640,
+      "height": 180,
+      "prompt": "Use case: precise-object-edit. SUYURUN production pixel-art asset. Input image is the edit target. Redraw ONLY this layer: the existing independently drawn selva bosque capa6 frontal layer shown in the reference, retaining its subjects, placement, silhouettes and transparent gaps. One independent single layer, not a full landscape. Match the user's approved refined clean pixel-art quality: finer native sharp contours, cohesive natural clusters, deliberate material details, elegant readable silhouettes. REMOVE dense dithering, checkerboards, scattered grain, noisy random micro-pixels and big flat geometric placeholder clumps. Prefer clean shaded planes and restrained highlights. Keep regional palette, layout, subject count, transparency and general footprint. Side-on orthographic 2D, no perspective, smooth gradients, blur, antialiasing, text, UI or new characters. Keep other layers absent. Deep olive/jungle greens, ochre wood, dark river brown, blue-purple shadows. ",
+      "columns": 1,
+      "transparent": true
+    },
+    {
+      "name": "selva_cueva_capa2_lejania",
+      "contexts": [
+        "Selva/3-cueva"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_cueva_capa2_lejania.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot",
+      "frames": 1,
+      "width": 640,
+      "height": 180,
+      "prompt": "Use case: precise-object-edit. SUYURUN production pixel-art asset. Input image is the edit target. Redraw ONLY this layer: the existing independently drawn selva cueva capa2 lejania layer shown in the reference, retaining its subjects, placement, silhouettes and transparent gaps. One independent single layer, not a full landscape. Match the user's approved refined clean pixel-art quality: finer native sharp contours, cohesive natural clusters, deliberate material details, elegant readable silhouettes. REMOVE dense dithering, checkerboards, scattered grain, noisy random micro-pixels and big flat geometric placeholder clumps. Prefer clean shaded planes and restrained highlights. Keep regional palette, layout, subject count, transparency and general footprint. Side-on orthographic 2D, no perspective, smooth gradients, blur, antialiasing, text, UI or new characters. Keep other layers absent. Deep olive/jungle greens, ochre wood, dark river brown, blue-purple shadows. ",
+      "columns": 1,
+      "transparent": true
+    },
+    {
+      "name": "selva_cueva_capa3_estructura",
+      "contexts": [
+        "Selva/3-cueva"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_cueva_capa3_estructura.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot",
+      "frames": 1,
+      "width": 640,
+      "height": 180,
+      "prompt": "Use case: precise-object-edit. SUYURUN production pixel-art asset. Input image is the edit target. Redraw ONLY this layer: the existing independently drawn selva cueva capa3 estructura layer shown in the reference, retaining its subjects, placement, silhouettes and transparent gaps. One independent single layer, not a full landscape. Match the user's approved refined clean pixel-art quality: finer native sharp contours, cohesive natural clusters, deliberate material details, elegant readable silhouettes. REMOVE dense dithering, checkerboards, scattered grain, noisy random micro-pixels and big flat geometric placeholder clumps. Prefer clean shaded planes and restrained highlights. Keep regional palette, layout, subject count, transparency and general footprint. Side-on orthographic 2D, no perspective, smooth gradients, blur, antialiasing, text, UI or new characters. Keep other layers absent. Deep olive/jungle greens, ochre wood, dark river brown, blue-purple shadows. ",
+      "columns": 1,
+      "transparent": true
+    },
+    {
+      "name": "selva_cueva_capa5_cercania",
+      "contexts": [
+        "Selva/3-cueva"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_cueva_capa5_cercania.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot",
+      "frames": 1,
+      "width": 640,
+      "height": 180,
+      "prompt": "Use case: precise-object-edit. SUYURUN production pixel-art asset. Input image is the edit target. Redraw ONLY this layer: the existing independently drawn selva cueva capa5 cercania layer shown in the reference, retaining its subjects, placement, silhouettes and transparent gaps. One independent single layer, not a full landscape. Match the user's approved refined clean pixel-art quality: finer native sharp contours, cohesive natural clusters, deliberate material details, elegant readable silhouettes. REMOVE dense dithering, checkerboards, scattered grain, noisy random micro-pixels and big flat geometric placeholder clumps. Prefer clean shaded planes and restrained highlights. Keep regional palette, layout, subject count, transparency and general footprint. Side-on orthographic 2D, no perspective, smooth gradients, blur, antialiasing, text, UI or new characters. Keep other layers absent. Deep olive/jungle greens, ochre wood, dark river brown, blue-purple shadows. ",
+      "columns": 1,
+      "transparent": true
+    },
+    {
+      "name": "selva_cueva_capa6_frontal",
+      "contexts": [
+        "Selva/3-cueva"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_cueva_capa6_frontal.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot",
+      "frames": 1,
+      "width": 640,
+      "height": 180,
+      "prompt": "Use case: precise-object-edit. SUYURUN production pixel-art asset. Input image is the edit target. Redraw ONLY this layer: the existing independently drawn selva cueva capa6 frontal layer shown in the reference, retaining its subjects, placement, silhouettes and transparent gaps. One independent single layer, not a full landscape. Match the user's approved refined clean pixel-art quality: finer native sharp contours, cohesive natural clusters, deliberate material details, elegant readable silhouettes. REMOVE dense dithering, checkerboards, scattered grain, noisy random micro-pixels and big flat geometric placeholder clumps. Prefer clean shaded planes and restrained highlights. Keep regional palette, layout, subject count, transparency and general footprint. Side-on orthographic 2D, no perspective, smooth gradients, blur, antialiasing, text, UI or new characters. Keep other layers absent. Deep olive/jungle greens, ochre wood, dark river brown, blue-purple shadows. ",
+      "columns": 1,
+      "transparent": true
+    },
+    {
+      "name": "selva_niebla",
+      "contexts": [
+        "Selva/1-bosque",
+        "Selva/2-rio",
+        "Selva/3-cueva",
+        "Selva/4-noche",
+        "Selva/5-ruinas",
+        "Selva/6-templo"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_niebla.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot",
+      "frames": 1,
+      "width": 640,
+      "height": 180,
+      "prompt": "Use case: precise-object-edit. SUYURUN production pixel-art asset. Input image is the edit target. Redraw ONLY this layer: the existing independently drawn selva niebla layer shown in the reference, retaining its subjects, placement, silhouettes and transparent gaps. One independent single layer, not a full landscape. Match the user's approved refined clean pixel-art quality: finer native sharp contours, cohesive natural clusters, deliberate material details, elegant readable silhouettes. REMOVE dense dithering, checkerboards, scattered grain, noisy random micro-pixels and big flat geometric placeholder clumps. Prefer clean shaded planes and restrained highlights. Keep regional palette, layout, subject count, transparency and general footprint. Side-on orthographic 2D, no perspective, smooth gradients, blur, antialiasing, text, UI or new characters. Keep other layers absent. Deep olive/jungle greens, ochre wood, dark river brown, blue-purple shadows. ",
+      "columns": 1,
+      "transparent": true
+    },
+    {
+      "name": "selva_noche_capa2_lejania",
+      "contexts": [
+        "Selva/4-noche"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_noche_capa2_lejania.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot",
+      "frames": 1,
+      "width": 640,
+      "height": 180,
+      "prompt": "Use case: precise-object-edit. SUYURUN production pixel-art asset. Input image is the edit target. Redraw ONLY this layer: the existing independently drawn selva noche capa2 lejania layer shown in the reference, retaining its subjects, placement, silhouettes and transparent gaps. One independent single layer, not a full landscape. Match the user's approved refined clean pixel-art quality: finer native sharp contours, cohesive natural clusters, deliberate material details, elegant readable silhouettes. REMOVE dense dithering, checkerboards, scattered grain, noisy random micro-pixels and big flat geometric placeholder clumps. Prefer clean shaded planes and restrained highlights. Keep regional palette, layout, subject count, transparency and general footprint. Side-on orthographic 2D, no perspective, smooth gradients, blur, antialiasing, text, UI or new characters. Keep other layers absent. Deep olive/jungle greens, ochre wood, dark river brown, blue-purple shadows. ",
+      "columns": 1,
+      "transparent": true
+    },
+    {
+      "name": "selva_noche_capa3_estructura",
+      "contexts": [
+        "Selva/4-noche"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_noche_capa3_estructura.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot",
+      "frames": 1,
+      "width": 640,
+      "height": 180,
+      "prompt": "Use case: precise-object-edit. SUYURUN production pixel-art asset. Input image is the edit target. Redraw ONLY this layer: the existing independently drawn selva noche capa3 estructura layer shown in the reference, retaining its subjects, placement, silhouettes and transparent gaps. One independent single layer, not a full landscape. Match the user's approved refined clean pixel-art quality: finer native sharp contours, cohesive natural clusters, deliberate material details, elegant readable silhouettes. REMOVE dense dithering, checkerboards, scattered grain, noisy random micro-pixels and big flat geometric placeholder clumps. Prefer clean shaded planes and restrained highlights. Keep regional palette, layout, subject count, transparency and general footprint. Side-on orthographic 2D, no perspective, smooth gradients, blur, antialiasing, text, UI or new characters. Keep other layers absent. Deep olive/jungle greens, ochre wood, dark river brown, blue-purple shadows. ",
+      "columns": 1,
+      "transparent": true
+    },
+    {
+      "name": "selva_noche_capa5_cercania",
+      "contexts": [
+        "Selva/4-noche"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_noche_capa5_cercania.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot",
+      "frames": 1,
+      "width": 640,
+      "height": 180,
+      "prompt": "Use case: precise-object-edit. SUYURUN production pixel-art asset. Input image is the edit target. Redraw ONLY this layer: the existing independently drawn selva noche capa5 cercania layer shown in the reference, retaining its subjects, placement, silhouettes and transparent gaps. One independent single layer, not a full landscape. Match the user's approved refined clean pixel-art quality: finer native sharp contours, cohesive natural clusters, deliberate material details, elegant readable silhouettes. REMOVE dense dithering, checkerboards, scattered grain, noisy random micro-pixels and big flat geometric placeholder clumps. Prefer clean shaded planes and restrained highlights. Keep regional palette, layout, subject count, transparency and general footprint. Side-on orthographic 2D, no perspective, smooth gradients, blur, antialiasing, text, UI or new characters. Keep other layers absent. Deep olive/jungle greens, ochre wood, dark river brown, blue-purple shadows. ",
+      "columns": 1,
+      "transparent": true
+    },
+    {
+      "name": "selva_noche_capa6_frontal",
+      "contexts": [
+        "Selva/4-noche"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_noche_capa6_frontal.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot",
+      "frames": 1,
+      "width": 640,
+      "height": 180,
+      "prompt": "Use case: precise-object-edit. SUYURUN production pixel-art asset. Input image is the edit target. Redraw ONLY this layer: the existing independently drawn selva noche capa6 frontal layer shown in the reference, retaining its subjects, placement, silhouettes and transparent gaps. One independent single layer, not a full landscape. Match the user's approved refined clean pixel-art quality: finer native sharp contours, cohesive natural clusters, deliberate material details, elegant readable silhouettes. REMOVE dense dithering, checkerboards, scattered grain, noisy random micro-pixels and big flat geometric placeholder clumps. Prefer clean shaded planes and restrained highlights. Keep regional palette, layout, subject count, transparency and general footprint. Side-on orthographic 2D, no perspective, smooth gradients, blur, antialiasing, text, UI or new characters. Keep other layers absent. Deep olive/jungle greens, ochre wood, dark river brown, blue-purple shadows. ",
+      "columns": 1,
+      "transparent": true
+    },
+    {
+      "name": "selva_rayos_sol",
+      "contexts": [
+        "Selva/1-bosque",
+        "Selva/2-rio",
+        "Selva/3-cueva",
+        "Selva/4-noche",
+        "Selva/5-ruinas",
+        "Selva/6-templo"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_rayos_sol.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot",
+      "frames": 1,
+      "width": 640,
+      "height": 180,
+      "prompt": "Use case: precise-object-edit. SUYURUN production pixel-art asset. Input image is the edit target. Redraw ONLY this layer: the existing independently drawn selva rayos sol layer shown in the reference, retaining its subjects, placement, silhouettes and transparent gaps. One independent single layer, not a full landscape. Match the user's approved refined clean pixel-art quality: finer native sharp contours, cohesive natural clusters, deliberate material details, elegant readable silhouettes. REMOVE dense dithering, checkerboards, scattered grain, noisy random micro-pixels and big flat geometric placeholder clumps. Prefer clean shaded planes and restrained highlights. Keep regional palette, layout, subject count, transparency and general footprint. Side-on orthographic 2D, no perspective, smooth gradients, blur, antialiasing, text, UI or new characters. Keep other layers absent. Deep olive/jungle greens, ochre wood, dark river brown, blue-purple shadows. ",
+      "columns": 1,
+      "transparent": true
+    },
+    {
+      "name": "selva_rio_capa2_lejania",
+      "contexts": [
+        "Selva/2-rio"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_rio_capa2_lejania.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot",
+      "frames": 1,
+      "width": 640,
+      "height": 180,
+      "prompt": "Use case: precise-object-edit. SUYURUN production pixel-art asset. Input image is the edit target. Redraw ONLY this layer: the existing independently drawn selva rio capa2 lejania layer shown in the reference, retaining its subjects, placement, silhouettes and transparent gaps. One independent single layer, not a full landscape. Match the user's approved refined clean pixel-art quality: finer native sharp contours, cohesive natural clusters, deliberate material details, elegant readable silhouettes. REMOVE dense dithering, checkerboards, scattered grain, noisy random micro-pixels and big flat geometric placeholder clumps. Prefer clean shaded planes and restrained highlights. Keep regional palette, layout, subject count, transparency and general footprint. Side-on orthographic 2D, no perspective, smooth gradients, blur, antialiasing, text, UI or new characters. Keep other layers absent. Deep olive/jungle greens, ochre wood, dark river brown, blue-purple shadows. ",
+      "columns": 1,
+      "transparent": true
+    },
+    {
+      "name": "selva_rio_capa3_estructura",
+      "contexts": [
+        "Selva/2-rio"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_rio_capa3_estructura.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot",
+      "frames": 1,
+      "width": 640,
+      "height": 180,
+      "prompt": "Use case: precise-object-edit. SUYURUN production pixel-art asset. Input image is the edit target. Redraw ONLY this layer: the existing independently drawn selva rio capa3 estructura layer shown in the reference, retaining its subjects, placement, silhouettes and transparent gaps. One independent single layer, not a full landscape. Match the user's approved refined clean pixel-art quality: finer native sharp contours, cohesive natural clusters, deliberate material details, elegant readable silhouettes. REMOVE dense dithering, checkerboards, scattered grain, noisy random micro-pixels and big flat geometric placeholder clumps. Prefer clean shaded planes and restrained highlights. Keep regional palette, layout, subject count, transparency and general footprint. Side-on orthographic 2D, no perspective, smooth gradients, blur, antialiasing, text, UI or new characters. Keep other layers absent. Deep olive/jungle greens, ochre wood, dark river brown, blue-purple shadows. ",
+      "columns": 1,
+      "transparent": true
+    },
+    {
+      "name": "selva_rio_capa5_cercania",
+      "contexts": [
+        "Selva/2-rio"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_rio_capa5_cercania.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot",
+      "frames": 1,
+      "width": 640,
+      "height": 180,
+      "prompt": "Use case: precise-object-edit. SUYURUN production pixel-art asset. Input image is the edit target. Redraw ONLY this layer: the existing independently drawn selva rio capa5 cercania layer shown in the reference, retaining its subjects, placement, silhouettes and transparent gaps. One independent single layer, not a full landscape. Match the user's approved refined clean pixel-art quality: finer native sharp contours, cohesive natural clusters, deliberate material details, elegant readable silhouettes. REMOVE dense dithering, checkerboards, scattered grain, noisy random micro-pixels and big flat geometric placeholder clumps. Prefer clean shaded planes and restrained highlights. Keep regional palette, layout, subject count, transparency and general footprint. Side-on orthographic 2D, no perspective, smooth gradients, blur, antialiasing, text, UI or new characters. Keep other layers absent. Deep olive/jungle greens, ochre wood, dark river brown, blue-purple shadows. ",
+      "columns": 1,
+      "transparent": true
+    },
+    {
+      "name": "selva_rio_capa6_frontal",
+      "contexts": [
+        "Selva/2-rio"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_rio_capa6_frontal.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot",
+      "frames": 1,
+      "width": 640,
+      "height": 180,
+      "prompt": "Use case: precise-object-edit. SUYURUN production pixel-art asset. Input image is the edit target. Redraw ONLY this layer: the existing independently drawn selva rio capa6 frontal layer shown in the reference, retaining its subjects, placement, silhouettes and transparent gaps. One independent single layer, not a full landscape. Match the user's approved refined clean pixel-art quality: finer native sharp contours, cohesive natural clusters, deliberate material details, elegant readable silhouettes. REMOVE dense dithering, checkerboards, scattered grain, noisy random micro-pixels and big flat geometric placeholder clumps. Prefer clean shaded planes and restrained highlights. Keep regional palette, layout, subject count, transparency and general footprint. Side-on orthographic 2D, no perspective, smooth gradients, blur, antialiasing, text, UI or new characters. Keep other layers absent. Deep olive/jungle greens, ochre wood, dark river brown, blue-purple shadows. ",
+      "columns": 1,
+      "transparent": true
+    },
+    {
+      "name": "selva_ruinas_capa2_lejania",
+      "contexts": [
+        "Selva/5-ruinas"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_ruinas_capa2_lejania.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot",
+      "frames": 1,
+      "width": 640,
+      "height": 180,
+      "prompt": "Use case: precise-object-edit. SUYURUN production pixel-art asset. Input image is the edit target. Redraw ONLY this layer: the existing independently drawn selva ruinas capa2 lejania layer shown in the reference, retaining its subjects, placement, silhouettes and transparent gaps. One independent single layer, not a full landscape. Match the user's approved refined clean pixel-art quality: finer native sharp contours, cohesive natural clusters, deliberate material details, elegant readable silhouettes. REMOVE dense dithering, checkerboards, scattered grain, noisy random micro-pixels and big flat geometric placeholder clumps. Prefer clean shaded planes and restrained highlights. Keep regional palette, layout, subject count, transparency and general footprint. Side-on orthographic 2D, no perspective, smooth gradients, blur, antialiasing, text, UI or new characters. Keep other layers absent. Deep olive/jungle greens, ochre wood, dark river brown, blue-purple shadows. ",
+      "columns": 1,
+      "transparent": true
+    },
+    {
+      "name": "selva_ruinas_capa3_estructura",
+      "contexts": [
+        "Selva/5-ruinas"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_ruinas_capa3_estructura.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot",
+      "frames": 1,
+      "width": 640,
+      "height": 180,
+      "prompt": "Use case: precise-object-edit. SUYURUN production pixel-art asset. Input image is the edit target. Redraw ONLY this layer: the existing independently drawn selva ruinas capa3 estructura layer shown in the reference, retaining its subjects, placement, silhouettes and transparent gaps. One independent single layer, not a full landscape. Match the user's approved refined clean pixel-art quality: finer native sharp contours, cohesive natural clusters, deliberate material details, elegant readable silhouettes. REMOVE dense dithering, checkerboards, scattered grain, noisy random micro-pixels and big flat geometric placeholder clumps. Prefer clean shaded planes and restrained highlights. Keep regional palette, layout, subject count, transparency and general footprint. Side-on orthographic 2D, no perspective, smooth gradients, blur, antialiasing, text, UI or new characters. Keep other layers absent. Deep olive/jungle greens, ochre wood, dark river brown, blue-purple shadows. ",
+      "columns": 1,
+      "transparent": true
+    },
+    {
+      "name": "selva_ruinas_capa5_cercania",
+      "contexts": [
+        "Selva/5-ruinas"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_ruinas_capa5_cercania.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot",
+      "frames": 1,
+      "width": 640,
+      "height": 180,
+      "prompt": "Use case: precise-object-edit. SUYURUN production pixel-art asset. Input image is the edit target. Redraw ONLY this layer: the existing independently drawn selva ruinas capa5 cercania layer shown in the reference, retaining its subjects, placement, silhouettes and transparent gaps. One independent single layer, not a full landscape. Match the user's approved refined clean pixel-art quality: finer native sharp contours, cohesive natural clusters, deliberate material details, elegant readable silhouettes. REMOVE dense dithering, checkerboards, scattered grain, noisy random micro-pixels and big flat geometric placeholder clumps. Prefer clean shaded planes and restrained highlights. Keep regional palette, layout, subject count, transparency and general footprint. Side-on orthographic 2D, no perspective, smooth gradients, blur, antialiasing, text, UI or new characters. Keep other layers absent. Deep olive/jungle greens, ochre wood, dark river brown, blue-purple shadows. ",
+      "columns": 1,
+      "transparent": true
+    },
+    {
+      "name": "selva_ruinas_capa6_frontal",
+      "contexts": [
+        "Selva/5-ruinas"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_ruinas_capa6_frontal.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot",
+      "frames": 1,
+      "width": 640,
+      "height": 180,
+      "prompt": "Use case: precise-object-edit. SUYURUN production pixel-art asset. Input image is the edit target. Redraw ONLY this layer: the existing independently drawn selva ruinas capa6 frontal layer shown in the reference, retaining its subjects, placement, silhouettes and transparent gaps. One independent single layer, not a full landscape. Match the user's approved refined clean pixel-art quality: finer native sharp contours, cohesive natural clusters, deliberate material details, elegant readable silhouettes. REMOVE dense dithering, checkerboards, scattered grain, noisy random micro-pixels and big flat geometric placeholder clumps. Prefer clean shaded planes and restrained highlights. Keep regional palette, layout, subject count, transparency and general footprint. Side-on orthographic 2D, no perspective, smooth gradients, blur, antialiasing, text, UI or new characters. Keep other layers absent. Deep olive/jungle greens, ochre wood, dark river brown, blue-purple shadows. ",
+      "columns": 1,
+      "transparent": true
+    },
+    {
+      "name": "selva_templo_capa2_lejania",
+      "contexts": [
+        "Selva/6-templo"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_templo_capa2_lejania.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot",
+      "frames": 1,
+      "width": 640,
+      "height": 180,
+      "prompt": "Use case: precise-object-edit. SUYURUN production pixel-art asset. Input image is the edit target. Redraw ONLY this layer: the existing independently drawn selva templo capa2 lejania layer shown in the reference, retaining its subjects, placement, silhouettes and transparent gaps. One independent single layer, not a full landscape. Match the user's approved refined clean pixel-art quality: finer native sharp contours, cohesive natural clusters, deliberate material details, elegant readable silhouettes. REMOVE dense dithering, checkerboards, scattered grain, noisy random micro-pixels and big flat geometric placeholder clumps. Prefer clean shaded planes and restrained highlights. Keep regional palette, layout, subject count, transparency and general footprint. Side-on orthographic 2D, no perspective, smooth gradients, blur, antialiasing, text, UI or new characters. Keep other layers absent. Deep olive/jungle greens, ochre wood, dark river brown, blue-purple shadows. ",
+      "columns": 1,
+      "transparent": true
+    },
+    {
+      "name": "selva_templo_capa3_estructura",
+      "contexts": [
+        "Selva/6-templo"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_templo_capa3_estructura.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot",
+      "frames": 1,
+      "width": 640,
+      "height": 180,
+      "prompt": "Use case: precise-object-edit. SUYURUN production pixel-art asset. Input image is the edit target. Redraw ONLY this layer: the existing independently drawn selva templo capa3 estructura layer shown in the reference, retaining its subjects, placement, silhouettes and transparent gaps. One independent single layer, not a full landscape. Match the user's approved refined clean pixel-art quality: finer native sharp contours, cohesive natural clusters, deliberate material details, elegant readable silhouettes. REMOVE dense dithering, checkerboards, scattered grain, noisy random micro-pixels and big flat geometric placeholder clumps. Prefer clean shaded planes and restrained highlights. Keep regional palette, layout, subject count, transparency and general footprint. Side-on orthographic 2D, no perspective, smooth gradients, blur, antialiasing, text, UI or new characters. Keep other layers absent. Deep olive/jungle greens, ochre wood, dark river brown, blue-purple shadows. ",
+      "columns": 1,
+      "transparent": true
+    },
+    {
+      "name": "selva_templo_capa5_cercania",
+      "contexts": [
+        "Selva/6-templo"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_templo_capa5_cercania.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot",
+      "frames": 1,
+      "width": 640,
+      "height": 180,
+      "prompt": "Use case: precise-object-edit. SUYURUN production pixel-art asset. Input image is the edit target. Redraw ONLY this layer: the existing independently drawn selva templo capa5 cercania layer shown in the reference, retaining its subjects, placement, silhouettes and transparent gaps. One independent single layer, not a full landscape. Match the user's approved refined clean pixel-art quality: finer native sharp contours, cohesive natural clusters, deliberate material details, elegant readable silhouettes. REMOVE dense dithering, checkerboards, scattered grain, noisy random micro-pixels and big flat geometric placeholder clumps. Prefer clean shaded planes and restrained highlights. Keep regional palette, layout, subject count, transparency and general footprint. Side-on orthographic 2D, no perspective, smooth gradients, blur, antialiasing, text, UI or new characters. Keep other layers absent. Deep olive/jungle greens, ochre wood, dark river brown, blue-purple shadows. ",
+      "columns": 1,
+      "transparent": true
+    },
+    {
+      "name": "selva_templo_capa6_frontal",
+      "contexts": [
+        "Selva/6-templo"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_templo_capa6_frontal.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot",
+      "frames": 1,
+      "width": 640,
+      "height": 180,
+      "prompt": "Use case: precise-object-edit. SUYURUN production pixel-art asset. Input image is the edit target. Redraw ONLY this layer: the existing independently drawn selva templo capa6 frontal layer shown in the reference, retaining its subjects, placement, silhouettes and transparent gaps. One independent single layer, not a full landscape. Match the user's approved refined clean pixel-art quality: finer native sharp contours, cohesive natural clusters, deliberate material details, elegant readable silhouettes. REMOVE dense dithering, checkerboards, scattered grain, noisy random micro-pixels and big flat geometric placeholder clumps. Prefer clean shaded planes and restrained highlights. Keep regional palette, layout, subject count, transparency and general footprint. Side-on orthographic 2D, no perspective, smooth gradients, blur, antialiasing, text, UI or new characters. Keep other layers absent. Deep olive/jungle greens, ochre wood, dark river brown, blue-purple shadows. ",
+      "columns": 1,
+      "transparent": true
+    },
+    {
+      "name": "selva_tile_cueva_relleno",
+      "contexts": [
+        "Selva/3-cueva"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_tile_cueva_relleno.png",
+      "native": [
+        64,
+        64
+      ],
+      "status": "redrawn-current-lot",
+      "frames": 1,
+      "width": 32,
+      "height": 32,
+      "prompt": "Use case: precise-object-edit. SUYURUN production pixel-art asset. Input image is the edit target. Redraw ONLY this layer: the existing independently drawn selva tile cueva relleno layer shown in the reference, retaining its subjects, placement, silhouettes and transparent gaps. One independent single layer, not a full landscape. Match the user's approved refined clean pixel-art quality: finer native sharp contours, cohesive natural clusters, deliberate material details, elegant readable silhouettes. REMOVE dense dithering, checkerboards, scattered grain, noisy random micro-pixels and big flat geometric placeholder clumps. Prefer clean shaded planes and restrained highlights. Keep regional palette, layout, subject count, transparency and general footprint. Side-on orthographic 2D, no perspective, smooth gradients, blur, antialiasing, text, UI or new characters. Keep other layers absent. Deep olive/jungle greens, ochre wood, dark river brown, blue-purple shadows. ",
+      "columns": 1,
+      "transparent": true
+    },
+    {
+      "name": "selva_tile_cueva_superficie",
+      "contexts": [
+        "Selva/3-cueva"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_tile_cueva_superficie.png",
+      "native": [
+        64,
+        64
+      ],
+      "status": "redrawn-current-lot",
+      "frames": 1,
+      "width": 32,
+      "height": 32,
+      "prompt": "Use case: precise-object-edit. SUYURUN production pixel-art asset. Input image is the edit target. Redraw ONLY this layer: the existing independently drawn selva tile cueva superficie layer shown in the reference, retaining its subjects, placement, silhouettes and transparent gaps. One independent single layer, not a full landscape. Match the user's approved refined clean pixel-art quality: finer native sharp contours, cohesive natural clusters, deliberate material details, elegant readable silhouettes. REMOVE dense dithering, checkerboards, scattered grain, noisy random micro-pixels and big flat geometric placeholder clumps. Prefer clean shaded planes and restrained highlights. Keep regional palette, layout, subject count, transparency and general footprint. Side-on orthographic 2D, no perspective, smooth gradients, blur, antialiasing, text, UI or new characters. Keep other layers absent. Deep olive/jungle greens, ochre wood, dark river brown, blue-purple shadows. ",
+      "columns": 1,
+      "transparent": true
+    },
+    {
+      "name": "selva_tile_ruina_relleno",
+      "contexts": [
+        "Selva/5-ruinas"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_tile_ruina_relleno.png",
+      "native": [
+        64,
+        64
+      ],
+      "status": "redrawn-current-lot",
+      "frames": 1,
+      "width": 32,
+      "height": 32,
+      "prompt": "Use case: precise-object-edit. SUYURUN production pixel-art asset. Input image is the edit target. Redraw ONLY this layer: the existing independently drawn selva tile ruina relleno layer shown in the reference, retaining its subjects, placement, silhouettes and transparent gaps. One independent single layer, not a full landscape. Match the user's approved refined clean pixel-art quality: finer native sharp contours, cohesive natural clusters, deliberate material details, elegant readable silhouettes. REMOVE dense dithering, checkerboards, scattered grain, noisy random micro-pixels and big flat geometric placeholder clumps. Prefer clean shaded planes and restrained highlights. Keep regional palette, layout, subject count, transparency and general footprint. Side-on orthographic 2D, no perspective, smooth gradients, blur, antialiasing, text, UI or new characters. Keep other layers absent. Deep olive/jungle greens, ochre wood, dark river brown, blue-purple shadows. ",
+      "columns": 1,
+      "transparent": true
+    },
+    {
+      "name": "selva_tile_ruina_superficie",
+      "contexts": [
+        "Selva/5-ruinas"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/selva_tile_ruina_superficie.png",
+      "native": [
+        64,
+        64
+      ],
+      "status": "redrawn-current-lot",
+      "frames": 1,
+      "width": 32,
+      "height": 32,
+      "prompt": "Use case: precise-object-edit. SUYURUN production pixel-art asset. Input image is the edit target. Redraw ONLY this layer: the existing independently drawn selva tile ruina superficie layer shown in the reference, retaining its subjects, placement, silhouettes and transparent gaps. One independent single layer, not a full landscape. Match the user's approved refined clean pixel-art quality: finer native sharp contours, cohesive natural clusters, deliberate material details, elegant readable silhouettes. REMOVE dense dithering, checkerboards, scattered grain, noisy random micro-pixels and big flat geometric placeholder clumps. Prefer clean shaded planes and restrained highlights. Keep regional palette, layout, subject count, transparency and general footprint. Side-on orthographic 2D, no perspective, smooth gradients, blur, antialiasing, text, UI or new characters. Keep other layers absent. Deep olive/jungle greens, ochre wood, dark river brown, blue-purple shadows. ",
+      "columns": 1,
+      "transparent": true
+    },
+    {
+      "name": "sierra_camino_capa4_paisaje",
+      "contexts": [
+        "Sierra/camino"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/sierra_camino_capa4_paisaje.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot",
+      "frames": 1,
+      "width": 640,
+      "height": 180,
+      "prompt": "Use case: precise-object-edit. SUYURUN production pixel-art asset. Input image is the edit target. Redraw ONLY this layer: the existing independently drawn sierra camino capa4 paisaje layer shown in the reference, retaining its subjects, placement, silhouettes and transparent gaps. One independent single layer, not a full landscape. Match the user's approved refined clean pixel-art quality: finer native sharp contours, cohesive natural clusters, deliberate material details, elegant readable silhouettes. REMOVE dense dithering, checkerboards, scattered grain, noisy random micro-pixels and big flat geometric placeholder clumps. Prefer clean shaded planes and restrained highlights. Keep regional palette, layout, subject count, transparency and general footprint. Side-on orthographic 2D, no perspective, smooth gradients, blur, antialiasing, text, UI or new characters. Keep other layers absent. Andean olive, blue-grey stone, ichu gold, cream snow and restrained textile crimson. ",
+      "columns": 1,
+      "transparent": true
+    },
+    {
+      "name": "sierra_camino_capa7_suelo",
+      "contexts": [
+        "Sierra/camino"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/sierra_camino_capa7_suelo.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot",
+      "frames": 1,
+      "width": 640,
+      "height": 180,
+      "prompt": "Use case: precise-object-edit. SUYURUN production pixel-art asset. Input image is the edit target. Redraw ONLY this layer: the existing independently drawn sierra camino capa7 suelo layer shown in the reference, retaining its subjects, placement, silhouettes and transparent gaps. One independent single layer, not a full landscape. Match the user's approved refined clean pixel-art quality: finer native sharp contours, cohesive natural clusters, deliberate material details, elegant readable silhouettes. REMOVE dense dithering, checkerboards, scattered grain, noisy random micro-pixels and big flat geometric placeholder clumps. Prefer clean shaded planes and restrained highlights. Keep regional palette, layout, subject count, transparency and general footprint. Side-on orthographic 2D, no perspective, smooth gradients, blur, antialiasing, text, UI or new characters. Keep other layers absent. Andean olive, blue-grey stone, ichu gold, cream snow and restrained textile crimson. ",
+      "columns": 1,
+      "transparent": true
+    },
+    {
+      "name": "sierra_compartido_capa2_nubes",
+      "contexts": [
+        "Sierra/camino",
+        "Sierra/valle",
+        "Sierra/ruinas"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/sierra_compartido_capa2_nubes.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot",
+      "frames": 1,
+      "width": 640,
+      "height": 180,
+      "prompt": "Use case: precise-object-edit. SUYURUN production pixel-art asset. Input image is the edit target. Redraw ONLY this layer: the existing independently drawn sierra compartido capa2 nubes layer shown in the reference, retaining its subjects, placement, silhouettes and transparent gaps. One independent single layer, not a full landscape. Match the user's approved refined clean pixel-art quality: finer native sharp contours, cohesive natural clusters, deliberate material details, elegant readable silhouettes. REMOVE dense dithering, checkerboards, scattered grain, noisy random micro-pixels and big flat geometric placeholder clumps. Prefer clean shaded planes and restrained highlights. Keep regional palette, layout, subject count, transparency and general footprint. Side-on orthographic 2D, no perspective, smooth gradients, blur, antialiasing, text, UI or new characters. Keep other layers absent. Andean olive, blue-grey stone, ichu gold, cream snow and restrained textile crimson. ",
+      "columns": 1,
+      "transparent": true
+    },
+    {
+      "name": "sierra_compartido_capa3_nevados",
+      "contexts": [
+        "Sierra/camino",
+        "Sierra/valle",
+        "Sierra/ruinas"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/sierra_compartido_capa3_nevados.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot",
+      "frames": 1,
+      "width": 640,
+      "height": 180,
+      "prompt": "Use case: precise-object-edit. SUYURUN production pixel-art asset. Input image is the edit target. Redraw ONLY this layer: the existing independently drawn sierra compartido capa3 nevados layer shown in the reference, retaining its subjects, placement, silhouettes and transparent gaps. One independent single layer, not a full landscape. Match the user's approved refined clean pixel-art quality: finer native sharp contours, cohesive natural clusters, deliberate material details, elegant readable silhouettes. REMOVE dense dithering, checkerboards, scattered grain, noisy random micro-pixels and big flat geometric placeholder clumps. Prefer clean shaded planes and restrained highlights. Keep regional palette, layout, subject count, transparency and general footprint. Side-on orthographic 2D, no perspective, smooth gradients, blur, antialiasing, text, UI or new characters. Keep other layers absent. Andean olive, blue-grey stone, ichu gold, cream snow and restrained textile crimson. ",
+      "columns": 1,
+      "transparent": true
+    },
+    {
+      "name": "sierra_cueva1_arcos",
+      "contexts": [
+        "Sierra/minicueva1"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/sierra_cueva1_arcos.png",
+      "native": [
+        1280,
+        768
+      ],
+      "status": "redrawn-current-lot",
+      "frames": 1,
+      "width": 640,
+      "height": 384,
+      "prompt": "Use case: precise-object-edit. SUYURUN production pixel-art asset. Input image is the edit target. Redraw ONLY this layer: the existing independently drawn sierra cueva1 arcos layer shown in the reference, retaining its subjects, placement, silhouettes and transparent gaps. One independent single layer, not a full landscape. Match the user's approved refined clean pixel-art quality: finer native sharp contours, cohesive natural clusters, deliberate material details, elegant readable silhouettes. REMOVE dense dithering, checkerboards, scattered grain, noisy random micro-pixels and big flat geometric placeholder clumps. Prefer clean shaded planes and restrained highlights. Keep regional palette, layout, subject count, transparency and general footprint. Side-on orthographic 2D, no perspective, smooth gradients, blur, antialiasing, text, UI or new characters. Keep other layers absent. Andean olive, blue-grey stone, ichu gold, cream snow and restrained textile crimson. ",
+      "columns": 1,
+      "transparent": true
+    },
+    {
+      "name": "sierra_cueva1_fondo",
+      "contexts": [
+        "Sierra/minicueva1"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/sierra_cueva1_fondo.png",
+      "native": [
+        1280,
+        768
+      ],
+      "status": "redrawn-current-lot",
+      "frames": 1,
+      "width": 640,
+      "height": 384,
+      "prompt": "Use case: precise-object-edit. SUYURUN production pixel-art asset. Input image is the edit target. Redraw ONLY this layer: the existing independently drawn sierra cueva1 fondo layer shown in the reference, retaining its subjects, placement, silhouettes and transparent gaps. One independent single layer, not a full landscape. Match the user's approved refined clean pixel-art quality: finer native sharp contours, cohesive natural clusters, deliberate material details, elegant readable silhouettes. REMOVE dense dithering, checkerboards, scattered grain, noisy random micro-pixels and big flat geometric placeholder clumps. Prefer clean shaded planes and restrained highlights. Keep regional palette, layout, subject count, transparency and general footprint. Side-on orthographic 2D, no perspective, smooth gradients, blur, antialiasing, text, UI or new characters. Keep other layers absent. Andean olive, blue-grey stone, ichu gold, cream snow and restrained textile crimson. ",
+      "columns": 1,
+      "transparent": false
+    },
+    {
+      "name": "sierra_cueva2_arcos",
+      "contexts": [
+        "Sierra/minicueva2"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/sierra_cueva2_arcos.png",
+      "native": [
+        1280,
+        768
+      ],
+      "status": "redrawn-current-lot",
+      "frames": 1,
+      "width": 640,
+      "height": 384,
+      "prompt": "Use case: precise-object-edit. SUYURUN production pixel-art asset. Input image is the edit target. Redraw ONLY this layer: the existing independently drawn sierra cueva2 arcos layer shown in the reference, retaining its subjects, placement, silhouettes and transparent gaps. One independent single layer, not a full landscape. Match the user's approved refined clean pixel-art quality: finer native sharp contours, cohesive natural clusters, deliberate material details, elegant readable silhouettes. REMOVE dense dithering, checkerboards, scattered grain, noisy random micro-pixels and big flat geometric placeholder clumps. Prefer clean shaded planes and restrained highlights. Keep regional palette, layout, subject count, transparency and general footprint. Side-on orthographic 2D, no perspective, smooth gradients, blur, antialiasing, text, UI or new characters. Keep other layers absent. Andean olive, blue-grey stone, ichu gold, cream snow and restrained textile crimson. ",
+      "columns": 1,
+      "transparent": true
+    },
+    {
+      "name": "sierra_cueva2_fondo",
+      "contexts": [
+        "Sierra/minicueva2"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/sierra_cueva2_fondo.png",
+      "native": [
+        1280,
+        768
+      ],
+      "status": "redrawn-current-lot",
+      "frames": 1,
+      "width": 640,
+      "height": 384,
+      "prompt": "Use case: precise-object-edit. SUYURUN production pixel-art asset. Input image is the edit target. Redraw ONLY this layer: the existing independently drawn sierra cueva2 fondo layer shown in the reference, retaining its subjects, placement, silhouettes and transparent gaps. One independent single layer, not a full landscape. Match the user's approved refined clean pixel-art quality: finer native sharp contours, cohesive natural clusters, deliberate material details, elegant readable silhouettes. REMOVE dense dithering, checkerboards, scattered grain, noisy random micro-pixels and big flat geometric placeholder clumps. Prefer clean shaded planes and restrained highlights. Keep regional palette, layout, subject count, transparency and general footprint. Side-on orthographic 2D, no perspective, smooth gradients, blur, antialiasing, text, UI or new characters. Keep other layers absent. Andean olive, blue-grey stone, ichu gold, cream snow and restrained textile crimson. ",
+      "columns": 1,
+      "transparent": false
+    },
+    {
+      "name": "sierra_cueva_plataforma",
+      "contexts": [
+        "Sierra/minicueva1",
+        "Sierra/minicueva2"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/sierra_cueva_plataforma.png",
+      "native": [
+        32,
+        24
+      ],
+      "status": "redrawn-current-lot",
+      "frames": 1,
+      "width": 16,
+      "height": 12,
+      "prompt": "Use case: precise-object-edit. SUYURUN production pixel-art asset. Input image is the edit target. Redraw ONLY this layer: the existing independently drawn sierra cueva plataforma layer shown in the reference, retaining its subjects, placement, silhouettes and transparent gaps. One independent single layer, not a full landscape. Match the user's approved refined clean pixel-art quality: finer native sharp contours, cohesive natural clusters, deliberate material details, elegant readable silhouettes. REMOVE dense dithering, checkerboards, scattered grain, noisy random micro-pixels and big flat geometric placeholder clumps. Prefer clean shaded planes and restrained highlights. Keep regional palette, layout, subject count, transparency and general footprint. Side-on orthographic 2D, no perspective, smooth gradients, blur, antialiasing, text, UI or new characters. Keep other layers absent. Andean olive, blue-grey stone, ichu gold, cream snow and restrained textile crimson. ",
+      "columns": 1,
+      "transparent": true
+    },
+    {
+      "name": "sierra_cueva_roca",
+      "contexts": [
+        "Sierra/minicueva1",
+        "Sierra/minicueva2"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/sierra_cueva_roca.png",
+      "native": [
+        64,
+        64
+      ],
+      "status": "redrawn-current-lot",
+      "frames": 1,
+      "width": 32,
+      "height": 32,
+      "prompt": "Use case: precise-object-edit. SUYURUN production pixel-art asset. Input image is the edit target. Redraw ONLY this layer: the existing independently drawn sierra cueva roca layer shown in the reference, retaining its subjects, placement, silhouettes and transparent gaps. One independent single layer, not a full landscape. Match the user's approved refined clean pixel-art quality: finer native sharp contours, cohesive natural clusters, deliberate material details, elegant readable silhouettes. REMOVE dense dithering, checkerboards, scattered grain, noisy random micro-pixels and big flat geometric placeholder clumps. Prefer clean shaded planes and restrained highlights. Keep regional palette, layout, subject count, transparency and general footprint. Side-on orthographic 2D, no perspective, smooth gradients, blur, antialiasing, text, UI or new characters. Keep other layers absent. Andean olive, blue-grey stone, ichu gold, cream snow and restrained textile crimson. ",
+      "columns": 1,
+      "transparent": true
+    },
+    {
+      "name": "sierra_cueva_suelo",
+      "contexts": [
+        "Sierra/minicueva1",
+        "Sierra/minicueva2"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/sierra_cueva_suelo.png",
+      "native": [
+        64,
+        64
+      ],
+      "status": "redrawn-current-lot",
+      "frames": 1,
+      "width": 32,
+      "height": 32,
+      "prompt": "Use case: precise-object-edit. SUYURUN production pixel-art asset. Input image is the edit target. Redraw ONLY this layer: the existing independently drawn sierra cueva suelo layer shown in the reference, retaining its subjects, placement, silhouettes and transparent gaps. One independent single layer, not a full landscape. Match the user's approved refined clean pixel-art quality: finer native sharp contours, cohesive natural clusters, deliberate material details, elegant readable silhouettes. REMOVE dense dithering, checkerboards, scattered grain, noisy random micro-pixels and big flat geometric placeholder clumps. Prefer clean shaded planes and restrained highlights. Keep regional palette, layout, subject count, transparency and general footprint. Side-on orthographic 2D, no perspective, smooth gradients, blur, antialiasing, text, UI or new characters. Keep other layers absent. Andean olive, blue-grey stone, ichu gold, cream snow and restrained textile crimson. ",
+      "columns": 1,
+      "transparent": true
+    },
+    {
+      "name": "sierra_ruinas_capa4_paisaje",
+      "contexts": [
+        "Sierra/ruinas"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/sierra_ruinas_capa4_paisaje.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot",
+      "frames": 1,
+      "width": 640,
+      "height": 180,
+      "prompt": "Use case: precise-object-edit. SUYURUN production pixel-art asset. Input image is the edit target. Redraw ONLY this layer: the existing independently drawn sierra ruinas capa4 paisaje layer shown in the reference, retaining its subjects, placement, silhouettes and transparent gaps. One independent single layer, not a full landscape. Match the user's approved refined clean pixel-art quality: finer native sharp contours, cohesive natural clusters, deliberate material details, elegant readable silhouettes. REMOVE dense dithering, checkerboards, scattered grain, noisy random micro-pixels and big flat geometric placeholder clumps. Prefer clean shaded planes and restrained highlights. Keep regional palette, layout, subject count, transparency and general footprint. Side-on orthographic 2D, no perspective, smooth gradients, blur, antialiasing, text, UI or new characters. Keep other layers absent. Andean olive, blue-grey stone, ichu gold, cream snow and restrained textile crimson. ",
+      "columns": 1,
+      "transparent": true
+    },
+    {
+      "name": "sierra_ruinas_capa7_suelo",
+      "contexts": [
+        "Sierra/ruinas"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/sierra_ruinas_capa7_suelo.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot",
+      "frames": 1,
+      "width": 640,
+      "height": 180,
+      "prompt": "Use case: precise-object-edit. SUYURUN production pixel-art asset. Input image is the edit target. Redraw ONLY this layer: the existing independently drawn sierra ruinas capa7 suelo layer shown in the reference, retaining its subjects, placement, silhouettes and transparent gaps. One independent single layer, not a full landscape. Match the user's approved refined clean pixel-art quality: finer native sharp contours, cohesive natural clusters, deliberate material details, elegant readable silhouettes. REMOVE dense dithering, checkerboards, scattered grain, noisy random micro-pixels and big flat geometric placeholder clumps. Prefer clean shaded planes and restrained highlights. Keep regional palette, layout, subject count, transparency and general footprint. Side-on orthographic 2D, no perspective, smooth gradients, blur, antialiasing, text, UI or new characters. Keep other layers absent. Andean olive, blue-grey stone, ichu gold, cream snow and restrained textile crimson. ",
+      "columns": 1,
+      "transparent": true
+    },
+    {
+      "name": "sierra_valle_capa4_paisaje",
+      "contexts": [
+        "Sierra/valle"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/sierra_valle_capa4_paisaje.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot",
+      "frames": 1,
+      "width": 640,
+      "height": 180,
+      "prompt": "Use case: precise-object-edit. SUYURUN production pixel-art asset. Input image is the edit target. Redraw ONLY this layer: the existing independently drawn sierra valle capa4 paisaje layer shown in the reference, retaining its subjects, placement, silhouettes and transparent gaps. One independent single layer, not a full landscape. Match the user's approved refined clean pixel-art quality: finer native sharp contours, cohesive natural clusters, deliberate material details, elegant readable silhouettes. REMOVE dense dithering, checkerboards, scattered grain, noisy random micro-pixels and big flat geometric placeholder clumps. Prefer clean shaded planes and restrained highlights. Keep regional palette, layout, subject count, transparency and general footprint. Side-on orthographic 2D, no perspective, smooth gradients, blur, antialiasing, text, UI or new characters. Keep other layers absent. Andean olive, blue-grey stone, ichu gold, cream snow and restrained textile crimson. ",
+      "columns": 1,
+      "transparent": true
+    },
+    {
+      "name": "sierra_valle_capa5_rio",
+      "contexts": [
+        "Sierra/valle"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/sierra_valle_capa5_rio.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot",
+      "frames": 6,
+      "width": 640,
+      "height": 180,
+      "prompt": "Use case: precise-object-edit. SUYURUN production pixel-art asset. Input image is the edit target. Redraw ONLY this layer: the existing independently drawn sierra valle capa5 rio layer shown in the reference, retaining its subjects, placement, silhouettes and transparent gaps. SPRITESHEET 6 frames in 6 equal horizontal rows, aligned consistent silhouettes and smooth loop. Match the user's approved refined clean pixel-art quality: finer native sharp contours, cohesive natural clusters, deliberate material details, elegant readable silhouettes. REMOVE dense dithering, checkerboards, scattered grain, noisy random micro-pixels and big flat geometric placeholder clumps. Prefer clean shaded planes and restrained highlights. Keep regional palette, layout, subject count, transparency and general footprint. Side-on orthographic 2D, no perspective, smooth gradients, blur, antialiasing, text, UI or new characters. Keep other layers absent. Andean olive, blue-grey stone, ichu gold, cream snow and restrained textile crimson. ",
+      "columns": 1,
+      "transparent": true
+    },
+    {
+      "name": "sierra_valle_capa7_suelo",
+      "contexts": [
+        "Sierra/valle"
+      ],
+      "resource": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/LayerPolish/sierra_valle_capa7_suelo.png",
+      "native": [
+        1280,
+        360
+      ],
+      "status": "redrawn-current-lot",
+      "frames": 1,
+      "width": 640,
+      "height": 180,
+      "prompt": "Use case: precise-object-edit. SUYURUN production pixel-art asset. Input image is the edit target. Redraw ONLY this layer: the existing independently drawn sierra valle capa7 suelo layer shown in the reference, retaining its subjects, placement, silhouettes and transparent gaps. One independent single layer, not a full landscape. Match the user's approved refined clean pixel-art quality: finer native sharp contours, cohesive natural clusters, deliberate material details, elegant readable silhouettes. REMOVE dense dithering, checkerboards, scattered grain, noisy random micro-pixels and big flat geometric placeholder clumps. Prefer clean shaded planes and restrained highlights. Keep regional palette, layout, subject count, transparency and general footprint. Side-on orthographic 2D, no perspective, smooth gradients, blur, antialiasing, text, UI or new characters. Keep other layers absent. Andean olive, blue-grey stone, ichu gold, cream snow and restrained textile crimson. ",
+      "columns": 1,
+      "transparent": true
+    }
+  ],
+  "approvedReference": "user tested AtmosphereClean quality",
+  "unityPlayVerified": false
+}

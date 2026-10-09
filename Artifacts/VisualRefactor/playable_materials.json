@@ -1,0 +1,416 @@
+[
+  {
+    "name": "sierra_ruinas_escalera",
+    "frames": 1,
+    "logical": [
+      64,
+      32
+    ],
+    "material": "stone"
+  },
+  {
+    "name": "sierra_ruinas_rampa",
+    "frames": 1,
+    "logical": [
+      64,
+      32
+    ],
+    "material": "stone"
+  },
+  {
+    "name": "sierra_ruinas_pilar",
+    "frames": 1,
+    "logical": [
+      24,
+      64
+    ],
+    "material": "stone"
+  },
+  {
+    "name": "sierra_cueva_plataforma",
+    "frames": 1,
+    "logical": [
+      16,
+      12
+    ],
+    "material": "stone"
+  },
+  {
+    "name": "sierra_cueva_roca",
+    "frames": 1,
+    "logical": [
+      32,
+      32
+    ],
+    "material": "stone"
+  },
+  {
+    "name": "sierra_piedra",
+    "frames": 4,
+    "logical": [
+      8,
+      8
+    ],
+    "material": "stone"
+  },
+  {
+    "name": "sierra_pinchos",
+    "frames": 1,
+    "logical": [
+      32,
+      32
+    ],
+    "material": "spikes"
+  },
+  {
+    "name": "sierra_tronco",
+    "frames": 1,
+    "logical": [
+      32,
+      32
+    ],
+    "material": "wood"
+  },
+  {
+    "name": "selva_plataforma_piedra",
+    "frames": 1,
+    "logical": [
+      48,
+      16
+    ],
+    "material": "stone"
+  },
+  {
+    "name": "selva_plataforma_rampa",
+    "frames": 1,
+    "logical": [
+      64,
+      32
+    ],
+    "material": "stone"
+  },
+  {
+    "name": "selva_plataforma_puente",
+    "frames": 4,
+    "logical": [
+      64,
+      24
+    ],
+    "material": "wood"
+  },
+  {
+    "name": "selva_plataforma_bote",
+    "frames": 4,
+    "logical": [
+      80,
+      32
+    ],
+    "material": "wood"
+  },
+  {
+    "name": "selva_plataforma_victoria",
+    "frames": 2,
+    "logical": [
+      48,
+      12
+    ],
+    "material": "leaf"
+  },
+  {
+    "name": "selva_obstaculo_techo",
+    "frames": 4,
+    "logical": [
+      32,
+      32
+    ],
+    "material": "wood"
+  },
+  {
+    "name": "selva_obstaculo_raiz",
+    "frames": 4,
+    "logical": [
+      32,
+      32
+    ],
+    "material": "wood"
+  },
+  {
+    "name": "selva_obstaculo_pinchos",
+    "frames": 4,
+    "logical": [
+      32,
+      32
+    ],
+    "material": "spikes"
+  },
+  {
+    "name": "selva_obstaculo_estaca",
+    "frames": 4,
+    "logical": [
+      32,
+      32
+    ],
+    "material": "wood"
+  },
+  {
+    "name": "selva_obstaculo_trampa",
+    "frames": 4,
+    "logical": [
+      32,
+      32
+    ],
+    "material": "stone"
+  },
+  {
+    "name": "sierra_camino_capa7_suelo",
+    "frames": 1,
+    "logical": [
+      640,
+      180
+    ],
+    "material": "earth"
+  },
+  {
+    "name": "sierra_valle_capa7_suelo",
+    "frames": 1,
+    "logical": [
+      640,
+      180
+    ],
+    "material": "earth"
+  },
+  {
+    "name": "sierra_ruinas_capa7_suelo",
+    "frames": 1,
+    "logical": [
+      640,
+      180
+    ],
+    "material": "stone"
+  },
+  {
+    "name": "sierra_cueva_suelo",
+    "frames": 1,
+    "logical": [
+      32,
+      32
+    ],
+    "material": "stone"
+  },
+  {
+    "name": "selva_tile_tierra_superficie",
+    "frames": 1,
+    "logical": [
+      32,
+      32
+    ],
+    "material": "earth"
+  },
+  {
+    "name": "selva_tile_tierra_relleno",
+    "frames": 1,
+    "logical": [
+      32,
+      32
+    ],
+    "material": "earth"
+  },
+  {
+    "name": "selva_tile_tierra_borde_izq",
+    "frames": 1,
+    "logical": [
+      32,
+      32
+    ],
+    "material": "earth"
+  },
+  {
+    "name": "selva_tile_tierra_borde_der",
+    "frames": 1,
+    "logical": [
+      32,
+      32
+    ],
+    "material": "earth"
+  },
+  {
+    "name": "selva_tile_roca_superficie",
+    "frames": 1,
+    "logical": [
+      32,
+      32
+    ],
+    "material": "stone"
+  },
+  {
+    "name": "selva_tile_roca_relleno",
+    "frames": 1,
+    "logical": [
+      32,
+      32
+    ],
+    "material": "stone"
+  },
+  {
+    "name": "selva_tile_roca_borde_izq",
+    "frames": 1,
+    "logical": [
+      32,
+      32
+    ],
+    "material": "stone"
+  },
+  {
+    "name": "selva_tile_roca_borde_der",
+    "frames": 1,
+    "logical": [
+      32,
+      32
+    ],
+    "material": "stone"
+  },
+  {
+    "name": "selva_tile_cueva_superficie",
+    "frames": 1,
+    "logical": [
+      32,
+      32
+    ],
+    "material": "stone"
+  },
+  {
+    "name": "selva_tile_cueva_relleno",
+    "frames": 1,
+    "logical": [
+      32,
+      32
+    ],
+    "material": "stone"
+  },
+  {
+    "name": "selva_tile_cueva_borde_izq",
+    "frames": 1,
+    "logical": [
+      32,
+      32
+    ],
+    "material": "stone"
+  },
+  {
+    "name": "selva_tile_cueva_borde_der",
+    "frames": 1,
+    "logical": [
+      32,
+      32
+    ],
+    "material": "stone"
+  },
+  {
+    "name": "selva_tile_ruina_superficie",
+    "frames": 1,
+    "logical": [
+      32,
+      32
+    ],
+    "material": "stone"
+  },
+  {
+    "name": "selva_tile_ruina_relleno",
+    "frames": 1,
+    "logical": [
+      32,
+      32
+    ],
+    "material": "stone"
+  },
+  {
+    "name": "selva_tile_ruina_borde_izq",
+    "frames": 1,
+    "logical": [
+      32,
+      32
+    ],
+    "material": "stone"
+  },
+  {
+    "name": "selva_tile_ruina_borde_der",
+    "frames": 1,
+    "logical": [
+      32,
+      32
+    ],
+    "material": "stone"
+  },
+  {
+    "name": "costa_plataforma_bloque",
+    "frames": 1,
+    "logical": [
+      48,
+      32
+    ],
+    "material": "stone"
+  },
+  {
+    "name": "costa_plataforma_rampa",
+    "frames": 1,
+    "logical": [
+      32,
+      32
+    ],
+    "material": "stone"
+  },
+  {
+    "name": "costa_plataforma_pilar",
+    "frames": 1,
+    "logical": [
+      16,
+      48
+    ],
+    "material": "stone"
+  },
+  {
+    "name": "costa_capa7_suelo",
+    "frames": 1,
+    "logical": [
+      32,
+      32
+    ],
+    "material": "earth"
+  },
+  {
+    "name": "sierra_tunel_entrada",
+    "frames": 4,
+    "logical": [
+      128,
+      160
+    ],
+    "material": "stone"
+  },
+  {
+    "name": "sierra_tunel_salida",
+    "frames": 4,
+    "logical": [
+      128,
+      160
+    ],
+    "material": "stone"
+  },
+  {
+    "name": "sierra_portal_ceremonial",
+    "frames": 8,
+    "logical": [
+      96,
+      112
+    ],
+    "material": "stone"
+  },
+  {
+    "name": "selva_portal_salida",
+    "frames": 4,
+    "logical": [
+      64,
+      96
+    ],
+    "material": "stone"
+  }
+]

@@ -25,6 +25,8 @@ namespace SuyuRun
         public readonly int index;
         public const float Width=1536, Height=384, MoveSpeed=112, Jump=205, Gravity=470;
         public Vector2 pos=new Vector2(56,160), velocity;
+        public float gaitDistance;
+        const float HeroHalfWidth=9*TaytaArt.WorldScale,HeroHeight=34*TaytaArt.WorldScale;
         public float time, fireAt=-10, damageAt=-10, dropUntil, lastGround=-10;
         public bool grounded=true, facingRight=true, dead, cleared;
         public int jumps, health, maxHealth, coins, kills, shotsFired, jumpsUsed, dropsUsed;
@@ -38,11 +40,14 @@ namespace SuyuRun
         public Foe Boss=>foes[foes.Count-1];
         public int RemainingMinions=>foes.Count(e=>!e.boss&&e.hp>0);
         public bool ExitReady=>Boss.hp<=0&&RemainingMinions==0;
-        public bool AtPortal=>pos.x>1470&&pos.y>270&&grounded;
+        public const float PortalX=Width-64,PortalFloor=320;
+        // The 128px doorway reaches the right wall: walking all the way into it
+        // must not leave the activation area and continually reset the timer.
+        public bool AtPortal=>pos.x>=PortalX-64&&pos.x<=Width-16&&Mathf.Abs(pos.y-PortalFloor)<3&&grounded;
         public float exitCountdown;
         public const float ExitDelay=3;
         public static float OvertimeAllowance(bool bossDefeated,int minionsRemaining)=>bossDefeated||minionsRemaining==0?5:0;
-        public Rect Body=>new Rect(pos.x-9,pos.y-34,18,34);
+        public Rect Body=>GameScale.Body(pos,9);
 
         public SierraCaveWorld(int caveIndex,int lives)
         {
@@ -108,6 +113,9 @@ namespace SuyuRun
             if(reloadUntil>=0&&time>=reloadUntil){ammo=Magazine;reloadUntil=-1;}
             if(cleared){sparks.RemoveAll(s=>time-s.born>.6f);return;}
             if(Cinematic){BossStep(Boss,dt);return;}
+            // Once the exit begins, centre Tayta rather than letting held input
+            // carry him through the back of the portal during its countdown.
+            if(ExitReady&&(AtPortal||exitCountdown>0)){axis=0;jump=false;drop=false;fire=false;}
             SpawnReinforcement();
             if(drop&&grounded&&platforms.Any(p=>p.oneWay&&Mathf.Abs(pos.y-p.bounds.y)<2&&pos.x>=p.bounds.xMin&&pos.x<=p.bounds.xMax))
             {dropUntil=time+.22f;grounded=false;pos.y+=2;velocity.y=25;dropsUsed++;}
@@ -121,23 +129,24 @@ namespace SuyuRun
             {
                 // Only resolve a wall actually crossed this step. At the trailing lip of
                 // a floor, tiny DSP remainders must not teleport the body to its far edge.
-                if(velocity.x>0&&before.x+9<=p.bounds.xMin+.01f)pos.x=p.bounds.xMin-9;
-                else if(velocity.x<0&&before.x-9>=p.bounds.xMax-.01f)pos.x=p.bounds.xMax+9;
+                if(velocity.x>0&&before.x+HeroHalfWidth<=p.bounds.xMin+.01f)pos.x=p.bounds.xMin-HeroHalfWidth;
+                else if(velocity.x<0&&before.x-HeroHalfWidth>=p.bounds.xMax-.01f)pos.x=p.bounds.xMax+HeroHalfWidth;
             }
             float oldFeet=pos.y;velocity.y+=Gravity*dt;pos.y+=velocity.y*dt;grounded=false;
             foreach(var p in platforms)
             {
-                if(pos.x+9<=p.bounds.xMin||pos.x-9>=p.bounds.xMax)continue;
+                if(pos.x+HeroHalfWidth<=p.bounds.xMin||pos.x-HeroHalfWidth>=p.bounds.xMax)continue;
                 if(velocity.y>=0&&oldFeet<=p.bounds.yMin+.5f&&pos.y>=p.bounds.yMin&&(!p.oneWay||time>=dropUntil))
                 {pos.y=p.bounds.yMin;velocity.y=0;grounded=true;jumps=0;lastGround=time;}
-                else if(!p.oneWay&&velocity.y<0&&oldFeet-34>=p.bounds.yMax&&pos.y-34<p.bounds.yMax)
-                {pos.y=p.bounds.yMax+34;velocity.y=0;}
+                else if(!p.oneWay&&velocity.y<0&&oldFeet-HeroHeight>=p.bounds.yMax&&pos.y-HeroHeight<p.bounds.yMax)
+                {pos.y=p.bounds.yMax+HeroHeight;velocity.y=0;}
             }
+            if(grounded)gaitDistance+=Mathf.Abs(pos.x-before.x);
             if(!grounded&&jumps==0&&time-lastGround>=.09f)jumps=1;
             if(pos.y>Height+40){Hurt("fall");pos=before;pos.y=160;pos.x=56;velocity=Vector2.zero;}
             if(fire&&ammo>0&&!Reloading&&time-fireAt>=.15f)
             {
-                facingRight=aim.x>=pos.x;fireAt=time;shotsFired++;ammo--;Vector2 origin=pos+new Vector2(facingRight?12:-12,-23);
+                facingRight=aim.x>=pos.x;fireAt=time;shotsFired++;ammo--;Vector2 origin=pos+new Vector2(facingRight?12:-12,-23)*TaytaArt.WorldScale;
                 Vector2 direction=aim-origin;if(direction.sqrMagnitude<1)direction=new Vector2(facingRight?1:-1,0);
                 bullets.Add(new Bullet{pos=origin,velocity=direction.normalized*510});
                 if(ammo==0)BeginReload();
@@ -165,7 +174,7 @@ namespace SuyuRun
                 if(platforms.Any(p=>!p.oneWay&&p.bounds.Contains(b.pos)))b.dead=true;
             }
             bullets.RemoveAll(b=>b.dead||b.age>2.5f);sparks.RemoveAll(s=>time-s.born>.6f);
-            if(ExitReady&&AtPortal){exitCountdown+=dt;if(exitCountdown>=ExitDelay){cleared=true;velocity=Vector2.zero;}}
+            if(ExitReady&&AtPortal){pos.x=Mathf.MoveTowards(pos.x,PortalX,90*dt);velocity=Vector2.zero;exitCountdown+=dt;if(exitCountdown>=ExitDelay){cleared=true;pos=new Vector2(PortalX,PortalFloor);}}
             else exitCountdown=0;
         }
         void MinionStep(Foe e,float dt)

@@ -1,0 +1,18 @@
+{
+  "frames": 1,
+  "frameWidth": 128,
+  "frameHeight": 128,
+  "logicalWidth": 32,
+  "logicalHeight": 32,
+  "pixelsPerUnit": 128,
+  "fps": 8,
+  "loop": true,
+  "material": "stone",
+  "original": "Assets/SuyuRun/Art/PixelSelva/ProductionV2/Resources/SelvaV2/selva_tile_ruina_superficie.png",
+  "source": "Artifacts/VisualRefactor/AtmosphereClean/Sources/selva_tile_ruina_superficie.png",
+  "fullPlaythroughTested": false,
+  "previous": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_tile_ruina_superficie.json",
+  "finish": "independent imagegen redraw; native clusters",
+  "seamEndpointEqual": false,
+  "originalAlphaMaskPreserved": true
+}

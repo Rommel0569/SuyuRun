@@ -1,0 +1,26 @@
+{
+  "stone": {
+    "sheets": 8,
+    "frames": 32,
+    "validation": "PASS native size/palette/alpha/margins",
+    "integrated": false
+  },
+  "inca": {
+    "sheets": 8,
+    "frames": 32,
+    "validation": "PASS native size/palette/alpha/margins",
+    "integrated": false
+  },
+  "treant": {
+    "sheets": 8,
+    "frames": 32,
+    "validation": "PASS native size/palette/alpha/margins",
+    "integrated": false
+  },
+  "chulla": {
+    "sheets": 8,
+    "frames": 32,
+    "validation": "PASS native size/palette/alpha/margins",
+    "integrated": false
+  }
+}

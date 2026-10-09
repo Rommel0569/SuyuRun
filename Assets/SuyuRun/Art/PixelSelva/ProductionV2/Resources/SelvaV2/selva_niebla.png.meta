@@ -1,0 +1,4042 @@
+fileFormatVersion: 2
+guid: b86fb2db1cbed6f44b0b263777ef5bbb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7753006057717287893
+    second: selva_niebla_0
+  - first:
+      213: 6449732532805027822
+    second: selva_niebla_1
+  - first:
+      213: 8204058181811659833
+    second: selva_niebla_2
+  - first:
+      213: 7648033526062303101
+    second: selva_niebla_3
+  - first:
+      213: 8767773945265017677
+    second: selva_niebla_4
+  - first:
+      213: -5940315218663754302
+    second: selva_niebla_5
+  - first:
+      213: 5716249556474545448
+    second: selva_niebla_6
+  - first:
+      213: 2579732710889715676
+    second: selva_niebla_7
+  - first:
+      213: 1639172188867998307
+    second: selva_niebla_8
+  - first:
+      213: -1678247318054274212
+    second: selva_niebla_9
+  - first:
+      213: -212680751583658315
+    second: selva_niebla_10
+  - first:
+      213: -8505344756428987738
+    second: selva_niebla_11
+  - first:
+      213: 3268243189796520876
+    second: selva_niebla_12
+  - first:
+      213: 8548798177480218154
+    second: selva_niebla_13
+  - first:
+      213: -8093199176275958774
+    second: selva_niebla_14
+  - first:
+      213: 5549177382317415067
+    second: selva_niebla_15
+  - first:
+      213: -4372154482400480767
+    second: selva_niebla_16
+  - first:
+      213: -3997626443396519781
+    second: selva_niebla_17
+  - first:
+      213: -1682673668820921274
+    second: selva_niebla_18
+  - first:
+      213: -65862635895722688
+    second: selva_niebla_19
+  - first:
+      213: 6653834100367952863
+    second: selva_niebla_20
+  - first:
+      213: 640328524821431621
+    second: selva_niebla_21
+  - first:
+      213: -23539806345804329
+    second: selva_niebla_22
+  - first:
+      213: 8548565690061319464
+    second: selva_niebla_23
+  - first:
+      213: -7339997298371478149
+    second: selva_niebla_24
+  - first:
+      213: 6980587770385313457
+    second: selva_niebla_25
+  - first:
+      213: -6268709688695628380
+    second: selva_niebla_26
+  - first:
+      213: 4571522377342880407
+    second: selva_niebla_27
+  - first:
+      213: -3508723253482118893
+    second: selva_niebla_28
+  - first:
+      213: 5017311906634681277
+    second: selva_niebla_29
+  - first:
+      213: -4798686877251130672
+    second: selva_niebla_30
+  - first:
+      213: 7071425979049050358
+    second: selva_niebla_31
+  - first:
+      213: 643727377689258586
+    second: selva_niebla_32
+  - first:
+      213: -448016817566398303
+    second: selva_niebla_33
+  - first:
+      213: 1447602730839325372
+    second: selva_niebla_34
+  - first:
+      213: 1280715439920960865
+    second: selva_niebla_35
+  - first:
+      213: -6808790231328449998
+    second: selva_niebla_36
+  - first:
+      213: -7629983198802453884
+    second: selva_niebla_37
+  - first:
+      213: 7011353359104252262
+    second: selva_niebla_38
+  - first:
+      213: 7036120990864512206
+    second: selva_niebla_39
+  - first:
+      213: 8664889271052506755
+    second: selva_niebla_40
+  - first:
+      213: -4121269292363611344
+    second: selva_niebla_41
+  - first:
+      213: -7072706102488169041
+    second: selva_niebla_42
+  - first:
+      213: -4487488538433511184
+    second: selva_niebla_43
+  - first:
+      213: 8065505867401945016
+    second: selva_niebla_44
+  - first:
+      213: -880203284158725912
+    second: selva_niebla_45
+  - first:
+      213: 8955345182529493524
+    second: selva_niebla_46
+  - first:
+      213: 6308719596151712170
+    second: selva_niebla_47
+  - first:
+      213: 4989402749992094331
+    second: selva_niebla_48
+  - first:
+      213: -6247849028421209875
+    second: selva_niebla_49
+  - first:
+      213: 5432095374052435316
+    second: selva_niebla_50
+  - first:
+      213: 2389172953487788718
+    second: selva_niebla_51
+  - first:
+      213: 5665021091149972057
+    second: selva_niebla_52
+  - first:
+      213: -2175711673004399559
+    second: selva_niebla_53
+  - first:
+      213: -3517877670918278595
+    second: selva_niebla_54
+  - first:
+      213: 773253745781738375
+    second: selva_niebla_55
+  - first:
+      213: -5574900087713406657
+    second: selva_niebla_56
+  - first:
+      213: 1800950719658994599
+    second: selva_niebla_57
+  - first:
+      213: -7239628113284450548
+    second: selva_niebla_58
+  - first:
+      213: 2032024629848510325
+    second: selva_niebla_59
+  - first:
+      213: 7774340827473698358
+    second: selva_niebla_60
+  - first:
+      213: 3490073109205634325
+    second: selva_niebla_61
+  - first:
+      213: 2058635665886173731
+    second: selva_niebla_62
+  - first:
+      213: -3212818682768881204
+    second: selva_niebla_63
+  - first:
+      213: -8702209837344704925
+    second: selva_niebla_64
+  - first:
+      213: -1207689715060613436
+    second: selva_niebla_65
+  - first:
+      213: -1306041409652252520
+    second: selva_niebla_66
+  - first:
+      213: 3939055626123764166
+    second: selva_niebla_67
+  - first:
+      213: 8198157842563025538
+    second: selva_niebla_68
+  - first:
+      213: 7901593453383414020
+    second: selva_niebla_69
+  - first:
+      213: 5343259727491406283
+    second: selva_niebla_70
+  - first:
+      213: 3016028615397462017
+    second: selva_niebla_71
+  - first:
+      213: -1522534918770954127
+    second: selva_niebla_72
+  - first:
+      213: -1321082549803270560
+    second: selva_niebla_73
+  - first:
+      213: 4957794899475958441
+    second: selva_niebla_74
+  - first:
+      213: -2369081289605711369
+    second: selva_niebla_75
+  - first:
+      213: -1772698452797227901
+    second: selva_niebla_76
+  - first:
+      213: -8556796941283697240
+    second: selva_niebla_77
+  - first:
+      213: -2113660220800773384
+    second: selva_niebla_78
+  - first:
+      213: -7682237850177210273
+    second: selva_niebla_79
+  - first:
+      213: 1057900218698745866
+    second: selva_niebla_80
+  - first:
+      213: -7808697899926026289
+    second: selva_niebla_81
+  - first:
+      213: -4297133241477114138
+    second: selva_niebla_82
+  - first:
+      213: -5855572001205928303
+    second: selva_niebla_83
+  - first:
+      213: -3837430564358973846
+    second: selva_niebla_84
+  - first:
+      213: 4609227040889123701
+    second: selva_niebla_85
+  - first:
+      213: -9092934654730918694
+    second: selva_niebla_86
+  - first:
+      213: -3782770802993076111
+    second: selva_niebla_87
+  - first:
+      213: -1978287274212884368
+    second: selva_niebla_88
+  - first:
+      213: 4511427591363435466
+    second: selva_niebla_89
+  - first:
+      213: 5292992483494455240
+    second: selva_niebla_90
+  - first:
+      213: -5105895221606002527
+    second: selva_niebla_91
+  - first:
+      213: -8653813595686879679
+    second: selva_niebla_92
+  - first:
+      213: -2880229113197755054
+    second: selva_niebla_93
+  - first:
+      213: -9027381105188560391
+    second: selva_niebla_94
+  - first:
+      213: 7548251475790646589
+    second: selva_niebla_95
+  - first:
+      213: -5746292525976129401
+    second: selva_niebla_96
+  - first:
+      213: 5890921799794762591
+    second: selva_niebla_97
+  - first:
+      213: -2517659159068516603
+    second: selva_niebla_98
+  - first:
+      213: -3403256590439130456
+    second: selva_niebla_99
+  - first:
+      213: 7287026668218398053
+    second: selva_niebla_100
+  - first:
+      213: 4650937317089053324
+    second: selva_niebla_101
+  - first:
+      213: 3042555180606953575
+    second: selva_niebla_102
+  - first:
+      213: -6243055257601160914
+    second: selva_niebla_103
+  - first:
+      213: 9170093445948221911
+    second: selva_niebla_104
+  - first:
+      213: 6033223725515327095
+    second: selva_niebla_105
+  - first:
+      213: 3942942547454153156
+    second: selva_niebla_106
+  - first:
+      213: -655407219305101515
+    second: selva_niebla_107
+  - first:
+      213: -7713414198465927609
+    second: selva_niebla_108
+  - first:
+      213: 7962205236815865193
+    second: selva_niebla_109
+  - first:
+      213: 1227336122114083896
+    second: selva_niebla_110
+  - first:
+      213: 8006747703592507705
+    second: selva_niebla_111
+  - first:
+      213: 1037348792999347384
+    second: selva_niebla_112
+  - first:
+      213: 2303151347712443393
+    second: selva_niebla_113
+  - first:
+      213: 2983781737419753394
+    second: selva_niebla_114
+  - first:
+      213: -7570395934866427020
+    second: selva_niebla_115
+  - first:
+      213: 4212426115941777616
+    second: selva_niebla_116
+  - first:
+      213: 1222465992550108129
+    second: selva_niebla_117
+  - first:
+      213: 2679648382985740691
+    second: selva_niebla_118
+  - first:
+      213: 7508386641043296577
+    second: selva_niebla_119
+  - first:
+      213: -3555838609686269915
+    second: selva_niebla_120
+  - first:
+      213: 6202646203003882050
+    second: selva_niebla_121
+  - first:
+      213: -1863716094321227931
+    second: selva_niebla_122
+  - first:
+      213: -243347014213955220
+    second: selva_niebla_123
+  - first:
+      213: 5976738096284273207
+    second: selva_niebla_124
+  - first:
+      213: -8654028856124875041
+    second: selva_niebla_125
+  - first:
+      213: 5284407634723407240
+    second: selva_niebla_126
+  - first:
+      213: 3255323021710848401
+    second: selva_niebla_127
+  - first:
+      213: -7812682814059825890
+    second: selva_niebla_128
+  - first:
+      213: -3659590905899640324
+    second: selva_niebla_129
+  - first:
+      213: -6419664211580436691
+    second: selva_niebla_130
+  - first:
+      213: 3296727468084693279
+    second: selva_niebla_131
+  - first:
+      213: 4634740780978183236
+    second: selva_niebla_132
+  - first:
+      213: 6528522597630406112
+    second: selva_niebla_133
+  - first:
+      213: 1833498129040608712
+    second: selva_niebla_134
+  - first:
+      213: 8505670102557614805
+    second: selva_niebla_135
+  - first:
+      213: 6217159278743461119
+    second: selva_niebla_136
+  - first:
+      213: 2713980775111939940
+    second: selva_niebla_137
+  - first:
+      213: -5103007903534582486
+    second: selva_niebla_138
+  - first:
+      213: 8549905877599040796
+    second: selva_niebla_139
+  - first:
+      213: 2108995990814356146
+    second: selva_niebla_140
+  - first:
+      213: -1413572008146544711
+    second: selva_niebla_141
+  - first:
+      213: -3348871223109534056
+    second: selva_niebla_142
+  - first:
+      213: 332781269046032439
+    second: selva_niebla_143
+  - first:
+      213: 5044544218714605022
+    second: selva_niebla_144
+  - first:
+      213: -3218412881281851606
+    second: selva_niebla_145
+  - first:
+      213: -3133121216575184536
+    second: selva_niebla_146
+  - first:
+      213: -5916753408170996035
+    second: selva_niebla_147
+  - first:
+      213: -8457372291509890469
+    second: selva_niebla_148
+  - first:
+      213: -5885871815182151437
+    second: selva_niebla_149
+  - first:
+      213: 7477333511972491623
+    second: selva_niebla_150
+  - first:
+      213: -4555995906790080424
+    second: selva_niebla_151
+  - first:
+      213: 5565446287427354855
+    second: selva_niebla_152
+  - first:
+      213: 6042857476293131397
+    second: selva_niebla_153
+  - first:
+      213: 4497394702269317386
+    second: selva_niebla_154
+  - first:
+      213: 1281382973343340699
+    second: selva_niebla_155
+  - first:
+      213: -2246916141304202369
+    second: selva_niebla_156
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 1
+  spritePivot: {x: 0, y: 1}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: selva_niebla_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 46
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dbc0bbaee5389b60800000000000000
+      internalID: 7753006057717287893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_1
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 45
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee7cf12019d028950800000000000000
+      internalID: 6449732532805027822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_2
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 45
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 934658b037baad170800000000000000
+      internalID: 8204058181811659833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_3
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 45
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d77c83f88f5432a60800000000000000
+      internalID: 7648033526062303101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_4
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 45
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d43527613f36da970800000000000000
+      internalID: 8767773945265017677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_5
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 45
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c533b128c2cf8da0800000000000000
+      internalID: -5940315218663754302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_6
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 45
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82546258fa2345f40800000000000000
+      internalID: 5716249556474545448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_7
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 45
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd779088b3d0dc320800000000000000
+      internalID: 2579732710889715676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_8
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 45
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3623d2bcb628fb610800000000000000
+      internalID: 1639172188867998307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_9
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 45
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5b7f1ab4faa5b8e0800000000000000
+      internalID: -1678247318054274212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_10
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 44
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5befa47bbf76c0df0800000000000000
+      internalID: -212680751583658315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_11
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 44
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a2a1dcd102f6f980800000000000000
+      internalID: -8505344756428987738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_12
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 44
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca3496f7dd12b5d20800000000000000
+      internalID: 3268243189796520876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_13
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 44
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a26173126ae63a670800000000000000
+      internalID: 8548798177480218154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_14
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 44
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0466919a3e2faf80800000000000000
+      internalID: -8093199176275958774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_15
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 44
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9a59acad63a20d40800000000000000
+      internalID: 5549177382317415067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_16
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 44
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1023365b9acf253c0800000000000000
+      internalID: -4372154482400480767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_17
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 44
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9864a81ee39588c0800000000000000
+      internalID: -3997626443396519781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_18
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 44
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6449601a631f5a8e0800000000000000
+      internalID: -1682673668820921274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_19
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 44
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04de6771842061ff0800000000000000
+      internalID: -65862635895722688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_20
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 43
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdb00da5cda275c50800000000000000
+      internalID: 6653834100367952863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_21
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 43
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54508859667e2e800800000000000000
+      internalID: 640328524821431621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_22
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 43
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d54dacbbae5caff0800000000000000
+      internalID: -23539806345804329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_23
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 43
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82d623fe33b92a670800000000000000
+      internalID: 8548565690061319464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_24
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 43
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7dbd3a9857132a90800000000000000
+      internalID: -7339997298371478149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_25
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 43
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bea049a79700e060800000000000000
+      internalID: 6980587770385313457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_26
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 43
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ad5f3d40c11109a0800000000000000
+      internalID: -6268709688695628380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_27
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 43
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79a8548916f417f30800000000000000
+      internalID: 4571522377342880407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_28
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 43
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 311ab0d7ac28e4fc0800000000000000
+      internalID: -3508723253482118893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_29
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 43
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbb4c42a89211a540800000000000000
+      internalID: 5017311906634681277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_30
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 43
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0da2e1da5b3a76db0800000000000000
+      internalID: -4798686877251130672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_31
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 43
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f000b04670c22260800000000000000
+      internalID: 7071425979049050358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_32
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 43
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5aac5fa3aafee800800000000000000
+      internalID: 643727377689258586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_33
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 43
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a8cd8ff31358c9f0800000000000000
+      internalID: -448016817566398303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_34
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 43
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cba3093930be61410800000000000000
+      internalID: 1447602730839325372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_35
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 43
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 165d8d638e306c110800000000000000
+      internalID: 1280715439920960865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_36
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 43
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23a948feb515281a0800000000000000
+      internalID: -6808790231328449998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_37
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 43
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48a5e21c4badc1690800000000000000
+      internalID: -7629983198802453884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_38
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 43
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 669962c7bb45d4160800000000000000
+      internalID: 7011353359104252262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_39
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 43
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec4162123c255a160800000000000000
+      internalID: 7036120990864512206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_40
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 43
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3869d2b22eedf3870800000000000000
+      internalID: 8664889271052506755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_41
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 43
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03301fcf96f4ec6c0800000000000000
+      internalID: -4121269292363611344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_42
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 43
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa58478c543b8dd90800000000000000
+      internalID: -7072706102488169041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_43
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 43
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f0a80533fc39b1c0800000000000000
+      internalID: -4487488538433511184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_44
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 43
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bf52508ade6eef60800000000000000
+      internalID: 8065505867401945016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_45
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 43
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e0469dc6c3e8c3f0800000000000000
+      internalID: -880203284158725912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_46
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 43
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41a1dadfef6c74c70800000000000000
+      internalID: 8955345182529493524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_47
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 43
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa92b243c031d8750800000000000000
+      internalID: 6308719596151712170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_48
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 43
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7ac2aabd5bed3540800000000000000
+      internalID: 4989402749992094331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_49
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 43
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de03fa2496e2b49a0800000000000000
+      internalID: -6247849028421209875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_50
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 43
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 475207456fda26b40800000000000000
+      internalID: 5432095374052435316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_51
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 43
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaa4c9f842c082120800000000000000
+      internalID: 2389172953487788718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_52
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 43
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9520717faa23e9e40800000000000000
+      internalID: 5665021091149972057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_53
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 43
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 934e6e4c2c15ec1e0800000000000000
+      internalID: -2175711673004399559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_54
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 43
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3233a595ecfd2fc0800000000000000
+      internalID: -3517877670918278595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_55
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 43
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78b8f865f262bba00800000000000000
+      internalID: 773253745781738375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_56
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 43
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f316c8548e9f1a2b0800000000000000
+      internalID: -5574900087713406657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_57
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 43
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ab224f33234ef810800000000000000
+      internalID: 1800950719658994599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_58
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 43
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c07bfb1969ca78b90800000000000000
+      internalID: -7239628113284450548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_59
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 43
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57f07fc72a3333c10800000000000000
+      internalID: 2032024629848510325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_60
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 43
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63ed268dac104eb60800000000000000
+      internalID: 7774340827473698358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_61
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 43
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51d485a600b3f6030800000000000000
+      internalID: 3490073109205634325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_62
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 43
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32a58132b3eb19c10800000000000000
+      internalID: 2058635665886173731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_63
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 44
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc982d52e66c963d0800000000000000
+      internalID: -3212818682768881204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_64
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 44
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 366b82c524a8b3780800000000000000
+      internalID: -8702209837344704925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_65
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 44
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ce5bee4a9c6d3fe0800000000000000
+      internalID: -1207689715060613436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_66
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 44
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8902ab3f14200ede0800000000000000
+      internalID: -1306041409652252520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_67
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 44
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c16c91d8365aa630800000000000000
+      internalID: 3939055626123764166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_68
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 44
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28a4d824f15b5c170800000000000000
+      internalID: 8198157842563025538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_69
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 44
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4017874a16918ad60800000000000000
+      internalID: 7901593453383414020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_70
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 44
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc996cf8962172a40800000000000000
+      internalID: 5343259727491406283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_71
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 44
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 100dd2dcb061bd920800000000000000
+      internalID: 3016028615397462017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_72
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 45
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1707780ee8ededae0800000000000000
+      internalID: -1522534918770954127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_73
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 45
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06e320c9b629aade0800000000000000
+      internalID: -1321082549803270560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_74
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 45
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aa028c8130adc440800000000000000
+      internalID: 4957794899475958441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_75
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 45
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f9f6097e155f1fd0800000000000000
+      internalID: -2369081289605711369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_76
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 45
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38cf22b362c1667e0800000000000000
+      internalID: -1772698452797227901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_77
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 45
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8add2ab8486204980800000000000000
+      internalID: -8556796941283697240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_78
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 45
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f2db435a35caa2e0800000000000000
+      internalID: -2113660220800773384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_79
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 45
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f587024a065336590800000000000000
+      internalID: -7682237850177210273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_80
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 45
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a08c857d4aa6eae00800000000000000
+      internalID: 1057900218698745866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_81
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 46
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc7029cd1aee1a390800000000000000
+      internalID: -7808697899926026289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_82
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 46
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e6db3585148d54c0800000000000000
+      internalID: -4297133241477114138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_83
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 46
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19eb56ff944dcbea0800000000000000
+      internalID: -5855572001205928303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_84
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 46
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a661829bb35bebac0800000000000000
+      internalID: -3837430564358973846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_85
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 46
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 573325da29347ff30800000000000000
+      internalID: 4609227040889123701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_86
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 46
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad4ace2ab186fc180800000000000000
+      internalID: -9092934654730918694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_87
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 46
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 178e0e42ff5e08bc0800000000000000
+      internalID: -3782770802993076111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_88
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 46
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0708ddc9436bb84e0800000000000000
+      internalID: -1978287274212884368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_89
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 47
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acb1d15ed7fcb9e30800000000000000
+      internalID: 4511427591363435466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_90
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 47
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c7ef79ce9c747940800000000000000
+      internalID: 5292992483494455240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_91
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 47
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a05fcf19573429b0800000000000000
+      internalID: -5105895221606002527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_92
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 47
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14e33a4726a77e780800000000000000
+      internalID: -8653813595686879679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_93
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 47
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2550c14b1ee5708d0800000000000000
+      internalID: -2880229113197755054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_94
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 47
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f1a925c6bc48b280800000000000000
+      internalID: -9027381105188560391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_95
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 47
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3dc1d199b6c0c860800000000000000
+      internalID: 7548251475790646589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_96
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 47
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 780f5bd84611140b0800000000000000
+      internalID: -5746292525976129401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_97
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 47
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f532f5c5a22c0c150800000000000000
+      internalID: 5890921799794762591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_98
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 47
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50f563e755a7f0dd0800000000000000
+      internalID: -2517659159068516603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_99
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 48
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aa5e57892435c0d0800000000000000
+      internalID: -3403256590439130456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_100
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 48
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 565b4fb7528b02560800000000000000
+      internalID: 7287026668218398053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_101
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 48
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8a83b129d27b8040800000000000000
+      internalID: 4650937317089053324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_102
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 48
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7681a9d01d3593a20800000000000000
+      internalID: 3042555180606953575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_103
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 48
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e294c8102563c59a0800000000000000
+      internalID: -6243055257601160914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_104
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 48
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d9a1e26767b24f70800000000000000
+      internalID: 9170093445948221911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_105
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 48
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 776ccc153015ab350800000000000000
+      internalID: 6033223725515327095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_106
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 48
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c157c63b5528b630800000000000000
+      internalID: 3942942547454153156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_107
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 48
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 537c7164b9687e6f0800000000000000
+      internalID: -655407219305101515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_108
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 48
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 746ebf667a274f490800000000000000
+      internalID: -7713414198465927609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_109
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 48
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9652a213a7f6f7e60800000000000000
+      internalID: 7962205236815865193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_110
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 48
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83c8d9a43bf580110800000000000000
+      internalID: 1227336122114083896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_111
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 48
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9395ec66d9ead1f60800000000000000
+      internalID: 8006747703592507705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_112
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 48
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b408ea2b37656e00800000000000000
+      internalID: 1037348792999347384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_113
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 48
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 104cc58b2ff66ff10800000000000000
+      internalID: 2303151347712443393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_114
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 48
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b7c3327ea5886920800000000000000
+      internalID: 2983781737419753394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_115
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 48
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 473b935c10d80f690800000000000000
+      internalID: -7570395934866427020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_116
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 48
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d0c94beb3b857a30800000000000000
+      internalID: 4212426115941777616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_117
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 48
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ebc1f3e75217f010800000000000000
+      internalID: 1222465992550108129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_118
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 48
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 391a0d6c106003520800000000000000
+      internalID: 2679648382985740691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_119
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 48
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1419caf6ed5233860800000000000000
+      internalID: 7508386641043296577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_120
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 48
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 520f707cf9f17aec0800000000000000
+      internalID: -3555838609686269915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_121
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 48
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24ac87dcbd9341650800000000000000
+      internalID: 6202646203003882050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_122
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 48
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5670ecb2610c226e0800000000000000
+      internalID: -1863716094321227931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_123
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 48
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6110ac0e257f9cf0800000000000000
+      internalID: -243347014213955220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_124
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 48
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73a8198e1a3a1f250800000000000000
+      internalID: 5976738096284273207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_125
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 48
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fde52ba3b96b6e780800000000000000
+      internalID: -8654028856124875041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_126
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 48
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8850d0ceebcf55940800000000000000
+      internalID: 5284407634723407240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_127
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 48
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 191f9327a0b3d2d20800000000000000
+      internalID: 3255323021710848401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_128
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 48
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e153a2dbf56c39390800000000000000
+      internalID: -7812682814059825890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_129
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 48
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf91a9ed575863dc0800000000000000
+      internalID: -3659590905899640324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_130
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 48
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2fb5739965c8e6a0800000000000000
+      internalID: -6419664211580436691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_131
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 48
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1906785a2450cd20800000000000000
+      internalID: 3296727468084693279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_132
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 48
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44c98343f28e15040800000000000000
+      internalID: 4634740780978183236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_133
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 48
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0edeed386b8f99a50800000000000000
+      internalID: 6528522597630406112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_134
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 48
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cd0fc585d4e17910800000000000000
+      internalID: 1833498129040608712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_135
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 48
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d26b9fa4e53a0670800000000000000
+      internalID: 8505670102557614805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_136
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 48
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffc17819c69c74650800000000000000
+      internalID: 6217159278743461119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_137
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 48
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46759cbb22ff9a520800000000000000
+      internalID: 2713980775111939940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_138
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a257fcf39597e29b0800000000000000
+      internalID: -5103007903534582486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_139
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c15b059a81e57a670800000000000000
+      internalID: 8549905877599040796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_140
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b276310ea8a44d10800000000000000
+      internalID: 2108995990814356146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_141
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b75dfd7fbbf16ce0800000000000000
+      internalID: -1413572008146544711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_142
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 47
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89e370c9d5b6681d0800000000000000
+      internalID: -3348871223109534056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_143
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 47
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73874611dc64e9400800000000000000
+      internalID: 332781269046032439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_144
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 47
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed50c326d32d10640800000000000000
+      internalID: 5044544218714605022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_145
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 47
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2f57ae4986e553d0800000000000000
+      internalID: -3218412881281851606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_146
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 47
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 861ebcf7adae484d0800000000000000
+      internalID: -3133121216575184536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_147
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 47
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbec262af1873eda0800000000000000
+      internalID: -5916753408170996035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_148
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 47
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b52525fb5b061aa80800000000000000
+      internalID: -8457372291509890469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_149
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 47
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f0959ec4ce215ea0800000000000000
+      internalID: -5885871815182151437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_150
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 47
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7619e386633d4c760800000000000000
+      internalID: 7477333511972491623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_151
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 47
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 850c4a98cd9d5c0c0800000000000000
+      internalID: -4555995906790080424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_152
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 46
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e0cf9259ef6c3d40800000000000000
+      internalID: 5565446287427354855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_153
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 46
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58cf3c6bbda8cd350800000000000000
+      internalID: 6042857476293131397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_154
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 46
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a018c7b47a4f96e30800000000000000
+      internalID: 4497394702269317386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_155
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 46
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b981d53760368c110800000000000000
+      internalID: 1281382973343340699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_niebla_156
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 46
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7bb8759ca951d0e0800000000000000
+      internalID: -2246916141304202369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

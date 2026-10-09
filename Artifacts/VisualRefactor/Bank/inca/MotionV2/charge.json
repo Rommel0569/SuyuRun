@@ -1,0 +1,22 @@
+{
+  "frames": 8,
+  "frameWidth": 128,
+  "frameHeight": 128,
+  "pixelsPerUnit": 64,
+  "fps": 10,
+  "loop": false,
+  "orientation": "left",
+  "integrated": false,
+  "playTested": false,
+  "bodyRegistrationReviewRequired": true,
+  "frameDurationsMs": [
+    130,
+    130,
+    100,
+    70,
+    110,
+    90,
+    110,
+    170
+  ]
+}

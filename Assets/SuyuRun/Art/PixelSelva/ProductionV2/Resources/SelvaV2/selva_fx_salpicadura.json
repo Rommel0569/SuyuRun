@@ -1,0 +1,42 @@
+{
+  "name": "selva_fx_salpicadura",
+  "frameWidth": 32,
+  "frameHeight": 32,
+  "frames": 4,
+  "fps": 12,
+  "loop": false,
+  "ppu": 32,
+  "pivot": [
+    0,
+    1
+  ],
+  "rectsUnity": [
+    {
+      "x": 0,
+      "y": 0,
+      "width": 32,
+      "height": 32
+    },
+    {
+      "x": 32,
+      "y": 0,
+      "width": 32,
+      "height": 32
+    },
+    {
+      "x": 64,
+      "y": 0,
+      "width": 32,
+      "height": 32
+    },
+    {
+      "x": 96,
+      "y": 0,
+      "width": 32,
+      "height": 32
+    }
+  ],
+  "group": "Effects",
+  "factor": 1,
+  "seamlessX": false
+}

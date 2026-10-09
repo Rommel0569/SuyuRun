@@ -1,0 +1,52 @@
+{
+  "name": "selva_esbirro_ecoinca_caminar",
+  "frameWidth": 32,
+  "frameHeight": 40,
+  "frames": 6,
+  "fps": 10,
+  "loop": true,
+  "ppu": 32,
+  "pivot": [
+    0,
+    1
+  ],
+  "rectsUnity": [
+    {
+      "x": 0,
+      "y": 0,
+      "width": 32,
+      "height": 40
+    },
+    {
+      "x": 32,
+      "y": 0,
+      "width": 32,
+      "height": 40
+    },
+    {
+      "x": 64,
+      "y": 0,
+      "width": 32,
+      "height": 40
+    },
+    {
+      "x": 96,
+      "y": 0,
+      "width": 32,
+      "height": 40
+    },
+    {
+      "x": 128,
+      "y": 0,
+      "width": 32,
+      "height": 40
+    },
+    {
+      "x": 160,
+      "y": 0,
+      "width": 32,
+      "height": 40
+    }
+  ],
+  "group": "Combat"
+}

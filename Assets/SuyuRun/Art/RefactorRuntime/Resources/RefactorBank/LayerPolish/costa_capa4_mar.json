@@ -1,0 +1,16 @@
+{
+  "frames": 4,
+  "frameWidth": 1280,
+  "frameHeight": 360,
+  "logicalWidth": 640,
+  "logicalHeight": 180,
+  "pixelsPerUnit": 64,
+  "fps": 4,
+  "loop": true,
+  "original": "Assets/SuyuRun/Art/PixelCosta/Resources/costa_capa4_mar.png",
+  "source": "Artifacts/VisualRefactor/LayerPolish/Sources/costa_capa4_mar.png",
+  "finish": "independent imagegen framewise redraw",
+  "fullPlaythroughTested": false,
+  "previous": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/costa_capa4_mar.json",
+  "alphaMode": "preserveSource"
+}

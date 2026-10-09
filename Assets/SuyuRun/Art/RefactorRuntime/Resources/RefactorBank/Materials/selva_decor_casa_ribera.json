@@ -1,0 +1,14 @@
+{
+  "frames": 1,
+  "frameWidth": 192,
+  "frameHeight": 160,
+  "logicalWidth": 96,
+  "logicalHeight": 80,
+  "pixelsPerUnit": 64,
+  "fps": 5,
+  "loop": true,
+  "original": "Assets/SuyuRun/Art/PixelSelva/ProductionV2/Resources/SelvaV2/selva_decor_casa_ribera.png",
+  "source": "Tools/finish_remaining_visuals.py",
+  "finish": "native cluster micro-contours; preserved original composition",
+  "fullPlaythroughTested": false
+}

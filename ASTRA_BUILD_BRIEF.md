@@ -1,5 +1,57 @@
 # SuyuRun - Encargo maestro de implementación para GPT-6 Astra
 
+## Prioridad vigente — refactor y escala global, 03/10/2026
+
+El usuario amplió el encargo a todos los escenarios/obstáculos, sin cambiar
+recorrido ni música. Leer ART_BIBLE.md, ART_APPROVALS.md y
+Artifacts/VisualRefactor/GLOBAL_SCALE_AND_DETAIL.md. Héroe con escala común
+0.85, carrera/disparo corriendo/agachado revisados; colisiones proporcionales.
+Seis capas detalladas con contrato de resolución independiente, ya conectadas.
+Doce pruebas de combate completas a 30/60/120 FPS; cuatro portales, cargadores
+y clearance verificados. Smoke Unity sin excepciones, NO recorrido completo.
+Resta redibujar otras capas, plataformas/obstáculos/UI y validar visualmente
+todo el recorrido. No afirmar que TODO el arte fue aumentado ni que no hay bugs.
+No crear otro ejecutable. Fuentes y anteriores conservados.
+
+## Prioridad vigente — Selva V2, 02/10/2026
+
+El usuario cambió el encargo de paquete de arte a pulido + integración Unity. Ver `Docs/SELVA_V2_ARTE_E_INTEGRACION.md`. Escena `Level_Selva`, recursos `SelvaV2`, caimán físico con hitboxes por frame, agua reactiva y lianas pendulares. Costa/Sierra cerrados; no reabrir su gameplay. Paleta propuesta 28 colores dentro de la nueva dirección 24–32, revisión visual pendiente.
+
+Verificaciones y capturas reales en `Artifacts/SelvaV2`; GIF de estudio separado de las pruebas Play. No compilar otro ejecutable. Falta validación humana de dificultad y de notas MIDI dudosas; no asumir que la extracción automática del MIDI equivale a validación de oído.
+
+## Prioridad nueva — cuevas de Sierra
+
+Última regla confirmada: `Docs/SIERRA_CIERRE_JUGABILIDAD_26_SEPTIEMBRE.md`.
+Salida3s después de derrotar a todos; prórroga5s al minuto si un objetivo completo.
+
+Revisión más reciente: `Docs/SIERRA_CUEVAS_COMBATE_26_SEPTIEMBRE.md`.
+Munición5/recarga4s, hasta15esbirros, cinematográficas y combos específicos.
+
+Leer `Docs/SIERRA_CUEVAS_25_SEPTIEMBRE.md` antes de continuar. El usuario autorizó
+expresamente producir el lote completo de arte de ambas cuevas; paleta/estilo sin
+cambios. Cada una dura su MP3 de60,0555s, fuera de la ingeniería MIDI del runner.
+Controles laterales A/D, W/ESP doble salto, S bajar, clic/E pistola. No autorun
+ni huaraca dentro. Congelar el segundo de Sierra y reanudarlo al salir, sin deriva.
+No tomar los reportes antiguos como prueba de las cuevas nuevas.
+
+## Dirección vigente — especificaciones adicionales de Sierra
+
+Entrega funcional para prueba: `Docs/SIERRA_LISTO_PARA_PROBAR.md`.
+Estado por sección: `Docs/SIERRA_CHECKLIST_ESPECIFICACIONES.md`; halcón y roca aprobados.
+Portal/cámara, museo, tienda, ajustes y cierre de nivel integrados. No confundir pruebas automáticas
+con aceptación manual del usuario o validación auditiva de la correspondencia MIDI/MP3.
+
+Leer completo `Docs/SIERRA_ESPECIFICACIONES_ADICIONALES.md`, copia del documento nuevo del usuario.
+El fondo actual de Sierra queda congelado. Reutilizar los sistemas existentes de RunnerPrototype
+(monedas, respawn, HUD, pausa, resultados, progreso); no ampliar la integración aislada como arquitectura definitiva.
+Conservar Costa y los avances de Sierra. La migración debe mantener el comportamiento de Costa.
+Confirmado por el usuario: la recompensa es el traje protector YA EXISTENTE para continuar a Selva;
+las menciones a traje de guerrilla y regreso a Costa en el documento adjunto son erróneas.
+Autorizado conectar el teleporte final de Costa con Sierra. Costa permanece cerrado en todo lo demás:
+no cambiar su arte, recorrido, obstáculos, música ni balance. Conservar su secuencia de portal existente.
+La conexión debe formar parte del flujo compartido; no presentar la escena aislada de integración como
+cumplimiento definitivo de la arquitectura solicitada.
+
 > DIRECCIÓN VIGENTE: leer completo `ART_BIBLE.md` antes de cualquier asset y consultar `ART_APPROVALS.md`. La biblia pixel art del usuario sustituye las decisiones anteriores incompatibles. Un asset/capa por entrega; esperar aprobación antes del siguiente. El mandato de autonomía siguiente no autoriza saltarse esas aprobaciones.
 
 ## Mandato de ejecución

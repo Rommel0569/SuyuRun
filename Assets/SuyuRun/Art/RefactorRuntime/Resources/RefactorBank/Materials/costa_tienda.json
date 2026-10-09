@@ -1,0 +1,14 @@
+{
+  "frames": 1,
+  "frameWidth": 560,
+  "frameHeight": 360,
+  "logicalWidth": 280,
+  "logicalHeight": 180,
+  "pixelsPerUnit": 64,
+  "fps": 6,
+  "loop": true,
+  "original": "Assets/SuyuRun/Art/PixelCosta/Resources/costa_tienda.png",
+  "source": "Tools/finish_remaining_visuals.py",
+  "finish": "native cluster micro-contours; preserved original composition",
+  "fullPlaythroughTested": false
+}

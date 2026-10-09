@@ -1,0 +1,32 @@
+{
+  "name": "selva_caiman_idle",
+  "file": "Enemies/selva_caiman_idle.png",
+  "frameWidth": 64,
+  "frameHeight": 32,
+  "frames": 2,
+  "layout": "horizontal",
+  "fps": 9,
+  "loop": true,
+  "ppu": 32,
+  "pivot": [
+    0.5,
+    0
+  ],
+  "parallax": 1,
+  "seamlessX": false,
+  "status": "proposal_pending_visual_approval",
+  "rectsUnity": [
+    {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 32
+    },
+    {
+      "x": 64,
+      "y": 0,
+      "width": 64,
+      "height": 32
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "frames": 4,
+  "frameWidth": 128,
+  "frameHeight": 128,
+  "pixelsPerUnit": 64,
+  "fps": 6,
+  "loop": true,
+  "orientation": "right",
+  "integrated": false,
+  "region": "costa",
+  "referenceExtent": 116,
+  "footY": 124
+}

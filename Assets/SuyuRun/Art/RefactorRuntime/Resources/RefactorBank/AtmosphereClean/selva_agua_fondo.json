@@ -1,0 +1,16 @@
+{
+  "frames": 6,
+  "frameWidth": 2560,
+  "frameHeight": 720,
+  "logicalWidth": 640,
+  "logicalHeight": 180,
+  "pixelsPerUnit": 128,
+  "fps": 8,
+  "loop": true,
+  "original": "Assets/SuyuRun/Art/PixelSelva/ProductionV2/Resources/SelvaV2/selva_agua_fondo.png",
+  "source": "Artifacts/VisualRefactor/AtmosphereClean/Sources/selva_agua_fondo.png",
+  "finish": "independent imagegen framewise redraw",
+  "fullPlaythroughTested": false,
+  "previous": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/selva_agua_fondo.json",
+  "alphaMode": "preserveSource"
+}

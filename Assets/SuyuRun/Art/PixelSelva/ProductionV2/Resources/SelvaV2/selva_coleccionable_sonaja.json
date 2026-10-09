@@ -1,0 +1,31 @@
+{
+  "name": "selva_coleccionable_sonaja",
+  "frameWidth": 16,
+  "frameHeight": 16,
+  "frames": 2,
+  "fps": 3,
+  "loop": true,
+  "ppu": 32,
+  "pivot": [
+    0,
+    1
+  ],
+  "rectsUnity": [
+    {
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    {
+      "x": 16,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  ],
+  "group": "Collectibles",
+  "factor": 1,
+  "seamlessX": false,
+  "notes": "Original illustrative motif, not a museum reconstruction. Cultural attribution must be researched before a historical ficha."
+}

@@ -1,0 +1,33 @@
+{
+  "name": "selva_coleccionable_ceramica",
+  "file": "Collectibles/selva_coleccionable_ceramica.png",
+  "frameWidth": 16,
+  "frameHeight": 16,
+  "frames": 2,
+  "layout": "horizontal",
+  "fps": 3,
+  "loop": true,
+  "ppu": 32,
+  "pivot": [
+    0.5,
+    0
+  ],
+  "parallax": 1,
+  "seamlessX": false,
+  "status": "proposal_pending_visual_approval",
+  "notes": "Original illustrative motif, not a museum reconstruction. Cultural attribution must be researched before a historical ficha.",
+  "rectsUnity": [
+    {
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    {
+      "x": 16,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  ]
+}

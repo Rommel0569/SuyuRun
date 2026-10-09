@@ -1,0 +1,38 @@
+{
+  "ceramica": {
+    "size": [
+      64,
+      64
+    ],
+    "colors": 21,
+    "binary_alpha": true,
+    "approval": "pending"
+  },
+  "flauta": {
+    "size": [
+      64,
+      64
+    ],
+    "colors": 14,
+    "binary_alpha": true,
+    "approval": "pending"
+  },
+  "textil": {
+    "size": [
+      64,
+      64
+    ],
+    "colors": 21,
+    "binary_alpha": true,
+    "approval": "pending"
+  },
+  "sonaja": {
+    "size": [
+      64,
+      64
+    ],
+    "colors": 20,
+    "binary_alpha": true,
+    "approval": "pending"
+  }
+}

@@ -97,12 +97,14 @@ namespace SuyuRun
             if(interlude==Interlude.Arrival)
             {
                 Draw("portal_ceremonial",20,Surface(48,act)-106,14,t);
+                RunnerPortalIngress.Frame(pool[used-1],15);
                 if(t<1.4f)Draw("fx_teleport_anillo",16,Surface(48,act)-21,19,t);
                 if(t>1.45f&&t<2.3f)Draw("efecto_sorpresa",HeroX-16,feet-75,19,t-1.45f);
             }
             if(interlude==Interlude.Guide)
             {
                 Draw(t<1.5f?"guardian_huaraca":"guardian_idle",176,Surface(seconds*Speed+200,act)-47,16,t);
+                FaceLast(RunnerFacing.TowardLeft(200,HeroX));
                 if(t>1.8f&&t<2.6f)Draw("efecto_sorpresa",HeroX-16,feet-75,19,t-1.8f);
             }
             if(interlude==Interlude.Trap)Draw("fx_salpicadura",HeroX-16,feet-13,16,Mathf.Repeat(t,.6f));

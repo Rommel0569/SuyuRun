@@ -25,8 +25,17 @@ namespace SuyuRun
         public bool DiagnosticAutoplay;
         public string Status => complete ? "Complete" : dead||(cavePhase!=CavePhase.None&&cave!=null&&cave.dead) ? "Dead" : paused ? "Paused" : "Running";
         public float Progress => seconds;
+        // Read-only-progress visual QA: never reachable in normal gameplay.
+        public void DiagnosticAct(int index)
+        {
+            if(!DiagnosticAutoplay)return;
+            ResetCaves(false);interlude=Interlude.None;act=Mathf.Clamp(index,0,2);
+            seconds=duration*act/3+4;epoch=AudioSettings.dspTime-seconds;previous=AudioSettings.dspTime;
+            feet=Surface(seconds*Speed+HeroX,act);verticalSpeed=0;grounded=true;
+            if(music&&music.clip)music.time=Mathf.Min(seconds,music.clip.length-.05f);
+        }
         public bool IsSliding => slide&&grounded&&!dead&&interlude==Interlude.None;
-        const float Speed=224, HeroX=100, Gravity=420, JumpSpeed=190;
+        const float Speed=200, HeroX=100, Gravity=420, JumpSpeed=190;
         // Same standing/crouch proportion and grounded presentation as Costa.
         const float CrouchRatio=.48f/1.06f;
         readonly string[] acts={"camino","valle","ruinas"};
@@ -36,6 +45,7 @@ namespace SuyuRun
         readonly List<Enemy> enemies=new List<Enemy>();
         readonly List<Shot> shots=new List<Shot>();
         readonly List<Bridge> bridges=new List<Bridge>();
+        readonly List<Vector2> cliffs=new List<Vector2>();
         readonly List<Effect> effects=new List<Effect>();
         readonly HashSet<int> collected=new HashSet<int>();
         readonly List<RunnerPickup> pickups=new List<RunnerPickup>();
@@ -68,8 +78,9 @@ namespace SuyuRun
             view=new GameObject("Sierra pixel camera").AddComponent<Camera>();view.transform.SetParent(transform);
             view.orthographic=true;view.orthographicSize=180f/64;view.transform.position=new Vector3(5,180f/64,-10);
             view.clearFlags=CameraClearFlags.SolidColor;view.backgroundColor=new Color32(26,32,54,255);
-            var pixel=view.gameObject.AddComponent<PixelPerfectCamera>();pixel.assetsPPU=32;pixel.refResolutionX=320;pixel.refResolutionY=180;
-            pixel.cropFrame=PixelPerfectCamera.CropFrame.Windowbox;pixel.gridSnapping=PixelPerfectCamera.GridSnapping.UpscaleRenderTexture;
+            var pixel=view.gameObject.AddComponent<PixelPerfectCamera>();pixel.assetsPPU=64;pixel.refResolutionX=640;pixel.refResolutionY=360;
+            pixel.cropFrame=PixelPerfectCamera.CropFrame.StretchFill;pixel.gridSnapping=PixelPerfectCamera.GridSnapping.UpscaleRenderTexture;
+            RunnerPixelViewport.Configure(view);
             if(!FindFirstObjectByType<AudioListener>())view.gameObject.AddComponent<AudioListener>();
             var shader=Shader.Find("Universal Render Pipeline/2D/Sprite-Unlit-Default")??Shader.Find("Sprites/Default");
             material=new Material(shader);
@@ -94,8 +105,13 @@ namespace SuyuRun
         {
             for(int a=0;a<3;a++)
             {
-                string name=acts[a]+"_capa7_suelo";var source=Frames(name)[0];groundTiles[a]=new Sprite[20];
-                for(int i=0;i<20;i++)groundTiles[a][i]=Sprite.Create(source.texture,new Rect(i*32,0,32,180),new Vector2(0,1),32,0,SpriteMeshType.FullRect);
+                string name=acts[a]+"_capa7_suelo";var source=Frames(name)[0];source=RefactorMaterialArt.Frame("sierra_"+name,source,0);groundTiles[a]=new Sprite[20];
+                float ratio=source.pixelsPerUnit/32;
+                for(int i=0;i<20;i++)
+                {
+                    groundTiles[a][i]=Sprite.Create(source.texture,new Rect(source.rect.x+i*32*ratio,source.rect.y,32*ratio,180*ratio),new Vector2(0,1),source.pixelsPerUnit,0,SpriteMeshType.FullRect);
+                    if(ratio>1)RefactorActorArt.Register(groundTiles[a][i],new Vector2(32,180));
+                }
             }
         }
         void OnEnable()
@@ -111,6 +127,7 @@ namespace SuyuRun
         }
         Sprite[] Frames(string name)
         {
+            name=LegacySpriteName(name);
             if(sprites.TryGetValue(name,out var value))return value;
             value=Resources.LoadAll<Sprite>("SierraV3/sierra_"+name).OrderBy(s=>int.Parse(s.name.Substring(s.name.LastIndexOf('_')+1))).ToArray();
             if(value.Length==0)throw new InvalidOperationException("Missing Sierra sprite: "+name+". Run SUYURUN > Sierra V3 > Importar sprites y crear clips.");
@@ -118,10 +135,20 @@ namespace SuyuRun
         }
         Spec Data(string name)
         {
+            name=LegacySpriteName(name);
             if(specs.TryGetValue(name,out var value))return value;
             var json=Resources.Load<TextAsset>("SierraV3/sierra_"+name+".sprite");
             if(!json)throw new InvalidOperationException("Missing sprite metadata: "+name);
             value=JsonUtility.FromJson<Spec>(json.text);specs[name]=value;return value;
+        }
+        // New actor states have their own RefactorBank animation but reuse the
+        // existing guard sheet for legacy bounds. Never request nonexistent PNGs.
+        static string LegacySpriteName(string name)
+        {
+            if(name.StartsWith("heroe_")&&name.EndsWith("_shoot"))name=name.Substring(0,name.Length-6);
+            if(name=="cueva_box_reposo"||name=="cueva_box_andar")return "cueva_box_guardia";
+            if(name=="cueva_inca_reposo"||name=="cueva_inca_andar"||name=="cueva_inca_carrera_carga"||name=="cueva_inca_retroceso")return "cueva_inca_guardia";
+            return name;
         }
         void Restart(bool resume=false)
         {
@@ -178,17 +205,33 @@ namespace SuyuRun
             }
             if(resume)foreach(var e in enemies)if(defeated.Contains(e.anchor))e.dead=true;
             interlude=Interlude.None;narrativeLine="";
+            cliffs.Clear();
+            foreach(int region in new[]{0,2})
+            {
+                var candidate=enemies.FirstOrDefault(e=>e.kind=="jump"&&ActAt((e.anchor-HeroX)/Speed)==region&&(e.anchor-HeroX)/Speed>8&&(e.anchor-HeroX)/Speed<duration-8&&!NearTunnel((e.anchor-HeroX)/Speed,5)&&!enemies.Any(other=>other!=e&&!other.air&&Mathf.Abs(other.anchor-e.anchor)<180));
+                if(candidate!=null){float left=Mathf.Floor((candidate.anchor-32)/32)*32;cliffs.Add(new Vector2(left,left+96));candidate.dead=true;}
+            }
             if(!resume){guideSeen=false;escapedTraps=paidRevives=0;BeginInterlude(Interlude.Arrival);}
         }
         void Revive()
         {
-            if(dead&&checkpointTime>0&&RunnerProgress.TrySpend(ref coins,RunnerProgress.ReviveCost))
+            if(cavePhase==CavePhase.Explore&&cave!=null&&cave.dead)
+            {
+                int available=coins+cave.coins;
+                if(!RunnerProgress.TryRevive(ref available))return;
+                coins=available;cave.coins=0;paidRevives++;cave.dead=false;cave.health=cave.maxHealth;
+                cave.damageAt=cave.time+2;cave.velocity=Vector2.zero;cave.ammo=5;cave.reloadUntil=-1;
+                caveFailure="";paused=false;caveLast=AudioSettings.dspTime;caveMusic.UnPause();
+                bank=PlayerPrefs.GetInt("SuyuRun.Prototype.Bank",0);return;
+            }
+            if(dead&&checkpointTime>0&&RunnerProgress.TryRevive(ref coins))
             {paidRevives++;dead=false;rewindFrom=seconds;BeginInterlude(Interlude.Rewind);}
         }
         bool NearTunnel(float t,float margin) => Mathf.Abs(t-duration/3)<margin||Mathf.Abs(t-duration*2/3)<margin;
         int ActAt(float t)=>Mathf.Clamp((int)(t/(duration/3)),0,2);
         float Surface(float world,int region)
         {
+            if(cliffs.Any(g=>world>=g.x&&world<g.y))return 300;
             if(region==1)foreach(var b in bridges)if(world>=b.x&&world<b.x+BridgeWidth)
             {
                 if(b.life<=0&&seconds-b.hit>=.2)return 300;
@@ -291,15 +334,15 @@ namespace SuyuRun
                     if(locked.dead){locked=null;}
                     else if(!slingReleased&&seconds-slingStarted>=SlingRelease)
                     {
-                        Vector2 origin=new Vector2(seconds*Speed+HeroX+18,feet-27);
+                        Vector2 origin=new Vector2(seconds*Speed+HeroX+18*TaytaArt.WorldScale,feet-27*TaytaArt.WorldScale);
                         shots.Add(new Shot{origin=origin,position=origin,target=locked,guided=true,born=seconds});slingReleased=true;
                     }
                     if(seconds-slingStarted>=SlingRecovery)locked=null;
                 }
                 if(burst&&seconds-shotAt>.13)
                 {
-                    Vector2 origin=new Vector2(seconds*Speed+HeroX+18,feet-25);
-                    shots.Add(new Shot{origin=origin,velocity=new Vector2(Speed+390,0),born=seconds});shotAt=seconds;
+                    Vector2 origin=new Vector2(seconds*Speed+HeroX+18*TaytaArt.WorldScale,feet-25*TaytaArt.WorldScale);
+                    shots.Add(new Shot{origin=origin,velocity=new Vector2(Speed+390,0),born=seconds});shotAt=seconds;RunnerShotAudio.Play(gameObject);
                 }
                 SimulateCombat(dt);effects.RemoveAll(e=>seconds-e.time>1);
                 for(int i=0;i<3;i++)
@@ -308,9 +351,9 @@ namespace SuyuRun
                     if(!collected.Contains(i)&&Mathf.Abs(target-(seconds*Speed+HeroX))<14&&grounded)
                     {collected.Add(i);score+=250;if(!DiagnosticAutoplay){PlayerPrefs.SetInt("SuyuRun.Museum.Sierra."+new[]{"cabeza_clava","kero","quipu"}[i],1);PlayerPrefs.Save();}}
                 }
-                if(seconds>=duration&&!dead)
+                if(seconds>=duration-3&&!dead)
                 {
-                    seconds=duration;complete=true;endingAt=now;music.Stop();Cue(1500);
+                    seconds=duration-3;complete=true;endingAt=now;Cue(1500);
                     if(!rewardSaved){RunnerProgress.Finish("Sierra",coins,score,DiagnosticAutoplay,out bank,out best);rewardSaved=true;}
                 }
                 }
@@ -407,8 +450,8 @@ namespace SuyuRun
                     e.kind=="spike_pair"?Mathf.Abs(sx-HeroX)<34&&feet>ground-26:
                     e.kind=="puddle"?Mathf.Abs(sx-HeroX)<24&&feet>ground-9:
                     e.kind=="double_jump"?Mathf.Abs(sx-HeroX)<28&&feet>ground-58:
-                    e.kind=="slide"?Mathf.Abs(sx-HeroX)<41&&!slide&&feet>ground-62&&feet-40<ground-30:
-                    Mathf.Abs(sx-HeroX)<15&&Mathf.Abs((feet-(slide?15:25))-y)<(slide?14:22);
+                    e.kind=="slide"?Mathf.Abs(sx-HeroX)<32+9*TaytaArt.WorldScale&&feet>ground-(GameScale.DuckClearance+32)&&feet-(slide?GameScale.CrouchHeight:GameScale.StandingHeight)<ground-GameScale.DuckClearance:
+                    Mathf.Abs(sx-HeroX)<7+8*TaytaArt.WorldScale&&Mathf.Abs((feet-(slide?15:25)*TaytaArt.WorldScale)-y)<(slide?14:22)*TaytaArt.WorldScale;
                 // This explicitly signposted dodge hazard is lethal, even during damage grace.
                 if(overlap&&e.kind=="cross_bird"){health=0;Fail();break;}
                 if(overlap&&seconds-damageAt>1.5)
@@ -426,15 +469,29 @@ namespace SuyuRun
         {
             if(used==pool.Count){var go=new GameObject("Sierra pooled pixel visual");go.transform.SetParent(transform);var r=go.AddComponent<SpriteRenderer>();r.sharedMaterial=material;pool.Add(r);}
             var sr=pool[used++];sr.gameObject.SetActive(true);sr.sprite=sprite;sr.sortingOrder=order;sr.drawMode=SpriteDrawMode.Simple;sr.color=Color.white;
+            if(sr.GetComponent<PortalDoorMask>())RunnerPortalIngress.Apply(sr,Vector3.zero,0);
             sr.transform.localScale=Vector3.one;sr.flipX=false;
-            sr.transform.position=new Vector3((Mathf.Round(x)+sprite.pivot.x)/32,(180-Mathf.Round(y)-sprite.rect.height+sprite.pivot.y)/32,0);
+            sr.transform.position=RefactorActorArt.IsRegistered(sprite)?new Vector3(GameScale.SnapVisual(x,true)/32,(180-GameScale.SnapVisual(y,true))/32,0):new Vector3((Mathf.Round(x)+sprite.pivot.x)/32,(180-Mathf.Round(y)-sprite.rect.height+sprite.pivot.y)/32,0);
             return sr;
         }
+        void FaceLast(bool left){if(used>0)RunnerFacing.Apply(pool[used-1],left);}
+        readonly RunnerPoseClock runnerPoseClock=new RunnerPoseClock();
+        readonly RunnerAirClock runnerAirClock=new RunnerAirClock();
         void Draw(string name,float x,float y,int order,float clock=-1)
         {
+            string taytaState=name.StartsWith("heroe_")?name.Substring(6):name=="premio_traje_transformacion"||name=="premio_traje_idle"?"victory":null;
+            if(taytaState!=null)
+            {
+                float localAge=runnerPoseClock.Age(taytaState,seconds);
+                float frameAge=clock>=0?clock:taytaState=="run"||taytaState=="rafaga"?GameScale.GaitClock(seconds*Speed):localAge;
+                var frame=TaytaArt.Frame("sierra",taytaState,frameAge);
+                if(frame){Paint(frame,x,y-1,order);return;} // calls use legacy feet-47; Tayta cells are 48px
+            }
             var a=Frames(name);var spec=Data(name);float t=clock<0?seconds:clock;
             int f=spec.loop?Mathf.FloorToInt(t*spec.fps)%a.Length:Mathf.Clamp(Mathf.FloorToInt(t*spec.fps),0,a.Length-1);
-            Paint(a[f],x,y,order);
+            var replacement=RefactorEnvironmentArt.Frame("sierra_"+name,a[f]);
+            if(replacement==a[f])replacement=RefactorMaterialArt.Frame("sierra_"+name,a[f],t,f);
+            Paint(replacement!=a[f]?replacement:RefactorActorArt.Frame(name,t,-1,a[f],a.Length),x,y,order);
         }
         void Layer(string name,float factor,int order)
         {
@@ -447,7 +504,7 @@ namespace SuyuRun
                 var texture=Resources.Load<Texture2D>("costa_capa2_aves");
                 scenicBirds=new Sprite[18];
                 if(texture)for(int row=0;row<3;row++)for(int f=0;f<6;f++)
-                    scenicBirds[row*6+f]=Sprite.Create(texture,new Rect(f*16,texture.height-(row+1)*16,16,16),new Vector2(.5f,.5f),32);
+                    scenicBirds[row*6+f]=RefactorMaterialArt.Frame("costa_capa2_aves",Sprite.Create(texture,new Rect(f*16,texture.height-(row+1)*16,16,16),new Vector2(.5f,.5f),32),0,row*6+f);
             }
             for(int flock=0;flock<3;flock++)for(int bird=0;bird<5;bird++)
             {
@@ -455,7 +512,7 @@ namespace SuyuRun
                 float y=40+flock*12+Mathf.Abs(bird-2)*4+Mathf.Sin(seconds*.8f+flock)*3;
                 int f=(Mathf.FloorToInt(seconds*7)+bird)%6;
                 var sprite=scenicBirds[flock*6+f];
-                if(sprite)Paint(sprite,x,y,2);
+                if(sprite){Paint(sprite,x,y,2);FaceLast(true);}
             }
             // Ground props use the SAME world position/profile as collision, never parallax.
             int start=Mathf.FloorToInt(distance/112)-1;
@@ -465,17 +522,23 @@ namespace SuyuRun
                 if(act==1&&bridges.Any(b=>world+96>b.x&&world<b.x+BridgeWidth))continue;
                 if(act==0)
                 {
-                    // Slice existing fence into narrow columns, each conforming to the slope.
-                    Sprite source=Frames("decor_cerco_madera")[0];
-                    for(int part=0;part<12;part++)
+                    // One logical pixel per strip: rails follow the terrain continuously
+                    // instead of jumping vertically at each eight-pixel slice.
+                    Sprite source=Frames("decor_cerco_madera")[0];source=RefactorMaterialArt.Frame("sierra_decor_cerco_madera",source,0);
+                    float fenceRatio=source.pixelsPerUnit/32;
+                    for(int part=0;part<96;part++)
                     {
+                        float columnWorld=world+part;
+                        if(columnWorld-distance < -1 || columnWorld-distance > 321)continue;
+                        if(cliffs.Any(g=>columnWorld>=g.x&&columnWorld<g.y))continue;
                         string key="fence_"+part;
                         if(!sprites.TryGetValue(key,out var pieces))
                         {
-                            pieces=new[]{Sprite.Create(source.texture,new Rect(source.rect.x+part*8,source.rect.y,8,40),new Vector2(0,1),32)};
+                            pieces=new[]{Sprite.Create(source.texture,new Rect(source.rect.x+part*fenceRatio,source.rect.y,fenceRatio,40*fenceRatio),new Vector2(0,1),source.pixelsPerUnit)};
+                            if(fenceRatio>1)RefactorActorArt.Register(pieces[0],new Vector2(1,40));
                             sprites[key]=pieces;
                         }
-                        Paint(pieces[0],world+part*8-distance,Surface(world+part*8+4,act)-37,5);
+                        Paint(pieces[0],columnWorld-distance,Mathf.Round(Surface(columnWorld+.5f,act))-37,5);
                     }
                 }
                 float px=world+68;
@@ -494,6 +557,7 @@ namespace SuyuRun
             for(int i=first;i<=first+11;i++)
             {
                 float x=i*32;
+                if(cliffs.Any(g=>x>=g.x&&x<g.y))continue;
                 if(act==1&&bridges.Any(b=>x>=b.x&&x<b.x+BridgeWidth))continue;
                 Paint(groundTiles[act][(i%20+20)%20],x-distance,0,6);
             }
@@ -504,6 +568,12 @@ namespace SuyuRun
                 for(int span=0;span<3;span++)Draw("puente_"+state,x+span*256,110,7,b.life<=0?(float)(seconds-b.hit):-1);
             }
             DrawGrazers(distance);
+            foreach(var gap in cliffs)
+            {
+                if(gap.y<distance-40||gap.x>distance+360)continue;
+                Draw("ruinas_pilar",gap.x-distance-16,Surface(gap.x-1,act),7);
+                Draw("ruinas_pilar",gap.y-distance,Surface(gap.y+1,act),7);
+            }
             if(act==0&&seconds<4)Draw("llegada_marca_quemada",60-distance,133,8);
             foreach(var e in enemies)
             {
@@ -521,13 +591,13 @@ namespace SuyuRun
                     float top=Surface(e.x,ActAt(e.x/Speed))-58;
                     Paint(ReadableBarrier(),x-32,top+26,10);Draw("pinchos",x-16,top,11);
                 }
-                else if(e.kind=="slide")Paint(ReadableBarrier(),x-32,Surface(e.x,ActAt(e.x/Speed))-62,10);
+                else if(e.kind=="slide")Paint(ReadableBarrier(),x-32,Surface(e.x,ActAt(e.x/Speed))-(GameScale.DuckClearance+32),10);
                 else
                 {
                     string enemyPose=e.air?(e.attacker?"condor_vuelo":"halcon_vuelo"):
                         x>HeroX+25&&x<240?"guardian_huaraca":"guardian_idle";
                     Draw(enemyPose,x-(e.attacker?32:e.air?16:24),y-(e.air&&!e.attacker?16:24),10);
-                    if(e.air)pool[used-1].flipX=true;
+                    FaceLast(RunnerFacing.TowardLeft(x,HeroX));
                 }
             }
             foreach(var s in shots){Vector2 p=ShotPosition(s);Draw("piedra",p.x-distance-4,p.y-4,12);}
@@ -539,22 +609,25 @@ namespace SuyuRun
                 float world=duration*(i+.5f)/3*Speed+HeroX;float x=world-distance;
                 if(x>-20&&x<340)Draw("coleccionable_"+new[]{"cabeza_clava","kero","quipu"}[i],x-8,Surface(world,i)-22,11);
             }
+            float airborneAge=runnerAirClock.Age(grounded,jumps,verticalSpeed,seconds);
             float attackAge=seconds-slingStarted;
             float slingAge=attackAge<.04f?attackAge*5:attackAge<SlingRelease?.2f+(attackAge-.04f)*(.5f/.14f):.7f+(attackAge-SlingRelease)*(.35f/.2f);
-            string pose=dead?"hit":interlude!=Interlude.None?"idle":seconds-damageAt<.25?"hit":slide&&grounded?"slide":slingAge<.2f?"huaraca_cargar":slingAge<.7f?"huaraca_girar":slingAge<1.05f?"huaraca_lanzar":seconds-shotAt<.15?"rafaga":grounded?"run":"jump";
+            string pose=dead?"hit":interlude!=Interlude.None?"idle":seconds-damageAt<.25?"hit":!grounded?verticalSpeed<0?jumps>1?"double_jump":"jump":"fall":slide?"slide":slingAge<.2f?"huaraca_cargar":slingAge<.7f?"huaraca_girar":slingAge<1.05f?"huaraca_lanzar":seconds-shotAt<.15?"rafaga":"run";
             if(complete)
             {
                 float ending=(float)(AudioSettings.dspTime-endingAt);
                 float center=Mathf.Lerp(HeroX,160,Mathf.Clamp01(ending/.7f));
                 float endFeet=Surface(distance+center,act);
                 if(ending<.7f)Draw("heroe_run",center-24,endFeet-47,15,ending);
-                else Draw("premio_traje_transformacion",center-24,endFeet-47,15,ending-.7f);
+                else Draw(ending>2.3f?"heroe_run":"premio_traje_transformacion",center-24,endFeet-47,15,ending-.7f);
+                RunnerPortalIngress.Apply(pool[used-1],new Vector3(160/32f,(180-Surface(distance+160,act)+40)/32f,0),(ending-2.3f)/.7f);
                 if(ending>.7f&&ending<2.1f)Draw("fx_escudo_activar",center-32,endFeet-58,16,ending-.7f);
                 if(ending>1.2&&ending<2.3)Draw("efecto_sorpresa",center-16,endFeet-78,16,ending-1.2f);
             }
             else if(cavePhase==CavePhase.Entering||cavePhase==CavePhase.Exiting)
             {
-                float cx=cavePhase==CavePhase.Entering?Mathf.Lerp(HeroX,235,Mathf.Clamp01(CavePhaseAge/1.25f)):Mathf.Lerp(55,HeroX,Mathf.Clamp01(CavePhaseAge/1.2f));
+                float entryCenter=180+Frames("tunel_entrada")[0].rect.width*.5f;
+                float cx=cavePhase==CavePhase.Entering?Mathf.Lerp(HeroX,entryCenter,Mathf.Clamp01(CavePhaseAge/1.25f)):Mathf.Lerp(55,HeroX,Mathf.Clamp01(CavePhaseAge/1.2f));
                 Draw("heroe_run",cx-24,Surface(distance+cx,act)-47,15,CavePhaseAge);
             }
             else if(interlude==Interlude.Arrival)
@@ -566,16 +639,19 @@ namespace SuyuRun
             }
             else
             {
-                Draw("heroe_"+pose,HeroX-24,feet-47,15,interlude!=Interlude.None?NarrativeTime:pose=="slide"?Mathf.Repeat(seconds*.5f,1f)*.5f:pose=="huaraca_lanzar"?slingAge-.7f:pose=="huaraca_girar"?slingAge-.2f:pose=="huaraca_cargar"?slingAge:-1);
+                string drawnPose=!grounded&&seconds-shotAt<.16f&&(pose=="jump"||pose=="double_jump"||pose=="fall")?pose+"_shoot":pose;
+                Draw("heroe_"+drawnPose,HeroX-24,feet-47,15,interlude!=Interlude.None?NarrativeTime:pose=="jump"||pose=="double_jump"||pose=="fall"?airborneAge:pose=="slide"?Mathf.Repeat(seconds*.5f,1f)*.5f:pose=="huaraca_lanzar"?slingAge-.7f:pose=="huaraca_girar"?slingAge-.2f:pose=="huaraca_cargar"?slingAge:-1);
                 if(pose=="slide")
                 {
-                    var hero=pool[used-1];hero.transform.localScale=new Vector3(1.12f,CrouchRatio,1);
+                    var hero=pool[used-1];hero.transform.localScale=RefactorActorArt.IsRegistered(hero.sprite)?Vector3.one:new Vector3(1.12f,TaytaArt.Get("sierra","slide")!=null?.8f:CrouchRatio,1);
                     // Anchor the scaled frame at the feet, instead of dropping the whole sprite.
                     int crouchFrame=Mathf.Clamp(Mathf.FloorToInt(Mathf.Repeat(seconds*.5f,1f)*3),0,2);
                     // Existing frames0/1 end at row38, frame2 at44 (48px canvas).
                     // Align the opaque feet, not the transparent bottom padding.
                     float bottomPadding=crouchFrame==2?4:10;
-                    hero.transform.position=new Vector3(HeroX/32,(180-feet-bottomPadding*CrouchRatio)/32,0);
+                    if(TaytaArt.Get("sierra","slide")!=null)
+                        hero.transform.position=new Vector3((HeroX-24*hero.transform.localScale.x)/32,(180-feet+48*hero.transform.localScale.y)/32,0);
+                    else hero.transform.position=new Vector3(HeroX/32,(180-feet-bottomPadding*CrouchRatio)/32,0);
                 }
             }
             RenderNarrative();
@@ -587,7 +663,7 @@ namespace SuyuRun
             }
             if(seconds<2&&interlude==Interlude.None)Draw("fx_teleport_anillo",HeroX-32,feet-21,16,seconds);
             if(grounded&&!dead&&!complete&&interlude==Interlude.None)Draw("fx_polvo_correr",HeroX-35,feet-16,14,Mathf.Repeat(seconds,.4f));
-            if(seconds>duration-6)Draw("portal_ceremonial",duration*Speed+HeroX+10-distance,Surface(duration*Speed+HeroX,2)-106,9);
+            if(seconds>duration-9){var gate=Frames("portal_ceremonial")[0];float gateWorld=(duration-3)*Speed+160;Draw("portal_ceremonial",gateWorld-distance-gate.rect.width*.5f,Surface(gateWorld,2)-gate.rect.height+5,9);RunnerPortalIngress.Frame(pool[used-1],15);}
             foreach(float t in new[]{duration/3,duration*2/3})
             {
                 float delta=seconds-t;
@@ -597,7 +673,8 @@ namespace SuyuRun
                     string tunnel=entering?"tunel_entrada":"tunel_salida";
                     float tx=entering?180-delta*Speed:-45-delta*Speed;
                     float baseY=Surface(distance+tx+64,act);
-                    Draw(tunnel,tx,baseY-Frames(tunnel)[0].rect.height,20);
+                    Draw(tunnel,tx,baseY-Frames(tunnel)[0].rect.height,9);
+                    RunnerPortalIngress.Frame(pool[used-1],15);
                 }
             }
             for(int i=used;i<pool.Count;i++)pool[i].gameObject.SetActive(false);
@@ -606,8 +683,7 @@ namespace SuyuRun
         void OnGUI()
         {
             if(!enabled)return;
-            float scale=Mathf.Max(1,Mathf.Floor(Mathf.Min(Screen.width/320f,Screen.height/180f)));
-            GUI.matrix=Matrix4x4.TRS(new Vector3((Screen.width-320*scale)/2,(Screen.height-180*scale)/2),Quaternion.identity,Vector3.one*scale);
+            GUI.matrix=RunnerHud.ScreenMatrix;
             if(DrawSharedWindow()){GUI.matrix=Matrix4x4.identity;return;}
             if(cavePhase!=CavePhase.None){DrawCaveGUI();GUI.matrix=Matrix4x4.identity;return;}
             if(interlude==Interlude.Arrival&&!paused)
@@ -620,21 +696,22 @@ namespace SuyuRun
             }
             // Explicit pixel9-slice in screen space keeps the HUD inside the letterboxed320x180.
             Texture2D panel=Frames("ui_panel")[0].texture;
-            float[] xs={0,2,318,320},ys={0,2,18,20};float[] us={0,2f/96,94f/96,1},vs={1,46f/48,2f/48,0};
-            for(int row=0;row<3;row++)for(int col=0;col<3;col++)
-                GUI.DrawTextureWithTexCoords(new Rect(xs[col],ys[row],xs[col+1]-xs[col],ys[row+1]-ys[row]),panel,new Rect(us[col],vs[row+1],us[col+1]-us[col],vs[row]-vs[row+1]));
             if(label==null)label=new GUIStyle(GUI.skin.label){font=pixelFont,fontSize=6,normal={textColor=new Color32(255,243,208,255)}};
             var hudText=new GUIStyle(label){fontSize=5,padding=new RectOffset(0,0,0,0)};
             RunnerHud.Draw(.25f,coins,score,hudText,i=>collected.Contains(i),
-                r=>RunnerHud.Sprite(r,Frames("ui_panel")[0]),r=>RunnerHud.Sprite(r,Frames("ui_casilla")[0]),
-                r=>RunnerHud.Sprite(r,Frames("coleccionable_moneda")[0]),r=>RunnerHud.Sprite(r,Frames("coleccionable_quipu")[0]),new Color32(245,223,160,255));
-            GUI.Label(new Rect(52,3,160,10),"SIERRA · VIDA "+health,label);
-            GUI.Label(new Rect(4,13,315,10),"ESP x2  S  CLICK · PIEDRAS "+stones+"  E "+Mathf.RoundToInt(burstEnergy/MaxBurst*100)+"%",label);
-            if(!paused&&!dead&&!complete&&AudioSettings.dspTime<feedbackUntil)GUI.Label(new Rect(65,35,245,10),rhythmFeedback,new GUIStyle(label){fontSize=5});
+                r=>RunnerHud.Panel(r,Frames("ui_panel")[0]),r=>RunnerHud.Sprite(r,Frames("ui_casilla")[0]),
+                r=>RunnerHud.Sprite(r,Frames("coleccionable_moneda")[0]),r=>RunnerHud.Sprite(r,Frames("coleccionable_quipu")[0]),new Color32(245,223,160,255),
+                (i,r)=>{if(i<SharedGameMenu.SierraIds.Length)MuseumArt.Draw(r,SharedGameMenu.SierraIds[i],collected.Contains(i));});
+            RunnerHud.RunnerStatus(health,MaxHealth,burstEnergy/MaxBurst,stones);
+            RunnerHud.Text(RunnerHud.CoinCounter,"MON "+coins.ToString("00"),hudText);
+            RunnerHud.Text(RunnerHud.ScoreCounter,"PTS "+score.ToString("0000"),hudText);
+            RunnerHud.Progress(complete?1:seconds/duration);
+            RunnerHud.ControlHints(RunnerHud.Controls,"ESP x2 · S deslizar · CLICK huaraca · E disparar · ESC pausa",new GUIStyle(hudText){fontSize=4});
+            string alert=!paused&&!dead&&!complete&&AudioSettings.dspTime<feedbackUntil?rhythmFeedback:"";
             if(act==1)
             {
                 var active=bridges.FirstOrDefault(b=>b.x+BridgeWidth>seconds*Speed+HeroX&&b.x-seconds*Speed<330);
-                if(active!=null)GUI.Label(new Rect(4,23,310,10),"PUENTE "+active.life+"/3 · PROTEGE LOS ANCLAJES",label);
+                if(active!=null)alert="PUENTE "+active.life+"/3 · PROTEGE LOS ANCLAJES";
             }
             string phrase=seconds<4?"FRANCISCO: ¿Dónde estoy? ¡Los Andes!":
                 NearTunnel(seconds,2)?"¡El camino sigue al otro lado!":
@@ -642,7 +719,8 @@ namespace SuyuRun
                 checkpointTime>0&&seconds-checkpointTime<3?"PUNTO DE RETORNO ACTIVADO":
                 act==1?"Apunta al ave. ¡Protege las cuerdas!":act==2?"SALTA LOS ESCALONES · No suben solos":"";
             if(!string.IsNullOrEmpty(narrativeLine))phrase=narrativeLine;
-            if(phrase.Length>0&&!complete&&!dead)GUI.Label(new Rect(8,164,308,12),phrase,label);
+            if(!complete&&!dead&&!paused&&interlude==Interlude.None)
+                if(alert.Length>0||phrase.Length>0)RunnerHud.NoticeText(alert.Length>0?alert:phrase,label);
             if(!paused&&!dead&&!complete&&interlude==Interlude.None)DrawMobilityHints();
             if(DrawServices()){GUI.matrix=Matrix4x4.identity;return;}
             if(paused||dead||(complete&&AudioSettings.dspTime-endingAt>3))
@@ -653,7 +731,7 @@ namespace SuyuRun
                     footer=complete?"MEMORIAS "+collected.Count+" / 3 · SELVA EN DESARROLLO":"ESP x2 · S/ABAJO · CLICK · E",
                     primary=complete?"REJUGAR":dead?"REINICIAR":"CONTINUAR",
                     primaryAction=()=>{if(complete||dead)Restart();else ToggleSierraPause();},
-                    secondary=dead?"REVIVIR · 5":"MENU",secondaryEnabled=!dead||(checkpointTime>0&&coins>=RunnerProgress.ReviveCost),
+                    secondary=dead?"REVIVIR · 5":"MENU",secondaryEnabled=!dead||(checkpointTime>0&&RunnerProgress.CanRevive(coins)),
                     secondaryAction=()=>{if(dead)Revive();else UnityEngine.SceneManagement.SceneManager.LoadScene("Level_Costa");}
                 },true);
             GUI.matrix=Matrix4x4.identity;

@@ -1,0 +1,54 @@
+{
+  "name": "selva_agua_fondo",
+  "frameWidth": 640,
+  "frameHeight": 180,
+  "frames": 6,
+  "fps": 8,
+  "loop": true,
+  "ppu": 32,
+  "pivot": [
+    0,
+    1
+  ],
+  "rectsUnity": [
+    {
+      "x": 0,
+      "y": 900,
+      "width": 640,
+      "height": 180
+    },
+    {
+      "x": 0,
+      "y": 720,
+      "width": 640,
+      "height": 180
+    },
+    {
+      "x": 0,
+      "y": 540,
+      "width": 640,
+      "height": 180
+    },
+    {
+      "x": 0,
+      "y": 360,
+      "width": 640,
+      "height": 180
+    },
+    {
+      "x": 0,
+      "y": 180,
+      "width": 640,
+      "height": 180
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "width": 640,
+      "height": 180
+    }
+  ],
+  "group": "Layers",
+  "factor": 1,
+  "seamlessX": true
+}

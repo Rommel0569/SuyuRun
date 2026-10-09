@@ -1,0 +1,15 @@
+{
+  "frames": 18,
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "logicalWidth": 16,
+  "logicalHeight": 16,
+  "pixelsPerUnit": 128,
+  "fps": 8,
+  "loop": true,
+  "original": "Assets/SuyuRun/Art/PixelCosta/Resources/costa_capa2_aves.png",
+  "source": "Artifacts/VisualRefactor/AtmosphereClean/Sources/costa_capa2_aves.png",
+  "finish": "independent imagegen framewise redraw",
+  "fullPlaythroughTested": false,
+  "previous": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/costa_capa2_aves.json"
+}

@@ -28,6 +28,8 @@ namespace SuyuRun
         {
             coastCameraHome=cam.transform.position;
             heroLogro = HeroFrames(Resources.LoadAll<Sprite>("costa_heroe_logro"), "logro", 4);
+            var taytaReveal=TaytaArt.Get("costa","victory");
+            if(taytaReveal!=null)heroLogro=TaytaArt.Frames("costa","victory",4);
             // Every other world item lands at the hero's fixed screen x (-3) exactly when
             // it.x==distance, because the shared scroll formula (it.x-distance-3) already bakes in
             // that -3. Subtracting an extra 3 here made the door register 3 units EARLIER than the
@@ -37,13 +39,17 @@ namespace SuyuRun
             portalX = Duration * Speed;
 
             var puertaFrames = HeroFrames(Resources.LoadAll<Sprite>("costa_puerta_dimensional"), "puerta", 2);
+            for(int i=0;i<puertaFrames.Length;i++)puertaFrames[i]=RefactorMaterialArt.Frame("costa_puerta_dimensional",puertaFrames[i],0,i);
             portalAnchor = WorldSprite("Dimensional door (ART_BIBLE costa_puerta_dimensional)", puertaFrames, 2f, true, 3, out _);
+            RunnerPortalIngress.Frame(portalAnchor.GetComponentInChildren<SpriteRenderer>(),20);
 
             sorpresaFrames = HeroFrames(Resources.LoadAll<Sprite>("costa_efecto_sorpresa"), "sorpresa", 3);
             sorpresaAnchor = WorldSprite("Surprise mark", sorpresaFrames, 6f, false, 19, out sorpresaAnimator);
             sorpresaAnchor.gameObject.SetActive(false);
 
             absorcionFrames = HeroFrames(Resources.LoadAll<Sprite>("costa_efecto_absorcion"), "absorcion", 4);
+            for(int i=0;i<sorpresaFrames.Length;i++)sorpresaFrames[i]=RefactorMaterialArt.Frame("costa_efecto_sorpresa",sorpresaFrames[i],0,i);
+            for(int i=0;i<absorcionFrames.Length;i++)absorcionFrames[i]=RefactorMaterialArt.Frame("costa_efecto_absorcion",absorcionFrames[i],0,i);
             absorcionAnchor = WorldSprite("Absorption vortex", absorcionFrames, 8f, true, 18, out absorcionAnimator);
             absorcionAnchor.gameObject.SetActive(false);
         }
@@ -99,6 +105,7 @@ namespace SuyuRun
             switch (endingPhase)
             {
                 case 0: // arms reveal plays (see UpdateHeroSprite)
+                    if(heroRenderer){heroRenderer.transform.localScale=Vector3.one;heroRenderer.transform.localPosition=new Vector3(-heroFrameW*.5f,heroFrameH,0);}
                     if (endingTimer >= ArmsPhase)
                     {
                         endingPhase = 1; endingTimer = 0;
@@ -112,7 +119,7 @@ namespace SuyuRun
                     {
                         endingPhase = 2; endingTimer = 0;
                         if (sorpresaAnchor) sorpresaAnchor.gameObject.SetActive(false);
-                        if (absorcionAnchor) absorcionAnchor.gameObject.SetActive(true);
+                        if (absorcionAnchor) absorcionAnchor.gameObject.SetActive(false);
                         feedback = "EL PORTAL TE ABSORBE..."; feedbackUntil = Time.unscaledTime + 1.2f; Beep(220, .3f);
                     }
                     break;
@@ -120,7 +127,11 @@ namespace SuyuRun
                     if (heroRenderer)
                     {
                         float t = Mathf.Clamp01(endingTimer / AbsorbPhase);
-                        heroRenderer.transform.localScale = Vector3.one * Mathf.Max(0, 1 - t);
+                        heroRenderer.transform.localScale=Vector3.one;
+                        heroRenderer.transform.localPosition=new Vector3(-heroFrameW*.5f,heroFrameH,0);
+                        heroRenderer.color=Color.white;
+                        heroRenderer.sprite=TaytaArt.Frame("costa","run",endingTimer*.5f)??heroRenderer.sprite;
+                        RunnerPortalIngress.Apply(heroRenderer,portalAnchor.position+Vector3.up*1.25f,t);
                     }
                     if (endingTimer >= AbsorbPhase)
                     {

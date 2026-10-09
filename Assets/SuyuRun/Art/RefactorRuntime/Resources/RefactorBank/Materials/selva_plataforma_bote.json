@@ -1,0 +1,14 @@
+{
+  "frames": 4,
+  "frameWidth": 160,
+  "frameHeight": 64,
+  "logicalWidth": 80,
+  "logicalHeight": 32,
+  "pixelsPerUnit": 64,
+  "fps": 4,
+  "loop": true,
+  "material": "wood",
+  "original": "Assets/SuyuRun/Art/PixelSelva/ProductionV2/Resources/SelvaV2/selva_plataforma_bote.png",
+  "source": "Tools/refine_playable_materials.py",
+  "fullPlaythroughTested": false
+}

@@ -1,0 +1,12 @@
+{
+  "frames": 4,
+  "fps": 10,
+  "loop": true,
+  "frameWidth": 128,
+  "frameHeight": 128,
+  "pixelsPerUnit": 64,
+  "orientation": "right",
+  "hitboxesUnchanged": true,
+  "referenceExtent": 102,
+  "footY": 124
+}

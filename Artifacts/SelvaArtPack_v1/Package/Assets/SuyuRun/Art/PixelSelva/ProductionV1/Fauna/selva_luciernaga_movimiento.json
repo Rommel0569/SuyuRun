@@ -1,0 +1,44 @@
+{
+  "name": "selva_luciernaga_movimiento",
+  "file": "Fauna/selva_luciernaga_movimiento.png",
+  "frameWidth": 8,
+  "frameHeight": 8,
+  "frames": 4,
+  "layout": "horizontal",
+  "fps": 7,
+  "loop": true,
+  "ppu": 32,
+  "pivot": [
+    0.5,
+    0
+  ],
+  "parallax": 1,
+  "seamlessX": false,
+  "status": "proposal_pending_visual_approval",
+  "rectsUnity": [
+    {
+      "x": 0,
+      "y": 0,
+      "width": 8,
+      "height": 8
+    },
+    {
+      "x": 8,
+      "y": 0,
+      "width": 8,
+      "height": 8
+    },
+    {
+      "x": 16,
+      "y": 0,
+      "width": 8,
+      "height": 8
+    },
+    {
+      "x": 24,
+      "y": 0,
+      "width": 8,
+      "height": 8
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "name": "selva_gota_cueva",
+  "file": "Effects/selva_gota_cueva.png",
+  "frameWidth": 16,
+  "frameHeight": 24,
+  "frames": 4,
+  "layout": "horizontal",
+  "fps": 8,
+  "loop": true,
+  "ppu": 32,
+  "pivot": [
+    0.5,
+    0
+  ],
+  "parallax": 1,
+  "seamlessX": false,
+  "status": "proposal_pending_visual_approval",
+  "rectsUnity": [
+    {
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 24
+    },
+    {
+      "x": 16,
+      "y": 0,
+      "width": 16,
+      "height": 24
+    },
+    {
+      "x": 32,
+      "y": 0,
+      "width": 16,
+      "height": 24
+    },
+    {
+      "x": 48,
+      "y": 0,
+      "width": 16,
+      "height": 24
+    }
+  ]
+}

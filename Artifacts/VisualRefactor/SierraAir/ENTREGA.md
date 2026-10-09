@@ -1,0 +1,7 @@
+# Salto Sierra — 08/10/2026
+
+Rehechas cinco poses con imagegen integrado: anticipación, impulso, ápice, recogimiento y extensión de caída. Referencias: identidad TaytaSierra/jump.png y coreografía TaytaSelva/jump.png. Prompt: cinco figuras alineadas transparentes, misma anatomía, chullo rojo, brazos visibles, pantalón turquesa, botas, sin traje de gorila, sin texto, contorno oscuro y pixel art; transferir las poses de Selva conservando ropa Sierra.
+
+Fuente completa conservada en generated_source.png. Exportadas tres hojas versionadas en Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaSierra: jump_selva_pose.png, double_jump_selva_pose.png y fall_selva_pose.png. Integradas por TaytaArt en runner y ambas cuevas. Escala común, PPU64, ancla de pies [96,124]; manos levantadas no determinan escala corporal. Originales conservados. Descenso empieza con la misma pose recogida que termina el ascenso, sin volver a la anticipación. Disparar no sustituye el cuerpo en vuelo; daño sí mantiene su reacción.
+
+Orientación del banco stone corregida teniendo en cuenta su dibujo nativo hacia izquierda; jefes Sierra orientados hacia la posición de Tayta. Sin cambios a física ni colisiones. Compilación y relojes 30/60/120 FPS PASS; exportador valida márgenes y paleta. Unity no está abierto: pendiente prueba visual en Play. No certificar ausencia total de bugs ni copia pixel por pixel de Selva: es transferencia de coreografía con vestimenta Sierra.

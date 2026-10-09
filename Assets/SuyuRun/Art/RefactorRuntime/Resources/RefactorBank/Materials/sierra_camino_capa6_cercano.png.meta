@@ -1,0 +1,2217 @@
+fileFormatVersion: 2
+guid: 92229fdeb0f4b5d4db4d5dc6e5f82d0f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8734677735902840868
+    second: sierra_camino_capa6_cercano_0
+  - first:
+      213: 2080683839598970968
+    second: sierra_camino_capa6_cercano_1
+  - first:
+      213: -2763800779593145829
+    second: sierra_camino_capa6_cercano_2
+  - first:
+      213: -7274703820285448565
+    second: sierra_camino_capa6_cercano_3
+  - first:
+      213: -7086345393588027258
+    second: sierra_camino_capa6_cercano_4
+  - first:
+      213: 1567110849212142514
+    second: sierra_camino_capa6_cercano_5
+  - first:
+      213: 2704196067362063987
+    second: sierra_camino_capa6_cercano_6
+  - first:
+      213: 3857824718924530812
+    second: sierra_camino_capa6_cercano_7
+  - first:
+      213: -7712836160207605983
+    second: sierra_camino_capa6_cercano_8
+  - first:
+      213: 8702982069597368619
+    second: sierra_camino_capa6_cercano_9
+  - first:
+      213: 118061212180387655
+    second: sierra_camino_capa6_cercano_10
+  - first:
+      213: 2636758563950371770
+    second: sierra_camino_capa6_cercano_11
+  - first:
+      213: -8599601615550843004
+    second: sierra_camino_capa6_cercano_12
+  - first:
+      213: -7521791551847023499
+    second: sierra_camino_capa6_cercano_13
+  - first:
+      213: -5424250542000136941
+    second: sierra_camino_capa6_cercano_14
+  - first:
+      213: -8523304407097696651
+    second: sierra_camino_capa6_cercano_15
+  - first:
+      213: -7920204866425231169
+    second: sierra_camino_capa6_cercano_16
+  - first:
+      213: 5669737922631643635
+    second: sierra_camino_capa6_cercano_17
+  - first:
+      213: 8628146148088534801
+    second: sierra_camino_capa6_cercano_18
+  - first:
+      213: 8450224581206284255
+    second: sierra_camino_capa6_cercano_19
+  - first:
+      213: -2481520288694794709
+    second: sierra_camino_capa6_cercano_20
+  - first:
+      213: -1648041007317641784
+    second: sierra_camino_capa6_cercano_21
+  - first:
+      213: 4063770195590248693
+    second: sierra_camino_capa6_cercano_22
+  - first:
+      213: -4263035278578390383
+    second: sierra_camino_capa6_cercano_23
+  - first:
+      213: -6815827076506988088
+    second: sierra_camino_capa6_cercano_24
+  - first:
+      213: -6999322321164523232
+    second: sierra_camino_capa6_cercano_25
+  - first:
+      213: -6273370414450506395
+    second: sierra_camino_capa6_cercano_26
+  - first:
+      213: 647808676140640531
+    second: sierra_camino_capa6_cercano_27
+  - first:
+      213: 7981260489566063515
+    second: sierra_camino_capa6_cercano_28
+  - first:
+      213: 3243406292873100785
+    second: sierra_camino_capa6_cercano_29
+  - first:
+      213: 1381971852378343632
+    second: sierra_camino_capa6_cercano_30
+  - first:
+      213: -4783764953621549790
+    second: sierra_camino_capa6_cercano_31
+  - first:
+      213: -8920545509763206104
+    second: sierra_camino_capa6_cercano_32
+  - first:
+      213: -1587993830899037839
+    second: sierra_camino_capa6_cercano_33
+  - first:
+      213: -2824415977247239111
+    second: sierra_camino_capa6_cercano_34
+  - first:
+      213: 3439505818390701746
+    second: sierra_camino_capa6_cercano_35
+  - first:
+      213: 2863901821898540261
+    second: sierra_camino_capa6_cercano_36
+  - first:
+      213: 6854977778026389042
+    second: sierra_camino_capa6_cercano_37
+  - first:
+      213: 452309809719631075
+    second: sierra_camino_capa6_cercano_38
+  - first:
+      213: 259063343077016879
+    second: sierra_camino_capa6_cercano_39
+  - first:
+      213: -7082001969118387822
+    second: sierra_camino_capa6_cercano_40
+  - first:
+      213: 29544168388902065
+    second: sierra_camino_capa6_cercano_41
+  - first:
+      213: -1472030693134079683
+    second: sierra_camino_capa6_cercano_42
+  - first:
+      213: -8917616189715681117
+    second: sierra_camino_capa6_cercano_43
+  - first:
+      213: -1697688103425237098
+    second: sierra_camino_capa6_cercano_44
+  - first:
+      213: 6250293402344751142
+    second: sierra_camino_capa6_cercano_45
+  - first:
+      213: 3749709112425036722
+    second: sierra_camino_capa6_cercano_46
+  - first:
+      213: -7858563948637342884
+    second: sierra_camino_capa6_cercano_47
+  - first:
+      213: 6811843686484070598
+    second: sierra_camino_capa6_cercano_48
+  - first:
+      213: 8742571272617630245
+    second: sierra_camino_capa6_cercano_49
+  - first:
+      213: -7159973034206328533
+    second: sierra_camino_capa6_cercano_50
+  - first:
+      213: -4374575800473502731
+    second: sierra_camino_capa6_cercano_51
+  - first:
+      213: -7040031722168952068
+    second: sierra_camino_capa6_cercano_52
+  - first:
+      213: -6113021366919224077
+    second: sierra_camino_capa6_cercano_53
+  - first:
+      213: 8892168151093662670
+    second: sierra_camino_capa6_cercano_54
+  - first:
+      213: -4920310416295434514
+    second: sierra_camino_capa6_cercano_55
+  - first:
+      213: 263726571005613702
+    second: sierra_camino_capa6_cercano_56
+  - first:
+      213: 10580239339825386
+    second: sierra_camino_capa6_cercano_57
+  - first:
+      213: -2994375542950652735
+    second: sierra_camino_capa6_cercano_58
+  - first:
+      213: -2788717159436811352
+    second: sierra_camino_capa6_cercano_59
+  - first:
+      213: -8504731843988337693
+    second: sierra_camino_capa6_cercano_60
+  - first:
+      213: -3283078193805118685
+    second: sierra_camino_capa6_cercano_61
+  - first:
+      213: 6403241430372449358
+    second: sierra_camino_capa6_cercano_62
+  - first:
+      213: 2906841436198538150
+    second: sierra_camino_capa6_cercano_63
+  - first:
+      213: -1322795929355573051
+    second: sierra_camino_capa6_cercano_64
+  - first:
+      213: -7314424088183354664
+    second: sierra_camino_capa6_cercano_65
+  - first:
+      213: 5828082828657020164
+    second: sierra_camino_capa6_cercano_66
+  - first:
+      213: 9192913535341004705
+    second: sierra_camino_capa6_cercano_67
+  - first:
+      213: -7437383944432589358
+    second: sierra_camino_capa6_cercano_68
+  - first:
+      213: 2715338579204971141
+    second: sierra_camino_capa6_cercano_69
+  - first:
+      213: -307436277571760982
+    second: sierra_camino_capa6_cercano_70
+  - first:
+      213: -4498541233153540838
+    second: sierra_camino_capa6_cercano_71
+  - first:
+      213: -1559831889021535305
+    second: sierra_camino_capa6_cercano_72
+  - first:
+      213: -984568670334231255
+    second: sierra_camino_capa6_cercano_73
+  - first:
+      213: -8472242881537488884
+    second: sierra_camino_capa6_cercano_74
+  - first:
+      213: 7676372339936123720
+    second: sierra_camino_capa6_cercano_75
+  - first:
+      213: 796057855610722203
+    second: sierra_camino_capa6_cercano_76
+  - first:
+      213: 6180649230749720988
+    second: sierra_camino_capa6_cercano_77
+  - first:
+      213: 6716537898033651928
+    second: sierra_camino_capa6_cercano_78
+  - first:
+      213: 3139632886509075392
+    second: sierra_camino_capa6_cercano_79
+  - first:
+      213: -8378840083256175965
+    second: sierra_camino_capa6_cercano_80
+  - first:
+      213: -3947029487269910086
+    second: sierra_camino_capa6_cercano_81
+  - first:
+      213: 3687939062810944862
+    second: sierra_camino_capa6_cercano_82
+  - first:
+      213: 8661955921880422495
+    second: sierra_camino_capa6_cercano_83
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_0
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd77ff3a0e038c680800000000000000
+      internalID: -8734677735902840868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 55
+        width: 74
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 858413d9de210ec10800000000000000
+      internalID: 2080683839598970968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_2
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b12276e85d105a9d0800000000000000
+      internalID: -2763800779593145829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_3
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 49
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8e65b12b6f0b0b90800000000000000
+      internalID: -7274703820285448565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_4
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 51
+        width: 158
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 680c57bd86e38ad90800000000000000
+      internalID: -7086345393588027258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_5
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 47
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b353f2b30f7fb510800000000000000
+      internalID: 1567110849212142514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_6
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 49
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 376cf1eeefb378520800000000000000
+      internalID: 2704196067362063987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_7
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 51
+        width: 58
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c74c739642fb98530800000000000000
+      internalID: 3857824718924530812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_8
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12fa90c606086f490800000000000000
+      internalID: -7712836160207605983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_9
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b21f1f8f41437c870800000000000000
+      internalID: 8702982069597368619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_10
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 49
+        width: 38
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74793c50c0073a100800000000000000
+      internalID: 118061212180387655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_11
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab32bba91f5a79420800000000000000
+      internalID: 2636758563950371770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_12
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 47
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 487773fa4e318a880800000000000000
+      internalID: -8599601615550843004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_13
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 51
+        width: 194
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57cbf9d8f6a3d9790800000000000000
+      internalID: -7521791551847023499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_14
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31d9c57fed039b4b0800000000000000
+      internalID: -5424250542000136941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_15
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 49
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57e9b66dcc327b980800000000000000
+      internalID: -8523304407097696651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_16
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb8676413a7c51290800000000000000
+      internalID: -7920204866425231169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_17
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 57
+        width: 80
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f13500e994feae40800000000000000
+      internalID: 5669737922631643635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_18
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 117d8f235355db770800000000000000
+      internalID: 8628146148088534801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_19
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 51
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd713134c7a354570800000000000000
+      internalID: 8450224581206284255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_20
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 55
+        width: 76
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b260c61f17edf8dd0800000000000000
+      internalID: -2481520288694794709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_21
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 51
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c51e8f7f6bf029e0800000000000000
+      internalID: -1648041007317641784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_22
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 49
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f8f9fc4679656830800000000000000
+      internalID: 4063770195590248693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_23
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 49
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19a606b2008a6d4c0800000000000000
+      internalID: -4263035278578390383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_24
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 51
+        width: 158
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c1df4eb2615961a0800000000000000
+      internalID: -6815827076506988088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_25
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 47
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 029a682de696dde90800000000000000
+      internalID: -6999322321164523232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_26
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 49
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5658b3688d280f8a0800000000000000
+      internalID: -6273370414450506395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_27
+      rect:
+        serializedVersion: 2
+        x: 1655
+        y: 49
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31967c70f8a7df800800000000000000
+      internalID: 647808676140640531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_28
+      rect:
+        serializedVersion: 2
+        x: 1683
+        y: 51
+        width: 58
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9b0274f02223ce60800000000000000
+      internalID: 7981260489566063515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_29
+      rect:
+        serializedVersion: 2
+        x: 1801
+        y: 51
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fdb7fcc6d4e20d20800000000000000
+      internalID: 3243406292873100785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_30
+      rect:
+        serializedVersion: 2
+        x: 1883
+        y: 51
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d88996e310cd2310800000000000000
+      internalID: 1381971852378343632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_31
+      rect:
+        serializedVersion: 2
+        x: 1965
+        y: 49
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22dac62ce17ac9db0800000000000000
+      internalID: -4783764953621549790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_32
+      rect:
+        serializedVersion: 2
+        x: 1993
+        y: 49
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 824bbd73f1bd33480800000000000000
+      internalID: -8920545509763206104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_33
+      rect:
+        serializedVersion: 2
+        x: 2047
+        y: 51
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17940cb360056f9e0800000000000000
+      internalID: -1587993830899037839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_34
+      rect:
+        serializedVersion: 2
+        x: 2059
+        y: 47
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9349d3212a8adc8d0800000000000000
+      internalID: -2824415977247239111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_35
+      rect:
+        serializedVersion: 2
+        x: 2087
+        y: 51
+        width: 194
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b6211c81549bbf20800000000000000
+      internalID: 3439505818390701746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_36
+      rect:
+        serializedVersion: 2
+        x: 2293
+        y: 51
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e44bdd888f9eb720800000000000000
+      internalID: 2863901821898540261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_37
+      rect:
+        serializedVersion: 2
+        x: 2331
+        y: 49
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23e957a48f5c12f50800000000000000
+      internalID: 6854977778026389042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_38
+      rect:
+        serializedVersion: 2
+        x: 2347
+        y: 49
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ec53c0206de64600800000000000000
+      internalID: 452309809719631075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_39
+      rect:
+        serializedVersion: 2
+        x: 2375
+        y: 51
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f254e6aecb0689300800000000000000
+      internalID: 259063343077016879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_40
+      rect:
+        serializedVersion: 2
+        x: 2383
+        y: 57
+        width: 82
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 291e41c2bbca7bd90800000000000000
+      internalID: -7082001969118387822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_41
+      rect:
+        serializedVersion: 2
+        x: 2457
+        y: 51
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bc310eb346f86000800000000000000
+      internalID: 29544168388902065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_42
+      rect:
+        serializedVersion: 2
+        x: 2589
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d39654d32eb429be0800000000000000
+      internalID: -1472030693134079683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_43
+      rect:
+        serializedVersion: 2
+        x: 2599
+        y: 55
+        width: 74
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a079b0b2534e3480800000000000000
+      internalID: -8917616189715681117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_44
+      rect:
+        serializedVersion: 2
+        x: 2671
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69f9ee72aa99078e0800000000000000
+      internalID: -1697688103425237098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_45
+      rect:
+        serializedVersion: 2
+        x: 2687
+        y: 49
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6200ab4ebb08db650800000000000000
+      internalID: 6250293402344751142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_46
+      rect:
+        serializedVersion: 2
+        x: 2729
+        y: 51
+        width: 158
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bbb3292294a90430800000000000000
+      internalID: 3749709112425036722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_47
+      rect:
+        serializedVersion: 2
+        x: 2849
+        y: 47
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c53b7c4a9b5c0f290800000000000000
+      internalID: -7858563948637342884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_48
+      rect:
+        serializedVersion: 2
+        x: 2917
+        y: 49
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c0de5efdb7888e50800000000000000
+      internalID: 6811843686484070598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_49
+      rect:
+        serializedVersion: 2
+        x: 2961
+        y: 51
+        width: 58
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52a98e7904ad35970800000000000000
+      internalID: 8742571272617630245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_50
+      rect:
+        serializedVersion: 2
+        x: 3081
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2981c6e57aa2ac90800000000000000
+      internalID: -7159973034206328533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_51
+      rect:
+        serializedVersion: 2
+        x: 3163
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fbb1c9ac726a43c0800000000000000
+      internalID: -4374575800473502731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_52
+      rect:
+        serializedVersion: 2
+        x: 3245
+        y: 49
+        width: 38
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfa53a8c278cc4e90800000000000000
+      internalID: -7040031722168952068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_53
+      rect:
+        serializedVersion: 2
+        x: 3327
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f42868747f2a2ba0800000000000000
+      internalID: -6113021366919224077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_54
+      rect:
+        serializedVersion: 2
+        x: 3339
+        y: 47
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec3daf812d3576b70800000000000000
+      internalID: 8892168151093662670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_55
+      rect:
+        serializedVersion: 2
+        x: 3367
+        y: 51
+        width: 194
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee66e0ccebb87bbb0800000000000000
+      internalID: -4920310416295434514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_56
+      rect:
+        serializedVersion: 2
+        x: 3573
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6861f964be1f8a300800000000000000
+      internalID: 263726571005613702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_57
+      rect:
+        serializedVersion: 2
+        x: 3609
+        y: 49
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae82d7feba6952000800000000000000
+      internalID: 10580239339825386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_58
+      rect:
+        serializedVersion: 2
+        x: 3655
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c41f4efe47d176d0800000000000000
+      internalID: -2994375542950652735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_59
+      rect:
+        serializedVersion: 2
+        x: 3663
+        y: 57
+        width: 80
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a38bbcc48c7c49d0800000000000000
+      internalID: -2788717159436811352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_60
+      rect:
+        serializedVersion: 2
+        x: 3737
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eb4f19a27f19f980800000000000000
+      internalID: -8504731843988337693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_61
+      rect:
+        serializedVersion: 2
+        x: 3867
+        y: 51
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3233a68f6c92072d0800000000000000
+      internalID: -3283078193805118685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_62
+      rect:
+        serializedVersion: 2
+        x: 3879
+        y: 55
+        width: 74
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4cf964b722ecd850800000000000000
+      internalID: 6403241430372449358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_63
+      rect:
+        serializedVersion: 2
+        x: 3949
+        y: 51
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ab000792ec275820800000000000000
+      internalID: 2906841436198538150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_64
+      rect:
+        serializedVersion: 2
+        x: 3967
+        y: 49
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c8ad685c1c74ade0800000000000000
+      internalID: -1322795929355573051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_65
+      rect:
+        serializedVersion: 2
+        x: 3983
+        y: 49
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8da45479b02fd7a90800000000000000
+      internalID: -7314424088183354664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_66
+      rect:
+        serializedVersion: 2
+        x: 4009
+        y: 51
+        width: 158
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40dc7a3447281e050800000000000000
+      internalID: 5828082828657020164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_67
+      rect:
+        serializedVersion: 2
+        x: 4129
+        y: 47
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a781ec772ac39f70800000000000000
+      internalID: 9192913535341004705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_68
+      rect:
+        serializedVersion: 2
+        x: 4195
+        y: 49
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d5e6ed15ba19c890800000000000000
+      internalID: -7437383944432589358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_69
+      rect:
+        serializedVersion: 2
+        x: 4213
+        y: 49
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58a1d622d02dea520800000000000000
+      internalID: 2715338579204971141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_70
+      rect:
+        serializedVersion: 2
+        x: 4241
+        y: 51
+        width: 58
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aac444c9554cbbbf0800000000000000
+      internalID: -307436277571760982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_71
+      rect:
+        serializedVersion: 2
+        x: 4359
+        y: 51
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1d7f6e2598f191c0800000000000000
+      internalID: -4498541233153540838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_72
+      rect:
+        serializedVersion: 2
+        x: 4441
+        y: 51
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bb7b89492d5a5ae0800000000000000
+      internalID: -1559831889021535305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_73
+      rect:
+        serializedVersion: 2
+        x: 4523
+        y: 49
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92ddfb3c20c1652f0800000000000000
+      internalID: -984568670334231255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_74
+      rect:
+        serializedVersion: 2
+        x: 4551
+        y: 49
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c084023bcfb8c6a80800000000000000
+      internalID: -8472242881537488884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_75
+      rect:
+        serializedVersion: 2
+        x: 4605
+        y: 51
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84bd685d8f3f78a60800000000000000
+      internalID: 7676372339936123720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_76
+      rect:
+        serializedVersion: 2
+        x: 4619
+        y: 47
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b971658e66a2c0b00800000000000000
+      internalID: 796057855610722203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_77
+      rect:
+        serializedVersion: 2
+        x: 4647
+        y: 51
+        width: 194
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c91e0289ab316c550800000000000000
+      internalID: 6180649230749720988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_78
+      rect:
+        serializedVersion: 2
+        x: 4851
+        y: 51
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d0aebce1afe53d50800000000000000
+      internalID: 6716537898033651928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_79
+      rect:
+        serializedVersion: 2
+        x: 4889
+        y: 49
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cbf18dc977329b20800000000000000
+      internalID: 3139632886509075392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_80
+      rect:
+        serializedVersion: 2
+        x: 4905
+        y: 49
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a216b7565168bb80800000000000000
+      internalID: -8378840083256175965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_81
+      rect:
+        serializedVersion: 2
+        x: 4933
+        y: 51
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab9e845f7955939c0800000000000000
+      internalID: -3947029487269910086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_82
+      rect:
+        serializedVersion: 2
+        x: 4941
+        y: 57
+        width: 80
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e552220c9013e2330800000000000000
+      internalID: 3687939062810944862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_camino_capa6_cercano_83
+      rect:
+        serializedVersion: 2
+        x: 5015
+        y: 51
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5816c79403753870800000000000000
+      internalID: 8661955921880422495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

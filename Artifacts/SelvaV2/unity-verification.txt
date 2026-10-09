@@ -1,0 +1,359 @@
+2026-10-02T15:16:32.4138548-05:00
+PASS sheet agua_fondo
+PASS pixel import agua_fondo
+PASS sheet agua_superficie
+PASS pixel import agua_superficie
+PASS sheet antorcha
+PASS pixel import antorcha
+PASS sheet bosque_capa1_cielo
+PASS pixel import bosque_capa1_cielo
+PASS sheet bosque_capa2_lejania
+PASS pixel import bosque_capa2_lejania
+PASS sheet bosque_capa3_estructura
+PASS pixel import bosque_capa3_estructura
+PASS sheet bosque_capa5_cercania
+PASS pixel import bosque_capa5_cercania
+PASS sheet bosque_capa6_frontal
+PASS pixel import bosque_capa6_frontal
+PASS sheet boss_escarabajo_andar
+PASS pixel import boss_escarabajo_andar
+PASS sheet boss_escarabajo_anticipar
+PASS pixel import boss_escarabajo_anticipar
+PASS sheet boss_escarabajo_carga
+PASS pixel import boss_escarabajo_carga
+PASS sheet boss_escarabajo_derrota
+PASS pixel import boss_escarabajo_derrota
+PASS sheet boss_escarabajo_despertar
+PASS pixel import boss_escarabajo_despertar
+PASS sheet boss_escarabajo_golpe
+PASS pixel import boss_escarabajo_golpe
+PASS sheet boss_escarabajo_hit
+PASS pixel import boss_escarabajo_hit
+PASS sheet boss_escarabajo_idle
+PASS pixel import boss_escarabajo_idle
+PASS sheet boss_raices_andar
+PASS pixel import boss_raices_andar
+PASS sheet boss_raices_anticipar
+PASS pixel import boss_raices_anticipar
+PASS sheet boss_raices_carga
+PASS pixel import boss_raices_carga
+PASS sheet boss_raices_derrota
+PASS pixel import boss_raices_derrota
+PASS sheet boss_raices_despertar
+PASS pixel import boss_raices_despertar
+PASS sheet boss_raices_golpe
+PASS pixel import boss_raices_golpe
+PASS sheet boss_raices_hit
+PASS pixel import boss_raices_hit
+PASS sheet boss_raices_idle
+PASS pixel import boss_raices_idle
+PASS sheet caiman_acecho
+PASS pixel import caiman_acecho
+PASS sheet caiman_anticipacion
+PASS pixel import caiman_anticipacion
+PASS sheet caiman_caida
+PASS pixel import caiman_caida
+PASS sheet caiman_caminar
+PASS pixel import caiman_caminar
+PASS sheet caiman_derrota
+PASS pixel import caiman_derrota
+PASS sheet caiman_emerger
+PASS pixel import caiman_emerger
+PASS sheet caiman_hit
+PASS pixel import caiman_hit
+PASS sheet caiman_idle
+PASS pixel import caiman_idle
+PASS sheet caiman_inmersion
+PASS pixel import caiman_inmersion
+PASS sheet caiman_morder
+PASS pixel import caiman_morder
+PASS sheet caiman_nadar
+PASS pixel import caiman_nadar
+PASS sheet caiman_salto
+PASS pixel import caiman_salto
+PASS sheet caiman_snap
+PASS pixel import caiman_snap
+PASS sheet caiman_sombra
+PASS pixel import caiman_sombra
+PASS sheet cascada
+PASS pixel import cascada
+PASS sheet coleccionable_ceramica
+PASS pixel import coleccionable_ceramica
+PASS sheet coleccionable_flauta
+PASS pixel import coleccionable_flauta
+PASS sheet coleccionable_moneda
+PASS pixel import coleccionable_moneda
+PASS sheet coleccionable_sonaja
+PASS pixel import coleccionable_sonaja
+PASS sheet coleccionable_textil
+PASS pixel import coleccionable_textil
+PASS sheet cristal_descenso
+PASS pixel import cristal_descenso
+PASS sheet cristal_salto
+PASS pixel import cristal_salto
+PASS sheet cueva_capa1_cielo
+PASS pixel import cueva_capa1_cielo
+PASS sheet cueva_capa2_lejania
+PASS pixel import cueva_capa2_lejania
+PASS sheet cueva_capa3_estructura
+PASS pixel import cueva_capa3_estructura
+PASS sheet cueva_capa5_cercania
+PASS pixel import cueva_capa5_cercania
+PASS sheet cueva_capa6_frontal
+PASS pixel import cueva_capa6_frontal
+PASS sheet decor_barca_remador
+PASS pixel import decor_barca_remador
+PASS sheet decor_casa_ribera
+PASS pixel import decor_casa_ribera
+PASS sheet decor_raiz_colgante
+PASS pixel import decor_raiz_colgante
+PASS sheet decor_rama_anclaje
+PASS pixel import decor_rama_anclaje
+PASS sheet decor_roca_musgo
+PASS pixel import decor_roca_musgo
+PASS sheet delfin_movimiento
+PASS pixel import delfin_movimiento
+PASS sheet entrada_cueva
+PASS pixel import entrada_cueva
+PASS sheet entrada_ruinas
+PASS pixel import entrada_ruinas
+PASS sheet esbirro_brote_ataque
+PASS pixel import esbirro_brote_ataque
+PASS sheet esbirro_brote_caminar
+PASS pixel import esbirro_brote_caminar
+PASS sheet esbirro_brote_derrota
+PASS pixel import esbirro_brote_derrota
+PASS sheet esbirro_brote_hit
+PASS pixel import esbirro_brote_hit
+PASS sheet esbirro_brote_idle
+PASS pixel import esbirro_brote_idle
+PASS sheet esbirro_escarabajo_ataque
+PASS pixel import esbirro_escarabajo_ataque
+PASS sheet esbirro_escarabajo_caminar
+PASS pixel import esbirro_escarabajo_caminar
+PASS sheet esbirro_escarabajo_derrota
+PASS pixel import esbirro_escarabajo_derrota
+PASS sheet esbirro_escarabajo_hit
+PASS pixel import esbirro_escarabajo_hit
+PASS sheet esbirro_escarabajo_idle
+PASS pixel import esbirro_escarabajo_idle
+PASS sheet flor
+PASS pixel import flor
+PASS sheet fx_astillas
+PASS pixel import fx_astillas
+PASS sheet fx_burbujas
+PASS pixel import fx_burbujas
+PASS sheet fx_destello
+PASS pixel import fx_destello
+PASS sheet fx_disparo
+PASS pixel import fx_disparo
+PASS sheet fx_escudo_activo
+PASS pixel import fx_escudo_activo
+PASS sheet fx_escudo_romper
+PASS pixel import fx_escudo_romper
+PASS sheet fx_espuma
+PASS pixel import fx_espuma
+PASS sheet fx_hojas
+PASS pixel import fx_hojas
+PASS sheet fx_impacto
+PASS pixel import fx_impacto
+PASS sheet fx_ondas
+PASS pixel import fx_ondas
+PASS sheet fx_polvo
+PASS pixel import fx_polvo
+PASS sheet fx_portal
+PASS pixel import fx_portal
+PASS sheet fx_rastro_salto
+PASS pixel import fx_rastro_salto
+PASS sheet fx_salpicadura
+PASS pixel import fx_salpicadura
+PASS sheet fx_splash_entrada
+PASS pixel import fx_splash_entrada
+PASS sheet fx_splash_salida
+PASS pixel import fx_splash_salida
+PASS sheet fx_veneno
+PASS pixel import fx_veneno
+PASS sheet gota_cueva
+PASS pixel import gota_cueva
+PASS sheet guacamayo_movimiento
+PASS pixel import guacamayo_movimiento
+PASS sheet helecho_viento
+PASS pixel import helecho_viento
+PASS sheet heroe_burst
+PASS pixel import heroe_burst
+PASS sheet heroe_climb
+PASS pixel import heroe_climb
+PASS sheet heroe_death
+PASS pixel import heroe_death
+PASS sheet heroe_double_jump
+PASS pixel import heroe_double_jump
+PASS sheet heroe_fall
+PASS pixel import heroe_fall
+PASS sheet heroe_grab
+PASS pixel import heroe_grab
+PASS sheet heroe_hit
+PASS pixel import heroe_hit
+PASS sheet heroe_idle
+PASS pixel import heroe_idle
+PASS sheet heroe_jump
+PASS pixel import heroe_jump
+PASS sheet heroe_land
+PASS pixel import heroe_land
+PASS sheet heroe_regrab
+PASS pixel import heroe_regrab
+PASS sheet heroe_release
+PASS pixel import heroe_release
+PASS sheet heroe_reload
+PASS pixel import heroe_reload
+PASS sheet heroe_run
+PASS pixel import heroe_run
+PASS sheet heroe_slide
+PASS pixel import heroe_slide
+PASS sheet heroe_swing
+PASS pixel import heroe_swing
+PASS sheet heroe_victory
+PASS pixel import heroe_victory
+PASS sheet hongo
+PASS pixel import hongo
+PASS sheet liana_curva
+PASS pixel import liana_curva
+PASS sheet luciernaga_movimiento
+PASS pixel import luciernaga_movimiento
+PASS sheet mono_movimiento
+PASS pixel import mono_movimiento
+PASS sheet murcielago_movimiento
+PASS pixel import murcielago_movimiento
+PASS sheet museo_ceramica
+PASS pixel import museo_ceramica
+PASS sheet museo_flauta
+PASS pixel import museo_flauta
+PASS sheet museo_sonaja
+PASS pixel import museo_sonaja
+PASS sheet museo_textil
+PASS pixel import museo_textil
+PASS sheet niebla
+PASS pixel import niebla
+PASS sheet noche_capa1_cielo
+PASS pixel import noche_capa1_cielo
+PASS sheet noche_capa2_lejania
+PASS pixel import noche_capa2_lejania
+PASS sheet noche_capa3_estructura
+PASS pixel import noche_capa3_estructura
+PASS sheet noche_capa5_cercania
+PASS pixel import noche_capa5_cercania
+PASS sheet noche_capa6_frontal
+PASS pixel import noche_capa6_frontal
+PASS sheet obstaculo_estaca
+PASS pixel import obstaculo_estaca
+PASS sheet obstaculo_pinchos
+PASS pixel import obstaculo_pinchos
+PASS sheet obstaculo_raiz
+PASS pixel import obstaculo_raiz
+PASS sheet obstaculo_techo
+PASS pixel import obstaculo_techo
+PASS sheet obstaculo_trampa
+PASS pixel import obstaculo_trampa
+PASS sheet plataforma_bote
+PASS pixel import plataforma_bote
+PASS sheet plataforma_piedra
+PASS pixel import plataforma_piedra
+PASS sheet plataforma_puente
+PASS pixel import plataforma_puente
+PASS sheet plataforma_rampa
+PASS pixel import plataforma_rampa
+PASS sheet plataforma_tronco
+PASS pixel import plataforma_tronco
+PASS sheet plataforma_victoria
+PASS pixel import plataforma_victoria
+PASS sheet portal_salida
+PASS pixel import portal_salida
+PASS sheet rayos_sol
+PASS pixel import rayos_sol
+PASS sheet rio_capa1_cielo
+PASS pixel import rio_capa1_cielo
+PASS sheet rio_capa2_lejania
+PASS pixel import rio_capa2_lejania
+PASS sheet rio_capa3_estructura
+PASS pixel import rio_capa3_estructura
+PASS sheet rio_capa5_cercania
+PASS pixel import rio_capa5_cercania
+PASS sheet rio_capa6_frontal
+PASS pixel import rio_capa6_frontal
+PASS sheet ruinas_capa1_cielo
+PASS pixel import ruinas_capa1_cielo
+PASS sheet ruinas_capa2_lejania
+PASS pixel import ruinas_capa2_lejania
+PASS sheet ruinas_capa3_estructura
+PASS pixel import ruinas_capa3_estructura
+PASS sheet ruinas_capa5_cercania
+PASS pixel import ruinas_capa5_cercania
+PASS sheet ruinas_capa6_frontal
+PASS pixel import ruinas_capa6_frontal
+PASS sheet serpiente_movimiento
+PASS pixel import serpiente_movimiento
+PASS sheet templo_capa1_cielo
+PASS pixel import templo_capa1_cielo
+PASS sheet templo_capa2_lejania
+PASS pixel import templo_capa2_lejania
+PASS sheet templo_capa3_estructura
+PASS pixel import templo_capa3_estructura
+PASS sheet templo_capa5_cercania
+PASS pixel import templo_capa5_cercania
+PASS sheet templo_capa6_frontal
+PASS pixel import templo_capa6_frontal
+PASS sheet tile_cueva_borde_der
+PASS pixel import tile_cueva_borde_der
+PASS sheet tile_cueva_borde_izq
+PASS pixel import tile_cueva_borde_izq
+PASS sheet tile_cueva_relleno
+PASS pixel import tile_cueva_relleno
+PASS sheet tile_cueva_superficie
+PASS pixel import tile_cueva_superficie
+PASS sheet tile_roca_borde_der
+PASS pixel import tile_roca_borde_der
+PASS sheet tile_roca_borde_izq
+PASS pixel import tile_roca_borde_izq
+PASS sheet tile_roca_relleno
+PASS pixel import tile_roca_relleno
+PASS sheet tile_roca_superficie
+PASS pixel import tile_roca_superficie
+PASS sheet tile_ruina_borde_der
+PASS pixel import tile_ruina_borde_der
+PASS sheet tile_ruina_borde_izq
+PASS pixel import tile_ruina_borde_izq
+PASS sheet tile_ruina_relleno
+PASS pixel import tile_ruina_relleno
+PASS sheet tile_ruina_superficie
+PASS pixel import tile_ruina_superficie
+PASS sheet tile_tierra_borde_der
+PASS pixel import tile_tierra_borde_der
+PASS sheet tile_tierra_borde_izq
+PASS pixel import tile_tierra_borde_izq
+PASS sheet tile_tierra_relleno
+PASS pixel import tile_tierra_relleno
+PASS sheet tile_tierra_superficie
+PASS pixel import tile_tierra_superficie
+PASS sheet ui_barra
+PASS pixel import ui_barra
+PASS sheet ui_boton
+PASS pixel import ui_boton
+PASS sheet ui_casilla
+PASS pixel import ui_casilla
+PASS sheet ui_panel
+PASS pixel import ui_panel
+PASS Selva registered in scene list
+PASS full caiman cycle including relocation and reactive splashes
+PASS snap frame mouth matches damaging hitbox
+PASS telegraph is harmless
+PASS pendulum length and bounded arc
+PASS rope bows with angular inertia
+PASS jump responds on the input substep
+PASS second jump responds without beat gating
+PASS fire does not inject an unsolicited jump
+PASS hero remains attached to moving rope
+PASS release keeps gameplay running
+PASS cave opens as a manual platforming space
+PASS ruins open as a second manual space
+PASS mini 0 completable with 5 health and finite magazine
+PASS mini 1 completable with 5 health and finite magazine
+PASS zero runtime errors

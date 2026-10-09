@@ -1,0 +1,33 @@
+{
+  "name": "selva_ui_casilla",
+  "file": "UI/selva_ui_casilla.png",
+  "frameWidth": 24,
+  "frameHeight": 24,
+  "frames": 1,
+  "layout": "horizontal",
+  "fps": 8,
+  "loop": true,
+  "ppu": 32,
+  "pivot": [
+    0.5,
+    0
+  ],
+  "parallax": 1,
+  "seamlessX": false,
+  "status": "proposal_pending_visual_approval",
+  "border": [
+    4,
+    4,
+    4,
+    4
+  ],
+  "notes": "Optional skin only. Reuse current shared UI; do not change layout or bake text.",
+  "rectsUnity": [
+    {
+      "x": 0,
+      "y": 0,
+      "width": 24,
+      "height": 24
+    }
+  ]
+}

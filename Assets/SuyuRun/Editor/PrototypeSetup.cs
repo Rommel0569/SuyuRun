@@ -60,7 +60,12 @@ namespace SuyuRun.Editor
             if(command=="smoke"){Open();smoke=false;SessionState.SetBool("SuyuRun.Smoke",true);EditorApplication.isPlaying=true;}
             else if(command=="legacy-smoke"){OpenLegacy();smoke=false;SessionState.SetBool("SuyuRun.Smoke",true);EditorApplication.isPlaying=true;}
             else if(command=="reference-check")ReferenceCoastCheck.Run();
-            else if(command=="refresh")AssetDatabase.Refresh();
+            else if(command=="refresh")
+            {
+                foreach(var path in new[]{"Assets/SuyuRun/Editor/PortalDoorAudit.cs","Assets/SuyuRun/Art/Shaders/PortalThreshold.shader"})
+                    if(File.Exists(path))AssetDatabase.ImportAsset(path,ImportAssetOptions.ForceUpdate);
+                AssetDatabase.Refresh();
+            }
             else if(command=="ready-mainmenu")
             {
                 SessionState.SetBool("SuyuRun.Smoke",false);SessionState.SetBool("SuyuRun.ReferenceCheck",false);

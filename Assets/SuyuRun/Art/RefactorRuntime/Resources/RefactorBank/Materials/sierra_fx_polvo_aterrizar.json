@@ -1,0 +1,14 @@
+{
+  "frames": 6,
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "logicalWidth": 32,
+  "logicalHeight": 32,
+  "pixelsPerUnit": 64,
+  "fps": 12,
+  "loop": false,
+  "original": "Assets/SuyuRun/Art/PixelSierra/ProductionV3/Resources/SierraV3/sierra_fx_polvo_aterrizar.png",
+  "source": "Tools/finish_remaining_visuals.py",
+  "finish": "native cluster micro-contours; preserved original composition",
+  "fullPlaythroughTested": false
+}

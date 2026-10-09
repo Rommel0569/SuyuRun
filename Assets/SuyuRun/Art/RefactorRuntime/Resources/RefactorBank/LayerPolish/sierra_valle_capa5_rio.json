@@ -1,0 +1,16 @@
+{
+  "frames": 6,
+  "frameWidth": 1280,
+  "frameHeight": 360,
+  "logicalWidth": 640,
+  "logicalHeight": 180,
+  "pixelsPerUnit": 64,
+  "fps": 8,
+  "loop": true,
+  "original": "Assets/SuyuRun/Art/PixelSierra/ProductionV3/Resources/SierraV3/sierra_valle_capa5_rio.png",
+  "source": "Artifacts/VisualRefactor/LayerPolish/Sources/sierra_valle_capa5_rio.png",
+  "finish": "independent imagegen framewise redraw",
+  "fullPlaythroughTested": false,
+  "previous": "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/Materials/sierra_valle_capa5_rio.json",
+  "alphaMode": "preserveSource"
+}

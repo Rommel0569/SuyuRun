@@ -1,0 +1,817 @@
+fileFormatVersion: 2
+guid: b8667b354e3b4064d84f13afd5707ec7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5629297393884742306
+    second: sierra_fx_polvo_aterrizar_0
+  - first:
+      213: -1548225376845366358
+    second: sierra_fx_polvo_aterrizar_1
+  - first:
+      213: 521862970221740222
+    second: sierra_fx_polvo_aterrizar_2
+  - first:
+      213: 4588731506597108186
+    second: sierra_fx_polvo_aterrizar_3
+  - first:
+      213: -2828648680379114610
+    second: sierra_fx_polvo_aterrizar_4
+  - first:
+      213: -3318003318103728391
+    second: sierra_fx_polvo_aterrizar_5
+  - first:
+      213: 1640569831032047520
+    second: sierra_fx_polvo_aterrizar_6
+  - first:
+      213: -679873928828498098
+    second: sierra_fx_polvo_aterrizar_7
+  - first:
+      213: -4835653932914643579
+    second: sierra_fx_polvo_aterrizar_8
+  - first:
+      213: -6274550295254060842
+    second: sierra_fx_polvo_aterrizar_9
+  - first:
+      213: -2360951419817838343
+    second: sierra_fx_polvo_aterrizar_10
+  - first:
+      213: -6192750834212549219
+    second: sierra_fx_polvo_aterrizar_11
+  - first:
+      213: 185022770524626110
+    second: sierra_fx_polvo_aterrizar_12
+  - first:
+      213: -1067243798578126332
+    second: sierra_fx_polvo_aterrizar_13
+  - first:
+      213: -2168329726710026314
+    second: sierra_fx_polvo_aterrizar_14
+  - first:
+      213: -6424072699356012152
+    second: sierra_fx_polvo_aterrizar_15
+  - first:
+      213: 994426090704407680
+    second: sierra_fx_polvo_aterrizar_16
+  - first:
+      213: 5409576969488873525
+    second: sierra_fx_polvo_aterrizar_17
+  - first:
+      213: 4694622622490870083
+    second: sierra_fx_polvo_aterrizar_18
+  - first:
+      213: -2966532510152161119
+    second: sierra_fx_polvo_aterrizar_19
+  - first:
+      213: 5604315017839879672
+    second: sierra_fx_polvo_aterrizar_20
+  - first:
+      213: 2034265935320384323
+    second: sierra_fx_polvo_aterrizar_21
+  - first:
+      213: 1773221926774656302
+    second: sierra_fx_polvo_aterrizar_22
+  - first:
+      213: -6768381686835803794
+    second: sierra_fx_polvo_aterrizar_23
+  - first:
+      213: -6925130342142988355
+    second: sierra_fx_polvo_aterrizar_24
+  - first:
+      213: 1948980789138317941
+    second: sierra_fx_polvo_aterrizar_25
+  - first:
+      213: -4270724332613709853
+    second: sierra_fx_polvo_aterrizar_26
+  - first:
+      213: -927388534531149512
+    second: sierra_fx_polvo_aterrizar_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sierra_fx_polvo_aterrizar_0
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 37
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a2488987284f1e40800000000000000
+      internalID: 5629297393884742306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_polvo_aterrizar_1
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 49
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aabf2ecf839938ae0800000000000000
+      internalID: -1548225376845366358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_polvo_aterrizar_2
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 55
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb04f714b970e3700800000000000000
+      internalID: 521862970221740222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_polvo_aterrizar_3
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 15
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad91d5c3ef27eaf30800000000000000
+      internalID: 4588731506597108186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_polvo_aterrizar_4
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 25
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8b10a3130f9eb8d0800000000000000
+      internalID: -2828648680379114610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_polvo_aterrizar_5
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 25
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fe1cdccf8514f1d0800000000000000
+      internalID: -3318003318103728391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_polvo_aterrizar_6
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 39
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a743e7b19974c610800000000000000
+      internalID: 1640569831032047520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_polvo_aterrizar_7
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 41
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4fc02c834a9096f0800000000000000
+      internalID: -679873928828498098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_polvo_aterrizar_8
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 41
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58de6ef4e5e44ecb0800000000000000
+      internalID: -4835653932914643579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_polvo_aterrizar_9
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 45
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d03f0e10c15ce8a0800000000000000
+      internalID: -6274550295254060842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_polvo_aterrizar_10
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 19
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f8bdc941373c3fd0800000000000000
+      internalID: -2360951419817838343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_polvo_aterrizar_11
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 15
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9dc1484dedee0aa0800000000000000
+      internalID: -6192750834212549219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_polvo_aterrizar_12
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 21
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebc9a70ca35519200800000000000000
+      internalID: 185022770524626110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_polvo_aterrizar_13
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 27
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40223017b636031f0800000000000000
+      internalID: -1067243798578126332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_polvo_aterrizar_14
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 29
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bf67831a9b88e1e0800000000000000
+      internalID: -2168329726710026314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_polvo_aterrizar_15
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 23
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 881a9978aeb19d6a0800000000000000
+      internalID: -6424072699356012152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_polvo_aterrizar_16
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 29
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08c01d3c249eccd00800000000000000
+      internalID: 994426090704407680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_polvo_aterrizar_17
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 31
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 538b483b79da21b40800000000000000
+      internalID: 5409576969488873525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_polvo_aterrizar_18
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 13
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 341c418e666a62140800000000000000
+      internalID: 4694622622490870083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_polvo_aterrizar_19
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 9
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a88bbd3662c4d6d0800000000000000
+      internalID: -2966532510152161119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_polvo_aterrizar_20
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 11
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f5abb7d0d686cd40800000000000000
+      internalID: 5604315017839879672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_polvo_aterrizar_21
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 17
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3430375171a2b3c10800000000000000
+      internalID: 2034265935320384323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_polvo_aterrizar_22
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 15
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2d465d82ffbb9810800000000000000
+      internalID: 1773221926774656302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_polvo_aterrizar_23
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 21
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6984eb57b0e112a0800000000000000
+      internalID: -6768381686835803794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_polvo_aterrizar_24
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 7
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbfa94d05aef4ef90800000000000000
+      internalID: -6925130342142988355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_polvo_aterrizar_25
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 9
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57266aa93bb2c0b10800000000000000
+      internalID: 1948980789138317941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_polvo_aterrizar_26
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 5
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ef41f4c8d65bb4c0800000000000000
+      internalID: -4270724332613709853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sierra_fx_polvo_aterrizar_27
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 7
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83130869a014123f0800000000000000
+      internalID: -927388534531149512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,14 @@
+{
+  "frames": 1,
+  "frameWidth": 128,
+  "frameHeight": 20,
+  "logicalWidth": 64,
+  "logicalHeight": 10,
+  "pixelsPerUnit": 64,
+  "fps": 8,
+  "loop": true,
+  "original": "Assets/SuyuRun/Art/PixelSelva/ProductionV2/Resources/SelvaV2/selva_ui_barra.png",
+  "source": "Tools/finish_remaining_visuals.py",
+  "finish": "native cluster micro-contours; preserved original composition",
+  "fullPlaythroughTested": false
+}

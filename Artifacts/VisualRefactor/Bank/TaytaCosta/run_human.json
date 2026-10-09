@@ -1,0 +1,30 @@
+{
+  "frames": 12,
+  "fps": 24,
+  "loop": true,
+  "frameWidth": 192,
+  "frameHeight": 128,
+  "pixelsPerUnit": 64,
+  "footAnchor": [
+    96,
+    124
+  ],
+  "gaitLift": [
+    0,
+    0,
+    2,
+    5,
+    6,
+    2,
+    0,
+    0,
+    2,
+    5,
+    6,
+    2
+  ],
+  "strideLogicalPixels": 112,
+  "source": "Artifacts/VisualRefactor/Heroes/costa_human_run_source.png",
+  "integrated": false,
+  "playTested": false
+}

@@ -1,0 +1,24 @@
+{
+  "name": "selva_museo_flauta_v3",
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 1,
+  "fps": 8,
+  "loop": true,
+  "ppu": 32,
+  "pivot": [
+    0,
+    1
+  ],
+  "rectsUnity": [
+    {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64
+    }
+  ],
+  "group": "Museum",
+  "reference": "https://americanindian.si.edu/collections-search/object/NMAI_218689",
+  "notes": "Native interpretation; not a facsimile or universal ceremonial attribution."
+}

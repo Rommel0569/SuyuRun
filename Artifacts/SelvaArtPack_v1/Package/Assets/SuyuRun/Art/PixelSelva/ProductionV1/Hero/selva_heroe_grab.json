@@ -1,0 +1,53 @@
+{
+  "name": "selva_heroe_grab",
+  "file": "Hero/selva_heroe_grab.png",
+  "frameWidth": 48,
+  "frameHeight": 48,
+  "frames": 3,
+  "layout": "horizontal",
+  "fps": 8,
+  "loop": false,
+  "ppu": 32,
+  "pivot": [
+    0.5,
+    0
+  ],
+  "parallax": 1,
+  "seamlessX": false,
+  "status": "proposal_pending_visual_approval",
+  "handPerFrame": [
+    [
+      38,
+      11
+    ],
+    [
+      36,
+      6
+    ],
+    [
+      34,
+      1
+    ]
+  ],
+  "notes": "Same face and protective suit awarded in Sierra, palette remap only. Frames 48x48. No identity redesign.",
+  "rectsUnity": [
+    {
+      "x": 0,
+      "y": 0,
+      "width": 48,
+      "height": 48
+    },
+    {
+      "x": 48,
+      "y": 0,
+      "width": 48,
+      "height": 48
+    },
+    {
+      "x": 96,
+      "y": 0,
+      "width": 48,
+      "height": 48
+    }
+  ]
+}

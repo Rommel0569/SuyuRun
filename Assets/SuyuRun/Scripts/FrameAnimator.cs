@@ -24,14 +24,14 @@ namespace SuyuRun
 
         void Update()
         {
-            if (frames == null || frames.Length == 0 || fps <= 0) return;
+            if (!target || frames == null || frames.Length == 0 || fps <= 0) return;
             t += Time.deltaTime;
             float frameTime = 1f / fps;
-            while (t >= frameTime)
+            if (t >= frameTime)
             {
-                t -= frameTime;
-                index++;
-                if (index >= frames.Length) index = loop ? 0 : frames.Length - 1;
+                int steps=Mathf.FloorToInt(t/frameTime);
+                t-=steps*frameTime;
+                index=loop?(index+steps)%frames.Length:Mathf.Min(index+steps,frames.Length-1);
             }
             target.sprite = frames[index];
         }

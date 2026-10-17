@@ -86,6 +86,7 @@ namespace SuyuRun
             // art canvas is 320x180, GUI space here is 1280x720, a clean x4).
             if(InvisibleButton(new Rect(64,600,352,56)))Begin();
             GUI.Label(new Rect(64,600,352,56),"JUGAR",new GUIStyle(small){alignment=TextAnchor.MiddleCenter});
+            if(CommonButton(new Rect(508,665,264,42),"TUTORIAL"))UnityEngine.SceneManagement.SceneManager.LoadScene("Level_Tutorial");
             if(InvisibleButton(new Rect(448,600,184,56)))mode=Mode.Selector;
             GUI.Label(new Rect(448,600,184,56),"NIVELES",new GUIStyle(small){alignment=TextAnchor.MiddleCenter});
             if(InvisibleButton(new Rect(648,600,184,56)))OpenMuseum();
@@ -106,6 +107,7 @@ namespace SuyuRun
             var logo=new GUIStyle(title){fontSize=36};GUI.Label(new Rect(68,145,550,120),"SUYU RUN",logo);
             GUI.Label(new Rect(78,270,460,85),"La costa tiene ritmo.\nSu historia también se descubre jugando.",text);
             if(GUI.Button(new Rect(78,381,485,62),"JUGAR COSTA · EL ALCATRAZ",button))Begin();
+            if(CommonButton(new Rect(508,665,264,42),"TUTORIAL"))SceneManager.LoadScene("Level_Tutorial");
             if(GUI.Button(new Rect(78,460,485,52),"MUSEO DE COSTA   "+DiscoveredCount+" / 4",button))OpenMuseum();
             if(GUI.Button(new Rect(78,529,485,46),"PROTOTIPO ORIGINAL · 64 s",button))SceneManager.LoadScene("Prototype_Legacy");
             GUI.Label(new Rect(78,600,500,42),"Sierra y Selva · músicas guardadas, niveles en desarrollo",small);

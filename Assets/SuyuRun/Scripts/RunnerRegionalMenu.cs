@@ -21,6 +21,7 @@ namespace SuyuRun
             if(InvisibleButton(FinalRect(1360,955,288,88)))mode=Mode.Shop;
             if(InvisibleButton(FinalRect(1680,955,282,88)))Application.Quit();
             if(InvisibleButton(FinalRect(1875,10,155,55)))mode=Mode.Settings;
+            if(CommonButton(new Rect(508,665,264,42),"TUTORIAL"))UnityEngine.SceneManagement.SceneManager.LoadScene("Level_Tutorial");
             return true;
         }
         void LoadRegionalMenu()
@@ -105,6 +106,7 @@ namespace SuyuRun
                 GUI.enabled=old;
             }
             if(CommonButton(new Rect(40,640,360,52),"VOLVER AL INICIO"))ReturnToMenu();
+            if(CommonButton(new Rect(460,640,360,52),"TUTORIAL"))UnityEngine.SceneManagement.SceneManager.LoadScene("Level_Tutorial");
         }
     }
 }

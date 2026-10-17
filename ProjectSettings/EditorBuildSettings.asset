@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/SuyuRun/Scenes/Level_Selva.unity
     guid: 938aa37932bb31e4aaa44455bf18aed7
+  - enabled: 1
+    path: Assets/SuyuRun/Scenes/Level_Tutorial.unity
+    guid: 30dfd7b678f4440f899d7a7c6f29f141
   m_configObjects:
     com.unity.dt.app-ui: {fileID: 11400000, guid: 1b1c20d82303e4b5781c3ef50ac1449f, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}

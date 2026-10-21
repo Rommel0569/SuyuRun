@@ -77,14 +77,13 @@ namespace SuyuRun
             return clicked;
         }
         bool minigamesOpen;
-        string minigamesNotice="";
         void DrawTitleScreen()
         {
             bool wasEnabled=GUI.enabled;
             if(minigamesOpen)GUI.enabled=false;
             DrawTitleScreenContent();
             if(CommonButton(new Rect(535,665,210,46),"TUTORIAL",true,4))SceneManager.LoadScene("Level_Tutorial");
-            if(CommonButton(new Rect(815,665,210,46),"MINIJUEGOS",true,4)){minigamesOpen=true;minigamesNotice="";}
+            if(CommonButton(new Rect(815,665,210,46),"MINIJUEGOS",true,4))minigamesOpen=true;
             GUI.enabled=wasEnabled;
             if(minigamesOpen)DrawMinigamesMenu();
         }
@@ -94,9 +93,8 @@ namespace SuyuRun
             CommonFrame(new Rect(400,190,480,340));
             GUI.Label(new Rect(400,206,480,40),"MINIJUEGOS",new GUIStyle(title){fontSize=20,alignment=TextAnchor.MiddleCenter});
             if(CommonButton(new Rect(480,270,320,46),"PROYECTILES",true,4))SceneManager.LoadScene("Level_Proyectiles");
-            if(CommonButton(new Rect(480,334,320,46),"RUTAS",true,4))minigamesNotice="RUTAS · PROXIMAMENTE";
+            if(CommonButton(new Rect(480,334,320,46),"RUTAS",true,4))SceneManager.LoadScene("Level_Rutas");
             if(CommonButton(new Rect(480,440,320,46),"CERRAR",true,4))minigamesOpen=false;
-            if(minigamesNotice.Length>0)GUI.Label(new Rect(400,398,480,32),minigamesNotice,new GUIStyle(small){alignment=TextAnchor.MiddleCenter});
         }
         void DrawTitleScreenContent()
         {

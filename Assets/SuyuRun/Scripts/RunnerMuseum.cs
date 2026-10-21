@@ -76,7 +76,29 @@ namespace SuyuRun
             GUI.color=prev;
             return clicked;
         }
+        bool minigamesOpen;
+        string minigamesNotice="";
         void DrawTitleScreen()
+        {
+            bool wasEnabled=GUI.enabled;
+            if(minigamesOpen)GUI.enabled=false;
+            DrawTitleScreenContent();
+            if(CommonButton(new Rect(535,665,210,46),"TUTORIAL",true,4))SceneManager.LoadScene("Level_Tutorial");
+            if(CommonButton(new Rect(815,665,210,46),"MINIJUEGOS",true,4)){minigamesOpen=true;minigamesNotice="";}
+            GUI.enabled=wasEnabled;
+            if(minigamesOpen)DrawMinigamesMenu();
+        }
+        void DrawMinigamesMenu()
+        {
+            Panel(new Rect(0,0,1280,720),new Color(0,0,0,.6f));
+            CommonFrame(new Rect(400,190,480,340));
+            GUI.Label(new Rect(400,206,480,40),"MINIJUEGOS",new GUIStyle(title){fontSize=20,alignment=TextAnchor.MiddleCenter});
+            if(CommonButton(new Rect(480,270,320,46),"PROYECTILES",true,4))SceneManager.LoadScene("Level_Proyectiles");
+            if(CommonButton(new Rect(480,334,320,46),"RUTAS",true,4))minigamesNotice="RUTAS · PROXIMAMENTE";
+            if(CommonButton(new Rect(480,440,320,46),"CERRAR",true,4))minigamesOpen=false;
+            if(minigamesNotice.Length>0)GUI.Label(new Rect(400,398,480,32),minigamesNotice,new GUIStyle(small){alignment=TextAnchor.MiddleCenter});
+        }
+        void DrawTitleScreenContent()
         {
             if(!legacyPrototype&&DrawFinalTitle())return;
             if(legacyPrototype||!texInicio){DrawTitleScreenLegacyFallback();return;}
@@ -86,7 +108,6 @@ namespace SuyuRun
             // art canvas is 320x180, GUI space here is 1280x720, a clean x4).
             if(InvisibleButton(new Rect(64,600,352,56)))Begin();
             GUI.Label(new Rect(64,600,352,56),"JUGAR",new GUIStyle(small){alignment=TextAnchor.MiddleCenter});
-            if(CommonButton(new Rect(508,665,264,42),"TUTORIAL"))UnityEngine.SceneManagement.SceneManager.LoadScene("Level_Tutorial");
             if(InvisibleButton(new Rect(448,600,184,56)))mode=Mode.Selector;
             GUI.Label(new Rect(448,600,184,56),"NIVELES",new GUIStyle(small){alignment=TextAnchor.MiddleCenter});
             if(InvisibleButton(new Rect(648,600,184,56)))OpenMuseum();
@@ -107,7 +128,6 @@ namespace SuyuRun
             var logo=new GUIStyle(title){fontSize=36};GUI.Label(new Rect(68,145,550,120),"SUYU RUN",logo);
             GUI.Label(new Rect(78,270,460,85),"La costa tiene ritmo.\nSu historia también se descubre jugando.",text);
             if(GUI.Button(new Rect(78,381,485,62),"JUGAR COSTA · EL ALCATRAZ",button))Begin();
-            if(CommonButton(new Rect(508,665,264,42),"TUTORIAL"))SceneManager.LoadScene("Level_Tutorial");
             if(GUI.Button(new Rect(78,460,485,52),"MUSEO DE COSTA   "+DiscoveredCount+" / 4",button))OpenMuseum();
             if(GUI.Button(new Rect(78,529,485,46),"PROTOTIPO ORIGINAL · 64 s",button))SceneManager.LoadScene("Prototype_Legacy");
             GUI.Label(new Rect(78,600,500,42),"Sierra y Selva · músicas guardadas, niveles en desarrollo",small);

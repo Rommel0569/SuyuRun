@@ -21,7 +21,6 @@ namespace SuyuRun
             if(InvisibleButton(FinalRect(1360,955,288,88)))mode=Mode.Shop;
             if(InvisibleButton(FinalRect(1680,955,282,88)))Application.Quit();
             if(InvisibleButton(FinalRect(1875,10,155,55)))mode=Mode.Settings;
-            if(CommonButton(new Rect(508,665,264,42),"TUTORIAL"))UnityEngine.SceneManagement.SceneManager.LoadScene("Level_Tutorial");
             return true;
         }
         void LoadRegionalMenu()
@@ -79,10 +78,10 @@ namespace SuyuRun
             var old=GUI.matrix;GUI.matrix=old*Matrix4x4.Scale(Vector3.one*4);
             SharedGameMenu.Frame(new Rect(r.x/4,r.y/4,r.width/4,r.height/4),false);GUI.matrix=old;
         }
-        bool CommonButton(Rect r,string caption,bool enabled=true)
+        bool CommonButton(Rect r,string caption,bool enabled=true,int size=5)
         {
             var old=GUI.matrix;GUI.matrix=old*Matrix4x4.Scale(Vector3.one*4);
-            bool clicked=SharedGameMenu.Button(new Rect(r.x/4,r.y/4,r.width/4,r.height/4),caption,false,enabled);
+            bool clicked=SharedGameMenu.Button(new Rect(r.x/4,r.y/4,r.width/4,r.height/4),caption,false,enabled,size);
             GUI.matrix=old;return clicked;
         }
         void DrawRegionalSelector()

@@ -55,12 +55,12 @@ namespace SuyuRun
             foreach(float x in new[]{r.x,r.xMax-6})foreach(float y in new[]{r.y,r.yMax-6})
             {RunnerPresentation.Box(new Rect(x,y,6,6),Ink);RunnerPresentation.Box(new Rect(x+1,y+1,4,4),Gold);RunnerPresentation.Box(new Rect(x+2,y+2,2,2),Skin(sierra));}
         }
-        public static bool Button(Rect r,string text,bool sierra,bool enabled=true)
+        public static bool Button(Rect r,string text,bool sierra,bool enabled=true,int size=5)
         {
             Frame(r,sierra);bool hover=enabled&&r.Contains(Event.current.mousePosition);
             if(hover)RunnerPresentation.Box(new Rect(r.x+4,r.y+4,r.width-8,1),Gold);
             var old=GUI.color;if(!enabled)GUI.color=new Color(.6f,.6f,.6f,1);
-            GUI.Label(new Rect(r.x+5,r.y+3,r.width-10,r.height-6),text,Text(5,TextAnchor.MiddleCenter));GUI.color=old;
+            GUI.Label(new Rect(r.x+5,r.y+3,r.width-10,r.height-6),text,Text(size,TextAnchor.MiddleCenter));GUI.color=old;
             return enabled&&GUI.Button(r,GUIContent.none,GUIStyle.none);
         }
         public static void Draw(State state,Context c)

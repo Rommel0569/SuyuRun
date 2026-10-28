@@ -1,134 +1,544 @@
-using System;
-using System.Collections.Generic;
 using UnityEngine;
 namespace SuyuRun
 {
-    // Post-game presentation only; gameplay, save data and future secret level stay unchanged.
+    // Cinematic-only actors. The runner, collision geometry and save data are untouched.
     public sealed class RunnerFinalMovie:MonoBehaviour
     {
         public static bool Active {get;private set;}
-        double began;AudioSource track;
-        [Serializable] sealed class AtlasSpec {public int frames,frameWidth,frameHeight,fps;public bool loop;}
-        readonly Dictionary<string,Sprite[]> actors=new Dictionary<string,Sprite[]>();
-        readonly Dictionary<string,AtlasSpec> actorSpecs=new Dictionary<string,AtlasSpec>();
-        readonly Dictionary<string,Texture2D> layers=new Dictionary<string,Texture2D>();
-        public static void Begin(GameObject host)
+        public const float FilmSeconds=20,CreditsSeconds=10,TotalSeconds=30;
+        const float ActorSize=68;
+        const float CoastActorSize=44;
+        readonly FinalMovieArt art=new FinalMovieArt();
+        double began,pausedAt; AudioSource track,foley; float volume; bool ready,preview,paused;
+        float previousAge=-1;
+        FinalMovieScore score=new FinalMovieScore();
+        AudioClip shot,step,air;
+        readonly int[] collected=new int[12];int collectedCount;
+        public float Age=>Mathf.Max(0,(float)((paused?pausedAt:AudioSettings.dspTime)-began));
+        public static readonly string[] RequiredAssets={
+            "costa_sky","costa_mid","costa_ground","sierra_sky","sierra_mid","sierra_ground",
+            "selva_sky","selva_mid","selva_ground","costa_hero","sierra_hero","selva_hero",
+            "selva_portrait","selva_fx","selva_memories","costa_life","sierra_life","selva_life",
+            "epilogue_sky","epilogue_mid","epilogue_ground","epilogue_portal_back","epilogue_portal_front","epilogue_hero",
+            "costa_chasm","portal_entry","costa_run"};
+        public static void Begin(GameObject host){if(!Active)host.AddComponent<RunnerFinalMovie>();}
+        public void KeepPreviewOpen(){preview=true;}
+        public void Replay()
         {
-            if(Active)return;
-            host.AddComponent<RunnerFinalMovie>();
+            began=AudioSettings.dspTime;paused=false;previousAge=-1;
+            if(track){track.time=0;track.Play();}if(foley)foley.Stop();
         }
-        void Awake(){Active=true;began=AudioSettings.dspTime;track=gameObject.AddComponent<AudioSource>();track.clip=Resources.Load<AudioClip>("FinalMovie/final_music");track.loop=true;track.volume=.34f*PlayerPrefs.GetFloat("SuyuRun.Settings.MusicVol",1);if(track.clip)track.Play();}
-        void OnDestroy(){Active=false;if(track)Destroy(track);foreach(var sheet in actors.Values)foreach(var sprite in sheet)if(sprite)Destroy(sprite);}
-        void Update(){float age=(float)(AudioSettings.dspTime-began);if(age>28&&track)track.volume=.34f*PlayerPrefs.GetFloat("SuyuRun.Settings.MusicVol",1)*Mathf.Clamp01((30-age)/2);if(age>=30)Destroy(this);}
-        void Layer(string resource,float t,float speed)
+        public void TogglePause()
         {
-            if(!layers.TryGetValue(resource,out var texture))
-            {texture=RefactorMaterialArt.FullTexture(Resources.Load<Texture2D>(resource));layers[resource]=texture;}
-            if(!texture)return;
-            texture.filterMode=FilterMode.Point;
-            float x=-Mathf.Repeat(t*speed,640);
-            GUI.DrawTexture(new Rect(x,0,640,180),texture,ScaleMode.StretchToFill,true);
-            GUI.DrawTexture(new Rect(x+640,0,640,180),texture,ScaleMode.StretchToFill,true);
+            if(!paused){pausedAt=AudioSettings.dspTime;paused=true;if(track)track.Pause();if(foley)foley.Pause();}
+            else{began+=AudioSettings.dspTime-pausedAt;paused=false;if(track)track.UnPause();if(foley)foley.UnPause();}
         }
-        void Actor(string path,Rect rect,float time,bool left=false)
+        void Awake()
         {
-            if(!actors.TryGetValue(path,out var frames))
+            try
             {
-                string resource=path.StartsWith("SelvaV2/")?path:"RefactorBank/"+path;
-                var texture=Resources.Load<Texture2D>(resource);
-                var meta=Resources.Load<TextAsset>(resource);
-                if(!texture||!meta)return;
-                var spec=JsonUtility.FromJson<AtlasSpec>(meta.text);
-                if(spec.frames<1||spec.frameWidth*spec.frames!=texture.width||spec.frameHeight!=texture.height)return;
-                texture.filterMode=FilterMode.Point;frames=new Sprite[spec.frames];
-                for(int i=0;i<frames.Length;i++)frames[i]=Sprite.Create(texture,new Rect(i*spec.frameWidth,0,spec.frameWidth,spec.frameHeight),new Vector2(.5f,0),64);
-                actors[path]=frames;actorSpecs[path]=spec;
+                foreach(var name in RequiredAssets)art.Load(name);
+                var data=Resources.Load<TextAsset>("FinalMovieV4/score");if(data)score=JsonUtility.FromJson<FinalMovieScore>(data.text);
+                score.Validate();
+                track=gameObject.AddComponent<AudioSource>();track.clip=Resources.Load<AudioClip>("FinalMovie/final_music");
+                track.loop=true;track.playOnAwake=false;track.spatialBlend=0;track.volume=0;
+                foley=gameObject.AddComponent<AudioSource>();foley.playOnAwake=false;foley.spatialBlend=0;
+                shot=Resources.Load<AudioClip>("Sfx/shot");
+                step=MakeFoley("FilmFootstep",.12f,0);air=MakeFoley("FilmAir",.26f,1);
+                volume=.34f*PlayerPrefs.GetFloat("SuyuRun.Settings.MusicVol",1);
+                for(int region=0;region<3;region++)for(int i=0;i<(region==1?3:4);i++)
+                    if(SharedGameMenu.IsCollected(region,i))collected[collectedCount++]=region*4+i;
+                began=AudioSettings.dspTime;ready=true;Active=true;if(track.clip)track.Play();
             }
-            var s=actorSpecs[path];int index=Mathf.FloorToInt(Mathf.Max(0,time)*Mathf.Max(1,s.fps));
-            var previous=GUI.matrix;
-            if(left)GUI.matrix=previous*Matrix4x4.Translate(new Vector3(rect.center.x*2,0,0))*Matrix4x4.Scale(new Vector3(-1,1,1));
-            RunnerHud.Sprite(rect,frames[s.loop?index%frames.Length:Mathf.Min(index,frames.Length-1)]);GUI.matrix=previous;
+            catch(System.Exception ex){Debug.LogException(ex);Destroy(this);}
         }
-        void Choreography(string region,float local)
+        // Quiet, deterministic noise-based foley, not substituted music or visual artwork.
+        static AudioClip MakeFoley(string name,float seconds,int kind)
         {
-            const float ground=146;
-            // Same anatomy and foot anchor in every action. A continuous
-            // ballistic arc chooses ascent/apex/descent, then an explicit land.
-            float jumpAge=local-1.45f,flight=1.55f;
-            float lift=jumpAge>=0&&jumpAge<flight?4*37*(jumpAge/flight)*(1-jumpAge/flight):0;
-            string state;float poseAge;
-            if(local<1.45f){state="run";poseAge=local;}
-            else if(local<2.3f){state="jump";poseAge=jumpAge;}
-            else if(local<3){state="fall";poseAge=local-2.3f;}
-            else if(local<3.18f){state="land";poseAge=local-3;}
-            else if(local<3.55f){state="run";poseAge=local-3.18f;}
-            else if(local<4.4f){state="slide";poseAge=local-3.55f;}
-            else if(local<4.75f){state="run";poseAge=local-4.4f;}
-            else if(local<5.75f){state="burst";poseAge=local-4.75f;}
-            else {state="run";poseAge=local-5.75f;}
-            // Birds and dust use the same production art, not stand-in shapes.
-            string bird=region=="selva"?"SelvaV2/selva_guacamayo_movimiento":"Actors/"+(region=="costa"?"coastbird":"condor")+"/flight";
-            Actor(bird,new Rect(290-local*15,43+Mathf.Sin(local*2)*4,48,48),local,true);
-            if(local>=1.1f&&local<3.4f)
+            const int rate=22050;var values=new float[Mathf.CeilToInt(rate*seconds)];uint seed=7141;
+            float low=0;
+            for(int i=0;i<values.Length;i++)
             {
-                float x=220-(local-1.1f)*57;
-                string foe=region=="costa"?"hexagon":region=="sierra"?"pebble":"sprout";
-                Actor("Actors/"+foe+"/walk",new Rect(x,ground-30,32,32),local,foe!="pebble");
+                seed=1664525*seed+1013904223;float noise=((seed>>8)/16777215f)*2-1;
+                low=Mathf.Lerp(low,noise,kind==0?.14f:.045f);float u=i/(float)values.Length;
+                float envelope=kind==0?Mathf.Exp(-u*9):Mathf.Sin(u*Mathf.PI);
+                values[i]=(low+(kind==0?Mathf.Sin(i*2*Mathf.PI*90/rate)*.20f:0))*envelope;
             }
-            if(local>=3&&local<4.6f)
+            var clip=AudioClip.Create(name,values.Length,1,rate,false);clip.SetData(values,0);return clip;
+        }
+        void Cue(float time,AudioClip clip,float gain)
+        {
+            if(previousAge<time&&Age>=time&&Age-time<.2f&&clip)
+                foley.PlayOneShot(clip,gain*PlayerPrefs.GetFloat("SuyuRun.Settings.EffectsVol",1));
+        }
+        float CoastDuration=>score.cuts[1]-score.cuts[0];
+        float SierraDuration=>score.cuts[2]-score.cuts[1];
+        float SelvaDuration=>score.cuts[3]-score.cuts[2];
+        void Update()
+        {
+            if(!ready||paused)return;
+            float age=Age;
+            if(track)track.volume=volume*Mathf.SmoothStep(0,1,age/.75f)*Mathf.SmoothStep(0,1,(TotalSeconds-age)/1.65f);
+            for(int contact=0;contact<=8;contact++)
             {
-                float x=238-(local-3)*84;
-                Actor(bird,new Rect(x,ground-55,48,48),local,true);
+                float runTime=contact/3f;
+                float cue=runTime<2.5f?runTime*score.cuts[0]/2.5f:score.cuts[0]+(runTime-2.5f)*CoastDuration/3.5f;
+                Cue(cue,step,.025f);
             }
-            if(local>=4.5f&&local<5.55f)
-                Actor(bird,new Rect(246-(local-4.5f)*24,ground-60,48,48),local,true);
-            if(local>=4.8f&&local<5.55f)
+            Cue(score.cuts[0]+CoastDuration*(2.15f/3.5f),step,.11f);
+            Cue(score.cuts[1]+SierraDuration*.52f,air,.10f);
+            Cue(score.cuts[2]-.14f,air,.07f);
+            Cue(score.cuts[2]+SelvaDuration*(1.55f/4.5f),air,.08f);
+            Cue(score.cuts[2]+SelvaDuration*(LandingTime()/4.5f),step,.11f);
+            Cue(score.cuts[2]+SelvaDuration*(3.2f/4.5f),shot,.045f);
+            Cue(score.cuts[3]-.15f,air,.09f);
+            previousAge=age;
+            if(age>=TotalSeconds&&!preview)Destroy(this);
+        }
+        void OnDestroy()
+        {
+            Active=false;if(track){track.Stop();Destroy(track);}if(foley){foley.Stop();Destroy(foley);}
+            if(step)Destroy(step);if(air)Destroy(air);
+        }
+        static float Ease(float t)=>Mathf.SmoothStep(0,1,Mathf.Clamp01(t));
+        static int Pose(float t,int first,float[] exposures)
+        {
+            for(int i=0;i<exposures.Length;i++){if(t<exposures[i])return first+i;t-=exposures[i];}
+            return first+exposures.Length-1;
+        }
+        void Band(string name,float travel,float speed,float offset=0)
+        {
+            float x=-Mathf.Repeat(travel*speed,640)-offset;
+            float y=name.EndsWith("_ground")?146-art.Surface(name)*180:0;
+            art.Draw(name,new Rect(x,y,640,180));if(speed!=0)art.Draw(name,new Rect(x+640,y,640,180));
+        }
+        void Ground(string r,float travel,float gap=-1000)
+        {
+            if(gap<-100){Band(r+"_ground",travel,58);return;}
+            // Authored canyon walls and distant ledges continue BELOW the walkable rim.
+            // Clip only the aperture: the far landscape must not read as a paper floor.
+            float aperture=Mathf.Max(0,gap),apertureEnd=Mathf.Min(320,gap+48);
+            if(apertureEnd>aperture)
             {
-                float bulletAge=Mathf.Repeat(local-4.8f,.18f);
-                RunnerPresentation.Box(new Rect(155+bulletAge*420,ground-27,4,1),RunnerPresentation.Gold);
+                GUI.BeginGroup(new Rect(aperture,143,apertureEnd-aperture,37));
+                art.Draw("costa_chasm",new Rect(gap-aperture-3,-3,54,74));
+                GUI.EndGroup();
             }
-            if(local>=5.5f&&local<5.95f)
-                Actor("Effects/impacto_arma",new Rect(204,ground-51,40,40),local-5.5f);
-            var sprite=TaytaArt.Frame(region,state,poseAge);
-            if(!sprite)sprite=TaytaArt.Frame(region,"run",poseAge);
-            if(sprite)
+            float left=Mathf.Clamp(gap,0,320),right=Mathf.Clamp(gap+48,0,320);
+            if(left>0){GUI.BeginGroup(new Rect(0,0,left,180));Band(r+"_ground",travel,58);GUI.EndGroup();}
+            if(right<320){GUI.BeginGroup(new Rect(right,0,320-right,180));Band(r+"_ground",travel,58,right);GUI.EndGroup();}
+        }
+        void World(string r,float age,float travel,float gap=-1000)
+        {
+            Band(r+"_sky",age,.35f);Band(r+"_mid",travel,10);
+            Ambient(r,age);Ground(r,travel,gap);
+            if(r=="selva")for(int i=0;i<7;i++)
             {
-                // Convert the actual registered sprite bounds, not a fixed
-                // stretched cell: 128px and 192px sheets retain equal anatomy.
-                const float framing=1.2f;
-                var b=sprite.bounds;
-                RunnerHud.Sprite(new Rect(120+b.min.x*32*framing,
-                    ground-47*framing-b.max.y*32*framing-lift,
-                    b.size.x*32*framing,b.size.y*32*framing),sprite);
+                float x=Mathf.Repeat(38+i*51-age*(3+i%3),340)-10;
+                art.Draw("selva_fx",new Rect(x,62+i%3*24+Mathf.Sin(age*1.6f+i)*2,5,5),12+(int)(age*6+i)%4);
             }
         }
-        void OnGUI()
+        void Ambient(string r,float t)
         {
-            GUI.depth=-1000;var previous=GUI.matrix;GUI.matrix=RunnerHud.ScreenMatrix;
-            float age=(float)(AudioSettings.dspTime-began);
-            RunnerPresentation.Box(new Rect(0,0,320,180),Color.black);
-            if(age<20)
+            if(r=="costa")
             {
-                int cut=Mathf.Min(2,(int)(age/(20f/3)));string region=new[]{"costa","sierra","selva"}[cut];float local=age-cut*(20f/3);
-                // Small tracking push-in; all layers and actors share the camera.
-                var shotMatrix=GUI.matrix;float zoom=1+Mathf.SmoothStep(0,.065f,local/(20f/3));
-                GUI.matrix=shotMatrix*Matrix4x4.Translate(new Vector3(160,146,0))*Matrix4x4.Scale(new Vector3(zoom,zoom,1))*Matrix4x4.Translate(new Vector3(-160,-146,0));
-                if(cut==0){Layer("costa_capa1_cielo",local,0);Layer("costa_capa3_paracas",local,8);Layer("costa_capa5_huacas",local,25);Layer("costa_capa7_suelo",local,60);}
-                else if(cut==1){Layer("SierraV3/sierra_compartido_capa1_cielo",local,0);Layer("SierraV3/sierra_compartido_capa3_nevados",local,8);Layer("SierraV3/sierra_camino_capa4_paisaje",local,20);Layer("SierraV3/sierra_camino_capa6_cercano",local,25);Layer("SierraV3/sierra_camino_capa7_suelo",local,60);}
-                else {Layer("SelvaV2/selva_bosque_capa1_cielo",local,0);Layer("SelvaV2/selva_bosque_capa2_lejania",local,8);Layer("SelvaV2/selva_bosque_capa3_estructura",local,20);Layer("SelvaV2/selva_bosque_capa5_cercania",local,40);}
-                Choreography(region,local);GUI.matrix=shotMatrix;
-                RunnerPresentation.Box(new Rect(0,0,320,16),Color.black);RunnerPresentation.Box(new Rect(0,164,320,16),Color.black);
-                RunnerHud.Text(new Rect(10,166,300,10),"SUYURUN · "+region.ToUpperInvariant(),new GUIStyle(GUI.skin.label){fontSize=5,normal={textColor=RunnerPresentation.Gold}});
-                float fade=Mathf.Max(1-Mathf.Clamp01(local/.35f),Mathf.Clamp01((local-20f/3+.35f)/.35f));
-                RunnerPresentation.Box(new Rect(0,0,320,180),new Color(0,0,0,fade));
+                art.Range("costa_life",new Rect(Mathf.Repeat(250-t*15,360)-20,43+Mathf.Sin(t*2)*2,34,28),t,0,4,8,true);
+                art.Range("costa_life",new Rect(80,139,170,15),t,4,4,8,true);
+            }
+            else if(r=="sierra")
+            {
+                art.Range("sierra_life",new Rect(260-t*19,39+Mathf.Sin(t)*3,45,32),t,0,4,8,true);
+                for(int i=0;i<5;i++)art.Range("sierra_life",new Rect(12+i*69,127,22,24),t+i*.15f,4,4,6,true);
             }
             else
             {
-                string[] lines={"SUYURUN","CREADO POR","ROMMEL C. V.","WILLIAM R. Q.","JOE F. C.","PROFESOR","MG. SULLA TORRES","DESARROLLO DE SOFTWARE PARA JUEGOS","UNSA","COSTA · SIERRA · SELVA","GRACIAS POR JUGAR"};
-                float y=Mathf.Lerp(182,-260,Mathf.Clamp01((age-20)/10));
-                for(int i=0;i<lines.Length;i++)RunnerHud.Text(new Rect(10,y+i*23,300,16),lines[i],new GUIStyle(GUI.skin.label){fontSize=i==0?8:5,normal={textColor=i==0?RunnerPresentation.Gold:Color.white}});
+                art.Range("selva_life",new Rect(255-t*14,43+Mathf.Sin(t*2)*3,31,28),t,0,4,10,true);
+                art.Range("selva_life",new Rect(-6,58,43,38),t,4,4,6,true);
+                art.Range("selva_life",new Rect(288,73,43,38),t+.3f,4,4,6,true);
+                art.Range("selva_life",new Rect(90+t*5,78+Mathf.Sin(t*2)*5,10,10),t,8,4,12,true);
+                art.Range("selva_life",new Rect(192,119,62,9),t,12,4,8,true);
             }
-            GUI.matrix=previous;
+        }
+        void Hero(string r,int f,float x=156,float feet=146,float size=ActorSize)
+        {if(r=="costa"&&size==ActorSize)size=CoastActorSize;size*=art.DisplayScale(r+"_hero");art.Draw(r+"_hero",new Rect(x-size/2,feet-art.Foot(r+"_hero",f)*size,size,size),f);}
+        void Fx(float age,int first,float x,float y,float size=26)
+        {if(age>=0&&age<.36f)art.Range("selva_fx",new Rect(x-size/2,y-size/2,size,size),age,first,4,12);}
+        // Analytic particles are stable on repaint/seek. Each burst has a birth contact
+        // in world space, independent trajectories and a finite lifetime, never a looped decal.
+        void ContactDust(float age,float contactX,float travelDelta,bool impact=false)
+        {
+            float life=impact?.64f:.46f;if(age<0||age>=life)return;
+            float fade=1-age/life;
+            int count=impact?16:7;
+            for(int i=0;i<count;i++)
+            {
+                float seed=(i*37%23)/23f;
+                float vx=impact?(seed-.5f)*58:-6-seed*21;
+                float vy=-9-(i*13%17)*(impact?1.1f:.5f);
+                float x=contactX-travelDelta+vx*age;
+                float y=145+vy*age+17*age*age;
+                float size=(i%3==0?1.5f:.75f)*Mathf.Max(.35f,fade);
+                Color dust=i%3==0?new Color32(232,164,83,255):new Color32(186,118,65,255);
+                dust.a=fade*.68f;
+                RunnerPresentation.Box(new Rect(Mathf.Round(x*4)/4,Mathf.Round(y*4)/4,size,size),dust);
+            }
+        }
+        void RunningDust(float t,bool opening)
+        {
+            const float period=4f/12;
+            int latest=Mathf.FloorToInt(t/period);
+            for(int i=Mathf.Max(0,latest-2);i<=latest;i++)
+            {
+                float born=i*period;
+                float x=opening?Mathf.Lerp(124,156,Ease(born/2.5f)):156;
+                ContactDust(t-born,x-7,(t-born)*58);
+            }
+        }
+        void CostaRun(float time,float x)
+        {
+            // Sixteen authored poses at 24fps: contacts 0/8, passing, push-off,
+            // suspension and opposite contact. One fixed atlas scale, no limb stretching.
+            float size=CoastActorSize*(193f/212f)*art.DisplayScale("costa_run");
+            float frameTime=Mathf.Repeat(time*24,16),fraction=frameTime-Mathf.Floor(frameTime);
+            int frame=Mathf.FloorToInt(frameTime),next=(frame+1)%16;
+            float half=Mathf.Repeat(frameTime,8)/8;
+            float airborne=Ease((half-.55f)/.15f)*(1-Ease((half-.87f)/.13f));
+            float foot=Mathf.Lerp(art.Foot("costa_run",frame),art.Foot("costa_run",next),fraction);
+            float baseline=art.Uniform("costa_run")?308f/320:222f/256;
+            // Ground registration only during support. Flight keeps the pelvis anchor
+            // and raised boots; a continuous short arc carries weight over the stride.
+            float supportOffset=(baseline-foot)*size*(1-airborne);
+            float lift=Mathf.Sin(Mathf.Clamp01((half-.55f)/.45f)*Mathf.PI)*airborne*1.4f;
+            float y=146-baseline*size+supportOffset-lift;
+            var shadow=new Color(0.16f,.10f,.13f,.22f-airborne*.08f);
+            float footprint=CoastActorSize/ActorSize;
+            RunnerPresentation.Box(new Rect(x-14*footprint,145.5f,28*footprint,1),shadow);
+            RunnerPresentation.Box(new Rect(x-10*footprint,146.5f,20*footprint,.75f),shadow);
+            art.Draw("costa_run",new Rect(x-size/2,y,size,size),frame);
+        }
+        void Opening(float t)
+        {
+            World("costa",t,t);
+            float x=Mathf.Lerp(124,156,Ease(t/2.5f));
+            CostaRun(t,x);
+            RunningDust(t,true);
+        }
+        void Coast(float t)
+        {
+            World("costa",t+2.5f,t+2.5f,224-t*58);
+            int f;float feet=146;
+            if(t<.35f)f=(int)((t+2.5f)*12)%8;
+            else if(t<.60f)f=Pose(t-.35f,8,new[]{.09f,.07f,.05f,.04f});
+            else if(t<2.15f)
+            {
+                float u=(t-.60f)/1.55f;feet-=4*43*u*(1-u);
+                f=Pose(t-.60f,12,new[]{.32f,.38f,.45f,.40f});
+            }
+            else if(t<2.65f)f=Pose(t-2.15f,16,new[]{.055f,.13f,.17f,.145f});
+            else if(t<3.25f)f=Pose(t-2.65f,20,new[]{.12f,.24f,.14f,.10f});
+            else f=(int)((t-3.25f)*12)%8;
+            if(t<.35f)CostaRun(t+2.5f,156);
+            else if(t>=3.25f)CostaRun(t-3.25f,156);
+            else Hero("costa",f,156,feet);
+            if(t<.35f)RunningDust(t+2.5f,false);
+            ContactDust(t-2.15f,150,Mathf.Max(0,t-2.15f)*58,true);
+            if(t>=2.65f&&t<3.25f)
+            {
+                float local=t-2.65f;
+                for(int i=0;i<=Mathf.FloorToInt(local/.14f);i++)
+                    ContactDust(local-i*.14f,145,(local-i*.14f)*58);
+            }
+            if(t>=3.25f)RunningDust(t-3.25f,false);
+        }
+        void Sierra(float t)
+        {
+            // Only path travel stops; wind, birds and light continue on the shot clock.
+            float travel=t<.42f?t-.5f*t*t/.42f:.21f;
+            World("sierra",t,travel);
+            int f=t<.42f?Pose(t,0,new[]{.08f,.09f,.11f,.14f}):
+                t<1.04f?Pose(t-.42f,4,new[]{.12f,.16f,.20f,.14f}):
+                t<1.94f?Pose(t-1.04f,8,new[]{.15f,.14f,.13f,.12f,.11f,.11f,.14f}):
+                t<2.08f?15:t<2.43f?Pose(t-2.08f,16,new[]{.10f,.08f,.065f,.105f}):
+                Pose(t-2.43f,20,new[]{.16f,.23f,.33f,.85f});
+            Hero("sierra",f);
+            float stone=t-2.26f;
+            if(stone>=0&&stone<.50f)
+            {
+                float x=185+stone*210,y=94-stone*48+stone*stone*12;
+                art.Draw("selva_fx",new Rect(x,y,6,6),4);
+            }
+            // No phantom target explosion: the stone leaves the frame, condor remains unhurt.
+        }
+        const float Release=1.55f,Length=65,Amplitude=.65f,ReleaseAngle=.32f,Gravity=130;
+        static float Omega=>Mathf.Acos(-ReleaseAngle/Amplitude)/Release;
+        static float Angle(float t)=>-Amplitude*Mathf.Cos(Omega*t);
+        static float AngularVelocity(float t)=>Amplitude*Omega*Mathf.Sin(Omega*t);
+        static Vector2 Pivot=>new Vector2(118,4);
+        public static Vector2 SwingHand(float u)
+        {float a=Angle(Mathf.Clamp01(u)*Release);return Pivot+new Vector2(Mathf.Sin(a)*Length,Mathf.Cos(a)*Length);}
+        Vector2 ReleaseFeet()
+        {
+            var grip=art.Grip("selva_hero",7);
+            float size=ActorSize*art.DisplayScale("selva_hero");
+            return SwingHand(1)+new Vector2((.5f-grip.x)*size,(art.Foot("selva_hero",7)-grip.y)*size);
+        }
+        public static Vector2 ReleaseVelocity()
+        {
+            float a=Angle(Release),v=AngularVelocity(Release);
+            return new Vector2(Length*Mathf.Cos(a)*v,-Length*Mathf.Sin(a)*v);
+        }
+        float LandingTime()
+        {
+            var start=ReleaseFeet();float v=ReleaseVelocity().y;
+            return Release+(-v+Mathf.Sqrt(v*v+2*Gravity*Mathf.Max(0,146-start.y)))/Gravity;
+        }
+        public static Vector2 Ballistic(Vector2 start,Vector2 velocity,float dt)
+        {return start+velocity*dt+new Vector2(0,.5f*Gravity*dt*dt);}
+        void Rope(Vector2 hand,float bend)
+        {
+            Vector2 last=Pivot;
+            for(int i=1;i<=24;i++)
+            {
+                float q=i/24f;var next=Vector2.Lerp(Pivot,hand,q)+new Vector2(Mathf.Sin(q*Mathf.PI)*bend,0);
+                var delta=next-last;var m=GUI.matrix;
+                GUI.matrix=m*Matrix4x4.TRS(new Vector3(last.x,last.y,0),Quaternion.Euler(0,0,Mathf.Atan2(delta.y,delta.x)*Mathf.Rad2Deg),Vector3.one);
+                RunnerPresentation.Box(new Rect(0,-.7f,delta.magnitude+1,1.4f),new Color32(74,53,36,255));
+                RunnerPresentation.Box(new Rect(0,-.25f,delta.magnitude+1,.5f),new Color32(212,167,44,255));
+                GUI.matrix=m;last=next;
+            }
+        }
+        void Selva(float t)
+        {
+            float landing=LandingTime();World("selva",t,Mathf.Min(t,landing)*.20f);
+            if(t>2.6f)Portal(t,false);
+            float dt=Mathf.Max(0,t-Release),a=Angle(Release);
+            float ropeAngle=t<Release?Angle(t):Mathf.Exp(-dt*.22f)*(a*Mathf.Cos(Omega*dt)+AngularVelocity(Release)/Omega*Mathf.Sin(Omega*dt));
+            Vector2 hand=t<Release?SwingHand(t/Release):Pivot+new Vector2(Mathf.Sin(ropeAngle)*Length,Mathf.Cos(ropeAngle)*Length);
+            Rope(hand,t<Release?-Mathf.Sin(Angle(t))*1.5f:Mathf.Sin(dt*3)*.7f);
+            float endX=Ballistic(ReleaseFeet(),ReleaseVelocity(),landing-Release).x;
+            if(t<Release)
+            {
+                int f=Mathf.Min(7,(int)(Ease(t/Release)*8));var grip=art.Grip("selva_hero",f);
+                float size=ActorSize*art.DisplayScale("selva_hero");
+                art.Draw("selva_hero",new Rect(hand.x-grip.x*size,hand.y-grip.y*size,size,size),f);
+            }
+            else if(t<landing)
+            {
+                var p=Ballistic(ReleaseFeet(),ReleaseVelocity(),t-Release);
+                int f=8+Mathf.Min(3,(int)((t-Release)/(landing-Release)*4));Hero("selva",f,p.x,p.y);
+            }
+            else if(t<landing+.48f)Hero("selva",Pose(t-landing,12,new[]{.065f,.13f,.15f,.135f}),endX);
+            else if(t<3.2f)Hero("selva",Pose(t-landing-.48f,16,new[]{.10f,.10f,.13f,.30f}),endX);
+            else if(t<3.5f)Hero("selva",Pose(t-3.2f,20,new[]{.055f,.08f,.075f,.09f}),endX);
+            else
+            {
+                float u=Mathf.Clamp01((t-3.5f)/.48f),x=Mathf.Lerp(endX,270,u);
+                // Profile -> pivot on planted foot -> rear-three-quarter -> trailing step.
+                // The authored turn, not a scale squeeze, conveys movement through depth.
+                float progress=Mathf.Clamp01((t-3.5f)/.97f);
+                int entry=Pose(t-3.5f,0,new[]{.065f,.065f,.065f,.065f,.055f,.055f,.055f,.055f,.06f,.06f,.06f,.06f,.06f,.06f,.065f,.065f});
+                float enter=Ease((t-4.36f)/.14f);var saved=GUI.color;
+                GUI.color=new Color(1,1,1,1-enter);
+                float feet=146-Ease((progress-.42f)/.58f)*3;
+                // Source atlas has 217px standing height versus 194px in Selva.
+                // One fixed atlas calibration preserves body height for all sixteen poses.
+                float entrySize=ActorSize*(194f/217f)*art.DisplayScale("portal_entry");
+                art.Draw("portal_entry",new Rect(x-entrySize/2,feet-art.Foot("portal_entry",entry)*entrySize,entrySize,entrySize),entry);
+                GUI.color=saved;
+            }
+            ContactDust(t-landing,endX-5,0,true);
+            Fx(t-3.2f,8,endX+30,108,18);
+            if(t>=3.2f&&t<3.47f)art.Draw("selva_fx",new Rect(endX+33+(t-3.2f)*260,106,7,7),8);
+            if(t>2.6f)Portal(t,true);
+            if(t>=3.98f&&t<4.5f)PortalWake(t-3.98f);
+        }
+        void PortalWake(float t)
+        {
+            // Light responds at the actor's crossing plane, expanding away from contact.
+            float u=Mathf.Clamp01(t/.52f);var saved=GUI.color;
+            GUI.color=new Color(1,1,1,(1-u)*.8f);
+            for(int i=0;i<18;i++)
+            {
+                float a=i*Mathf.PI*2/18;
+                float rx=7+u*20,ry=14+u*26;
+                art.Draw("selva_fx",new Rect(270+Mathf.Cos(a)*rx,119+Mathf.Sin(a)*ry,2,2),4+i%4);
+            }
+            GUI.color=saved;
+        }
+        void Portal(float t,bool front)
+        {
+            string name="epilogue_portal_"+(front?"front":"back");int frame=(int)(t*6)%4;
+            var saved=GUI.color;GUI.color=new Color(1,1,1,Ease((t-2.6f)/.4f));
+            const float size=90;
+            art.Draw(name,new Rect(270-size/2,146-art.Foot(name,frame)*size,size,size),frame);
+            GUI.color=saved;
+        }
+        void EpilogueWorld(float t)
+        {
+            // Full-width reunion vista; each depth plane is its own authored PNG.
+            art.Draw("epilogue_sky",new Rect(0,0,320,180));
+            float drift=Ease(t/5)*2;
+            art.Draw("epilogue_mid",new Rect(-drift,0,324,180));
+            float y=146-art.Surface("epilogue_ground")*180;
+            art.Draw("epilogue_ground",new Rect(0,y,320,180));
+            for(int i=0;i<8;i++)
+            {
+                float x=38+i*36+Mathf.Sin(t*.8f+i)*3,ySpark=45+i%3*22+Mathf.Sin(t+i)*2;
+                art.Draw("selva_fx",new Rect(x,ySpark,3,3),4+(int)(t*5+i)%4);
+            }
+        }
+        void Memories(float t)
+        {
+            EpilogueWorld(t);
+            RunnerPresentation.Box(new Rect(0,12,320,156),new Color(0,0,0,.35f));
+            int frame=Pose(t,0,new[]{.17f,.12f,.16f,.16f,.12f,.14f,.18f,.23f,.19f,.08f,.07f,.12f,.20f,.20f,.18f,.18f});
+            art.Draw("selva_portrait",new Rect(178,35,119,119),frame);
+            // Regional constellations: preserve all earned pieces without an inventory-strip layout.
+            int[] rows={0,0,0};
+            for(int i=0;i<collectedCount;i++)
+            {
+                int item=collected[i],r=item/4,col=rows[r]++;
+                float alpha=Ease((t-.16f-r*.28f-col*.06f)/.35f);
+                var saved=GUI.color;GUI.color=new Color(1,1,1,alpha);
+                art.Draw("selva_memories",new Rect(22+col*34,35+r*35+(1-alpha)*5,29,29),item);GUI.color=saved;
+            }
+            if(collectedCount==0)Text("UN VIAJE · TRES TIERRAS",130,4,RunnerPresentation.Gold);
+        }
+        void Farewell(float t)
+        {
+            EpilogueWorld(t+2.5f);
+            float reveal=Ease((t-.8f)/.7f);
+            var saved=GUI.color;GUI.color=new Color(1,1,1,reveal);
+            int victory=Pose(Mathf.Max(0,t-1),8,new[]{.20f,.20f,.30f,1.5f});
+            Hero("epilogue",victory,160,146,65);GUI.color=saved;
+            int f=Pose(t,16,new[]{.17f,.18f,.20f,.25f,.22f,.20f,.25f,1.53f});
+            GUI.color=new Color(1,1,1,1-reveal);
+            art.Draw("selva_portrait",new Rect(70,20,180,180),f);GUI.color=saved;
+            if(t>1.35f)
+            {
+                GUI.color=new Color(1,1,1,Ease((t-1.35f)/.5f));
+                Text("SUYURUN",29,9,RunnerPresentation.Gold);
+                Text("VIAJE COMPLETADO",48,4,Color.white);GUI.color=saved;
+            }
+        }
+        void Text(string value,float y,int size,Color color)
+        {
+            var m=GUI.matrix;var p=m.MultiplyPoint3x4(new Vector3(12,y,0));var q=m.MultiplyPoint3x4(new Vector3(308,y+18,0));
+            float scale=m.MultiplyVector(Vector3.right).magnitude;
+            var rect=new Rect(Mathf.Round(p.x),Mathf.Round(p.y),Mathf.Round(q.x-p.x),Mathf.Round(q.y-p.y));
+            var style=RunnerHud.Centered(new GUIStyle(GUI.skin.label){fontSize=Mathf.Max(8,Mathf.RoundToInt(size*scale))});
+            try
+            {
+                GUI.matrix=Matrix4x4.identity;
+                style.normal.textColor=Color.black;GUI.Label(new Rect(rect.x+1,rect.y+1,rect.width,rect.height),value,style);
+                style.normal.textColor=color;GUI.Label(rect,value,style);
+            }
+            finally{GUI.matrix=m;}
+        }
+        void Credits(float t)
+        {
+            string[] lines={"SUYURUN","CREADO POR","ROMMEL C. V.","WILLIAM R. Q.","JOE F. C.","PROFESOR","MG. SULLA TORRES","DESARROLLO DE SOFTWARE","PARA JUEGOS","UNSA"};
+            float y=160-t*40;
+            for(int i=0;i<lines.Length;i++)
+            {
+                bool heading=i==0||i==1||i==5;
+                Text(lines[i],y+i*18,i==0?8:heading?4:5,heading?RunnerPresentation.Gold:Color.white);
+            }
+            RunnerPresentation.Box(new Rect(0,0,320,12),Color.black);
+            RunnerPresentation.Box(new Rect(0,168,320,12),Color.black);
+            if(t>=8)
+            {
+                var saved=GUI.color;GUI.color=new Color(1,1,1,Ease((t-8)/.5f));
+                Text("GRACIAS POR JUGAR",77,6,RunnerPresentation.Gold);
+                Text("COSTA · SIERRA · SELVA",99,3,Color.white);GUI.color=saved;
+            }
+        }
+        public void RenderAt(float age)
+        {
+            if(age<score.cuts[0])Opening(age*2.5f/score.cuts[0]);
+            else if(age<score.cuts[1])Coast((age-score.cuts[0])*3.5f/CoastDuration);
+            else if(age<score.cuts[2])Sierra((age-score.cuts[1])*4/SierraDuration);
+            else if(age<score.cuts[3])Selva((age-score.cuts[2])*4.5f/SelvaDuration);
+            else if(age<17)Memories((age-score.cuts[3])*2.5f/(17-score.cuts[3]));
+            else if(age<20)Farewell(age-17);
+            else Credits(age-20);
+        }
+        static Matrix4x4 Lens(float zoom,Vector2 target)
+        {return Matrix4x4.Translate(new Vector3(160,90,0))*Matrix4x4.Scale(new Vector3(zoom,zoom,1))*Matrix4x4.Translate(new Vector3(-target.x,-target.y,0));}
+        Matrix4x4 CameraAt(float age)
+        {
+            if(age<score.cuts[0])
+            {
+                float u=Ease(age/score.cuts[0]);
+                return Lens(1,new Vector2(160,90));
+            }
+            if(age<score.cuts[1])return Lens(1, new Vector2(160,90));
+            if(age<score.cuts[2])
+            {
+                float u=(age-score.cuts[1])/SierraDuration;
+                float focus=Ease(u/.45f)*(1-Ease((u-.60f)/.36f));
+                return Lens(1+.12f*focus,new Vector2(160+5*focus,90));
+            }
+            if(age<score.cuts[3])
+            {
+                float u=(age-score.cuts[2])/SelvaDuration;
+                return Lens(1,new Vector2(160+Ease(u)*4,90));
+            }
+            return Lens(1,new Vector2(160,90));
+        }
+        void OnGUI()
+        {
+            if(!ready)return;
+            var matrix=GUI.matrix;var color=GUI.color;int depth=GUI.depth;
+            try
+            {
+                GUI.depth=-1000;GUI.color=Color.white;GUI.matrix=Matrix4x4.identity;
+                RunnerPresentation.Box(new Rect(0,0,Screen.width,Screen.height),Color.black);
+                var baseMatrix=RunnerHud.ScreenMatrix;float age=preview?Mathf.Min(Age,29.2f):Age;
+                GUI.matrix=baseMatrix*CameraAt(age);RenderAt(age);GUI.matrix=baseMatrix;
+                if(age>score.cuts[2]-.26f&&age<score.cuts[2]+.26f)
+                {
+                    float u=(age-score.cuts[2]+.26f)/.52f;
+                    art.Draw("selva_life",new Rect(340-u*740,-20,400,220),4);
+                }
+                // Action match cuts retain motion; only the emotional chapter and final close fade.
+                float fade=0;
+                if(age<.45f)RunnerPresentation.Box(new Rect(0,0,320,180),new Color(1,.88f,.55f,1-Ease(age/.45f)));
+                if(age>=score.cuts[3]-.15f&&age<score.cuts[3]+.15f)
+                {
+                    float glow=1-Mathf.Abs(age-score.cuts[3])/.15f;
+                    RunnerPresentation.Box(new Rect(0,0,320,180),new Color(1,.88f,.55f,glow));
+                }
+                if(age>19.35f&&age<20)fade=Ease((age-19.35f)/.65f);
+                if(age>=20&&age<20.25f)fade=1-Ease((age-20)/.25f);
+                if(age>29.5f)fade=Ease((age-29.5f)/.5f);
+                if(fade>0)RunnerPresentation.Box(new Rect(0,0,320,180),new Color(0,0,0,Mathf.Clamp01(fade)));
+                GUI.matrix=Matrix4x4.identity;var v=RunnerHud.Viewport(Screen.width,Screen.height);
+                RunnerPresentation.Box(new Rect(0,0,v.x,Screen.height),Color.black);
+                RunnerPresentation.Box(new Rect(v.xMax,0,Screen.width-v.xMax,Screen.height),Color.black);
+                RunnerPresentation.Box(new Rect(0,0,Screen.width,v.y),Color.black);
+                RunnerPresentation.Box(new Rect(0,v.yMax,Screen.width,Screen.height-v.yMax),Color.black);
+                if(preview)
+                {
+                    float w=Mathf.Min(520,Screen.width-12),x=(Screen.width-w)/2,y=Screen.height-34;
+                    GUI.Box(new Rect(x-4,y-4,w+8,36),GUIContent.none);
+                    if(GUI.Button(new Rect(x,y,w*.30f,28),"Repetir"))Replay();
+                    if(GUI.Button(new Rect(x+w*.31f,y,w*.30f,28),paused?"Continuar":"Pausar"))TogglePause();
+                    if(GUI.Button(new Rect(x+w*.62f,y,w*.38f,28),"Cerrar vista previa"))Destroy(gameObject);
+                }
+            }
+            finally{GUI.matrix=matrix;GUI.color=color;GUI.depth=depth;}
+        }
+    }
+    [System.Serializable]
+    public sealed class FinalMovieScore
+    {
+        public float[] cuts={2.5f,6,10,14.5f};
+        public string method="Authored fallback; not ear-validated musical cues";
+        public void Validate()
+        {
+            if(cuts==null||cuts.Length!=4||cuts[0]<2||cuts[0]>3||cuts[1]-cuts[0]<3||cuts[2]-cuts[1]<3||cuts[3]-cuts[2]<3||cuts[3]>15)
+                cuts=new[]{2.5f,6,10,14.5f};
         }
     }
 }

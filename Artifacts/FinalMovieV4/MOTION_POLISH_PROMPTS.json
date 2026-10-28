@@ -1,0 +1,24 @@
+[
+  {
+    "name": "costa_hero",
+    "refs": [
+      "Artifacts/FinalMovieV4/Sources/costa_hero.png",
+      "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaSierra/run_human.png",
+      "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaSelva/run_human.png"
+    ],
+    "prompt": "Edit target image1 Costa cinematic sprite sheet; image2 and image3 are STRICT CHARACTER ANATOMY REFERENCES from actual SUYURUN gameplay. Rebuild all 24 frames, exactly four columns and six rows, transparent background with generous equal margins and no overlaps. Correct proportions ONLY: Tayta must have the slimmer, longer articulated thighs and calves of gameplay Tayta in refs2/3, identifiable knees and ankles, compact boots NOT huge balloons, head and torso balanced as refs2/3. Keep same human face, chullo and orange/ochre compact poncho with turquoise trim, dark teal trousers, brown boots. No arms visible in Costa. Not a baby/chibi mascot; the lean agile runner from refs2/3. Row1+2: eight distinct run contact/down/passing/up/flight/opposite-contact poses, actual opposite leg changes. Row3 four anticipation/takeoff poses. Row4 four flight/apex/descent poses. Row5 four landing compression/recovery poses. Row6 four slide and rise poses. Consistent human anatomy and costume volume, identical scale and foot baseline in each cell, no frame cropped. Detailed crisp native pixel art 16/32bit, matte materials, existing ochre/teal/purple Coast palette, no soft gradients, blur, letters, grid lines or effects. Generate real transparent alpha."
+  },
+  {
+    "name": "portal_entry",
+    "refs": [
+      "Artifacts/FinalMovieV4/Sources/epilogue_hero.png",
+      "Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaSelva/run_human.png"
+    ],
+    "prompt": "SUYURUN production cinematic SPRITESHEET, 16 unique sequential poses, four columns four rows on truly transparent background, no letters or grid. Reference1 is identity/costume and pixel detail; reference2 STRICT lean gameplay anatomy, leg length, compact boots and head/body proportion. Tayta brown matte furry protective suit, human face, red chullo, turquoise/red woven belt. Animate physically walking THROUGH a doorway away from viewer toward back/right: poses0-3 right-facing stride decelerating,4-7 planted left foot and torso/head turn from profile to three-quarter BACK with right foot stepping into depth,8-11 rear-three-quarter gait crossing threshold with hip rotation/trailing heel lifting/arms naturally lagging,12-15 backview completes second step, relaxed shoulders, trailing foot lifted then placed beyond doorway. Same scale ALL cells, do NOT shrink or disappear him and NO portal/effects/background included. Keep humanoid legs as gameplay ref, natural balanced center of mass, feet visible, no bulky toddler proportions or huge hands. Rich crisp pixel clusters, 16/32bit style, constrained brown ochre terracotta turquoise palette consistent references, no bloom/metal/plastic, native pixel art not smooth illustration. Every cell whole body at same baseline, equal margins, no overlaps."
+  },
+  {
+    "name": "costa_chasm",
+    "refs": [],
+    "prompt": "SUYURUN standalone independent foreground canyon-depth layer in detailed crisp 16/32bit pixel art, wide 16:9 composition. TRUE transparent upper 8percent, dark ochre/purple coastal desert rock chasm beneath. This is the visible interior of a deep narrow abyss when the runner jumps a gap, NOT a flat platform slice. Along far LEFT and RIGHT edges only, irregular broken cliff lips with warm sunlit thin sandy rim, projecting layered fractured sandstone ledges casting deep purple/brown shadows, jagged crumbling vertical walls tapering downward into dark atmospheric depth. Center70percent is open darkness with far tiny receding rocky ledges, subtle ochre dust in depth and a restrained violet haze at bottom; no bright sky showing through, no solid horizontal floor across the gap. Strong overlapping planes, material distinction and depth readable even thumbnail size, no gratuitous noisy dithering. Warm coastal orange/ochre/terracotta/purple constrained24color palette, no smooth gradients, blur, text, character, UI, white border. Keep center top open transparent so independently positioned walkable cliff tops can overlay correctly."
+  }
+]

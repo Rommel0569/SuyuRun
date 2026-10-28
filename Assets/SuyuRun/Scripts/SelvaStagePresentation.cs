@@ -41,6 +41,7 @@ namespace SuyuRun
             heroDisplay.transform.position=new Vector3((GameScale.SnapVisual(x,true)+(left?48:0))/32,(180-GameScale.SnapVisual(y,true))/32,0);
             // Exact sprite key selection at DSP time: no blended frames or off-grid interpolation.
             heroDisplay.sprite=TaytaArt.Frame("selva",state,age,pose)??SelvaArt.Frame("heroe_"+state,age,pose);
+            TaytaContactDust.Track(heroDisplay,"selva",state,mini!=null?mini.gaitDistance:routeTime*Speed);
         }
         void Paint(Sprite sprite,float x,float y,int order,bool left=false)
         {
@@ -76,7 +77,7 @@ namespace SuyuRun
         }
         void RenderRunner()
         {
-            bool river=zone==1;
+            bool river=vines.Count>0;
             if(river)Layer("agua_fondo",.30f,30,146);
             foreach(var s in surfaces)
             {
@@ -91,8 +92,14 @@ namespace SuyuRun
                 foreach(var v in vines)
                 {
                     if(v.anchor.x<cameraX-100||v.anchor.x>cameraX+400)continue;
-                    Draw("decor_rama_anclaje",v.anchor.x-cameraX-32,0,51);
-                    Paint(Rope(v),v.anchor.x-cameraX-64,v.anchor.y-3,52);
+                    // Temple foreground foliage must not hide the new playable knots.
+                    Draw("decor_rama_anclaje",v.anchor.x-cameraX-32,0,zone==5?96:51);
+                    Paint(Rope(v),v.anchor.x-cameraX-64,v.anchor.y-3,zone==5?97:52);
+                    if(zone==5)
+                    {
+                        var knot=SelvaArt.Get("fx_destello").spec;
+                        Draw("fx_destello",v.Grip.x-cameraX-knot.frameWidth/2f,v.Grip.y-knot.frameHeight/2f,98,Mathf.Repeat(clock+v.anchor.x*.001f,knot.frames/(float)knot.fps));
+                    }
                 }
                 foreach(var c in caimans)
                 {
@@ -102,13 +109,13 @@ namespace SuyuRun
                     {Draw("caiman_sombra",c.pos.x-cameraX-32,151,39);Draw("fx_burbujas",c.pos.x-cameraX-16,121,60,c.timer);Draw("fx_ondas",c.pos.x-cameraX-32,138,65,c.timer);}
                     else Draw("caiman_"+c.Animation,c.Origin.x-cameraX,c.Origin.y,40,c.timer,c.left,c.Frame);
                 }
-                float fallX=zoneStart+Mathf.Floor((pos.x-zoneStart)/704)*704+608;
-                Draw("cascada",fallX-cameraX,50,36);
+                foreach(var pond in caimans)if(pond.maxX+3>cameraX-64&&pond.maxX+3<cameraX+350)
+                    Draw("cascada",pond.maxX+3-cameraX,50,36);
                 foreach(var d in drops)Draw("gota_cueva",d.pos.x-cameraX,d.pos.y,63);
             }
             foreach(var e in course.events)
             {
-                if(e.x<zoneStart||e.x>=zoneEnd||zone==5&&e.x>FinalPortalX-160||e.x<cameraX-64||e.x>cameraX+350)continue;
+                if(!CourseEventActive(e)||e.x<cameraX-64||e.x>cameraX+350)continue;
                 int index=System.Array.IndexOf(course.events,e);if(damagedEvents.Contains(index))continue;
                 if(e.kind=="double")Draw("fx_destello",e.x-cameraX-16,86,61);
                 else Draw(e.kind=="slide"?"obstaculo_techo":e.kind=="root"?"obstaculo_raiz":e.kind=="air"?"guacamayo_movimiento":e.kind=="estaca"?"obstaculo_estaca":e.kind=="trampa"?"obstaculo_trampa":"obstaculo_pinchos",e.x-cameraX-12,e.kind=="air"?90+Mathf.Sin(clock*3+e.beat)*5:e.kind=="slide"?99:116,55,left:e.kind=="air"&&RunnerFacing.TowardLeft(e.x,pos.x));
@@ -117,6 +124,7 @@ namespace SuyuRun
             {float x=zoneStart+800+i*900;if(!pickups.Contains(zone*100+i))Draw("coleccionable_"+((zone==0&&i==0)?"ceramica":zone==3&&i==3?"sonaja":"moneda"),x-cameraX-8,112,60);}
             string state=complete||endingAt>=0?"baile":dead?"death":clock-hurtAt<.25f?"hit":hanging!=null?"swing":clock-releaseAt<.25f?"release":slide?"slide":!grounded?velocity.y<0?jumps>1?"double_jump":"jump":"fall":clock-fireAt<.18f?"burst":clock-landAt<.14f?"land":"run";
             int pose=hanging==null?-1:TaytaArt.SwingPose(hanging.angle*Mathf.Rad2Deg);
+            if(TaytaArt.UseUniformBank&&hanging==null&&!grounded&&clock-fireAt<.18f)state+="_shoot";
             var attachment=hanging!=null?TaytaArt.GripOffset(state,pose):Vector2.zero;
             float heroX=hanging!=null?hanging.Grip.x-cameraX-attachment.x:pos.x-cameraX-24;
             float heroY=hanging!=null?hanging.Grip.y-attachment.y:pos.y-48;
@@ -189,6 +197,7 @@ namespace SuyuRun
                 Draw(creature+action,foe.pos.x-cameraX-(foe.boss?48:16),foe.pos.y-cameraY-height,55,poseAge,facingLeft,-1,foe.boss?foe.attack:-1);
             }
             string state=mini.dead?"death":mini.time-mini.damageAt<.25?"hit":mini.Cursed&&mini.time<mini.guardUntil?"guard":mini.Cursed&&mini.time-mini.meleeAt<.4f?mini.meleeState:!mini.Cursed&&mini.grounded&&mini.time-mini.fireAt<.2?"burst":mini.grounded?Mathf.Abs(mini.velocity.x)>1?"run":!mini.Cursed&&mini.Reloading?"reload":"idle":mini.velocity.y<0?mini.jumps>1?"double_jump":"jump":"fall";
+            if(TaytaArt.UseUniformBank&&!mini.grounded&&!mini.Cursed&&mini.time-mini.fireAt<.2f)state+="_shoot";
             HeroSprite(state,mini.pos.x-cameraX-24,mini.pos.y-cameraY-48,HeroFrameTime(state,mini.time),!mini.facingRight);
             if(mini.exitCountdown>2.15f){heroDisplay.flipX=false;heroDisplay.sprite=TaytaArt.Frame("selva","run",mini.exitCountdown*.5f)??heroDisplay.sprite;}
             if(mini.exitCountdown>0)RunnerPortalIngress.Apply(heroDisplay,new Vector3((SelvaMiniWorld.PortalX+24-cameraX)/32,(180-SelvaMiniWorld.PortalFloor+cameraY+40)/32f,0),(mini.exitCountdown-2.15f)/.85f);
@@ -232,7 +241,7 @@ namespace SuyuRun
                 RunnerHud.Text(RunnerHud.CoinCounter,$"MON {coins+(mini?.coins??0):00}",Label(4));
                 RunnerHud.Text(RunnerHud.ScoreCounter,$"PTS {score:0000}",Label(4));
                 RunnerHud.ControlHints(RunnerHud.Controls,mini!=null?mini.Cursed?"A/D · ESP x2 · E golpe · F patada · Q upper · SHIFT":"A/D · ESP x2 · S bajar · E disparar · ESC pausa":"ESP x2 · S deslizar · CLICK liana · E disparar · ESC pausa",Label(4));
-                if(zone==1)RunnerHud.NoticeText(hanging!=null?"ESP: SOLTAR · CLICK SIGUIENTE NUDO PARA ENLAZAR":"CLICK EN NUDO BRILLANTE PARA COLGARTE",Label(4));
+                if(vines.Count>0&&pos.x>=VineRouteStart&&pos.x<VineRouteEnd)RunnerHud.NoticeText(hanging!=null?"ESP: SOLTAR · CLICK SIGUIENTE NUDO PARA ENLAZAR":"CLICK EN NUDO BRILLANTE PARA COLGARTE",Label(4));
                 if(mini!=null)
                 {
                     if(mini.Boss.awakened){RunnerPresentation.Box(new Rect(84,28,152,5),new Color32(24,41,32,255));RunnerPresentation.Box(new Rect(85,29,150*mini.Boss.hp/(float)mini.Boss.maxHp,3),new Color32(205,112,61,255));}

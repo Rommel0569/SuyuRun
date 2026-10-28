@@ -378,6 +378,7 @@ namespace SuyuRun
             bool run=mode==Mode.Running;
             landingPulse=Mathf.Max(0,landingPulse-Time.deltaTime);impulsePulse=Mathf.Max(0,impulsePulse-Time.deltaTime);
             UpdateHeroSprite(t,run);
+            TaytaContactDust.Track(heroRenderer,"costa",!grounded?"jump":slide>0?"slide":run?"run":"idle",distance*32);
             hero.gameObject.SetActive(mode!=Mode.Dead&&mode!=Mode.Museum);
             // Lazily created here (not in the legacy UpdateCoastalArt, which the current pixel-art
             // reference-coast path never calls) so the "impulse ready" orbit sparks reliably show
@@ -419,7 +420,7 @@ namespace SuyuRun
             // ratio exactly, so the visible character is never taller than what's actually safe.
             // Tayta has a drawn crouch pose already; do not squash it a second time to half height.
             var squash=!grounded?Vector3.one:slide>0?new Vector3(1.12f,TaytaArt.Get("costa","slide")!=null?.8f:HeroSlideHeight/HeroStandHeight,1):landingPulse>0?new Vector3(1+landingPulse*.3f,1-landingPulse*.3f,1):Vector3.one;
-            if(slide>0&&RefactorActorArt.IsRegistered(heroRenderer.sprite))squash=Vector3.one;
+            if(RefactorActorArt.IsRegistered(heroRenderer.sprite)&&(slide>0||TaytaArt.UseUniformBank))squash=Vector3.one;
             heroRenderer.transform.localScale=squash;
             // The sprite's local origin is its top-left pixel (BuildHero), so scaling the transform
             // without repositioning it shrinks the sprite DOWNWARD FROM THE HEAD, pulling the feet

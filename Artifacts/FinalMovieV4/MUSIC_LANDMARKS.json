@@ -1,0 +1,9 @@
+{
+    "cuts": [
+        2.4800000190734865,
+        6.099999904632568,
+        10.119999885559082,
+        14.5
+    ],
+    "method": "Offline 20ms PCM energy-rise landmarks near storyboard cuts; ear validation not claimed"
+}

@@ -4,6 +4,12 @@ Dirección del usuario recibida el 18 de septiembre de 2026. Sustituye decisione
 
 ## Enmienda vigente — refactor visual, 03/10/2026
 
+27/10/2026, dirección posterior: el nuevo Tayta debe conservar todos los movimientos del anterior; si no resulta equivalente, el usuario prefiere mantener el anterior. Se reactiva el banco anterior en gameplay y final y se conserva Uniform como respaldo desactivado. No reiniciar otro refactor amplio sin una nueva indicación del usuario.
+
+24/10/2026, pedido posterior vigente: unificar la anatomía humana de Tayta en todos los trajes/estados y aplicar las mejoras al juego. Banco común de personajes para niveles, mininiveles y final, conservando los anteriores. Costa mantiene brazos ocultos hasta su logro, Sierra brazos visibles, Selva traje protector completo sobre anatomía humana. Sustituye para los actores la separación previa de recursos entre gameplay y epílogo; no modifica la independencia de los fondos ni autoriza cambiar recorridos, colisiones o música. Lote autorizado por el usuario sin pausas individuales; aceptación visual de las nuevas hojas pendiente.
+
+Final22/10/2026: usuario autoriza rehacer en lote TODO el arte visual del epílogo, sin reutilizar ciclos ni fondos de gameplay. Banco FinalMovieV3 exclusivo, capas independientes, identidad de Tayta y paletas conservadas, música elegida y créditos originales. No confundir autorización de producción con aprobación visual final. Conservar las versiones anteriores y verificar reproducción en Unity Play, sin generar ejecutable.
+
 Ratificación posterior 08/10/2026: usuario probó y aprobó la calidad del lote AtmosphereClean y pide extender ese acabado a todas las capas de fondo usadas por biomas y mininiveles. Aplicar limpieza de tramado repetitivo, detalle nativo y exportación de mayor densidad conservando paleta, geometría y originales; no atribuir aprobación de capas nuevas a esa referencia aprobada.
 
 Ratificación 08/10/2026: usuario pide «TODO ... COMPLETO EN PAQUETE» y autoriza aumentar calidad/detalle nativo de todas las capas, niveles y mininiveles sin pausas individuales. Conservar el HUD y portales que comprobó conformes, originales, paletas, tamaños lógicos, colisiones y recorrido. Corregir deformación de Tayta al lanzar huaraca. El acabado cinematográfico final y nuevas mejoras de jugabilidad Selva quedan para después por su indicación. No confundir autorización del lote con aprobación visual de cada resultado.

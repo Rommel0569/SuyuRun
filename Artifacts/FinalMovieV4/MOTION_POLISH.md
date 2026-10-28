@@ -1,0 +1,16 @@
+# Pulido del final — anatomía, apoyos, abismo y umbral
+
+Solicitud del24/10/2026. Banco completo integrado en FinalMovieV4; originales de esta revisión conservados en BeforeMotionPolish/ y el ZIP anterior permanece disponible.
+
+- Costa:24poses redibujadas usando las carreras reales de Sierra/Selva como referencias anatómicas, sin incorporar esas texturas de gameplay a la película. Piernas más articuladas, poncho compacto y rostro humano; ambos brazos siguen ocultos en Costa. Misma escala uniforme durante cada acción, sin estirar el cuerpo por fotograma.
+- Polvo: se elimina el bucle de una imagen en el mismo punto. Partículas deterministas nacen en apoyos de carrera, impacto de aterrizaje y fricción de deslizamiento; se desplazan respecto al suelo, suben y se disipan en tiempos distintos. No se emiten pisadas en vuelo. Es un efecto pixel generado en ejecución, incluido en RunnerFinalMovie.cs, no una hoja de humo supuestamente dibujada a mano.
+- Abismo: nueva capa independiente costa_chasm con pared cercana, salientes intermedios y profundidad oscura. Se dibuja en la apertura bajo el borde jugable, conservando el arco y el tiempo del salto. No sustituye el cielo por un rectángulo negro ni altera colisiones del juego.
+- Portal:16poses nuevas en portal_entry: aproximación, apoyo, giro de caderas/torso, vista de tres cuartos desde atrás, elevación del talón y paso al otro lado. Cuerpo con una única calibración constante de atlas194/217para igualar la altura visible de Selva. La entrada no usa encogimiento ni escalado horizontal animado. La luz responde al cruce y el desvanecido se reserva para el final del paso.
+
+Corrección adicional de la carrera solicitada por el usuario: nueva costa_run con16poses a24fps. La exportación registra rígidamente cabeza/cuerpo para corregir márgenes de filas, sin fijar cada bota al mismo punto durante el vuelo. La reproducción distingue soporte y suspensión, mantiene una escala fija del atlas, agrega arco vertical continuo y sombra de contacto discreta. Se oyen pasos atenuados en los contactos; el polvo usa la misma cadencia de3apoyos por segundo. No se afirma biomecánica perfecta ni animación dibujada a mano de toda la película a24fps. Prompt exacto adicional en COSTA_RUN_PROMPT.json.
+
+Banco de27hojas y225celdas, incluidos fondos estáticos;256pxpor pose y2560×720por capa. Point, sin compresión, alfa binario y hasta24colores de las paletas existentes. No se han redibujado todos los fondos en este ajuste: se conservan los recursos cinematográficos anteriores que no fueron objeto del pedido.
+
+Generación mediante la herramienta integrada imagegen. Prompts exactos y referencias en MOTION_POLISH_PROMPTS.json; fuentes en Sources/. Exportación, separación de componentes, registro y cuantización son operaciones mecánicas. La separación del atlas del portal conserva botas completas, sin arrastrar partes del fotograma anterior.
+
+Prueba exacta de esta revisión: consultar MOTION_POLISH_VERIFICATION.json una vez completada la ejecución. Las pruebas anteriores de PLAY_VERIFICATION.json y BeforeMotionPolish/ corresponden a versiones previas. La aceptación visual del usuario sigue pendiente. No se genera ejecutable ni se modifica el gameplay, guardado o música elegida.

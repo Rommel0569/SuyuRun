@@ -89,6 +89,8 @@ namespace SuyuRun.Editor
             string previous=SessionState.GetString(Active+".PreviousStart","");EditorSceneManager.playModeStartScene=string.IsNullOrEmpty(previous)?null:AssetDatabase.LoadAssetAtPath<SceneAsset>(previous);
             var snapshot=JsonUtility.FromJson<SceneSnapshot>(SessionState.GetString(Active+".SceneSnapshot","{}"));
             if(snapshot?.scenes!=null&&snapshot.scenes.Length>0)EditorSceneManager.RestoreSceneManagerSetup(snapshot.scenes);
+            if(Application.isBatchMode&&SessionState.GetBool("SuyuRun.Uniform.EndingAfterTour",false))
+            {SessionState.SetBool("SuyuRun.Uniform.EndingAfterTour",false);FinalMoviePlayAudit.Run();return;}
             if(Application.isBatchMode)EditorApplication.Exit(0);
         }
         static void CaptureOnce(string name,int step)

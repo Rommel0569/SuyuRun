@@ -6,10 +6,12 @@ namespace SuyuRun
     // Presentation only: never changes regional physics, inputs or damage hitboxes.
     public static class TaytaArt
     {
+        // The new drawings remain archived until their motion matches the proven bank.
+        public static bool UseUniformBank {get;}=false;
         // Applied through PPU/pivot, not per-state Transform scale: firing,
         // crouching and rewards retain the same anatomy and planted feet.
         public const float WorldScale=GameScale.HeroScale;
-        [Serializable] public class Spec {public int frames,fps,frameWidth,frameHeight;public float pixelsPerUnit,gripCoordinateScale;public bool loop;public float[] gripX,gripY,footAnchor;public int[] frameOrder;}
+        [Serializable] public class Spec {public int frames,fps,frameWidth,frameHeight;public float pixelsPerUnit,gripCoordinateScale;public bool loop,uniformAnatomy;public float[] gripX,gripY,footAnchor;public int[] frameOrder;}
         public sealed class Sheet {public Sprite[] frames;public Spec spec;}
         static readonly Dictionary<string,Sheet> cache=new Dictionary<string,Sheet>();
         public static Sheet Get(string region,string state)
@@ -18,6 +20,8 @@ namespace SuyuRun
             if(state=="trepar")state="climb";
             string key=region+"/"+state;
             if(cache.TryGetValue(key,out var found)&&found.frames.Length>0&&found.frames[0])return found;
+            var uniform=UseUniformBank?Uniform(region,state):null;
+            if(uniform!=null){cache[key]=uniform;return uniform;}
             string revised=key+(state=="run"?"_v3":"_v2");
             var texture=Resources.Load<Texture2D>("Tayta/"+revised)??Resources.Load<Texture2D>("Tayta/"+key);
             var data=Resources.Load<TextAsset>("Tayta/"+revised)??Resources.Load<TextAsset>("Tayta/"+key);
@@ -58,11 +62,31 @@ namespace SuyuRun
             {int source=spec.frameOrder!=null&&i<spec.frameOrder.Length?spec.frameOrder[i]:i;frames[i]=Sprite.Create(texture,new Rect(source*width,0,width,height),pivot,ppu,0,SpriteMeshType.FullRect);frames[i].name=state+"_"+i;if(registered)RefactorActorArt.RegisterHero(frames[i]);}
             found=new Sheet{spec=spec,frames=frames};cache[key]=found;return found;
         }
+        static Sheet Uniform(string region,string state)
+        {
+            string path="RefactorBank/TaytaUniform/"+region+"/"+state;
+            var data=Resources.Load<TextAsset>(path);var texture=Resources.Load<Texture2D>(path);
+            if(!data||!texture)return null;
+            var spec=JsonUtility.FromJson<Spec>(data.text);
+            if(!spec.uniformAnatomy||spec.frames<1||texture.width!=spec.frames*spec.frameWidth||texture.height!=spec.frameHeight)
+                throw new InvalidOperationException("Invalid unified Tayta atlas: "+path);
+            texture.filterMode=FilterMode.Point;texture.wrapMode=TextureWrapMode.Clamp;
+            float ppu=spec.pixelsPerUnit/WorldScale,ratio=ppu/32;
+            var pivot=new Vector2((spec.frameWidth*.5f-24*ratio)/spec.frameWidth,(spec.frameHeight-spec.footAnchor[1]+48*ratio)/spec.frameHeight);
+            var frames=new Sprite[spec.frames];
+            for(int i=0;i<frames.Length;i++)
+            {
+                frames[i]=Sprite.Create(texture,new Rect(i*spec.frameWidth,0,spec.frameWidth,spec.frameHeight),pivot,ppu,0,SpriteMeshType.FullRect);
+                frames[i].name="UniformTayta/"+region+"/"+state+"/"+i;
+                RefactorActorArt.RegisterHero(frames[i]);
+            }
+            return new Sheet{frames=frames,spec=spec};
+        }
         public static Sprite Frame(string region,string state,float age,int forced=-1)
         {
             var s=Get(region,state);if(s==null)return null;
             int i=forced>=0?Mathf.Clamp(forced,0,s.frames.Length-1):Mathf.FloorToInt(Mathf.Max(0,age)*s.spec.fps);
-            if(region=="sierra"&&state=="fall"&&s.spec.frames==4)return s.frames[s.frames.Length-1];
+            if(region=="sierra"&&state=="fall"&&s.spec.frames==4&&!s.spec.uniformAnatomy)return s.frames[s.frames.Length-1];
             // Keep every regional pose. Mapping a four-frame fall onto Selva's
             // single fall pose froze the animation at frame zero.
             if(forced<0&&(state=="jump"||state=="double_jump"||state=="fall"))i=Mathf.FloorToInt(Mathf.Max(0,age)*12);
@@ -84,7 +108,7 @@ namespace SuyuRun
             {
                 float ratio=s.frames[i].pixelsPerUnit/32;
                 float foot=s.spec.footAnchor!=null&&s.spec.footAnchor.Length>1?s.spec.footAnchor[1]:s.spec.frameHeight==96?93:124;
-                offset=new Vector2(24+(s.spec.gripX[i]-s.spec.frameWidth*.5f)/ratio,47+(s.spec.gripY[i]-foot)/ratio);
+                offset=new Vector2(24+(s.spec.gripX[i]-s.spec.frameWidth*.5f)/ratio,(s.spec.uniformAnatomy?48:47)+(s.spec.gripY[i]-foot)/ratio);
             }
             return offset;
         }

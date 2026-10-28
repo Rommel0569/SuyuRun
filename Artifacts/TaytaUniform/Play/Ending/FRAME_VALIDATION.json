@@ -1,0 +1,441 @@
+{
+  "playResult": "PASS Play finished. Runtime errors=0. Observed seconds=29.85. Captures=35. Release tangent and ballistic continuity checked. Screenshots require visual review.",
+  "checkedFilmFrames": 31,
+  "creditBlackIsIntentional": true,
+  "entries": [
+    {
+      "frame": "frame_0.5.png",
+      "size": [
+        1280,
+        720
+      ],
+      "blackEdgeFractions": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sha256": "c14cb701b89e0694a313d9f143593dc0e9fd5088a2bec9055d9151d7aaa40731"
+    },
+    {
+      "frame": "frame_1.5.png",
+      "size": [
+        1280,
+        720
+      ],
+      "blackEdgeFractions": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sha256": "fac4f728d54271d852d40b2011e0f3e96e9af7bfe927327c971fd5873ba5795b"
+    },
+    {
+      "frame": "frame_10.1.png",
+      "size": [
+        1280,
+        720
+      ],
+      "blackEdgeFractions": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sha256": "0ad562bb7f89829cb39b280265e4097e42c9358fb26b5b2ec13500ebd48a831c"
+    },
+    {
+      "frame": "frame_10.6.png",
+      "size": [
+        1280,
+        720
+      ],
+      "blackEdgeFractions": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sha256": "fc2acef7c7b56cb78f6604c17616212e0ddc039fd80b51233c67a204e4e621d4"
+    },
+    {
+      "frame": "frame_11.1.png",
+      "size": [
+        1280,
+        720
+      ],
+      "blackEdgeFractions": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sha256": "4c406edc0383a6cd27dd0a362ec12364590987fd212eec93fd1cf7f5a5ebaaf3"
+    },
+    {
+      "frame": "frame_11.6.png",
+      "size": [
+        1280,
+        720
+      ],
+      "blackEdgeFractions": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sha256": "b0609b8d7341485292a3e75bc2b35ffadb30c8768d9400d573c8740cdd3ca3c2"
+    },
+    {
+      "frame": "frame_12.1.png",
+      "size": [
+        1280,
+        720
+      ],
+      "blackEdgeFractions": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sha256": "163dbf00a3395a80046c0c5ed81186d1377a25af5692aca505227fcaff7017e7"
+    },
+    {
+      "frame": "frame_12.6.png",
+      "size": [
+        1280,
+        720
+      ],
+      "blackEdgeFractions": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sha256": "2c4bd057fc505b9618243981e38f785e3fe3c5542b0be18733c82b668766decd"
+    },
+    {
+      "frame": "frame_13.1.png",
+      "size": [
+        1280,
+        720
+      ],
+      "blackEdgeFractions": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sha256": "62add1080e70bb3f717bda6da6c09021df41f61b0998659028da0b6dd30eb20d"
+    },
+    {
+      "frame": "frame_13.6.png",
+      "size": [
+        1280,
+        720
+      ],
+      "blackEdgeFractions": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sha256": "5cc53f28e5d55079f7633474145a2a4004708b74a087d75976e5792f375fbb6d"
+    },
+    {
+      "frame": "frame_14.2.png",
+      "size": [
+        1280,
+        720
+      ],
+      "blackEdgeFractions": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sha256": "160360f84494dc52d469f28335c021fbb5e08744d08627075754b6cdcf258ffa"
+    },
+    {
+      "frame": "frame_15.0.png",
+      "size": [
+        1280,
+        720
+      ],
+      "blackEdgeFractions": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sha256": "a5d08d20d6caf1d315b28358256899a6ead83fc69f1049617ac272611d963f28"
+    },
+    {
+      "frame": "frame_16.0.png",
+      "size": [
+        1280,
+        720
+      ],
+      "blackEdgeFractions": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sha256": "eaa217146388df467a3e2792f208c608fa9cbea571061082e38bc1029580f917"
+    },
+    {
+      "frame": "frame_17.5.png",
+      "size": [
+        1280,
+        720
+      ],
+      "blackEdgeFractions": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sha256": "670fd897794c937c6243dea377662e1f9af00cee1c20ab9a4863459e47e8998b"
+    },
+    {
+      "frame": "frame_18.5.png",
+      "size": [
+        1280,
+        720
+      ],
+      "blackEdgeFractions": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sha256": "1f707445040c6630ee113c400eaad7d8e224af624dc44a105900971116d580fc"
+    },
+    {
+      "frame": "frame_19.5.png",
+      "size": [
+        1280,
+        720
+      ],
+      "blackEdgeFractions": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sha256": "b8715543d261dc3ebcbd205f5e380014cc2a211d3c92028508485e883531f3cb"
+    },
+    {
+      "frame": "frame_2.4.png",
+      "size": [
+        1280,
+        720
+      ],
+      "blackEdgeFractions": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sha256": "1083da0870b0cf6a75be426dd58c4703d83b21c18691c2ddc707dd0dd60f0a0a"
+    },
+    {
+      "frame": "frame_2.7.png",
+      "size": [
+        1280,
+        720
+      ],
+      "blackEdgeFractions": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sha256": "5273ff62e5716a38228a2358256348dd262bd106eb54c60f97aadd8d78b46103"
+    },
+    {
+      "frame": "frame_3.2.png",
+      "size": [
+        1280,
+        720
+      ],
+      "blackEdgeFractions": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sha256": "847106496c2544124dca9139e4fdda51c933a6bce9a9a9bc035efa011519861c"
+    },
+    {
+      "frame": "frame_3.7.png",
+      "size": [
+        1280,
+        720
+      ],
+      "blackEdgeFractions": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sha256": "f61f00e7986aeaa03d6d5a507824ac309492b80d17c337e3affb3fd2e8b3bbfb"
+    },
+    {
+      "frame": "frame_4.2.png",
+      "size": [
+        1280,
+        720
+      ],
+      "blackEdgeFractions": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sha256": "bea3bccb971e2d13174efcf0587d841460c866f670e8ae8f870541634b6a6b62"
+    },
+    {
+      "frame": "frame_4.7.png",
+      "size": [
+        1280,
+        720
+      ],
+      "blackEdgeFractions": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sha256": "ea6b922b90034665a1968430f25955352d8e964547557338da88a60f2d1af993"
+    },
+    {
+      "frame": "frame_5.1.png",
+      "size": [
+        1280,
+        720
+      ],
+      "blackEdgeFractions": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sha256": "912c41bc3801f1708e87f6f7c14092ee3ffbe6ea255be6ee0f9e34ff54fc99e3"
+    },
+    {
+      "frame": "frame_5.5.png",
+      "size": [
+        1280,
+        720
+      ],
+      "blackEdgeFractions": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sha256": "d41d1ef884a9809b592fb7f0e3ad68f231f617b20666b7ef564b7dc3ea4a551c"
+    },
+    {
+      "frame": "frame_6.1.png",
+      "size": [
+        1280,
+        720
+      ],
+      "blackEdgeFractions": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sha256": "568fb8b70a67d82f6245a017b2bcd0694d3f05b437a59b0645bf740f124abd7f"
+    },
+    {
+      "frame": "frame_6.8.png",
+      "size": [
+        1280,
+        720
+      ],
+      "blackEdgeFractions": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sha256": "838f6bc41291c2251412c0fc983945cb37c94bb642e3870f10340aedd2a26a1c"
+    },
+    {
+      "frame": "frame_7.3.png",
+      "size": [
+        1280,
+        720
+      ],
+      "blackEdgeFractions": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sha256": "1bec19446a9495bfafca27ed42e72534203904f9549ad6bbd350401372e55e63"
+    },
+    {
+      "frame": "frame_7.8.png",
+      "size": [
+        1280,
+        720
+      ],
+      "blackEdgeFractions": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sha256": "998ea4cd517c688d9fece2175051e46eb39acefc023818327b4f20180156cdd8"
+    },
+    {
+      "frame": "frame_8.3.png",
+      "size": [
+        1280,
+        720
+      ],
+      "blackEdgeFractions": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sha256": "45b4bf7d5f18464192476b9ca9c4cad8d063b4739e655610189a1fefa86f1a03"
+    },
+    {
+      "frame": "frame_8.8.png",
+      "size": [
+        1280,
+        720
+      ],
+      "blackEdgeFractions": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sha256": "95298fea384804fee4e3080ef0fb41ef8cb0fb548b292c2e6ebebcc682c008bc"
+    },
+    {
+      "frame": "frame_9.5.png",
+      "size": [
+        1280,
+        720
+      ],
+      "blackEdgeFractions": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sha256": "33606e0e458cc671a548eeef81fe0e0495c65c0eb4325e9c8df1d8cce333c6ee"
+    }
+  ]
+}

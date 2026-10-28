@@ -1,0 +1,67 @@
+{
+  "frames": 4,
+  "fps": 10,
+  "loop": false,
+  "frameWidth": 384,
+  "frameHeight": 320,
+  "pixelsPerUnit": 150.58823529411765,
+  "footAnchor": [
+    192.0,
+    308
+  ],
+  "gripX": [
+    195.0,
+    226.0,
+    199.0,
+    189.5
+  ],
+  "gripY": [
+    194.0,
+    214.0,
+    219.0,
+    232.0
+  ],
+  "uniformAnatomy": true,
+  "source": "sierra_base",
+  "sourceIndices": [
+    52,
+    53,
+    54,
+    55
+  ],
+  "sourceScale": 0.9026798307475318,
+  "frameUniformScales": [
+    1.415929203539823,
+    1.415929203539823,
+    1.415929203539823,
+    1.415929203539823
+  ],
+  "frameBounds": [
+    [
+      120,
+      176,
+      263,
+      308
+    ],
+    [
+      104,
+      199,
+      280,
+      308
+    ],
+    [
+      74,
+      213,
+      310,
+      308
+    ],
+    [
+      70,
+      226,
+      314,
+      308
+    ]
+  ],
+  "integrated": true,
+  "playTested": false
+}

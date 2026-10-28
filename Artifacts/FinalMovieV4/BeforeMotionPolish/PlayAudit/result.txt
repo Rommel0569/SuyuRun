@@ -1,0 +1,1 @@
+PASS Play finished. Runtime errors=0. Observed seconds=29.79. Captures=35. Release tangent and ballistic continuity checked. Screenshots require visual review.

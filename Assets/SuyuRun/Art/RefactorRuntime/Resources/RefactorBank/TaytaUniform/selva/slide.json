@@ -1,0 +1,47 @@
+{
+  "frames": 2,
+  "fps": 8,
+  "loop": true,
+  "frameWidth": 384,
+  "frameHeight": 320,
+  "pixelsPerUnit": 150.58823529411765,
+  "footAnchor": [
+    192.0,
+    308
+  ],
+  "gripX": [
+    215.0,
+    201.5
+  ],
+  "gripY": [
+    221.0,
+    208.0
+  ],
+  "uniformAnatomy": true,
+  "source": "selva_base",
+  "sourceIndices": [
+    37,
+    38
+  ],
+  "sourceScale": 0.975609756097561,
+  "frameUniformScales": [
+    1.1267605633802817,
+    1.1267605633802817
+  ],
+  "frameBounds": [
+    [
+      120,
+      211,
+      290,
+      308
+    ],
+    [
+      129,
+      190,
+      282,
+      308
+    ]
+  ],
+  "integrated": true,
+  "playTested": false
+}

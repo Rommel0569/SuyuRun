@@ -1,0 +1,2 @@
+2026-10-27T21:05:36.6222093-05:00
+PASS Unity resource/route simulation: final 24 knots, 8 ponds; all 24 attachments/releases advance; continuous portal floor and stop; original river unchanged. Late music cursor repeats measured phrase with reserved cadence; celebration renders for at least 2.5s before 1.4s ingress and completion. Controlled cursor/physics/resource check, not a human playthrough or listening approval. Captures exclude OnGUI HUD.

@@ -1,0 +1,249 @@
+[
+  {
+    "name": "costa_sky",
+    "region": "costa",
+    "kind": "layer",
+    "frames": 1,
+    "columns": 1,
+    "transparent": false,
+    "prompt": "Use case: stylized-concept. SUYURUN new cinematic-only production pixel art, not gameplay art reuse. Crisp deliberate pixels, rich clean material clusters, 24-color regional palette, no blur, gradients, antialiasing, typography or watermark. Side-on 2D. Create ONLY this independent parallax layer on wide16:9canvas designed1280x720: Pacific desert sunset sky only, vast amber and terracotta clouds, low golden sun, purple shadows. No land, no water, no characters."
+  },
+  {
+    "name": "costa_mid",
+    "region": "costa",
+    "kind": "layer",
+    "frames": 1,
+    "columns": 1,
+    "transparent": true,
+    "prompt": "Use case: stylized-concept. SUYURUN new cinematic-only production pixel art, not gameplay art reuse. Crisp deliberate pixels, rich clean material clusters, 24-color regional palette, no blur, gradients, antialiasing, typography or watermark. Side-on 2D. Create ONLY this independent parallax layer on wide16:9canvas designed1280x720: Independent transparent middle-distance layer: dramatic Paracas cliffs with Candelabro geoglyph, distant adobe huaca and turquoise Pacific at lower horizon. Upper70percent truly transparent. No sky, no foreground."
+  },
+  {
+    "name": "costa_ground",
+    "region": "costa",
+    "kind": "layer",
+    "frames": 1,
+    "columns": 1,
+    "transparent": true,
+    "prompt": "Use case: stylized-concept. SUYURUN new cinematic-only production pixel art, not gameplay art reuse. Crisp deliberate pixels, rich clean material clusters, 24-color regional palette, no blur, gradients, antialiasing, typography or watermark. Side-on 2D. Create ONLY this independent parallax layer on wide16:9canvas designed1280x720: Independent transparent foreground layer: adobe/sand cliff top is a straight horizontal walkable line at81percent canvas height, ochre stone cliff below, restrained dry grasses at sides. Everything above the path transparent. Entire lower19percent filled earth, seamless left/right."
+  },
+  {
+    "name": "sierra_sky",
+    "region": "sierra",
+    "kind": "layer",
+    "frames": 1,
+    "columns": 1,
+    "transparent": false,
+    "prompt": "Use case: stylized-concept. SUYURUN new cinematic-only production pixel art, not gameplay art reuse. Crisp deliberate pixels, rich clean material clusters, 24-color regional palette, no blur, gradients, antialiasing, typography or watermark. Side-on 2D. Create ONLY this independent parallax layer on wide16:9canvas designed1280x720: Andean dawn sky only, clear bluegrey upper sky and warm cream clouds, rising gold sun, no mountains or ground."
+  },
+  {
+    "name": "sierra_mid",
+    "region": "sierra",
+    "kind": "layer",
+    "frames": 1,
+    "columns": 1,
+    "transparent": true,
+    "prompt": "Use case: stylized-concept. SUYURUN new cinematic-only production pixel art, not gameplay art reuse. Crisp deliberate pixels, rich clean material clusters, 24-color regional palette, no blur, gradients, antialiasing, typography or watermark. Side-on 2D. Create ONLY this independent parallax layer on wide16:9canvas designed1280x720: Independent transparent middle-distance layer: dramatic snowy Andean peaks and Moray terraces, tiny stone ruins, horizon mountains occupy lower55percent only, no sky or foreground."
+  },
+  {
+    "name": "sierra_ground",
+    "region": "sierra",
+    "kind": "layer",
+    "frames": 1,
+    "columns": 1,
+    "transparent": true,
+    "prompt": "Use case: stylized-concept. SUYURUN new cinematic-only production pixel art, not gameplay art reuse. Crisp deliberate pixels, rich clean material clusters, 24-color regional palette, no blur, gradients, antialiasing, typography or watermark. Side-on 2D. Create ONLY this independent parallax layer on wide16:9canvas designed1280x720: Independent transparent foreground layer: straight horizontal Inca stone path at81percent canvas height, entire lower19percent textured stone, ochre ichu grass at sides, no sky, all above path transparent, seamless left/right."
+  },
+  {
+    "name": "selva_sky",
+    "region": "selva",
+    "kind": "layer",
+    "frames": 1,
+    "columns": 1,
+    "transparent": false,
+    "prompt": "Use case: stylized-concept. SUYURUN new cinematic-only production pixel art, not gameplay art reuse. Crisp deliberate pixels, rich clean material clusters, 24-color regional palette, no blur, gradients, antialiasing, typography or watermark. Side-on 2D. Create ONLY this independent parallax layer on wide16:9canvas designed1280x720: Amazon dawn sky only, warm distant sun and airy teal clouds, no forest or ground."
+  },
+  {
+    "name": "selva_mid",
+    "region": "selva",
+    "kind": "layer",
+    "frames": 1,
+    "columns": 1,
+    "transparent": true,
+    "prompt": "Use case: stylized-concept. SUYURUN new cinematic-only production pixel art, not gameplay art reuse. Crisp deliberate pixels, rich clean material clusters, 24-color regional palette, no blur, gradients, antialiasing, typography or watermark. Side-on 2D. Create ONLY this independent parallax layer on wide16:9canvas designed1280x720: Independent transparent middle-distance layer: lush Amazon ceibas, aguaje palms, dark emerald valley, distant river below horizon, open central clearing. No sky. Upper45percent transparent, no foreground."
+  },
+  {
+    "name": "selva_ground",
+    "region": "selva",
+    "kind": "layer",
+    "frames": 1,
+    "columns": 1,
+    "transparent": true,
+    "prompt": "Use case: stylized-concept. SUYURUN new cinematic-only production pixel art, not gameplay art reuse. Crisp deliberate pixels, rich clean material clusters, 24-color regional palette, no blur, gradients, antialiasing, typography or watermark. Side-on 2D. Create ONLY this independent parallax layer on wide16:9canvas designed1280x720: Independent transparent foreground layer: horizontal mossy stone landing ledge at81percent canvas height, dense roots and earth below in lower19percent, leaves only at edges, open center for hero, no sky or canopy, upper81percent transparent, seamless left/right."
+  },
+  {
+    "name": "costa_hero",
+    "region": "costa",
+    "kind": "actor",
+    "frames": 24,
+    "columns": 4,
+    "transparent": true,
+    "reference": "C:/Users/USER/Documents/ChatGPT/JOGO/SuyuRun/Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaCosta/run_human.png",
+    "prompt": "Edit target image1 Costa cinematic sprite sheet; image2 and image3 are STRICT CHARACTER ANATOMY REFERENCES from actual SUYURUN gameplay. Rebuild all 24 frames, exactly four columns and six rows, transparent background with generous equal margins and no overlaps. Correct proportions ONLY: Tayta must have the slimmer, longer articulated thighs and calves of gameplay Tayta in refs2/3, identifiable knees and ankles, compact boots NOT huge balloons, head and torso balanced as refs2/3. Keep same human face, chullo and orange/ochre compact poncho with turquoise trim, dark teal trousers, brown boots. No arms visible in Costa. Not a baby/chibi mascot; the lean agile runner from refs2/3. Row1+2: eight distinct run contact/down/passing/up/flight/opposite-contact poses, actual opposite leg changes. Row3 four anticipation/takeoff poses. Row4 four flight/apex/descent poses. Row5 four landing compression/recovery poses. Row6 four slide and rise poses. Consistent human anatomy and costume volume, identical scale and foot baseline in each cell, no frame cropped. Detailed crisp native pixel art 16/32bit, matte materials, existing ochre/teal/purple Coast palette, no soft gradients, blur, letters, grid lines or effects. Generate real transparent alpha."
+  },
+  {
+    "name": "sierra_hero",
+    "region": "sierra",
+    "kind": "actor",
+    "frames": 24,
+    "columns": 4,
+    "transparent": true,
+    "reference": "C:/Users/USER/Documents/ChatGPT/JOGO/SuyuRun/Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaSierra/run_human.png",
+    "prompt": "Use board only as identity reference, make NEW SUYURUN 24pose huaraca film atlas, EXACT 4columns x6rows equal isolated cells transparent. NO numbers text grid background. Tayta red gold embroidered chullo and poncho, exposed strong human forearms, navy trousers and boots; full body facing RIGHT stable anatomy/size and foot baseline, ALL cords entirely inside each cell with safe margins. Row1 frames0-3: run stride, passing stride, brake contact, settle planted stance. Row2 frames4-7: look right, draw pebble to sling pouch, seat pebble in tiny FLAT OVAL woven pocket, tension TWO braided cords. Row3 frames8-11: raise elbow, sling behind back, overhead diagonal rotation, sling forward down arc. Row4 frames12-15: overhead-back circle, overhead-up circle, overhead-front circle, elbow coils for throw. Row5 frames16-19: shoulder drives, elbow extension, arm fully extended release (NO detached stone), wrist and torso follow-through. Row6 frames20-23: arm continues across body, slack sling lowers, chest settles, ready slight proud smile. Sling is two thin woven cords with SMALL flat pouch, NOT a bucket/bag/whip. No projectile or effects baked. Rich crisp 16/32bit pixelart with 24 regional colors, no blur/AA. Clearly different positions with organic overlapping poncho/tassel motion."
+  },
+  {
+    "name": "selva_hero",
+    "region": "selva",
+    "kind": "actor",
+    "frames": 24,
+    "columns": 4,
+    "transparent": true,
+    "reference": "C:/Users/USER/Documents/ChatGPT/JOGO/SuyuRun/Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaSelva/victory.png",
+    "prompt": "Reference old contact board only for character identity. NEW SUYURUN cinematic 24pose atlas EXACT4columns6rows, transparent isolated equal square cells, NO numbers labels grid background. Human Tayta face visible inside dark brown shaggy fantasy gorilla protective suit, red turquoise gold Andean chullo and woven belt. Stable detailed anatomy and size, full body facing RIGHT with ample margins. Row1 frames0-3: hanging with right hand held ABOVE head at SAME grip position in each cell, body trails left, knees extend then passing low arc. Row2 frames4-7: SAME overhead hand grip, torso follows swing, knees gather toward right, other arm prepares release. Draw NO rope or vine anywhere, runtime attaches rope. Row3 frames8-11: release with both hands now free, forward airborne reach, apex tuck, descending legs extend. Row4 frames12-15: feet contact, knees absorb, deep compression, rising recovery. Row5 frames16-19: relaxed standing, turn eyes right, draw ONE short pistol from belt, establish two-handed aim with weapon visibly attached to hands. Row6 frames20-23: tiny recoil (no muzzle flash), recoil recovery, pistol lowers safely, relaxed proud standing. Rich hard-edged 16/32bit pixel art,24Amazon colors,brown fur clusters,stable volumes,NO blur/AA or giant hands, no extra weapons or baked effect. Smooth authored inbetweens not duplicated poses."
+  },
+  {
+    "name": "selva_portrait",
+    "region": "selva",
+    "kind": "actor",
+    "frames": 24,
+    "columns": 4,
+    "transparent": true,
+    "reference": "C:/Users/USER/Documents/ChatGPT/JOGO/SuyuRun/Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaSelva/victory.png",
+    "prompt": "Use reference portrait only for identity, clothing and pixel style. Create NEW acting atlas for SUYURUN ending, EXACT4columns6rows,24equal cells TRUE transparent, NO words labels grid. Waist-up same size/baseline every cell, human Tayta warm expressive face, embroidered red chullo turquoise gold, protective brown furry gorilla suit, woven belt. Full cap/tassel and shoulders safe inside EACH cell. Row1 frames0-3: quiet recovery after journey, eyes closed, eyelids half-open, eyes open looking slightly down, attention drawn upper right. Row2 frames4-7: eyes lead right then head follows a few degrees, chin gently rises, soft relieved smile develops, peaceful full expression. Row3 frames8-11: smile held, half blink, full blink, reopen with soft brow. Row4 frames12-15: look toward viewer, chest inhale, exhale shoulders settle, smile warms. Row5 frames16-19: hand begins rising from chest, elbow opens, palm lifts halfway, open palm next to face. Row6 frames20-23: wave palm tilts one way, passes center, tilts other way, returns gentle resting farewell with affectionate eyes. Small coherent motion, no sudden anatomy or head size changes, NO speech/exaggerated mouth. Crisp high-detail nativepixel clusters,24regionalcolors,no blur/AA. Each portrait consistent camera and registration. Individual frames will be held for different exposure times in game."
+  },
+  {
+    "name": "selva_fx",
+    "region": "selva",
+    "kind": "actor",
+    "frames": 16,
+    "columns": 4,
+    "transparent": true,
+    "prompt": "Use case: stylized-concept. SUYURUN new cinematic-only production pixel art, not gameplay art reuse. Crisp deliberate pixels, rich clean material clusters, 24-color regional palette, no blur, gradients, antialiasing, typography or watermark. Side-on 2D. NEW cinematic effects spritesheet16equal cells EXACT4columns4rows, true transparent background no text/grid. Row1 four sequential ochre dust puffs expand then disperse;row2 four warm golden sling stone trail and impact star bursts;row3 four golden tiny pistol muzzle flash smoke dissipates;row4 four bright turquoise firefly glow motes with different twinkle sizes. Each effect centered isolated in cell, sharp pixel edges no blur, no characters, fixed scale across row."
+  },
+  {
+    "name": "selva_memories",
+    "region": "selva",
+    "kind": "actor",
+    "frames": 12,
+    "columns": 4,
+    "transparent": true,
+    "prompt": "Use case: stylized-concept. SUYURUN cinematic-only NEW pixel art heritage object atlas12equal square cells EXACT4columns3rows, genuine transparent background, no characters, labels or matte. Detailed readable 16/32bit clean clusters, dark outline, warm museum light, gold bronze turquoise terracotta colors, no blur. Row1 four coastal objects: Moche portrait ceramic vessel, Paracas woven textile, Nazca painted ceramic vase, Moche gold coin. Row2: Chavin stone tenon head, Inca wooden ceremonial kero, hanging quipu knotted cords, empty decorative gold sparkle only. Row3: Shipibo patterned ceramic pot, wooden flute, Shipibo kene textile, seed rattle. One isolated object per cell centered, no grid or text. Professional pixel sprite assets not a photographic board."
+  },
+  {
+    "name": "costa_life",
+    "region": "costa",
+    "kind": "actor",
+    "frames": 8,
+    "columns": 4,
+    "transparent": true,
+    "prompt": "Use case: stylized-concept. NEW SUYURUN cinematic-only living environment sprite atlas. Detailed clean16/32bit pixel art, 24color regional palette, no blur gradients text watermark or grid, truly transparent background no matte. Same scale within each animation cycle. EXACT4columns2rows. Row1 four pelican flying RIGHT wing down/mid/up/mid, same body anchor. Row2 four turquoise ocean wave foam crests continuously rolling RIGHT, same horizon line. Equal cells256x256 each, isolated subjects never cross cell boundaries. Single sprite sheet."
+  },
+  {
+    "name": "sierra_life",
+    "region": "sierra",
+    "kind": "actor",
+    "frames": 8,
+    "columns": 4,
+    "transparent": true,
+    "prompt": "Use case: stylized-concept. NEW SUYURUN cinematic-only living environment sprite atlas. Detailed clean16/32bit pixel art, 24color regional palette, no blur gradients text watermark or grid, truly transparent background no matte. Same scale within each animation cycle. EXACT4columns2rows. Row1 four majestic Andean condor flying LEFT, wings down/mid/up/mid, same body anchor. Row2 four clusters golden ichu grass swaying left to right in wind, roots fixed same baseline. Equal cells256x256 each, isolated subjects never cross cell boundaries. Single sprite sheet."
+  },
+  {
+    "name": "selva_life",
+    "region": "selva",
+    "kind": "actor",
+    "frames": 16,
+    "columns": 4,
+    "transparent": true,
+    "prompt": "Use case: stylized-concept. NEW SUYURUN cinematic-only living environment sprite atlas. Detailed clean16/32bit pixel art, 24color regional palette, no blur gradients text watermark or grid, truly transparent background no matte. Same scale within each animation cycle. EXACT4columns4rows. Row1 four red blue Amazon macaw flying LEFT wings down/mid/up/mid;row2 four green palm leaves swaying organically in wind with same stem anchor;row3 four orange butterfly wing open/half/closed/half;row4 four turquoise water ripple foam highlights. Fixed body anchor per row. Equal cells256x256 each, isolated subjects never cross cell boundaries. Single sprite sheet."
+  },
+  {
+    "name": "epilogue_sky",
+    "region": "selva",
+    "kind": "layer",
+    "frames": 1,
+    "columns": 1,
+    "transparent": false,
+    "prompt": "Use case: stylized-concept. Independent background SKY layer only for SUYURUN pixel-art film ending. Warm golden sunset, vast gentle peach amber clouds with clean deliberate pixel clusters, luminous cream sun low at center. A peaceful triumphant homecoming feeling. Wide 16:9 landscape1280x720, no land mountains trees water characters text or HUD. Crisp native 16/32bit pixel art, restrained24-color warm Amazon palette compatible with dark teal, ochre, red, cream. No blur antialiasing or smooth gradients. This is one independent sky layer, not a finished scene."
+  },
+  {
+    "name": "epilogue_mid",
+    "region": "selva",
+    "kind": "layer",
+    "frames": 1,
+    "columns": 1,
+    "transparent": true,
+    "prompt": "Use case: stylized-concept. Independent transparent MIDGROUND panoramic landscape layer for SUYURUN ending. Upper40percent genuine transparent (sky supplied separately). A continuous harmonious PERU landscape: LEFT warm Paracas coast and Pacific coves, CENTER layered Andean snow peaks and Inca terraces, RIGHT lush Amazon ceibas and winding turquoise river, unified sunset warm rim lighting and clean atmospheric depth. Panorama fits whole scene1280x720 side view, lower landscape extends to bottom. No characters, foreground walkway, sky, text, HUD. Professional detailed crisp16/32bitpixelart24regionalcolors, dark teal green ochre cream, clear intentional clusters not noisy speckles, no blur or smoothpainting. Standalone layer, not a slice of a finished illustration."
+  },
+  {
+    "name": "epilogue_ground",
+    "region": "selva",
+    "kind": "layer",
+    "frames": 1,
+    "columns": 1,
+    "transparent": true,
+    "prompt": "Use case: stylized-concept. Independent FOREGROUND layer for SUYURUN ending, transparent canvas1280x720. A stone overlook/balcony path with straight walkable top at81percent imageheight, across the entire width. Entire bottom19percent solid detailed warm Inca stone ledge with restrained carved gold/turquoise textile frieze, tiny flowers/green roots only at extreme edges. Everything above path truly transparent. No sky,mountains,characters,door,HUD,text. Crisp detailed16/32bitpixel art,24colors teal/darkbrown ochre goldencream, hard dark outlines, no blur/AA. Warm sunset edge highlights. Single independent layer."
+  },
+  {
+    "name": "epilogue_portal_back",
+    "region": "selva",
+    "kind": "actor",
+    "frames": 4,
+    "columns": 2,
+    "transparent": true,
+    "prompt": "Use case: stylized-concept. SUYURUN cinematic golden portal BACK layer animation spritesheet EXACT2columns2rows FOUR equal cells256x256, genuine transparent background. ONE elegant ancient Andean stone trapezoidal doorway with carved Peruvian motifs, solid footed threshold level at bottom, vertical opening luminous warm gold cream light, fine pixel sparkles. Same silhouette/scale/foot baseline in every cell. Four subtle light pulse phases, architecture absolutely stationary. Door seen front-on or very slight sideview fitting2D platformfilm. Portal opening occupies center60percent, lets hero walk toward its center. Wholedoor isolated safe margins. Crisp highly detailed16/32bit pixelart24colors, darkteal brown gold cream. No hero,no scene,no text,no blur or smoothgradients. Back layer includes luminous interior and whole stone frame."
+  },
+  {
+    "name": "epilogue_portal_front",
+    "region": "selva",
+    "kind": "actor",
+    "frames": 4,
+    "columns": 2,
+    "transparent": true,
+    "prompt": "Use case: stylized-concept. SUYURUN cinematic portal FRONT overlay spritesheet EXACT2columns2rows FOUR equal256x256cells genuine transparent. ONLY thin golden pixel spark arcs and expanding rings near edges of a trapezoidal door-shaped opening; sparse low stone threshold at baseline. Keep CENTER60percent fully transparent, NO filled center glow, NO entire door body, NO hero. Effects anchored SAME cellcenter and baseline everyframe. Four expanding/fading arc phases, can composite in front of a character entering a portal. Warm cream gold turquoise hard-edged pixel flecks,24colors,no blur/gradients/AA/text/grid. Match ancient Andean gateway cinematic aesthetic."
+  },
+  {
+    "name": "epilogue_hero",
+    "region": "selva",
+    "kind": "actor",
+    "frames": 16,
+    "columns": 4,
+    "transparent": true,
+    "prompt": "Use case: stylized-concept. SUYURUN cinematic protagonist atlas EXACT4columns4rows16equal squarecells true transparent, NO labels/grid/background. Match Tayta human warm face, redturquoise embroidered chullo, full brown furry fantasy gorilla protective suit and belt in prior reference. Fixed anatomy/body size/foot baseline, ample margins. Row1 four walk-right poses contact/compress/pass/push facingRIGHT no weapons. Row2 four walk-right continuation poses as he enters a doorway, same sideview. Row3 four distinct victory gesture poses turning toward VIEWER, hands rising from waist to overhead, proud joyful human expression, suit moves naturally. Row4 four BACKVIEW quiet standing poses looking out into landscape, hands on hips then relaxed, cap tassel/fur subtly shift. Wholebody visible everycell, NO door, NO weapon, NO speech. Rich crisp native16/32bit pixelart24Amazoncolors, consistent anatomy, hardalpha, no blur/AA or smooth shaded matte."
+  },
+  {
+    "name": "portal_entry",
+    "region": "selva",
+    "kind": "actor",
+    "frames": 16,
+    "columns": 4,
+    "transparent": true,
+    "prompt": "SUYURUN production cinematic SPRITESHEET, 16 unique sequential poses, four columns four rows on truly transparent background, no letters or grid. Reference1 is identity/costume and pixel detail; reference2 STRICT lean gameplay anatomy, leg length, compact boots and head/body proportion. Tayta brown matte furry protective suit, human face, red chullo, turquoise/red woven belt. Animate physically walking THROUGH a doorway away from viewer toward back/right: poses0-3 right-facing stride decelerating,4-7 planted left foot and torso/head turn from profile to three-quarter BACK with right foot stepping into depth,8-11 rear-three-quarter gait crossing threshold with hip rotation/trailing heel lifting/arms naturally lagging,12-15 backview completes second step, relaxed shoulders, trailing foot lifted then placed beyond doorway. Same scale ALL cells, do NOT shrink or disappear him and NO portal/effects/background included. Keep humanoid legs as gameplay ref, natural balanced center of mass, feet visible, no bulky toddler proportions or huge hands. Rich crisp pixel clusters, 16/32bit style, constrained brown ochre terracotta turquoise palette consistent references, no bloom/metal/plastic, native pixel art not smooth illustration. Every cell whole body at same baseline, equal margins, no overlaps."
+  },
+  {
+    "name": "costa_chasm",
+    "region": "costa",
+    "kind": "layer",
+    "frames": 1,
+    "columns": 1,
+    "transparent": true,
+    "prompt": "SUYURUN standalone independent foreground canyon-depth layer in detailed crisp 16/32bit pixel art, wide 16:9 composition. TRUE transparent upper 8percent, dark ochre/purple coastal desert rock chasm beneath. This is the visible interior of a deep narrow abyss when the runner jumps a gap, NOT a flat platform slice. Along far LEFT and RIGHT edges only, irregular broken cliff lips with warm sunlit thin sandy rim, projecting layered fractured sandstone ledges casting deep purple/brown shadows, jagged crumbling vertical walls tapering downward into dark atmospheric depth. Center70percent is open darkness with far tiny receding rocky ledges, subtle ochre dust in depth and a restrained violet haze at bottom; no bright sky showing through, no solid horizontal floor across the gap. Strong overlapping planes, material distinction and depth readable even thumbnail size, no gratuitous noisy dithering. Warm coastal orange/ochre/terracotta/purple constrained24color palette, no smooth gradients, blur, text, character, UI, white border. Keep center top open transparent so independently positioned walkable cliff tops can overlay correctly."
+  },
+  {
+    "name": "costa_run",
+    "region": "costa",
+    "kind": "actor",
+    "frames": 16,
+    "columns": 4,
+    "transparent": true,
+    "prompt": "Use case: identity-preserve / production game sprite animation. Create a BRAND NEW run-cycle sprite atlas for SUYURUN Tayta, NOT variants of the same pose. Image1 (actual Sierra gameplay run) is the PRIMARY guide for leg anatomy, athletic lean proportion and actual running biomechanics. Image2 is the Costa clothing/face reference ONLY; do NOT copy its repeated leg poses or enormous boots. Image3 actual Selva gameplay is additional anatomy reference. EXACTLY16 WHOLE-BODY FRAMES arranged4columns4rows with generous transparent gutters, no overlap, uniform scale, consistent HIP/Pelvis center and head size, all facing RIGHT. Lean human Tayta, warm human face, orange chullo pompom/compact orange poncho turquoise embroidery, dark teal fitted trousers (not baggy balloons), compact brown boots, BOTH ARMS HIDDEN under the poncho. Matte rich crisp 16/32bit pixel art native clusters, existing ochre teal terracotta purple palette. CRITICAL RUN SEQUENCE: frame0 near/front leg reaches forward heel strike, far leg extended backward toe off. 1 near knee compresses accepting body weight. 2 body down stance with far heel folds toward butt. 3 far thigh swings forward UNDER the pelvis, near foot travels backward relative to hip. 4 far knee raised AHEAD and near leg pushes BACK, trailing heel rises. 5 near leg extended behind in toe-off, far knee extends forward. 6 BOTH feet airborne, far foot reaching FORWARD while near heel is folded BACK. 7 descent to far foot strike. Frame8 FAR leg forward heel strike, NEAR leg straight behind. 9 far stance knee compresses with near heel folding high behind.10 near thigh passes beneath pelvis.11 near knee swings ahead, far supporting foot travels behind.12 near knee raised ahead, far leg toe push.13 far toe-off with near lower leg reaching.14 BOTH feet airborne near leg extended forward, far heel folds backward.15 descent to near heel strike, seamless match to0. Distinguish near leg brightly lit and far leg darker at every frame. Leg silhouettes MUST change front/back completely every half-cycle: no eight identical poses, no skating, no same forward boot in all frames. Hips show a tiny down/up arc, torso mild stable forward tilt, fabric hem/pompom drag by one frame. Actual joints, knees bend naturally. Both feet contact a shared virtual ground line only on CONTACT frames0/8, flight frames visibly ABOVE that line with toes 6-10pixels higher; equal-sized virtual frame boxes not drawn. NO shadows, dust, motion lines, scenery, lettering, grid or antialias blur. True transparent background."
+  }
+]

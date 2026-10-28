@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-24",
+  "unityLog": "unity-release-validation.log",
+  "resourceAudit": "UNITY_RESOURCE_AUDIT.txt",
+  "gameplayStateSheets": 75,
+  "gameplayPhysicalFrames": 366,
+  "cinematicMappings": 7,
+  "sourcePalettesUnchanged": true,
+  "gameplayTour": {
+    "scenes": [
+      "Costa",
+      "Sierra",
+      "Selva"
+    ],
+    "sierraActs": 3,
+    "sierraMinicaves": 2,
+    "selvaZones": 6,
+    "loggedRuntimeErrors": 0,
+    "completeChronologicalPlaythrough": false,
+    "costaAutoplayEndedDead": true
+  },
+  "ending": {
+    "result": "PASS Play finished. Runtime errors=0. Observed seconds=29.85. Captures=35. Release tangent and ballistic continuity checked. Screenshots require visual review.",
+    "captures": 35,
+    "blankEdgeAudit": "PASS:31film captures; credits intentionally black"
+  },
+  "visualReview": [
+    "three-costume anatomy comparison",
+    "run atlas",
+    "swing atlas",
+    "Sierra damage atlas",
+    "actual gameplay/cave/river captures",
+    "actual cinematic Coast/Sierra/Selva/portal/victory captures"
+  ],
+  "acceptanceByUser": false,
+  "executableGenerated": false
+}

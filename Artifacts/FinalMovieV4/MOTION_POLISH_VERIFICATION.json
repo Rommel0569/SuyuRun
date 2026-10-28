@@ -1,0 +1,22 @@
+{
+  "revision": "FinalMovieV4 MotionPolish, including Costa run correction",
+  "date": "2026-10-24",
+  "scope": "Isolated complete cinematic in Unity Play, not gameplay levels",
+  "unityLog": "unity-run-polish-release.log",
+  "result": "PASS",
+  "runtimeErrors": 0,
+  "observedSeconds": 29.79,
+  "captures": 35,
+  "bankSheets": 27,
+  "bankCells": 225,
+  "runFrames": 16,
+  "runPlaybackFps": 24,
+  "portalEntryFrames": 16,
+  "runAtlasUsesOneScale": true,
+  "flightFeetClampedToFloor": false,
+  "filmCaptureBlankEdgeAudit": "PASS: 31 film captures, credits excluded",
+  "visualReview": "Run atlas, portal-entry atlas, actual Unity opening, Coast jump and portal samples",
+  "aestheticUserApproval": false,
+  "executableGenerated": false,
+  "originals": "BeforeMotionPolish/"
+}

@@ -213,9 +213,13 @@ namespace SuyuRun
             var pivot = new Vector2(.5f, 4f / 128f);
             heroIdle = LoadSheet("RefactorBank/TaytaCosta/idle", 94f, pivot);
             heroShoot = LoadSheet("RefactorBank/TaytaCosta/burst", 94f, pivot);
+            var uniformIdle=TaytaArt.Get("costa","idle");var uniformShoot=TaytaArt.Get("costa","burst");
+            if(uniformIdle!=null&&uniformIdle.spec.uniformAnatomy)heroIdle=new Sheet{frames=uniformIdle.frames,fps=uniformIdle.spec.fps,loop=true};
+            if(uniformShoot!=null&&uniformShoot.spec.uniformAnatomy)heroShoot=new Sheet{frames=uniformShoot.frames,fps=uniformShoot.spec.fps,loop=false};
             if (heroIdle == null) return;
             heroRenderer = AddRenderer("Hero", stage, heroIdle.frames[0], 20);
             heroRenderer.transform.position = new Vector3(HeroFeet.x, HeroFeet.y, 0);
+            if(uniformIdle!=null&&uniformIdle.spec.uniformAnatomy)heroRenderer.transform.position+=new Vector3(-24f/32,48f/32,0);
         }
 
         void BuildSling()

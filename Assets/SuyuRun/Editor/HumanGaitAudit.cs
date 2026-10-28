@@ -20,6 +20,7 @@ namespace SuyuRun.Editor
         [MenuItem("SuyuRun/Refactor/Verificar carrera y tamaño")]
         public static void Run()
         {
+            if(TaytaArt.Get("costa","run")?.spec.uniformAnatomy==true){TaytaUniformAudit.Run();return;}
             RefactorResourceAudit.Run();var report=new StringBuilder();
             foreach(string region in new[]{"costa","sierra","selva"})
             {

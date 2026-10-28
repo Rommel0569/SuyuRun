@@ -1,0 +1,13 @@
+{
+  "revision": "FinalMovieV3 exclusive bank, final export",
+  "unity": "6000.3.17f1",
+  "test": "SuyuRun.Editor.FinalMoviePlayAudit.Run",
+  "durationSeconds": 30,
+  "runtimeErrors": 0,
+  "screenshotCount": 17,
+  "screenshotResolution": [1280,720],
+  "fullGamePlaythrough": false,
+  "scope": "Isolated post-game film in a temporary unsaved scene, all 30 seconds through credits and cleanup. Not a Costa-to-Selva gameplay run.",
+  "visualReview": "PNG boards and sampled actual Unity captures inspected; user aesthetic acceptance pending.",
+  "evidence": "PlayAudit/result.txt and PlayAudit/frame_*.png; full local Editor log unity-play-rope-final.log. Final run includes visible hand-attached vine and complete Sierra sling frame extraction."
+}

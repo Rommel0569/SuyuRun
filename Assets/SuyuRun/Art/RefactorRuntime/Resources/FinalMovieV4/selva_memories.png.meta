@@ -1,0 +1,845 @@
+fileFormatVersion: 2
+guid: b02f5775e10f8c745971f361e8f75be1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8867944212116775437
+    second: selva_memories_0
+  - first:
+      213: 2218676523200232998
+    second: selva_memories_1
+  - first:
+      213: 2529419423529082952
+    second: selva_memories_2
+  - first:
+      213: -233652072973431186
+    second: selva_memories_3
+  - first:
+      213: -339766735328542268
+    second: selva_memories_4
+  - first:
+      213: -4296892569575084214
+    second: selva_memories_5
+  - first:
+      213: 5105767498568409716
+    second: selva_memories_6
+  - first:
+      213: 1719238613263474599
+    second: selva_memories_7
+  - first:
+      213: -634634246120904115
+    second: selva_memories_8
+  - first:
+      213: -539735964023775559
+    second: selva_memories_9
+  - first:
+      213: -3854025470394366769
+    second: selva_memories_10
+  - first:
+      213: -6326992224396873220
+    second: selva_memories_11
+  - first:
+      213: -7321230962215406644
+    second: selva_memories_12
+  - first:
+      213: 2219996142793393837
+    second: selva_memories_13
+  - first:
+      213: -1128077963903841938
+    second: selva_memories_14
+  - first:
+      213: -1608051260377324462
+    second: selva_memories_15
+  - first:
+      213: 2905517833958079067
+    second: selva_memories_16
+  - first:
+      213: -6107220182186660744
+    second: selva_memories_17
+  - first:
+      213: -5216498885457231007
+    second: selva_memories_18
+  - first:
+      213: 1345397944250189015
+    second: selva_memories_19
+  - first:
+      213: -2680503646912750266
+    second: selva_memories_20
+  - first:
+      213: 2133648856807648782
+    second: selva_memories_21
+  - first:
+      213: 376121875594138017
+    second: selva_memories_22
+  - first:
+      213: -8037207650955468794
+    second: selva_memories_23
+  - first:
+      213: -4132003485108738873
+    second: selva_memories_24
+  - first:
+      213: -4874648596605978498
+    second: selva_memories_25
+  - first:
+      213: -8413896398185543710
+    second: selva_memories_26
+  - first:
+      213: 5811477757554109958
+    second: selva_memories_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: selva_memories_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 8
+        width: 194
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fd5cc439bbbee480800000000000000
+      internalID: -8867944212116775437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_memories_1
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 18
+        width: 220
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62e39d4fa825ace10800000000000000
+      internalID: 2218676523200232998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_memories_2
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 10
+        width: 199
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 840ac63709d4a1320800000000000000
+      internalID: 2529419423529082952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_memories_3
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 10
+        width: 219
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6e82657da6e1ccf0800000000000000
+      internalID: -233652072973431186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_memories_4
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 24
+        width: 222
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c18f3254f7e84bf0800000000000000
+      internalID: -339766735328542268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_memories_5
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 13
+        width: 151
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4f267059fe5e54c0800000000000000
+      internalID: -4296892569575084214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_memories_6
+      rect:
+        serializedVersion: 2
+        x: 1552
+        y: 11
+        width: 214
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 472a7e90d745bd640800000000000000
+      internalID: 5105767498568409716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_memories_7
+      rect:
+        serializedVersion: 2
+        x: 1853
+        y: 206
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7af54bbe866fbd710800000000000000
+      internalID: 1719238613263474599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_memories_8
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 128
+        width: 85
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4a6aadf3835137f0800000000000000
+      internalID: -634634246120904115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_memories_9
+      rect:
+        serializedVersion: 2
+        x: 1945
+        y: 188
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9be1cd710097288f0800000000000000
+      internalID: -539735964023775559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_memories_10
+      rect:
+        serializedVersion: 2
+        x: 2057
+        y: 21
+        width: 248
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc406d11140c38ac0800000000000000
+      internalID: -3854025470394366769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_memories_11
+      rect:
+        serializedVersion: 2
+        x: 2311
+        y: 19
+        width: 220
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf17a2008120238a0800000000000000
+      internalID: -6326992224396873220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_memories_12
+      rect:
+        serializedVersion: 2
+        x: 2566
+        y: 31
+        width: 245
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc33f8aba33c56a90800000000000000
+      internalID: -7321230962215406644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_memories_13
+      rect:
+        serializedVersion: 2
+        x: 2848
+        y: 18
+        width: 198
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da600f5dab20fce10800000000000000
+      internalID: 2219996142793393837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_memories_14
+      rect:
+        serializedVersion: 2
+        x: 1828
+        y: 183
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e69c09291134850f0800000000000000
+      internalID: -1128077963903841938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_memories_15
+      rect:
+        serializedVersion: 2
+        x: 1947
+        y: 146
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 254279406ed0fa9e0800000000000000
+      internalID: -1608051260377324462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_memories_16
+      rect:
+        serializedVersion: 2
+        x: 1807
+        y: 155
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5a32ad6319725820800000000000000
+      internalID: 2905517833958079067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_memories_17
+      rect:
+        serializedVersion: 2
+        x: 1840
+        y: 132
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87ceaab0a9bce3ba0800000000000000
+      internalID: -6107220182186660744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_memories_18
+      rect:
+        serializedVersion: 2
+        x: 1826
+        y: 122
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 163c911e6e54b97b0800000000000000
+      internalID: -5216498885457231007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_memories_19
+      rect:
+        serializedVersion: 2
+        x: 1839
+        y: 81
+        width: 38
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d4c2945d40dba210800000000000000
+      internalID: 1345397944250189015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_memories_20
+      rect:
+        serializedVersion: 2
+        x: 1875
+        y: 118
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64d50a29220fccad0800000000000000
+      internalID: -2680503646912750266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_memories_21
+      rect:
+        serializedVersion: 2
+        x: 1893
+        y: 51
+        width: 78
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0e2079a45e3c9d10800000000000000
+      internalID: 2133648856807648782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_memories_22
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 113
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a1da036ad0483500800000000000000
+      internalID: 376121875594138017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_memories_23
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 91
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6006fb2793a167090800000000000000
+      internalID: -8037207650955468794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_memories_24
+      rect:
+        serializedVersion: 2
+        x: 2002
+        y: 98
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c4ea6bf8bc28a6c0800000000000000
+      internalID: -4132003485108738873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_memories_25
+      rect:
+        serializedVersion: 2
+        x: 1871
+        y: 50
+        width: 36
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e78b17aade4c95cb0800000000000000
+      internalID: -4874648596605978498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_memories_26
+      rect:
+        serializedVersion: 2
+        x: 1957
+        y: 64
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e74639fdc5db3b80800000000000000
+      internalID: -8413896398185543710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_memories_27
+      rect:
+        serializedVersion: 2
+        x: 1908
+        y: 28
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60ea81fda3486a050800000000000000
+      internalID: 5811477757554109958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      selva_memories_0: -8867944212116775437
+      selva_memories_1: 2218676523200232998
+      selva_memories_10: -3854025470394366769
+      selva_memories_11: -6326992224396873220
+      selva_memories_12: -7321230962215406644
+      selva_memories_13: 2219996142793393837
+      selva_memories_14: -1128077963903841938
+      selva_memories_15: -1608051260377324462
+      selva_memories_16: 2905517833958079067
+      selva_memories_17: -6107220182186660744
+      selva_memories_18: -5216498885457231007
+      selva_memories_19: 1345397944250189015
+      selva_memories_2: 2529419423529082952
+      selva_memories_20: -2680503646912750266
+      selva_memories_21: 2133648856807648782
+      selva_memories_22: 376121875594138017
+      selva_memories_23: -8037207650955468794
+      selva_memories_24: -4132003485108738873
+      selva_memories_25: -4874648596605978498
+      selva_memories_26: -8413896398185543710
+      selva_memories_27: 5811477757554109958
+      selva_memories_3: -233652072973431186
+      selva_memories_4: -339766735328542268
+      selva_memories_5: -4296892569575084214
+      selva_memories_6: 5105767498568409716
+      selva_memories_7: 1719238613263474599
+      selva_memories_8: -634634246120904115
+      selva_memories_9: -539735964023775559
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

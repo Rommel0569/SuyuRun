@@ -1,0 +1,132 @@
+[
+  {
+    "name": "costa_sky",
+    "region": "costa",
+    "kind": "layer",
+    "frames": 1,
+    "columns": 1,
+    "transparent": false,
+    "prompt": "Use case: stylized-concept. SUYURUN new cinematic-only production pixel art, not gameplay art reuse. Crisp deliberate pixels, rich clean material clusters, 24-color regional palette, no blur, gradients, antialiasing, typography or watermark. Side-on 2D. Create ONLY this independent parallax layer on wide16:9canvas designed1280x720: Pacific desert sunset sky only, vast amber and terracotta clouds, low golden sun, purple shadows. No land, no water, no characters."
+  },
+  {
+    "name": "costa_mid",
+    "region": "costa",
+    "kind": "layer",
+    "frames": 1,
+    "columns": 1,
+    "transparent": true,
+    "prompt": "Use case: stylized-concept. SUYURUN new cinematic-only production pixel art, not gameplay art reuse. Crisp deliberate pixels, rich clean material clusters, 24-color regional palette, no blur, gradients, antialiasing, typography or watermark. Side-on 2D. Create ONLY this independent parallax layer on wide16:9canvas designed1280x720: Independent transparent middle-distance layer: dramatic Paracas cliffs with Candelabro geoglyph, distant adobe huaca and turquoise Pacific at lower horizon. Upper70percent truly transparent. No sky, no foreground."
+  },
+  {
+    "name": "costa_ground",
+    "region": "costa",
+    "kind": "layer",
+    "frames": 1,
+    "columns": 1,
+    "transparent": true,
+    "prompt": "Use case: stylized-concept. SUYURUN new cinematic-only production pixel art, not gameplay art reuse. Crisp deliberate pixels, rich clean material clusters, 24-color regional palette, no blur, gradients, antialiasing, typography or watermark. Side-on 2D. Create ONLY this independent parallax layer on wide16:9canvas designed1280x720: Independent transparent foreground layer: adobe/sand cliff top is a straight horizontal walkable line at81percent canvas height, ochre stone cliff below, restrained dry grasses at sides. Everything above the path transparent. Entire lower19percent filled earth, seamless left/right."
+  },
+  {
+    "name": "sierra_sky",
+    "region": "sierra",
+    "kind": "layer",
+    "frames": 1,
+    "columns": 1,
+    "transparent": false,
+    "prompt": "Use case: stylized-concept. SUYURUN new cinematic-only production pixel art, not gameplay art reuse. Crisp deliberate pixels, rich clean material clusters, 24-color regional palette, no blur, gradients, antialiasing, typography or watermark. Side-on 2D. Create ONLY this independent parallax layer on wide16:9canvas designed1280x720: Andean dawn sky only, clear bluegrey upper sky and warm cream clouds, rising gold sun, no mountains or ground."
+  },
+  {
+    "name": "sierra_mid",
+    "region": "sierra",
+    "kind": "layer",
+    "frames": 1,
+    "columns": 1,
+    "transparent": true,
+    "prompt": "Use case: stylized-concept. SUYURUN new cinematic-only production pixel art, not gameplay art reuse. Crisp deliberate pixels, rich clean material clusters, 24-color regional palette, no blur, gradients, antialiasing, typography or watermark. Side-on 2D. Create ONLY this independent parallax layer on wide16:9canvas designed1280x720: Independent transparent middle-distance layer: dramatic snowy Andean peaks and Moray terraces, tiny stone ruins, horizon mountains occupy lower55percent only, no sky or foreground."
+  },
+  {
+    "name": "sierra_ground",
+    "region": "sierra",
+    "kind": "layer",
+    "frames": 1,
+    "columns": 1,
+    "transparent": true,
+    "prompt": "Use case: stylized-concept. SUYURUN new cinematic-only production pixel art, not gameplay art reuse. Crisp deliberate pixels, rich clean material clusters, 24-color regional palette, no blur, gradients, antialiasing, typography or watermark. Side-on 2D. Create ONLY this independent parallax layer on wide16:9canvas designed1280x720: Independent transparent foreground layer: straight horizontal Inca stone path at81percent canvas height, entire lower19percent textured stone, ochre ichu grass at sides, no sky, all above path transparent, seamless left/right."
+  },
+  {
+    "name": "selva_sky",
+    "region": "selva",
+    "kind": "layer",
+    "frames": 1,
+    "columns": 1,
+    "transparent": false,
+    "prompt": "Use case: stylized-concept. SUYURUN new cinematic-only production pixel art, not gameplay art reuse. Crisp deliberate pixels, rich clean material clusters, 24-color regional palette, no blur, gradients, antialiasing, typography or watermark. Side-on 2D. Create ONLY this independent parallax layer on wide16:9canvas designed1280x720: Amazon dawn sky only, warm distant sun and airy teal clouds, no forest or ground."
+  },
+  {
+    "name": "selva_mid",
+    "region": "selva",
+    "kind": "layer",
+    "frames": 1,
+    "columns": 1,
+    "transparent": true,
+    "prompt": "Use case: stylized-concept. SUYURUN new cinematic-only production pixel art, not gameplay art reuse. Crisp deliberate pixels, rich clean material clusters, 24-color regional palette, no blur, gradients, antialiasing, typography or watermark. Side-on 2D. Create ONLY this independent parallax layer on wide16:9canvas designed1280x720: Independent transparent middle-distance layer: lush Amazon ceibas, aguaje palms, dark emerald valley, distant river below horizon, open central clearing. No sky. Upper45percent transparent, no foreground."
+  },
+  {
+    "name": "selva_ground",
+    "region": "selva",
+    "kind": "layer",
+    "frames": 1,
+    "columns": 1,
+    "transparent": true,
+    "prompt": "Use case: stylized-concept. SUYURUN new cinematic-only production pixel art, not gameplay art reuse. Crisp deliberate pixels, rich clean material clusters, 24-color regional palette, no blur, gradients, antialiasing, typography or watermark. Side-on 2D. Create ONLY this independent parallax layer on wide16:9canvas designed1280x720: Independent transparent foreground layer: horizontal mossy stone landing ledge at81percent canvas height, dense roots and earth below in lower19percent, leaves only at edges, open center for hero, no sky or canopy, upper81percent transparent, seamless left/right."
+  },
+  {
+    "name": "costa_hero",
+    "region": "costa",
+    "kind": "actor",
+    "frames": 16,
+    "columns": 4,
+    "transparent": true,
+    "reference": "C:/Users/USER/Documents/ChatGPT/JOGO/SuyuRun/Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaCosta/run_human.png",
+    "prompt": "Use case: identity-preserve. SUYURUN new cinematic-only production pixel art, not gameplay art reuse. Crisp deliberate pixels, rich clean material clusters, 24-color regional palette, no blur, gradients, antialiasing, typography or watermark. Side-on 2D. Image1 is identity/style reference ONLY. Redraw a NEW cinematic animation sheet with16equal cells in EXACT4columns x4rows grid. Each cell256x256, full character fits with empty margin, boots planted same y baseline, identical anatomy scale and consistent head size, no registration marks, true transparent background with no matte. Row-major sequential frames: Orange poncho, teal trousers, boots, orange Andean chullo. NO arms or hands visible, tucked entirely beneath poncho. Frames1-8 anatomically convincing running full alternating leg cycle contact/down/pass/up/opposite, forward lean, poncho cloth followthrough;frames9-12 jump anticipation/tuck/apex/descending;frames13-14 landing compression/recovery;frames15-16 low crouched sliding, knees bent. ALL facing RIGHT."
+  },
+  {
+    "name": "sierra_hero",
+    "region": "sierra",
+    "kind": "actor",
+    "frames": 16,
+    "columns": 4,
+    "transparent": true,
+    "reference": "C:/Users/USER/Documents/ChatGPT/JOGO/SuyuRun/Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaSierra/run_human.png",
+    "prompt": "Use case: identity-preserve. SUYURUN new cinematic-only production pixel art, not gameplay art reuse. Crisp deliberate pixels, rich clean material clusters, 24-color regional palette, no blur, gradients, antialiasing, typography or watermark. Side-on 2D. Image1 is identity/style reference ONLY. Redraw a NEW cinematic animation sheet with16equal cells in EXACT4columns x4rows grid. Each cell256x256, full character fits with empty margin, boots planted same y baseline, identical anatomy scale and consistent head size, no registration marks, true transparent background with no matte. Row-major sequential frames: Red Andean chullo and red patterned shoulder poncho, muscular bare human arms, navy trousers, boots. Frames1-4 sprint stride cycle;frames5-7 load a stone into woven sling pouch with both hands;frames8-12 sling rotating overhead, elbow/wrist articulation, torso and cloth twisting;frames13-15 dynamic overhead throw release followthrough;frame16 settles into proud stance. ALL facing RIGHT."
+  },
+  {
+    "name": "selva_hero",
+    "region": "selva",
+    "kind": "actor",
+    "frames": 16,
+    "columns": 4,
+    "transparent": true,
+    "reference": "C:/Users/USER/Documents/ChatGPT/JOGO/SuyuRun/Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaSelva/victory.png",
+    "prompt": "Use case: identity-preserve. SUYURUN new cinematic-only production pixel art, not gameplay art reuse. Crisp deliberate pixels, rich clean material clusters, 24-color regional palette, no blur, gradients, antialiasing, typography or watermark. Side-on 2D. Image1 is identity/style reference ONLY. Redraw a NEW cinematic animation sheet with16equal cells in EXACT4columns x4rows grid. Each cell256x256, full character fits with empty margin, boots planted same y baseline, identical anatomy scale and consistent head size, no registration marks, true transparent background with no matte. Row-major sequential frames: Red Andean chullo, visible HUMAN face, brown shaggy fantasy gorilla protective suit, turquoise/red woven belt. Frames1-8 organic vine swinging poses from left angle to right angle, one hand reaches overhead gripping an invisible vine, torso legs counterbalance inertia progressively;frames9-12 release/jump/fall/braking in air;frames13-14 landing compression/recovery;frames15-16 standing aiming a single small pistol RIGHT with recoil. ALL facing RIGHT."
+  },
+  {
+    "name": "selva_portrait",
+    "region": "selva",
+    "kind": "actor",
+    "frames": 12,
+    "columns": 4,
+    "transparent": true,
+    "reference": "C:/Users/USER/Documents/ChatGPT/JOGO/SuyuRun/Assets/SuyuRun/Art/RefactorRuntime/Resources/RefactorBank/TaytaSelva/victory.png",
+    "prompt": "Use case: identity-preserve. SUYURUN new cinematic-only production pixel art, not gameplay art reuse. Crisp deliberate pixels, rich clean material clusters, 24-color regional palette, no blur, gradients, antialiasing, typography or watermark. Side-on 2D. Image1 identity reference only. NEW12frame cinematic closeup animation sheet EXACT4columns x3rows equal cells. Waist-up human Tayta wearing red turquoise golden Andean chullo and furry brown gorilla suit. Same size head and waist baseline throughout. Frames1-6 continuous subtle exhausted breathing, shoulders lower, eyelids lift, gaze raises, begins a warm smile;frames7-12 turns slightly toward viewer, hand rises, fingers open, wave moves left/right with wrist, soft proud smile, settles. Wind moves chullo tip and fur slightly. True transparent background NO brown matte, no labels. Every frame independently drawn and in-between progression, no duplicate static copies."
+  },
+  {
+    "name": "selva_fx",
+    "region": "selva",
+    "kind": "actor",
+    "frames": 16,
+    "columns": 4,
+    "transparent": true,
+    "prompt": "Use case: stylized-concept. SUYURUN new cinematic-only production pixel art, not gameplay art reuse. Crisp deliberate pixels, rich clean material clusters, 24-color regional palette, no blur, gradients, antialiasing, typography or watermark. Side-on 2D. NEW cinematic effects spritesheet16equal cells EXACT4columns4rows, true transparent background no text/grid. Row1 four sequential ochre dust puffs expand then disperse;row2 four warm golden sling stone trail and impact star bursts;row3 four golden tiny pistol muzzle flash smoke dissipates;row4 four bright turquoise firefly glow motes with different twinkle sizes. Each effect centered isolated in cell, sharp pixel edges no blur, no characters, fixed scale across row."
+  }
+]

@@ -1,5 +1,31 @@
 # Estado de aprobación de arte
 
+## Personaje anterior reactivado —27/10/2026
+
+El usuario condiciona el cambio a conservar todos los movimientos anteriores y prefiere volver al anterior si no es equivalente. Se detecta reducción del deslizamiento4→2poses y cambios de ciclos en el banco Uniform. Se desactiva UseUniformBank para gameplay y final; vuelven la selección anterior, zancada112y comportamiento previo de presentación. No se borran los dibujos nuevos ni se consideran aprobados. No se modifican controles, colisiones, escenarios ni música. Verificación de esta restauración separada de las pruebas del24/10.
+
+## Tayta uniforme para juego y final —24/10/2026
+
+Usuario autoriza corregir proporciones humanas y aplicar el resultado al juego. Se integra RefactorBank/TaytaUniform como prioridad compartida por Costa, Sierra, Selva, sus minicuevas y el epílogo.75hojas de estado/366celdas físicas más7montajes cinematográficos, con poses compartidas entre variantes; no son todos dibujos distintos. Misma escala de cuerpo/origen de pies, carrera16poses, habilidades regionales y protección Selva conservadas. Banco anterior intacto. Esta dirección sustituye para el personaje la separación previa entre actores de gameplay y final. Autorización de producción no es aprobación visual. Pruebas y límites en Artifacts/TaytaUniform/VERIFICATION.json; no inferir el recorrido de registros históricos.
+
+## Final V4 — apoyos, anatomía y portal,24/10/2026
+
+Usuario solicita pulir proporciones, polvo, abismo y actuación al atravesar el portal; añade corrección específica de carrera Costa. Lote autorizado, aceptación visual pendiente. Costa24poses corregidas, nueva carrera16poses, portal16poses y capa de abismo independiente. Banco completo27hojas/225celdas. Originales previos conservados en Artifacts/FinalMovieV4/BeforeMotionPolish/. Efecto de polvo analítico por contactos, registro fijo por atlas y separación soporte/vuelo. Evidencia exacta de esta revisión en MOTION_POLISH_VERIFICATION.json; no inferir la prueba de los registros anteriores. No modifica gameplay ni genera ejecutable.
+
+## Final V4 — dirección y actuación, 23/10/2026
+
+Extensión24/10/2026 por referencia de video del usuario: tres capas nuevas del mirador regional, portal trasero/frontal y16poses de llegada/victoria. Banco completo24hojas/192celdas. Sierra mate usando colores existentes, sin estiramientoXpor pose ni encogimiento al entrar al portal. Se retiran franjas negras durante la película; el negro de los créditos sigue siendo intencional. Aceptación estética pendiente; la última prueba exacta debe consultarse en PlayAudit/result.txt, no inferirse de pruebas anteriores.
+
+Usuario autoriza implementar toda la retroalimentación cinematográfica en lote. Cuatro hojas nuevas de24poses: Costa, Sierra, Selva y primer plano (96celdas nuevas). BancoV4 de18hojas/165celdas conserva las nueve capas y otros recursos cinematográficosV3, sin sprites del gameplay. Exposiciones por acción, ambiente independiente, péndulo y suelta tangencial balística, cuerda persistente, cámara por plano, transición vegetal, recuerdos por región, mezcla discreta y créditos. V3 preservada. Compilación y contrato PNG PASS; ver Artifacts/FinalMovieV4/PlayAudit/result.txt para la prueba Unity exacta. La primera prueba encontró importación de texturas reducidas y se corrigió; una revisión posterior corrigió el recorte de retratos. Autorización de producción no implica aprobación estética final. No se afirma animación tradicional completa a24fps ni validación musical por oído.
+
+## Final V3 — banco exclusivo, 22/10/2026
+
+Usuario pide todo nuevo y autoriza el lote.18hojas/129celdas incluyendo9capas estáticas:48poses de acción nuevas,12primeros planos,16efectos,12recuerdos y32frames ambientales. Sin carga de arte del gameplay; música y fuente compartidas conservadas. Exportación256px por pose, capas2560×720, paletas24colores, apoyos y agarres registrados. Fuentes/prompts/respaldo en Artifacts/FinalMovieV3. Compilación y contratos PASS, reproducciones automatizadas de30s en Unity con capturas1280×720. La aceptación visual del usuario sigue pendiente; ver PlayAudit/result.txt y entrega para la revisión exacta. No se declara película dibujada a24fps ni garantía absoluta de ausencia de bugs.
+
+## Final cinematográfico V2 — 22/10/2026
+
+Usuario aprueba dirección de20s de película más10s de créditos y autoriza implementación detallada. Primer plano Tayta nuevo de seis poses256×256/24colores, secuencia regional diferenciada, recuerdos condicionados al guardado y música con fundidos. Original anterior conservado. Recursos y contratos comprobados; compilación runtime/Editor PASS. Unity Play y aceptación visual pendientes. No declarar animación completa a24fps ni acabado final aprobado. Entrega en Artifacts/FinalMovieV2/ENTREGA.md.
+
 ## Extensión AtmosphereClean — 08/10/2026
 
 Usuario ratifica que probó y aprobó el acabado previo y autoriza extenderlo a todas las capas de fondos de niveles y mininiveles. 55 capas nuevas más los ocho fondos previos cubren los63recursos del catálogo de12contextos; queñua adicional conservada. PPU128, paletas regionales, originales y geometría preservados. Carga prioritaria en Environment/Materials; registro superficial del agua corregido. Alcance y límites: Artifacts/VisualRefactor/AtmosphereClean/EXTENSION_ENTREGA.md. No atribuir aprobación estética de estas55capas nuevas ni recorrido Play de esta revisión.

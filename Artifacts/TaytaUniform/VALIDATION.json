@@ -1,0 +1,386 @@
+{
+  "states": 75,
+  "physicalFrames": 366,
+  "commonPixelsPerUnit": 150.58823529411765,
+  "palettesMax24": true,
+  "binaryAlpha": true,
+  "originalBanksPreserved": true,
+  "unityPlayVerified": false,
+  "records": [
+    {
+      "name": "costa/run",
+      "frames": 16,
+      "sha256": "ad71cd7e2f95ca502b3e653440aca087090985209a2681247f38cab8ccde27ec"
+    },
+    {
+      "name": "costa/idle",
+      "frames": 4,
+      "sha256": "1738f4bd7c2532e34278a925d6770e9ae82406086d81ea69492e71c21841aa9e"
+    },
+    {
+      "name": "costa/jump",
+      "frames": 4,
+      "sha256": "90d4931648581468bc8c29d0f39d087edfc71950f928eb01a24dc042bac24264"
+    },
+    {
+      "name": "costa/double_jump",
+      "frames": 4,
+      "sha256": "b4b562d930d4ae8bc49bb72dde1e47a19fc0f7b942eeca4d1bebea9649b10a91"
+    },
+    {
+      "name": "costa/fall",
+      "frames": 4,
+      "sha256": "1b00d97e1e886a10e85fd224018b1e7ada2db97c7847fcab6cf58666c4556d46"
+    },
+    {
+      "name": "costa/land",
+      "frames": 4,
+      "sha256": "bc83141195cd8f99fbd90f0ad25ea8398c5d2717f91c39e25a1e7a0f3d0b845f"
+    },
+    {
+      "name": "costa/slide",
+      "frames": 2,
+      "sha256": "0cf88b0f501a451c03b2b0735a08c4a00c5b28ff6118167719b3fa46afe830a5"
+    },
+    {
+      "name": "costa/slide_enter",
+      "frames": 2,
+      "sha256": "10b5bee021454130d055f3bef2cef1ef0159c496ea667fd49cc226836460acab"
+    },
+    {
+      "name": "costa/slide_exit",
+      "frames": 2,
+      "sha256": "c20fdb20b5df81cfa811cb33f8041667e614c6546eec3db69470ed4945007646"
+    },
+    {
+      "name": "costa/shoot",
+      "frames": 4,
+      "sha256": "431db19fe90cbb3af02e43b3f9e72972b726cbf4ee55d04284584d1489331c73"
+    },
+    {
+      "name": "costa/reload",
+      "frames": 4,
+      "sha256": "df976cc200aa6381aa3e47327dbdc99a1a6b099201e8ad2c25cef41138359967"
+    },
+    {
+      "name": "costa/hit",
+      "frames": 4,
+      "sha256": "fe1b452c4ed585d8f8ff59139b197f7605400140d65cf68662f2dbc0dd85e631"
+    },
+    {
+      "name": "costa/death",
+      "frames": 4,
+      "sha256": "be7546dbd8617fd40964782687ad25c9de6d05494096632db267eae60deaccc2"
+    },
+    {
+      "name": "costa/victory",
+      "frames": 4,
+      "sha256": "87da8ed5dabf39f8de73da786a58bb0e7bee9f3d32ebfef9b4112e13961c02b3"
+    },
+    {
+      "name": "costa/guard",
+      "frames": 4,
+      "sha256": "69c460ac77938229c8b881beef0b3d5a549931980f2320839e46420d30e71713"
+    },
+    {
+      "name": "costa/dance",
+      "frames": 8,
+      "sha256": "9ccd44f7a58e7508820a5df1e45cb896a76442c5a4667c5d6a17eb791a0eaa6f"
+    },
+    {
+      "name": "costa/baile",
+      "frames": 8,
+      "sha256": "9ccd44f7a58e7508820a5df1e45cb896a76442c5a4667c5d6a17eb791a0eaa6f"
+    },
+    {
+      "name": "sierra/run",
+      "frames": 16,
+      "sha256": "44e90b40637249cc8bbc8e420939e791d860d654e3309a575bc319abf05c5c2c"
+    },
+    {
+      "name": "sierra/idle",
+      "frames": 4,
+      "sha256": "85a269e38119c439cc2d86e54f4c109a3ab48b68446c9fd2cfaa18dde5dde1ce"
+    },
+    {
+      "name": "sierra/jump",
+      "frames": 4,
+      "sha256": "94d8913e0c85d0da352c9aeb2575cfdc809f34f7bdc53cec483f20f134c6e8d7"
+    },
+    {
+      "name": "sierra/double_jump",
+      "frames": 4,
+      "sha256": "d0c1fce698405b0dfdd3629a301296acc9ff19afeedfe3db9ce744857e8966cc"
+    },
+    {
+      "name": "sierra/fall",
+      "frames": 4,
+      "sha256": "95bea01c66860517dd14c0332fd7f0d69b452c58736a45a276d7607440f68298"
+    },
+    {
+      "name": "sierra/land",
+      "frames": 4,
+      "sha256": "8e494cf3db4c1d30f0e6c82143d6003ded5b4488a1e70c92c60284153849899a"
+    },
+    {
+      "name": "sierra/slide",
+      "frames": 2,
+      "sha256": "c96f39c13c8e032a781e3a28d143a86c9fe8f30e69dba11f2b284f81654c4a01"
+    },
+    {
+      "name": "sierra/slide_enter",
+      "frames": 2,
+      "sha256": "d8cec56878f96e2ed434f10cde9cbc6a1345716ab2347812da4e978c8ea6d1c0"
+    },
+    {
+      "name": "sierra/slide_exit",
+      "frames": 2,
+      "sha256": "5c21b21f5b0ee716caaf5ffd34536c539364fbbdb4b77a47b90939c8393c4521"
+    },
+    {
+      "name": "sierra/shoot",
+      "frames": 4,
+      "sha256": "e96a83f782d44d5338bc6ee71061dadd96074ed5bb20a889e06b5479cb447c71"
+    },
+    {
+      "name": "sierra/reload",
+      "frames": 4,
+      "sha256": "72e7b2bd06e45e902df09a54ae9de84a7be3e6dfab82c0f0ee3fee6db8fae6c9"
+    },
+    {
+      "name": "sierra/hit",
+      "frames": 4,
+      "sha256": "dbeb3f3c26344e7fa28210421fe2d1a0b26d8473df013f334918a4ba7e0dcf20"
+    },
+    {
+      "name": "sierra/death",
+      "frames": 4,
+      "sha256": "1cc857c0d20c088b017ac0d503e523f894cd8ba8f32b3a61158c44d58709b178"
+    },
+    {
+      "name": "sierra/victory",
+      "frames": 4,
+      "sha256": "13da53c75c8da6dcf97825759c3c02dc621ff29bb1d64123fcca8d000603db55"
+    },
+    {
+      "name": "sierra/guard",
+      "frames": 4,
+      "sha256": "ad8b1ffe7e79c7dc08c64dc5d2294f7caf5e8c7e9b1e7d7cd7bb6551e7c5ca90"
+    },
+    {
+      "name": "sierra/dance",
+      "frames": 8,
+      "sha256": "22a2b5f8ec9f18413c9a99d6122046ed9bfe5dd40c0f62cd5c8a64cb07f5c7ee"
+    },
+    {
+      "name": "sierra/baile",
+      "frames": 8,
+      "sha256": "22a2b5f8ec9f18413c9a99d6122046ed9bfe5dd40c0f62cd5c8a64cb07f5c7ee"
+    },
+    {
+      "name": "selva/run",
+      "frames": 16,
+      "sha256": "721e8ed4b08b2a3e2a5c3777203719c4ba4e411fdc396f11a82db71c36aefd23"
+    },
+    {
+      "name": "selva/idle",
+      "frames": 4,
+      "sha256": "b9c43c990763effcfc150bc368569d6af170afb72b794b1cd15b14919e37c9e8"
+    },
+    {
+      "name": "selva/jump",
+      "frames": 4,
+      "sha256": "cd0168bdd9ef228bd354494cd9a769d0fcfeb3bd745b50134a2f7441ef11117d"
+    },
+    {
+      "name": "selva/double_jump",
+      "frames": 4,
+      "sha256": "bb4f42a22a18702f5f143e4eb41bf642c781939a401b4b4c5bd7cbf06b9ba0e9"
+    },
+    {
+      "name": "selva/fall",
+      "frames": 4,
+      "sha256": "5dd65563a64647443d24eaaac7138cf9f72c777ad906283ae8bd42e2417af67e"
+    },
+    {
+      "name": "selva/land",
+      "frames": 4,
+      "sha256": "7d0090f7f03a01fc197df7ae243c1bbeca71cfd6de28106c02258293ecbc2298"
+    },
+    {
+      "name": "selva/slide",
+      "frames": 2,
+      "sha256": "168cc6ca3372868fd37bd5bf19e32817cac2a605591acf6dbbcbf71183ea43da"
+    },
+    {
+      "name": "selva/slide_enter",
+      "frames": 2,
+      "sha256": "1c97ff2dc906be87d95f01c9631e1fcde9a91eb873f607ae916ef2bd8962ba99"
+    },
+    {
+      "name": "selva/slide_exit",
+      "frames": 2,
+      "sha256": "c4257c8de98a672af8c6d57dae43f26406f0a1caf2471cafc0365a4891cdc16f"
+    },
+    {
+      "name": "selva/shoot",
+      "frames": 4,
+      "sha256": "17ef917f9beb3d824288533d68ce0a9fca08b3b67a1dec88d63718f1ff0beb82"
+    },
+    {
+      "name": "selva/reload",
+      "frames": 4,
+      "sha256": "2a4ad26dca3d3f244bf6501f9bb79444eec98d27f8f6885a90f76e1489c7d6ce"
+    },
+    {
+      "name": "selva/hit",
+      "frames": 4,
+      "sha256": "85ba040f3dd98f17990ddf999afd04fd5a181c9d772d9a0100efcfbe69d15f37"
+    },
+    {
+      "name": "selva/death",
+      "frames": 4,
+      "sha256": "49f9f19a96a2fbc6e6a1771e5851249b7358281bd87482c2c9b15ab30b84b07e"
+    },
+    {
+      "name": "selva/victory",
+      "frames": 4,
+      "sha256": "3d5d18bd257136c4ac29d91f6b98e48b6311dc89f6ef04a0101405fc76746c41"
+    },
+    {
+      "name": "selva/guard",
+      "frames": 4,
+      "sha256": "a03adeb8add019730e5c2de2e637da8681eee8f2a88dbaab27814d6f8fb4fb82"
+    },
+    {
+      "name": "selva/dance",
+      "frames": 8,
+      "sha256": "cce5f18806c56aafa40f849e8f882b3d1369de3d6e4819e5518e4de9ce1fa835"
+    },
+    {
+      "name": "selva/baile",
+      "frames": 8,
+      "sha256": "cce5f18806c56aafa40f849e8f882b3d1369de3d6e4819e5518e4de9ce1fa835"
+    },
+    {
+      "name": "costa/burst",
+      "frames": 4,
+      "sha256": "431db19fe90cbb3af02e43b3f9e72972b726cbf4ee55d04284584d1489331c73"
+    },
+    {
+      "name": "sierra/burst",
+      "frames": 8,
+      "sha256": "6318a3e0503945a86fa7ba36f94850c6c1a87f07d83496b887b5dd4c8618abdc"
+    },
+    {
+      "name": "sierra/jump_shoot",
+      "frames": 4,
+      "sha256": "3d85ffb798476bf87eb5bc15908cda4f57c1c996f9d1ff233555fcdad69d5c10"
+    },
+    {
+      "name": "sierra/double_jump_shoot",
+      "frames": 4,
+      "sha256": "3d85ffb798476bf87eb5bc15908cda4f57c1c996f9d1ff233555fcdad69d5c10"
+    },
+    {
+      "name": "sierra/fall_shoot",
+      "frames": 4,
+      "sha256": "2a4cab6b82bffd84d7d75c059ca2691eb9dc5ed4d833ba7397451c9d63ce54fa"
+    },
+    {
+      "name": "sierra/climb",
+      "frames": 4,
+      "sha256": "61239d9f001b5d63a923ad2dea0db6bfd9fd9fe06f2b4bb860ecbeff1268650b"
+    },
+    {
+      "name": "selva/burst",
+      "frames": 8,
+      "sha256": "b86223f52968717c949023f53ab8cc911579061027ea01d9e4b1e55b9133c9d5"
+    },
+    {
+      "name": "selva/jump_shoot",
+      "frames": 4,
+      "sha256": "fabb92027b519e9dc229eab78331f21ca8756c9ae807f3ed0e79fdf5c14400a4"
+    },
+    {
+      "name": "selva/double_jump_shoot",
+      "frames": 4,
+      "sha256": "fabb92027b519e9dc229eab78331f21ca8756c9ae807f3ed0e79fdf5c14400a4"
+    },
+    {
+      "name": "selva/fall_shoot",
+      "frames": 4,
+      "sha256": "ed0f733228c030be4916f4d2753410b4dd626f7eabf1fe0fc50bd225f40abc10"
+    },
+    {
+      "name": "selva/climb",
+      "frames": 4,
+      "sha256": "64e214e641674d3e0bd815f13581eeaba11afe783ae3b653f728764e7d5f907b"
+    },
+    {
+      "name": "sierra/huaraca_cargar",
+      "frames": 4,
+      "sha256": "ef0cb7e3c54fe731276efa47196871c385f6582754c07bce918a733cb5e09634"
+    },
+    {
+      "name": "sierra/huaraca_girar",
+      "frames": 8,
+      "sha256": "72db406a4a506e54690b90b027f14a6ea85cdac9b4f1a832956ab406b10c0bc3"
+    },
+    {
+      "name": "sierra/huaraca_lanzar",
+      "frames": 8,
+      "sha256": "9250bdbd90eeca8d9aedb3b9a944290bc393cf4ed5be430e06925169232fb8ec"
+    },
+    {
+      "name": "sierra/transformation",
+      "frames": 4,
+      "sha256": "13da53c75c8da6dcf97825759c3c02dc621ff29bb1d64123fcca8d000603db55"
+    },
+    {
+      "name": "selva/swing",
+      "frames": 8,
+      "sha256": "eb0a743fc25b0927eea0e94d9697e9ff98f192cde061d3024a2b5ccfb531784f"
+    },
+    {
+      "name": "selva/grab",
+      "frames": 4,
+      "sha256": "97b6581e90894806dcffcf2db0f946dbca0d90712301023475d66afa2d816827"
+    },
+    {
+      "name": "selva/release",
+      "frames": 4,
+      "sha256": "e6255e9159e7d287be32502688a425f76d9679be6cdea0ad4e1f8c078edd4dd6"
+    },
+    {
+      "name": "selva/regrab",
+      "frames": 4,
+      "sha256": "e86eea2c93ab4e7577b968680297f3584e3b1efecec9f1bda0f368a282e571cf"
+    },
+    {
+      "name": "selva/punch",
+      "frames": 4,
+      "sha256": "4a9f43ed877d5d2584f2089b105cdb8bed01c6e701135012b0963b491ee78c49"
+    },
+    {
+      "name": "selva/kick",
+      "frames": 4,
+      "sha256": "968757096c89a348a0006ee006655374ebc94ec09b33c9af99124b656c30c270"
+    },
+    {
+      "name": "selva/uppercut",
+      "frames": 4,
+      "sha256": "0c8f27b11dfb99494ac58963241cbf207da4068237956816a26de0ef56d08fdf"
+    },
+    {
+      "name": "selva/dodge",
+      "frames": 4,
+      "sha256": "2dd9f1f0bd5225e4a80046f993a53823072304a059136f76206d2b3968773d3f"
+    },
+    {
+      "name": "selva/portal_entry",
+      "frames": 8,
+      "sha256": "045bf166e9331d05ace365f7d7dd613ce7acc111fdcc95ad96462bdea3f6e5ee"
+    }
+  ]
+}

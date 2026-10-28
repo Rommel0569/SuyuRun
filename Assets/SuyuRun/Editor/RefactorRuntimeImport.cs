@@ -6,7 +6,7 @@ namespace SuyuRun.Editor
     {
         void OnPreprocessTexture()
         {
-            if(!assetPath.Contains("/RefactorRuntime/Resources/RefactorBank/")&&!assetPath.Contains("/RefactorRuntime/Resources/HudStatus/")&&!assetPath.Contains("/RefactorRuntime/Resources/UnifiedHud/"))return;
+            if(!assetPath.Contains("/RefactorRuntime/Resources/RefactorBank/")&&!assetPath.Contains("/RefactorRuntime/Resources/FinalMovieV4/")&&!assetPath.Contains("/RefactorRuntime/Resources/FinalMovieV3/")&&!assetPath.Contains("/RefactorRuntime/Resources/FinalMovieV2/")&&!assetPath.Contains("/RefactorRuntime/Resources/HudStatus/")&&!assetPath.Contains("/RefactorRuntime/Resources/UnifiedHud/"))return;
             var importer=(TextureImporter)assetImporter;
             importer.textureType=TextureImporterType.Sprite;
             importer.spriteImportMode=SpriteImportMode.Single;

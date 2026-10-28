@@ -1,0 +1,282 @@
+using UnityEngine;
+namespace SuyuRun
+{
+    // Original film assets only. Gameplay, museum save data and regional physics are untouched.
+    public sealed class RunnerFinalMovie:MonoBehaviour
+    {
+        public static bool Active {get;private set;}
+        public const float FilmSeconds=20,CreditsSeconds=10,TotalSeconds=30;
+        readonly FinalMovieArt art=new FinalMovieArt();
+        double began,pausedAt;AudioSource track;float volume;bool ready,preview,paused;
+        public float Age=>Mathf.Max(0,(float)((paused?pausedAt:AudioSettings.dspTime)-began));
+        public void KeepPreviewOpen(){preview=true;}
+        public void Replay(){began=AudioSettings.dspTime;paused=false;if(track){track.time=0;track.Play();}}
+        public void TogglePause()
+        {
+            if(!paused){pausedAt=AudioSettings.dspTime;paused=true;if(track)track.Pause();}
+            else{began+=AudioSettings.dspTime-pausedAt;paused=false;if(track)track.UnPause();}
+        }
+        public static readonly string[] RequiredAssets={
+            "costa_sky","costa_mid","costa_ground","sierra_sky","sierra_mid","sierra_ground",
+            "selva_sky","selva_mid","selva_ground","costa_hero","sierra_hero","selva_hero",
+            "selva_portrait","selva_fx","selva_memories","costa_life","sierra_life","selva_life"};
+        public static void Begin(GameObject host){if(!Active)host.AddComponent<RunnerFinalMovie>();}
+        void Awake()
+        {
+            try
+            {
+                foreach(var name in RequiredAssets)art.Load(name);
+                track=gameObject.AddComponent<AudioSource>();track.clip=Resources.Load<AudioClip>("FinalMovie/final_music");
+                track.loop=true;track.playOnAwake=false;track.spatialBlend=0;
+                volume=.34f*PlayerPrefs.GetFloat("SuyuRun.Settings.MusicVol",1);track.volume=0;
+                began=AudioSettings.dspTime;ready=true;Active=true;if(track.clip)track.Play();
+            }
+            catch(System.Exception ex){Debug.LogException(ex);Destroy(this);}
+        }
+        void Update()
+        {
+            if(!ready)return;
+            if(track)track.volume=volume*Mathf.SmoothStep(0,1,Age/.65f)*Mathf.SmoothStep(0,1,(TotalSeconds-Age)/1.5f);
+            if(Age>=TotalSeconds&&!preview)Destroy(this);
+        }
+        void OnDestroy(){Active=false;if(track){track.Stop();Destroy(track);}}
+        void Band(string name,float time,float speed,float offset=0)
+        {
+            float x=-Mathf.Repeat(time*speed,640)-offset;
+            float y=name.EndsWith("_ground")?146-art.Surface(name)*180:0;
+            art.Draw(name,new Rect(x,y,640,180));
+            if(speed!=0)art.Draw(name,new Rect(x+640,y,640,180));
+        }
+        void Ground(string r,float time,float speed,float gap=-1000)
+        {
+            if(gap<-100){Band(r+"_ground",time,speed);return;}
+            float left=Mathf.Clamp(gap,0,320),right=Mathf.Clamp(gap+48,0,320);
+            if(left>0){GUI.BeginGroup(new Rect(0,0,left,180));Band(r+"_ground",time,speed);GUI.EndGroup();}
+            if(right<320){GUI.BeginGroup(new Rect(right,0,320-right,180));Band(r+"_ground",time,speed,right);GUI.EndGroup();}
+        }
+        void World(string r,float time,float pace=1,float gap=-1000)
+        {
+            Band(r+"_sky",time,.35f*pace);
+            // Independent depth planes. Drift is restrained so the acting stays legible.
+            Band(r+"_mid",time,10*pace);
+            Ambient(r,time);
+            Ground(r,time,58*pace,gap);
+            for(int i=0;i<7;i++)
+            {
+                float x=Mathf.Repeat(38+i*51-time*(3+i%3),340)-10;
+                float y=62+i%3*24+Mathf.Sin(time*1.6f+i)*2;
+                int f=12+(int)(time*6+i)%4;
+                if(r=="selva")art.Draw("selva_fx",new Rect(x,y,6,6),f);
+            }
+        }
+        void Ambient(string region,float t)
+        {
+            if(region=="costa")
+            {
+                art.Range("costa_life",new Rect(238-t*15,43+Mathf.Sin(t*2)*2,34,28),t,0,4,8,true);
+                art.Range("costa_life",new Rect(80,139,170,15),t,4,4,8,true);
+            }
+            else if(region=="sierra")
+            {
+                art.Range("sierra_life",new Rect(250-t*19,39+Mathf.Sin(t)*3,45,32),t,0,4,8,true);
+                for(int i=0;i<5;i++)art.Range("sierra_life",new Rect(12+i*69,127,22,24),t+i*.15f,4,4,6,true);
+            }
+            else
+            {
+                art.Range("selva_life",new Rect(252-t*14,43+Mathf.Sin(t*2)*3,31,28),t,0,4,10,true);
+                art.Range("selva_life",new Rect(-6,58,43,38),t,4,4,6,true);
+                art.Range("selva_life",new Rect(288,73,43,38),t+.3f,4,4,6,true);
+                art.Range("selva_life",new Rect(90+t*5,78+Mathf.Sin(t*2)*5,10,10),t,8,4,12,true);
+                art.Range("selva_life",new Rect(192,119,62,9),t,12,4,8,true);
+            }
+        }
+        void Hero(string region,int frame,float x=156,float feet=146,float size=76)
+        {art.Draw(region+"_hero",new Rect(x-size/2,feet-art.Foot(region+"_hero",frame)*size,size,size),frame);}
+        void Range(string region,float age,int first,int count,float fps=12,bool loop=false,float x=156,float feet=146,float size=76)
+        {int f=Mathf.FloorToInt(Mathf.Max(0,age)*fps);Hero(region,first+(loop?f%count:Mathf.Min(f,count-1)),x,feet,size);}
+        void Fx(float age,int first,float x,float y,float size=26)
+        {if(age>=0&&age<.4f)art.Range("selva_fx",new Rect(x-size/2,y-size/2,size,size),age,first,4,12);}
+        void Coast(float t)
+        {
+            // Jump clearance and moving gap use the same shot clock.
+            World("costa",t,1,228-t*58);
+            if(t<.65f)Range("costa",t,0,8,12,true);
+            else if(t<2.45f)
+            {
+                float u=(t-.65f)/1.8f;
+                int frame=8+Mathf.Min(3,(int)(u*4));
+                Hero("costa",frame,156,146-4*42*u*(1-u));
+            }
+            else if(t<2.7f)Range("costa",t-2.45f,12,2,8);
+            else Range("costa",t-2.7f,14,2,8,true);
+            Fx(t-2.45f,0,150,145);
+            if(t<.65f)Fx(Mathf.Repeat(t,.28f),0,137,146,19);
+        }
+        void Sierra(float t)
+        {
+            // Feet stop during wind-up: scenery must not slide underneath a planted stance.
+            float travel=Mathf.Min(t,.45f)+Mathf.Max(0,t-3.25f);
+            World("sierra",travel);
+            if(t<.45f)Range("sierra",t,0,4,12,true);
+            else if(t<1.05f)Range("sierra",t-.45f,4,3,5);
+            else if(t<2.05f)Range("sierra",t-1.05f,7,5,10,true);
+            else if(t<2.65f)Range("sierra",t-2.05f,12,3,5);
+            else if(t<3.25f)Hero("sierra",15);
+            else Range("sierra",t-3.25f,0,4,12,true);
+            Fx(t-2.22f,4,186,88,18);
+            if(t>=2.3f&&t<2.85f)
+            {
+                float u=(t-2.3f)/.55f;
+                art.Draw("selva_fx",new Rect(180+u*105,89-18*u,10,10),4);
+            }
+            Fx(t-2.85f,5,282,70,32);
+        }
+        public static Vector2 SwingHand(float u)
+        {
+            float angle=Mathf.Lerp(-.65f,.65f,Mathf.Clamp01(u));
+            return new Vector2(154+Mathf.Sin(angle)*90,12+Mathf.Cos(angle)*90);
+        }
+        void Rope(Vector2 hand,float phase)
+        {
+            Vector2 pivot=new Vector2(154,12),last=pivot;
+            for(int i=1;i<=24;i++)
+            {
+                float q=i/24f;
+                Vector2 next=Vector2.Lerp(pivot,hand,q)+new Vector2(Mathf.Sin(q*Mathf.PI)*phase*4,0);
+                Vector2 delta=next-last;var m=GUI.matrix;
+                GUI.matrix=m*Matrix4x4.TRS(new Vector3(last.x,last.y,0),Quaternion.Euler(0,0,Mathf.Atan2(delta.y,delta.x)*Mathf.Rad2Deg),Vector3.one);
+                RunnerPresentation.Box(new Rect(0,-.75f,delta.magnitude+1,1.5f),new Color32(74,53,36,255));
+                RunnerPresentation.Box(new Rect(0,-.25f,delta.magnitude+1,.5f),new Color32(212,167,44,255));
+                GUI.matrix=m;last=next;
+            }
+        }
+        void Selva(float t)
+        {
+            World("selva",t,.65f);
+            if(t<1.8f)
+            {
+                float u=t/1.8f;var hand=SwingHand(u);Rope(hand,2*u-1);
+                int frame=Mathf.Min(7,(int)(u*8));var grip=art.Grip("selva_hero",frame);
+                art.Draw("selva_hero",new Rect(hand.x-grip.x*76,hand.y-grip.y*76,76,76),frame);
+            }
+            else if(t<2.75f)
+            {
+                float u=(t-1.8f)/.95f;var grip=art.Grip("selva_hero",7);
+                Vector2 start=SwingHand(1)+new Vector2((.5f-grip.x)*76,(art.Foot("selva_hero",7)-grip.y)*76);
+                float x=Mathf.Lerp(start.x,164,u),feet=Mathf.Lerp(start.y,146,u)+(-32)*4*u*(1-u);
+                Hero("selva",8+Mathf.Min(3,(int)(u*4)),x,feet);
+            }
+            else if(t<3.05f)Range("selva",t-2.75f,12,2,7,false,164);
+            else Range("selva",t-3.05f,14,2,10,true,164);
+            Fx(t-2.75f,0,160,145);
+            Fx(t-3.2f,8,194,108,18);
+            if(t>3.2f&&t<3.55f)art.Draw("selva_fx",new Rect(196+(t-3.2f)*260,106,9,9),8);
+        }
+        void Portrait(float t,bool farewell)
+        {
+            World("selva",t,.10f);
+            int first=farewell?6:0;
+            float duration=farewell?2.5f:3;
+            // Authored in-betweens, rather than stretching a gameplay head.
+            art.Range("selva_portrait",new Rect(90,28,140,140),t,first,6,6/duration);
+            if(farewell){Text("SUYURUN",126,10,RunnerPresentation.Gold);Text("EL VIAJE CONTINUA",147,4,Color.white);}
+        }
+        void Memories(float t)
+        {
+            World("selva",t,.18f);
+            art.Range("selva_portrait",new Rect(111,62,98,98),t,6,6,3);
+            int slot=0;
+            for(int region=0;region<3;region++)for(int i=0;i<(region==1?3:4);i++)
+            {
+                if(!SharedGameMenu.IsCollected(region,i))continue;
+                float enter=Mathf.SmoothStep(0,1,(t-slot*.08f)/.35f);
+                if(enter<=0)continue;
+                var color=GUI.color;GUI.color=new Color(1,1,1,enter);
+                art.Draw("selva_memories",new Rect(20+slot*25.5f,25+(1-enter)*6,24,24),region*4+i);
+                GUI.color=color;slot++;
+            }
+        }
+        void Text(string value,float y,int size,Color color)
+        {
+            // Rasterize the font at output resolution, not 4px then magnify its atlas.
+            var matrix=GUI.matrix;
+            var origin=matrix.MultiplyPoint3x4(new Vector3(12,y,0));
+            var end=matrix.MultiplyPoint3x4(new Vector3(308,y+18,0));
+            float scale=matrix.MultiplyVector(Vector3.right).magnitude;
+            var rect=new Rect(Mathf.Round(origin.x),Mathf.Round(origin.y),Mathf.Round(end.x-origin.x),Mathf.Round(end.y-origin.y));
+            var style=RunnerHud.Centered(new GUIStyle(GUI.skin.label){fontSize=Mathf.Max(8,Mathf.RoundToInt(size*scale))});
+            try
+            {
+                GUI.matrix=Matrix4x4.identity;
+                style.normal.textColor=Color.black;GUI.Label(new Rect(rect.x+1,rect.y+1,rect.width,rect.height),value,style);
+                style.normal.textColor=color;GUI.Label(rect,value,style);
+            }
+            finally{GUI.matrix=matrix;}
+        }
+        void Credits(float t)
+        {
+            string[] lines={"SUYURUN","CREADO POR","ROMMEL C. V.","WILLIAM R. Q.","JOE F. C.","PROFESOR","MG. SULLA TORRES","DESARROLLO DE SOFTWARE","PARA JUEGOS","UNSA","COSTA · SIERRA · SELVA"};
+            float y=164-t*46;
+            for(int i=0;i<lines.Length;i++)Text(lines[i],y+i*20,i==0?9:4,i==0?RunnerPresentation.Gold:Color.white);
+            RunnerPresentation.Box(new Rect(0,0,320,12),Color.black);RunnerPresentation.Box(new Rect(0,168,320,12),Color.black);
+            if(t>=8.5f)Text("GRACIAS POR JUGAR",81,6,RunnerPresentation.Gold);
+        }
+        public void RenderAt(float age)
+        {
+            if(age<3)Portrait(age,false);
+            else if(age<7)Coast(age-3);
+            else if(age<11)Sierra(age-7);
+            else if(age<15)Selva(age-11);
+            else if(age<17.5f)Memories(age-15);
+            else if(age<20)Portrait(age-17.5f,true);
+            else Credits(age-20);
+        }
+        void OnGUI()
+        {
+            if(!ready)return;
+            var matrix=GUI.matrix;var color=GUI.color;int depth=GUI.depth;
+            try
+            {
+                GUI.depth=-1000;GUI.color=Color.white;GUI.matrix=Matrix4x4.identity;
+                RunnerPresentation.Box(new Rect(0,0,Screen.width,Screen.height),Color.black);
+                GUI.matrix=RunnerHud.ScreenMatrix;
+                float age=preview?Mathf.Min(Age,29.2f):Age;
+                // Quiet 3% lens move, shared by every layer and actor.
+                var baseMatrix=GUI.matrix;
+                if(age<20)
+                {
+                    float start=age<3?0:age<7?3:age<11?7:age<15?11:age<17.5f?15:17.5f;
+                    float zoom=1+Mathf.SmoothStep(0,.03f,(age-start)/4);
+                    GUI.matrix=baseMatrix*Matrix4x4.Translate(new Vector3(160,90,0))*Matrix4x4.Scale(new Vector3(zoom,zoom,1))*Matrix4x4.Translate(new Vector3(-160,-90,0));
+                }
+                RenderAt(age);GUI.matrix=baseMatrix;
+                if(age<20){RunnerPresentation.Box(new Rect(0,0,320,12),Color.black);RunnerPresentation.Box(new Rect(0,168,320,12),Color.black);}
+                float fade=age<.5f?1-age/.5f:age>19.4f&&age<20?(age-19.4f)/.6f:0;
+                if(age>=2.8f&&age<3.2f)fade=1-Mathf.Abs(age-3)/.2f;
+                if(age>=6.85f&&age<7.15f)fade=1-Mathf.Abs(age-7)/.15f;
+                if(age>=10.85f&&age<11.15f)fade=1-Mathf.Abs(age-11)/.15f;
+                if(age>=14.85f&&age<15.15f)fade=1-Mathf.Abs(age-15)/.15f;
+                if(age>=17.3f&&age<17.7f)fade=1-Mathf.Abs(age-17.5f)/.2f;
+                if(age>29.5f)fade=(age-29.5f)/.5f;
+                if(fade>0)RunnerPresentation.Box(new Rect(0,0,320,180),new Color(0,0,0,Mathf.Clamp01(fade)));
+                // Scrolling 640px planes must not leak into aspect-ratio pillarboxes.
+                GUI.matrix=Matrix4x4.identity;
+                var viewport=RunnerHud.Viewport(Screen.width,Screen.height);
+                RunnerPresentation.Box(new Rect(0,0,viewport.x,Screen.height),Color.black);
+                RunnerPresentation.Box(new Rect(viewport.xMax,0,Screen.width-viewport.xMax,Screen.height),Color.black);
+                RunnerPresentation.Box(new Rect(0,0,Screen.width,viewport.y),Color.black);
+                RunnerPresentation.Box(new Rect(0,viewport.yMax,Screen.width,Screen.height-viewport.yMax),Color.black);
+                if(preview)
+                {
+                    GUI.matrix=Matrix4x4.identity;
+                    float w=Mathf.Min(520,Screen.width-12),x=(Screen.width-w)/2,y=Screen.height-34;
+                    GUI.Box(new Rect(x-4,y-4,w+8,36),GUIContent.none);
+                    if(GUI.Button(new Rect(x,y,w*.30f,28),"Repetir"))Replay();
+                    if(GUI.Button(new Rect(x+w*.31f,y,w*.30f,28),paused?"Continuar":"Pausar"))TogglePause();
+                    if(GUI.Button(new Rect(x+w*.62f,y,w*.38f,28),"Cerrar vista previa"))Destroy(gameObject);
+                }
+            }
+            finally{GUI.matrix=matrix;GUI.color=color;GUI.depth=depth;}
+        }
+    }
+}

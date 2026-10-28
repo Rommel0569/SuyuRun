@@ -1,0 +1,2042 @@
+fileFormatVersion: 2
+guid: 4eccab471a5171141896bca7aeed6e3b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8480179437786064529
+    second: selva_life_0
+  - first:
+      213: -5908816336240324562
+    second: selva_life_1
+  - first:
+      213: -2432385926795791434
+    second: selva_life_2
+  - first:
+      213: -8086256118259534088
+    second: selva_life_3
+  - first:
+      213: -3904270479425520978
+    second: selva_life_4
+  - first:
+      213: -4138272998680213517
+    second: selva_life_5
+  - first:
+      213: 5556528127368895993
+    second: selva_life_6
+  - first:
+      213: 9194093398269155438
+    second: selva_life_7
+  - first:
+      213: -5054878749468858112
+    second: selva_life_8
+  - first:
+      213: -7843075378029100492
+    second: selva_life_9
+  - first:
+      213: 332236652805588991
+    second: selva_life_10
+  - first:
+      213: -7638763318148898501
+    second: selva_life_11
+  - first:
+      213: 8463256953136829739
+    second: selva_life_12
+  - first:
+      213: -2616476699453131248
+    second: selva_life_13
+  - first:
+      213: -7923891355700875184
+    second: selva_life_14
+  - first:
+      213: -8564815103958022659
+    second: selva_life_15
+  - first:
+      213: -6506451254295584834
+    second: selva_life_16
+  - first:
+      213: 5150953436454287583
+    second: selva_life_17
+  - first:
+      213: 6306942884458668314
+    second: selva_life_18
+  - first:
+      213: -2207029614940018271
+    second: selva_life_19
+  - first:
+      213: 1546433076286926526
+    second: selva_life_20
+  - first:
+      213: -7157730559744734169
+    second: selva_life_21
+  - first:
+      213: -8804151813820892441
+    second: selva_life_22
+  - first:
+      213: -4337392523093649855
+    second: selva_life_23
+  - first:
+      213: -4685495113108921740
+    second: selva_life_24
+  - first:
+      213: -8863920578838638310
+    second: selva_life_25
+  - first:
+      213: 819894088085876462
+    second: selva_life_26
+  - first:
+      213: 8609429441600795537
+    second: selva_life_27
+  - first:
+      213: -6263656245067396669
+    second: selva_life_28
+  - first:
+      213: -8956517962981344298
+    second: selva_life_29
+  - first:
+      213: 8340636624450288016
+    second: selva_life_30
+  - first:
+      213: 7371222145036555139
+    second: selva_life_31
+  - first:
+      213: -8458161543436884899
+    second: selva_life_32
+  - first:
+      213: 820163542876779256
+    second: selva_life_33
+  - first:
+      213: 9202252415300529582
+    second: selva_life_34
+  - first:
+      213: 379954201514014504
+    second: selva_life_35
+  - first:
+      213: 1365087825602319514
+    second: selva_life_36
+  - first:
+      213: -2068281423223110495
+    second: selva_life_37
+  - first:
+      213: 2961313564303070327
+    second: selva_life_38
+  - first:
+      213: 888144922021360961
+    second: selva_life_39
+  - first:
+      213: -7539890060571185310
+    second: selva_life_40
+  - first:
+      213: -1703885650993592188
+    second: selva_life_41
+  - first:
+      213: 6505686547255960462
+    second: selva_life_42
+  - first:
+      213: -9192699514880267321
+    second: selva_life_43
+  - first:
+      213: -6797445016968464717
+    second: selva_life_44
+  - first:
+      213: -7474616747406969293
+    second: selva_life_45
+  - first:
+      213: 6054741790100758579
+    second: selva_life_46
+  - first:
+      213: -7126602356433832829
+    second: selva_life_47
+  - first:
+      213: -4056708976830167655
+    second: selva_life_48
+  - first:
+      213: 1464435556000978645
+    second: selva_life_49
+  - first:
+      213: 4286126460745539698
+    second: selva_life_50
+  - first:
+      213: -84260139191239744
+    second: selva_life_51
+  - first:
+      213: -8421820145299029770
+    second: selva_life_52
+  - first:
+      213: 2485946010866434536
+    second: selva_life_53
+  - first:
+      213: 6799192827886583623
+    second: selva_life_54
+  - first:
+      213: 8286458475826863411
+    second: selva_life_55
+  - first:
+      213: -6798616923592531580
+    second: selva_life_56
+  - first:
+      213: -250046472897683059
+    second: selva_life_57
+  - first:
+      213: -177850367869565949
+    second: selva_life_58
+  - first:
+      213: -2250900438629861913
+    second: selva_life_59
+  - first:
+      213: 6871026709770503225
+    second: selva_life_60
+  - first:
+      213: -2707402853809281927
+    second: selva_life_61
+  - first:
+      213: 2712141481783801620
+    second: selva_life_62
+  - first:
+      213: -1275355919235046396
+    second: selva_life_63
+  - first:
+      213: 2257703996279298677
+    second: selva_life_64
+  - first:
+      213: -2233388890898282494
+    second: selva_life_65
+  - first:
+      213: -3028632236355173986
+    second: selva_life_66
+  - first:
+      213: 8814255059938897913
+    second: selva_life_67
+  - first:
+      213: 520305323587097474
+    second: selva_life_68
+  - first:
+      213: 8375050119265723251
+    second: selva_life_69
+  - first:
+      213: -6794843460464484620
+    second: selva_life_70
+  - first:
+      213: -3227788560377079853
+    second: selva_life_71
+  - first:
+      213: 6061360436200429903
+    second: selva_life_72
+  - first:
+      213: -8005384823588836960
+    second: selva_life_73
+  - first:
+      213: -8570253372994044471
+    second: selva_life_74
+  - first:
+      213: -4150524010026908571
+    second: selva_life_75
+  - first:
+      213: 4922187977218943307
+    second: selva_life_76
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: selva_life_0
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 12
+        width: 250
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1966fccc446afa570800000000000000
+      internalID: 8480179437786064529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_1
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 246
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e20de5339daaffda0800000000000000
+      internalID: -5908816336240324562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_2
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 236
+        width: 53
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b37dac03ed6e3ed0800000000000000
+      internalID: -2432385926795791434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_3
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 210
+        width: 68
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f6bf4c37e8d7cf80800000000000000
+      internalID: -8086256118259534088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_4
+      rect:
+        serializedVersion: 2
+        x: 2072
+        y: 217
+        width: 22
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaa3cc64fae31d9c0800000000000000
+      internalID: -3904270479425520978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_5
+      rect:
+        serializedVersion: 2
+        x: 2119
+        y: 247
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f7431a12a6e196c0800000000000000
+      internalID: -4138272998680213517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_6
+      rect:
+        serializedVersion: 2
+        x: 2162
+        y: 236
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fd1a4064e0cc1d40800000000000000
+      internalID: 5556528127368895993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_7
+      rect:
+        serializedVersion: 2
+        x: 2195
+        y: 249
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e68d89bbb3bf79f70800000000000000
+      internalID: 9194093398269155438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_8
+      rect:
+        serializedVersion: 2
+        x: 2209
+        y: 249
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 009ec3b2f8679d9b0800000000000000
+      internalID: -5054878749468858112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_9
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 217
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43286f18f7cc72390800000000000000
+      internalID: -7843075378029100492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_10
+      rect:
+        serializedVersion: 2
+        x: 2416
+        y: 233
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff787d7b9775c9400800000000000000
+      internalID: 332236652805588991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_11
+      rect:
+        serializedVersion: 2
+        x: 2464
+        y: 248
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b31637aeb39adf590800000000000000
+      internalID: -7638763318148898501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_12
+      rect:
+        serializedVersion: 2
+        x: 2574
+        y: 217
+        width: 20
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b25539ecb57837570800000000000000
+      internalID: 8463256953136829739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_13
+      rect:
+        serializedVersion: 2
+        x: 2637
+        y: 247
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0167206fd4860bbd0800000000000000
+      internalID: -2616476699453131248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_14
+      rect:
+        serializedVersion: 2
+        x: 2668
+        y: 244
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05039a86bcea80290800000000000000
+      internalID: -7923891355700875184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_15
+      rect:
+        serializedVersion: 2
+        x: 2693
+        y: 243
+        width: 47
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df58ea19a0aa32980800000000000000
+      internalID: -8564815103958022659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_16
+      rect:
+        serializedVersion: 2
+        x: 2833
+        y: 217
+        width: 21
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebf115f8e0174b5a0800000000000000
+      internalID: -6506451254295584834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_17
+      rect:
+        serializedVersion: 2
+        x: 2882
+        y: 246
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd87f6a0cdcdb7740800000000000000
+      internalID: 5150953436454287583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_18
+      rect:
+        serializedVersion: 2
+        x: 2934
+        y: 243
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1126d64323c68750800000000000000
+      internalID: 6306942884458668314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_19
+      rect:
+        serializedVersion: 2
+        x: 2977
+        y: 249
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a9abb0324e0f51e0800000000000000
+      internalID: -2207029614940018271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_20
+      rect:
+        serializedVersion: 2
+        x: 1298
+        y: 0
+        width: 220
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebe2ff480b8067510800000000000000
+      internalID: 1546433076286926526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_21
+      rect:
+        serializedVersion: 2
+        x: 1546
+        y: 0
+        width: 241
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72c057caaf1aaac90800000000000000
+      internalID: -7157730559744734169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_22
+      rect:
+        serializedVersion: 2
+        x: 3199
+        y: 197
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ea389c529e51d580800000000000000
+      internalID: -8804151813820892441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_23
+      rect:
+        serializedVersion: 2
+        x: 3475
+        y: 210
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14651911b7c7ec3c0800000000000000
+      internalID: -4337392523093649855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_24
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 16
+        width: 250
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 472605af407c9feb0800000000000000
+      internalID: -4685495113108921740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_25
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 27
+        width: 236
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a115c0552370df480800000000000000
+      internalID: -8863920578838638310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_26
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 0
+        width: 240
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eee2dc14459d06b00800000000000000
+      internalID: 819894088085876462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_27
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 0
+        width: 237
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 193b7616676da7770800000000000000
+      internalID: 8609429441600795537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_28
+      rect:
+        serializedVersion: 2
+        x: 2059
+        y: 19
+        width: 247
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c9c995d4d50319a0800000000000000
+      internalID: -6263656245067396669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_29
+      rect:
+        serializedVersion: 2
+        x: 2359
+        y: 19
+        width: 158
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6db7718cd5e04b380800000000000000
+      internalID: -8956517962981344298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_30
+      rect:
+        serializedVersion: 2
+        x: 2652
+        y: 182
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 099f8f0c1d4efb370800000000000000
+      internalID: 8340636624450288016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_31
+      rect:
+        serializedVersion: 2
+        x: 2698
+        y: 175
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 383956b8c77db4660800000000000000
+      internalID: 7371222145036555139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_32
+      rect:
+        serializedVersion: 2
+        x: 2857
+        y: 19
+        width: 168
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d542396b3e29e9a80800000000000000
+      internalID: -8458161543436884899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_33
+      rect:
+        serializedVersion: 2
+        x: 3087
+        y: 43
+        width: 237
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f275e6956ec16b00800000000000000
+      internalID: 820163542876779256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_34
+      rect:
+        serializedVersion: 2
+        x: 3422
+        y: 187
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eade77be0d7f4bf70800000000000000
+      internalID: 9202252415300529582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_35
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 183
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 827f82c455ed54500800000000000000
+      internalID: 379954201514014504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_36
+      rect:
+        serializedVersion: 2
+        x: 3702
+        y: 186
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a949c341524c1f210800000000000000
+      internalID: 1365087825602319514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_37
+      rect:
+        serializedVersion: 2
+        x: 3958
+        y: 178
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a44f39f00dfb43e0800000000000000
+      internalID: -2068281423223110495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_38
+      rect:
+        serializedVersion: 2
+        x: 2658
+        y: 20
+        width: 60
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77494dc3ff2b81920800000000000000
+      internalID: 2961313564303070327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_39
+      rect:
+        serializedVersion: 2
+        x: 3402
+        y: 172
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 145762ad913535c00800000000000000
+      internalID: 888144922021360961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_40
+      rect:
+        serializedVersion: 2
+        x: 3432
+        y: 167
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26fe72e10fdec5790800000000000000
+      internalID: -7539890060571185310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_41
+      rect:
+        serializedVersion: 2
+        x: 3476
+        y: 152
+        width: 35
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48844aa27059a58e0800000000000000
+      internalID: -1703885650993592188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_42
+      rect:
+        serializedVersion: 2
+        x: 3660
+        y: 166
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e83aa353277d84a50800000000000000
+      internalID: 6505686547255960462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_43
+      rect:
+        serializedVersion: 2
+        x: 3743
+        y: 165
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cbe7a80f78fc6080800000000000000
+      internalID: -9192699514880267321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_44
+      rect:
+        serializedVersion: 2
+        x: 3375
+        y: 152
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b6785f75cf9aa1a0800000000000000
+      internalID: -6797445016968464717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_45
+      rect:
+        serializedVersion: 2
+        x: 3400
+        y: 151
+        width: 23
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3363f92aba3d44890800000000000000
+      internalID: -7474616747406969293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_46
+      rect:
+        serializedVersion: 2
+        x: 3433
+        y: 156
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3302ba52493c60450800000000000000
+      internalID: 6054741790100758579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_47
+      rect:
+        serializedVersion: 2
+        x: 3519
+        y: 158
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 384bc494ae8391d90800000000000000
+      internalID: -7126602356433832829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_48
+      rect:
+        serializedVersion: 2
+        x: 3591
+        y: 30
+        width: 244
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99546eecdaca3b7c0800000000000000
+      internalID: -4056708976830167655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_49
+      rect:
+        serializedVersion: 2
+        x: 3624
+        y: 146
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d6d3e71168b25410800000000000000
+      internalID: 1464435556000978645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_50
+      rect:
+        serializedVersion: 2
+        x: 3675
+        y: 157
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 270e323ae416b7b30800000000000000
+      internalID: 4286126460745539698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_51
+      rect:
+        serializedVersion: 2
+        x: 3778
+        y: 147
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cbf7ce89d5a4def0800000000000000
+      internalID: -84260139191239744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_52
+      rect:
+        serializedVersion: 2
+        x: 3926
+        y: 159
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f00935d23faf1b80800000000000000
+      internalID: -8421820145299029770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_53
+      rect:
+        serializedVersion: 2
+        x: 3940
+        y: 151
+        width: 50
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e14e7cc9badf7220800000000000000
+      internalID: 2485946010866434536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_54
+      rect:
+        serializedVersion: 2
+        x: 3988
+        y: 152
+        width: 40
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74f30917ad59b5e50800000000000000
+      internalID: 6799192827886583623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_55
+      rect:
+        serializedVersion: 2
+        x: 3342
+        y: 34
+        width: 236
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33d5fa9841a6ff270800000000000000
+      internalID: 8286458475826863411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_56
+      rect:
+        serializedVersion: 2
+        x: 3538
+        y: 138
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 481ee49bde576a1a0800000000000000
+      internalID: -6798616923592531580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_57
+      rect:
+        serializedVersion: 2
+        x: 3852
+        y: 49
+        width: 233
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d812895ce08a78cf0800000000000000
+      internalID: -250046472897683059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_58
+      rect:
+        serializedVersion: 2
+        x: 3895
+        y: 143
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30446ff5806288df0800000000000000
+      internalID: -177850367869565949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_59
+      rect:
+        serializedVersion: 2
+        x: 4038
+        y: 142
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e532b21af133c0e0800000000000000
+      internalID: -2250900438629861913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_60
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 268
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9348716636aca5f50800000000000000
+      internalID: 6871026709770503225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_61
+      rect:
+        serializedVersion: 2
+        x: 3341
+        y: 79
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 974a1dae27f5d6ad0800000000000000
+      internalID: -2707402853809281927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_62
+      rect:
+        serializedVersion: 2
+        x: 3116
+        y: 35
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4173352ee4673a520800000000000000
+      internalID: 2712141481783801620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_63
+      rect:
+        serializedVersion: 2
+        x: 3274
+        y: 37
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 404adcf6c860d4ee0800000000000000
+      internalID: -1275355919235046396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_64
+      rect:
+        serializedVersion: 2
+        x: 3522
+        y: 34
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57a1532a2d9f45f10800000000000000
+      internalID: 2257703996279298677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_65
+      rect:
+        serializedVersion: 2
+        x: 3888
+        y: 45
+        width: 29
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20844b003a86101e0800000000000000
+      internalID: -2233388890898282494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_66
+      rect:
+        serializedVersion: 2
+        x: 3950
+        y: 39
+        width: 47
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e91c0c4070328f5d0800000000000000
+      internalID: -3028632236355173986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_67
+      rect:
+        serializedVersion: 2
+        x: 4013
+        y: 43
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ffe85fe646825a70800000000000000
+      internalID: 8814255059938897913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_68
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 47
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28357236fee783700800000000000000
+      internalID: 520305323587097474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_69
+      rect:
+        serializedVersion: 2
+        x: 3151
+        y: 30
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3732de6e5b72a3470800000000000000
+      internalID: 8375050119265723251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_70
+      rect:
+        serializedVersion: 2
+        x: 3196
+        y: 30
+        width: 50
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fed0a29fddd3b1a0800000000000000
+      internalID: -6794843460464484620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_71
+      rect:
+        serializedVersion: 2
+        x: 3246
+        y: 40
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d797a8e7679433d0800000000000000
+      internalID: -3227788560377079853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_72
+      rect:
+        serializedVersion: 2
+        x: 3400
+        y: 35
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f495557c3374e1450800000000000000
+      internalID: 6061360436200429903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_73
+      rect:
+        serializedVersion: 2
+        x: 3933
+        y: 32
+        width: 25
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a92fa3dae827e090800000000000000
+      internalID: -8005384823588836960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_74
+      rect:
+        serializedVersion: 2
+        x: 3430
+        y: 23
+        width: 45
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cdb893e6f7501980800000000000000
+      internalID: -8570253372994044471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_75
+      rect:
+        serializedVersion: 2
+        x: 3489
+        y: 20
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 564cd9e37606666c0800000000000000
+      internalID: -4150524010026908571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: selva_life_76
+      rect:
+        serializedVersion: 2
+        x: 3717
+        y: 20
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4965dbe2ef1f4440800000000000000
+      internalID: 4922187977218943307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

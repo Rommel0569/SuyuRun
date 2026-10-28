@@ -1,0 +1,5687 @@
+{
+  "costa/run": {
+    "frames": 16,
+    "fps": 32,
+    "loop": true,
+    "frameWidth": 384,
+    "frameHeight": 320,
+    "pixelsPerUnit": 150.58823529411765,
+    "footAnchor": [
+      192.0,
+      308
+    ],
+    "gripX": [
+      182.0,
+      182.0,
+      182.0,
+      182.0,
+      183.0,
+      183.0,
+      183.0,
+      182.0,
+      182.0,
+      184.0,
+      183.0,
+      183.0,
+      184.0,
+      182.0,
+      182.0,
+      184.0
+    ],
+    "gripY": [
+      162.0,
+      163.0,
+      160.0,
+      157.0,
+      163.0,
+      154.0,
+      141.0,
+      150.0,
+      167.0,
+      178.0,
+      170.0,
+      158.0,
+      154.0,
+      150.0,
+      150.0,
+      158.0
+    ],
+    "uniformAnatomy": true,
+    "source": "costa_base",
+    "sourceIndices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "sourceScale": 1.0256410256410255,
+    "frameUniformScales": [
+      1.0256410256410255,
+      1.0256410256410255,
+      1.0256410256410255,
+      1.0256410256410255,
+      1.0256410256410255,
+      1.0256410256410255,
+      1.0256410256410255,
+      1.0256410256410255,
+      1.0256410256410255,
+      1.0256410256410255,
+      1.0256410256410255,
+      1.0256410256410255,
+      1.0256410256410255,
+      1.0256410256410255,
+      1.0256410256410255,
+      1.0256410256410255
+    ],
+    "frameBounds": [
+      [
+        102,
+        160,
+        217,
+        308
+      ],
+      [
+        99,
+        160,
+        218,
+        308
+      ],
+      [
+        94,
+        157,
+        218,
+        308
+      ],
+      [
+        86,
+        155,
+        218,
+        303
+      ],
+      [
+        79,
+        160,
+        230,
+        299
+      ],
+      [
+        109,
+        151,
+        219,
+        294
+      ],
+      [
+        109,
+        138,
+        219,
+        289
+      ],
+      [
+        119,
+        147,
+        217,
+        299
+      ],
+      [
+        107,
+        164,
+        218,
+        308
+      ],
+      [
+        93,
+        175,
+        219,
+        308
+      ],
+      [
+        92,
+        167,
+        230,
+        308
+      ],
+      [
+        101,
+        155,
+        219,
+        303
+      ],
+      [
+        94,
+        151,
+        220,
+        299
+      ],
+      [
+        94,
+        148,
+        218,
+        294
+      ],
+      [
+        118,
+        147,
+        232,
+        289
+      ],
+      [
+        111,
+        155,
+        220,
+        299
+      ]
+    ],
+    "integrated": true,
+    "playTested": false
+  },
+  "costa/idle": {
+    "frames": 4,
+    "fps": 8,
+    "loop": true,
+    "frameWidth": 384,
+    "frameHeight": 320,
+    "pixelsPerUnit": 150.58823529411765,
+    "footAnchor": [
+      192.0,
+      308
+    ],
+    "gripX": [
+      184.0,
+      184.0,
+      185.0,
+      186.0
+    ],
+    "gripY": [
+      151.0,
+      149.0,
+      152.0,
+      150.0
+    ],
+    "uniformAnatomy": true,
+    "source": "costa_base",
+    "sourceIndices": [
+      16,
+      17,
+      18,
+      19
+    ],
+    "sourceScale": 1.0256410256410255,
+    "frameUniformScales": [
+      1.0256410256410255,
+      1.0256410256410255,
+      1.0256410256410255,
+      1.0256410256410255
+    ],
+    "frameBounds": [
+      [
+        157,
+        148,
+        238,
+        308
+      ],
+      [
+        147,
+        147,
+        236,
+        308
+      ],
+      [
+        157,
+        149,
+        239,
+        308
+      ],
+      [
+        149,
+        148,
+        239,
+        308
+      ]
+    ],
+    "integrated": true,
+    "playTested": false
+  },
+  "costa/jump": {
+    "frames": 4,
+    "fps": 12,
+    "loop": false,
+    "frameWidth": 384,
+    "frameHeight": 320,
+    "pixelsPerUnit": 150.58823529411765,
+    "footAnchor": [
+      192.0,
+      308
+    ],
+    "gripX": [
+      185.0,
+      183.0,
+      184.0,
+      182.0
+    ],
+    "gripY": [
+      182.0,
+      172.0,
+      176.0,
+      174.0
+    ],
+    "uniformAnatomy": true,
+    "source": "costa_base",
+    "sourceIndices": [
+      20,
+      21,
+      22,
+      23
+    ],
+    "sourceScale": 1.0256410256410255,
+    "frameUniformScales": [
+      1.0256410256410255,
+      1.0256410256410255,
+      1.0256410256410255,
+      1.0256410256410255
+    ],
+    "frameBounds": [
+      [
+        120,
+        179,
+        219,
+        308
+      ],
+      [
+        121,
+        169,
+        218,
+        308
+      ],
+      [
+        114,
+        173,
+        220,
+        308
+      ],
+      [
+        124,
+        171,
+        238,
+        308
+      ]
+    ],
+    "integrated": true,
+    "playTested": false
+  },
+  "costa/double_jump": {
+    "frames": 4,
+    "fps": 12,
+    "loop": false,
+    "frameWidth": 384,
+    "frameHeight": 320,
+    "pixelsPerUnit": 150.58823529411765,
+    "footAnchor": [
+      192.0,
+      308
+    ],
+    "gripX": [
+      183.0,
+      191.0,
+      186.0,
+      186.0
+    ],
+    "gripY": [
+      187.0,
+      197.0,
+      179.0,
+      178.0
+    ],
+    "uniformAnatomy": true,
+    "source": "costa_base",
+    "sourceIndices": [
+      24,
+      25,
+      26,
+      27
+    ],
+    "sourceScale": 1.0256410256410255,
+    "frameUniformScales": [
+      1.0256410256410255,
+      1.0256410256410255,
+      1.0256410256410255,
+      1.0256410256410255
+    ],
+    "frameBounds": [
+      [
+        127,
+        184,
+        225,
+        308
+      ],
+      [
+        114,
+        194,
+        233,
+        308
+      ],
+      [
+        113,
+        177,
+        220,
+        308
+      ],
+      [
+        112,
+        175,
+        234,
+        308
+      ]
+    ],
+    "integrated": true,
+    "playTested": false
+  },
+  "costa/fall": {
+    "frames": 4,
+    "fps": 12,
+    "loop": false,
+    "frameWidth": 384,
+    "frameHeight": 320,
+    "pixelsPerUnit": 150.58823529411765,
+    "footAnchor": [
+      192.0,
+      308
+    ],
+    "gripX": [
+      183.0,
+      186.0,
+      184.0,
+      182.0
+    ],
+    "gripY": [
+      162.0,
+      194.0,
+      204.0,
+      178.0
+    ],
+    "uniformAnatomy": true,
+    "source": "costa_base",
+    "sourceIndices": [
+      28,
+      29,
+      30,
+      31
+    ],
+    "sourceScale": 1.0256410256410255,
+    "frameUniformScales": [
+      1.0256410256410255,
+      1.0256410256410255,
+      1.0256410256410255,
+      1.0256410256410255
+    ],
+    "frameBounds": [
+      [
+        144,
+        159,
+        250,
+        308
+      ],
+      [
+        105,
+        191,
+        236,
+        308
+      ],
+      [
+        107,
+        201,
+        255,
+        308
+      ],
+      [
+        146,
+        175,
+        256,
+        308
+      ]
+    ],
+    "integrated": true,
+    "playTested": false
+  },
+  "costa/land": {
+    "frames": 4,
+    "fps": 16,
+    "loop": false,
+    "frameWidth": 384,
+    "frameHeight": 320,
+    "pixelsPerUnit": 150.58823529411765,
+    "footAnchor": [
+      192.0,
+      308
+    ],
+    "gripX": [
+      186.0,
+      183.0,
+      181.5,
+      181.0
+    ],
+    "gripY": [
+      170.0,
+      183.0,
+      157.0,
+      150.0
+    ],
+    "uniformAnatomy": true,
+    "source": "costa_base",
+    "sourceIndices": [
+      32,
+      33,
+      34,
+      35
+    ],
+    "sourceScale": 1.0256410256410255,
+    "frameUniformScales": [
+      1.167883211678832,
+      1.167883211678832,
+      1.167883211678832,
+      1.167883211678832
+    ],
+    "frameBounds": [
+      [
+        109,
+        167,
+        222,
+        308
+      ],
+      [
+        110,
+        180,
+        234,
+        308
+      ],
+      [
+        106,
+        154,
+        238,
+        308
+      ],
+      [
+        138,
+        148,
+        240,
+        308
+      ]
+    ],
+    "integrated": true,
+    "playTested": false
+  },
+  "costa/slide": {
+    "frames": 2,
+    "fps": 8,
+    "loop": true,
+    "frameWidth": 384,
+    "frameHeight": 320,
+    "pixelsPerUnit": 150.58823529411765,
+    "footAnchor": [
+      192.0,
+      308
+    ],
+    "gripX": [
+      186.0,
+      184.0
+    ],
+    "gripY": [
+      213.0,
+      206.0
+    ],
+    "uniformAnatomy": true,
+    "source": "costa_base",
+    "sourceIndices": [
+      37,
+      38
+    ],
+    "sourceScale": 1.0256410256410255,
+    "frameUniformScales": [
+      1.0097087378640777,
+      1.0097087378640777
+    ],
+    "frameBounds": [
+      [
+        108,
+        210,
+        280,
+        308
+      ],
+      [
+        119,
+        204,
+        243,
+        308
+      ]
+    ],
+    "integrated": true,
+    "playTested": false
+  },
+  "costa/slide_enter": {
+    "frames": 2,
+    "fps": 16,
+    "loop": false,
+    "frameWidth": 384,
+    "frameHeight": 320,
+    "pixelsPerUnit": 150.58823529411765,
+    "footAnchor": [
+      192.0,
+      308
+    ],
+    "gripX": [
+      168.0,
+      186.0
+    ],
+    "gripY": [
+      210.0,
+      213.0
+    ],
+    "uniformAnatomy": true,
+    "source": "costa_base",
+    "sourceIndices": [
+      36,
+      37
+    ],
+    "sourceScale": 1.0256410256410255,
+    "frameUniformScales": [
+      1.0097087378640777,
+      1.0097087378640777
+    ],
+    "frameBounds": [
+      [
+        126,
+        207,
+        299,
+        308
+      ],
+      [
+        108,
+        210,
+        280,
+        308
+      ]
+    ],
+    "integrated": true,
+    "playTested": false
+  },
+  "costa/slide_exit": {
+    "frames": 2,
+    "fps": 16,
+    "loop": false,
+    "frameWidth": 384,
+    "frameHeight": 320,
+    "pixelsPerUnit": 150.58823529411765,
+    "footAnchor": [
+      192.0,
+      308
+    ],
+    "gripX": [
+      184.0,
+      184.0
+    ],
+    "gripY": [
+      206.0,
+      179.0
+    ],
+    "uniformAnatomy": true,
+    "source": "costa_base",
+    "sourceIndices": [
+      38,
+      39
+    ],
+    "sourceScale": 1.0256410256410255,
+    "frameUniformScales": [
+      1.0097087378640777,
+      1.0097087378640777
+    ],
+    "frameBounds": [
+      [
+        119,
+        204,
+        243,
+        308
+      ],
+      [
+        119,
+        177,
+        233,
+        308
+      ]
+    ],
+    "integrated": true,
+    "playTested": false
+  },
+  "costa/shoot": {
+    "frames": 4,
+    "fps": 20,
+    "loop": false,
+    "frameWidth": 384,
+    "frameHeight": 320,
+    "pixelsPerUnit": 150.58823529411765,
+    "footAnchor": [
+      192.0,
+      308
+    ],
+    "gripX": [
+      182.0,
+      184.0,
+      181.0,
+      181.0
+    ],
+    "gripY": [
+      156.0,
+      159.0,
+      158.0,
+      152.0
+    ],
+    "uniformAnatomy": true,
+    "source": "costa_base",
+    "sourceIndices": [
+      40,
+      41,
+      42,
+      43
+    ],
+    "sourceScale": 1.0256410256410255,
+    "frameUniformScales": [
+      1.167883211678832,
+      1.167883211678832,
+      1.167883211678832,
+      1.167883211678832
+    ],
+    "frameBounds": [
+      [
+        114,
+        153,
+        261,
+        308
+      ],
+      [
+        96,
+        156,
+        258,
+        308
+      ],
+      [
+        129,
+        155,
+        278,
+        308
+      ],
+      [
+        132,
+        150,
+        237,
+        308
+      ]
+    ],
+    "integrated": true,
+    "playTested": false
+  },
+  "costa/reload": {
+    "frames": 4,
+    "fps": 10,
+    "loop": false,
+    "frameWidth": 384,
+    "frameHeight": 320,
+    "pixelsPerUnit": 150.58823529411765,
+    "footAnchor": [
+      192.0,
+      308
+    ],
+    "gripX": [
+      183.0,
+      186.5,
+      183.0,
+      181.5
+    ],
+    "gripY": [
+      167.0,
+      164.0,
+      158.0,
+      151.0
+    ],
+    "uniformAnatomy": true,
+    "source": "costa_base",
+    "sourceIndices": [
+      44,
+      45,
+      46,
+      47
+    ],
+    "sourceScale": 1.0256410256410255,
+    "frameUniformScales": [
+      1.167883211678832,
+      1.167883211678832,
+      1.167883211678832,
+      1.167883211678832
+    ],
+    "frameBounds": [
+      [
+        108,
+        164,
+        243,
+        308
+      ],
+      [
+        120,
+        162,
+        258,
+        308
+      ],
+      [
+        122,
+        155,
+        261,
+        308
+      ],
+      [
+        146,
+        148,
+        244,
+        308
+      ]
+    ],
+    "integrated": true,
+    "playTested": false
+  },
+  "costa/hit": {
+    "frames": 4,
+    "fps": 16,
+    "loop": false,
+    "frameWidth": 384,
+    "frameHeight": 320,
+    "pixelsPerUnit": 150.58823529411765,
+    "footAnchor": [
+      192.0,
+      308
+    ],
+    "gripX": [
+      186.0,
+      200.0,
+      192.0,
+      183.0
+    ],
+    "gripY": [
+      168.0,
+      163.0,
+      164.0,
+      151.0
+    ],
+    "uniformAnatomy": true,
+    "source": "costa_base",
+    "sourceIndices": [
+      48,
+      49,
+      50,
+      51
+    ],
+    "sourceScale": 1.0256410256410255,
+    "frameUniformScales": [
+      1.1940298507462686,
+      1.1940298507462686,
+      1.1940298507462686,
+      1.1940298507462686
+    ],
+    "frameBounds": [
+      [
+        136,
+        165,
+        301,
+        308
+      ],
+      [
+        131,
+        160,
+        287,
+        308
+      ],
+      [
+        116,
+        162,
+        264,
+        308
+      ],
+      [
+        143,
+        148,
+        260,
+        308
+      ]
+    ],
+    "integrated": true,
+    "playTested": false
+  },
+  "costa/death": {
+    "frames": 4,
+    "fps": 10,
+    "loop": false,
+    "frameWidth": 384,
+    "frameHeight": 320,
+    "pixelsPerUnit": 150.58823529411765,
+    "footAnchor": [
+      192.0,
+      308
+    ],
+    "gripX": [
+      216.0,
+      218.0,
+      203.0,
+      196.0
+    ],
+    "gripY": [
+      159.0,
+      194.0,
+      244.0,
+      251.0
+    ],
+    "uniformAnatomy": true,
+    "source": "costa_base",
+    "sourceIndices": [
+      52,
+      53,
+      54,
+      55
+    ],
+    "sourceScale": 1.0256410256410255,
+    "frameUniformScales": [
+      1.1940298507462686,
+      1.1940298507462686,
+      1.1940298507462686,
+      1.1940298507462686
+    ],
+    "frameBounds": [
+      [
+        130,
+        156,
+        253,
+        308
+      ],
+      [
+        130,
+        192,
+        255,
+        308
+      ],
+      [
+        104,
+        241,
+        280,
+        308
+      ],
+      [
+        70,
+        248,
+        314,
+        308
+      ]
+    ],
+    "integrated": true,
+    "playTested": false
+  },
+  "costa/victory": {
+    "frames": 4,
+    "fps": 8,
+    "loop": false,
+    "frameWidth": 384,
+    "frameHeight": 320,
+    "pixelsPerUnit": 150.58823529411765,
+    "footAnchor": [
+      192.0,
+      308
+    ],
+    "gripX": [
+      153.5,
+      169.0,
+      196.5,
+      196.0
+    ],
+    "gripY": [
+      144.0,
+      149.0,
+      155.0,
+      162.0
+    ],
+    "uniformAnatomy": true,
+    "source": "costa_base",
+    "sourceIndices": [
+      56,
+      57,
+      58,
+      59
+    ],
+    "sourceScale": 1.0256410256410255,
+    "frameUniformScales": [
+      1.118881118881119,
+      1.118881118881119,
+      1.118881118881119,
+      1.118881118881119
+    ],
+    "frameBounds": [
+      [
+        148,
+        141,
+        265,
+        308
+      ],
+      [
+        160,
+        146,
+        254,
+        308
+      ],
+      [
+        117,
+        151,
+        286,
+        308
+      ],
+      [
+        149,
+        159,
+        255,
+        308
+      ]
+    ],
+    "integrated": true,
+    "playTested": false
+  },
+  "costa/guard": {
+    "frames": 4,
+    "fps": 10,
+    "loop": true,
+    "frameWidth": 384,
+    "frameHeight": 320,
+    "pixelsPerUnit": 150.58823529411765,
+    "footAnchor": [
+      192.0,
+      308
+    ],
+    "gripX": [
+      183.0,
+      184.0,
+      185.0,
+      182.0
+    ],
+    "gripY": [
+      162.0,
+      159.0,
+      163.0,
+      151.0
+    ],
+    "uniformAnatomy": true,
+    "source": "costa_base",
+    "sourceIndices": [
+      60,
+      61,
+      62,
+      63
+    ],
+    "sourceScale": 1.0256410256410255,
+    "frameUniformScales": [
+      1.118881118881119,
+      1.118881118881119,
+      1.118881118881119,
+      1.118881118881119
+    ],
+    "frameBounds": [
+      [
+        122,
+        159,
+        252,
+        308
+      ],
+      [
+        106,
+        156,
+        235,
+        308
+      ],
+      [
+        117,
+        161,
+        241,
+        308
+      ],
+      [
+        147,
+        148,
+        240,
+        308
+      ]
+    ],
+    "integrated": true,
+    "playTested": false
+  },
+  "costa/dance": {
+    "frames": 8,
+    "fps": 16,
+    "loop": true,
+    "frameWidth": 384,
+    "frameHeight": 320,
+    "pixelsPerUnit": 150.58823529411765,
+    "footAnchor": [
+      192.0,
+      308
+    ],
+    "gripX": [
+      186.0,
+      188.0,
+      186.0,
+      186.0,
+      185.0,
+      186.0,
+      189.0,
+      186.0
+    ],
+    "gripY": [
+      148.0,
+      147.0,
+      149.0,
+      150.0,
+      149.0,
+      148.0,
+      147.0,
+      149.0
+    ],
+    "uniformAnatomy": true,
+    "source": "ceremony",
+    "sourceIndices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "sourceScale": 0.6299212598425197,
+    "frameUniformScales": [
+      0.6299212598425197,
+      0.6299212598425197,
+      0.6299212598425197,
+      0.6299212598425197,
+      0.6299212598425197,
+      0.6299212598425197,
+      0.6299212598425197,
+      0.6299212598425197
+    ],
+    "frameBounds": [
+      [
+        138,
+        145,
+        251,
+        308
+      ],
+      [
+        127,
+        144,
+        244,
+        308
+      ],
+      [
+        129,
+        146,
+        242,
+        308
+      ],
+      [
+        128,
+        147,
+        241,
+        308
+      ],
+      [
+        137,
+        146,
+        252,
+        308
+      ],
+      [
+        149,
+        145,
+        257,
+        308
+      ],
+      [
+        132,
+        144,
+        259,
+        308
+      ],
+      [
+        136,
+        146,
+        244,
+        308
+      ]
+    ],
+    "integrated": true,
+    "playTested": false
+  },
+  "costa/baile": {
+    "frames": 8,
+    "fps": 16,
+    "loop": true,
+    "frameWidth": 384,
+    "frameHeight": 320,
+    "pixelsPerUnit": 150.58823529411765,
+    "footAnchor": [
+      192.0,
+      308
+    ],
+    "gripX": [
+      186.0,
+      188.0,
+      186.0,
+      186.0,
+      185.0,
+      186.0,
+      189.0,
+      186.0
+    ],
+    "gripY": [
+      148.0,
+      147.0,
+      149.0,
+      150.0,
+      149.0,
+      148.0,
+      147.0,
+      149.0
+    ],
+    "uniformAnatomy": true,
+    "source": "ceremony",
+    "sourceIndices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "sourceScale": 0.6299212598425197,
+    "frameUniformScales": [
+      0.6299212598425197,
+      0.6299212598425197,
+      0.6299212598425197,
+      0.6299212598425197,
+      0.6299212598425197,
+      0.6299212598425197,
+      0.6299212598425197,
+      0.6299212598425197
+    ],
+    "frameBounds": [
+      [
+        138,
+        145,
+        251,
+        308
+      ],
+      [
+        127,
+        144,
+        244,
+        308
+      ],
+      [
+        129,
+        146,
+        242,
+        308
+      ],
+      [
+        128,
+        147,
+        241,
+        308
+      ],
+      [
+        137,
+        146,
+        252,
+        308
+      ],
+      [
+        149,
+        145,
+        257,
+        308
+      ],
+      [
+        132,
+        144,
+        259,
+        308
+      ],
+      [
+        136,
+        146,
+        244,
+        308
+      ]
+    ],
+    "integrated": true,
+    "playTested": false
+  },
+  "sierra/run": {
+    "frames": 16,
+    "fps": 32,
+    "loop": true,
+    "frameWidth": 384,
+    "frameHeight": 320,
+    "pixelsPerUnit": 150.58823529411765,
+    "footAnchor": [
+      192.0,
+      308
+    ],
+    "gripX": [
+      197.5,
+      200.0,
+      197.5,
+      198.0,
+      198.5,
+      200.0,
+      198.0,
+      198.0,
+      197.0,
+      197.0,
+      198.0,
+      196.5,
+      201.0,
+      196.0,
+      196.0,
+      200.0
+    ],
+    "gripY": [
+      173.0,
+      177.0,
+      174.0,
+      175.0,
+      173.0,
+      162.0,
+      160.0,
+      163.0,
+      171.0,
+      178.0,
+      172.0,
+      169.0,
+      164.0,
+      165.0,
+      160.0,
+      166.0
+    ],
+    "uniformAnatomy": true,
+    "source": "sierra_base",
+    "sourceIndices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "sourceScale": 0.9026798307475318,
+    "frameUniformScales": [
+      0.9026798307475318,
+      0.9026798307475318,
+      0.9026798307475318,
+      0.9026798307475318,
+      0.9026798307475318,
+      0.9026798307475318,
+      0.9026798307475318,
+      0.9026798307475318,
+      0.9026798307475318,
+      0.9026798307475318,
+      0.9026798307475318,
+      0.9026798307475318,
+      0.9026798307475318,
+      0.9026798307475318,
+      0.9026798307475318,
+      0.9026798307475318
+    ],
+    "frameBounds": [
+      [
+        109,
+        164,
+        231,
+        308
+      ],
+      [
+        110,
+        167,
+        237,
+        308
+      ],
+      [
+        114,
+        163,
+        239,
+        308
+      ],
+      [
+        104,
+        164,
+        233,
+        303
+      ],
+      [
+        101,
+        162,
+        239,
+        299
+      ],
+      [
+        109,
+        150,
+        234,
+        294
+      ],
+      [
+        110,
+        149,
+        236,
+        289
+      ],
+      [
+        110,
+        151,
+        220,
+        299
+      ],
+      [
+        114,
+        161,
+        235,
+        308
+      ],
+      [
+        100,
+        165,
+        234,
+        308
+      ],
+      [
+        112,
+        161,
+        239,
+        308
+      ],
+      [
+        103,
+        157,
+        236,
+        303
+      ],
+      [
+        110,
+        152,
+        238,
+        299
+      ],
+      [
+        101,
+        153,
+        237,
+        294
+      ],
+      [
+        102,
+        146,
+        232,
+        289
+      ],
+      [
+        107,
+        155,
+        228,
+        299
+      ]
+    ],
+    "integrated": true,
+    "playTested": false
+  },
+  "sierra/idle": {
+    "frames": 4,
+    "fps": 8,
+    "loop": true,
+    "frameWidth": 384,
+    "frameHeight": 320,
+    "pixelsPerUnit": 150.58823529411765,
+    "footAnchor": [
+      192.0,
+      308
+    ],
+    "gripX": [
+      198.0,
+      196.0,
+      197.0,
+      199.0
+    ],
+    "gripY": [
+      158.0,
+      160.0,
+      158.0,
+      159.0
+    ],
+    "uniformAnatomy": true,
+    "source": "sierra_base",
+    "sourceIndices": [
+      16,
+      17,
+      18,
+      19
+    ],
+    "sourceScale": 0.9026798307475318,
+    "frameUniformScales": [
+      0.9026798307475318,
+      0.9026798307475318,
+      0.9026798307475318,
+      0.9026798307475318
+    ],
+    "frameBounds": [
+      [
+        158,
+        147,
+        230,
+        308
+      ],
+      [
+        157,
+        149,
+        230,
+        308
+      ],
+      [
+        156,
+        147,
+        232,
+        308
+      ],
+      [
+        155,
+        148,
+        230,
+        308
+      ]
+    ],
+    "integrated": true,
+    "playTested": false
+  },
+  "sierra/jump": {
+    "frames": 4,
+    "fps": 12,
+    "loop": false,
+    "frameWidth": 384,
+    "frameHeight": 320,
+    "pixelsPerUnit": 150.58823529411765,
+    "footAnchor": [
+      192.0,
+      308
+    ],
+    "gripX": [
+      202.0,
+      201.0,
+      201.0,
+      202.0
+    ],
+    "gripY": [
+      199.0,
+      178.0,
+      182.0,
+      186.0
+    ],
+    "uniformAnatomy": true,
+    "source": "sierra_base",
+    "sourceIndices": [
+      20,
+      21,
+      22,
+      23
+    ],
+    "sourceScale": 0.9026798307475318,
+    "frameUniformScales": [
+      0.9026798307475318,
+      0.9026798307475318,
+      0.9026798307475318,
+      0.9026798307475318
+    ],
+    "frameBounds": [
+      [
+        131,
+        187,
+        238,
+        308
+      ],
+      [
+        133,
+        167,
+        228,
+        308
+      ],
+      [
+        138,
+        172,
+        245,
+        308
+      ],
+      [
+        138,
+        174,
+        249,
+        308
+      ]
+    ],
+    "integrated": true,
+    "playTested": false
+  },
+  "sierra/double_jump": {
+    "frames": 4,
+    "fps": 12,
+    "loop": false,
+    "frameWidth": 384,
+    "frameHeight": 320,
+    "pixelsPerUnit": 150.58823529411765,
+    "footAnchor": [
+      192.0,
+      308
+    ],
+    "gripX": [
+      206.0,
+      204.0,
+      203.5,
+      142.0
+    ],
+    "gripY": [
+      195.0,
+      208.0,
+      190.0,
+      180.0
+    ],
+    "uniformAnatomy": true,
+    "source": "sierra_base",
+    "sourceIndices": [
+      24,
+      25,
+      26,
+      27
+    ],
+    "sourceScale": 0.9026798307475318,
+    "frameUniformScales": [
+      0.9026798307475318,
+      0.9026798307475318,
+      0.9026798307475318,
+      0.9026798307475318
+    ],
+    "frameBounds": [
+      [
+        126,
+        182,
+        222,
+        308
+      ],
+      [
+        128,
+        196,
+        249,
+        308
+      ],
+      [
+        124,
+        179,
+        251,
+        308
+      ],
+      [
+        134,
+        176,
+        241,
+        308
+      ]
+    ],
+    "integrated": true,
+    "playTested": false
+  },
+  "sierra/fall": {
+    "frames": 4,
+    "fps": 12,
+    "loop": false,
+    "frameWidth": 384,
+    "frameHeight": 320,
+    "pixelsPerUnit": 150.58823529411765,
+    "footAnchor": [
+      192.0,
+      308
+    ],
+    "gripX": [
+      201.0,
+      199.0,
+      202.0,
+      200.0
+    ],
+    "gripY": [
+      182.0,
+      184.0,
+      205.0,
+      208.0
+    ],
+    "uniformAnatomy": true,
+    "source": "sierra_base",
+    "sourceIndices": [
+      28,
+      29,
+      30,
+      31
+    ],
+    "sourceScale": 0.9026798307475318,
+    "frameUniformScales": [
+      0.9026798307475318,
+      0.9026798307475318,
+      0.9026798307475318,
+      0.9026798307475318
+    ],
+    "frameBounds": [
+      [
+        136,
+        171,
+        253,
+        308
+      ],
+      [
+        143,
+        172,
+        275,
+        308
+      ],
+      [
+        142,
+        193,
+        284,
+        308
+      ],
+      [
+        143,
+        199,
+        246,
+        308
+      ]
+    ],
+    "integrated": true,
+    "playTested": false
+  },
+  "sierra/land": {
+    "frames": 4,
+    "fps": 16,
+    "loop": false,
+    "frameWidth": 384,
+    "frameHeight": 320,
+    "pixelsPerUnit": 150.58823529411765,
+    "footAnchor": [
+      192.0,
+      308
+    ],
+    "gripX": [
+      206.0,
+      204.0,
+      200.0,
+      199.0
+    ],
+    "gripY": [
+      192.0,
+      181.0,
+      172.0,
+      162.0
+    ],
+    "uniformAnatomy": true,
+    "source": "sierra_base",
+    "sourceIndices": [
+      32,
+      33,
+      34,
+      35
+    ],
+    "sourceScale": 0.9026798307475318,
+    "frameUniformScales": [
+      1.0457516339869282,
+      1.0457516339869282,
+      1.0457516339869282,
+      1.0457516339869282
+    ],
+    "frameBounds": [
+      [
+        110,
+        178,
+        240,
+        308
+      ],
+      [
+        103,
+        166,
+        250,
+        308
+      ],
+      [
+        127,
+        158,
+        250,
+        308
+      ],
+      [
+        146,
+        148,
+        244,
+        308
+      ]
+    ],
+    "integrated": true,
+    "playTested": false
+  },
+  "sierra/slide": {
+    "frames": 2,
+    "fps": 8,
+    "loop": true,
+    "frameWidth": 384,
+    "frameHeight": 320,
+    "pixelsPerUnit": 150.58823529411765,
+    "footAnchor": [
+      192.0,
+      308
+    ],
+    "gripX": [
+      218.5,
+      202.0
+    ],
+    "gripY": [
+      230.0,
+      210.0
+    ],
+    "uniformAnatomy": true,
+    "source": "sierra_base",
+    "sourceIndices": [
+      37,
+      38
+    ],
+    "sourceScale": 0.9026798307475318,
+    "frameUniformScales": [
+      1.0457516339869282,
+      1.0457516339869282
+    ],
+    "frameBounds": [
+      [
+        122,
+        213,
+        294,
+        308
+      ],
+      [
+        131,
+        195,
+        284,
+        308
+      ]
+    ],
+    "integrated": true,
+    "playTested": false
+  },
+  "sierra/slide_enter": {
+    "frames": 2,
+    "fps": 16,
+    "loop": false,
+    "frameWidth": 384,
+    "frameHeight": 320,
+    "pixelsPerUnit": 150.58823529411765,
+    "footAnchor": [
+      192.0,
+      308
+    ],
+    "gripX": [
+      207.0,
+      218.5
+    ],
+    "gripY": [
+      216.0,
+      230.0
+    ],
+    "uniformAnatomy": true,
+    "source": "sierra_base",
+    "sourceIndices": [
+      36,
+      37
+    ],
+    "sourceScale": 0.9026798307475318,
+    "frameUniformScales": [
+      1.0457516339869282,
+      1.0457516339869282
+    ],
+    "frameBounds": [
+      [
+        115,
+        201,
+        301,
+        308
+      ],
+      [
+        122,
+        213,
+        294,
+        308
+      ]
+    ],
+    "integrated": true,
+    "playTested": false
+  },
+  "sierra/slide_exit": {
+    "frames": 2,
+    "fps": 16,
+    "loop": false,
+    "frameWidth": 384,
+    "frameHeight": 320,
+    "pixelsPerUnit": 150.58823529411765,
+    "footAnchor": [
+      192.0,
+      308
+    ],
+    "gripX": [
+      202.0,
+      202.5
+    ],
+    "gripY": [
+      210.0,
+      172.0
+    ],
+    "uniformAnatomy": true,
+    "source": "sierra_base",
+    "sourceIndices": [
+      38,
+      39
+    ],
+    "sourceScale": 0.9026798307475318,
+    "frameUniformScales": [
+      1.0457516339869282,
+      1.0457516339869282
+    ],
+    "frameBounds": [
+      [
+        131,
+        195,
+        284,
+        308
+      ],
+      [
+        134,
+        158,
+        244,
+        308
+      ]
+    ],
+    "integrated": true,
+    "playTested": false
+  },
+  "sierra/shoot": {
+    "frames": 4,
+    "fps": 20,
+    "loop": false,
+    "frameWidth": 384,
+    "frameHeight": 320,
+    "pixelsPerUnit": 150.58823529411765,
+    "footAnchor": [
+      192.0,
+      308
+    ],
+    "gripX": [
+      200.0,
+      200.5,
+      199.0,
+      202.5
+    ],
+    "gripY": [
+      158.0,
+      157.0,
+      159.0,
+      158.0
+    ],
+    "uniformAnatomy": true,
+    "source": "sierra_base",
+    "sourceIndices": [
+      40,
+      41,
+      42,
+      43
+    ],
+    "sourceScale": 0.9026798307475318,
+    "frameUniformScales": [
+      1.095890410958904,
+      1.095890410958904,
+      1.095890410958904,
+      1.095890410958904
+    ],
+    "frameBounds": [
+      [
+        115,
+        145,
+        290,
+        308
+      ],
+      [
+        123,
+        145,
+        317,
+        308
+      ],
+      [
+        124,
+        145,
+        289,
+        308
+      ],
+      [
+        129,
+        145,
+        286,
+        308
+      ]
+    ],
+    "integrated": true,
+    "playTested": false
+  },
+  "sierra/reload": {
+    "frames": 4,
+    "fps": 10,
+    "loop": false,
+    "frameWidth": 384,
+    "frameHeight": 320,
+    "pixelsPerUnit": 150.58823529411765,
+    "footAnchor": [
+      192.0,
+      308
+    ],
+    "gripX": [
+      200.0,
+      206.0,
+      199.0,
+      201.0
+    ],
+    "gripY": [
+      167.0,
+      173.0,
+      168.0,
+      161.0
+    ],
+    "uniformAnatomy": true,
+    "source": "sierra_base",
+    "sourceIndices": [
+      44,
+      45,
+      46,
+      47
+    ],
+    "sourceScale": 0.9026798307475318,
+    "frameUniformScales": [
+      1.095890410958904,
+      1.095890410958904,
+      1.095890410958904,
+      1.095890410958904
+    ],
+    "frameBounds": [
+      [
+        130,
+        153,
+        260,
+        308
+      ],
+      [
+        107,
+        157,
+        235,
+        308
+      ],
+      [
+        108,
+        152,
+        255,
+        308
+      ],
+      [
+        118,
+        148,
+        268,
+        308
+      ]
+    ],
+    "integrated": true,
+    "playTested": false
+  },
+  "sierra/hit": {
+    "frames": 4,
+    "fps": 16,
+    "loop": false,
+    "frameWidth": 384,
+    "frameHeight": 320,
+    "pixelsPerUnit": 150.58823529411765,
+    "footAnchor": [
+      192.0,
+      308
+    ],
+    "gripX": [
+      194.0,
+      190.0,
+      203.0,
+      203.0
+    ],
+    "gripY": [
+      153.0,
+      188.0,
+      164.0,
+      164.0
+    ],
+    "uniformAnatomy": true,
+    "source": "sierra_base",
+    "sourceIndices": [
+      48,
+      50,
+      51,
+      51
+    ],
+    "sourceScale": 0.9026798307475318,
+    "frameUniformScales": [
+      1.415929203539823,
+      1.415929203539823,
+      1.415929203539823,
+      1.415929203539823
+    ],
+    "frameBounds": [
+      [
+        161,
+        144,
+        329,
+        308
+      ],
+      [
+        123,
+        182,
+        238,
+        308
+      ],
+      [
+        110,
+        148,
+        260,
+        308
+      ],
+      [
+        110,
+        148,
+        260,
+        308
+      ]
+    ],
+    "integrated": true,
+    "playTested": false
+  },
+  "sierra/death": {
+    "frames": 4,
+    "fps": 10,
+    "loop": false,
+    "frameWidth": 384,
+    "frameHeight": 320,
+    "pixelsPerUnit": 150.58823529411765,
+    "footAnchor": [
+      192.0,
+      308
+    ],
+    "gripX": [
+      195.0,
+      226.0,
+      199.0,
+      189.5
+    ],
+    "gripY": [
+      194.0,
+      214.0,
+      219.0,
+      232.0
+    ],
+    "uniformAnatomy": true,
+    "source": "sierra_base",
+    "sourceIndices": [
+      52,
+      53,
+      54,
+      55
+    ],
+    "sourceScale": 0.9026798307475318,
+    "frameUniformScales": [
+      1.415929203539823,
+      1.415929203539823,
+      1.415929203539823,
+      1.415929203539823
+    ],
+    "frameBounds": [
+      [
+        120,
+        176,
+        263,
+        308
+      ],
+      [
+        104,
+        199,
+        280,
+        308
+      ],
+      [
+        74,
+        213,
+        310,
+        308
+      ],
+      [
+        70,
+        226,
+        314,
+        308
+      ]
+    ],
+    "integrated": true,
+    "playTested": false
+  },
+  "sierra/victory": {
+    "frames": 4,
+    "fps": 8,
+    "loop": false,
+    "frameWidth": 384,
+    "frameHeight": 320,
+    "pixelsPerUnit": 150.58823529411765,
+    "footAnchor": [
+      192.0,
+      308
+    ],
+    "gripX": [
+      199.5,
+      197.5,
+      198.5,
+      199.5
+    ],
+    "gripY": [
+      159.0,
+      163.0,
+      160.0,
+      160.0
+    ],
+    "uniformAnatomy": true,
+    "source": "ceremony",
+    "sourceIndices": [
+      24,
+      25,
+      26,
+      27
+    ],
+    "sourceScale": 0.6299212598425197,
+    "frameUniformScales": [
+      0.6299212598425197,
+      0.6299212598425197,
+      0.6299212598425197,
+      0.6299212598425197
+    ],
+    "frameBounds": [
+      [
+        154,
+        149,
+        240,
+        308
+      ],
+      [
+        145,
+        151,
+        249,
+        308
+      ],
+      [
+        146,
+        149,
+        247,
+        308
+      ],
+      [
+        153,
+        149,
+        246,
+        308
+      ]
+    ],
+    "integrated": true,
+    "playTested": false
+  },
+  "sierra/guard": {
+    "frames": 4,
+    "fps": 10,
+    "loop": true,
+    "frameWidth": 384,
+    "frameHeight": 320,
+    "pixelsPerUnit": 150.58823529411765,
+    "footAnchor": [
+      192.0,
+      308
+    ],
+    "gripX": [
+      202.0,
+      201.0,
+      202.0,
+      202.5
+    ],
+    "gripY": [
+      166.0,
+      166.0,
+      167.0,
+      162.0
+    ],
+    "uniformAnatomy": true,
+    "source": "sierra_base",
+    "sourceIndices": [
+      60,
+      61,
+      62,
+      63
+    ],
+    "sourceScale": 0.9026798307475318,
+    "frameUniformScales": [
+      1.4414414414414414,
+      1.4414414414414414,
+      1.4414414414414414,
+      1.4414414414414414
+    ],
+    "frameBounds": [
+      [
+        123,
+        151,
+        258,
+        308
+      ],
+      [
+        122,
+        152,
+        265,
+        308
+      ],
+      [
+        122,
+        155,
+        268,
+        308
+      ],
+      [
+        143,
+        148,
+        248,
+        308
+      ]
+    ],
+    "integrated": true,
+    "playTested": false
+  },
+  "sierra/dance": {
+    "frames": 8,
+    "fps": 16,
+    "loop": true,
+    "frameWidth": 384,
+    "frameHeight": 320,
+    "pixelsPerUnit": 150.58823529411765,
+    "footAnchor": [
+      192.0,
+      308
+    ],
+    "gripX": [
+      199.0,
+      200.5,
+      197.0,
+      197.0,
+      198.5,
+      198.5,
+      194.0,
+      197.0
+    ],
+    "gripY": [
+      157.0,
+      159.0,
+      157.0,
+      159.0,
+      160.0,
+      161.0,
+      159.0,
+      159.0
+    ],
+    "uniformAnatomy": true,
+    "source": "ceremony",
+    "sourceIndices": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "sourceScale": 0.6299212598425197,
+    "frameUniformScales": [
+      0.6299212598425197,
+      0.6299212598425197,
+      0.6299212598425197,
+      0.6299212598425197,
+      0.6299212598425197,
+      0.6299212598425197,
+      0.6299212598425197,
+      0.6299212598425197
+    ],
+    "frameBounds": [
+      [
+        153,
+        149,
+        273,
+        308
+      ],
+      [
+        155,
+        151,
+        276,
+        308
+      ],
+      [
+        151,
+        149,
+        261,
+        308
+      ],
+      [
+        135,
+        150,
+        247,
+        308
+      ],
+      [
+        135,
+        151,
+        272,
+        308
+      ],
+      [
+        143,
+        153,
+        243,
+        308
+      ],
+      [
+        147,
+        151,
+        247,
+        308
+      ],
+      [
+        153,
+        150,
+        247,
+        308
+      ]
+    ],
+    "integrated": true,
+    "playTested": false
+  },
+  "sierra/baile": {
+    "frames": 8,
+    "fps": 16,
+    "loop": true,
+    "frameWidth": 384,
+    "frameHeight": 320,
+    "pixelsPerUnit": 150.58823529411765,
+    "footAnchor": [
+      192.0,
+      308
+    ],
+    "gripX": [
+      199.0,
+      200.5,
+      197.0,
+      197.0,
+      198.5,
+      198.5,
+      194.0,
+      197.0
+    ],
+    "gripY": [
+      157.0,
+      159.0,
+      157.0,
+      159.0,
+      160.0,
+      161.0,
+      159.0,
+      159.0
+    ],
+    "uniformAnatomy": true,
+    "source": "ceremony",
+    "sourceIndices": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "sourceScale": 0.6299212598425197,
+    "frameUniformScales": [
+      0.6299212598425197,
+      0.6299212598425197,
+      0.6299212598425197,
+      0.6299212598425197,
+      0.6299212598425197,
+      0.6299212598425197,
+      0.6299212598425197,
+      0.6299212598425197
+    ],
+    "frameBounds": [
+      [
+        153,
+        149,
+        273,
+        308
+      ],
+      [
+        155,
+        151,
+        276,
+        308
+      ],
+      [
+        151,
+        149,
+        261,
+        308
+      ],
+      [
+        135,
+        150,
+        247,
+        308
+      ],
+      [
+        135,
+        151,
+        272,
+        308
+      ],
+      [
+        143,
+        153,
+        243,
+        308
+      ],
+      [
+        147,
+        151,
+        247,
+        308
+      ],
+      [
+        153,
+        150,
+        247,
+        308
+      ]
+    ],
+    "integrated": true,
+    "playTested": false
+  },
+  "selva/run": {
+    "frames": 16,
+    "fps": 32,
+    "loop": true,
+    "frameWidth": 384,
+    "frameHeight": 320,
+    "pixelsPerUnit": 150.58823529411765,
+    "footAnchor": [
+      192.0,
+      308
+    ],
+    "gripX": [
+      198.0,
+      197.0,
+      199.0,
+      197.0,
+      196.5,
+      198.0,
+      198.0,
+      197.5,
+      197.0,
+      198.0,
+      200.0,
+      200.0,
+      198.5,
+      197.0,
+      199.0,
+      198.0
+    ],
+    "gripY": [
+      164.0,
+      165.0,
+      168.0,
+      165.0,
+      160.0,
+      152.0,
+      151.0,
+      155.0,
+      162.0,
+      164.0,
+      162.0,
+      161.0,
+      156.0,
+      161.0,
+      146.0,
+      156.0
+    ],
+    "uniformAnatomy": true,
+    "source": "selva_base",
+    "sourceIndices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "sourceScale": 0.975609756097561,
+    "frameUniformScales": [
+      0.975609756097561,
+      0.975609756097561,
+      0.975609756097561,
+      0.975609756097561,
+      0.975609756097561,
+      0.975609756097561,
+      0.975609756097561,
+      0.975609756097561,
+      0.975609756097561,
+      0.975609756097561,
+      0.975609756097561,
+      0.975609756097561,
+      0.975609756097561,
+      0.975609756097561,
+      0.975609756097561,
+      0.975609756097561
+    ],
+    "frameBounds": [
+      [
+        104,
+        156,
+        228,
+        308
+      ],
+      [
+        104,
+        157,
+        235,
+        308
+      ],
+      [
+        113,
+        159,
+        238,
+        308
+      ],
+      [
+        98,
+        159,
+        231,
+        303
+      ],
+      [
+        98,
+        153,
+        240,
+        299
+      ],
+      [
+        99,
+        144,
+        235,
+        294
+      ],
+      [
+        104,
+        143,
+        241,
+        289
+      ],
+      [
+        110,
+        147,
+        225,
+        299
+      ],
+      [
+        109,
+        154,
+        228,
+        308
+      ],
+      [
+        98,
+        156,
+        233,
+        308
+      ],
+      [
+        107,
+        154,
+        236,
+        308
+      ],
+      [
+        98,
+        152,
+        238,
+        303
+      ],
+      [
+        101,
+        148,
+        236,
+        299
+      ],
+      [
+        92,
+        152,
+        235,
+        294
+      ],
+      [
+        93,
+        137,
+        233,
+        289
+      ],
+      [
+        104,
+        148,
+        227,
+        299
+      ]
+    ],
+    "integrated": true,
+    "playTested": false
+  },
+  "selva/idle": {
+    "frames": 4,
+    "fps": 8,
+    "loop": true,
+    "frameWidth": 384,
+    "frameHeight": 320,
+    "pixelsPerUnit": 150.58823529411765,
+    "footAnchor": [
+      192.0,
+      308
+    ],
+    "gripX": [
+      198.0,
+      195.5,
+      196.0,
+      198.0
+    ],
+    "gripY": [
+      156.0,
+      155.0,
+      156.0,
+      156.0
+    ],
+    "uniformAnatomy": true,
+    "source": "selva_base",
+    "sourceIndices": [
+      16,
+      17,
+      18,
+      19
+    ],
+    "sourceScale": 0.975609756097561,
+    "frameUniformScales": [
+      0.975609756097561,
+      0.975609756097561,
+      0.975609756097561,
+      0.975609756097561
+    ],
+    "frameBounds": [
+      [
+        159,
+        148,
+        228,
+        308
+      ],
+      [
+        159,
+        148,
+        230,
+        308
+      ],
+      [
+        161,
+        148,
+        231,
+        308
+      ],
+      [
+        158,
+        148,
+        228,
+        308
+      ]
+    ],
+    "integrated": true,
+    "playTested": false
+  },
+  "selva/jump": {
+    "frames": 4,
+    "fps": 12,
+    "loop": false,
+    "frameWidth": 384,
+    "frameHeight": 320,
+    "pixelsPerUnit": 150.58823529411765,
+    "footAnchor": [
+      192.0,
+      308
+    ],
+    "gripX": [
+      204.0,
+      198.0,
+      199.0,
+      200.0
+    ],
+    "gripY": [
+      194.0,
+      169.0,
+      177.0,
+      177.0
+    ],
+    "uniformAnatomy": true,
+    "source": "selva_base",
+    "sourceIndices": [
+      20,
+      21,
+      22,
+      23
+    ],
+    "sourceScale": 0.975609756097561,
+    "frameUniformScales": [
+      0.975609756097561,
+      0.975609756097561,
+      0.975609756097561,
+      0.975609756097561
+    ],
+    "frameBounds": [
+      [
+        126,
+        185,
+        235,
+        308
+      ],
+      [
+        131,
+        163,
+        226,
+        308
+      ],
+      [
+        137,
+        168,
+        244,
+        308
+      ],
+      [
+        138,
+        169,
+        248,
+        308
+      ]
+    ],
+    "integrated": true,
+    "playTested": false
+  },
+  "selva/double_jump": {
+    "frames": 4,
+    "fps": 12,
+    "loop": false,
+    "frameWidth": 384,
+    "frameHeight": 320,
+    "pixelsPerUnit": 150.58823529411765,
+    "footAnchor": [
+      192.0,
+      308
+    ],
+    "gripX": [
+      205.0,
+      205.5,
+      201.0,
+      142.5
+    ],
+    "gripY": [
+      196.0,
+      210.0,
+      188.0,
+      175.0
+    ],
+    "uniformAnatomy": true,
+    "source": "selva_base",
+    "sourceIndices": [
+      24,
+      25,
+      26,
+      27
+    ],
+    "sourceScale": 0.975609756097561,
+    "frameUniformScales": [
+      0.975609756097561,
+      0.975609756097561,
+      0.975609756097561,
+      0.975609756097561
+    ],
+    "frameBounds": [
+      [
+        125,
+        184,
+        221,
+        308
+      ],
+      [
+        129,
+        200,
+        251,
+        308
+      ],
+      [
+        124,
+        178,
+        248,
+        308
+      ],
+      [
+        134,
+        171,
+        240,
+        308
+      ]
+    ],
+    "integrated": true,
+    "playTested": false
+  },
+  "selva/fall": {
+    "frames": 4,
+    "fps": 12,
+    "loop": false,
+    "frameWidth": 384,
+    "frameHeight": 320,
+    "pixelsPerUnit": 150.58823529411765,
+    "footAnchor": [
+      192.0,
+      308
+    ],
+    "gripX": [
+      198.0,
+      200.0,
+      198.5,
+      199.0
+    ],
+    "gripY": [
+      174.0,
+      177.0,
+      204.0,
+      206.0
+    ],
+    "uniformAnatomy": true,
+    "source": "selva_base",
+    "sourceIndices": [
+      28,
+      29,
+      30,
+      31
+    ],
+    "sourceScale": 0.975609756097561,
+    "frameUniformScales": [
+      0.975609756097561,
+      0.975609756097561,
+      0.975609756097561,
+      0.975609756097561
+    ],
+    "frameBounds": [
+      [
+        138,
+        165,
+        255,
+        308
+      ],
+      [
+        143,
+        168,
+        281,
+        308
+      ],
+      [
+        142,
+        194,
+        283,
+        308
+      ],
+      [
+        139,
+        198,
+        247,
+        308
+      ]
+    ],
+    "integrated": true,
+    "playTested": false
+  },
+  "selva/land": {
+    "frames": 4,
+    "fps": 16,
+    "loop": false,
+    "frameWidth": 384,
+    "frameHeight": 320,
+    "pixelsPerUnit": 150.58823529411765,
+    "footAnchor": [
+      192.0,
+      308
+    ],
+    "gripX": [
+      208.5,
+      203.0,
+      199.5,
+      198.0
+    ],
+    "gripY": [
+      188.0,
+      172.0,
+      167.0,
+      157.0
+    ],
+    "uniformAnatomy": true,
+    "source": "selva_base",
+    "sourceIndices": [
+      32,
+      33,
+      34,
+      35
+    ],
+    "sourceScale": 0.975609756097561,
+    "frameUniformScales": [
+      1.1267605633802817,
+      1.1267605633802817,
+      1.1267605633802817,
+      1.1267605633802817
+    ],
+    "frameBounds": [
+      [
+        110,
+        176,
+        241,
+        308
+      ],
+      [
+        103,
+        158,
+        251,
+        308
+      ],
+      [
+        124,
+        154,
+        249,
+        308
+      ],
+      [
+        146,
+        148,
+        242,
+        308
+      ]
+    ],
+    "integrated": true,
+    "playTested": false
+  },
+  "selva/slide": {
+    "frames": 2,
+    "fps": 8,
+    "loop": true,
+    "frameWidth": 384,
+    "frameHeight": 320,
+    "pixelsPerUnit": 150.58823529411765,
+    "footAnchor": [
+      192.0,
+      308
+    ],
+    "gripX": [
+      215.0,
+      201.5
+    ],
+    "gripY": [
+      221.0,
+      208.0
+    ],
+    "uniformAnatomy": true,
+    "source": "selva_base",
+    "sourceIndices": [
+      37,
+      38
+    ],
+    "sourceScale": 0.975609756097561,
+    "frameUniformScales": [
+      1.1267605633802817,
+      1.1267605633802817
+    ],
+    "frameBounds": [
+      [
+        120,
+        211,
+        290,
+        308
+      ],
+      [
+        129,
+        190,
+        282,
+        308
+      ]
+    ],
+    "integrated": true,
+    "playTested": false
+  },
+  "selva/slide_enter": {
+    "frames": 2,
+    "fps": 16,
+    "loop": false,
+    "frameWidth": 384,
+    "frameHeight": 320,
+    "pixelsPerUnit": 150.58823529411765,
+    "footAnchor": [
+      192.0,
+      308
+    ],
+    "gripX": [
+      204.0,
+      215.0
+    ],
+    "gripY": [
+      209.0,
+      221.0
+    ],
+    "uniformAnatomy": true,
+    "source": "selva_base",
+    "sourceIndices": [
+      36,
+      37
+    ],
+    "sourceScale": 0.975609756097561,
+    "frameUniformScales": [
+      1.1267605633802817,
+      1.1267605633802817
+    ],
+    "frameBounds": [
+      [
+        102,
+        195,
+        300,
+        308
+      ],
+      [
+        120,
+        211,
+        290,
+        308
+      ]
+    ],
+    "integrated": true,
+    "playTested": false
+  },
+  "selva/slide_exit": {
+    "frames": 2,
+    "fps": 16,
+    "loop": false,
+    "frameWidth": 384,
+    "frameHeight": 320,
+    "pixelsPerUnit": 150.58823529411765,
+    "footAnchor": [
+      192.0,
+      308
+    ],
+    "gripX": [
+      201.5,
+      200.0
+    ],
+    "gripY": [
+      208.0,
+      172.0
+    ],
+    "uniformAnatomy": true,
+    "source": "selva_base",
+    "sourceIndices": [
+      38,
+      39
+    ],
+    "sourceScale": 0.975609756097561,
+    "frameUniformScales": [
+      1.1267605633802817,
+      1.1267605633802817
+    ],
+    "frameBounds": [
+      [
+        129,
+        190,
+        282,
+        308
+      ],
+      [
+        128,
+        162,
+        245,
+        308
+      ]
+    ],
+    "integrated": true,
+    "playTested": false
+  },
+  "selva/shoot": {
+    "frames": 4,
+    "fps": 20,
+    "loop": false,
+    "frameWidth": 384,
+    "frameHeight": 320,
+    "pixelsPerUnit": 150.58823529411765,
+    "footAnchor": [
+      192.0,
+      308
+    ],
+    "gripX": [
+      203.0,
+      201.0,
+      201.0,
+      200.5
+    ],
+    "gripY": [
+      160.0,
+      157.0,
+      157.0,
+      158.0
+    ],
+    "uniformAnatomy": true,
+    "source": "selva_base",
+    "sourceIndices": [
+      40,
+      41,
+      42,
+      43
+    ],
+    "sourceScale": 0.975609756097561,
+    "frameUniformScales": [
+      1.1267605633802817,
+      1.1267605633802817,
+      1.1267605633802817,
+      1.1267605633802817
+    ],
+    "frameBounds": [
+      [
+        112,
+        149,
+        287,
+        308
+      ],
+      [
+        129,
+        147,
+        287,
+        308
+      ],
+      [
+        107,
+        147,
+        288,
+        308
+      ],
+      [
+        135,
+        148,
+        286,
+        308
+      ]
+    ],
+    "integrated": true,
+    "playTested": false
+  },
+  "selva/reload": {
+    "frames": 4,
+    "fps": 10,
+    "loop": false,
+    "frameWidth": 384,
+    "frameHeight": 320,
+    "pixelsPerUnit": 150.58823529411765,
+    "footAnchor": [
+      192.0,
+      308
+    ],
+    "gripX": [
+      200.0,
+      200.0,
+      198.0,
+      202.0
+    ],
+    "gripY": [
+      167.0,
+      168.0,
+      170.0,
+      157.0
+    ],
+    "uniformAnatomy": true,
+    "source": "selva_base",
+    "sourceIndices": [
+      44,
+      45,
+      46,
+      47
+    ],
+    "sourceScale": 0.975609756097561,
+    "frameUniformScales": [
+      1.1267605633802817,
+      1.1267605633802817,
+      1.1267605633802817,
+      1.1267605633802817
+    ],
+    "frameBounds": [
+      [
+        124,
+        156,
+        257,
+        308
+      ],
+      [
+        102,
+        154,
+        234,
+        308
+      ],
+      [
+        111,
+        156,
+        264,
+        308
+      ],
+      [
+        127,
+        148,
+        281,
+        308
+      ]
+    ],
+    "integrated": true,
+    "playTested": false
+  },
+  "selva/hit": {
+    "frames": 4,
+    "fps": 16,
+    "loop": false,
+    "frameWidth": 384,
+    "frameHeight": 320,
+    "pixelsPerUnit": 150.58823529411765,
+    "footAnchor": [
+      192.0,
+      308
+    ],
+    "gripX": [
+      193.5,
+      195.5,
+      190.0,
+      199.0
+    ],
+    "gripY": [
+      149.0,
+      152.0,
+      181.0,
+      158.0
+    ],
+    "uniformAnatomy": true,
+    "source": "selva_base",
+    "sourceIndices": [
+      48,
+      49,
+      50,
+      51
+    ],
+    "sourceScale": 0.975609756097561,
+    "frameUniformScales": [
+      1.3793103448275863,
+      1.3793103448275863,
+      1.3793103448275863,
+      1.3793103448275863
+    ],
+    "frameBounds": [
+      [
+        159,
+        144,
+        319,
+        308
+      ],
+      [
+        129,
+        147,
+        267,
+        308
+      ],
+      [
+        133,
+        171,
+        231,
+        308
+      ],
+      [
+        113,
+        148,
+        250,
+        308
+      ]
+    ],
+    "integrated": true,
+    "playTested": false
+  },
+  "selva/death": {
+    "frames": 4,
+    "fps": 10,
+    "loop": false,
+    "frameWidth": 384,
+    "frameHeight": 320,
+    "pixelsPerUnit": 150.58823529411765,
+    "footAnchor": [
+      192.0,
+      308
+    ],
+    "gripX": [
+      189.0,
+      208.5,
+      229.0,
+      187.0
+    ],
+    "gripY": [
+      186.0,
+      209.0,
+      226.0,
+      243.0
+    ],
+    "uniformAnatomy": true,
+    "source": "selva_base",
+    "sourceIndices": [
+      52,
+      53,
+      54,
+      55
+    ],
+    "sourceScale": 0.975609756097561,
+    "frameUniformScales": [
+      1.3793103448275863,
+      1.3793103448275863,
+      1.3793103448275863,
+      1.3793103448275863
+    ],
+    "frameBounds": [
+      [
+        124,
+        170,
+        259,
+        308
+      ],
+      [
+        114,
+        195,
+        271,
+        308
+      ],
+      [
+        82,
+        216,
+        301,
+        308
+      ],
+      [
+        75,
+        240,
+        309,
+        308
+      ]
+    ],
+    "integrated": true,
+    "playTested": false
+  },
+  "selva/victory": {
+    "frames": 4,
+    "fps": 8,
+    "loop": false,
+    "frameWidth": 384,
+    "frameHeight": 320,
+    "pixelsPerUnit": 150.58823529411765,
+    "footAnchor": [
+      192.0,
+      308
+    ],
+    "gripX": [
+      160.0,
+      205.0,
+      191.5,
+      200.0
+    ],
+    "gripY": [
+      142.0,
+      147.0,
+      148.0,
+      159.0
+    ],
+    "uniformAnatomy": true,
+    "source": "selva_base",
+    "sourceIndices": [
+      56,
+      57,
+      58,
+      59
+    ],
+    "sourceScale": 0.975609756097561,
+    "frameUniformScales": [
+      1.3114754098360655,
+      1.3114754098360655,
+      1.3114754098360655,
+      1.3114754098360655
+    ],
+    "frameBounds": [
+      [
+        146,
+        139,
+        252,
+        308
+      ],
+      [
+        151,
+        144,
+        252,
+        308
+      ],
+      [
+        147,
+        145,
+        270,
+        308
+      ],
+      [
+        153,
+        149,
+        234,
+        308
+      ]
+    ],
+    "integrated": true,
+    "playTested": false
+  },
+  "selva/guard": {
+    "frames": 4,
+    "fps": 10,
+    "loop": true,
+    "frameWidth": 384,
+    "frameHeight": 320,
+    "pixelsPerUnit": 150.58823529411765,
+    "footAnchor": [
+      192.0,
+      308
+    ],
+    "gripX": [
+      199.0,
+      203.0,
+      201.0,
+      198.0
+    ],
+    "gripY": [
+      163.0,
+      166.0,
+      168.0,
+      157.0
+    ],
+    "uniformAnatomy": true,
+    "source": "selva_base",
+    "sourceIndices": [
+      60,
+      61,
+      62,
+      63
+    ],
+    "sourceScale": 0.975609756097561,
+    "frameUniformScales": [
+      1.3114754098360655,
+      1.3114754098360655,
+      1.3114754098360655,
+      1.3114754098360655
+    ],
+    "frameBounds": [
+      [
+        130,
+        156,
+        251,
+        308
+      ],
+      [
+        120,
+        157,
+        249,
+        308
+      ],
+      [
+        117,
+        158,
+        253,
+        308
+      ],
+      [
+        153,
+        148,
+        234,
+        308
+      ]
+    ],
+    "integrated": true,
+    "playTested": false
+  },
+  "selva/dance": {
+    "frames": 8,
+    "fps": 16,
+    "loop": true,
+    "frameWidth": 384,
+    "frameHeight": 320,
+    "pixelsPerUnit": 150.58823529411765,
+    "footAnchor": [
+      192.0,
+      308
+    ],
+    "gripX": [
+      173.0,
+      198.0,
+      240.0,
+      241.0,
+      195.0,
+      199.0,
+      197.0,
+      190.0
+    ],
+    "gripY": [
+      162.0,
+      167.0,
+      167.0,
+      164.0,
+      168.0,
+      168.0,
+      167.0,
+      164.0
+    ],
+    "uniformAnatomy": true,
+    "source": "ceremony",
+    "sourceIndices": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "sourceScale": 0.6299212598425197,
+    "frameUniformScales": [
+      0.6299212598425197,
+      0.6299212598425197,
+      0.6299212598425197,
+      0.6299212598425197,
+      0.6299212598425197,
+      0.6299212598425197,
+      0.6299212598425197,
+      0.6299212598425197
+    ],
+    "frameBounds": [
+      [
+        153,
+        159,
+        250,
+        308
+      ],
+      [
+        144,
+        161,
+        247,
+        308
+      ],
+      [
+        123,
+        161,
+        247,
+        308
+      ],
+      [
+        143,
+        161,
+        249,
+        308
+      ],
+      [
+        160,
+        161,
+        261,
+        308
+      ],
+      [
+        154,
+        162,
+        254,
+        308
+      ],
+      [
+        153,
+        161,
+        254,
+        308
+      ],
+      [
+        134,
+        161,
+        237,
+        308
+      ]
+    ],
+    "integrated": true,
+    "playTested": false
+  },
+  "selva/baile": {
+    "frames": 8,
+    "fps": 16,
+    "loop": true,
+    "frameWidth": 384,
+    "frameHeight": 320,
+    "pixelsPerUnit": 150.58823529411765,
+    "footAnchor": [
+      192.0,
+      308
+    ],
+    "gripX": [
+      173.0,
+      198.0,
+      240.0,
+      241.0,
+      195.0,
+      199.0,
+      197.0,
+      190.0
+    ],
+    "gripY": [
+      162.0,
+      167.0,
+      167.0,
+      164.0,
+      168.0,
+      168.0,
+      167.0,
+      164.0
+    ],
+    "uniformAnatomy": true,
+    "source": "ceremony",
+    "sourceIndices": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "sourceScale": 0.6299212598425197,
+    "frameUniformScales": [
+      0.6299212598425197,
+      0.6299212598425197,
+      0.6299212598425197,
+      0.6299212598425197,
+      0.6299212598425197,
+      0.6299212598425197,
+      0.6299212598425197,
+      0.6299212598425197
+    ],
+    "frameBounds": [
+      [
+        153,
+        159,
+        250,
+        308
+      ],
+      [
+        144,
+        161,
+        247,
+        308
+      ],
+      [
+        123,
+        161,
+        247,
+        308
+      ],
+      [
+        143,
+        161,
+        249,
+        308
+      ],
+      [
+        160,
+        161,
+        261,
+        308
+      ],
+      [
+        154,
+        162,
+        254,
+        308
+      ],
+      [
+        153,
+        161,
+        254,
+        308
+      ],
+      [
+        134,
+        161,
+        237,
+        308
+      ]
+    ],
+    "integrated": true,
+    "playTested": false
+  },
+  "costa/burst": {
+    "frames": 4,
+    "fps": 16,
+    "loop": true,
+    "frameWidth": 384,
+    "frameHeight": 320,
+    "pixelsPerUnit": 150.58823529411765,
+    "footAnchor": [
+      192.0,
+      308
+    ],
+    "gripX": [
+      182.0,
+      184.0,
+      181.0,
+      181.0
+    ],
+    "gripY": [
+      156.0,
+      159.0,
+      158.0,
+      152.0
+    ],
+    "uniformAnatomy": true,
+    "source": "costa_base",
+    "sourceIndices": [
+      40,
+      41,
+      42,
+      43
+    ],
+    "sourceScale": 1.0256410256410255,
+    "frameUniformScales": [
+      1.167883211678832,
+      1.167883211678832,
+      1.167883211678832,
+      1.167883211678832
+    ],
+    "frameBounds": [
+      [
+        114,
+        153,
+        261,
+        308
+      ],
+      [
+        96,
+        156,
+        258,
+        308
+      ],
+      [
+        129,
+        155,
+        278,
+        308
+      ],
+      [
+        132,
+        150,
+        237,
+        308
+      ]
+    ],
+    "integrated": true,
+    "playTested": false
+  },
+  "sierra/burst": {
+    "frames": 8,
+    "fps": 16,
+    "loop": true,
+    "frameWidth": 384,
+    "frameHeight": 320,
+    "pixelsPerUnit": 150.58823529411765,
+    "footAnchor": [
+      192.0,
+      308
+    ],
+    "gripX": [
+      195.0,
+      196.0,
+      194.0,
+      193.0,
+      194.5,
+      197.0,
+      194.0,
+      196.0
+    ],
+    "gripY": [
+      186.0,
+      190.0,
+      183.0,
+      172.0,
+      186.0,
+      185.0,
+      182.0,
+      172.0
+    ],
+    "uniformAnatomy": true,
+    "source": "sierra_actions",
+    "sourceIndices": [
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "sourceScale": 0.7960199004975125,
+    "frameUniformScales": [
+      0.7960199004975125,
+      0.7960199004975125,
+      0.7960199004975125,
+      0.7960199004975125,
+      0.7960199004975125,
+      0.7960199004975125,
+      0.7960199004975125,
+      0.7960199004975125
+    ],
+    "frameBounds": [
+      [
+        123,
+        176,
+        274,
+        308
+      ],
+      [
+        125,
+        177,
+        268,
+        308
+      ],
+      [
+        118,
+        173,
+        281,
+        303
+      ],
+      [
+        122,
+        162,
+        268,
+        294
+      ],
+      [
+        121,
+        177,
+        279,
+        308
+      ],
+      [
+        125,
+        177,
+        267,
+        308
+      ],
+      [
+        121,
+        172,
+        281,
+        303
+      ],
+      [
+        115,
+        162,
+        265,
+        294
+      ]
+    ],
+    "integrated": true,
+    "playTested": false
+  },
+  "sierra/jump_shoot": {
+    "frames": 4,
+    "fps": 12,
+    "loop": false,
+    "frameWidth": 384,
+    "frameHeight": 320,
+    "pixelsPerUnit": 150.58823529411765,
+    "footAnchor": [
+      192.0,
+      308
+    ],
+    "gripX": [
+      192.0,
+      196.0,
+      195.0,
+      195.5
+    ],
+    "gripY": [
+      181.0,
+      189.0,
+      203.0,
+      205.0
+    ],
+    "uniformAnatomy": true,
+    "source": "sierra_actions",
+    "sourceIndices": [
+      24,
+      25,
+      26,
+      27
+    ],
+    "sourceScale": 0.7960199004975125,
+    "frameUniformScales": [
+      0.7960199004975125,
+      0.7960199004975125,
+      0.7960199004975125,
+      0.7960199004975125
+    ],
+    "frameBounds": [
+      [
+        135,
+        170,
+        274,
+        308
+      ],
+      [
+        111,
+        177,
+        273,
+        308
+      ],
+      [
+        133,
+        193,
+        286,
+        308
+      ],
+      [
+        168,
+        193,
+        289,
+        308
+      ]
+    ],
+    "integrated": true,
+    "playTested": false
+  },
+  "sierra/double_jump_shoot": {
+    "frames": 4,
+    "fps": 12,
+    "loop": false,
+    "frameWidth": 384,
+    "frameHeight": 320,
+    "pixelsPerUnit": 150.58823529411765,
+    "footAnchor": [
+      192.0,
+      308
+    ],
+    "gripX": [
+      192.0,
+      196.0,
+      195.0,
+      195.5
+    ],
+    "gripY": [
+      181.0,
+      189.0,
+      203.0,
+      205.0
+    ],
+    "uniformAnatomy": true,
+    "source": "sierra_actions",
+    "sourceIndices": [
+      24,
+      25,
+      26,
+      27
+    ],
+    "sourceScale": 0.7960199004975125,
+    "frameUniformScales": [
+      0.7960199004975125,
+      0.7960199004975125,
+      0.7960199004975125,
+      0.7960199004975125
+    ],
+    "frameBounds": [
+      [
+        135,
+        170,
+        274,
+        308
+      ],
+      [
+        111,
+        177,
+        273,
+        308
+      ],
+      [
+        133,
+        193,
+        286,
+        308
+      ],
+      [
+        168,
+        193,
+        289,
+        308
+      ]
+    ],
+    "integrated": true,
+    "playTested": false
+  },
+  "sierra/fall_shoot": {
+    "frames": 4,
+    "fps": 12,
+    "loop": false,
+    "frameWidth": 384,
+    "frameHeight": 320,
+    "pixelsPerUnit": 150.58823529411765,
+    "footAnchor": [
+      192.0,
+      308
+    ],
+    "gripX": [
+      192.5,
+      268.0,
+      194.0,
+      262.5
+    ],
+    "gripY": [
+      211.0,
+      219.0,
+      223.0,
+      231.0
+    ],
+    "uniformAnatomy": true,
+    "source": "sierra_actions",
+    "sourceIndices": [
+      28,
+      29,
+      30,
+      31
+    ],
+    "sourceScale": 0.7960199004975125,
+    "frameUniformScales": [
+      0.7960199004975125,
+      0.7960199004975125,
+      0.7960199004975125,
+      0.7960199004975125
+    ],
+    "frameBounds": [
+      [
+        174,
+        201,
+        306,
+        308
+      ],
+      [
+        156,
+        208,
+        284,
+        308
+      ],
+      [
+        164,
+        212,
+        286,
+        308
+      ],
+      [
+        160,
+        220,
+        297,
+        308
+      ]
+    ],
+    "integrated": true,
+    "playTested": false
+  },
+  "sierra/climb": {
+    "frames": 4,
+    "fps": 12,
+    "loop": true,
+    "frameWidth": 384,
+    "frameHeight": 320,
+    "pixelsPerUnit": 150.58823529411765,
+    "footAnchor": [
+      192.0,
+      308
+    ],
+    "gripX": [
+      197.0,
+      198.0,
+      221.0,
+      223.0
+    ],
+    "gripY": [
+      184.0,
+      170.0,
+      156.0,
+      149.0
+    ],
+    "uniformAnatomy": true,
+    "source": "sierra_actions",
+    "sourceIndices": [
+      20,
+      21,
+      22,
+      23
+    ],
+    "sourceScale": 0.7960199004975125,
+    "frameUniformScales": [
+      0.7960199004975125,
+      0.7960199004975125,
+      0.7960199004975125,
+      0.7960199004975125
+    ],
+    "frameBounds": [
+      [
+        149,
+        174,
+        231,
+        308
+      ],
+      [
+        154,
+        159,
+        232,
+        308
+      ],
+      [
+        160,
+        153,
+        230,
+        308
+      ],
+      [
+        161,
+        146,
+        232,
+        308
+      ]
+    ],
+    "integrated": true,
+    "playTested": false
+  },
+  "selva/burst": {
+    "frames": 8,
+    "fps": 16,
+    "loop": true,
+    "frameWidth": 384,
+    "frameHeight": 320,
+    "pixelsPerUnit": 150.58823529411765,
+    "footAnchor": [
+      192.0,
+      308
+    ],
+    "gripX": [
+      202.0,
+      195.0,
+      201.0,
+      200.5,
+      203.0,
+      203.0,
+      202.0,
+      202.0
+    ],
+    "gripY": [
+      159.0,
+      164.0,
+      162.0,
+      150.0,
+      166.0,
+      168.0,
+      161.0,
+      154.0
+    ],
+    "uniformAnatomy": true,
+    "source": "selva_actions",
+    "sourceIndices": [
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63
+    ],
+    "sourceScale": 1.28,
+    "frameUniformScales": [
+      1.28,
+      1.28,
+      1.28,
+      1.28,
+      1.28,
+      1.28,
+      1.28,
+      1.28
+    ],
+    "frameBounds": [
+      [
+        102,
+        151,
+        290,
+        308
+      ],
+      [
+        98,
+        156,
+        296,
+        308
+      ],
+      [
+        85,
+        151,
+        294,
+        303
+      ],
+      [
+        113,
+        142,
+        287,
+        294
+      ],
+      [
+        105,
+        156,
+        296,
+        308
+      ],
+      [
+        94,
+        157,
+        300,
+        308
+      ],
+      [
+        98,
+        151,
+        298,
+        303
+      ],
+      [
+        98,
+        142,
+        298,
+        294
+      ]
+    ],
+    "integrated": true,
+    "playTested": false
+  },
+  "selva/jump_shoot": {
+    "frames": 4,
+    "fps": 12,
+    "loop": false,
+    "frameWidth": 384,
+    "frameHeight": 320,
+    "pixelsPerUnit": 150.58823529411765,
+    "footAnchor": [
+      192.0,
+      308
+    ],
+    "gripX": [
+      200.0,
+      191.5,
+      275.0,
+      194.0
+    ],
+    "gripY": [
+      192.0,
+      189.0,
+      190.0,
+      34.0
+    ],
+    "uniformAnatomy": true,
+    "source": "selva_actions",
+    "sourceIndices": [
+      48,
+      49,
+      50,
+      51
+    ],
+    "sourceScale": 1.28,
+    "frameUniformScales": [
+      1.28,
+      1.28,
+      1.28,
+      1.28
+    ],
+    "frameBounds": [
+      [
+        112,
+        184,
+        287,
+        308
+      ],
+      [
+        108,
+        181,
+        282,
+        308
+      ],
+      [
+        143,
+        188,
+        291,
+        308
+      ],
+      [
+        140,
+        26,
+        318,
+        308
+      ]
+    ],
+    "integrated": true,
+    "playTested": false
+  },
+  "selva/double_jump_shoot": {
+    "frames": 4,
+    "fps": 12,
+    "loop": false,
+    "frameWidth": 384,
+    "frameHeight": 320,
+    "pixelsPerUnit": 150.58823529411765,
+    "footAnchor": [
+      192.0,
+      308
+    ],
+    "gripX": [
+      200.0,
+      191.5,
+      275.0,
+      194.0
+    ],
+    "gripY": [
+      192.0,
+      189.0,
+      190.0,
+      34.0
+    ],
+    "uniformAnatomy": true,
+    "source": "selva_actions",
+    "sourceIndices": [
+      48,
+      49,
+      50,
+      51
+    ],
+    "sourceScale": 1.28,
+    "frameUniformScales": [
+      1.28,
+      1.28,
+      1.28,
+      1.28
+    ],
+    "frameBounds": [
+      [
+        112,
+        184,
+        287,
+        308
+      ],
+      [
+        108,
+        181,
+        282,
+        308
+      ],
+      [
+        143,
+        188,
+        291,
+        308
+      ],
+      [
+        140,
+        26,
+        318,
+        308
+      ]
+    ],
+    "integrated": true,
+    "playTested": false
+  },
+  "selva/fall_shoot": {
+    "frames": 4,
+    "fps": 12,
+    "loop": false,
+    "frameWidth": 384,
+    "frameHeight": 320,
+    "pixelsPerUnit": 150.58823529411765,
+    "footAnchor": [
+      192.0,
+      308
+    ],
+    "gripX": [
+      200.0,
+      192.0,
+      196.0,
+      195.0
+    ],
+    "gripY": [
+      187.0,
+      203.0,
+      181.0,
+      194.0
+    ],
+    "uniformAnatomy": true,
+    "source": "selva_actions",
+    "sourceIndices": [
+      52,
+      53,
+      54,
+      55
+    ],
+    "sourceScale": 1.28,
+    "frameUniformScales": [
+      1.28,
+      1.28,
+      1.28,
+      1.28
+    ],
+    "frameBounds": [
+      [
+        165,
+        180,
+        281,
+        308
+      ],
+      [
+        151,
+        195,
+        293,
+        308
+      ],
+      [
+        139,
+        174,
+        282,
+        308
+      ],
+      [
+        126,
+        183,
+        290,
+        308
+      ]
+    ],
+    "integrated": true,
+    "playTested": false
+  },
+  "selva/climb": {
+    "frames": 4,
+    "fps": 12,
+    "loop": true,
+    "frameWidth": 384,
+    "frameHeight": 320,
+    "pixelsPerUnit": 150.58823529411765,
+    "footAnchor": [
+      192.0,
+      308
+    ],
+    "gripX": [
+      238.0,
+      230.5,
+      237.0,
+      234.5
+    ],
+    "gripY": [
+      165.0,
+      160.0,
+      159.0,
+      157.0
+    ],
+    "uniformAnatomy": true,
+    "source": "selva_actions",
+    "sourceIndices": [
+      16,
+      17,
+      18,
+      19
+    ],
+    "sourceScale": 1.28,
+    "frameUniformScales": [
+      1.28,
+      1.28,
+      1.28,
+      1.28
+    ],
+    "frameBounds": [
+      [
+        154,
+        157,
+        247,
+        308
+      ],
+      [
+        161,
+        157,
+        240,
+        308
+      ],
+      [
+        164,
+        156,
+        247,
+        308
+      ],
+      [
+        166,
+        154,
+        245,
+        308
+      ]
+    ],
+    "integrated": true,
+    "playTested": false
+  },
+  "sierra/huaraca_cargar": {
+    "frames": 4,
+    "fps": 12,
+    "loop": false,
+    "frameWidth": 384,
+    "frameHeight": 320,
+    "pixelsPerUnit": 150.58823529411765,
+    "footAnchor": [
+      192.0,
+      308
+    ],
+    "gripX": [
+      201.0,
+      196.5,
+      194.0,
+      199.5
+    ],
+    "gripY": [
+      208.0,
+      195.0,
+      146.0,
+      143.0
+    ],
+    "uniformAnatomy": true,
+    "source": "sierra_actions",
+    "sourceIndices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "sourceScale": 0.7960199004975125,
+    "frameUniformScales": [
+      0.7960199004975125,
+      0.7960199004975125,
+      0.7960199004975125,
+      0.7960199004975125
+    ],
+    "frameBounds": [
+      [
+        102,
+        193,
+        237,
+        308
+      ],
+      [
+        143,
+        183,
+        243,
+        308
+      ],
+      [
+        142,
+        134,
+        234,
+        308
+      ],
+      [
+        138,
+        133,
+        256,
+        308
+      ]
+    ],
+    "integrated": true,
+    "playTested": false
+  },
+  "sierra/huaraca_girar": {
+    "frames": 8,
+    "fps": 24,
+    "loop": true,
+    "frameWidth": 384,
+    "frameHeight": 320,
+    "pixelsPerUnit": 150.58823529411765,
+    "footAnchor": [
+      192.0,
+      308
+    ],
+    "gripX": [
+      193.0,
+      173.0,
+      192.0,
+      171.0,
+      200.0,
+      215.0,
+      195.0,
+      192.5
+    ],
+    "gripY": [
+      164.0,
+      144.0,
+      144.0,
+      150.0,
+      144.0,
+      147.0,
+      163.0,
+      171.0
+    ],
+    "uniformAnatomy": true,
+    "source": "sierra_actions",
+    "sourceIndices": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "sourceScale": 0.7960199004975125,
+    "frameUniformScales": [
+      0.7960199004975125,
+      0.7960199004975125,
+      0.7960199004975125,
+      0.7960199004975125,
+      0.7960199004975125,
+      0.7960199004975125,
+      0.7960199004975125,
+      0.7960199004975125
+    ],
+    "frameBounds": [
+      [
+        104,
+        149,
+        265,
+        308
+      ],
+      [
+        125,
+        134,
+        283,
+        308
+      ],
+      [
+        134,
+        134,
+        261,
+        308
+      ],
+      [
+        127,
+        134,
+        256,
+        308
+      ],
+      [
+        129,
+        136,
+        263,
+        308
+      ],
+      [
+        119,
+        140,
+        246,
+        308
+      ],
+      [
+        136,
+        152,
+        279,
+        308
+      ],
+      [
+        128,
+        162,
+        318,
+        308
+      ]
+    ],
+    "integrated": true,
+    "playTested": false
+  },
+  "sierra/huaraca_lanzar": {
+    "frames": 8,
+    "fps": 24,
+    "loop": false,
+    "frameWidth": 384,
+    "frameHeight": 320,
+    "pixelsPerUnit": 150.58823529411765,
+    "footAnchor": [
+      192.0,
+      308
+    ],
+    "gripX": [
+      203.0,
+      163.0,
+      194.0,
+      193.5,
+      200.0,
+      194.5,
+      196.5,
+      198.0
+    ],
+    "gripY": [
+      157.0,
+      137.0,
+      164.0,
+      189.0,
+      176.0,
+      169.0,
+      162.0,
+      157.0
+    ],
+    "uniformAnatomy": true,
+    "source": "sierra_actions",
+    "sourceIndices": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "sourceScale": 0.7960199004975125,
+    "frameUniformScales": [
+      0.7960199004975125,
+      0.7960199004975125,
+      0.7960199004975125,
+      0.7960199004975125,
+      0.7960199004975125,
+      0.7960199004975125,
+      0.7960199004975125,
+      0.7960199004975125
+    ],
+    "frameBounds": [
+      [
+        129,
+        144,
+        271,
+        308
+      ],
+      [
+        111,
+        134,
+        247,
+        308
+      ],
+      [
+        120,
+        155,
+        357,
+        308
+      ],
+      [
+        101,
+        163,
+        241,
+        308
+      ],
+      [
+        98,
+        168,
+        267,
+        308
+      ],
+      [
+        122,
+        162,
+        274,
+        308
+      ],
+      [
+        152,
+        153,
+        247,
+        308
+      ],
+      [
+        151,
+        148,
+        251,
+        308
+      ]
+    ],
+    "integrated": true,
+    "playTested": false
+  },
+  "sierra/transformation": {
+    "frames": 4,
+    "fps": 8,
+    "loop": false,
+    "frameWidth": 384,
+    "frameHeight": 320,
+    "pixelsPerUnit": 150.58823529411765,
+    "footAnchor": [
+      192.0,
+      308
+    ],
+    "gripX": [
+      199.5,
+      197.5,
+      198.5,
+      199.5
+    ],
+    "gripY": [
+      159.0,
+      163.0,
+      160.0,
+      160.0
+    ],
+    "uniformAnatomy": true,
+    "source": "ceremony",
+    "sourceIndices": [
+      24,
+      25,
+      26,
+      27
+    ],
+    "sourceScale": 0.6299212598425197,
+    "frameUniformScales": [
+      0.6299212598425197,
+      0.6299212598425197,
+      0.6299212598425197,
+      0.6299212598425197
+    ],
+    "frameBounds": [
+      [
+        154,
+        149,
+        240,
+        308
+      ],
+      [
+        145,
+        151,
+        249,
+        308
+      ],
+      [
+        146,
+        149,
+        247,
+        308
+      ],
+      [
+        153,
+        149,
+        246,
+        308
+      ]
+    ],
+    "integrated": true,
+    "playTested": false
+  },
+  "selva/swing": {
+    "frames": 8,
+    "fps": 12,
+    "loop": false,
+    "frameWidth": 384,
+    "frameHeight": 320,
+    "pixelsPerUnit": 150.58823529411765,
+    "footAnchor": [
+      192.0,
+      308
+    ],
+    "gripX": [
+      192.0,
+      193.0,
+      193.0,
+      189.0,
+      189.5,
+      187.0,
+      187.0,
+      188.0
+    ],
+    "gripY": [
+      133.0,
+      134.0,
+      136.0,
+      136.0,
+      136.0,
+      146.0,
+      141.0,
+      159.0
+    ],
+    "uniformAnatomy": true,
+    "source": "selva_actions",
+    "sourceIndices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "sourceScale": 1.28,
+    "frameUniformScales": [
+      1.28,
+      1.28,
+      1.28,
+      1.28,
+      1.28,
+      1.28,
+      1.28,
+      1.28
+    ],
+    "frameBounds": [
+      [
+        86,
+        130,
+        240,
+        308
+      ],
+      [
+        90,
+        131,
+        251,
+        308
+      ],
+      [
+        136,
+        133,
+        244,
+        308
+      ],
+      [
+        137,
+        133,
+        265,
+        308
+      ],
+      [
+        119,
+        133,
+        256,
+        308
+      ],
+      [
+        144,
+        143,
+        266,
+        308
+      ],
+      [
+        116,
+        138,
+        256,
+        308
+      ],
+      [
+        88,
+        156,
+        248,
+        308
+      ]
+    ],
+    "integrated": true,
+    "playTested": false
+  },
+  "selva/grab": {
+    "frames": 4,
+    "fps": 16,
+    "loop": false,
+    "frameWidth": 384,
+    "frameHeight": 320,
+    "pixelsPerUnit": 150.58823529411765,
+    "footAnchor": [
+      192.0,
+      308
+    ],
+    "gripX": [
+      237.0,
+      237.0,
+      238.0,
+      237.0
+    ],
+    "gripY": [
+      164.0,
+      164.0,
+      166.0,
+      160.0
+    ],
+    "uniformAnatomy": true,
+    "source": "selva_actions",
+    "sourceIndices": [
+      8,
+      9,
+      10,
+      11
+    ],
+    "sourceScale": 1.28,
+    "frameUniformScales": [
+      1.28,
+      1.28,
+      1.28,
+      1.28
+    ],
+    "frameBounds": [
+      [
+        113,
+        161,
+        247,
+        308
+      ],
+      [
+        106,
+        161,
+        248,
+        308
+      ],
+      [
+        115,
+        163,
+        247,
+        308
+      ],
+      [
+        114,
+        157,
+        246,
+        308
+      ]
+    ],
+    "integrated": true,
+    "playTested": false
+  },
+  "selva/release": {
+    "frames": 4,
+    "fps": 16,
+    "loop": false,
+    "frameWidth": 384,
+    "frameHeight": 320,
+    "pixelsPerUnit": 150.58823529411765,
+    "footAnchor": [
+      192.0,
+      308
+    ],
+    "gripX": [
+      192.0,
+      244.0,
+      236.5,
+      208.0
+    ],
+    "gripY": [
+      168.0,
+      180.0,
+      206.0,
+      223.0
+    ],
+    "uniformAnatomy": true,
+    "source": "selva_actions",
+    "sourceIndices": [
+      12,
+      13,
+      14,
+      15
+    ],
+    "sourceScale": 1.28,
+    "frameUniformScales": [
+      1.28,
+      1.28,
+      1.28,
+      1.28
+    ],
+    "frameBounds": [
+      [
+        90,
+        158,
+        264,
+        308
+      ],
+      [
+        95,
+        174,
+        255,
+        308
+      ],
+      [
+        67,
+        200,
+        245,
+        308
+      ],
+      [
+        78,
+        212,
+        255,
+        308
+      ]
+    ],
+    "integrated": true,
+    "playTested": false
+  },
+  "selva/regrab": {
+    "frames": 4,
+    "fps": 16,
+    "loop": false,
+    "frameWidth": 384,
+    "frameHeight": 320,
+    "pixelsPerUnit": 150.58823529411765,
+    "footAnchor": [
+      192.0,
+      308
+    ],
+    "gripX": [
+      188.0,
+      201.0,
+      195.5,
+      223.0
+    ],
+    "gripY": [
+      168.0,
+      154.0,
+      163.0,
+      169.0
+    ],
+    "uniformAnatomy": true,
+    "source": "selva_actions",
+    "sourceIndices": [
+      20,
+      21,
+      22,
+      23
+    ],
+    "sourceScale": 1.28,
+    "frameUniformScales": [
+      1.28,
+      1.28,
+      1.28,
+      1.28
+    ],
+    "frameBounds": [
+      [
+        101,
+        165,
+        249,
+        308
+      ],
+      [
+        78,
+        151,
+        206,
+        308
+      ],
+      [
+        102,
+        160,
+        207,
+        308
+      ],
+      [
+        120,
+        166,
+        234,
+        308
+      ]
+    ],
+    "integrated": true,
+    "playTested": false
+  },
+  "selva/punch": {
+    "frames": 4,
+    "fps": 20,
+    "loop": false,
+    "frameWidth": 384,
+    "frameHeight": 320,
+    "pixelsPerUnit": 150.58823529411765,
+    "footAnchor": [
+      192.0,
+      308
+    ],
+    "gripX": [
+      200.0,
+      200.0,
+      205.0,
+      202.0
+    ],
+    "gripY": [
+      146.0,
+      153.0,
+      151.0,
+      158.0
+    ],
+    "uniformAnatomy": true,
+    "source": "selva_actions",
+    "sourceIndices": [
+      24,
+      25,
+      26,
+      27
+    ],
+    "sourceScale": 1.28,
+    "frameUniformScales": [
+      1.28,
+      1.28,
+      1.28,
+      1.28
+    ],
+    "frameBounds": [
+      [
+        137,
+        138,
+        283,
+        308
+      ],
+      [
+        139,
+        147,
+        277,
+        308
+      ],
+      [
+        126,
+        139,
+        262,
+        308
+      ],
+      [
+        115,
+        148,
+        261,
+        308
+      ]
+    ],
+    "integrated": true,
+    "playTested": false
+  },
+  "selva/kick": {
+    "frames": 4,
+    "fps": 20,
+    "loop": false,
+    "frameWidth": 384,
+    "frameHeight": 320,
+    "pixelsPerUnit": 150.58823529411765,
+    "footAnchor": [
+      192.0,
+      308
+    ],
+    "gripX": [
+      198.5,
+      199.0,
+      204.0,
+      201.0
+    ],
+    "gripY": [
+      147.0,
+      182.0,
+      153.0,
+      160.0
+    ],
+    "uniformAnatomy": true,
+    "source": "selva_actions",
+    "sourceIndices": [
+      28,
+      29,
+      30,
+      31
+    ],
+    "sourceScale": 1.28,
+    "frameUniformScales": [
+      1.28,
+      1.28,
+      1.28,
+      1.28
+    ],
+    "frameBounds": [
+      [
+        133,
+        139,
+        258,
+        308
+      ],
+      [
+        122,
+        170,
+        336,
+        308
+      ],
+      [
+        118,
+        142,
+        256,
+        308
+      ],
+      [
+        124,
+        148,
+        252,
+        308
+      ]
+    ],
+    "integrated": true,
+    "playTested": false
+  },
+  "selva/uppercut": {
+    "frames": 4,
+    "fps": 20,
+    "loop": false,
+    "frameWidth": 384,
+    "frameHeight": 320,
+    "pixelsPerUnit": 150.58823529411765,
+    "footAnchor": [
+      192.0,
+      308
+    ],
+    "gripX": [
+      195.5,
+      231.0,
+      238.0,
+      199.0
+    ],
+    "gripY": [
+      158.0,
+      143.0,
+      143.0,
+      159.0
+    ],
+    "uniformAnatomy": true,
+    "source": "selva_actions",
+    "sourceIndices": [
+      32,
+      33,
+      34,
+      35
+    ],
+    "sourceScale": 1.28,
+    "frameUniformScales": [
+      1.28,
+      1.28,
+      1.28,
+      1.28
+    ],
+    "frameBounds": [
+      [
+        130,
+        153,
+        258,
+        308
+      ],
+      [
+        156,
+        140,
+        272,
+        308
+      ],
+      [
+        158,
+        140,
+        260,
+        308
+      ],
+      [
+        126,
+        153,
+        269,
+        308
+      ]
+    ],
+    "integrated": true,
+    "playTested": false
+  },
+  "selva/dodge": {
+    "frames": 4,
+    "fps": 16,
+    "loop": false,
+    "frameWidth": 384,
+    "frameHeight": 320,
+    "pixelsPerUnit": 150.58823529411765,
+    "footAnchor": [
+      192.0,
+      308
+    ],
+    "gripX": [
+      201.0,
+      187.0,
+      205.0,
+      200.0
+    ],
+    "gripY": [
+      185.0,
+      205.0,
+      206.0,
+      159.0
+    ],
+    "uniformAnatomy": true,
+    "source": "selva_actions",
+    "sourceIndices": [
+      36,
+      37,
+      38,
+      39
+    ],
+    "sourceScale": 1.28,
+    "frameUniformScales": [
+      1.28,
+      1.28,
+      1.28,
+      1.28
+    ],
+    "frameBounds": [
+      [
+        86,
+        171,
+        245,
+        308
+      ],
+      [
+        129,
+        185,
+        288,
+        308
+      ],
+      [
+        83,
+        190,
+        238,
+        308
+      ],
+      [
+        130,
+        148,
+        253,
+        308
+      ]
+    ],
+    "integrated": true,
+    "playTested": false
+  },
+  "selva/portal_entry": {
+    "frames": 8,
+    "fps": 12,
+    "loop": false,
+    "frameWidth": 384,
+    "frameHeight": 320,
+    "pixelsPerUnit": 150.58823529411765,
+    "footAnchor": [
+      192.0,
+      308
+    ],
+    "gripX": [
+      200.0,
+      202.0,
+      198.5,
+      199.0,
+      189.0,
+      187.0,
+      204.0,
+      200.0
+    ],
+    "gripY": [
+      156.0,
+      158.0,
+      153.0,
+      158.0,
+      154.0,
+      186.0,
+      165.0,
+      158.0
+    ],
+    "uniformAnatomy": true,
+    "source": "selva_actions",
+    "sourceIndices": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47
+    ],
+    "sourceScale": 1.28,
+    "frameUniformScales": [
+      1.3333333333333333,
+      1.3333333333333333,
+      1.3333333333333333,
+      1.3333333333333333,
+      1.3333333333333333,
+      1.3333333333333333,
+      1.3333333333333333,
+      1.3333333333333333
+    ],
+    "frameBounds": [
+      [
+        133,
+        147,
+        246,
+        308
+      ],
+      [
+        132,
+        148,
+        241,
+        308
+      ],
+      [
+        143,
+        147,
+        246,
+        308
+      ],
+      [
+        141,
+        151,
+        248,
+        308
+      ],
+      [
+        145,
+        148,
+        233,
+        308
+      ],
+      [
+        142,
+        148,
+        235,
+        308
+      ],
+      [
+        148,
+        148,
+        231,
+        308
+      ],
+      [
+        116,
+        148,
+        237,
+        308
+      ]
+    ],
+    "integrated": true,
+    "playTested": false
+  }
+}

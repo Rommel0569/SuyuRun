@@ -1,0 +1,15 @@
+{
+  "revision": "FinalMovieV4",
+  "date": "2026-10-24",
+  "scope": "Isolated ending sequence in Unity Play, not a full gameplay run",
+  "log": "unity-identity-release.log",
+  "runtimeErrors": 0,
+  "observedSeconds": 29.79,
+  "captures": 35,
+  "filmCapturesCheckedForBlankEdges": 31,
+  "visualSamplesReviewed": [0.5, 8.3, 14.2, 19.5],
+  "bankSheets": 24,
+  "bankCells": 192,
+  "aestheticUserApproval": false,
+  "executableGenerated": false
+}

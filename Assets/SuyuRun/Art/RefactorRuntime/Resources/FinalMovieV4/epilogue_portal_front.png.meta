@@ -1,0 +1,4467 @@
+fileFormatVersion: 2
+guid: 359b3ad8934a7594083c978bb6c3d28c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8999779941162712442
+    second: epilogue_portal_front_0
+  - first:
+      213: 656079963051140276
+    second: epilogue_portal_front_1
+  - first:
+      213: 2778052218849464390
+    second: epilogue_portal_front_2
+  - first:
+      213: -2341244515641326515
+    second: epilogue_portal_front_3
+  - first:
+      213: 7109372000055340033
+    second: epilogue_portal_front_4
+  - first:
+      213: 7582686571989328289
+    second: epilogue_portal_front_5
+  - first:
+      213: 6125779652550591044
+    second: epilogue_portal_front_6
+  - first:
+      213: -5336911143232347632
+    second: epilogue_portal_front_7
+  - first:
+      213: 3325930325746275133
+    second: epilogue_portal_front_8
+  - first:
+      213: 3160482648357341449
+    second: epilogue_portal_front_9
+  - first:
+      213: -8044170166066145386
+    second: epilogue_portal_front_10
+  - first:
+      213: 4205084968785561646
+    second: epilogue_portal_front_11
+  - first:
+      213: 3478838795168814241
+    second: epilogue_portal_front_12
+  - first:
+      213: -2087009329503845769
+    second: epilogue_portal_front_13
+  - first:
+      213: 3248443530720210364
+    second: epilogue_portal_front_14
+  - first:
+      213: 3886247258321165662
+    second: epilogue_portal_front_15
+  - first:
+      213: 5064795912144876598
+    second: epilogue_portal_front_16
+  - first:
+      213: -3181344295024661561
+    second: epilogue_portal_front_17
+  - first:
+      213: -8889590620836793428
+    second: epilogue_portal_front_18
+  - first:
+      213: 967221069682967462
+    second: epilogue_portal_front_19
+  - first:
+      213: 7372471260246914392
+    second: epilogue_portal_front_20
+  - first:
+      213: -3476457272832057274
+    second: epilogue_portal_front_21
+  - first:
+      213: 6058513758872487883
+    second: epilogue_portal_front_22
+  - first:
+      213: 6941216812022855907
+    second: epilogue_portal_front_23
+  - first:
+      213: -6165936560599204595
+    second: epilogue_portal_front_24
+  - first:
+      213: -3634706464752928872
+    second: epilogue_portal_front_25
+  - first:
+      213: -6958766774291449295
+    second: epilogue_portal_front_26
+  - first:
+      213: -456353170604675265
+    second: epilogue_portal_front_27
+  - first:
+      213: -6113165693922560754
+    second: epilogue_portal_front_28
+  - first:
+      213: -2041019361487582131
+    second: epilogue_portal_front_29
+  - first:
+      213: -1319131054664358562
+    second: epilogue_portal_front_30
+  - first:
+      213: -6779686886108487512
+    second: epilogue_portal_front_31
+  - first:
+      213: -4212411509855129838
+    second: epilogue_portal_front_32
+  - first:
+      213: 2029197886943288059
+    second: epilogue_portal_front_33
+  - first:
+      213: 7040552871208054185
+    second: epilogue_portal_front_34
+  - first:
+      213: 1083637195061922980
+    second: epilogue_portal_front_35
+  - first:
+      213: 5984006038696525075
+    second: epilogue_portal_front_36
+  - first:
+      213: -4259399061250948700
+    second: epilogue_portal_front_37
+  - first:
+      213: 5420684468398644765
+    second: epilogue_portal_front_38
+  - first:
+      213: -367293200697097900
+    second: epilogue_portal_front_39
+  - first:
+      213: 385933336551333404
+    second: epilogue_portal_front_40
+  - first:
+      213: -9017120806205660618
+    second: epilogue_portal_front_41
+  - first:
+      213: -6392679399782495730
+    second: epilogue_portal_front_42
+  - first:
+      213: 5290017666218578789
+    second: epilogue_portal_front_43
+  - first:
+      213: 3952017216314653984
+    second: epilogue_portal_front_44
+  - first:
+      213: 1130488583533542352
+    second: epilogue_portal_front_45
+  - first:
+      213: -5391216837429445758
+    second: epilogue_portal_front_46
+  - first:
+      213: -4118706973561160281
+    second: epilogue_portal_front_47
+  - first:
+      213: 577913830684764777
+    second: epilogue_portal_front_48
+  - first:
+      213: 5655347783860843623
+    second: epilogue_portal_front_49
+  - first:
+      213: -4804589216262837759
+    second: epilogue_portal_front_50
+  - first:
+      213: -8346900791305322327
+    second: epilogue_portal_front_51
+  - first:
+      213: -9222587852067537157
+    second: epilogue_portal_front_52
+  - first:
+      213: 5526512784619700121
+    second: epilogue_portal_front_53
+  - first:
+      213: -8246639623369134462
+    second: epilogue_portal_front_54
+  - first:
+      213: 9183366060817488070
+    second: epilogue_portal_front_55
+  - first:
+      213: 4491332643180579127
+    second: epilogue_portal_front_56
+  - first:
+      213: -4290883417867918821
+    second: epilogue_portal_front_57
+  - first:
+      213: -7559572174016870362
+    second: epilogue_portal_front_58
+  - first:
+      213: 8739780623173820628
+    second: epilogue_portal_front_59
+  - first:
+      213: -3238206759424369466
+    second: epilogue_portal_front_60
+  - first:
+      213: -1603246311126741628
+    second: epilogue_portal_front_61
+  - first:
+      213: -8760381380897876332
+    second: epilogue_portal_front_62
+  - first:
+      213: 1527064180862571720
+    second: epilogue_portal_front_63
+  - first:
+      213: -4937653457938235165
+    second: epilogue_portal_front_64
+  - first:
+      213: -5371266198444422718
+    second: epilogue_portal_front_65
+  - first:
+      213: 8154947055440436075
+    second: epilogue_portal_front_66
+  - first:
+      213: 2742426435852399293
+    second: epilogue_portal_front_67
+  - first:
+      213: -1241675439968781560
+    second: epilogue_portal_front_68
+  - first:
+      213: 4683737074563391176
+    second: epilogue_portal_front_69
+  - first:
+      213: -5488162603586265129
+    second: epilogue_portal_front_70
+  - first:
+      213: 680119448081923917
+    second: epilogue_portal_front_71
+  - first:
+      213: 4073894467861757140
+    second: epilogue_portal_front_72
+  - first:
+      213: -5574340326498397236
+    second: epilogue_portal_front_73
+  - first:
+      213: 7192764270184622558
+    second: epilogue_portal_front_74
+  - first:
+      213: -6379580353561341895
+    second: epilogue_portal_front_75
+  - first:
+      213: -587372731350705748
+    second: epilogue_portal_front_76
+  - first:
+      213: -9095136941156373133
+    second: epilogue_portal_front_77
+  - first:
+      213: 333198872200968403
+    second: epilogue_portal_front_78
+  - first:
+      213: 1887136421763315088
+    second: epilogue_portal_front_79
+  - first:
+      213: -8963208320730395218
+    second: epilogue_portal_front_80
+  - first:
+      213: -499204549407700038
+    second: epilogue_portal_front_81
+  - first:
+      213: -8571129905581188867
+    second: epilogue_portal_front_82
+  - first:
+      213: 2434506087955112219
+    second: epilogue_portal_front_83
+  - first:
+      213: -8365546908200926522
+    second: epilogue_portal_front_84
+  - first:
+      213: -3513597233677878002
+    second: epilogue_portal_front_85
+  - first:
+      213: -1935722874390790547
+    second: epilogue_portal_front_86
+  - first:
+      213: 5973180862215883558
+    second: epilogue_portal_front_87
+  - first:
+      213: -6232564021307640368
+    second: epilogue_portal_front_88
+  - first:
+      213: 3726241311025021810
+    second: epilogue_portal_front_89
+  - first:
+      213: -3850145799937813066
+    second: epilogue_portal_front_90
+  - first:
+      213: -552896727983701173
+    second: epilogue_portal_front_91
+  - first:
+      213: -3787350093040760733
+    second: epilogue_portal_front_92
+  - first:
+      213: -2852553703988902608
+    second: epilogue_portal_front_93
+  - first:
+      213: -7300630078168209610
+    second: epilogue_portal_front_94
+  - first:
+      213: -1399706521899967538
+    second: epilogue_portal_front_95
+  - first:
+      213: 3290032527666886819
+    second: epilogue_portal_front_96
+  - first:
+      213: 7318955916706575121
+    second: epilogue_portal_front_97
+  - first:
+      213: 4442990679644523247
+    second: epilogue_portal_front_98
+  - first:
+      213: -7057990500460613097
+    second: epilogue_portal_front_99
+  - first:
+      213: 8004259474361446884
+    second: epilogue_portal_front_100
+  - first:
+      213: 4270999005626400014
+    second: epilogue_portal_front_101
+  - first:
+      213: -2595702023503259574
+    second: epilogue_portal_front_102
+  - first:
+      213: 4051623027400898951
+    second: epilogue_portal_front_103
+  - first:
+      213: 4652361238993872327
+    second: epilogue_portal_front_104
+  - first:
+      213: -8320063640988902855
+    second: epilogue_portal_front_105
+  - first:
+      213: 387512421059309342
+    second: epilogue_portal_front_106
+  - first:
+      213: -1615436132161658678
+    second: epilogue_portal_front_107
+  - first:
+      213: 5492232800165901916
+    second: epilogue_portal_front_108
+  - first:
+      213: 5816570589727283535
+    second: epilogue_portal_front_109
+  - first:
+      213: -1137744171525736724
+    second: epilogue_portal_front_110
+  - first:
+      213: -6837692537624211197
+    second: epilogue_portal_front_111
+  - first:
+      213: 9214012223596037111
+    second: epilogue_portal_front_112
+  - first:
+      213: -1653551111940367134
+    second: epilogue_portal_front_113
+  - first:
+      213: -6734826728026523850
+    second: epilogue_portal_front_114
+  - first:
+      213: -5361552493692944482
+    second: epilogue_portal_front_115
+  - first:
+      213: -1365716899204891232
+    second: epilogue_portal_front_116
+  - first:
+      213: -2902749020892195835
+    second: epilogue_portal_front_117
+  - first:
+      213: -1475248113920195597
+    second: epilogue_portal_front_118
+  - first:
+      213: -1220225388165931901
+    second: epilogue_portal_front_119
+  - first:
+      213: -4529299822676821809
+    second: epilogue_portal_front_120
+  - first:
+      213: -4490354252538494016
+    second: epilogue_portal_front_121
+  - first:
+      213: -3318911994547050014
+    second: epilogue_portal_front_122
+  - first:
+      213: 4459103946916089461
+    second: epilogue_portal_front_123
+  - first:
+      213: -7706593349371320169
+    second: epilogue_portal_front_124
+  - first:
+      213: 1765707994793345518
+    second: epilogue_portal_front_125
+  - first:
+      213: -7408307218175374087
+    second: epilogue_portal_front_126
+  - first:
+      213: 5214835019534057917
+    second: epilogue_portal_front_127
+  - first:
+      213: 67816547179056070
+    second: epilogue_portal_front_128
+  - first:
+      213: -3119775501317441862
+    second: epilogue_portal_front_129
+  - first:
+      213: 6931610735793187261
+    second: epilogue_portal_front_130
+  - first:
+      213: -9061861487411551972
+    second: epilogue_portal_front_131
+  - first:
+      213: -7597109564465688545
+    second: epilogue_portal_front_132
+  - first:
+      213: 6562284411732030571
+    second: epilogue_portal_front_133
+  - first:
+      213: -2778328851277846544
+    second: epilogue_portal_front_134
+  - first:
+      213: -4956538703358623353
+    second: epilogue_portal_front_135
+  - first:
+      213: 7481744093128147032
+    second: epilogue_portal_front_136
+  - first:
+      213: 8217106675590019330
+    second: epilogue_portal_front_137
+  - first:
+      213: -8699974357182533276
+    second: epilogue_portal_front_138
+  - first:
+      213: -1540085587961944805
+    second: epilogue_portal_front_139
+  - first:
+      213: -397389865571668159
+    second: epilogue_portal_front_140
+  - first:
+      213: 8379782970495334712
+    second: epilogue_portal_front_141
+  - first:
+      213: -1882271073997808042
+    second: epilogue_portal_front_142
+  - first:
+      213: 5339336832323965730
+    second: epilogue_portal_front_143
+  - first:
+      213: -6232626678464388735
+    second: epilogue_portal_front_144
+  - first:
+      213: 5609507355591036924
+    second: epilogue_portal_front_145
+  - first:
+      213: 4546093755666443385
+    second: epilogue_portal_front_146
+  - first:
+      213: 3088690520385951133
+    second: epilogue_portal_front_147
+  - first:
+      213: 8970174456153984977
+    second: epilogue_portal_front_148
+  - first:
+      213: -7945025522993510847
+    second: epilogue_portal_front_149
+  - first:
+      213: -4315462889565999292
+    second: epilogue_portal_front_150
+  - first:
+      213: 1282553145296916894
+    second: epilogue_portal_front_151
+  - first:
+      213: -3106556917618248402
+    second: epilogue_portal_front_152
+  - first:
+      213: -410583401938502372
+    second: epilogue_portal_front_153
+  - first:
+      213: 4724904781261591954
+    second: epilogue_portal_front_154
+  - first:
+      213: -5496150288995923326
+    second: epilogue_portal_front_155
+  - first:
+      213: 2979652778654226473
+    second: epilogue_portal_front_156
+  - first:
+      213: -5776399229994306622
+    second: epilogue_portal_front_157
+  - first:
+      213: -5919539821547757095
+    second: epilogue_portal_front_158
+  - first:
+      213: -2909520798875103092
+    second: epilogue_portal_front_159
+  - first:
+      213: 7356446367180649187
+    second: epilogue_portal_front_160
+  - first:
+      213: 1241862697125488716
+    second: epilogue_portal_front_161
+  - first:
+      213: 8046381623337506794
+    second: epilogue_portal_front_162
+  - first:
+      213: -3013407288697758515
+    second: epilogue_portal_front_163
+  - first:
+      213: -497952406605045039
+    second: epilogue_portal_front_164
+  - first:
+      213: 5160957488797104174
+    second: epilogue_portal_front_165
+  - first:
+      213: -3176692864945547774
+    second: epilogue_portal_front_166
+  - first:
+      213: 2842454683199666117
+    second: epilogue_portal_front_167
+  - first:
+      213: 825373718412081844
+    second: epilogue_portal_front_168
+  - first:
+      213: -8338016784374329858
+    second: epilogue_portal_front_169
+  - first:
+      213: -1490856570034084227
+    second: epilogue_portal_front_170
+  - first:
+      213: 3773933564551511232
+    second: epilogue_portal_front_171
+  - first:
+      213: -8440788815874762575
+    second: epilogue_portal_front_172
+  - first:
+      213: -8347062726704550348
+    second: epilogue_portal_front_173
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: epilogue_portal_front_0
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 214
+        width: 46
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7d70b17c24a5ec70800000000000000
+      internalID: 8999779941162712442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_1
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 238
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b42ae5104dda1900800000000000000
+      internalID: 656079963051140276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_2
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 210
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 640120836cf9d8620800000000000000
+      internalID: 2778052218849464390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_3
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 244
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d440ed8748a328fd0800000000000000
+      internalID: -2341244515641326515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_4
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 208
+        width: 52
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10c286fba2099a260800000000000000
+      internalID: 7109372000055340033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_5
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 226
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a16c8e234d1b3960800000000000000
+      internalID: 7582686571989328289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_6
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 212
+        width: 42
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44208926324230550800000000000000
+      internalID: 6125779652550591044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_7
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 225
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 012efc5679b7fe5b0800000000000000
+      internalID: -5336911143232347632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_8
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 232
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d335ecd7204182e20800000000000000
+      internalID: 3325930325746275133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_9
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 221
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9090026493a4cdb20800000000000000
+      internalID: 3160482648357341449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_10
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 221
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69715d29add5d5090800000000000000
+      internalID: -8044170166066145386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_11
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 231
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e284cc6ef767b5a30800000000000000
+      internalID: 4205084968785561646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_12
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 180
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a492e8d371574030800000000000000
+      internalID: 3478838795168814241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_13
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 216
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7724fff72147903e0800000000000000
+      internalID: -2087009329503845769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_14
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 216
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbd6e712e2ac41d20800000000000000
+      internalID: 3248443530720210364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_15
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 222
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5d919d8a49bee530800000000000000
+      internalID: 3886247258321165662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_16
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 220
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 634fe333c05c94640800000000000000
+      internalID: 5064795912144876598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_17
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 220
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cbe6da183899d3d0800000000000000
+      internalID: -3181344295024661561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_18
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 206
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca3f06eed64d1a480800000000000000
+      internalID: -8889590620836793428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_19
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 214
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a30ab530724c6d00800000000000000
+      internalID: 967221069682967462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_20
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 206
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8553bc7dc87405660800000000000000
+      internalID: 7372471260246914392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_21
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 210
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 640a508878421cfc0800000000000000
+      internalID: -3476457272832057274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_22
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 210
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc749601a2a241450800000000000000
+      internalID: 6058513758872487883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_23
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 180
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e877951ae7245060800000000000000
+      internalID: 6941216812022855907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_24
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 191
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0df3eddd513e6aa0800000000000000
+      internalID: -6165936560599204595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_25
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 215
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 897f5915abdee8dc0800000000000000
+      internalID: -3634706464752928872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_26
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 208
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13a3197ec7e7d6f90800000000000000
+      internalID: -6958766774291449295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_27
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 213
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3f2cfd8535baa9f0800000000000000
+      internalID: -456353170604675265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_28
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 200
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0534a8b03ca92ba0800000000000000
+      internalID: -6113165693922560754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_29
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 214
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4c86da54b7dca3e0800000000000000
+      internalID: -2041019361487582131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_30
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 192
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e556b8a7b4181bde0800000000000000
+      internalID: -1319131054664358562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_31
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 199
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a0212982b6b9e1a0800000000000000
+      internalID: -6779686886108487512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_32
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 197
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21f6153dc028a85c0800000000000000
+      internalID: -4212411509855129838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_33
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 183
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfa5a3e1ab8292c10800000000000000
+      internalID: 2029197886943288059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_34
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 184
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ad66bea88115b160800000000000000
+      internalID: 7040552871208054185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_35
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 176
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ac011d994ad90f00800000000000000
+      internalID: 1083637195061922980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_36
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 194
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31d7c4e99c57b0350800000000000000
+      internalID: 5984006038696525075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_37
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 170
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a1418dfe1393e4c0800000000000000
+      internalID: -4259399061250948700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_38
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 201
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1ed062ddc32a3b40800000000000000
+      internalID: 5420684468398644765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_39
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 194
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 451880ca7cc17eaf0800000000000000
+      internalID: -367293200697097900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_40
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 176
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1e9f18235c1b5500800000000000000
+      internalID: 385933336551333404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_41
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 187
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 632e359c660ccd280800000000000000
+      internalID: -9017120806205660618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_42
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 187
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0ac10da4f3a847a0800000000000000
+      internalID: -6392679399782495730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_43
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 147
+        width: 20
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 563df7a2a0be96940800000000000000
+      internalID: 5290017666218578789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_44
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 170
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02db9a438b268d630800000000000000
+      internalID: 3952017216314653984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_45
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 147
+        width: 19
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dbb62c806d40bf00800000000000000
+      internalID: 1130488583533542352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_46
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 190
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28bb9e9a9dc8e25b0800000000000000
+      internalID: -5391216837429445758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_47
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 177
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ad76f254d967d6c0800000000000000
+      internalID: -4118706973561160281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_48
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 176
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96a20cc2199250800800000000000000
+      internalID: 577913830684764777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_49
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 190
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 764715a98d4db7e40800000000000000
+      internalID: 5655347783860843623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_50
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 158
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10a2bf8409ba25db0800000000000000
+      internalID: -4804589216262837759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_51
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 159
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a0c1de34f9d92c80800000000000000
+      internalID: -8346900791305322327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_52
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 126
+        width: 28
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfe7eaf3639c20080800000000000000
+      internalID: -9222587852067537157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_53
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 142
+        width: 28
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99f79edc81e12bc40800000000000000
+      internalID: 5526512784619700121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_54
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 171
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28eeb6284fc0e8d80800000000000000
+      internalID: -8246639623369134462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_55
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 176
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c89769d6ced17f70800000000000000
+      internalID: 9183366060817488070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_56
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 176
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73905ec2e3b645e30800000000000000
+      internalID: 4491332643180579127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_57
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 171
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b126e59f348b374c0800000000000000
+      internalID: -4290883417867918821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_58
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 151
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6280cc9f821071790800000000000000
+      internalID: -7559572174016870362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_59
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 151
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d02e13eb20f94970800000000000000
+      internalID: 8739780623173820628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_60
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 167
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ccdd3beb149f03d0800000000000000
+      internalID: -3238206759424369466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_61
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 167
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48dc5d179ff10c9e0800000000000000
+      internalID: -1603246311126741628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_62
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 161
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 496d2ae6c8fdc6680800000000000000
+      internalID: -8760381380897876332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_63
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 161
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c4598128c8313510800000000000000
+      internalID: 1527064180862571720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_64
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 155
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e0cc9f375ee97bb0800000000000000
+      internalID: -4937653457938235165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_65
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 151
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c948a7c9dd6575b0800000000000000
+      internalID: -5371266198444422718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_66
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 151
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6b15a1e3213c2170800000000000000
+      internalID: 8154947055440436075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_67
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 155
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db27f9b305e0f0620800000000000000
+      internalID: 2742426435852399293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_68
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 152
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80b755a14cea4cee0800000000000000
+      internalID: -1241675439968781560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_69
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 151
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ce9da6cd0afff040800000000000000
+      internalID: 4683737074563391176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_70
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 147
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7df58a7803126d3b0800000000000000
+      internalID: -5488162603586265129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_71
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 154
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4ff1cbd805407900800000000000000
+      internalID: 680119448081923917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_72
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 153
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dc34512f61698830800000000000000
+      internalID: 4073894467861757140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_73
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 147
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc39de5d107f3a2b0800000000000000
+      internalID: -5574340326498397236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_74
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 153
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed9e97daef4d1d360800000000000000
+      internalID: 7192764270184622558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_75
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 151
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9305ae9087d2777a0800000000000000
+      internalID: -6379580353561341895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_76
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 151
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca91715ec9b39d7f0800000000000000
+      internalID: -587372731350705748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_77
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 152
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37d67ded32597c180800000000000000
+      internalID: -9095136941156373133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_78
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 137
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d87911eb92cf9400800000000000000
+      internalID: 333198872200968403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_79
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 123
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09577edb394703a10800000000000000
+      internalID: 1887136421763315088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_80
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 123
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ead0a0b75894c9380800000000000000
+      internalID: -8963208320730395218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_81
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 137
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abb8b427b187219f0800000000000000
+      internalID: -499204549407700038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_82
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 137
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df81b1e33ca3d0980800000000000000
+      internalID: -8571129905581188867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_83
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 101
+        width: 11
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b112710736a19c120800000000000000
+      internalID: 2434506087955112219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_84
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 139
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c201d8d86b97eb80800000000000000
+      internalID: -8365546908200926522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_85
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 139
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0db5da8ee13d3fc0800000000000000
+      internalID: -3513597233677878002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_86
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 101
+        width: 17
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6eb6583d4ee225e0800000000000000
+      internalID: -1935722874390790547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_87
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 137
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62b0a8fc85005e250800000000000000
+      internalID: 5973180862215883558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_88
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 117
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d5f31e4b0c7189a0800000000000000
+      internalID: -6232564021307640368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_89
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 75
+        width: 31
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 273480bdab446b330800000000000000
+      internalID: 3726241311025021810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_90
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 133
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b59e3d3bc8819ac0800000000000000
+      internalID: -3850145799937813066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_91
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 133
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b434e03fa57b358f0800000000000000
+      internalID: -552896727983701173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_92
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 75
+        width: 30
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36843481821a07bc0800000000000000
+      internalID: -3787350093040760733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_93
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 117
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 035440b0581b968d0800000000000000
+      internalID: -2852553703988902608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_94
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 141
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6376042df93feaa90800000000000000
+      internalID: -7300630078168209610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_95
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 132
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecbda54955e339ce0800000000000000
+      internalID: -1399706521899967538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_96
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 132
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a8b01f072b88ad20800000000000000
+      internalID: 3290032527666886819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_97
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 140
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 113f906f0a7229560800000000000000
+      internalID: 7318955916706575121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_98
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 125
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fea4590bb7ca8ad30800000000000000
+      internalID: 4442990679644523247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_99
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 114
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 712b6ffd80bfc0e90800000000000000
+      internalID: -7057990500460613097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_100
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 116
+        width: 8
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e17e536597d41f60800000000000000
+      internalID: 8004259474361446884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_101
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 128
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0d786687f2a54b30800000000000000
+      internalID: 4270999005626400014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_102
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 103
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a48535223c63afbd0800000000000000
+      internalID: -2595702023503259574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_103
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 109
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 789f5005da14a3830800000000000000
+      internalID: 4051623027400898951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_104
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 114
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c5a609c5e1809040800000000000000
+      internalID: 4652361238993872327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_105
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 112
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93a963a3332398c80800000000000000
+      internalID: -8320063640988902855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_106
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 112
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1faa4b6e78b06500800000000000000
+      internalID: 387512421059309342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_107
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 119
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac06c219561d499e0800000000000000
+      internalID: -1615436132161658678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_108
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 118
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5633a5f1a4583c40800000000000000
+      internalID: 5492232800165901916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_109
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 115
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f49dda3422c98b050800000000000000
+      internalID: 5816570589727283535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_110
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 117
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce6ffea34bbe530f0800000000000000
+      internalID: -1137744171525736724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_111
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 119
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 301d19b5dd2ab11a0800000000000000
+      internalID: -6837692537624211197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_112
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 109
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f38c87ac4fbedf70800000000000000
+      internalID: 9214012223596037111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_113
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 109
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ec97da46086d09e0800000000000000
+      internalID: -1653551111940367134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_114
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 94
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6373c2406c61982a0800000000000000
+      internalID: -6734826728026523850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_115
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 93
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9f72d8e960f795b0800000000000000
+      internalID: -5361552493692944482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_116
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 93
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0adf42f47bffb0de0800000000000000
+      internalID: -1365716899204891232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_117
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 105
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5049b99152d57b7d0800000000000000
+      internalID: -2902749020892195835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_118
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 100
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f3c83618add68be0800000000000000
+      internalID: -1475248113920195597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_119
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 100
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38cd4787973e01fe0800000000000000
+      internalID: -1220225388165931901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_120
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 94
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc8bb1cfec1b421c0800000000000000
+      internalID: -4529299822676821809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_121
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 88
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c347c5299e0fa1c0800000000000000
+      internalID: -4490354252538494016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_122
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 86
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e96d34102bd0f1d0800000000000000
+      internalID: -3318911994547050014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_123
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 86
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57ec9741a6be1ed30800000000000000
+      internalID: 4459103946916089461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_124
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 87
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 798a5561e2eac0590800000000000000
+      internalID: -7706593349371320169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_125
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 94
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee189bee01e018810800000000000000
+      internalID: 1765707994793345518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_126
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 64
+        width: 11
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fcc1b106d7603990800000000000000
+      internalID: -7408307218175374087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_127
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 64
+        width: 11
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db1489522d0de5840800000000000000
+      internalID: 5214835019534057917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_128
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 93
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cb40845acee0f000800000000000000
+      internalID: 67816547179056070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_129
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 73
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab6f109f5b454b4d0800000000000000
+      internalID: -3119775501317441862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_130
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 73
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db9ac3c2d37023060800000000000000
+      internalID: 6931610735793187261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_131
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 93
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c11aa0f2dfccd3280800000000000000
+      internalID: -9061861487411551972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_132
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 53
+        width: 16
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f10dc423a15a19690800000000000000
+      internalID: -7597109564465688545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_133
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 73
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b64fe5c67eae11b50800000000000000
+      internalID: 6562284411732030571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_134
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 73
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f76d5641a46179d0800000000000000
+      internalID: -2778328851277846544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_135
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 53
+        width: 16
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78185d66f46d63bb0800000000000000
+      internalID: -4956538703358623353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_136
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 71
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 850c74bdc9e74d760800000000000000
+      internalID: 7481744093128147032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_137
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 12
+        width: 209
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 209b8004cf6090270800000000000000
+      internalID: 8217106675590019330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_138
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 81
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 461b025aa6b734780800000000000000
+      internalID: -8699974357182533276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_139
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 81
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1564d5415480aae0800000000000000
+      internalID: -1540085587961944805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_140
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 71
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14fa241d5003c7af0800000000000000
+      internalID: -397389865571668159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_141
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 70
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 839fd33b638fa4470800000000000000
+      internalID: 8379782970495334712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_142
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 74
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65e1e5f4e64d0e5e0800000000000000
+      internalID: -1882271073997808042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_143
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 74
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22354da5f82291a40800000000000000
+      internalID: 5339336832323965730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_144
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 70
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 181e18cce034189a0800000000000000
+      internalID: -6232626678464388735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_145
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 76
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cffc1fe2839f8dd40800000000000000
+      internalID: 5609507355591036924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_146
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 75
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97cae1e3f28f61f30800000000000000
+      internalID: 4546093755666443385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_147
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 12
+        width: 209
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9598b8e9ab3dda20800000000000000
+      internalID: 3088690520385951133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_148
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 72
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1df475054267c7c70800000000000000
+      internalID: 8970174456153984977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_149
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 58
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1464f82a1699db190800000000000000
+      internalID: -7945025522993510847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_150
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 58
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44fa902cd556c14c0800000000000000
+      internalID: -4315462889565999292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_151
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 71
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e919bf65a4b8cc110800000000000000
+      internalID: 1282553145296916894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_152
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 0
+        width: 208
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e25f4d251fa43e4d0800000000000000
+      internalID: -3106556917618248402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_153
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 63
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1db8c042905d4af0800000000000000
+      internalID: -410583401938502372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_154
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 63
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29554ac6ddb329140800000000000000
+      internalID: 4724904781261591954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_155
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 59
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28acc389e60c9b3b0800000000000000
+      internalID: -5496150288995923326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_156
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 59
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 928d0b15a6ad95920800000000000000
+      internalID: 2979652778654226473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_157
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 40
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c37957418b16dfa0800000000000000
+      internalID: -5776399229994306622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_158
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 41
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d1edd635e199dda0800000000000000
+      internalID: -5919539821547757095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_159
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 36
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c80507caf3e4f97d0800000000000000
+      internalID: -2909520798875103092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_160
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 44
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e2f30daef8571660800000000000000
+      internalID: 7356446367180649187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_161
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 44
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4829f91b8bfb3110800000000000000
+      internalID: 1241862697125488716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_162
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 36
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae75342747d7aaf60800000000000000
+      internalID: 8046381623337506794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_163
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 12
+        width: 201
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dccd891690a3e26d0800000000000000
+      internalID: -3013407288697758515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_164
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 43
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d26149aceae619f0800000000000000
+      internalID: -497952406605045039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_165
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 15
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e28b4acfd776f9740800000000000000
+      internalID: 5160957488797104174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_166
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 15
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20617609bae1ae3d0800000000000000
+      internalID: -3176692864945547774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_167
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 15
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c7f242797d627720800000000000000
+      internalID: 2842454683199666117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_168
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 15
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ba35ec1601547b00800000000000000
+      internalID: 825373718412081844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_169
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 14
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efd8f1c49e9694c80800000000000000
+      internalID: -8338016784374329858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_170
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 14
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d76af0439d96f4be0800000000000000
+      internalID: -1490856570034084227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_171
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 14
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cc3401f494bf5430800000000000000
+      internalID: 3773933564551511232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_172
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 14
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b8d1bd0b4b4cda80800000000000000
+      internalID: -8440788815874762575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epilogue_portal_front_173
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 14
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43e2fd8bca6492c80800000000000000
+      internalID: -8347062726704550348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

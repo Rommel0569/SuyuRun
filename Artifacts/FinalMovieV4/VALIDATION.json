@@ -1,0 +1,251 @@
+{
+  "sheets": 27,
+  "frames": 225,
+  "entries": [
+    {
+      "name": "costa_sky",
+      "frames": 1,
+      "size": [
+        2560,
+        720
+      ],
+      "sha256": "65cd3ff012f4efcfbfb73cb0c79e6b3ea579aa8285dc3c0647768bf13b1eb76c"
+    },
+    {
+      "name": "costa_mid",
+      "frames": 1,
+      "size": [
+        2560,
+        720
+      ],
+      "sha256": "918fb98df7f931b9e42feef948142665ca812c8054c0be7c0e6d72241f292ea4"
+    },
+    {
+      "name": "costa_ground",
+      "frames": 1,
+      "size": [
+        2560,
+        720
+      ],
+      "sha256": "1d839b25752a3853eed6e6a82b0020ee081853b95c40c5425ffa46fc76f3caed"
+    },
+    {
+      "name": "sierra_sky",
+      "frames": 1,
+      "size": [
+        2560,
+        720
+      ],
+      "sha256": "5393ba0453917a4529bf582ea84cf3b8aaaf0c75eca5b1958e5ed1c1ddf278f9"
+    },
+    {
+      "name": "sierra_mid",
+      "frames": 1,
+      "size": [
+        2560,
+        720
+      ],
+      "sha256": "a4e296329bb88e51b759821718a53fef23f13ee7a5ae2dbe551814b21f934c0e"
+    },
+    {
+      "name": "sierra_ground",
+      "frames": 1,
+      "size": [
+        2560,
+        720
+      ],
+      "sha256": "890e56c875e41935fab667558e8d103a6cbbf96b59a14f8117d791e6656ee80d"
+    },
+    {
+      "name": "selva_sky",
+      "frames": 1,
+      "size": [
+        2560,
+        720
+      ],
+      "sha256": "6033d030bbe6a1db0e31ce589895f0e5a475331e655e7331b41da98e19dd64f5"
+    },
+    {
+      "name": "selva_mid",
+      "frames": 1,
+      "size": [
+        2560,
+        720
+      ],
+      "sha256": "01e75f247914c2fe351268a7df3d13a5acaffc9e2a84fd78ffefd5cf1d8f42f8"
+    },
+    {
+      "name": "selva_ground",
+      "frames": 1,
+      "size": [
+        2560,
+        720
+      ],
+      "sha256": "3764bf18f8dabf45423ba641fd3e74bb4cb8bc54077d872952b8337004f0e4c1"
+    },
+    {
+      "name": "costa_hero",
+      "frames": 24,
+      "size": [
+        6144,
+        256
+      ],
+      "sha256": "894b54faac6d2d1266a78cb8d8237a67c5ba939a1abefa474ab4e17658ed6f38"
+    },
+    {
+      "name": "sierra_hero",
+      "frames": 24,
+      "size": [
+        6144,
+        256
+      ],
+      "sha256": "aa9f7488c478e9677fb3b01c94cd2fc15eb421a37cc55c249d344df8643fc2bd"
+    },
+    {
+      "name": "selva_hero",
+      "frames": 24,
+      "size": [
+        6144,
+        256
+      ],
+      "sha256": "c5cab1ba99bfd3880df142457cc229926b19941386e605cf682fa699763b5cf1"
+    },
+    {
+      "name": "selva_portrait",
+      "frames": 24,
+      "size": [
+        6144,
+        256
+      ],
+      "sha256": "f70b21b45f1131e1c54c42e0724dab306f692422d7882730981f859bb70f1b32"
+    },
+    {
+      "name": "selva_fx",
+      "frames": 16,
+      "size": [
+        4096,
+        256
+      ],
+      "sha256": "0947b40b4c3bc9ad640687c778dc58d4530feef806e596fb4af3d46ef40763b0"
+    },
+    {
+      "name": "selva_memories",
+      "frames": 12,
+      "size": [
+        3072,
+        256
+      ],
+      "sha256": "48ea4a769ffde400c25adee3f91ef9c9a9a1782bcaa4f68583bd3d54ec06308d"
+    },
+    {
+      "name": "costa_life",
+      "frames": 8,
+      "size": [
+        2048,
+        256
+      ],
+      "sha256": "6cd5614b07d39de8fa552e921df790162c4dce010437c5b2f0690a9895b89dde"
+    },
+    {
+      "name": "sierra_life",
+      "frames": 8,
+      "size": [
+        2048,
+        256
+      ],
+      "sha256": "2341d55ea07a97cca5453ecc745e463a5c8cb79e474b55587d8811fc9aec0f84"
+    },
+    {
+      "name": "selva_life",
+      "frames": 16,
+      "size": [
+        4096,
+        256
+      ],
+      "sha256": "d05daf6103fa634df2758012d1273179a2029a7e288698b5ad159c41fcc8c161"
+    },
+    {
+      "name": "epilogue_sky",
+      "frames": 1,
+      "size": [
+        2560,
+        720
+      ],
+      "sha256": "75874637e4de63102e08152b4d1b424c3a8f5cd3c7f813634bce665435cb7b81"
+    },
+    {
+      "name": "epilogue_mid",
+      "frames": 1,
+      "size": [
+        2560,
+        720
+      ],
+      "sha256": "eb8d3ca59c77900cd0c0d77d340b4c7ff60dc057dc1130029487196a217e347e"
+    },
+    {
+      "name": "epilogue_ground",
+      "frames": 1,
+      "size": [
+        2560,
+        720
+      ],
+      "sha256": "7ca4547938a96bd91836250798549128741d966d10b195897539743fcb66ccc2"
+    },
+    {
+      "name": "epilogue_portal_back",
+      "frames": 4,
+      "size": [
+        1024,
+        256
+      ],
+      "sha256": "f641580b4fe5f6f8f031ad1bb0d64442b466a740a6d92423ef321cb8dd69976a"
+    },
+    {
+      "name": "epilogue_portal_front",
+      "frames": 4,
+      "size": [
+        1024,
+        256
+      ],
+      "sha256": "b718488360fe76347478d6d93eb29ff468b89d9f28bf69ccc1d67d5adada0018"
+    },
+    {
+      "name": "epilogue_hero",
+      "frames": 16,
+      "size": [
+        4096,
+        256
+      ],
+      "sha256": "740ffa49ce65f92c9759d83c83b96e01a6c59d95875f48bf08143de89cd3f1f6"
+    },
+    {
+      "name": "portal_entry",
+      "frames": 16,
+      "size": [
+        4096,
+        256
+      ],
+      "sha256": "071e4bcb06aabe4fbc74aa2e56b0d0ad0d95f89497e1d7c21e07a7ee8189e6f6"
+    },
+    {
+      "name": "costa_chasm",
+      "frames": 1,
+      "size": [
+        2560,
+        720
+      ],
+      "sha256": "2fb4e740d38bd8856c337fe60da5575c953af69522a23a58e480e8c576825b5f"
+    },
+    {
+      "name": "costa_run",
+      "frames": 16,
+      "size": [
+        4096,
+        256
+      ],
+      "sha256": "46a28de1e804df01adb1d44db2d5847da8a5b7eb00337c8181e7c0c56c198dfb"
+    }
+  ],
+  "gameplayArtFallback": false,
+  "unityPlayVerified": false
+}

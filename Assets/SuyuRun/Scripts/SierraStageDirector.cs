@@ -470,6 +470,7 @@ namespace SuyuRun
             if(used==pool.Count){var go=new GameObject("Sierra pooled pixel visual");go.transform.SetParent(transform);var r=go.AddComponent<SpriteRenderer>();r.sharedMaterial=material;pool.Add(r);}
             var sr=pool[used++];sr.gameObject.SetActive(true);sr.sprite=sprite;sr.sortingOrder=order;sr.drawMode=SpriteDrawMode.Simple;sr.color=Color.white;
             if(sr.GetComponent<PortalDoorMask>())RunnerPortalIngress.Apply(sr,Vector3.zero,0);
+            sr.sharedMaterial=material;SierraTaytaAppearance.Reset(sr);
             sr.transform.localScale=Vector3.one;sr.flipX=false;
             sr.transform.position=RefactorActorArt.IsRegistered(sprite)?new Vector3(GameScale.SnapVisual(x,true)/32,(180-GameScale.SnapVisual(y,true))/32,0):new Vector3((Mathf.Round(x)+sprite.pivot.x)/32,(180-Mathf.Round(y)-sprite.rect.height+sprite.pivot.y)/32,0);
             return sr;
@@ -485,7 +486,7 @@ namespace SuyuRun
                 float localAge=runnerPoseClock.Age(taytaState,seconds);
                 float frameAge=clock>=0?clock:taytaState=="run"||taytaState=="rafaga"?GameScale.GaitClock(seconds*Speed):localAge;
                 var frame=TaytaArt.Frame("sierra",taytaState,frameAge);
-                if(frame){Paint(frame,x,y-1,order);return;} // calls use legacy feet-47; Tayta cells are 48px
+                if(frame){var actor=Paint(frame,x,y-1,order);SierraTaytaAppearance.Apply(actor);TaytaContactDust.Track(actor,"sierra",taytaState=="rafaga"?"burst":taytaState,cave!=null?cave.gaitDistance:seconds*Speed);return;}
             }
             var a=Frames(name);var spec=Data(name);float t=clock<0?seconds:clock;
             int f=spec.loop?Mathf.FloorToInt(t*spec.fps)%a.Length:Mathf.Clamp(Mathf.FloorToInt(t*spec.fps),0,a.Length-1);

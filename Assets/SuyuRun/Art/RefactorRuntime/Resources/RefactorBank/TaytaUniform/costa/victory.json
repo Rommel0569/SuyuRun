@@ -1,0 +1,67 @@
+{
+  "frames": 4,
+  "fps": 8,
+  "loop": false,
+  "frameWidth": 384,
+  "frameHeight": 320,
+  "pixelsPerUnit": 150.58823529411765,
+  "footAnchor": [
+    192.0,
+    308
+  ],
+  "gripX": [
+    153.5,
+    169.0,
+    196.5,
+    196.0
+  ],
+  "gripY": [
+    144.0,
+    149.0,
+    155.0,
+    162.0
+  ],
+  "uniformAnatomy": true,
+  "source": "costa_base",
+  "sourceIndices": [
+    56,
+    57,
+    58,
+    59
+  ],
+  "sourceScale": 1.0256410256410255,
+  "frameUniformScales": [
+    1.118881118881119,
+    1.118881118881119,
+    1.118881118881119,
+    1.118881118881119
+  ],
+  "frameBounds": [
+    [
+      148,
+      141,
+      265,
+      308
+    ],
+    [
+      160,
+      146,
+      254,
+      308
+    ],
+    [
+      117,
+      151,
+      286,
+      308
+    ],
+    [
+      149,
+      159,
+      255,
+      308
+    ]
+  ],
+  "integrated": true,
+  "playTested": false
+}

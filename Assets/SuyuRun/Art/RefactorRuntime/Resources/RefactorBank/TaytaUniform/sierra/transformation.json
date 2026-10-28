@@ -1,0 +1,67 @@
+{
+  "frames": 4,
+  "fps": 8,
+  "loop": false,
+  "frameWidth": 384,
+  "frameHeight": 320,
+  "pixelsPerUnit": 150.58823529411765,
+  "footAnchor": [
+    192.0,
+    308
+  ],
+  "gripX": [
+    199.5,
+    197.5,
+    198.5,
+    199.5
+  ],
+  "gripY": [
+    159.0,
+    163.0,
+    160.0,
+    160.0
+  ],
+  "uniformAnatomy": true,
+  "source": "ceremony",
+  "sourceIndices": [
+    24,
+    25,
+    26,
+    27
+  ],
+  "sourceScale": 0.6299212598425197,
+  "frameUniformScales": [
+    0.6299212598425197,
+    0.6299212598425197,
+    0.6299212598425197,
+    0.6299212598425197
+  ],
+  "frameBounds": [
+    [
+      154,
+      149,
+      240,
+      308
+    ],
+    [
+      145,
+      151,
+      249,
+      308
+    ],
+    [
+      146,
+      149,
+      247,
+      308
+    ],
+    [
+      153,
+      149,
+      246,
+      308
+    ]
+  ],
+  "integrated": true,
+  "playTested": false
+}

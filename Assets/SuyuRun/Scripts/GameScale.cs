@@ -6,7 +6,8 @@ namespace SuyuRun
     {
         public const float PixelsPerWorldUnit=32,HeroScale=.85f;
         public const float StandingHeight=34*HeroScale,CrouchHeight=15*HeroScale;
-        public const float DuckClearance=20,NativeStride=112;
+        public const float DuckClearance=20;
+        public static float NativeStride=>TaytaArt.UseUniformBank?40:112;
         public static float GaitClock(float travelled)=>travelled/(NativeStride*2);
         // Higher-resolution sprites advance on their native half-logical-pixel grid.
         public static float SnapVisual(float logical,bool detailed)=>Mathf.Round(logical*(detailed?2:1))/(detailed?2:1);

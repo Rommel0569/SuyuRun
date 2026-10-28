@@ -30,7 +30,15 @@ namespace SuyuRun
         readonly float[] sectionStarts={0,45,90,90,135,135};
         int pendingZone=-1;float closing;
         float endingAt=-1;bool finishAfterFade;
+        const float FinalCelebrationSeconds=2.5f,FinalIngressSeconds=1.4f;
+        float finalMusicBlend=1,zoneEnteredAt,finalHoldStart,finalHoldEnd;
+        bool finalMusicOverlap;
+        int finalMusicRepeats;
         float FinalPortalX=>zoneEnd-480;
+        float VineRouteStart=>zone==5?zoneStart+480:zoneStart;
+        float VineRouteEnd=>zone==5?FinalPortalX-320:zoneEnd;
+        bool CourseEventActive(CourseEvent e)=>e.x>=zoneStart&&e.x<zoneEnd&&
+            !(zone==5&&(e.x>FinalPortalX-160||e.x>=VineRouteStart&&e.x<VineRouteEnd));
         Vector2 pos=new Vector2(92,148),velocity,mouse;SelvaVine hanging,requested;
         float clock,routeTime,zoneStart,zoneEnd,cameraX,cameraY,hurtAt=-10,landAt=-10,releaseAt=-10,lastGround=-10,fireAt=-10,reloadAt=-1,dropAt=-10;
         int zone,health=5,maxHealth=5,jumps,ammo=5,coins,score,bank;bool grounded=true,slide,paused,dead,complete;
@@ -56,26 +64,19 @@ namespace SuyuRun
         void soundTrackCheck(){if(!soundtrack.clip)throw new InvalidOperationException("Selva soundtrack missing");}
         void EnterZone(int next)
         {
-            zone=next;endingAt=-1;finishAfterFade=false;zoneStart=sectionStarts[zone]*Speed;zoneEnd=(zone==5?course.duration:zone==0?45:zone==1?90:zone==3?135:sectionStarts[zone])*Speed;
+            zone=next;endingAt=-1;finishAfterFade=false;zoneEnteredAt=clock;finalMusicBlend=1;finalMusicOverlap=false;finalMusicRepeats=0;zoneStart=sectionStarts[zone]*Speed;zoneEnd=(zone==5?course.duration:zone==0?45:zone==1?90:zone==3?135:sectionStarts[zone])*Speed;
             pos=new Vector2(zoneStart+92,148);velocity=new Vector2(Speed,0);jumps=0;grounded=true;hanging=requested=null;transition=1;musicFade=0;lastGround=clock;
             surfaces.Clear();vines.Clear();caimans.Clear();effects.Clear();shots.Clear();drops.Clear();mini=null;
             if(zone==2||zone==4){mini=new SelvaMiniWorld(zone==2?0:1,Mathf.Max(health,3));mini.maxHealth=maxHealth;mini.health=health;}
-            else if(zone==1)
+            else if(zone==1||zone==5)
             {
-                for(float x=zoneStart;x<zoneEnd;x+=704)
-                {
-                    // Finish with a continuous bank, not a partial pond whose vines overlap land.
-                    if(x+704>zoneEnd-180){surfaces.Add(new Surface{bounds=new Rect(x,148,zoneEnd-x+320,32),art="tierra"});break;}
-                    surfaces.Add(new Surface{bounds=new Rect(x,148,192,32),art="tierra"});
-                    surfaces.Add(new Surface{bounds=new Rect(x+640,148,64,32),art="tierra"});
-                    for(int k=0;k<3;k++)
-                    {vines.Add(new SelvaVine(new Vector2(x+260+k*136,8),k*.8f));surfaces.Add(new Surface{bounds=new Rect(x+254+k*136,149,48,12),art="victoria"});}
-                    var croc=new SelvaCaiman(x+210,x+605,146,(int)x+327);croc.effect=SpawnEffect;caimans.Add(croc);
-                }
-                surfaces.Add(new Surface{bounds=new Rect(zoneEnd-180,148,300,32),art="tierra"});
+                string bankArt=zone==5?"ruina":"tierra";
+                if(zone==5)surfaces.Add(new Surface{bounds=new Rect(zoneStart,148,VineRouteStart-zoneStart,32),art=bankArt});
+                BuildVineRoute(VineRouteStart,VineRouteEnd,bankArt);
+                if(zone==5)surfaces.Add(new Surface{bounds=new Rect(VineRouteEnd,148,zoneEnd-VineRouteEnd+320,32),art=bankArt});
             }
             else surfaces.Add(new Surface{bounds=new Rect(zoneStart,148,zoneEnd-zoneStart+320,32),art=zone==5?"ruina":"tierra"});
-            if(mini==null&&zone!=1)foreach(var e in course.events)if(e.kind=="double"&&e.x>=zoneStart&&e.x<zoneEnd)
+            if(mini==null&&zone!=1)foreach(var e in course.events)if(e.kind=="double"&&CourseEventActive(e))
                 surfaces.Add(new Surface{bounds=new Rect(e.x+80,112,64,12),art=zone==5?"ruina":"tierra"});
             // The departure has already faded down: never restart a copy of the old song.
             outgoingMusic.Stop();
@@ -83,6 +84,51 @@ namespace SuyuRun
             music.clip=mini!=null?Resources.Load<AudioClip>(zone==2?"SelvaAudio/CuevaGuardian":"SelvaAudio/Chullachaqui"):soundtrack.clip;
             if(!music.clip)throw new InvalidOperationException("Falta la musica propia del mininivel Selva");
             music.time=mini!=null?0:Mathf.Min(music.clip.length-.1f,sectionStarts[zone]+soundtrack.clipStartSeconds);music.loop=mini!=null;music.PlayScheduled(AudioSettings.dspTime+.04);
+            if(zone==5)ConfigureFinalMusic();
+        }
+        void ConfigureFinalMusic()
+        {
+            // Keep the natural cadence intact. Only the preceding measured phrase may repeat.
+            float reserved=FinalCelebrationSeconds+FinalIngressSeconds+.6f;
+            float latest=Mathf.Min(course.duration,soundtrack.clip.length-soundtrack.clipStartSeconds)-reserved;
+            int end=Array.FindLastIndex(soundtrack.beatTimes,t=>t<=latest);
+            if(end>=8)
+            {finalHoldEnd=soundtrack.beatTimes[end]+soundtrack.clipStartSeconds;finalHoldStart=soundtrack.beatTimes[end-8]+soundtrack.clipStartSeconds;}
+            else{finalHoldEnd=soundtrack.clip.length-reserved;finalHoldStart=finalHoldEnd-4;}
+        }
+        void CrossfadeFinalMusic(float target)
+        {
+            outgoingMusic.Stop();outgoingMusic.clip=music.clip;outgoingMusic.loop=false;
+            outgoingMusic.time=Mathf.Min(music.time,music.clip.length-.05f);
+            if(music.isPlaying)outgoingMusic.Play();
+            music.time=Mathf.Clamp(target,0,music.clip.length-.05f);
+            if(!music.isPlaying)music.Play();
+            finalMusicBlend=0;finalMusicOverlap=outgoingMusic.isPlaying;
+        }
+        void UpdateFinalMusic(float dt)
+        {
+            // No rate/physics changes: a player can hold a vine without exhausting the soundtrack.
+            bool exhausted=clock-zoneEnteredAt>1&&!music.isPlaying;
+            if(endingAt<0&&(music.time>=finalHoldEnd||exhausted))
+            {CrossfadeFinalMusic(finalHoldStart);finalMusicRepeats++;}
+            finalMusicBlend=Mathf.Min(1,finalMusicBlend+dt/.24f);
+            float gain=.34f*Mathf.SmoothStep(0,1,musicFade)*PlayerPrefs.GetFloat("SuyuRun.Settings.MusicVol",1);
+            music.volume=gain*Mathf.SmoothStep(0,1,finalMusicBlend);
+            outgoingMusic.volume=finalMusicOverlap?gain*(1-Mathf.SmoothStep(0,1,finalMusicBlend)):0;
+            if(finalMusicBlend>=1&&finalMusicOverlap){outgoingMusic.Stop();finalMusicOverlap=false;}
+        }
+        void BuildVineRoute(float from,float to,string bankArt)
+        {
+            for(float x=from;x<to;x+=704)
+            {
+                // Complete ponds only; the remainder becomes the safe exit bank.
+                if(x+704>to-180){surfaces.Add(new Surface{bounds=new Rect(x,148,to-x+(zone==1?320:0),32),art=bankArt});break;}
+                surfaces.Add(new Surface{bounds=new Rect(x,148,192,32),art=bankArt});
+                surfaces.Add(new Surface{bounds=new Rect(x+640,148,64,32),art=bankArt});
+                for(int k=0;k<3;k++)
+                {vines.Add(new SelvaVine(new Vector2(x+260+k*136,8),k*.8f));surfaces.Add(new Surface{bounds=new Rect(x+254+k*136,149,48,12),art="victoria"});}
+                var croc=new SelvaCaiman(x+210,x+605,146,(int)x+327);croc.effect=SpawnEffect;caimans.Add(croc);
+            }
         }
         void RequestZone(int next){if(pendingZone>=0)return;pendingZone=next;closing=0;}
         void Update()
@@ -120,7 +166,7 @@ namespace SuyuRun
             if(paused||dead||complete)return;clock+=dt;transition=Mathf.Max(0,transition-dt/.9f);musicFade=Mathf.Min(1,musicFade+dt/1.25f);
             if(pendingZone>=0){closing+=dt;transition=Mathf.Clamp01(closing/.8f);float gain=1-Mathf.SmoothStep(0,1,transition);music.volume=.34f*gain*PlayerPrefs.GetFloat("SuyuRun.Settings.MusicVol",1);outgoingMusic.volume=0;if(closing>=.8f){int next=pendingZone;pendingZone=-1;if(next>5)Finish();else EnterZone(next);}return;}
             music.volume=.34f*Mathf.SmoothStep(0,1,musicFade)*PlayerPrefs.GetFloat("SuyuRun.Settings.MusicVol",1);
-            outgoingMusic.volume=0;
+            if(zone==5)UpdateFinalMusic(dt);else outgoingMusic.volume=0;
             if(jump)jumpBuffer.Press(clock);
             if(mini!=null)
             {
@@ -142,13 +188,14 @@ namespace SuyuRun
             {
                 float age=clock-endingAt;pos=new Vector2(FinalPortalX,148);velocity=Vector2.zero;
                 float tail=Mathf.Max(.1f,soundtrack.clip.length-music.time);
-                if(!finishAfterFade&&(tail<=1.4f||!music.isPlaying)){finishAfterFade=true;closing=0;}
-                if(finishAfterFade){closing+=dt;music.volume=.34f*(1-Mathf.SmoothStep(0,1,closing/1.4f))*PlayerPrefs.GetFloat("SuyuRun.Settings.MusicVol",1);}
-                if(age>=2.5f&&finishAfterFade&&closing>=1.4f)Finish();
+                if(!finishAfterFade&&age>=FinalCelebrationSeconds&&(tail<=FinalIngressSeconds||!music.isPlaying))
+                {finishAfterFade=true;closing=0;outgoingMusic.Stop();finalMusicOverlap=false;}
+                if(finishAfterFade){closing+=dt;music.volume=.34f*(1-Mathf.SmoothStep(0,1,closing/FinalIngressSeconds))*PlayerPrefs.GetFloat("SuyuRun.Settings.MusicVol",1);}
+                if(finishAfterFade&&closing>=FinalIngressSeconds)Finish();
                 return;
             }
             float oldFeet=pos.y;
-            if(jumpBuffer.Pending(clock))foreach(var e in course.events)if(e.kind=="double"&&e.x>=zoneStart&&e.x<zoneEnd&&Vector2.Distance(pos-new Vector2(0,20),new Vector2(e.x,102))<24)
+            if(jumpBuffer.Pending(clock))foreach(var e in course.events)if(e.kind=="double"&&CourseEventActive(e)&&Vector2.Distance(pos-new Vector2(0,20),new Vector2(e.x,102))<24)
             {jumps=0;score+=25;SpawnEffect("rastro_salto",pos);break;}
             if(hanging!=null)
             {
@@ -162,8 +209,8 @@ namespace SuyuRun
                 bool jumpNow=jumpBuffer.Pending(clock)&&(grounded||clock-lastGround<.10f||jumps<2);
                 if(DiagnosticAutoplay)
                 {
-                    foreach(var e in course.events)if(e.kind!="slide"&&e.x-pos.x>16&&e.x-pos.x<75&&grounded)jumpNow=true;
-                    if(zone==1&&grounded&&SurfaceAt(pos.x+25)==null)jumpNow=true;
+                    foreach(var e in course.events)if(CourseEventActive(e)&&e.kind!="slide"&&e.x-pos.x>16&&e.x-pos.x<75&&grounded)jumpNow=true;
+                    if(vines.Count>0&&grounded&&SurfaceAt(pos.x+25)==null)jumpNow=true;
                 }
                 if(jumpNow){jumpBuffer.Consume(clock);jumps=grounded||clock-lastGround<.1f?1:jumps+1;velocity.y=-Jump;grounded=false;slide=false;SpawnEffect("polvo",pos);}
                 velocity.x=Mathf.MoveTowards(velocity.x,Speed,dt*240);pos.x+=velocity.x*dt;velocity.y+=Gravity*dt;pos.y+=velocity.y*dt;grounded=false;
@@ -171,13 +218,18 @@ namespace SuyuRun
                 {pos.y=s.bounds.y;velocity.y=0;grounded=true;jumps=0;lastGround=clock;if(oldFeet<s.bounds.y-1){landAt=clock;SpawnEffect("polvo",pos);}break;}
                 if(!grounded&&jumps==0&&clock-lastGround>=.1f)jumps=1;
                 if(requested!=null&&clock-releaseAt>.12f&&Vector2.Distance(pos-new Vector2(0,46),requested.Grip)<38)Grab(requested);
-                if(pos.y>205){Hurt();pos=new Vector2(zoneStart+Mathf.Floor((pos.x-zoneStart)/704)*704+140,148);velocity=Vector2.zero;grounded=true;jumps=0;}
+                if(pos.y>205)
+                {
+                    Hurt();var bank=surfaces.Where(s=>s.art!="victoria"&&s.bounds.xMin<pos.x).OrderByDescending(s=>s.bounds.xMin).FirstOrDefault();
+                    pos=new Vector2(bank!=null?Mathf.Min(pos.x,bank.bounds.xMax-20):zoneStart+92,148);
+                    velocity=Vector2.zero;grounded=true;jumps=0;requested=null;
+                }
             }
             foreach(var v in vines)if(v!=hanging)v.Step(dt);
             foreach(var c in caimans){c.Step(dt,pos.x);if(c.Hits(Body))Hurt();}
             for(int i=0;i<course.events.Length;i++)
             {
-                var e=course.events[i];if(e.x<zoneStart||e.x>=zoneEnd||zone==5&&e.x>FinalPortalX-160||e.x<pos.x-60||e.x>pos.x+350)continue;
+                var e=course.events[i];if(!CourseEventActive(e)||e.x<pos.x-60||e.x>pos.x+350)continue;
                 Rect box=ObstacleBox(e);
                 if(e.kind=="double"&&Vector2.Distance(pos-new Vector2(0,20),new Vector2(e.x,102))<24&&jumpBuffer.Pending(clock))
                 {velocity.y=-Jump;jumps=1;jumpBuffer.Consume(clock);SpawnEffect("rastro_salto",pos);}
@@ -192,17 +244,26 @@ namespace SuyuRun
                 shot.pos+=shot.velocity*dt;shot.age+=dt;
                 foreach(var c in caimans)if(!c.wounded&&(c.phase==SelvaCaiman.Phase.Breach||c.phase==SelvaCaiman.Phase.Snap||c.phase==SelvaCaiman.Phase.Fall)&&Vector2.Distance(shot.pos,c.pos)<22)
                 {shot.age=3;c.wounded=true;c.phase=SelvaCaiman.Phase.Fall;c.velocity.y=Mathf.Max(120,c.velocity.y);c.timer=0;SpawnEffect("impacto",shot.pos);score+=30;break;}
-                for(int i=0;i<course.events.Length;i++)if((course.events[i].kind=="root"||course.events[i].kind=="air")&&!damagedEvents.Contains(i)&&ObstacleBox(course.events[i]).Contains(shot.pos))
+                for(int i=0;i<course.events.Length;i++)if(CourseEventActive(course.events[i])&&(course.events[i].kind=="root"||course.events[i].kind=="air")&&!damagedEvents.Contains(i)&&ObstacleBox(course.events[i]).Contains(shot.pos))
                 {damagedEvents.Add(i);shot.age=3;SpawnEffect("astillas",shot.pos);coins++;score+=25;break;}
             }
             shots.RemoveAll(s=>s.age>2.5f);effects.RemoveAll(f=>clock-f.born>1.2f);
             // Traversal zones are spatial. Landing resumes the authored song section at a crossfade boundary.
             routeTime=(pos.x-92)/Speed;
-            if(zone==5&&pos.x>=FinalPortalX){pos.x=FinalPortalX;pos.y=148;grounded=true;velocity=Vector2.zero;endingAt=clock;return;}
-            if(zone<5&&pos.x>=zoneEnd+70){pos.x=zoneEnd+70;velocity.x=0;}
-            if(zone==1)
+            if(zone==5&&pos.x>=FinalPortalX)
             {
-                if(clock-dropAt>.23f){dropAt=clock;drops.Add(new Drop{pos=new Vector2(zoneStart+Mathf.Floor((pos.x-zoneStart)/704)*704+620,68),vy=30});}
+                pos.x=FinalPortalX;pos.y=148;grounded=true;velocity=Vector2.zero;endingAt=clock;
+                if(hanging!=null)hanging.occupied=false;hanging=requested=null;
+                // A full celebration always precedes ingress, even on a late arrival.
+                if(music.clip.length-music.time<FinalCelebrationSeconds+FinalIngressSeconds+.2f||!music.isPlaying)
+                    CrossfadeFinalMusic(music.clip.length-FinalCelebrationSeconds-FinalIngressSeconds-.2f);
+                return;
+            }
+            if(zone<5&&pos.x>=zoneEnd+70){pos.x=zoneEnd+70;velocity.x=0;}
+            if(vines.Count>0)
+            {
+                var pond=caimans.Find(c=>pos.x>=c.minX-110&&pos.x<=c.maxX+100);
+                if(pond!=null&&clock-dropAt>.23f){dropAt=clock;drops.Add(new Drop{pos=new Vector2(pond.maxX+15,68),vy=30});}
                 foreach(var d in drops){d.vy+=160*dt;d.pos.y+=d.vy*dt;if(d.pos.y>=146){SpawnEffect("ondas",new Vector2(d.pos.x,146));SpawnEffect("espuma",new Vector2(d.pos.x,146));}}
                 drops.RemoveAll(d=>d.pos.y>=146);
             }

@@ -1,0 +1,1 @@
+PASS: previous animation bank selected; both shaders supported without import errors; real URP sprite comparison rendered. Left original, right matte.

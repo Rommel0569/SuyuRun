@@ -1,0 +1,16 @@
+Editor Play diagnostic visual tour: all Sierra acts and caves; all Selva zones. Not a complete chronological playthrough.
+PLAY sampled Level_Costa for 8 seconds; state=Dead
+CAPTURE Sierra_0 (world + GameView HUD)
+CAPTURE Sierra_1 (world + GameView HUD)
+CAPTURE Sierra_2 (world + GameView HUD)
+CAPTURE Sierra_3 (world + GameView HUD)
+CAPTURE Sierra_4 (world + GameView HUD)
+PLAY sampled Level_Sierra_Integration for 36 seconds; state=Running
+CAPTURE Selva_0 (world + GameView HUD)
+CAPTURE Selva_1 (world + GameView HUD)
+CAPTURE Selva_2 (world + GameView HUD)
+CAPTURE Selva_3 (world + GameView HUD)
+CAPTURE Selva_4 (world + GameView HUD)
+CAPTURE Selva_5 (world + GameView HUD)
+PLAY sampled Level_Selva for 27 seconds; state=Running
+Finished. Diagnostic jumps do not certify complete chronological gameplay, transitions or music.

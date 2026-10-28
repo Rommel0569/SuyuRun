@@ -1,0 +1,28 @@
+{
+  "frames": 4,
+  "frameWidth": 256,
+  "frameHeight": 256,
+  "fps": 12,
+  "loop": false,
+  "surfaceY": 0.81,
+  "footY": [
+    0.91015625,
+    0.91015625,
+    0.91015625,
+    0.91015625
+  ],
+  "gripX": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+  ],
+  "gripY": [
+    0.1,
+    0.1,
+    0.1,
+    0.1
+  ],
+  "cinematicOnly": true,
+  "source": "Artifacts/FinalMovieV4/Sources/epilogue_portal_back.png"
+}
